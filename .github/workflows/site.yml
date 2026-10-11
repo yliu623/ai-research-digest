@@ -35,7 +35,9 @@ jobs:
       - name: Generate audio briefings
         if: ${{ env.GEMINI_API_KEY != '' }}
         continue-on-error: true
-        run: python3 scripts/make_audio.py --days 3 --force "${{ github.event.inputs.force_audio }}"
+        run: |
+          command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+          python3 scripts/make_audio.py --days 3 --force "${{ github.event.inputs.force_audio }}"
 
       - name: Download the last 30 days of audio
         run: |

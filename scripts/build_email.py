@@ -69,9 +69,11 @@ def build_html(d, day_url):
                  f'font-weight:600;">🎧 Listen to the 2-voice briefing</a>')
     p.append("</p>")
     p.append(f'<p style="font-size:12px;color:{MUTED};margin:0 0 18px;background:#f8fafc;border:1px solid {LINE};'
-             f'border-radius:6px;padding:8px 10px;">Tip: to hear any paper as a podcast, copy its <b>Full text</b> '
-             f'link, open <a href="{NOTEBOOKLM}" style="color:{ACCENT};">NotebookLM</a>, add it as a Website source, '
-             f'then click <b>Audio Overview</b>. On the web archive the 🎧 button copies the link for you.</p>')
+             f'border-radius:6px;padding:8px 10px;">🎧 To hear any paper as a podcast: on the '
+             f'<a href="{e(day_url, quote=True)}" style="color:{ACCENT};">web archive</a> click its NotebookLM button '
+             f'(it copies the link and opens NotebookLM), add it as a Website source, then click <b>Audio Overview</b>. '
+             f'Or copy a <b>Full text</b> link here and paste it into '
+             f'<a href="{NOTEBOOKLM}" style="color:{ACCENT};">NotebookLM</a>.</p>')
     for s in d["sections"]:
         p.append(f'<h2 style="font-size:16px;margin:26px 0 10px;padding-bottom:5px;border-bottom:2px solid {LINE};'
                  f'color:{INK};">{e(s["name"])} <span style="color:{MUTED};font-weight:normal;font-size:13px;">'
@@ -79,16 +81,15 @@ def build_html(d, day_url):
         if not s["items"]:
             p.append(f'<p style="font-size:14px;color:{MUTED};margin:0 0 12px;">Nothing new in this window.</p>')
             continue
+        # Kept compact: Gmail clips HTML bodies over ~100 KB.
         for it in s["items"]:
             body, tag = split_tag(it["desc"])
-            ft = it.get("fulltext") or it["url"]
-            p.append(f'<div style="margin:0 0 16px;">'
-                     f'<a href="{e(it["url"], quote=True)}" style="color:{ACCENT};text-decoration:none;font-weight:700;'
-                     f'font-size:15px;">{e(it["title"])}</a>'
-                     f'<p style="margin:3px 0 2px;font-size:14px;color:#333;">{e(body)}</p>'
-                     f'<p style="margin:0;font-size:12px;color:{MUTED};">{e(tag)}'
-                     f'{" · " if tag else ""}<a href="{e(ft, quote=True)}" style="color:{MUTED};">Full text</a>'
-                     f' · <a href="{NOTEBOOKLM}" style="color:{MUTED};">🎧 NotebookLM</a></p></div>')
+            ft = it.get("fulltext")
+            full = f' · <a href="{e(ft, quote=True)}" style="color:{MUTED}">Full text</a>' if ft and ft != it["url"] else ""
+            p.append(f'<p style="margin:0 0 14px;font-size:14px;color:#333">'
+                     f'<a href="{e(it["url"], quote=True)}" style="color:{ACCENT};font-weight:700;font-size:15px;'
+                     f'text-decoration:none">{e(it["title"])}</a><br>{e(body)}<br>'
+                     f'<span style="font-size:12px;color:{MUTED}">{e(tag)}{full}</span></p>')
     if d.get("footnote"):
         p.append(f'<p style="margin-top:28px;padding-top:12px;border-top:1px solid {LINE};color:{MUTED};'
                  f'font-size:12px;">{e(d["footnote"])}</p>')
