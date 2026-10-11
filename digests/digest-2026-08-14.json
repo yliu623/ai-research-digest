@@ -1,0 +1,105 @@
+{
+  "date": "2026-08-14",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "EU-ETS under attack? The impact of carbon price suppression on the decarbonization of the power sector",
+          "url": "https://arxiv.org/abs/2608.12363",
+          "desc": "Uses MARLEY, a multi-agent reinforcement learning framework for long-term electricity market simulation, to assess Italy's proposal to strip the carbon-price component from gas plant bids. Suppressing the carbon signal buys short-term consumer savings but raises CO2 and erodes incentives for renewable and storage investment in most configurations. [arXiv econ.GN (cross-list cs.AI/cs.LG/cs.MA), announced 2026-08-14]"
+        },
+        {
+          "title": "Supervised Mixed-Frequency Learning for Macro-Financial Forecasting When Factors are Weak",
+          "url": "https://arxiv.org/abs/2608.12589",
+          "desc": "Proposes SsPCA-MIDAS, embedding supervised scaled PCA in a mixed-data-sampling framework so macro-financial forecasts stay valid when factors are weak, with asymptotic theory for inference. Applying machine-learning methods such as boosting to the cleaner extracted factors yields further gains for GDP, inflation, unemployment and asset-price forecasts. [arXiv econ.EM, announced 2026-08-14]"
+        },
+        {
+          "title": "Algorithm Transparency and Search Manipulation: Steering vs. Persuasion",
+          "url": "https://arxiv.org/abs/2608.12558",
+          "desc": "Models a platform whose ranking algorithm simultaneously steers consumer attention toward the more profitable product and conveys information about match quality. Making the algorithm transparent lets it persuade as well as steer, which helps consumers when it deters search but can harm them when it encourages search. [arXiv econ.TH, announced 2026-08-14]"
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "Do People Follow AI Advice? Evidence from a Pension Portfolio Choice Experiment",
+          "url": "https://arxiv.org/abs/2608.11371",
+          "desc": "In an experiment with 400 Korean workers in defined-contribution pension plans, roughly 37% of the difference between an aggressive and a conservative AI-generated recommendation passes through into final portfolios. 81% of participants revise, and among revisers 95% move toward the recommendation while implementing only about half of the suggested adjustment; adding a rationale changes nothing detectable. [arXiv econ.GN, announced 2026-08-13]"
+        },
+        {
+          "title": "AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search",
+          "url": "https://arxiv.org/abs/2608.11250",
+          "desc": "An agentic alpha-mining architecture that searches over frozen research artifacts (hypotheses, executable expressions, evidence, review status) rather than formulas, with an adversarial reviewer holding re-execution and veto authority. Deployments on WorldQuant BRAIN produced top-grade alphas across five users and six model backends, reaching Sharpe 3.48. [arXiv cs.AI / q-fin.CP, announced 2026-08-13]"
+        },
+        {
+          "title": "Calibration Bets on the Past: Post-Training Quantization for Financial Time-Series Forecasting",
+          "url": "https://arxiv.org/abs/2608.12259",
+          "desc": "Systematic study of activation calibration for post-training quantization of neural forecasters, covering seven architectures and 560 models on S&P 500 cross-sectional volatility. Calibration barely matters at 8 bits but dominates at 4 bits, where default abs-max calibration destroys 11-62% of full-precision information coefficient and percentile calibration recovers most of it. [arXiv cs.LG / q-fin.ST, announced 2026-08-13]"
+        },
+        {
+          "title": "FlowLOB: Efficient and Controllable Limit Order Book Generation with Flow Matching",
+          "url": "https://arxiv.org/abs/2608.13096",
+          "desc": "A conditional flow-matching generator of limit order book trajectories trained on Hong Kong Exchange symbols at three sampling frequencies, transferring zero-shot to unseen instruments. Flow matching reaches its best fidelity in only 10 ODE-solver steps where diffusion needs many more, and beats learned and agent-based baselines on most distributional metrics. [arXiv cs.LG / q-fin.CP, posted 2026-08-13]"
+        },
+        {
+          "title": "LOB-ID: Evaluating Synthetic Market Data by Inception Distances",
+          "url": "https://arxiv.org/abs/2608.13082",
+          "desc": "Adapts Fréchet and Monge Inception Distances to limit order book data using DeepLOB embeddings trained on four months of Level-2 data for five equities. The authors construct a moment-matching attack that fools FID-style scores, show MIND is far more robust, and rank five generative LOB models. [arXiv q-fin.CP / cs.AI, posted 2026-08-13]"
+        },
+        {
+          "title": "Simulating Stress Laws under Extremal Dependence: Characterizing What Generative Models Must Preserve",
+          "url": "https://arxiv.org/abs/2608.13056",
+          "desc": "Shows that both the conditional law of risk factors in joint-loss regions and the most plausible stress configurations are governed by the same limiting tail measure, so misspecified extremal dependence distorts stress probabilities. Introduces SSGEN, which learns extremal dependence from intermediate exceedances and extrapolates to rarer levels, with convergence rates for generated conditional laws. [arXiv q-fin.RM, posted 2026-08-13]"
+        },
+        {
+          "title": "Diffusion Models in Finance: A Survey",
+          "url": "https://arxiv.org/abs/2608.12583",
+          "desc": "First survey dedicated to diffusion-family generative models for financial data, organised by data type: time series, limit order books, tabular data and other structured financial objects. Argues the SDE formulation of diffusion models aligns naturally with the Itô calculus and stochastic control machinery already used in finance. [arXiv q-fin.CP, announced 2026-08-14]"
+        },
+        {
+          "title": "DYSANOS: Generative Dynamic Smooth Arbitrage-free Non-parametric Option Surfaces",
+          "url": "https://arxiv.org/abs/2608.12587",
+          "desc": "Presents what the authors call the first generative market model producing smooth option surfaces across all strikes and expiries that are free of static arbitrage, generating multi-year paths of daily spot and option prices. Tested on OptionMetrics IvyDB S&P index data from 2020-2025 against a pure implied-vol PCA benchmark. [arXiv q-fin.MF / cs.LG, announced 2026-08-14]"
+        },
+        {
+          "title": "What Makes a Peer? Valuation-Anchored Similarity in Private Markets",
+          "url": "https://arxiv.org/abs/2608.12594",
+          "desc": "Trains a CatBoost gradient-boosted tree on observed private-company valuations and derives a similarity metric from importance-weighted leaf co-occurrences, defining peers through valuation drivers rather than feature or text matching. On a universe of ~270,000 private companies it outperforms distance- and embedding-based approaches in k-nearest-neighbor valuation tasks while staying explainable. [arXiv q-fin.ST / cs.AI, announced 2026-08-14]"
+        },
+        {
+          "title": "AI-Driven Multiscenario Interest Rate Forecasting: A Proof of Concept for Banking Asset Management",
+          "url": "https://arxiv.org/abs/2608.12424",
+          "desc": "Prototype tested at a major European bank that combines topic modeling and sentiment analysis over large volumes of financial documents with a Bayesian VAR for simulation-based scenario analysis. Aimed at asset-liability management, it consolidates previously separate information sources into one interpretable interest-rate forecasting platform. [arXiv q-fin.CP / cs.LG, announced 2026-08-14]"
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": []
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "American anxiety about AI is becoming a political force in the midterms",
+          "url": "https://www.washingtonpost.com/technology/2026/08/14/ai-becomes-major-election-issue-first-time-data-shows/",
+          "desc": "A Post analysis of candidate messaging finds AI featuring widely in American campaigns for the first time, with candidates in both parties competing on data-center crackdowns and on AI's effects on jobs and corporate power. Voter concern about the economic impact of AI is driving the shift. [Washington Post, published 2026-08-14]"
+        },
+        {
+          "title": "Opinion: These A.I. Policies Will Hurt Our Business. We Should Do Them Anyway.",
+          "url": "https://www.nytimes.com/2026/08/14/opinion/ai-policy-tax-technology.html",
+          "desc": "Bridgewater's Greg Jensen and Nir Bar Dea argue for a consumption tax on AI tokens to stop the tax code from favouring machine labour over human labour, plus distributing equity stakes in leading AI firms to citizens. They cite internal analysis suggesting 18% of current U.S. jobs could be displaced by AI within five years. [New York Times opinion, published 2026-08-14]"
+        },
+        {
+          "title": "America Wants to Make Its Own Humanoid Robots. That Won't Be Easy.",
+          "url": "https://www.nytimes.com/2026/08/13/business/humanoid-robot-us-china.html",
+          "desc": "U.S. start-ups trying to build humanoid robots domestically find China's near-total control of the component supply chain — batteries, aluminium skeletons, EV-derived parts — makes China-free production impractical and expensive. Chinese makers Unitree and Agibot together produced around 10,000 units last year versus a few hundred for top U.S. firms, even as an FCC import ban reshapes the market. [New York Times, published 2026-08-13]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: last run (2026-08-13) through 2026-08-14 11:00 UTC. Sources checked: arXiv econ.EM/GN/TH and q-fin.* (export API plus recent-listing pages to catch newly announced back-dated submissions), NBER working papers, SSRN, and INFORMS articles-in-advance for Management Science, M&SOM and Operations Research. Operations is empty because the newest INFORMS articles-in-advance postings across all three journals are dated 2026-08-12, before the window. No new NBER or SSRN items with verified posting dates fell inside the window."
+}

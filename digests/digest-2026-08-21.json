@@ -1,0 +1,69 @@
+{
+  "date": "2026-08-21",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": []
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "Calibration-Induced Degeneracy in LLM Financial Forecasting: An Audit-Trailed Case Study on Next-Day Market Risk",
+          "url": "https://arxiv.org/abs/2608.20304",
+          "desc": "Documents a failure mode in which the calibration step of a next-day market-risk forecasting pipeline zeroes out all four LLM-derived features, so 856 costly LLM scores could not influence the forecast at all. A near-zero-cost headline count beat the LLM features, and the authors propose a calibration-viability checkpoint before paying for LLM signals. [arXiv q-fin.RM, posted 2026-08-20]"
+        },
+        {
+          "title": "Concentrated Liquidity Provision: a Reinforcement Learning Perspective",
+          "url": "https://arxiv.org/abs/2608.19389",
+          "desc": "Frames liquidity provision in concentrated-liquidity automated market makers as a reinforcement learning problem, learning where to place and when to rebalance liquidity ranges. Cross-listed to cs.AI/cs.LG alongside q-fin.TR, q-fin.CP and q-fin.MF. [arXiv q-fin.TR, posted 2026-08-19]"
+        },
+        {
+          "title": "Deep-MKV-TS: Path-Dependent McKean–Vlasov Control for Financial Time Series Generation",
+          "url": "https://arxiv.org/abs/2608.19394",
+          "desc": "Introduces a neural, sample-based path-dependent McKean–Vlasov control framework for generating financial scenarios, calibrating volatility to match observed path and volatility features while staying anchored to an interpretable reference model. Validated against an exactly computable oracle and on Heston and Heston-mixture models. [arXiv q-fin.CP, posted 2026-08-19]"
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": []
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "How the A.I. Borrowing Binge Helps Drive Up Government Bond Yields",
+          "url": "https://www.nytimes.com/2026/08/20/business/bond-yields-tech-ai-debt.html",
+          "desc": "Big tech firms have shifted from self-funding data centres to raising hundreds of billions in debt, and analysts link that borrowing wave to US Treasury yields hitting near two-decade highs. The piece argues AI-driven growth expectations are now a channel keeping interest rates elevated. [NYT, posted 2026-08-20]"
+        },
+        {
+          "title": "A new force is increasing inequality in America (AI is increasing inequality, economists and hedge fund leaders warn)",
+          "url": "https://www.washingtonpost.com/technology/2026/08/20/ai-is-increasing-inequality-economists-hedge-fund-leaders-warn/",
+          "desc": "Reports mounting evidence that AI adoption is concentrated in wealthier cities and households, with AI-inflated portfolios fuelling affluent spending while lagging regions fall behind. Economists and hedge fund figures warn the boom could widen the capital-versus-labour income gap. [Washington Post, posted 2026-08-20]"
+        },
+        {
+          "title": "How a failed project could help solve the world's biggest energy need",
+          "url": "https://www.washingtonpost.com/business/2026/08/21/how-ai-energy-crisis-revived-failed-nuclear-project/",
+          "desc": "A $400m mock nuclear reactor in Lynchburg, Virginia, abandoned a decade ago when next-generation nuclear economics soured, is being revived by former SpaceX engineers. The driver is the data-centre power demand created by the AI build-out. [Washington Post, posted 2026-08-21]"
+        },
+        {
+          "title": "How to measure returns on AI",
+          "url": "https://www.economist.com/business/2026/08/20/how-to-measure-returns-on-ai",
+          "desc": "A Bartleby column on how firms are moving past crude adoption metrics — leaderboards and 'tokenmaxxing' — now that AI budgets are being scrutinised. The harder boardroom question has shifted from usage to measurable return on investment. [The Economist, posted 2026-08-20]"
+        },
+        {
+          "title": "Yuval Noah Harari on the economic and political perils of AI",
+          "url": "https://www.economist.com/business/2026/08/20/yuval-noah-harari-on-the-economic-and-political-perils-of-ai",
+          "desc": "A By Invitation essay in which the historian argues humanity should not delegate its fate to increasingly capable machines, laying out economic as well as political risks of doing so. [The Economist, posted 2026-08-20]"
+        },
+        {
+          "title": "Can Reddit survive in the AI era?",
+          "url": "https://www.economist.com/business/2026/08/20/can-reddit-survive-in-the-ai-era",
+          "desc": "Examines Reddit's economics as an AI-training data supplier: it wants higher prices for licensing its corpus while also competing for user attention against AI assistants that summarise its content. [The Economist, posted 2026-08-20]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: last run 2026-08-20 → 2026-08-21. Economics and Operations sections are empty this window — arXiv econ.* had no new AI-applied papers dated in range (the two Aug 19 econ.GN AI papers were already sent), NBER's latest batch is the Aug 17 issue already covered, and the only AI item on the INFORMS Management Science articles-in-advance page (Published Online Aug 19) was already sent; M&SOM and Operations Research posted no AI items in range. SSRN surfaced no candidates with a verified posting date inside the window."
+}

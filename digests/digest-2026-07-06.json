@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-06",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {"title": "A.I. and Our Economic Future", "url": "https://www.nber.org/papers/w34779", "desc": "Charles I. Jones (NBER WP 34779, rev. June 2026). Argues AI could be the most transformative technology of the modern era and may accelerate growth beyond the ~2%/yr the US has held for 150 years, though \"weak links\" temper the acceleration."},
+        {"title": "AI in Science", "url": "https://www.nber.org/papers/w34953", "desc": "Agrawal, McHale & Oettl (NBER WP 34953, Mar 2026). Models AI's effect on the knowledge-production function, framing it as augmenting search over large combinatorial spaces."},
+        {"title": "Teaching Economics to the Machines", "url": "https://www.nber.org/papers/w34713", "desc": "NBER WP 34713 (Jan 2026). Examines how economic reasoning can be taught to and elicited from machine-learning systems."},
+        {"title": "AI Patents in the United States and China", "url": "https://www.nber.org/papers/w35022", "desc": "NBER WP 35022 (2026). Builds a classifier to measure AI patents and documents rapid growth in both countries, with China surpassing the US in recent annual counts."}
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {"title": "Artificial Intelligence in Financial Services: Applications, Opportunities, and Risks", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6725323", "desc": "Aryan Choudhary (SSRN, May 2026). Weighs speed/scalability gains against algorithmic bias and black-box opacity; argues durable advantage comes from pairing algorithmic efficiency with governance and human oversight."},
+        {"title": "The Role of AI and Machine Learning in Algorithmic Trading", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6450338", "desc": "Ananya (SSRN, Apr 2026). Reviews supervised/reinforcement learning and NLP trading systems and their effects on execution efficiency, price discovery, and liquidity."},
+        {"title": "Agentic Artificial Intelligence in Finance: A Comprehensive Survey", "url": "https://arxiv.org/abs/2604.21672", "desc": "arXiv (q-fin). Surveys autonomous, multi-agent financial systems, noting the literature remains fragmented across CS, economics, and operations."},
+        {"title": "Machine Learning and Deep Learning in Computational Finance: A Systematic Review", "url": "https://arxiv.org/abs/2511.21588", "desc": "arXiv (q-fin). Systematic review of ML/DL methods across pricing, forecasting, and risk in computational finance."}
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": [
+        {"title": "OM Forum — Supply Chain Management in the AI Era: A Vision Statement", "url": "https://pubsonline.informs.org/doi/10.1287/msom.2025.1065", "desc": "M&SOM. Vision statement from the OM community organizing AI–supply-chain interaction across five layers: intelligence, execution, strategy, human, and infrastructure."},
+        {"title": "Synergizing Artificial Intelligence and Operations Research", "url": "https://pubsonline.informs.org/doi/10.1287/ijds.2025.0077", "desc": "INFORMS Journal on Data Science (2026). Argues many high-impact AI applications (supply chain, transportation, humanitarian logistics) rest on problems that are fundamentally operations, and shows how OR and AI reinforce each other."},
+        {"title": "Artificial Intelligence and Firm Resilience: Evidence from Natural Disaster Shocks", "url": "https://pubsonline.informs.org/doi/10.1287/isre.2022.0440", "desc": "Information Systems Research. Empirical evidence that AI adoption improves firm resilience to disaster shocks."}
+      ]
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {"title": "Has China obtained the world's most important machine?", "url": "https://www.economist.com/china/2026/07/05/has-china-obtained-the-worlds-most-important-machine", "desc": "The Economist (Jul 5). On the geopolitics of advanced chipmaking equipment central to the AI race."},
+        {"title": "America should not imprison frontier AI", "url": "https://www.economist.com/leaders/2026/07/02/america-should-not-imprison-frontier-ai", "desc": "The Economist (Jul 2). Leader arguing against overly restrictive US controls on access to the most powerful AI models."},
+        {"title": "Donald Trump's AI regime is opaque, unpredictable—and unsustainable", "url": "https://www.economist.com/business/2026/06/30/donald-trumps-ai-regime-is-opaque-unpredictable-and-unsustainable", "desc": "The Economist (Jun 30). Analysis of the business and policy uncertainty created by the current US approach to AI governance."},
+        {"title": "The Small-Business Owners Managing Whole Armies of A.I. Employees", "url": "https://www.nytimes.com/2026/06/04/magazine/ai-agents-openclaw-small-business.html", "desc": "NYT (Jun 4). How small businesses are deploying fleets of AI agents to do the work of staff."},
+        {"title": "A New Ad Campaign Tries to Make A.I. a Little Less Scary", "url": "https://www.nytimes.com/2026/06/04/style/chatgpt-advertising-campaign-artificial-intelligence.html", "desc": "NYT (Jun 4). On marketing efforts to reshape public perception of consumer AI."}
+      ]
+    }
+  ],
+  "footnote": "Washington Post business section not fetched this run; it will be included going forward. This is the first digest, so nothing was filtered as previously-sent."
+}

@@ -1,0 +1,68 @@
+name: Build archive site
+
+on:
+  push:
+    branches: [main]
+    paths: ["digests/**", "site/**", "scripts/**", "config.json", ".github/workflows/site.yml"]
+  workflow_dispatch:
+    inputs:
+      force_audio:
+        description: "Regenerate the audio briefing for this date (YYYY-MM-DD)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Generate audio briefings
+        if: ${{ env.GEMINI_API_KEY != '' }}
+        continue-on-error: true
+        run: python3 scripts/make_audio.py --days 3 --force "${{ github.event.inputs.force_audio }}"
+
+      - name: Download the last 30 days of audio
+        run: |
+          gh release list --limit 500 --json tagName > releases.json
+          mkdir -p _site/audio
+          cutoff=$(date -u -d '30 days ago' +%F)
+          for t in $(jq -r '.[].tagName' releases.json | grep '^audio-' || true); do
+            d=${t#audio-}
+            if [[ ! "$d" < "$cutoff" ]]; then
+              gh release download "$t" -p '*.mp3' -D _site/audio --clobber
+            fi
+          done
+
+      - name: Build site
+        run: python3 scripts/build_site.py --out _site --releases releases.json
+
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,39 @@
+{
+  "date": "2026-08-24",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "Benchmark Mineability and the Financing of AI Innovation",
+          "url": "https://www.nber.org/papers/w35641",
+          "desc": "Alex Chan argues that public AI benchmarks are effectively market designs: because benchmark scores steer research effort and allocate investment capital, they can be gamed, and targeted effort erodes the signal later investors rely on. The proposed fix is to separate development from certification — publish practice tasks, but fix the investment-consequential test generator only after a system's evaluation policy is locked in. [NBER WP 35641, posted 2026-08-24]"
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": []
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": []
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "China will struggle to make money from humanoid robots",
+          "url": "https://www.economist.com/business/2026/08/23/china-will-struggle-to-make-money-from-humanoid-robots",
+          "desc": "China leads the world in humanoid robot development and is training up thousands of units, but The Economist argues the sector is far from profitable. Investor enthusiasm is running well ahead of the business case — Unitree's Shanghai debut saw its shares jump roughly 460% days after one of its robots set a sprint record. [The Economist, posted 2026-08-23]"
+        },
+        {
+          "title": "How Big Tech Captured American Schools",
+          "url": "https://www.nytimes.com/2026/08/23/business/schools-big-tech-google-microsoft.html",
+          "desc": "Adapted from Natasha Singer's book \"Coding Kids,\" this piece traces how Google and Microsoft used spending, market reach, and teacher-training channels to shape nearly every link in the education supply chain — with AI chatbots such as Copilot now the primary vehicle. A case study in platform market power and procurement capture in a large public-sector buyer. [NYT Business, posted 2026-08-23]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: 2026-08-23 (last run) through 2026-08-24. arXiv econ.* and q-fin.* returned 10 submissions in the window and none were AI-related (weekend gap). INFORMS articles-in-advance for Management Science, M&SOM and Operations Research showed nothing published online after 2026-08-21. SSRN was unreachable this run (Cloudflare bot challenge) and was skipped rather than bypassed. One Washington Post data-center article dated 2026-08-23 was excluded as already sent in a prior digest."
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-22",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": []
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": []
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": []
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "Anthropic Could Aim to Raise $100 Billion in Blockbuster I.P.O.",
+          "url": "https://www.nytimes.com/2026/08/21/technology/anthropic-ipo-100-billion.html",
+          "desc": "Bankers have told potential investors the five-year-old AI company could seek more than $100 billion in its IPO at a roughly $2 trillion valuation, which would make it a larger offering than SpaceX. A deal of that size would be a landmark test of public-market appetite for AI equity. [NYT, posted 2026-08-21]"
+        },
+        {
+          "title": "A.I. Is Everywhere in China. See For Yourself.",
+          "url": "https://www.nytimes.com/interactive/2026/08/21/world/asia/china-ai-life.html",
+          "desc": "A visual report on how AI has diffused through Chinese daily life and industry — automation raising factory efficiency, chatbots serving as tutors, and AI clones of prominent doctors giving free consultations. Useful as a field view of AI adoption at scale outside the US. [NYT, posted 2026-08-21]"
+        },
+        {
+          "title": "Opinion: Electricians Love Data Centers. You Should, Too.",
+          "url": "https://www.nytimes.com/2026/08/21/opinion/data-centers-electricians-union-labor.html",
+          "desc": "An IBEW Local 26 official argues the case for AI data-center construction from a labor standpoint, noting at least 15 states and 200+ localities have proposed or passed development moratoriums. Frames the buildout debate around jobs and the cost of not building. [NYT Opinion, posted 2026-08-21]"
+        },
+        {
+          "title": "Hard Fork: OpenAI's Two-Week Pause + Jill Lepore on the \"Artificial State\"",
+          "url": "https://www.nytimes.com/2026/08/21/podcasts/openais-two-week-pause-jill-lepore-on-the-threat-of-the-artificial-state-train-of-thought.html",
+          "desc": "Episode covers what is described as the first known instance of a major AI lab voluntarily slowing down its development pace, plus historian Jill Lepore on the political economy risks of an \"artificial state.\" [NYT Hard Fork podcast, posted 2026-08-21]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: 2026-08-21 (last run) through 2026-08-22. arXiv econ.*/q-fin.* returned no unsent AI papers — the export API index had not advanced past 2026-08-20 at run time. INFORMS articles-in-advance: newest M&SOM item 2026-08-20; the two Management Science items posted 2026-08-21 are asset-pricing/econometrics papers not about AI. NBER posts Mondays — nothing new. SSRN could not be reached this run (Cloudflare bot challenge on papers.ssrn.com), so SSRN coverage is missing for this window."
+}

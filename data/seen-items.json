@@ -1,0 +1,3427 @@
+[
+ {
+  "url": "https://www.nber.org/papers/w34779",
+  "title": "A.I. and Our Economic Future",
+  "date_sent": "2026-07-06"
+ },
+ {
+  "url": "https://www.nber.org/papers/w34953",
+  "title": "AI in Science",
+  "date_sent": "2026-07-06"
+ },
+ {
+  "url": "https://www.nber.org/papers/w34713",
+  "title": "Teaching Economics to the Machines",
+  "date_sent": "2026-07-06"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35022",
+  "title": "AI Patents in the United States and China",
+  "date_sent": "2026-07-06"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6725323",
+  "title": "Artificial Intelligence in Financial Services: Applications, Opportunities, and Risks",
+  "date_sent": "2026-07-06"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6450338",
+  "title": "The Role of AI and Machine Learning in Algorithmic Trading",
+  "date_sent": "2026-07-06"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.21672",
+  "title": "Agentic Artificial Intelligence in Finance: A Comprehensive Survey",
+  "date_sent": "2026-07-06"
+ },
+ {
+  "url": "https://arxiv.org/abs/2511.21588",
+  "title": "Machine Learning and Deep Learning in Computational Finance: A Systematic Review",
+  "date_sent": "2026-07-06"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/10.1287/msom.2025.1065",
+  "title": "OM Forum — Supply Chain Management in the AI Era: A Vision Statement",
+  "date_sent": "2026-07-06"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/10.1287/ijds.2025.0077",
+  "title": "Synergizing Artificial Intelligence and Operations Research",
+  "date_sent": "2026-07-06"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/10.1287/isre.2022.0440",
+  "title": "Artificial Intelligence and Firm Resilience: Evidence from Natural Disaster Shocks",
+  "date_sent": "2026-07-06"
+ },
+ {
+  "url": "https://www.economist.com/china/2026/07/05/has-china-obtained-the-worlds-most-important-machine",
+  "title": "Has China obtained the world's most important machine?",
+  "date_sent": "2026-07-06"
+ },
+ {
+  "url": "https://www.economist.com/leaders/2026/07/02/america-should-not-imprison-frontier-ai",
+  "title": "America should not imprison frontier AI",
+  "date_sent": "2026-07-06"
+ },
+ {
+  "url": "https://www.economist.com/business/2026/06/30/donald-trumps-ai-regime-is-opaque-unpredictable-and-unsustainable",
+  "title": "Donald Trump's AI regime is opaque, unpredictable—and unsustainable",
+  "date_sent": "2026-07-06"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/06/04/magazine/ai-agents-openclaw-small-business.html",
+  "title": "The Small-Business Owners Managing Whole Armies of A.I. Employees",
+  "date_sent": "2026-07-06"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/06/04/style/chatgpt-advertising-campaign-artificial-intelligence.html",
+  "title": "A New Ad Campaign Tries to Make A.I. a Little Less Scary",
+  "date_sent": "2026-07-06"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.20946",
+  "title": "Some Simple Economics of AGI",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://arxiv.org/abs/2510.04726",
+  "title": "Predictive Economics: Rethinking Economic Methodology with Machine Learning",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://arxiv.org/abs/2508.19136",
+  "title": "Using Machine Learning to Generate, Clarify, and Improve Economic Models",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://arxiv.org/abs/2507.16078",
+  "title": "Automation, AI, and the Intergenerational Transmission of Knowledge",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://www.nber.org/papers/w33351",
+  "title": "Artificial Intelligence Asset Pricing Models",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://arxiv.org/abs/2409.17266",
+  "title": "Empirical Asset Pricing with Large Language Model Agents",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://arxiv.org/abs/2507.01990",
+  "title": "Integrating Large Language Models in Financial Investments and Market Analysis: A Survey",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.02528",
+  "title": "Auditing Asset-Specific Preferences in Financial Large Language Models",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5414214",
+  "title": "A Comprehensive Review of AI-Driven Credit Risk Modeling: From Traditional Scoring to Explainable Machine Learning",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/msom.2021.1064",
+  "title": "Can Deep Reinforcement Learning Improve Inventory Management? Performance on Lost Sales, Dual-Sourcing, and Multi-Echelon Problems",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3680",
+  "title": "Personalized Dynamic Pricing with Machine Learning: High-Dimensional Features and Heterogeneous Elasticity",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/10.1287/msom.2023.0279",
+  "title": "A Manager and an AI Walk into a Bar: Does ChatGPT Make Biased Decisions Like We Do?",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/msom.2020.0939",
+  "title": "A Deep Q-Network for the Beer Game: Deep Reinforcement Learning for Inventory Optimization",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2023.03014",
+  "title": "Large Language Models in Creative Work: The Role of Collaboration Modality and User Expertise",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://www.economist.com/finance-and-economics/2026/07/07/ai-has-taken-over-the-stock-market-the-bond-market-is-next",
+  "title": "AI has taken over the stock market. The bond market is next",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://www.economist.com/business/2026/07/07/chinas-semiconductor-industry-is-racing-to-catch-the-wests",
+  "title": "China's semiconductor industry is racing to catch the West's",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/06/05/magazine/ai-farms-technology.html",
+  "title": "From Cow-Milking Robots to Weed-Zapping Lasers, Farmers Are Embracing A.I.",
+  "date_sent": "2026-07-07"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35123",
+  "title": "Understanding Firms' AI Efforts and Their Economic Impact (Tania Babina, NBER w35123)",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.22833",
+  "title": "The Urban-Rural Divide in the Age of Artificial Intelligence (arXiv econ.GN)",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.02403",
+  "title": "Measuring What Cannot Be Surveyed: LLMs as Instruments for Latent Cognitive Variables in Labor Economics (arXiv)",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6712298",
+  "title": "Large Language Models for Asset Pricing: Learning from Earnings Calls (Zhang & Zhou, SSRN)",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6534498",
+  "title": "Option Return Predictability via Large Language Models (Liu et al., SSRN)",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6446182",
+  "title": "Large Language Models and Stock Investing: Is the Human Factor Required? (SSRN)",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.18500",
+  "title": "QRAFTI: An Agentic Framework for Empirical Research in Quantitative Finance (arXiv)",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6153610",
+  "title": "Large Language Models and Generative Factor Discovery in Crypto Markets (SSRN)",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/10.1287/msom.2024.1459",
+  "title": "Artificial Intelligence, Emotional Labor, and Service Operations (M&SOM)",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2023.03014",
+  "title": "Large Language Model in Creative Work: The Role of Collaboration Modality and User Expertise (Management Science)",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.17220",
+  "title": "Dynamics of Cognitive Heterogeneity: Investigating Behavioral Biases in Multi-Stage Supply Chains with LLM-Based Simulation (arXiv)",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/09/business/ai-boom-corporate-deals.html",
+  "title": "A $3.2 Trillion Deal-Making Frenzy Is Spurred by the A.I. Economy (NYT, Jul 9)",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.economist.com/finance-and-economics/2026/07/09/china-may-struggle-to-fund-xi-jinpings-tech-dreams",
+  "title": "China may struggle to fund Xi Jinping's tech dreams (The Economist, Jul 9)",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.05440",
+  "title": "Retrieval over Reasoning: A Cost-Controlled Benchmark of Language Models for Energy-Retrofit Recommendation",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.02645",
+  "title": "Dynamic Capabilities for AI-Enabled Exploration: Antecedents, Mechanisms, and Innovation Outcomes",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.00551",
+  "title": "Talking Politics with Artificial Intelligence",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.30987",
+  "title": "Measuring Judgment Quality in Natural-Language Explanations: Evidence from Forecasting Tournaments",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.30986",
+  "title": "The Organizational Behavior of Agentic AI: Collective Intelligence in Human-Agent Workflows",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.30583",
+  "title": "AI Premium",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.30085",
+  "title": "Not-quite-human tastes: the stylized omnivorousness of LLM survey surrogates",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.29227",
+  "title": "The Human-Machine Knowledge Spiral",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.29145",
+  "title": "Why Do We Need Travel Behavior Theory in the Age of AI? Multiple Goal Pursuit as an Illustrative Theory",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.27845",
+  "title": "LLM Agents as Static Level-k Players in Behavioural Games",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.25484",
+  "title": "From Causal Discovery to Implementation: An Agentic AI Framework for E-Scooter Mobility Hub Planning Across 29 German Cities",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.23633",
+  "title": "AI Exposure Scores: what they measure, what they miss, and what comes next",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.22797",
+  "title": "Measuring Behavior Portability in Large Language Models",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.22337",
+  "title": "Theorist Toolbox: Tools for Agent Based LLM-assisted economic theory Research",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.22037",
+  "title": "Automation and Aging in General Equilibrium: AI Capital, Fertility, and the Return to Capital",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.21880",
+  "title": "Human Capital, AI, and Labor Commoditization",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.20041",
+  "title": "AI Economist Agent: An Agentic Framework for Model-Grounded Economic Analysis with RAG, Knowledge Graphs, and Large Language Models",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.19118",
+  "title": "Analysing drivers and interdependencies in European electricity markets using XAI",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.18005",
+  "title": "LLM Consumer Behavior Theory: Foundations of a Novel Research Field",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.17165",
+  "title": "Statistical Foundations of LLM-based A/B Testing: A Surrogacy Framework for Human Causal Inference",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.15999",
+  "title": "U.S. Policies Unintentionally Accelerated China's Open AI Ecosystems",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.15206",
+  "title": "AI Contagion in Social Networks",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.15031",
+  "title": "Partial Identification from LLM Prompts",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.13314",
+  "title": "The Privilege of Exposure: Caste and Generative AI in India's Graduate Labour Market",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.12848",
+  "title": "(Human) Attention Is (Still) All You Need: Human oversight makes AI-assisted social science reliable",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.12585",
+  "title": "Revisiting the ABCs of Working with AI: A Replication with Radiologists",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.10544",
+  "title": "From Stacks to Circuits: A Regenerative Socio-Technical Roadmap for AI Infrastructure within Planetary Boundaries",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.08853",
+  "title": "AI-Assisted Variance Reduction in Randomized Experiments",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.07392",
+  "title": "Online Pandora's Box for Contextual LLM Cascading",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.06253",
+  "title": "When the Scaffold Stays On: AI, Practice Style, and Screening in Elite Skill Formation",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.06089",
+  "title": "Leveraging LLMs for Unstructured Claims Data Analysis",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.05705",
+  "title": "Econstellar: An Open-Source AI-Augmented Research Engine for Computational Financial Econometrics",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.05449",
+  "title": "Insurance of Agentic AI",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.05383",
+  "title": "Can AI Refute Economic Theory? Evidence from Beyond the Knowledge Cutoff",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.00811",
+  "title": "Certificates without Electrons? Theory and Evidence on Impacts from AI-Driven Power Demand",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.29207",
+  "title": "From Augmentation to Reconstruction: Guiding the AI Disruption to the Good Place",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.25505",
+  "title": "Generative AI impacts on intra-urban inequality and skill premium in Beijing",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.23159",
+  "title": "Generative AI and the Reorganization of Labor Demand",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.22095",
+  "title": "Not Yet: Humans Outperform LLMs in a Colonel Blotto Tournament",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.21743",
+  "title": "Who Uses AI? Platform Selection and the Measurement of Occupational AI Exposure",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.20281",
+  "title": "The Economics of AI Inference: Inflation Dynamics, Welfare Costs, and Optimal Monetary Policy under the Inference-Cost Phillips Curve",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.20279",
+  "title": "The Economics of Model Collapse: Equilibrium, Welfare, and Optimal Provenance Subsidies in Synthetic Data Markets",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.18357",
+  "title": "Engagement vs. Commitment: The Economic Trade-Offs of Polarizing News Content",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.17979",
+  "title": "Comment on Scientific production in the era of large language models",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.17388",
+  "title": "The partial adoption trap: Coordination failure, trust, and cultural lock-in in health AI adoption",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.16808",
+  "title": "Dissipation of Debt Financing Privilege on Corporate AI Washing: Evidence from China",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.15092",
+  "title": "Monetary Policy in the Media Spotlight: Sentiments, Signals, and Economic Impact",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.11350",
+  "title": "Human-AI Productivity Paradoxes: Modeling the Interplay of Skill, Effort, and AI Assistance",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.10505",
+  "title": "A Theory of Multilevel Interactive Equilibrium in NeuroAI",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.10291",
+  "title": "Generative AI Fuels Solo Entrepreneurship, but Teams Still Lead at the Top",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.06987",
+  "title": "Response Time Enhances Alignment with Heterogeneous Preferences",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.06525",
+  "title": "Sustaining Cooperation in Populations Guided by AI: A Folk Theorem for LLMs",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.05578",
+  "title": "Artificial Aesthetics: The Implicit Economics of Valuing AI-Generated Text",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.02598",
+  "title": "What Jobs Can AI Learn? Measuring Exposure by Reinforcement Learning",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.23645",
+  "title": "Buying the Right to Monitor: Editorial Design in AI-Assisted Peer Review",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.21334",
+  "title": "Ideological Bias in LLMs' Economic Causal Reasoning",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.20652",
+  "title": "Large Language Models Outperform Humans in Fraud Detection and Resistance to Motivated Investor Pressure",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.20050",
+  "title": "Information Aggregation with AI Agents",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.19925",
+  "title": "Behavioral Transfer in AI Agents: Evidence and Privacy Implications",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.19260",
+  "title": "Understanding the Mechanism of Altruism in Large Language Models",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.18849",
+  "title": "From Exposure to Adoption: Generative AI in European Workplaces",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.18373",
+  "title": "Dissecting AI Trading: Behavioral Finance and Market Bubbles",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.15825",
+  "title": "Convergence to collusion in algorithmic pricing",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.14467",
+  "title": "Who Saw It Coming? Historical Experience and the 2021 Inflation Forecast Failure",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.10529",
+  "title": "AI Patents in the United States and China: Measurement, Organization, and Knowledge Flows",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.09855",
+  "title": "Instructing LLMs to Negotiate using Reinforcement Learning with Verifiable Rewards",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.09502",
+  "title": "Strategic Algorithmic Monoculture: Experimental Evidence from Coordination Games",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.16472",
+  "title": "Training Language Models for Bilateral Trade with Private Information",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.08825",
+  "title": "Is Bitcoin A Hedge Against Central Banking? Evidence from AI-Driven Monetary Policy Expectations",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.08678",
+  "title": "Scaffolding Human-AI Collaboration: A Field Experiment on Behavioral Protocols and Cognitive Reframing",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.16465",
+  "title": "Healthcare AI for Automation or Allocation? A Transaction Cost Economics Framework",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.08606",
+  "title": "Extrapolating Volition with Recursive Information Markets",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.04464",
+  "title": "Bounded by Risk, Not Capability: Quantifying AI Occupational Substitution Rates via a Tech-Risk Dual-Factor Model",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.00841",
+  "title": "AI Agents for Sustainable SMEs: A Green ESG Assessment Framework",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.02189",
+  "title": "Bridging Distant Ideas: the Impact of AI on R&D and Recombinant Innovation",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.00468",
+  "title": "When AI Improves Answers but Slows Knowledge Creation: Matching and Dynamic Knowledge Creation in Digital Public Goods",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.00186",
+  "title": "Agentic AI and Occupational Displacement: A Multi-Regional Task Exposure Analysis of Emerging Labor Market Disruption",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.27956",
+  "title": "Artificial Intelligence in Science: Returns, Reallocation, and Reorganization",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.23685",
+  "title": "The Economics of Builder Saturation in Digital Markets",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.23289",
+  "title": "Unlocking AI's Potential in Agriculture: The Critical Role of Data",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.21690",
+  "title": "AI Token Futures Market: Commoditization of Compute and Derivatives Contract Design",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.20678",
+  "title": "AI-Driven Multi-Agent Simulation of Stratified Polyamory Systems: A Computational Framework for Optimizing Social Reproductive Efficiency",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.19349",
+  "title": "A Mathematical Theory of Understanding",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.17898",
+  "title": "Workers' Incentives and the Optimal Taxation of AI",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.09623",
+  "title": "The Hourglass Revolution: A Theoretical Framework of AI's Impact on Organizational Structures in Developed and Emerging Markets",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.26712",
+  "title": "On the Carbon Footprint of Economic Research in the Age of Generative AI",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.08853",
+  "title": "LLM-Agent Interactions on Markets with Information Asymmetries",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.07893",
+  "title": "Designing probabilistic AI monsoon forecasts to inform agricultural decision-making",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.07444",
+  "title": "HLER: Human-in-the-Loop Economic Research via Multi-Agent Pipelines for Empirical Discovery",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.05034",
+  "title": "The \"Gold Rush\" in AI and Robotics Patenting Activity. Do innovation systems have a role?",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.04746",
+  "title": "Visioning Human-Agentic AI Teaming: Continuity, Tension, and Future Research",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.03623",
+  "title": "A Neural Topic Method Using a Large-Language-Model-in-the-Loop for Business Research",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.03144",
+  "title": "The Household Impact of Generative AI: Evidence from Internet Browsing Behavior",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.02359",
+  "title": "Estimating Visual Attribute Effects in Advertising from Observational Data: A Deepfake-Informed Double Machine Learning Approach",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.00858",
+  "title": "Artificial Superintelligence May be Useless: Equilibria in the Economy of Multiple AI Agents",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.22750",
+  "title": "The Inference Bottleneck: Antitrust and Neutrality Duties in the Age of Cognitive Infrastructure",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.21843",
+  "title": "The economic alignment problem of artificial intelligence",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.21091",
+  "title": "Can Interest-Bearing Positions Solve the Long-Horizon Problem in Prediction Markets?",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.20415",
+  "title": "Markets are competitive if and only if P != NP",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.19783",
+  "title": "Janus-Faced Technological Progress and the Arms Race in the Education of Humans and Chatbots",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.15312",
+  "title": "Extracting Consumer Insight from Text: A Large Language Model Approach to Emotion and Evaluation Measurement",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.12958",
+  "title": "The Directions of Technical Change",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.12695",
+  "title": "Generative AI and the Reallocation of Time: Productivity, Leisure, and Fulfilling Work",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.12490",
+  "title": "Transformer-based CoVaR: Systemic Risk in Textual Information",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.12270",
+  "title": "Creative Ownership in the Age of AI",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.09362",
+  "title": "Behavioral Economics of AI: LLM Biases and Corrections",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.04526",
+  "title": "Choice via AI",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.03767",
+  "title": "Decision-oriented benchmarking to transform AI weather forecast access: Application to the Indian monsoon",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.03541",
+  "title": "Group Selection as a Safeguard Against AI Substitution",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.02607",
+  "title": "The Innovation Tax: Generative AI Adoption, Productivity Paradox, and Systemic Risk in the U.S. Banking Sector",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.01684",
+  "title": "The Strategic Foresight of LLMs: Evidence from a Fully Prospective Venture Tournament",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.02604",
+  "title": "AI Assisted Economics Measurement From Survey: Evidence from Public Employee Pension Choice",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.01022",
+  "title": "Calibrating Behavioral Parameters with Large Language Models",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.00139",
+  "title": "Payrolls to Prompts: Firm-Level Evidence on the Substitution of Labor for AI",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.20487",
+  "title": "Normative Equivalence in Human-AI Cooperation: Behaviour, Not Identity, Drives Cooperation in Mixed-Agent Groups",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.20285",
+  "title": "Bank Runs With and Without Bank Failure",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.20238",
+  "title": "Large Language Models Polarize Ideologically but Moderate Affectively in Online Political Discourse",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.19886",
+  "title": "AI Cap-and-Trade: Efficiency Incentives for Accessibility and Sustainability",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.18654",
+  "title": "When Is Self-Disclosure Optimal? Incentives and Governance of AI-Generated Content",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.15494",
+  "title": "Vibe Coding Kills Open Source",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.13286",
+  "title": "AI Skills Improve Job Prospects: Causal Evidence from a Hiring Experiment",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.12488",
+  "title": "Generative AI as a Non-Convex Supply Shock: Market Bifurcation and Welfare Analysis",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.12343",
+  "title": "How Well Do LLMs Predict Human Behavior? A Measure of their Pretrained Knowledge",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.12339",
+  "title": "The Economics of Digital Intelligence Capital: Endogenous Depreciation and the Structural Jevons Paradox",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.11196",
+  "title": "Artificial Intelligence and the US Economy: An Accounting Perspective on Investment and Production",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.10224",
+  "title": "The hidden structure of innovation networks",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.15312",
+  "title": "Do people expect different behavior from large language models acting on their behalf? Evidence from norm elicitations in two canonical economic games",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.09772",
+  "title": "Antisocial behavior towards large language model users: experimental evidence",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.07992",
+  "title": "Fake Date Tests: Can We Trust In-sample Accuracy of LLMs in Macroeconomic Forecasting?",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.07573",
+  "title": "A Model of Artificial Jagged Intelligence",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.06343",
+  "title": "Resolving the automation paradox: falling labor share, rising wages",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.05050",
+  "title": "Large language models can effectively convince people to believe conspiracies",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.03880",
+  "title": "Women Worry, Men Adopt: How Gendered Perceptions Shape the Use of Generative AI",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.03558",
+  "title": "Artificial Intelligence and Skills: Evidence from Contrastive Learning in Online Job Vacancies",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.03547",
+  "title": "Governance of Technological Transition: A Predator-Prey Analysis of AI Capital in China's Economy and Its Policy Implications",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.03469",
+  "title": "Content vs. Form: What Drives the Writing Score Gap Across Socioeconomic Backgrounds? A Generated Panel Approach",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.02878",
+  "title": "Improving Financial Forecasting with a Synergistic LLM-Transformer Architecture: A Hybrid Approach to Stock Price Prediction",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.02554",
+  "title": "AI-exposed jobs deteriorated before ChatGPT",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.01279",
+  "title": "Supracompetitive Pricing Under AI Monoculture",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.08346",
+  "title": "Grounded Event Extraction from SEC 8-K Filings with a Fine-Grained Taxonomy",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.00856",
+  "title": "Shapley in Context: Explaining Financial Language with Domain Expertise",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.29406",
+  "title": "Adaptive AI Delegation under Uncertainty: A Bayesian Governance Policy for Sequential Decision Authority",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.29251",
+  "title": "When Summaries Distort Decisions: Information Fidelity in LLM-Compressed Financial Analysis",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.17383",
+  "title": "Model Validation of Agentic AI Systems: A POMDP-Based Framework for Belief-State, Forecast, and Policy Validation",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.15473",
+  "title": "Belief at Risk: Quantifying Agentic AI Model Risk with LLM-Inferred Bayesian State Filters",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.13812",
+  "title": "CFOs Meet LLMs",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.08285",
+  "title": "Beyond Agent Architecture: Execution Assumptions and Reproducibility in LLM-Based Trading Systems",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.08283",
+  "title": "Macro Economists in the Machine: A Multi-Agent LLM Framework for Commodity-Related ETF Portfolio Construction",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.06823",
+  "title": "PandaAI: A Practical Agent CQ2 for Neuro-symbolic Data Analysis And Integrated Decision-Making in Quantitative Finance",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.11238",
+  "title": "Artificial Intelligence in Ship Finance: Applications, Opportunities, and a Case Study in AI-Augmented Loan Origination",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.28359",
+  "title": "From Knowing to Doing: A Memory-Controlled Benchmark for LLM Trading Agents on Stock Markets",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.27887",
+  "title": "PortBench: A Correlation-Aware, Full-Pipeline Benchmark for LLM-Driven Portfolio Management",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2606.00061",
+  "title": "Reflexivity as Prompt: Does Awareness of Self-Reinforcing Market Dynamics Improve LLMs as Financial Market Forecasters?",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.30363",
+  "title": "Enhancing Regime Shift Detection Using Unstructured Data: A Study on the Treasury Market",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.28850",
+  "title": "Representation Signatures and Risk-Feedback Alignment in LLM Trading Agents",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.05739",
+  "title": "Multi-Dimensional Behavioral Evaluation of Agentic Stock Prediction Systems Using Large Language Model Judges with Closed-Loop Reinforcement Learning Feedback",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.12532",
+  "title": "AgenticAITA: A Proof-Of-Concept About Deliberative Multi-Agent Reasoning for Autonomous Trading Systems",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.21433",
+  "title": "ChatGPT as a Time Capsule: The Limits of Price Discovery",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.06678",
+  "title": "A Wasserstein GAN-based climate scenario generator for risk management and insurance: the case of soil subsidence",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.19476",
+  "title": "Cross-Stock Predictability via LLM-Augmented Semantic Networks",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.23924",
+  "title": "Improving the Completeness and Comparability of Segment Disclosures: A Large Language Model Approach",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.14793",
+  "title": "LR-Robot: An Human-in-the-Loop LLM Framework for Systematic Literature Reviews with Applications in Financial Research",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.22818",
+  "title": "Representation Homogeneity and Systemic Instability in AI-Dominated Financial Markets: A Structural Approach",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.05211",
+  "title": "A Review of Large Language Models for Stock Price Forecasting from a Hedge-Fund Perspective",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.18602",
+  "title": "Machine Spirits: Speculation and Adaptation of LLM Agents in Asset Markets",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.03888",
+  "title": "PolySwarm: A Multi-Agent Large Language Model Framework for Prediction Market Trading and Latency Arbitrage",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2605.20192",
+  "title": "Leveraging Large Language Models for Sentiment Analysis: Multi-Modal Analysis of Decentraland's MANA Token",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.02921",
+  "title": "Debiasing LLMs by Fine-tuning",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2604.14199",
+  "title": "PolyBench: Benchmarking LLM Forecasting and Trading Capabilities on Live Prediction Market Data",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.23300",
+  "title": "Designing Agentic AI-Based Screening for Portfolio Investment",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.20965",
+  "title": "Learning to Aggregate Zero-Shot LLM Agents for Corporate Disclosure Classification",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.19944",
+  "title": "Large Language Models and Stock Investing: Is the Human Factor Required?",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.19225",
+  "title": "FinTradeBench: A Financial Reasoning Benchmark for LLMs",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.17723",
+  "title": "LR-Robot: A Unified Supervised Intelligent Framework for Real-Time Systematic Literature Reviews with Large Language Models",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.16434",
+  "title": "From Natural Language to Executable Option Strategies via Large Language Models",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.13942",
+  "title": "AI Agents in Financial Markets: Architecture, Applications, and Systemic Implications",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.11838",
+  "title": "DatedGPT: Preventing Lookahead Bias in Large Language Models with Time-Aware Pretraining",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.11408",
+  "title": "Beyond Polarity: Multi-Dimensional LLM Sentiment Signals for WTI Crude Oil Futures Return Prediction",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.10807",
+  "title": "Risk-Adjusted Harm Scoring for Automated Red Teaming for LLMs in Financial Services",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.09303",
+  "title": "Investor risk profiles of large language models",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.09301",
+  "title": "Constructing a Portfolio Optimization Benchmark Framework for Evaluating Large Language Models",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2603.19286",
+  "title": "Generalized Stock Price Prediction for Multiple Stocks Combined with News Fusion",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.23330",
+  "title": "Toward Expert Investment Teams: A Multi-Agent LLM System with Fine-Grained Trading Tasks",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.18895",
+  "title": "Could Large Language Models work as Post-hoc Explainability Tools in Credit Risk Models?",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.14233",
+  "title": "Evaluating LLMs in Finance Requires Explicit Bias Consideration",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.18481",
+  "title": "AlphaForgeBench: Benchmarking End-to-End Trading Strategy Design with Large Language Models",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.09504",
+  "title": "Seeing the Goal, Missing the Truth: Human Accountability for AI Bias",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.21229",
+  "title": "Forecasting Future Language: Context Design for Mention Markets",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.07023",
+  "title": "Behavioral Consistency Validation for LLM Agents: An Analysis of Trading-Style Switching through Stock-Market Simulation",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.00196",
+  "title": "Generative AI for Stock Selection",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.00082",
+  "title": "Design and Empirical Study of a Large Language Model-Based Multi-Agent Investment System for Chinese Public REITs",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.13770",
+  "title": "Look-Ahead-Bench: a Standardized Benchmark of Look-ahead Bias in Point-in-Time LLMs for Finance",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.11958",
+  "title": "Autonomous Market Intelligence: Agentic AI Nowcasting Predicts Stock Returns",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.17021",
+  "title": "Regret-Driven Portfolios: LLM-Guided Smart Clustering for Optimal Allocation",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.10043",
+  "title": "Instruction Finetuning LLaMA-3-8B Model Using LoRA for Financial Named Entity Recognition",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2602.13209",
+  "title": "LemonadeBench: Evaluating the Economic Intuition of Large Language Models in Simple Markets",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.08641",
+  "title": "Resisting Manipulative Bots in Meme Coin Copy Trading: A Multi-Agent Approach with Chain-of-Thought Reasoning",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.22162",
+  "title": "UniFinEval: Towards Unified Evaluation of Financial Multimodal Models across Text, Images and Videos",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.04160",
+  "title": "All That Glisters Is Not Gold: A Benchmark for Reference-Free Counterfactual Financial Misinformation Detection",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.03948",
+  "title": "Trade-R1: Bridging Verifiable Rewards to Stochastic Environments via Process-Level Reasoning Verification",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2601.02677",
+  "title": "Uni-FinLLM: A Unified Multimodal Large Language Model with Modular Task Heads for Micro-Level Stock Prediction and Macro-Level Systemic Risk Assessment",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nber.org/papers/w34836",
+  "title": "Firm Data on AI",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nber.org/papers/w34849",
+  "title": "Mimicking Finance",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nber.org/papers/w34851",
+  "title": "Does Generative AI Narrow Education-Based Productivity Gaps? Evidence from a Randomized Experiment",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nber.org/papers/w34854",
+  "title": "Building Pro-Worker Artificial Intelligence",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nber.org/papers/w34859",
+  "title": "Chaining Tasks, Redefining Work: A Theory of AI Automation",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nber.org/papers/w34861",
+  "title": "Machine Learning Meets Markowitz",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nber.org/papers/w34910",
+  "title": "AI, Human Cognition and Knowledge Collapse",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nber.org/papers/w34919",
+  "title": "How does AI Distribute the Pie? Large Language Models and the Ultimatum Game",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nber.org/papers/w34984",
+  "title": "Artificial Intelligence, Productivity, and the Workforce: Evidence from Corporate Executives",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nber.org/papers/w34995",
+  "title": "Mind the Gap: AI Adoption in Europe and the U.S.",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35036",
+  "title": "How AI Aggregation Affects Knowledge",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35046",
+  "title": "Forecasting the Economic Effects of AI",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35157",
+  "title": "Automation, Learning, and Career Dynamics",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35185",
+  "title": "Revealing Life Preferences Through LLMs",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35344",
+  "title": "AI and the Collapse of the www",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35374",
+  "title": "A Practitioner's Guide to Using Large Language Models and Generative AI in Economic History",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5418934",
+  "title": "Artificial Intelligence and Operations: A Foundational Framework of Emerging Research and Practice",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5855622",
+  "title": "Impact of Artificial Intelligence on Supply Chain Management",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6136529",
+  "title": "Agentic FinTech: A Comprehensive Survey on AI Agents in Finance in the Era of LLMs",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6510327",
+  "title": "LLM-Driven Investment Models: Evidence from Earnings Call Transcripts",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6134646",
+  "title": "The Transformation of Supply Chain Management Driven by AI Agents",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6323960",
+  "title": "AI, Productivity, and Labor Markets: A Review of the Empirical Evidence",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6471858",
+  "title": "AI-Driven Observability and ERP Copilot Systems in Cloud-Native Supply Chain Integration",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6503440",
+  "title": "Equity Prices the Opportunity, Debt Prices the Risk: Generative AI and Corporate Credit Spreads",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6562778",
+  "title": "AI-Driven Smart Supply Chains: Enhancing Predictive Decision-Making and Operational Excellence in Modern Businesses",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6513481",
+  "title": "Mapping AI into Production: A Field Experiment on Firm Performance",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6537038",
+  "title": "Generative AI and Firm Hiring Demand: Evidence from Advanced and Developing Economies",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6659409",
+  "title": "Large Language Models and the Information Content of Analyst Reports",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6773678",
+  "title": "Entry Barriers to the Labor Market in the Era of Generative Artificial Intelligence: A Critical Review and a Framework for Cross-Country Heterogeneity (2022-2026)",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6823199",
+  "title": "Algorithmic Collusion or Algorithmic Confusion? Rethinking the Risks of AI Pricing for Companies and Policymakers",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6946559",
+  "title": "Do AIs Make Good Traders, and Do They Make Good Traders Better?",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.02523",
+  "title": "The Rapid Adoption of Generative AI",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.00535",
+  "title": "The Effects of Generative AI on High-Skilled Work: Evidence from Three Field Experiments with Software Developers",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2023.03108",
+  "title": "Backfiring AI? AI Deployment in Workplace",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/10.1287/msom.2024.1141",
+  "title": "Why Are Customers Averse to Service Chatbots?",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/10.1287/opre.2024.0771",
+  "title": "Risk-Aware Linear Bandits: Theory and Applications in Smart Order Routing",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.04717",
+  "title": "The AI Democratization Paradox: Evidence from Decentralized Knowledge Communities",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.08706",
+  "title": "Directional AI Advice: Experimental Evidence from Healthcare",
+  "date_sent": "2026-07-10"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/10/business/sk-hynix-stock.html",
+  "title": "SK Hynix Stock Rises ~13% in Nasdaq Debut, Latest Sign of AI Demand",
+  "date_sent": "2026-07-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.14713",
+  "title": "Does Multi-Agent Debate Improve AI Feedback on Research Papers?",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.14357",
+  "title": "When Is Delegated Play Truthful? Within-Range Regret and the Trilemma of Aligned Delegation",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.13314",
+  "title": "Tabular Foundation Models for Discrete Choice Estimation",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.14585",
+  "title": "Governing Artificial Intelligence: Public Preferences and Regulatory Options",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.14371",
+  "title": "Supervised Fine-Tuning vs. In-Context Learning: An Equilibrium Analysis of LLM Personalization under Congestion",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.13670",
+  "title": "Equilibrium Information Aggregation under Machine Learning",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.12345",
+  "title": "Forecasting Inflation with Microdata: An Adaptive Machine Learning Approach",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.15168",
+  "title": "Indirect Variational Inference: Applications to Earnings Dynamics",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6962078",
+  "title": "Artificial Intelligence in Finance: What Have We Learned?",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.15195",
+  "title": "SciPhy Reinforcement Learning for Portfolio Optimization",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.13968",
+  "title": "Measuring Sentiment News with Transformer-Based Language Models",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.13929",
+  "title": "VAIOM: Continuous-Input, Discrete-Output Decoder-Only Financial Sequence Modeling",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.13353",
+  "title": "Is Deep Hedging Reinforcement Learning?",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.14373",
+  "title": "A Noise-Robust Elicit-to-Optimize Framework for Distortion Riskmetrics via Inverse Reinforcement Learning",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.10810",
+  "title": "Diachronic Sample Integration: Robust Tail-Risk Estimation with Generative Models",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.10960",
+  "title": "Reinforcement Learning for Execution under Dynamic Fees in a Closed-Loop DEX Simulator",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/msom.2023.0634",
+  "title": "Assortment Optimization Under the Decision Forest Model",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2023.00122",
+  "title": "Convex Surrogate Loss Functions for Contextual Pricing with Transaction Data",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2022.01864",
+  "title": "Scalable Bundle Recommendations: A Large-Scale Field Experiment",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/13/business/economists-ai-threat-jobs.html",
+  "title": "Nearly 200 Economists and Tech Leaders Warn of A.I. Threats",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/16/business/dealbook/anthropic-ipo-ai.html",
+  "title": "Anthropic Inches Toward a Mega-I.P.O.",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/16/technology/google-android-ai.html",
+  "title": "Google Ordered to Give A.I. Rivals More Access on Android Smartphones",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/15/business/dealbook/ibm-ai-software-consulting.html",
+  "title": "Is IBM a Canary in the Tech Coal Mine?",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/14/business/dealbook/chai-discovery-ai-drug-development.html",
+  "title": "Chai Discovery, an A.I. Drug Start-Up, Raises $400 Million",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html",
+  "title": "OpenAI Is Showing Kalshi's World Cup Odds in ChatGPT",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/07/14/silicon-valley-hottest-ai-models-face-powerful-source-competition/",
+  "title": "The Hottest AI Models in Silicon Valley Face a Powerful Source of Competition",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/07/14/new-york-becomes-first-state-impose-data-center-moratorium/",
+  "title": "New York Becomes First State to Impose Data Center Moratorium",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://www.economist.com/international/2026/07/16/sovereign-ai-independent-of-america-and-china-is-a-pipe-dream",
+  "title": "Sovereign AI, Independent of America and China, Is a Pipe Dream",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://www.economist.com/podcasts/2026/07/15/how-europe-can-compete-on-ai",
+  "title": "How Europe Can Compete on AI",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://www.economist.com/leaders/2026/07/15/how-to-make-ai-safe-and-lessen-dependence-on-america-and-china",
+  "title": "How to Make AI Safe—and Lessen Dependence on America and China",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://www.economist.com/business/2026/07/14/demis-hassabis-has-a-plan-to-harness-ai-safely",
+  "title": "Demis Hassabis Has a Plan to Harness AI Safely",
+  "date_sent": "2026-07-16"
+ },
+ {
+  "url": "https://www.economist.com/business/2026/07/16/how-sk-hynix-became-the-king-of-advanced-memory-chips",
+  "title": "How SK Hynix became the king of advanced memory chips",
+  "date_sent": "2026-07-17"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/17/business/xi-jinping-china-ai.html",
+  "title": "China's Leader Pitches 'Openness' in Push to Shape A.I.'s Future",
+  "date_sent": "2026-07-17"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/16/world/asia/india-ai-data-centers-google.html",
+  "title": "India Is Moving Fast to Build A.I. Data Centers. A Coastal City May Pay the Price.",
+  "date_sent": "2026-07-17"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/16/world/europe/digital-autonomy-ai.html",
+  "title": "The Quest for 'Technological Sovereignty' in Europe (and Why It's So Hard)",
+  "date_sent": "2026-07-17"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/17/business/china-ai-moonshot-kimi.html",
+  "title": "China's Latest A.I. Breakthrough Threatens America's Lead",
+  "date_sent": "2026-07-18"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html",
+  "title": "Meta in Talks to Lease Computing Power to Anthropic in Potential $10 Billion Deal",
+  "date_sent": "2026-07-18"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/17/business/ai-spending-oracle-stocks-bonds.html",
+  "title": "A.I. Is Running on Borrowed Money",
+  "date_sent": "2026-07-18"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/17/business/economy/american-small-business-boom.html",
+  "title": "America's Enterprising Spirit Is Booming After Decades-Long Slump",
+  "date_sent": "2026-07-18"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/07/18/how-data-centers-became-symbol-americans-rage/",
+  "title": "How Data Centers Became a Symbol of Americans' Rage",
+  "date_sent": "2026-07-18"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/07/19/tech-has-never-been-richer-its-workers-have-never-felt-less-secure/",
+  "title": "The biggest winners of the American economy fear they are sinking fast",
+  "date_sent": "2026-07-19"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/18/opinion/china-united-states-artificial-intelligence.html",
+  "title": "China's A.I. Play Is Different From America's",
+  "date_sent": "2026-07-19"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/18/opinion/job-market-ai-employees.html",
+  "title": "The Hunt for a Job Has Never Been Worse. These Applicants Are Fighting Back.",
+  "date_sent": "2026-07-19"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35481",
+  "title": "Inference with AI-Generated Covariates",
+  "date_sent": "2026-07-21"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35490",
+  "title": "Training AI for When Humans Will Use It",
+  "date_sent": "2026-07-21"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.18225",
+  "title": "Vector Search As Nearest Neighbor Matching: RAG-based Policy Learning in Causal Inference",
+  "date_sent": "2026-07-21"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.17378",
+  "title": "Econometrics with Pre-Trained Embeddings for Unstructured Data",
+  "date_sent": "2026-07-21"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.17316",
+  "title": "Rationalizing Boltzmann Rationality: An Axiomatic Characterization of Entropy-Regularized Policies",
+  "date_sent": "2026-07-21"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35504",
+  "title": "Bank Runs With and Without Bank Failure",
+  "date_sent": "2026-07-21"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35500",
+  "title": "Volatility Disagreement in the Options Market",
+  "date_sent": "2026-07-21"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.18001",
+  "title": "AlphaZeroBeta: Deep Reinforcement Learning for Market-Neutral Portfolios",
+  "date_sent": "2026-07-21"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.17427",
+  "title": "Abliteration Is Not a Scalpel: Off-Target Effects of Refusal Removal on Decision Disposition Across Model Families",
+  "date_sent": "2026-07-21"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/20/business/dealbook/ai-china-alphabet.html",
+  "title": "American A.I. Giants Face Fresh Tests",
+  "date_sent": "2026-07-21"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/20/technology/china-us-ai-race.html",
+  "title": "Why Silicon Valley Can't Stop Looking Over Its Shoulder at China",
+  "date_sent": "2026-07-21"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/20/technology/google-ai-open-web.html",
+  "title": "Google Is Building an A.I. Fence Around the Internet It Once Championed",
+  "date_sent": "2026-07-21"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/20/technology/apple-app-store-vibecoding.html",
+  "title": "'Vibecoded' Apps Are Flooding the App Store. Is That Good for Apple?",
+  "date_sent": "2026-07-21"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/19/business/step-into-the-zone-of-genius-before-ai-takes-your-job.html",
+  "title": "Step Into the 'Zone of Genius' (Before A.I. Takes Your Job)",
+  "date_sent": "2026-07-21"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.18795",
+  "title": "Measuring AI innovation with trademark data",
+  "date_sent": "2026-07-22"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.18735",
+  "title": "Curriculum design in the age of AI",
+  "date_sent": "2026-07-22"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.18616",
+  "title": "Prediction of bank transaction fraud using TabNet",
+  "date_sent": "2026-07-22"
+ },
+ {
+  "url": "https://www.economist.com/business/2026/07/21/americas-ai-labs-are-under-threat-from-cheap-chinese-rivals",
+  "title": "America's AI labs are under threat from cheap Chinese rivals",
+  "date_sent": "2026-07-22"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/21/business/dealbook/us-china-ai-limits.html",
+  "title": "Will the U.S. and China Build Walls Around A.I.?",
+  "date_sent": "2026-07-22"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.21534",
+  "title": "Generative AI Availability, Grades, and Student Satisfaction at a Large University",
+  "date_sent": "2026-07-24"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.21459",
+  "title": "The Evolution of Digital Search: From Blue Links to Delegated Decision-Making",
+  "date_sent": "2026-07-24"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.21268",
+  "title": "pAI-Econ-claude: A Gated Human-in-the-Loop Multi-Agent Architecture for AI-Assisted Economic Theory Development",
+  "date_sent": "2026-07-24"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.20807",
+  "title": "Execution and Evaluation: A New Occupational Measure and Long-Run Employment Gradients",
+  "date_sent": "2026-07-24"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.20781",
+  "title": "The Human-AI Substitution Principle: When will you be replaced by AI in your organization?",
+  "date_sent": "2026-07-24"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.21170",
+  "title": "Portfolio Optimization under Dynamic Rebalancing via Topological Data Analysis and News Sentiments",
+  "date_sent": "2026-07-24"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.20168",
+  "title": "Quantum Kernels and the Cross-Section of Stock Returns: Anatomy of a Vanishing Advantage",
+  "date_sent": "2026-07-24"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.21512",
+  "title": "Group boarding for airplanes: benchmarking static policies and optimizing dynamic assignment with deep reinforcement learning",
+  "date_sent": "2026-07-24"
+ },
+ {
+  "url": "https://www.economist.com/finance-and-economics/2026/07/23/can-china-dominate-ai-exports-too",
+  "title": "Can China dominate AI exports, too?",
+  "date_sent": "2026-07-24"
+ },
+ {
+  "url": "https://www.nytimes.com/interactive/2026/07/23/technology/ai-agents-office-jobs.html",
+  "title": "Could A.I. Do Your Job? We Put Agents to the Test.",
+  "date_sent": "2026-07-24"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/07/22/china-advances-ai-trump-faces-new-test-technology-race/",
+  "title": "As China advances in AI, Trump faces a new test in the technology race",
+  "date_sent": "2026-07-24"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.21044",
+  "title": "Trust by Context, Not by Design? A Quantitative Study of Data Donation Willingness for Open-Source Civic AI in Switzerland",
+  "date_sent": "2026-07-26"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/25/technology/open-source-silicon-valley-china.html",
+  "title": "Silicon Valley Splits Over Closing the Borders to Chinese A.I.",
+  "date_sent": "2026-07-26"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/25/business/dealbook/spacex-anthropic-philanthropy.html",
+  "title": "Blockbuster I.P.O.s Are Creating New Millionaires. Philanthropies Want a Cut.",
+  "date_sent": "2026-07-26"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/24/opinion/ai-workplace-manager-teamwork.html",
+  "title": "We Interviewed A.I. Agents. They Nailed Your Co-Workers' Worst Habits.",
+  "date_sent": "2026-07-26"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.22511",
+  "title": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
+  "date_sent": "2026-07-27"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.22006",
+  "title": "Unfit for stranding assessment: a panel-scale multimodal-LLM audit of building-decarbonisation disclosure (BeDA)",
+  "date_sent": "2026-07-27"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/27/podcasts/the-daily/ai-economy.html",
+  "title": "What A.I. Is Actually Doing to the Economy",
+  "date_sent": "2026-07-27"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/27/technology/meta-data-center-louisiana.html",
+  "title": "How Meta Got Everything It Wanted in a Secret Louisiana Data Center Deal",
+  "date_sent": "2026-07-27"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/27/business/cxmt-stock-price-ai.html",
+  "title": "Chinese Chip Giant's Stock Soars 470% in Start of Trading, Amid A.I. Race",
+  "date_sent": "2026-07-27"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/27/opinion/chips-ai-china-trump.html",
+  "title": "The U.S. Is Still Winning the A.I. Race. Trump Could Blow It.",
+  "date_sent": "2026-07-27"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.24372",
+  "title": "Randomness in Large Language Models: What Researchers Need to Know (and Report)",
+  "date_sent": "2026-07-28"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.24472",
+  "title": "Debiased Machine Learning: Identification, Estimation, and Shape Constraints",
+  "date_sent": "2026-07-28"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.24065",
+  "title": "Variational Quantum Conditional Boltzmann Machines for Time-Series Forecasting",
+  "date_sent": "2026-07-28"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2024.1449",
+  "title": "Doubly Adaptive Cascading Bandits with User Abandonment",
+  "date_sent": "2026-07-28"
+ },
+ {
+  "url": "https://www.economist.com/finance-and-economics/2026/07/28/ai-revenues-are-growing-fast-but-not-fast-enough",
+  "title": "AI Revenues Are Growing Fast, but Not Fast Enough",
+  "date_sent": "2026-07-28"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/28/business/stocks-ai-chips.html",
+  "title": "Tech Stocks Tumble on Worries About A.I. Spending and China Chip Competition",
+  "date_sent": "2026-07-28"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/28/business/dealbook/chips-market-rout-ai.html",
+  "title": "The Chips Rout Goes Global",
+  "date_sent": "2026-07-28"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/27/business/dealbook/open-closed-ai-debate.html",
+  "title": "Open or Shut? The A.I. Debate Driving a Wedge Through Big Tech",
+  "date_sent": "2026-07-28"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/07/28/ai-firms-are-poaching-top-economists-questions-grow-about-job-losses/",
+  "title": "Why Tech Companies Are Poaching Top Economists",
+  "date_sent": "2026-07-28"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.26034",
+  "title": "Falling Behind Drives Unsafe Development in an Idealised AI Race Experiment",
+  "date_sent": "2026-07-29"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.25199",
+  "title": "RIDGE: An Autonomous Framework for Validation and Method Discovery in LLM-Generated Option Pricing",
+  "date_sent": "2026-07-29"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.25258",
+  "title": "Robust Hedging Valuation Adjustment for Deep Hedging Policies under Market Frictions",
+  "date_sent": "2026-07-29"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.25459",
+  "title": "Emergent Latent-State Computation under Stochastic Volatility",
+  "date_sent": "2026-07-29"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html",
+  "title": "A.I. Companies Are Recruiting Electricians and Carpenters by the Thousands",
+  "date_sent": "2026-07-29"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/29/business/skhynix-chips-memory.html",
+  "title": "South Korea's Memory Chip Giant Defies A.I. Market Jitters",
+  "date_sent": "2026-07-29"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/29/opinion/ai-china-us-free-models.html",
+  "title": "The Hidden Cost of China's Free A.I.",
+  "date_sent": "2026-07-29"
+ },
+ {
+  "url": "https://www.nytimes.com/interactive/2026/07/29/technology/ai-chips-data-center-boom.html",
+  "title": "A Deluge of A.I. Computing Power Is About to Come Online",
+  "date_sent": "2026-07-29"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.26327",
+  "title": "The Last Costly Signal: How Generative AI Collapses Competence Signaling and Why Liability Sustains Markets for Expert Services",
+  "date_sent": "2026-07-30"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.27188",
+  "title": "Inverse Learning of Latent Risk-Neutral Densities from Irregular Option Quotes",
+  "date_sent": "2026-07-30"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.26792",
+  "title": "Crossing-Free Probabilistic K-Line Forecasts Without Retraining",
+  "date_sent": "2026-07-30"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/07/29/openai-anthropic-endorse-call-government-pace-ai-progress/",
+  "title": "OpenAI, Anthropic ask U.S. government to consider slowing down AI",
+  "date_sent": "2026-07-30"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.28222",
+  "title": "Voice AI in Firms: A Natural Field Experiment on Automated Job Interviews",
+  "date_sent": "2026-07-31"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.28133",
+  "title": "AI Sycophancy and Decisions",
+  "date_sent": "2026-07-31"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.27553",
+  "title": "Using Large Language Models for Idea Generation in Innovation",
+  "date_sent": "2026-07-31"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.28410",
+  "title": "Can Large Language Models Execute Parent Orders?",
+  "date_sent": "2026-07-31"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.28127",
+  "title": "FinSMART: Financial Sentiment Analysis for Algorithmic Trading through Market-Aligned Reinforcement Learning",
+  "date_sent": "2026-07-31"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.27853",
+  "title": "FinanceHarness: Autonomous Financial Deep Research Framework",
+  "date_sent": "2026-07-31"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.27611",
+  "title": "AWARE-FX: An Auditable Knowledge-Guided AI System for Measuring Corporate Foreign-Exchange Hedging Disclosure",
+  "date_sent": "2026-07-31"
+ },
+ {
+  "url": "https://arxiv.org/abs/2607.26560",
+  "title": "Emission-Forecasting-Based Spatial-Temporal Carbon Response: A Multi-Agent Attention-Enhanced Deep Learning Framework",
+  "date_sent": "2026-07-31"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/31/magazine/larry-ellison-ai-oracle.html",
+  "title": "Larry Ellison Bet It All on the A.I. Boom. Will He Be the Face of the A.I. Bubble?",
+  "date_sent": "2026-07-31"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/07/31/tech-giants-burning-cash-ai-create-risks-whole-economy/",
+  "title": "America's biggest companies are burning cash on AI. It's risky for everyone.",
+  "date_sent": "2026-07-31"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/07/31/business/situational-awareness-leopold-aschenbrenner.html",
+  "title": "Leopold Aschenbrenner Built a Hot A.I. Hedge Fund. Then It Melted Down.",
+  "date_sent": "2026-08-01"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35559",
+  "title": "Replaceable but Employed: Automation and the Meaning of Work",
+  "date_sent": "2026-08-03"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35540",
+  "title": "Predictive Risk Scores in the Public Sector: Experimental Evidence from Child-Protection Investigations",
+  "date_sent": "2026-08-03"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/03/business/economy/ai-spending-tokenomics.html",
+  "title": "What Are Companies Getting for All That A.I. Spending?",
+  "date_sent": "2026-08-03"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/03/opinion/ai-nationalization-government-tech.html",
+  "title": "This Is Not the Way to Hold A.I. Companies Accountable",
+  "date_sent": "2026-08-03"
+ },
+ {
+  "url": "https://www.economist.com/united-states/2026/08/02/can-america-retrain-workers-before-ai-leaves-them-behind",
+  "title": "Can America Retrain Workers Before AI Leaves Them Behind?",
+  "date_sent": "2026-08-03"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.02102",
+  "title": "Navigating the skill diversity frontier: How skill complexity explains worker resilience",
+  "date_sent": "2026-08-04"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.02311",
+  "title": "AI Governance for Institutional Readiness in Finance",
+  "date_sent": "2026-08-04"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.01607",
+  "title": "AI Financial Advice: Supply, Demand, and Life Cycle Implications",
+  "date_sent": "2026-08-04"
+ },
+ {
+  "url": "https://www.economist.com/finance-and-economics/2026/08/03/how-china-gets-better-bang-for-its-buck-than-america-in-ai",
+  "title": "How China gets better bang for its buck than America in AI",
+  "date_sent": "2026-08-04"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/03/opinion/ai-hype-tech-layoffs.html",
+  "title": "I Helped Run Lululemon. Companies Need to Stop Kidding Themselves About A.I.",
+  "date_sent": "2026-08-04"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/04/technology/ai-washington-regulation-whiplash.html",
+  "title": "White House Whipsaws Silicon Valley (and Itself) Over A.I. Rules",
+  "date_sent": "2026-08-04"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/08/03/one-chart-shows-incredible-reversal-american-tech-companies/",
+  "title": "One chart shows the incredible reversal at American tech companies",
+  "date_sent": "2026-08-04"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.04198",
+  "title": "Does generative AI narrow education-based productivity gaps? Evidence from a randomized experiment",
+  "date_sent": "2026-08-06"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.03114",
+  "title": "Optimal Liability Design for Medical AI",
+  "date_sent": "2026-08-06"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.04276",
+  "title": "The Fallback as Signal: Preserved Human Skill, Liability, and Competence Signaling in Credence-Good Markets under Improving AI",
+  "date_sent": "2026-08-06"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.05015",
+  "title": "Revealed Rationality: Label-Free Evaluation and Regularization from Representation Theorems",
+  "date_sent": "2026-08-06"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.04200",
+  "title": "From Financial Sentiment Classification to Return Predictability: A QLoRA Benchmark of Large Language Models",
+  "date_sent": "2026-08-06"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.04305",
+  "title": "Adaptive Finite-Budget Training for CVaR Risk-Aware Q-Learning",
+  "date_sent": "2026-08-06"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/10.1287/msom.2023.0426",
+  "title": "Discretion in Automated Supermarket Replenishment: Censorship Bias and Self-Inflicted Stockouts",
+  "date_sent": "2026-08-06"
+ },
+ {
+  "url": "https://www.economist.com/finance-and-economics/2026/08/06/indias-it-sector-is-surviving-artificial-intelligence",
+  "title": "India's IT sector is surviving artificial intelligence",
+  "date_sent": "2026-08-06"
+ },
+ {
+  "url": "https://www.economist.com/leaders/2026/08/05/governments-are-making-a-dangerous-bet-on-the-ai-boom",
+  "title": "Governments are making a dangerous bet on the AI boom",
+  "date_sent": "2026-08-06"
+ },
+ {
+  "url": "https://www.economist.com/briefing/2026/08/06/chinas-ai-drive-threatens-the-worlds-largest-workforce",
+  "title": "China's AI drive threatens the world's largest workforce",
+  "date_sent": "2026-08-06"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/06/opinion/ai-market-bubble-crash.html",
+  "title": "The A.I. Jargon That Will Help You Spot a Stock Downturn",
+  "date_sent": "2026-08-06"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/06/business/china-unitree-ipo-robot.html",
+  "title": "China's Robots Know Kung Fu and Can Scale Walls. Can They Woo Investors?",
+  "date_sent": "2026-08-06"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/05/business/dealbook/winners-trump-ai-policy.html",
+  "title": "The Winners of Trump's A.I. Safety Plan",
+  "date_sent": "2026-08-06"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/08/05/google-top-ai-leader-demis-hassabis-steps-aside-major-shakeup/",
+  "title": "Google's stock drops after Nobel-winning AI executive steps aside",
+  "date_sent": "2026-08-06"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35586",
+  "title": "Staged Access and Liability for Dual-Use Artificial Intelligence",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35588",
+  "title": "AI Agents and Prompt Engineering in Econometric Coding",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.09882",
+  "title": "Environmental and Economic Implications of Artificial Intelligence Data Centers in the United States",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.09642",
+  "title": "Beyond Headcount and Human Capital: The Effective Cognitive Population as a Decomposable Capacity Unit for AI-Era Planning",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.08437",
+  "title": "AI and the Research Team",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.08395",
+  "title": "From Product Search to Preference Articulation: The Economics of Agentic Commerce",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.08240",
+  "title": "A Fair Objective for Human-Empowerment-Preserving AI: Desiderata, Design, and Likely Behavioral Consequences",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.07251",
+  "title": "Reading Copom's Tone: A Weighted LLM Framework for Hawkish-Dovish Sentiment, Forward Guidance, and Uncertainty",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.07208",
+  "title": "Measuring Concept Content in Text from LLM Activations: ESG Evidence from Concept Vectors and Linear Probes",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.06842",
+  "title": "Tabular Foundation Models and the Unity of Economic Behaviour",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.09087",
+  "title": "Joint Lyapunov Certificates for K-Agent Generative AI Governance: Stochastic Stability, Emergent Ensemble Risk, and Zero-Knowledge Governance Attestation",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.09069",
+  "title": "Telemetry and Concealment in Self-Adapting Generative AI: Logging Architecture, Adversarial Model Hiding, and the Limits of Detection",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.08825",
+  "title": "Hybrid Neural-Classical Correction for Frozen Time Series Foundation Models: A Comprehensive Ablation Study on High-Frequency Stock Prediction",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.08634",
+  "title": "Can Open-Weight Models Compete on Financial Text Comprehension?",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2024.07930",
+  "title": "The Impact of Manipulated Clinical Decision Support Algorithm on Opioid Prescribing Decision",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2026.00184",
+  "title": "Fighting Fire with Fire: Infusing Artificial Intelligence into Peer Review to Sustain Quality Scholarship",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2024.1450",
+  "title": "Learning to Simulate from Heavy-Tailed Distribution via Diffusion Model",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2021.0699",
+  "title": "Certifiable Deep Importance Sampling for Rare-Event Simulation of Black Box Systems",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/10/business/ai-nvidia-lenders-500-billion.html",
+  "title": "Wall St. Wants Another Half-Trillion Dollars for the A.I. Boom",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/10/technology/memory-chip-shortage-ai.html",
+  "title": "A.I.-Driven Chip Crunch Leads to New Rush of Lobbying in Washington",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/10/business/dealbook/meta-open-ai.html",
+  "title": "Why Meta Is Betting Big on Open A.I.",
+  "date_sent": "2026-08-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.11112",
+  "title": "Pricing Intelligence: Task-Based Learning and Labor Displacement in the AI Economy",
+  "date_sent": "2026-08-12"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.08170",
+  "title": "Beyond the Grid: Cost, Carbon, and Capital Requirements of On-Site Power Technologies for AI Data Centers",
+  "date_sent": "2026-08-12"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.07532",
+  "title": "Dynamic Coalition Formation and Communication Pricing in Skill-Based Agentic AI Systems",
+  "date_sent": "2026-08-12"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.07504",
+  "title": "Innovating with Generative AI: A Human Bottleneck Framework",
+  "date_sent": "2026-08-12"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35574",
+  "title": "AI Financial Advice: Supply, Demand, and Life Cycle Implications",
+  "date_sent": "2026-08-12"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.10175",
+  "title": "Beyond Cash Flows: A Multi-Agent AI Framework for Valuing Clinical-Stage, Cross-Border Biotechnology",
+  "date_sent": "2026-08-12"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.07536",
+  "title": "Yield Curve Prediction with Machine Learning: Forecasting Approaches and the Role of Macroeconomic Predictors",
+  "date_sent": "2026-08-12"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.07538",
+  "title": "When LLM Agents Negotiate: Private Information and Dynamic Bargaining in Supply Chains",
+  "date_sent": "2026-08-12"
+ },
+ {
+  "url": "https://www.economist.com/business/2026/08/11/nvidias-great-silicon-showdown",
+  "title": "Nvidia's great silicon showdown",
+  "date_sent": "2026-08-12"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/11/business/dealbook/ai-lending-nvidia-blackrock.html",
+  "title": "The Perils of Wall St.'s Race to Pour Billions More Into A.I.",
+  "date_sent": "2026-08-12"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/12/business/dealbook/thrive-holdings-ai-funding.html",
+  "title": "An A.I.-Focused Buyer of Service Firms Raises $2 Billion",
+  "date_sent": "2026-08-12"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/12/opinion/ai-bubble-economy-crash.html",
+  "title": "Why the U.S. Economy Needs A.I. — Bubble or Not",
+  "date_sent": "2026-08-12"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.12236",
+  "title": "How Organizations Use AI: Evidence from ChatGPT",
+  "date_sent": "2026-08-13"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.11626",
+  "title": "Organizational Technology Ladders: Remote Work and Generative AI Adoption",
+  "date_sent": "2026-08-13"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.12283",
+  "title": "Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and Technical Signals",
+  "date_sent": "2026-08-13"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.12251",
+  "title": "Regime-Gated Residual Mixture-of-Experts for Cross-Sectional Volatility Forecasting",
+  "date_sent": "2026-08-13"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.11344",
+  "title": "Governing Agentic AI in FinTech",
+  "date_sent": "2026-08-13"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.11327",
+  "title": "Long-Horizon Forecasting of Complete Financial Statements with Forma",
+  "date_sent": "2026-08-13"
+ },
+ {
+  "url": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
+  "title": "AI agents lie, cheat and steal. That is putting off users",
+  "date_sent": "2026-08-13"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/13/business/humanoid-robot-us-china.html",
+  "title": "America Wants to Make Its Own Humanoid Robots. That Won't Be Easy.",
+  "date_sent": "2026-08-13"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/11/technology/brad-lightcap-openai.html",
+  "title": "A Top OpenAI Executive Steps Down",
+  "date_sent": "2026-08-13"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.12363",
+  "title": "EU-ETS under attack? The impact of carbon price suppression on the decarbonization of the power sector",
+  "date_sent": "2026-08-14"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.12589",
+  "title": "Supervised Mixed-Frequency Learning for Macro-Financial Forecasting When Factors are Weak",
+  "date_sent": "2026-08-14"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.12558",
+  "title": "Algorithm Transparency and Search Manipulation: Steering vs. Persuasion",
+  "date_sent": "2026-08-14"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.11371",
+  "title": "Do People Follow AI Advice? Evidence from a Pension Portfolio Choice Experiment",
+  "date_sent": "2026-08-14"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.11250",
+  "title": "AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search",
+  "date_sent": "2026-08-14"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.12259",
+  "title": "Calibration Bets on the Past: Post-Training Quantization for Financial Time-Series Forecasting",
+  "date_sent": "2026-08-14"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.13096",
+  "title": "FlowLOB: Efficient and Controllable Limit Order Book Generation with Flow Matching",
+  "date_sent": "2026-08-14"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.13082",
+  "title": "LOB-ID: Evaluating Synthetic Market Data by Inception Distances",
+  "date_sent": "2026-08-14"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.13056",
+  "title": "Simulating Stress Laws under Extremal Dependence: Characterizing What Generative Models Must Preserve",
+  "date_sent": "2026-08-14"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.12583",
+  "title": "Diffusion Models in Finance: A Survey",
+  "date_sent": "2026-08-14"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.12587",
+  "title": "DYSANOS: Generative Dynamic Smooth Arbitrage-free Non-parametric Option Surfaces",
+  "date_sent": "2026-08-14"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.12594",
+  "title": "What Makes a Peer? Valuation-Anchored Similarity in Private Markets",
+  "date_sent": "2026-08-14"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.12424",
+  "title": "AI-Driven Multiscenario Interest Rate Forecasting: A Proof of Concept for Banking Asset Management",
+  "date_sent": "2026-08-14"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/08/14/ai-becomes-major-election-issue-first-time-data-shows/",
+  "title": "American anxiety about AI is becoming a political force in the midterms",
+  "date_sent": "2026-08-14"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/14/opinion/ai-policy-tax-technology.html",
+  "title": "Opinion: These A.I. Policies Will Hurt Our Business. We Should Do Them Anyway.",
+  "date_sent": "2026-08-14"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2025.2166",
+  "title": "Separation of Nonergodic Uniform Convergence Rates for Regularized Learning in Games",
+  "date_sent": "2026-08-16"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/16/business/ai-data-centers.html",
+  "title": "With A.I. Riches at Stake, Pressures Mount to Share the Wealth",
+  "date_sent": "2026-08-16"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/14/business/ai-tech-profits.html",
+  "title": "Tech Giants' Profits Reveal Potential Vulnerability in the Stock Market",
+  "date_sent": "2026-08-16"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/14/business/stock-market-ai-bonds-rally.html",
+  "title": "The Markets Have Been on a Roll. Is It Time to Hedge Your Bets?",
+  "date_sent": "2026-08-16"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35597",
+  "title": "AI in a Fragmenting World",
+  "date_sent": "2026-08-17"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.14528",
+  "title": "Handover of In-Context Learning State Across Session Boundaries",
+  "date_sent": "2026-08-17"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.14014",
+  "title": "Buy the Rumor, Sell the News: When Is News Priced In?",
+  "date_sent": "2026-08-17"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.14323",
+  "title": "Dependence-Informed Sparse Neural Architecture for Stock Return Prediction",
+  "date_sent": "2026-08-17"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.14134",
+  "title": "Photonic Quantum Computing vs. Classical Solvers in Constrained Factor Portfolio Optimization",
+  "date_sent": "2026-08-17"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/17/business/robots-stellantis-inbolt.html",
+  "title": "How to Make a Robot Better at Its Job? Give It Eyes.",
+  "date_sent": "2026-08-17"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35618",
+  "title": "The Global Transition – The Impact of Demographics and AI on Economic Power",
+  "date_sent": "2026-08-18"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35620",
+  "title": "One Click Away: AI Tutoring with Khanmigo in a Two-Year School Experiment",
+  "date_sent": "2026-08-18"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35621",
+  "title": "Making AI Tutoring Productive: Evidence from a Mastery-Based Math Practice Experiment",
+  "date_sent": "2026-08-18"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35632",
+  "title": "Taxpayer Behavior in the Age of AI: A Field Experiment on Property Tax Appeals",
+  "date_sent": "2026-08-18"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7283198",
+  "title": "The AI Investment Boom and Housing Wealth: Evidence from Data Centers",
+  "date_sent": "2026-08-18"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7277338",
+  "title": "Shadow AI and Knowledge Governance in Firms",
+  "date_sent": "2026-08-18"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.16827",
+  "title": "Biases-Informed Job Search Guidance: Characterization, Implications, and Targeting Support",
+  "date_sent": "2026-08-18"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7300331",
+  "title": "Generative AI Service Outages and Price Impact in Cryptocurrency Markets",
+  "date_sent": "2026-08-18"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.15841",
+  "title": "Self-Supervised Auxiliary Task Discovery for Stable Reinforcement Learning in Stock Trading",
+  "date_sent": "2026-08-18"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/17/technology/nvidia-ohio-data-center-openai.html",
+  "title": "Nvidia to Back Ohio Data Center With as Much as $105 Billion",
+  "date_sent": "2026-08-18"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html",
+  "title": "China Wants to Shape What the World's A.I. Knows",
+  "date_sent": "2026-08-18"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.17624",
+  "title": "Governing Delegation to Generative Artificial Intelligence: Human Direction, Work-Related Orientation, and Modes of Use",
+  "date_sent": "2026-08-19"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.17111",
+  "title": "Stranded credentials: how a skill-signaling market absorbed generative AI",
+  "date_sent": "2026-08-19"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.17715",
+  "title": "Communicating Credit Risk with Large Language Models: Evaluation of Explanations from Standard and Alternative Data-Based Models",
+  "date_sent": "2026-08-19"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/18/us/politics/ai-national-debt-budget.html",
+  "title": "An A.I. Tax Boom Could Curtail America's Debt. But Not Solve It.",
+  "date_sent": "2026-08-19"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/18/business/unitree-ipo-trading.html",
+  "title": "Chinese Robot Maker Unitree Soars 500 Percent in Trading Debut",
+  "date_sent": "2026-08-19"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/18/nyregion/how-new-york-is-restricting-data-centers.html",
+  "title": "How New York Is Restricting Data Centers",
+  "date_sent": "2026-08-19"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/08/18/americans-under-30-are-becoming-more-pessimistic-about-artificial-intelligence/",
+  "title": "Young Americans really hate AI. These two charts show how much.",
+  "date_sent": "2026-08-19"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/08/19/mathematicians-ask-whats-left-humans-when-ai-can-do-math-research/",
+  "title": "AI triggers a wave of anxiety among the world's greatest math minds",
+  "date_sent": "2026-08-19"
+ },
+ {
+  "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
+  "title": "Does AI stop children from learning?",
+  "date_sent": "2026-08-19"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.18554",
+  "title": "CentaurBench: Benchmarking LLM Capabilities on Augmenting vs. Automating Real-World Work Tasks",
+  "date_sent": "2026-08-20"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.18265",
+  "title": "How AI Prompts Can Teach Us About the Structure of Human Behavior",
+  "date_sent": "2026-08-20"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.18690",
+  "title": "Europe's Climate Ambition Under Scrutiny: Evidence from Deep Learning Emission Projections",
+  "date_sent": "2026-08-20"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.18195",
+  "title": "Multi-Level Market Making with Reinforcement Learning",
+  "date_sent": "2026-08-20"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2024.07450",
+  "title": "Beyond the Black Box: Unraveling the Role of Explainability in Human-Artificial Intelligence Collaboration",
+  "date_sent": "2026-08-20"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/08/20/ai-is-increasing-inequality-economists-hedge-fund-leaders-warn/",
+  "title": "A new force is increasing inequality in America",
+  "date_sent": "2026-08-20"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/20/world/asia/ai-jobs-data-annotation-india-karur.html",
+  "title": "Where A.I. Is Creating Jobs for Humans — For a While",
+  "date_sent": "2026-08-20"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/19/business/stripe-openrouter-ai.html",
+  "title": "Stripe Buys A.I. Start-Up OpenRouter for $7.5 Billion",
+  "date_sent": "2026-08-20"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/19/business/dealbook/bonds-yields-treasury-ai.html",
+  "title": "The Rising Stakes of the Global Bond Rout",
+  "date_sent": "2026-08-20"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/19/technology/data-centers-backlash-loudoun-virginia.html",
+  "title": "A County Got Rich From Data Centers. Some Question 'At What Cost?'",
+  "date_sent": "2026-08-20"
+ },
+ {
+  "url": "https://www.economist.com/business/2026/08/19/the-war-on-data-centres-is-a-bit-fake",
+  "title": "The war on data centres is a bit fake",
+  "date_sent": "2026-08-20"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.20304",
+  "title": "Calibration-Induced Degeneracy in LLM Financial Forecasting: An Audit-Trailed Case Study on Next-Day Market Risk",
+  "date_sent": "2026-08-21"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.19389",
+  "title": "Concentrated Liquidity Provision: a Reinforcement Learning Perspective",
+  "date_sent": "2026-08-21"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.19394",
+  "title": "Deep-MKV-TS: Path-Dependent McKean–Vlasov Control for Financial Time Series Generation",
+  "date_sent": "2026-08-21"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/20/business/bond-yields-tech-ai-debt.html",
+  "title": "How the A.I. Borrowing Binge Helps Drive Up Government Bond Yields",
+  "date_sent": "2026-08-21"
+ },
+ {
+  "url": "https://www.washingtonpost.com/business/2026/08/21/how-ai-energy-crisis-revived-failed-nuclear-project/",
+  "title": "How a failed project could help solve the world's biggest energy need",
+  "date_sent": "2026-08-21"
+ },
+ {
+  "url": "https://www.economist.com/business/2026/08/20/how-to-measure-returns-on-ai",
+  "title": "How to measure returns on AI",
+  "date_sent": "2026-08-21"
+ },
+ {
+  "url": "https://www.economist.com/business/2026/08/20/yuval-noah-harari-on-the-economic-and-political-perils-of-ai",
+  "title": "Yuval Noah Harari on the economic and political perils of AI",
+  "date_sent": "2026-08-21"
+ },
+ {
+  "url": "https://www.economist.com/business/2026/08/20/can-reddit-survive-in-the-ai-era",
+  "title": "Can Reddit survive in the AI era?",
+  "date_sent": "2026-08-21"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/21/technology/anthropic-ipo-100-billion.html",
+  "title": "Anthropic Could Aim to Raise $100 Billion in Blockbuster I.P.O.",
+  "date_sent": "2026-08-22"
+ },
+ {
+  "url": "https://www.nytimes.com/interactive/2026/08/21/world/asia/china-ai-life.html",
+  "title": "A.I. Is Everywhere in China. See For Yourself.",
+  "date_sent": "2026-08-22"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/21/opinion/data-centers-electricians-union-labor.html",
+  "title": "Opinion: Electricians Love Data Centers. You Should, Too.",
+  "date_sent": "2026-08-22"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/21/podcasts/openais-two-week-pause-jill-lepore-on-the-threat-of-the-artificial-state-train-of-thought.html",
+  "title": "Hard Fork: OpenAI Two-Week Pause + Jill Lepore on the Artificial State",
+  "date_sent": "2026-08-22"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.19227",
+  "title": "M3: A State-Event Generative Foundation Model for Market Microstructure Dynamics",
+  "date_sent": "2026-08-23"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.19217",
+  "title": "CAT Bond Pricing with Kolmogorov-Arnold Networks",
+  "date_sent": "2026-08-23"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/23/us/politics/data-centers-midterm-elections.html",
+  "title": "The Data Center Backlash Bursts Into the Midterms",
+  "date_sent": "2026-08-23"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/08/23/most-gop-politicians-now-talk-negatively-about-data-centers-data-shows/",
+  "title": "See the moment when Republican politicians turned against data centers",
+  "date_sent": "2026-08-23"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/22/business/dealbook/harvard-ai-faculty.html",
+  "title": "Harvard Is Selling a $699 Course Taught by A.I. Clones of Its Faculty",
+  "date_sent": "2026-08-23"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35641",
+  "title": "Benchmark Mineability and the Financing of AI Innovation",
+  "date_sent": "2026-08-24"
+ },
+ {
+  "url": "https://www.economist.com/business/2026/08/23/china-will-struggle-to-make-money-from-humanoid-robots",
+  "title": "China will struggle to make money from humanoid robots",
+  "date_sent": "2026-08-24"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/23/business/schools-big-tech-google-microsoft.html",
+  "title": "How Big Tech Captured American Schools",
+  "date_sent": "2026-08-24"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.23524",
+  "title": "The Measurement Revolution? Credible Measurement and Inference in the Age of AI",
+  "date_sent": "2026-08-25"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.22697",
+  "title": "Does Rank Still Matter? Position Bias When AI Agents Shop on Our Behalf",
+  "date_sent": "2026-08-25"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.23420",
+  "title": "Systematic Bias in Green Patent Classification: Silent Green and False Green",
+  "date_sent": "2026-08-25"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.22706",
+  "title": "Double/Debiased Machine Learning for Functional-Form-Robust Spatial Autoregression",
+  "date_sent": "2026-08-25"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7339038",
+  "title": "Talk or Deployment? AI Disclosure and the Limits of Text-Based Adoption Measures",
+  "date_sent": "2026-08-25"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7342398",
+  "title": "AI as Individualised Persona: A Useful Addition to the Economist's Toolbox? The case of \"Stephen Littlechild AI Agent\"",
+  "date_sent": "2026-08-25"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.22852",
+  "title": "Your AI, On a Dial: Controlling Investment Bias in LLMs with a Single Neuron",
+  "date_sent": "2026-08-25"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.23393",
+  "title": "KellyBoost: Growth-Optimal Portfolio Construction with Gradient-Boosted Trees",
+  "date_sent": "2026-08-25"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7317847",
+  "title": "AI Persuasion and Financial-Decision Making: Experimental Evidence on Dominated Investment Choices",
+  "date_sent": "2026-08-25"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7347078",
+  "title": "AI-Related Investor Inquiries and Corporate AI Washing: Monitoring Versus Catering",
+  "date_sent": "2026-08-25"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7345265",
+  "title": "End-to-End Deep Learning for Portfolio Optimization: Direct Portfolio Weight Prediction in Daily Trading",
+  "date_sent": "2026-08-25"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/24/business/sec-situational-awareness-investigation.html",
+  "title": "S.E.C. Investigating Near-Implosion of A.I. Hedge Fund",
+  "date_sent": "2026-08-25"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/25/business/dealbook/emerald-ai-start-up-data-center-backlash.html",
+  "title": "This A.I. Start-Up Aims to Reverse the Backlash Against Data Centers",
+  "date_sent": "2026-08-25"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.24670",
+  "title": "AI worsens climate change, integrated assessment shows",
+  "date_sent": "2026-08-26"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.24851",
+  "title": "Learning Whom to Trust: Decision-Generated Credibility in Social Learning",
+  "date_sent": "2026-08-26"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35637",
+  "title": "Political Entrepreneurs",
+  "date_sent": "2026-08-26"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.24786",
+  "title": "Harvesting the Volatility Risk Premium: A Learning-to-Rank Approach",
+  "date_sent": "2026-08-26"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.24703",
+  "title": "Lead-Lag Relationships in Financial Markets: A Comparison of Multiple Clustering Algorithms",
+  "date_sent": "2026-08-26"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.24582",
+  "title": "findr: Transparent and Fair Credit Risk Decisions through Semi-Structured Regressions",
+  "date_sent": "2026-08-26"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/08/26/bill-gates-says-he-worried-ai-will-harm-workers-kids-society/",
+  "title": "Bill Gates says he's worried AI will harm workers, kids and society",
+  "date_sent": "2026-08-26"
+ },
+ {
+  "url": "https://www.washingtonpost.com/business/2026/08/25/wall-street-journal-says-ai-generated-op-ed-didnt-breach-its-standards/",
+  "title": "Wall Street Journal says AI-generated op-ed didn't breach its standards",
+  "date_sent": "2026-08-26"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.27364",
+  "title": "Sophistication in GenAI Use: Field Evidence from a Large Firm",
+  "date_sent": "2026-08-28"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.25602",
+  "title": "The Reverse Big Push: Generative AI and Self-Fulfilling Automation",
+  "date_sent": "2026-08-28"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.25678",
+  "title": "Normative boundaries of AI in scientific work: Evidence from PhD researchers",
+  "date_sent": "2026-08-28"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.26584",
+  "title": "DIRECT: Decomposing Audience Preference and Creative Effect in Visual Content Analytics",
+  "date_sent": "2026-08-28"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.27295",
+  "title": "A Temporal Multiplex Graph Neural Network for Systemic Risk Transmission in Global Banking",
+  "date_sent": "2026-08-28"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.27076",
+  "title": "Tabular Deep Learning for Algorithmic Trading: Cross-Regime Bayesian Optimisation for Equity Signal Generation",
+  "date_sent": "2026-08-28"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.26837",
+  "title": "Interpretable hybrid credit scoring for thin-file and underbanked populations",
+  "date_sent": "2026-08-28"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.26473",
+  "title": "DTD-VAE: Disentangled Temporal Dependencies VAE for Credit Risk Prediction",
+  "date_sent": "2026-08-28"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.27229",
+  "title": "On the approximation of posterior laws in compound loss models by conditional Wasserstein GANs",
+  "date_sent": "2026-08-28"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/msom.2024.1182",
+  "title": "Dynamic Learning for Joint Pricing, Advertising, and Inventory Management",
+  "date_sent": "2026-08-28"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/28/business/ai-stock-market-bull-rally.html",
+  "title": "What if the A.I. Stock Market Rally Is Just Getting Started?",
+  "date_sent": "2026-08-28"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/28/business/china-artificial-intelligence-zai.html",
+  "title": "China Sees Opportunity in America's Recent A.I. Security Scares",
+  "date_sent": "2026-08-28"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/28/realestate/as-ai-money-floods-the-market-san-francisco-renters-weigh-buyouts.html",
+  "title": "As A.I. Money Floods the Market, San Francisco Renters Weigh Buyouts",
+  "date_sent": "2026-08-28"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/27/technology/meta-anthropic-frenemies.html",
+  "title": "Meta Took Aim at Anthropic. It Is Also One of Its Largest Customers.",
+  "date_sent": "2026-08-28"
+ },
+ {
+  "url": "https://www.economist.com/asia/2026/08/27/can-ai-make-dysfunctional-governments-more-effective",
+  "title": "Can AI make dysfunctional governments more effective?",
+  "date_sent": "2026-08-28"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.26924",
+  "title": "The Pulse Beneath the Job Title: Monthly Readings of Requirements and Tasks from 750 Million Chinese Job Ads",
+  "date_sent": "2026-08-29"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.26114",
+  "title": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
+  "date_sent": "2026-08-29"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.26127",
+  "title": "Graph-Based Modeling of Financial Volatility Dynamics",
+  "date_sent": "2026-08-29"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.26115",
+  "title": "Option-Implied Signals and Crash Risk: Predictability and Machine-Learning Evidence from U.S. Equity Options",
+  "date_sent": "2026-08-29"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.26174",
+  "title": "Forecasting Economically Significant Bitcoin Moves: A Multi-Scale TCN with Profit-Optimized Thresholds",
+  "date_sent": "2026-08-29"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.26106",
+  "title": "A Statistical-Finance Benchmark for Same-Day Directional Stock Prediction: Walk-Forward Evidence from SPY",
+  "date_sent": "2026-08-29"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/08/29/federal-reserve-officials-are-debating-ais-effect-economy-jobs/",
+  "title": "Federal Reserve officials are debating AI's effect on the economy and jobs",
+  "date_sent": "2026-08-29"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/30/business/forward-deployed-ai.html",
+  "title": "Help Wanted: 'Forward-Deployed' Humans for the A.I. Era",
+  "date_sent": "2026-08-30"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/08/29/business/dealbook/ai-generated-music.html",
+  "title": "Thievery or Innovation? The Music Industry Grapples With A.I.",
+  "date_sent": "2026-08-30"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.27734",
+  "title": "What survives honest evaluation? Leakage-safe, search-aware assessment of LLM-driven trading strategy discovery",
+  "date_sent": "2026-08-31"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.28399",
+  "title": "RetailAgent: Structured Adverse Timing in Self-Conditioned Multimodal LLM Trading Agents",
+  "date_sent": "2026-08-31"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.29843",
+  "title": "The Price of Intelligence: A Quality-Adjusted Price Index for AI Services",
+  "date_sent": "2026-09-01"
+ },
+ {
+  "url": "https://arxiv.org/abs/2608.30522",
+  "title": "Tariff Threats, Macroeconomic Expectations, and Policy Communication Strategies: Experiments Based on a Multi-Agent System",
+  "date_sent": "2026-09-01"
+ },
+ {
+  "url": "https://www.washingtonpost.com/business/2026/08/31/china-ipo-shares-ai-robotics-shein/8b71f64a-a4f2-11f1-9e38-f705d048bd5a_story.html",
+  "title": "AI and robotics drive an IPO boom in China as Shein lists in Hong Kong",
+  "date_sent": "2026-09-01"
+ },
+ {
+  "url": "https://www.washingtonpost.com/politics/2026/08/31/trump-says-voters-who-oppose-data-centers-will-kill-golden-goose/",
+  "title": "Trump says voters who oppose data centers will 'kill the Golden Goose'",
+  "date_sent": "2026-09-01"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35865",
+  "title": "Financing the AI Buildout",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35859",
+  "title": "How Heavily Are PhD Students Offloading Their Scientific Writing to AI? Evidence from US STEM PhD Dissertations",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35828",
+  "title": "Liability and Pricing of Dual-Use AI",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35796",
+  "title": "The Early Impacts of AI on Employment among Recent College Graduates",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35793",
+  "title": "The Macroeconomic Effect of AI: Sizing the Software Engineering Channel",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35806",
+  "title": "Deep Learning as a Projection Method for Solving Economic Models",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://www.nber.org/papers/w35782",
+  "title": "An LLM Workflow That Reproduces, Improves, and Extends Published Economics Research",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7574879",
+  "title": "Generative AI and the Limits of Productivity Measurement in the System of National Accounts",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7373658",
+  "title": "Generative AI, Net Productivity, and Firm Valuation: Evidence from Firm-Level Data",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7555398",
+  "title": "LLM Pricing Agents as Rote Learners",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.11256",
+  "title": "Who Leads and Who Collects: Algorithmic Collusion in Markets of Heterogeneous Language Models",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.11177",
+  "title": "Dynamic Mechanism and Information Design in AI-Agent Environments: A General Analytical Framework",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.08264",
+  "title": "Understanding Interfirm AI Talent Flow Networks through Online Professional Profiles",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.05823",
+  "title": "Who Keeps the Gains from Personal AI Assistants? Seller Adaptation and the Unassisted in a Language-Model Market Simulation",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.07003",
+  "title": "Reliability of AI Agents: Rater Effects, Drift, and the Return to an Evaluation Program",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.02492",
+  "title": "Right Order, Wrong Scale: Auditing LLM Judges for Occupational AI Measurement",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.01935",
+  "title": "Pragmatic DML with AI-Learned Representations",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.38262",
+  "title": "When Does Randomized Oversight Align AI Agents That Can Conceal?",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.35448",
+  "title": "AI-based matching improves refugee employment in a double-blind randomized trial",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.32476",
+  "title": "Economic Governance of Autonomous Agents and Robots: Factor-Origin Accounting and Social Automation Funds",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.31468",
+  "title": "PriceBench: A Diagnostic Benchmark for Price, Quality, and Brand Preferences in LLM Booking Agents",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.28372",
+  "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.27404",
+  "title": "When Trust Attracts Fraud: AI and Trust Arbitrage",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.27686",
+  "title": "Mining Meaning: Measurement Error in AI-Assisted Literature Reviews",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.22408",
+  "title": "Social Influence and the Allocation of Scientific Attention in AI Populations",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.19843",
+  "title": "A Dual-Process Perspective on Nudge Susceptibility in LLM-Based GUI Agents",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.17989",
+  "title": "Whom Do AI Agents Work For? Role Assignment Induces Sponsorship Bias in LLM Recommenders",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.28504",
+  "title": "AI in Science: Early Insights",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.16258",
+  "title": "The AI-Enabled Scientific Frontier",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.14750",
+  "title": "Redistributive Policies for the Times of Transformative AI",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.08485",
+  "title": "AI Innovation and Firm Performance in the Medical Device Industry",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.07731",
+  "title": "The Profit Alignment Problem: How Profit Mandates Induce Alignment Failures in LLMs",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.07358",
+  "title": "Access to Live AI Advice and Behavior Under Risk: An Incentivized Experiment",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.02580",
+  "title": "Competitive Market Behavior of LLMs",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7549841",
+  "title": "From Individual Decisions to Collective Outcomes: A Review of LLM Agents in Financial Markets",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7397642",
+  "title": "Do Large Language Models Overvalue AI Narratives?",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.04040",
+  "title": "Agent Policy-Value Audit: Separating Transition Composition from Event Selection in Financial LLM Agents",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.03080",
+  "title": "MintEval: Do LLMs Implement the Trading Strategy You Asked For? A Behavioural-Equivalence Benchmark for Natural-Language-to-Strategy Code",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.02863",
+  "title": "Multi-Agent AI as a Nested Principal-Agent Problem in Private Wealth Management",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.03076",
+  "title": "Shapley-based Structural Analysis of Neural Calibration for Stochastic Volatility Models",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.00619",
+  "title": "Beyond Supra-Competitive Outcomes: Collusive Behaviour in Deep Reinforcement Learning for Optimal Execution Games",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.33470",
+  "title": "LiveOption: Evaluating LLM Agents in Structured Option Trading with Nonlinear Payoffs",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.33058",
+  "title": "Evolution of Market Microstructure in the Age of AI",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.31260",
+  "title": "Agentic Limit Order Books: Phase Transitions and Market Impact",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.31013",
+  "title": "Same Text, Different Numbers: The Divergence of LLM-Based Measures",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.30940",
+  "title": "Financial Fragility in Societies of LLM Agents: Coordination Failures and Stabilizing Mechanisms",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.27051",
+  "title": "Propose, Don't Judge: An Anytime-Valid Referee for LLM Agents That Mine Investment Factors",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.23703",
+  "title": "Financial Language Models as Applied Artificial Intelligence Systems for News-Based Trading under Market Frictions",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.27636",
+  "title": "Multi-Agent AI Architecture for Regulated Insurers: A generic AI framework under Solvency II and the AI Act",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.27632",
+  "title": "Compliant AI Infrastructure for Regulated Finance: A tiered multi-agent framework with DLT audit trails",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.15319",
+  "title": "Clean Scores, Buried Evidence, and Confident Wrong: A Receipt-Based Audit of Frontier Agentic QA",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.15744",
+  "title": "Design of a Deep Learning Credit Risk Early Warning System Integrating Multi-source Heterogeneous Data",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.13825",
+  "title": "ViperQ: Order Flow Pattern Recognition via Auction Market Theory for Reinforcement Learning Trading",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.11614",
+  "title": "Deep Learning of Robust Market Making under Regime-Switching Order Flow",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.08166",
+  "title": "AI for AI: Optimizing Additional Infrastructure Build-out to Power Artificial Intelligence Data Centers",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.06085",
+  "title": "Explainable Deep Learning for Price-Trade Dynamics: From Black-Box Forecasts to Effective Parametric Models",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.04917",
+  "title": "Artificial Intelligence in Equity and Crypto Markets: Progress, Profitability Evidence, and the Limits of Automated Investing",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.03218",
+  "title": "The Analyst in the Prompt: Role, Retrieval, and Memory Biases in LLM Financial Analysis",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.02992",
+  "title": "Tempting the Agent: The Economics of Reputation without Persistent Identity in AI Agent Markets",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.02677",
+  "title": "Eliciting ESG Preferences for Reinforcement Learning-Based Portfolio Optimization",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.00731",
+  "title": "Agentic Empirical Asset Pricing: Methodological Foundations",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/msom.2023.0277",
+  "title": "AI on Time? Evidence from Curb-to-Gate Facial Recognition",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/msom.2024.1514",
+  "title": "Pay with Your Data: Optimal Data-Sharing Mechanisms for AI Services",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.02458",
+  "title": "Generative Search: Evidence from a Large-Scale Field Experiment",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2024.04540",
+  "title": "Sequential Search Transformer: A Deep Structural Econometric Model",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2024.06516",
+  "title": "Using Representation Learning and Website Text to Identify Competitor Networks",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2024.1190",
+  "title": "Reinforcement Learning for Intensity Control: An Application to Choice-Based Network Revenue Management",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2025.2370",
+  "title": "Feature-Rich, Data-Private: A Sparse Learning Framework for the High-Dimensional Newsvendor",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2024.1376",
+  "title": "Conformal Inverse Optimization for Adherence-Aware Prescriptive Analytics",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2025.1378",
+  "title": "Learning to Simulate: Generative Metamodeling via Quantile Regression",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2024.1033",
+  "title": "Learning Capacity Constraints with Convex Neural Networks in Lot-Sizing Problems",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2025.1251",
+  "title": "Adversarial Training–Based Deep Imbalanced Learning",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/isre.2024.1361",
+  "title": "The Impact of Generative AI on Collaborative Open-Source Software Development: Evidence from GitHub Copilot",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/isre.2025.2155",
+  "title": "Generative AI, Platform Stances, and Content Creator Behavior",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/abs/10.1287/isre.2024.0927",
+  "title": "How Platform Workers Contest Algorithmic Management: Theorizing the Dynamics of Algoactivistic Practices",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.14767",
+  "title": "Loop-Back Authority in LLM Agent Teams: A Paired Experiment on Flat and Hierarchical Coordination",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.01008",
+  "title": "Modeling Shipping Emissions: Machine Learning, Engineering, and Policy Counterfactuals",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2609.11915",
+  "title": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.10727",
+  "title": "Deep Learning vs. Statistical Models for Multi-Horizon Price Forecasting of Second-Hand Electronics: A Systematic Benchmark",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://www.washingtonpost.com/business/2026/10/07/datacenter-boom-is-pushing-prices-higher-fed-officials-said/",
+  "title": "Data center boom is pushing prices higher, according to Fed officials",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/10/07/ai-is-propping-up-economy-including-manufacturing-ads-energy/",
+  "title": "The unexpected ways that AI is reshaping the U.S. economy",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/10/08/think-tank-says-federal-tax-tweak-could-help-offset-ai-job-losses/",
+  "title": "Here's an idea to help workers displaced by AI",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://www.washingtonpost.com/technology/2026/10/09/anthropic-discloses-incidents-its-ai-models-misusing-government-sites/",
+  "title": "Anthropic AI agents took 'unintended' actions on government sites",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/10/10/business/dealbook/ai-verification-tax-rework.html",
+  "title": "What's Dragging Down A.I. Efficiency? The 'Verification Tax.'",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/10/02/world/asia/china-ai-overuse.html",
+  "title": "China's Push Into A.I. Has Led to a Problem: Too Much Usage",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://www.economist.com/business/2026/10/08/the-rise-of-the-ai-marketplace",
+  "title": "The rise of the AI marketplace",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://www.economist.com/business/2026/10/01/youre-not-sending-an-email-youre-training-a-model",
+  "title": "You're not sending an email. You're training a model",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://www.economist.com/finance-and-economics/2026/09/29/the-ai-boom-meets-a-new-kind-of-crypto-scam",
+  "title": "The AI boom meets a new kind of crypto scam",
+  "date_sent": "2026-10-11"
+ },
+ {
+  "url": "https://www.economist.com/podcasts/2026/10/01/how-to-short-ai-with-carson-block",
+  "title": "How to short AI with Carson Block",
+  "date_sent": "2026-10-11"
+ }
+]

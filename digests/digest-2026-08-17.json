@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-17",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "AI in a Fragmenting World",
+          "url": "https://www.nber.org/papers/w35597",
+          "desc": "Eichengreen and co-authors link AI diffusion to geoeconomic fragmentation, asking how trade and production-network position plus AI preparedness determine which economies capture the gains, with a focus on MENAP countries. They find frontier AI innovation is concentrated in a few economies and that fragmentation slows diffusion and skews its distribution. [NBER WP 35597, issued 2026-08-17]"
+        },
+        {
+          "title": "Handover of In-Context Learning State Across Session Boundaries",
+          "url": "https://arxiv.org/abs/2608.14528",
+          "desc": "Formalizes what information an LLM application must carry across session boundaries when context limits, restarts, or agent hand-offs force a task to continue in a new session, treating handover as transfer of a task-relative in-context learning state. Develops econometric-style conditions (exogeneity, predictive equivalence) for when a coarser summary preserves the target predictive distribution. [arXiv cs.AI/econ.EM, posted 2026-08-14]"
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "Buy the Rumor, Sell the News: When Is News Priced In?",
+          "url": "https://arxiv.org/abs/2608.14014",
+          "desc": "Tests how fast markets absorb public information using 4.57 million financial news articles on ~3,000 US stocks (2023-2026), with an LLM teacher distilled via active learning into a compact classifier that tags each article by event type and attributes. Articles are clustered into stories to separate first reports from follow-ups, and abnormal returns are measured around 1.68 million stock-day events. [arXiv q-fin, posted 2026-08-14]"
+        },
+        {
+          "title": "Dependence-Informed Sparse Neural Architecture for Stock Return Prediction",
+          "url": "https://arxiv.org/abs/2608.14323",
+          "desc": "Proposes replacing arbitrary depth and width choices in neural stock-return models with an architecture derived from the dependence structure among firm characteristics, estimated by a Maximally Filtered Clique Forest. The resulting sparse network is intended to be more interpretable in financial terms than a generic deep net. [arXiv q-fin, posted 2026-08-14]"
+        },
+        {
+          "title": "Photonic Quantum Computing vs. Classical Solvers in Constrained Factor Portfolio Optimization",
+          "url": "https://arxiv.org/abs/2608.14134",
+          "desc": "Benchmarks three optimization paradigms for institutional factor portfolio construction: an entropy-based photonic quantum annealer, a commercial mixed-integer programming solver, and a model-free deep reinforcement learning agent. Provides an empirical comparison of solution quality and runtime under realistic portfolio constraints. [arXiv q-fin, posted 2026-08-14]"
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": []
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "With A.I. Riches at Stake, Pressures Mount to Share the Wealth",
+          "url": "https://www.nytimes.com/2026/08/16/business/ai-data-centers.html",
+          "desc": "State and local policymakers are pushing to capture more of the economic value created by AI data centers, with Virginia becoming the first state to tax data centers on the electricity they consume. The piece frames a broader fiscal fight over who pays for and who benefits from AI infrastructure buildout. [NYT, published 2026-08-16]"
+        },
+        {
+          "title": "How to Make a Robot Better at Its Job? Give It Eyes.",
+          "url": "https://www.nytimes.com/2026/08/17/business/robots-stellantis-inbolt.html",
+          "desc": "French start-up Inbolt sells vision systems that let factory robot arms adapt to parts that sit slightly out of position, eliminating the freezes and crashes that cost manufacturers line time. A Stellantis plant in Detroit credits the technology with becoming one of the company's top performers. [NYT, published 2026-08-17]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: 2026-08-16 (last run) through 2026-08-17. arXiv's submittedDate index had not yet advanced past 2026-08-14 at run time, so the arXiv sweep was widened to 2026-08-13 onward and deduped against history. SSRN search was unreachable this run (papers.ssrn.com/sol3/results.cfm returns an error page), so no SSRN items were verified. INFORMS Articles in Advance for Management Science, M&SOM, and Operations Research showed nothing published on or after 2026-08-16. The Economist and Washington Post had no in-window articles on AI in economics, finance, or operations."
+}

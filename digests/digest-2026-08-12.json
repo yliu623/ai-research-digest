@@ -1,0 +1,86 @@
+{
+  "date": "2026-08-12",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "Pricing Intelligence: Task-Based Learning and Labor Displacement in the AI Economy",
+          "url": "https://arxiv.org/abs/2608.11112",
+          "desc": "A microeconomic model in which AI providers sell access to users who complete tasks with AI or labor, and AI learns from the complex tasks delegated to it; the author shows a tension between profit maximization and complex-task learning that shapes the speed and direction of AI progress and labor displacement. [arXiv econ.TH, submitted 2026-08-11]"
+        },
+        {
+          "title": "Beyond the Grid: Cost, Carbon, and Capital Requirements of On-Site Power Technologies for AI Data Centers",
+          "url": "https://arxiv.org/abs/2608.08170",
+          "desc": "Argues interconnection queues, not electricity prices, now determine where data centers can be built, and evaluates nine on-site power supply technologies for AI data centers on cost, carbon, and capital requirements. [arXiv econ.EM, announced 2026-08-11]"
+        },
+        {
+          "title": "Dynamic Coalition Formation and Communication Pricing in Skill-Based Agentic AI Systems",
+          "url": "https://arxiv.org/abs/2608.07532",
+          "desc": "Models agent selection and communication as an economic problem in multi-agent LLM systems, where token cost, latency, and error propagation grow with active agents and links, and derives efficient coalition formation and communication-pricing rules. [arXiv econ.TH/cs.AI, announced 2026-08-11]"
+        },
+        {
+          "title": "Innovating with Generative AI: A Human Bottleneck Framework",
+          "url": "https://arxiv.org/abs/2608.07504",
+          "desc": "Proposes a framework in which the key constraints on innovation are cognitive and social bottlenecks — how people generate ideas, evaluate novelty, and communicate — and analyzes how generative AI relaxes or shifts each bottleneck. [arXiv econ.GN/cs.HC, announced 2026-08-11]"
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "AI Financial Advice: Supply, Demand, and Life Cycle Implications",
+          "url": "https://www.nber.org/papers/w35574",
+          "desc": "Has a representative sample write real prompts asking LLMs for spending and investing advice, then simulates lifetime outcomes of following it: GPT-5.2's advice moves households toward life-cycle theory (diversified equity participation, age-declining equity shares, bigger savings buffers), with recommendations varying by gender, AI experience, and financial literacy. [NBER w35574, issued August 2026, posted week of 2026-08-10]"
+        },
+        {
+          "title": "Beyond Cash Flows: A Multi-Agent AI Framework for Valuing Clinical-Stage, Cross-Border Biotechnology",
+          "url": "https://arxiv.org/abs/2608.10175",
+          "desc": "Builds a collaborative multi-agent LLM system (analysts, researchers, risk managers) for valuing clinical-stage, cross-border biotech companies, addressing gaps in current AI-driven investment analysis beyond standard cash-flow methods. [arXiv q-fin.PM, submitted 2026-08-10, announced 2026-08-12]"
+        },
+        {
+          "title": "Yield Curve Prediction with Machine Learning: Forecasting Approaches and the Role of Macroeconomic Predictors",
+          "url": "https://arxiv.org/abs/2608.07536",
+          "desc": "Compares direct-yield and factor-based machine learning approaches to U.S. Treasury yield-curve forecasting with a high-dimensional macro information set over a 2015-2025 out-of-sample period, finding gains over the random walk are concentrated in specific maturities and periods. [arXiv econ.GN/q-fin, announced 2026-08-11]"
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": [
+        {
+          "title": "When LLM Agents Negotiate: Private Information and Dynamic Bargaining in Supply Chains",
+          "url": "https://arxiv.org/abs/2608.07538",
+          "desc": "Benchmarks nine LLMs from OpenAI, Google, and Alibaba as autonomous procurement negotiators in a canonical supply chain bargaining problem — a buyer with private demand information negotiating a quantity-payment contract with an uninformed seller — asking whether delegated AI negotiators create value and avoid money-losing contracts. [arXiv cs.AI/econ.GN, announced 2026-08-11]"
+        }
+      ]
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "Nvidia's great silicon showdown",
+          "url": "https://www.economist.com/business/2026/08/11/nvidias-great-silicon-showdown",
+          "desc": "Nvidia's biggest customers — Amazon, Google, Meta, and Microsoft — are developing custom chips to reduce their dependence on the AI chipmaker, which is fighting back with a $500bn deal. [Economist, 2026-08-11]"
+        },
+        {
+          "title": "The Perils of Wall St.'s Race to Pour Billions More Into A.I.",
+          "url": "https://www.nytimes.com/2026/08/11/business/dealbook/ai-lending-nvidia-blackrock.html",
+          "desc": "Investors including BlackRock have committed enormous sums to lend to the AI industry, but not everyone shares the enthusiasm — DealBook examines the risks in the AI lending boom. [NYT DealBook, 2026-08-11]"
+        },
+        {
+          "title": "An A.I.-Focused Buyer of Service Firms Raises $2 Billion",
+          "url": "https://www.nytimes.com/2026/08/12/business/dealbook/thrive-holdings-ai-funding.html",
+          "desc": "Thrive Holdings, which acquires service businesses to infuse them with AI, raised $2 billion from backers including SoftBank — a bet on AI-driven roll-ups of traditional firms. [NYT DealBook, 2026-08-12]"
+        },
+        {
+          "title": "Why the U.S. Economy Needs A.I. — Bubble or Not",
+          "url": "https://www.nytimes.com/2026/08/12/opinion/ai-bubble-economy-crash.html",
+          "desc": "Opinion piece arguing the U.S. economy has become dependent on AI investment, using a hedge fund's $35 billion loss to probe the state of the industry and what a crash could mean. [NYT Opinion, 2026-08-12]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: 2026-08-11 (last run) to 2026-08-12. SSRN's site search was unavailable this run (error pages); INFORMS articles-in-advance (MNSC/MSOM/OPRE) had no new AI-related papers published online Aug 11-12; Washington Post had no in-scope AI items in the window."
+}

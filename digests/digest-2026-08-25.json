@@ -1,0 +1,90 @@
+{
+  "date": "2026-08-25",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "The Measurement Revolution? Credible Measurement and Inference in the Age of AI",
+          "url": "https://arxiv.org/abs/2608.23524",
+          "desc": "Dell and Rambachan review how AI converts unstructured text and images into economic variables at scale, shifting the research bottleneck from finding any measure to choosing among many plausible ones. They argue credible inference with AI-generated variables requires designed validation samples anchored to explicit criteria rather than informal claims that a proxy is reasonable. [arXiv econ.GN, posted 2026-08-24]"
+        },
+        {
+          "title": "Does Rank Still Matter? Position Bias When AI Agents Shop on Our Behalf",
+          "url": "https://arxiv.org/abs/2608.22697",
+          "desc": "Randomizing the order of 100 hotel listings across 5,000 AI-agent sessions, the authors compare four LLMs against human field data and find agents search far deeper and never decline to buy. Position still predicts inspection but weakly and non-monotonically — the middle of the page is least likely to be examined — and all models converge on the same undominated listing. [arXiv cs.AI/econ.GN, posted 2026-08-24]"
+        },
+        {
+          "title": "Systematic Bias in Green Patent Classification: Silent Green and False Green",
+          "url": "https://arxiv.org/abs/2608.23420",
+          "desc": "Screening 9.1 million USPTO patents with a fine-tuned domain model and two open-weight LLMs judging by consensus, the authors find widespread misclassification in the Y02 green-patent tags used in ESG research and investment. Correcting the errors shrinks the measured green-patent population by 25.5%, with ICT energy-efficiency codes falling 67.6%. [arXiv econ.EM, posted 2026-08-24]"
+        },
+        {
+          "title": "Double/Debiased Machine Learning for Functional-Form-Robust Spatial Autoregression",
+          "url": "https://arxiv.org/abs/2608.22706",
+          "desc": "This paper develops double/debiased machine learning inference for spatial autoregressive models when the spatial weights matrix is learned flexibly from possibly endogenous characteristics rather than assumed known. An operator-orthogonal score plus buffered spatial cross-fitting removes the first-order generated-weights effect and improves finite-sample inference under misspecification. [arXiv econ.EM, posted 2026-08-24]"
+        },
+        {
+          "title": "Talk or Deployment? AI Disclosure and the Limits of Text-Based Adoption Measures",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7339038",
+          "desc": "AI mentions in S&P 500 annual reports rose from 38.6% of firms in 2018 to 96.7% in 2025, but classifying 9,177 10-K paragraphs shows the growth comes from post-2022 disclosers who describe almost no working systems. No text-based measure of AI — mention counts or deployment share — is significantly associated with return on assets or sales growth. [SSRN, posted 2026-08-25]"
+        },
+        {
+          "title": "AI as Individualised Persona: A Useful Addition to the Economist's Toolbox? The case of \"Stephen Littlechild AI Agent\"",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7342398",
+          "desc": "The authors build a retrieval-augmented ChatGPT agent trained on six decades of economist Stephen Littlechild's papers and have regulatory professionals who know his work assess it. Reviewers rated the agent highly on insight, completeness and accuracy but were less convinced it captured his written style, suggesting AI personas of economists could speed dissemination of ideas. [SSRN, posted 2026-08-25]"
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "Your AI, On a Dial: Controlling Investment Bias in LLMs with a Single Neuron",
+          "url": "https://arxiv.org/abs/2608.22852",
+          "desc": "The authors introduce an inference-time intervention on a single neuron that continuously tunes an LLM's overall tendency toward buying or selling, tested across five open-weight models. The dial shifts decisions, the evidence models search for and cite, and downstream security rankings and portfolio composition — and stays stable in long contexts where prompt instructions decay. [arXiv cs.AI/q-fin.GN, posted 2026-08-24]"
+        },
+        {
+          "title": "KellyBoost: Growth-Optimal Portfolio Construction with Gradient-Boosted Trees",
+          "url": "https://arxiv.org/abs/2608.23393",
+          "desc": "KellyBoost trains a single multi-output XGBoost model whose softmax output is the portfolio itself, using negative log growth rate as the loss so the fitted model is the growth-optimal Kelly allocation conditioned on features. The paper derives the gradient and closed-form Hessians exactly and ships a dependency-free reference engine. [arXiv q-fin.PM, posted 2026-08-24]"
+        },
+        {
+          "title": "AI Persuasion and Financial-Decision Making: Experimental Evidence on Dominated Investment Choices",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7317847",
+          "desc": "In an online experiment where one index fund strictly dominates another, an AI chatbot raised optimal choices by over 20 percentage points when promoting the better fund but cut them by nearly 30 points when promoting the dominated one. Its influence held even when framed as bank-provided with a disclosed conflict, and it outperformed incentivized human advice. [SSRN, posted 2026-08-24]"
+        },
+        {
+          "title": "AI-Related Investor Inquiries and Corporate AI Washing: Monitoring Versus Catering",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7347078",
+          "desc": "Using China's exchange-sponsored investor interaction platforms, this pre-registered report tests whether public investor questioning about AI restrains or encourages subsequent AI washing. The effect is theoretically ambiguous: inquiries raise the cost of unsupported claims (monitoring) but also reveal investor demand for AI attributes (catering). [SSRN, posted 2026-08-24]"
+        },
+        {
+          "title": "End-to-End Deep Learning for Portfolio Optimization: Direct Portfolio Weight Prediction in Daily Trading",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7345265",
+          "desc": "A CNN-LSTM framework predicts daily portfolio weights directly from price and technical-indicator inputs, skipping the usual forecast-then-optimize pipeline, tested on 39 US large-caps from 2008 to 2024. Tuned to maximize the Sharpe ratio, it beat mean-variance, equal-weight and other deep-learning baselines, including under transaction costs. [SSRN, posted 2026-08-24]"
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": []
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "S.E.C. Investigating Near-Implosion of A.I. Hedge Fund",
+          "url": "https://www.nytimes.com/2026/08/24/business/sec-situational-awareness-investigation.html",
+          "desc": "Securities regulators have sent subpoenas to major Wall Street banks seeking information about the trading of Situational Awareness, the AI-focused hedge fund founded by Leopold Aschenbrenner that nearly collapsed last month. The banks handled the fund's trades and supplied it with borrowing capacity. [NYT, published 2026-08-24]"
+        },
+        {
+          "title": "This A.I. Start-Up Aims to Reverse the Backlash Against Data Centers",
+          "url": "https://www.nytimes.com/2026/08/25/business/dealbook/emerald-ai-start-up-data-center-backlash.html",
+          "desc": "Emerald AI, now valued at $1.05 billion, sells software that throttles data-center power draw so utilities squeezed by the AI build-out can absorb new demand without new capacity. Its pitch is aimed at grids like Silicon Valley Power, which hosts roughly 55 data centers across 20 square miles. [NYT, published 2026-08-25]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: 2026-08-24 (last run) through 2026-08-25. INFORMS articles-in-advance (Management Science, M&SOM, Operations Research) had no AI-related items posted in this window. One NBER paper in the Aug 24 batch (Benchmark Mineability and the Financing of AI Innovation, w35641) was already sent in a prior digest and is excluded."
+}

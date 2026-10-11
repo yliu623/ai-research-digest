@@ -1,0 +1,38 @@
+{
+ "date": "2026-07-19",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": []
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "The biggest winners of the American economy fear they're sinking fast",
+     "url": "https://www.washingtonpost.com/technology/2026/07/19/tech-has-never-been-richer-its-workers-have-never-felt-less-secure/",
+     "desc": "Even as AI drives record tech-sector profits and blockbuster OpenAI/Anthropic IPOs, Silicon Valley workers face repeated layoffs (800,000+ tech jobs cut since 2022) and deep job insecurity. Economists note the information sector's output is rising ~8% a year while hours worked have fallen since 2022 — a sign firms are growing with flat or shrinking headcount as AI spreads to white-collar work. [Washington Post, posted 2026-07-19]"
+    },
+    {
+     "title": "China's A.I. Play Is Different From America's",
+     "url": "https://www.nytimes.com/2026/07/18/opinion/china-united-states-artificial-intelligence.html",
+     "desc": "Ross Douthat argues the U.S. treats frontier AI like nuclear weapons to be guarded, while China treats its models like nuclear energy — open-sourcing them (e.g., Moonshot AI's new Kimi K3) for maximum global adoption to win influence and undercut the profits and reach of American leaders like OpenAI and Anthropic. [NYT Opinion, posted 2026-07-18]"
+    },
+    {
+     "title": "The Hunt for a Job Has Never Been Worse. These Applicants Are Fighting Back.",
+     "url": "https://www.nytimes.com/2026/07/18/opinion/job-market-ai-employees.html",
+     "desc": "As employers lean on AI and machine-learning systems to screen a flood of applications, job seekers increasingly deploy their own AI tools to game them, creating a 'Spy vs. Spy' cycle. The piece cites evidence that automated hiring isn't producing better or faster matches (72% of employers still report skills shortages) and calls for transparency laws modeled on New York City's. [NYT Opinion, posted 2026-07-18]"
+    }
+   ]
+  }
+ ],
+ "footnote": "Window: last run 2026-07-18 → now (2026-07-19). arXiv (econ.*, q-fin.*), NBER, SSRN and INFORMS had no new in-window items over the weekend — newest available were dated 2026-07-15/07-16 and already sent. Nothing new in those sections this window."
+}

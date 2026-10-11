@@ -1,0 +1,8 @@
+{"date":"2026-08-01","sections":[
+  {"name":"📊 Economics (NBER / SSRN / arXiv)","items":[]},
+  {"name":"💵 Finance (SSRN / NBER / arXiv q-fin)","items":[]},
+  {"name":"📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)","items":[]},
+  {"name":"📰 News (NYT / Washington Post / Economist)","items":[
+    {"title":"Leopold Aschenbrenner Built a Hot A.I. Hedge Fund. Then It Melted Down.","url":"https://www.nytimes.com/2026/07/31/business/situational-awareness-leopold-aschenbrenner.html","desc":"Situational Awareness, the AI-focused hedge fund led by the 24-year-old author of the influential 'Situational Awareness' essay, surged onto the scene on the AI-investment boom and then nose-dived — a cautionary tale about exuberance around AI bets meeting market reality. [NYT, posted 2026-07-31]"}
+  ]}
+],"footnote":"Window: last run 2026-07-31 → 2026-08-01. arXiv (econ.*, q-fin.*), NBER, SSRN, and INFORMS (Management Science, M&SOM) produced no new in-window items not already sent — arXiv's most recent submission day was not yet indexed and this weekend window was quiet. Only one new, on-topic news item cleared dedup; several Jul 31/Aug 1 AI articles (Larry Ellison/Oracle, WaPo AI-economy risk) were already sent in the prior run, and an AI-safety piece was out of econ/finance/ops scope."}

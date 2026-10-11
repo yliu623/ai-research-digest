@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-11",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": []
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": []
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": []
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "SK Hynix Stock Rises ~13% in Nasdaq Debut, Latest Sign of AI Demand",
+          "url": "https://www.nytimes.com/2026/07/10/business/sk-hynix-stock.html",
+          "desc": "The South Korean memory-chip maker opened at $170 versus its $149 IPO price and rose about 13% on Friday in its US trading debut, the latest trillion-dollar listing testing investor appetite for AI-related companies whose chips underpin data-center infrastructure. [posted Jul 10, 2026]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Sparse weekend window (Jul 10 7am - Jul 11 7am ET). arXiv export API returned 'Rate exceeded' throughout this run and the direct API host is blocked by the network allowlist; the newest reachable arXiv econ/q-fin submissions were dated Jul 9 (already covered by the Jul 9 baseline), and Jul 10-11 submissions are not yet announced (weekend). NBER posts Mondays; INFORMS M&SOM newest 'articles in advance' was Jul 2. Economist, NYT and WaPo AI/finance/business sections showed no other in-window (Jul 10) items on AI in economics/finance/operations."
+}

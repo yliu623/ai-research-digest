@@ -1,0 +1,81 @@
+{
+  "date": "2026-08-20",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "CentaurBench: Benchmarking LLM Capabilities on Augmenting vs. Automating Real-World Work Tasks",
+          "url": "https://arxiv.org/abs/2608.18554",
+          "desc": "Introduces a benchmark that separates a model's ability to automate a task outright from its ability to raise the output of a weaker \"worker\" agent it assists, across seven economically grounded real-world tasks. Rankings under the two regimes are only modestly correlated, implying that automation-focused leaderboards are a poor guide to which model is best for human- or agent-augmentation. [arXiv econ.GN/cs.AI, posted 2026-08-19]"
+        },
+        {
+          "title": "How AI Prompts Can Teach Us About the Structure of Human Behavior",
+          "url": "https://arxiv.org/abs/2608.18265",
+          "desc": "An economic-theory paper arguing that the prompts people write for AI systems are themselves informative data about the structure of human preferences and decision rules. Treats prompt content as a revealed-preference signal that can be used to recover behavioral primitives. [arXiv econ.TH/cs.AI, posted 2026-08-18, announced 2026-08-20]"
+        },
+        {
+          "title": "Europe's Climate Ambition Under Scrutiny: Evidence from Deep Learning Emission Projections",
+          "url": "https://arxiv.org/abs/2608.18690",
+          "desc": "Applies deep learning to high-resolution sectoral and socioeconomic data across the EU27 to project CO2 trajectories under current policy momentum. Projects the bloc overshooting its 2030 target by roughly 35% (a ~620 Mt CO2 shortfall), with only a small minority of member states on compliant paths. [arXiv econ.GN/cs.LG, posted 2026-08-19]"
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "Multi-Level Market Making with Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2608.18195",
+          "desc": "A reinforcement-learning framework for limit-order-book market making that places market and limit orders of varying size across multiple price levels while controlling inventory, using logistic-normal order allocations and a deep-set encoder over variable-length order sets. Potential-based reward shaping speeds up learning without changing the optimal policy. [arXiv q-fin.TR, posted 2026-08-18, announced 2026-08-20]"
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": [
+        {
+          "title": "Beyond the Black Box: Unraveling the Role of Explainability in Human-Artificial Intelligence Collaboration",
+          "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2024.07450",
+          "desc": "An analytical model of human-AI collaboration in which explanations shape the decision maker's belief in the algorithm's predictive quality, while also consuming cognitive effort and inducing fatigue. Finds the effect of explainable AI depends sharply on the level of explainability: low levels leave decision accuracy unchanged, so more explanation is not uniformly better. [INFORMS Management Science, published online 2026-08-19]"
+        }
+      ]
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "A new force is increasing inequality in America",
+          "url": "https://www.washingtonpost.com/technology/2026/08/20/ai-is-increasing-inequality-economists-hedge-fund-leaders-warn/",
+          "desc": "Reports mounting evidence that the AI boom is widening the gap between the wealthiest Americans and everyone else, with AI adoption concentrated in richer urban areas while disadvantaged regions lag. Economists and hedge fund leaders quoted push back on the industry framing of AI as an equalizing force. [Washington Post, 2026-08-20]"
+        },
+        {
+          "title": "Where A.I. Is Creating Jobs for Humans — For a While",
+          "url": "https://www.nytimes.com/2026/08/20/world/asia/ai-jobs-data-annotation-india-karur.html",
+          "desc": "A field report from Karur in south India, where a fast-growing data-annotation industry employs workers to label training data and improve how AI performs tasks people used to do. Frames the work as a labor-market opportunity with a limited shelf life as models improve. [New York Times, 2026-08-20]"
+        },
+        {
+          "title": "Stripe Buys A.I. Start-Up OpenRouter for $7.5 Billion",
+          "url": "https://www.nytimes.com/2026/08/19/business/stripe-openrouter-ai.html",
+          "desc": "Stripe is acquiring OpenRouter, which helps companies route and manage spending across AI models, for $7.5 billion. The deal ties payments infrastructure to AI-model procurement and is a notable datapoint on valuations in the AI tooling layer. [New York Times, 2026-08-19]"
+        },
+        {
+          "title": "The Rising Stakes of the Global Bond Rout",
+          "url": "https://www.nytimes.com/2026/08/19/business/dealbook/bonds-yields-treasury-ai.html",
+          "desc": "DealBook on how rising sovereign bond yields are raising the cost of capital for everyone — including the debt-financed AI data-center buildout — layering onto factors already unsettling investors. [New York Times DealBook, 2026-08-19]"
+        },
+        {
+          "title": "A County Got Rich From Data Centers. Some Question 'At What Cost?'",
+          "url": "https://www.nytimes.com/2026/08/19/technology/data-centers-backlash-loudoun-virginia.html",
+          "desc": "Loudoun County, Virginia hosts more than 250 data centers that generate very large tax revenues, but officials and residents increasingly worry the county's fiscal base has become dangerously dependent on that single industry. A concrete case study in the local public finance of the AI infrastructure boom. [New York Times, 2026-08-19]"
+        },
+        {
+          "title": "The war on data centres is a bit fake",
+          "url": "https://www.economist.com/business/2026/08/19/the-war-on-data-centres-is-a-bit-fake",
+          "desc": "Schumpeter argues that both sides of the data-centre fight are posturing: developers inflate announced capacity (\"vapourware gigawatts\") while politicians overstate their opposition. Suggests headline AI capex announcements should be discounted before being read as real investment. [The Economist, 2026-08-19]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: 2026-08-19 (last run) → 2026-08-20 11:00 UTC. Sources checked: arXiv econ.EM/GN/TH + q-fin.* (export API and recent listings), NBER working papers, SSRN, INFORMS Management Science / M&SOM / Operations Research articles-in-advance, and Economist / NYT / Washington Post. No new NBER batch in this window (NBER posts Mondays; the 2026-08-17 and 2026-08-18 papers were already sent). SSRN search returned no items with a verified posting date inside the window. M&SOM and Operations Research had no AI-related articles posted on or after 2026-08-19."
+}

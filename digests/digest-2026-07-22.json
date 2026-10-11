@@ -1,0 +1,50 @@
+{
+ "date": "2026-07-22",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Measuring AI innovation with trademark data",
+     "url": "https://arxiv.org/abs/2607.18795",
+     "desc": "Proposes using trademark records as a novel data source to map the development and diffusion of artificial intelligence across firms and industries, complementing patent- and publication-based measures. [arXiv econ.GN, posted 2026-07-21]"
+    },
+    {
+     "title": "Curriculum design in the age of AI",
+     "url": "https://arxiv.org/abs/2607.18735",
+     "desc": "Develops a learning-by-doing model in which a myopic student can work on tasks or delegate them to AI, and uses it to study how AI adoption reshapes skill formation and optimal curriculum design. [arXiv econ.TH, posted 2026-07-21]"
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Prediction of bank transaction fraud using TabNet, an adaptive deep learning architecture",
+     "url": "https://arxiv.org/abs/2607.18616",
+     "desc": "Applies TabNet, an interpretable deep-learning architecture for tabular data, to detect fraudulent online banking transactions, emphasizing scalability and explainability for real-world financial fraud prevention. [arXiv q-fin.GN, posted 2026-07-21]"
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "America’s AI labs are under threat from cheap Chinese rivals",
+     "url": "https://www.economist.com/business/2026/07/21/americas-ai-labs-are-under-threat-from-cheap-chinese-rivals",
+     "desc": "The Economist argues that lower-cost Chinese AI models are eroding the pricing power and competitive edge of leading U.S. AI labs, with significant implications for the economics of the AI industry. [Economist, 2026-07-21]"
+    },
+    {
+     "title": "Will the U.S. and China Build Walls Around A.I.?",
+     "url": "https://www.nytimes.com/2026/07/21/business/dealbook/us-china-ai-limits.html",
+     "desc": "NYT DealBook examines the escalating U.S.–China contest over AI export controls and market access, and what a more fragmented, bloc-based AI economy could mean for firms and investors. [NYT DealBook, 2026-07-21]"
+    }
+   ]
+  }
+ ],
+ "footnote": "Window: last run 2026-07-21 → now (2026-07-22). SSRN and INFORMS were unreachable this run (Cloudflare bot-challenge), so any items from those sources are excluded; arXiv (exact timestamps) and news dates were verified. Empty sections mean nothing new in this window."
+}

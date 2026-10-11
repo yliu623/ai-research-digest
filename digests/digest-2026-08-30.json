@@ -1,0 +1,21 @@
+{
+  "date": "2026-08-30",
+  "sections": [
+    {"name": "📊 Economics (NBER / SSRN / arXiv)", "items": []},
+    {"name": "💵 Finance (SSRN / NBER / arXiv q-fin)", "items": []},
+    {"name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)", "items": []},
+    {"name": "📰 News (NYT / Washington Post / Economist)", "items": [
+      {
+        "title": "Help Wanted: 'Forward-Deployed' Humans for the A.I. Era",
+        "url": "https://www.nytimes.com/2026/08/30/business/forward-deployed-ai.html",
+        "desc": "Postings for \"forward-deployed engineer\" roles — staff who sit with clients to install and tune AI systems — are up twelvefold year-over-year on LinkedIn and 730% on Indeed, as enterprises buy AI they don't know how to set up. Economists quoted (Indeed Hiring Lab, Stanford's Nick Bloom) treat it as a rare AI-resilient job category, though Bloom argues much of the growth is title inflation on long-existing consulting work. [NYT Business, posted 2026-08-30]"
+      },
+      {
+        "title": "Thievery or Innovation? The Music Industry Grapples With A.I.",
+        "url": "https://www.nytimes.com/2026/08/29/business/dealbook/ai-generated-music.html",
+        "desc": "DealBook maps the economics of generative-AI music: Suno (roughly $1B raised, $5.4B valuation, 100M+ users) faces RIAA copyright litigation from Sony and Universal while simultaneously signing licensing deals with Warner and BMG, and Deezer reports AI-generated tracks are now about half its uploads. The piece also covers Rep. Greg Casar's proposed tax on AI tokens — levied on the higher of token volume or AI revenue and ramping up with job losses — and economists' objection that taxing a business input is less efficient than raising corporate taxes. [NYT DealBook, posted 2026-08-29]"
+      }
+    ]}
+  ],
+  "footnote": "Window: 2026-08-29 (last run) through 2026-08-30 11:00 UTC. Papers: nothing new in this window. arXiv's export index held no econ.*/q-fin.* submissions after 2026-08-27 at run time, and the four AI-relevant 08-27 papers were already sent; NBER's new-papers feed still showed the Monday 08-24 batch (already sent); INFORMS articles-in-advance for Management Science, M&SOM and Operations Research ran only through 08-28; SSRN surfaced no candidates posted in the window; The Economist published nothing dated 08-29 or 08-30. One in-window Washington Post piece on the Fed debating AI's effect on the economy was already sent on 08-29."
+}

@@ -1,0 +1,1602 @@
+{
+ "date": "2026-10-11",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Generative AI and the Limits of Productivity Measurement in the System of National Accounts",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7574879",
+     "desc": "Revisits the Solow paradox for generative AI, asking whether official national accounts can capture the productivity effects of a new general-purpose technology. [SSRN, posted 2026-10-09]"
+    },
+    {
+     "title": "Who Leads and Who Collects: Algorithmic Collusion in Markets of Heterogeneous Language Models",
+     "url": "https://arxiv.org/abs/2610.11256",
+     "desc": "Four LLMs from four providers price in a four-firm logit Bertrand market across homogeneous and mixed compositions, finding that collusive tendency is a property of the specific model rather than of algorithmic pricing as such. [arXiv econ.GN, posted 2026-10-08]"
+    },
+    {
+     "title": "Dynamic Mechanism and Information Design in AI-Agent Environments: A General Analytical Framework",
+     "url": "https://arxiv.org/abs/2610.11177",
+     "desc": "Develops a general framework for dynamic mechanism and information design with AI agents, nesting dynamic screening and hidden-action contracting while adding partial verification and technological authorization. [arXiv econ.TH, posted 2026-10-08]"
+    },
+    {
+     "title": "Risk Ceilings and Development Deadlines: Pacing AI under Uncertain Safety Productivity",
+     "url": "https://arxiv.org/abs/2610.11093",
+     "fulltext": "https://arxiv.org/pdf/2610.11093",
+     "date": "2026-10-08",
+     "desc": "Models whether a regulator can promise both a risk ceiling and a development deadline for frontier AI when the productivity of safety research is unknown. Both promises hold only if weak safety research can be ruled out; learning first and then replaying development with spare compute in safety needs only 3.3% more productivity than the necessary bound in a calibration, and rules fixing compute allocation fix dates rather than risk. [arXiv econ.GN, submitted 2026-10-08]"
+    },
+    {
+     "title": "Validity Without Ground Truth: What Stated-Preference Economics Offers the Evaluation of Language Models",
+     "url": "https://arxiv.org/abs/2610.10506",
+     "fulltext": "https://arxiv.org/pdf/2610.10506",
+     "date": "2026-10-07",
+     "desc": "Argues that the validity framework of stated-preference economics (content, construct and criterion validity, reliability, incentive compatibility) can evaluate LLMs on questions with no ground truth, and applies it by administering a published water-quality valuation survey to six models. Theory-based tests such as downward-sloping demand and scope and income sensitivity separate the models sharply: two older models fail the most basic test, while the two newest pass every theoretical-validity test but diverge on convergent validity. [arXiv cs.AI, submitted 2026-10-07]"
+    },
+    {
+     "title": "Cluster-Robust Prediction-Powered Inference",
+     "url": "https://arxiv.org/abs/2610.09601",
+     "fulltext": "https://arxiv.org/pdf/2610.09601",
+     "date": "2026-10-07",
+     "desc": "Introduces Cluster-Robust PPI++, which combines a small labeled sample with machine-learning predictions and delivers closed-form standard errors valid under within-cluster dependence, including partially labeled clusters, plus a cluster-aware power-tuning rule. In a television-news application, standard PPI++ intervals cover the truth less than 60% of the time while the cluster-robust version attains nominal 95% coverage. [arXiv stat.ME, submitted 2026-10-07]"
+    },
+    {
+     "title": "AI Adoption, Regional Productivity, and Inflation: Evidence from Korea and Implications for Monetary Policy",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7555659",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7555659",
+     "date": "2026-10-07",
+     "desc": "Combines Korean firm-level AI adoption data with industry and regional outcomes for 2017-2023 and finds no systematic productivity gains in more AI-intensive industries or regions yet. Regional AI intensity is, however, associated with higher consumer and restaurant price inflation, suggesting central banks should not count on early AI productivity gains to ease inflation. [SSRN, posted 2026-10-07]"
+    },
+    {
+     "title": "Understanding Interfirm AI Talent Flow Networks through Online Professional Profiles",
+     "url": "https://arxiv.org/abs/2610.08264",
+     "desc": "Reconstructs the inter-firm network of AI talent flows from about 535 million employment records across 58 countries over 2010–2022, finding inflows increasingly concentrated among a small set of firms. [arXiv econ.GN, posted 2026-10-06]"
+    },
+    {
+     "title": "Bayesian Machine Learning Methods For Large Scale Demand Estimation",
+     "url": "https://arxiv.org/abs/2610.08409",
+     "fulltext": "https://arxiv.org/pdf/2610.08409",
+     "date": "2026-10-06",
+     "desc": "Compares a latent factorization model and a mixed logit, each estimated by MCMC and by variational inference, for demand estimation across many product categories using simulations and supermarket scanner data. The factorization model gains from pooling information across categories as dimensionality grows; MCMC is most accurate but slow, while VI is nearly as accurate, much faster, and beats the mixed logit benchmark in the empirical application. [arXiv econ.EM, submitted 2026-10-06]"
+    },
+    {
+     "title": "LLM Pricing Agents as Rote Learners",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7555398",
+     "desc": "Develops an analytically tractable framework linking Transformer pretraining to an LLM pricing agent's decisions, characterising the learned weights and the resulting demand estimation. [SSRN, posted 2026-10-05]"
+    },
+    {
+     "title": "Who Keeps the Gains from Personal AI Assistants? Seller Adaptation and the Unassisted in a Language-Model Market Simulation",
+     "url": "https://arxiv.org/abs/2610.05823",
+     "desc": "Builds an agent-based rental market where LLMs act as consumers, assistants and adaptive sellers, to see whether early adopters' savings survive seller adaptation and what happens to consumers without an assistant. [arXiv econ.GN, posted 2026-10-05]"
+    },
+    {
+     "title": "Synthetic Cultural Agents from Aggregate Anchors",
+     "url": "https://arxiv.org/abs/2610.06562",
+     "fulltext": "https://arxiv.org/pdf/2610.06562",
+     "date": "2026-10-05",
+     "desc": "Builds synthetic cultural agents by labeling a shared bank of synthetic paired responses with the signs of six Global Preferences Survey coordinates per country and fitting parameter-efficient DPO adapters, then evaluates them on World Values Survey items without naming countries. The adapters recover the imposed labels and their trust scores correlate 0.74 with GPS trust across 16 countries, but agreement with actual human WVS responses remains unresolved, showing that transferring an aggregate anchor is not the same as reproducing human response patterns. [arXiv econ.GN, submitted 2026-10-05]"
+    },
+    {
+     "title": "Verified, not generated: expert-verified AI study materials and the distribution of learning gains in a university course",
+     "url": "https://arxiv.org/abs/2610.07097",
+     "fulltext": "https://arxiv.org/pdf/2610.07097",
+     "date": "2026-10-05",
+     "desc": "Uses a two-cohort difference-in-differences design in a compulsory first-year university economics course (170 students) in which half the course received AI-generated podcasts, FAQs and quiz guides checked by a named teaching assistant before release. Access was associated with a 2.34-mark gain on a 50-mark component and a 24.7 percentage-point drop in the share below the upper-second boundary, with about three-quarters of the average gain coming from the bottom quintile. [arXiv cs.AI, submitted 2026-10-05]"
+    },
+    {
+     "title": "Reliability of AI Agents: Rater Effects, Drift, and the Return to an Evaluation Program",
+     "url": "https://arxiv.org/abs/2610.07003",
+     "desc": "Treats reliability as a latent state using 2,611 rubric-scored production interviews from a deployed voice-and-video interviewing agent, separating measurement noise from genuine change and asking how long an evaluation stays informative. [arXiv econ.GN, posted 2026-10-04]"
+    },
+    {
+     "title": "A study on healthcare expenditure in Italian regions via Symbolic Regression",
+     "url": "https://arxiv.org/abs/2610.04439",
+     "fulltext": "https://arxiv.org/pdf/2610.04439",
+     "date": "2026-10-03",
+     "desc": "Applies symbolic regression, an interpretable machine-learning approach that searches for explicit analytical formulas, to identify the drivers of healthcare spending in Italian regions over several time windows. The method yields accurate models of private healthcare expenditure that support driver analysis, but fails to do so for public expenditure. [arXiv econ.GN, submitted 2026-10-03]"
+    },
+    {
+     "title": "Financing the AI Buildout",
+     "url": "https://www.nber.org/papers/w35865",
+     "desc": "Estimates that a 1 GW AI campus costs roughly $41 billion, implying nearly $9 trillion of investment for a 188 GW US buildout completed by 2032, and asks how that is financed. [NBER WP 35865, posted October 2026]"
+    },
+    {
+     "title": "How Heavily Are PhD Students Offloading Their Scientific Writing to AI? Evidence from US STEM PhD Dissertations",
+     "url": "https://www.nber.org/papers/w35859",
+     "desc": "Measures AI-generated writing across a near-census of US STEM PhD dissertations to test whether delegating research writing to LLMs erodes the expertise scientific training is meant to build. [NBER WP 35859, posted October 2026]"
+    },
+    {
+     "title": "Right Order, Wrong Scale: Auditing LLM Judges for Occupational AI Measurement",
+     "url": "https://arxiv.org/abs/2610.02492",
+     "desc": "Introduces O*NET-BENCH from 45,796 worker ratings and audits 33 LLM-judge configurations, showing that agreement on rankings does not imply agreement on acceptance rates or occupational aggregates. [arXiv econ.GN, posted 2026-10-01]"
+    },
+    {
+     "title": "Pragmatic DML with AI-Learned Representations",
+     "url": "https://arxiv.org/abs/2610.01935",
+     "desc": "Studies when AI-learned representations of text and images can serve as controls in causal analysis, showing the bias is the product of two representation errors and offering a practical double machine learning framework. [arXiv econ.EM, posted 2026-10-01]"
+    },
+    {
+     "title": "Do Markets Dream of Artificial Intelligence? Macroeconomic Effects and International Spillovers of AI News Shocks",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7548402",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7548402",
+     "date": "2026-10-01",
+     "desc": "Identifies AI news shocks from an equity factor based on firms' AI exposure and traces them through a Bayesian VAR for the U.S. and euro area. In the U.S. the response is investment-led with producer prices rising before consumer prices, while in the euro area imported and energy costs lift inflation before real activity, creating a monetary policy dilemma. [SSRN, posted 2026-10-01]"
+    },
+    {
+     "title": "Can we create a `race to the top' for weather forecasts to inform smallholder farmer decisions?",
+     "url": "https://arxiv.org/abs/2610.00782",
+     "fulltext": "https://arxiv.org/pdf/2610.00782",
+     "date": "2026-09-30",
+     "desc": "Argues that AI weather prediction models make tailored forecasts cheap enough to serve hundreds of millions of smallholder farmers in low- and middle-income countries, but that hard-to-verify quality risks a race to the bottom in which cheap, poor forecasts crowd out good ones. Proposes principles and protocols for evaluating agriculturally relevant forecasts as a basis for standards that let providers credibly signal quality. [arXiv physics.ao-ph, submitted 2026-09-30]"
+    },
+    {
+     "title": "When Does Randomized Oversight Align AI Agents That Can Conceal?",
+     "url": "https://arxiv.org/abs/2609.38262",
+     "desc": "Asks when randomized audits and scoring align AI agents that can hide misconduct and alter records, finding stronger auditing makes undeterred violations better hidden but rare audits can still deter every agent type. [arXiv econ.TH, posted 2026-09-29]"
+    },
+    {
+     "title": "Localised Entry, Global Frontier: How Generative-AI Subscriptions Are Priced Across Countries",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7535900",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7535900",
+     "date": "2026-09-29",
+     "desc": "Audits tax-inclusive App Store prices for ChatGPT, Claude and Gemini plans across 170 storefronts and finds that local prices barely track income except at the entry tier. A $20 plan costs about 0.65% of per-capita income in the median high-income economy versus 29% in the median low-income one, and frontier-assistant usage rises steeply with income. [SSRN, posted 2026-09-29]"
+    },
+    {
+     "title": "AI-based matching improves refugee employment in a double-blind randomized trial",
+     "url": "https://arxiv.org/abs/2609.35448",
+     "desc": "A double-blind RCT of algorithmic refugee matching — administrative data plus machine learning and constrained optimization — finds the employment-optimized placement recommendations improve refugee employment outcomes. [arXiv econ.GN, posted 2026-09-28]"
+    },
+    {
+     "title": "(How) Do We Teach Emotions?",
+     "url": "https://www.nber.org/papers/w35789",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w35789/w35789.pdf",
+     "date": "2026-09-28",
+     "desc": "Uses machine learning and generative AI tools to measure emotional content in public-school textbooks and children's books, finding that text covers a broad emotional range while images overwhelmingly show happiness and calm; nearly half of pages show no overlap between the two. Household purchase and library data suggest consumer demand for positive cover images helps drive the pattern. [NBER w35789, issued 2026-09-28]"
+    },
+    {
+     "title": "Does AI Help or Harm? Endogenous Information Acquisition with AI Advice",
+     "url": "https://arxiv.org/abs/2609.35137",
+     "fulltext": "https://arxiv.org/pdf/2609.35137",
+     "date": "2026-09-28",
+     "desc": "Models how AI advice that shifts beliefs before costly information acquisition affects final decision quality when acquisition costs are uniformly posterior-separable. Every AI signal weakly improves gross utility if and only if the continuation value function is convex, which always holds in binary-state problems, while richer problems can produce harm when advice shuts down valuable acquisition or dilutes attention, and cheaper interpretation can even lower utility. [arXiv cs.GT, submitted 2026-09-28]"
+    },
+    {
+     "title": "Economic Governance of Autonomous Agents and Robots: Factor-Origin Accounting and Social Automation Funds",
+     "url": "https://arxiv.org/abs/2609.32476",
+     "desc": "Argues that autonomous agents, foundation models and robots decouple output from human work hours and erode payroll-based tax bases, and proposes factor-origin accounting plus social automation funds as an alternative. [arXiv econ.GN, posted 2026-09-26]"
+    },
+    {
+     "title": "When Less Is More: Managing AI Adoption with Adaptive Incentive Design",
+     "url": "https://arxiv.org/abs/2609.32859",
+     "fulltext": "https://arxiv.org/pdf/2609.32859",
+     "date": "2026-09-26",
+     "desc": "Studies a large medical-device firm that required about 5,000 employees to submit at least 200 queries a month to an internal AI assistant, after which usage bunched at the threshold and 31% of queries were repeated or off-task. Lowering the target to 100, staggered across branches, cut query volume by 30% (about 90% of the drop in repeated or off-task queries), left genuine work queries essentially unchanged, and raised sales employees' monthly sales by 7%. [arXiv econ.GN, submitted 2026-09-26]"
+    },
+    {
+     "title": "PriceBench: A Diagnostic Benchmark for Price, Quality, and Brand Preferences in LLM Booking Agents",
+     "url": "https://arxiv.org/abs/2609.31468",
+     "desc": "Uses hotel booking to recover an LLM's implicit price, quality and brand preferences, on the view that when models act as purchasing agents it is their preferences, not the user's, that fix what gets bought. [arXiv econ.GN, posted 2026-09-25]"
+    },
+    {
+     "title": "Reading between the Lines: LLMs and Federal Reserve Communications",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7513339",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7513339",
+     "date": "2026-09-25",
+     "desc": "Federal Reserve Board economists use LLMs to extract labor-market, inflation and policy sentiment from FOMC statements and find it predicts unemployment and inflation beyond the professional forecaster consensus. Policy sentiment moves Treasury yields and inflation compensation gradually over 10-15 trading days and is nearly uncorrelated with high-frequency policy surprises. [SSRN, posted 2026-09-25]"
+    },
+    {
+     "title": "Can Labor Markets Function in the Age of AI? The Evaluation Bottleneck in Hiring",
+     "url": "https://arxiv.org/abs/2609.30058",
+     "fulltext": "https://arxiv.org/pdf/2609.30058",
+     "date": "2026-09-24",
+     "desc": "Models a hiring market in which AI job-search tools make applications easier to tailor but less informative about fit, so Bayesian firms rely more on coarse signals such as prior experience. Inexperienced but well-matched applicants lose the most, costly screening can collapse to screening no one or only experienced candidates, and multistage hiring with a cheap intermediate assessment emerges endogenously to restore evaluation. [arXiv cs.GT, submitted 2026-09-24]"
+    },
+    {
+     "title": "Estimating Heterogeneous Causal Effects with Tree-Based Methods under Imperfect Compliance",
+     "url": "https://arxiv.org/abs/2609.31769",
+     "fulltext": "https://arxiv.org/pdf/2609.31769",
+     "date": "2026-09-24",
+     "desc": "Develops a two-step, model-agnostic approach for estimating conditional complier average causal effects under imperfect compliance, implementing two forest-based learners (a debiased transformed-outcome regression forest and a generalized-random-forest IV adaptation) as alternatives to Bayesian Causal Forest-IV. Simulations show competitive accuracy and subgroup discovery at lower runtime, and an application revisits subgroup effects of prompt ICU admission on 28-day mortality across 48 NHS hospitals. [arXiv stat.ME, submitted 2026-09-24]"
+    },
+    {
+     "title": "Kernel Balancing in Tree-based Methods",
+     "url": "https://arxiv.org/abs/2609.29440",
+     "fulltext": "https://arxiv.org/pdf/2609.29440",
+     "date": "2026-09-24",
+     "desc": "Integrates kernel balancing weights into causal forests and the X-learner to estimate conditional average treatment effects when treated and control covariate distributions overlap poorly. Monte Carlo evidence and the semi-synthetic IHDP benchmark show lower bias and better precision than propensity-score weighting, especially with nonlinear effects and limited overlap. [arXiv econ.EM, submitted 2026-09-24]"
+    },
+    {
+     "title": "Algorithmic Collusion by Reinforcement-Learning Pricing Agents: Simulation Evidence and Implications for Financial Markets and Competition Law",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7500483",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7500483",
+     "date": "2026-09-24",
+     "desc": "Simulates Q-learning pricing agents in a Bertrand oligopoly and finds they reliably sustain supracompetitive prices (profits about 40% above Nash) without communication, with the effect vanishing once rivals' past prices are removed from the agents' state. The author argues current U.S. and EU antitrust rules do not reach this kind of autonomous learned coordination. [SSRN, posted 2026-09-24]"
+    },
+    {
+     "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
+     "url": "https://arxiv.org/abs/2609.28372",
+     "desc": "Uses process tracing with attributes hidden behind costly tool calls to test whether just-below pricing and promotional framing sway eight commercially deployed LLM shopping agents. [arXiv econ.GN, posted 2026-09-23]"
+    },
+    {
+     "title": "When Trust Attracts Fraud: AI and Trust Arbitrage",
+     "url": "https://arxiv.org/abs/2609.27404",
+     "desc": "A two-market signaling model in which generative AI lowers fabrication, verification and targeting costs, producing an interval where claim credibility falls before recovering and only the lower-quality market verifies. [arXiv econ.GN, posted 2026-09-23]"
+    },
+    {
+     "title": "Mining Meaning: Measurement Error in AI-Assisted Literature Reviews",
+     "url": "https://arxiv.org/abs/2609.27686",
+     "desc": "Frames LLM-assisted literature reviews as a measurement problem, treating models as measurement systems and tracing how their reading and classification errors propagate into downstream conclusions. [arXiv econ.GN, posted 2026-09-23]"
+    },
+    {
+     "title": "How Does AI Change Labor Demand? Evidence from 41 Countries",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7498743",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7498743",
+     "date": "2026-09-23",
+     "desc": "Using 1.25 billion job postings and 154 million employment records across 41 countries, the authors find that foreign affiliates of generative-AI-adopting firms lower their junior workforce share, mainly by growing senior employment rather than cutting junior jobs. A model-based decomposition points to modest productivity gains from adoption. [SSRN, posted 2026-09-23]"
+    },
+    {
+     "title": "Beyond Replacement: AI-Assisted Work, Human Attention, and Developmental Capacity in a Developing Economy",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7482418",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7482418",
+     "date": "2026-09-23",
+     "desc": "Develops a framework, illustrated with the Philippines, arguing that in developing economies AI productivity gains should be treated as capacity expansion (clearing backlogs, conserving scarce human attention) rather than automatically as labor redundancy. It sets out policy concepts for steering generative AI toward greater human capacity rather than headcount cuts. [SSRN, posted 2026-09-23]"
+    },
+    {
+     "title": "Generative AI, Net Productivity, and Firm Valuation: Evidence from Firm-Level Data",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7373658",
+     "desc": "Confronts the gap between large experimental task-level gains from generative AI and the absence of a commensurate productivity surge at firm and economy level, using firm-level data and valuations. [SSRN, posted 2026-09-01, revised 2026-09-22]"
+    },
+    {
+     "title": "The network advantage: benefits of interregional scientific knowledge spillovers on AI patenting",
+     "url": "https://arxiv.org/abs/2609.26604",
+     "fulltext": "https://arxiv.org/pdf/2609.26604",
+     "date": "2026-09-22",
+     "desc": "Uses a network-econometric approach on 26 Chinese provincial regions over 2006-2020 to test whether spillovers from interregional AI co-publications raise regional AI patenting. Co-publication spillovers do boost AI patenting, but the returns accrue almost entirely in regions where privately owned enterprises dominate R&D, reinforcing regional divergence. [arXiv econ.GN, submitted 2026-09-22]"
+    },
+    {
+     "title": "Rule-Based Pricing Algorithms and Market Outcomes: An Experimental Study",
+     "url": "https://arxiv.org/abs/2609.26861",
+     "fulltext": "https://arxiv.org/pdf/2609.26861",
+     "date": "2026-09-22",
+     "desc": "Runs a controlled market experiment in which participants build rule-based pricing algorithms through dashboards to compete in a multi-period sequential Bertrand game, varying price-war warnings, preconfigured strategies and advice from a large language model. Most design variations raise market prices, mainly through higher starting prices and more cooperative algorithm designs, which matters for competition policy and the regulation of repricing tools. [arXiv econ.GN, submitted 2026-09-22]"
+    },
+    {
+     "title": "Seeing Is Not Perceiving: When Synthetic Consumers Can and Cannot Pretest Visual Marketing",
+     "url": "https://arxiv.org/abs/2609.25677",
+     "fulltext": "https://arxiv.org/pdf/2609.25677",
+     "date": "2026-09-22",
+     "desc": "Tests whether LLMs used as synthetic consumers can pretest logos, packaging and ads by replicating six canonical visual-marketing experiments across two model generations (GPT-4o-mini and GPT-5.4-mini) and text versus JSON inputs. No configuration reproduced more than two of the six human effects (one significantly reversed them); in-context evidence steers average responses toward human results but captures less than half of human response spread, motivating a Calibrate-Intervene-Deploy governance protocol. [arXiv cs.AI, submitted 2026-09-22]"
+    },
+    {
+     "title": "The AI Economy: Adoption, Human Validation, and Labor Demand",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7504158",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7504158",
+     "date": "2026-09-22",
+     "desc": "Builds a general-equilibrium task model in which AI adoption requires recurring human validation labor, estimated on U.S. occupation-task data. The estimated validation requirement is too low to offset displacement, so a ten-year decline in AI costs projects employment falling 5% and wages 18% economy-wide (13% and 43% in the sampled occupations). [SSRN, posted 2026-09-22]"
+    },
+    {
+     "title": "Well-Being Salience in Corporate Disclosures and Worker Health",
+     "url": "https://www.nber.org/papers/w35760",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w35760/w35760.pdf",
+     "date": "2026-09-21",
+     "desc": "Uses language models to score how strongly Danish firms' public disclosures emphasize employee well-being and links the score to population-wide health registers for 2013-2022. Workers who move to higher-scoring firms take substantially more sickness absence without using more health care, pointing to a behavioral change rather than worse health. [NBER w35760, issued 2026-09-21]"
+    },
+    {
+     "title": "Social Influence and the Allocation of Scientific Attention in AI Populations",
+     "url": "https://arxiv.org/abs/2609.22408",
+     "desc": "Adapts the Music Lab design to a market for academic attention, having 1,000 AI agents choose papers to test how human-designed popularity signals shape collective behaviour among artificial readers. [arXiv econ.GN, posted 2026-09-18]"
+    },
+    {
+     "title": "People escalate against a competitor labelled human and hold back against one labelled an optimising machine",
+     "url": "https://arxiv.org/abs/2609.21439",
+     "fulltext": "https://arxiv.org/pdf/2609.21439",
+     "date": "2026-09-18",
+     "desc": "A preregistered experiment (N = 1,395) using a dynamic all-pay auction separates the effect of being told an opponent is a human or an AI from the effect of actually facing an AI. Labels alone shift escalation, with median prices rising 6.7 points when a human might be the opponent and falling 8.8 when an optimizing machine might be (about 15% of the prize), while actually facing AI lowers prices but reduces the chance that both sides earn positive payoffs. [arXiv cs.HC, submitted 2026-09-18]"
+    },
+    {
+     "title": "A Dual-Process Perspective on Nudge Susceptibility in LLM-Based GUI Agents",
+     "url": "https://arxiv.org/abs/2609.19843",
+     "desc": "Examines how interface design that was built to steer human users influences LLM-based GUI agents acting on a user's behalf, a channel distinct from the well-documented biases in model text output. [arXiv econ.GN, posted 2026-09-17]"
+    },
+    {
+     "title": "Using machine learning metrics to provide deeper insights into the performance of choice models",
+     "url": "https://arxiv.org/abs/2609.20655",
+     "fulltext": "https://arxiv.org/pdf/2609.20655",
+     "date": "2026-09-17",
+     "desc": "Brings machine-learning evaluation tools into discrete choice modelling through a probabilistic confusion matrix that reports average predicted probabilities for each alternative conditional on the observed choice, usable for both classic choice models and ML algorithms. Models with similar log-likelihoods can show very different alternative-level confusion patterns, and out-of-sample matrices reveal prediction shifts that materially affect forecasting performance. [arXiv econ.EM, submitted 2026-09-17]"
+    },
+    {
+     "title": "Reproducibility is not construct validity: LLM measurement of institutionally situated communication",
+     "url": "https://arxiv.org/abs/2609.19866",
+     "fulltext": "https://arxiv.org/pdf/2609.19866",
+     "date": "2026-09-17",
+     "desc": "Uses the EU AI Act consultation to show that LLM annotations of stakeholder submissions can be almost perfectly reproducible (ICC > 0.99) yet diverge from the same stakeholders' survey answers. Business associations voice more AI-risk concern in free text than in surveys (g = +1.0), so reproducibility should not be mistaken for construct validity when LLMs are used as measurement tools. [arXiv cs.AI, submitted 2026-09-17]"
+    },
+    {
+     "title": "Whom Do AI Agents Work For? Role Assignment Induces Sponsorship Bias in LLM Recommenders",
+     "url": "https://arxiv.org/abs/2609.17989",
+     "desc": "Studies the conflict of duty facing LLM shopping assistants deployed by ad-selling platforms, and finds that sponsorship disclosures now reach the AI agent rather than the consumer who could penalise paid placement. [arXiv econ.GN, posted 2026-09-16]"
+    },
+    {
+     "title": "Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making",
+     "url": "https://arxiv.org/abs/2609.18591",
+     "fulltext": "https://arxiv.org/pdf/2609.18591",
+     "date": "2026-09-16",
+     "desc": "Tests whether LLM agents' in-context learning in a multi-agent public goods game with incomplete information reflects recursive strategic reasoning or extrapolation of statistical patterns, using a rational-expectations equilibrium as benchmark. When the statistical structure of past feedback is disrupted, the gains from longer context largely vanish, especially under stronger strategic interdependence, pointing to statistical extrapolation rather than reasoning. [arXiv cs.AI, submitted 2026-09-16]"
+    },
+    {
+     "title": "Multitask Reinforcement Learning for Assisting Choice Model Specification",
+     "url": "https://arxiv.org/abs/2609.18441",
+     "fulltext": "https://arxiv.org/pdf/2609.18441",
+     "date": "2026-09-16",
+     "desc": "Presents Delphos, a multitask reinforcement-learning agent with a DeepSet-Q architecture that learns transferable strategies for specifying discrete choice models across nine transport datasets. It outperforms single-task agents and, on unseen datasets, finds competitive specifications in under 20 minutes on a CPU, beating a variable-neighbourhood-search heuristic on Swissmetro and matching an expert-built MNL on another dataset. [arXiv econ.GN, submitted 2026-09-16]"
+    },
+    {
+     "title": "AI in Science: Early Insights",
+     "url": "https://arxiv.org/abs/2609.28504",
+     "desc": "Draws on 15 million Gemini interactions, an inventory of over 2,600 specialized scientific AI models, and a survey of 600+ scientists to map AI's early effects on scientific work. [arXiv econ.GN, posted 2026-09-15]"
+    },
+    {
+     "title": "AI and the Market for Signals",
+     "url": "https://arxiv.org/abs/2609.17752",
+     "fulltext": "https://arxiv.org/pdf/2609.17752",
+     "date": "2026-09-15",
+     "desc": "Adds an AI industry selling tokens, which workers convert into output indistinguishable from their own, to a career-signaling model where early work both signals ability and builds skill. When low types can buy AI output, high types must signal harder; with side sales and abundant AI, signals stop depending on effort and every type underinvests in skill, and token taxes, wage taxes and watermarking have ambiguous welfare effects. [arXiv econ.TH, submitted 2026-09-15]"
+    },
+    {
+     "title": "Mapping AI Economic Complexity",
+     "url": "https://arxiv.org/abs/2609.17200",
+     "fulltext": "https://arxiv.org/pdf/2609.17200",
+     "date": "2026-09-15",
+     "desc": "Applies economic-complexity methods to 103 AI-enabling goods using BACI export data for 2007-2023 to measure countries' complexity-weighted specialization and adjacent diversification opportunities. In 2023 Japan leads current AI-enabling complexity and China leads potential, but initial potential does not significantly predict later changes in complexity; results come with a public dashboard. [arXiv physics.soc-ph, submitted 2026-09-15]"
+    },
+    {
+     "title": "The AI-Enabled Scientific Frontier",
+     "url": "https://arxiv.org/abs/2609.16258",
+     "desc": "Assembles 2,507 head-to-head comparisons between AI and other analysis techniques across 27 disciplines to test whether AI really outperforms alternatives, and where. [arXiv econ.GN, posted 2026-09-14]"
+    },
+    {
+     "title": "Delegating Authorization to Misaligned Agents: Coalitional Alignment and Safe Control",
+     "url": "https://arxiv.org/abs/2609.15803",
+     "fulltext": "https://arxiv.org/pdf/2609.15803",
+     "date": "2026-09-14",
+     "desc": "Studies when a panel of possibly misaligned AI reviewers can safely approve actions proposed by a long-running AI agent without human sign-off at every step. A threshold rule tolerating k disapprovals is safe exactly when, after removing any k reviewers, the principal's utility is a nonnegative combination of the remaining reviewers' utilities; the result extends to sequential control and strategic voting, and experiments suggest collective review can be sound even without an individually aligned reviewer. [arXiv cs.GT, submitted 2026-09-14]"
+    },
+    {
+     "title": "The Economics of Recursive Self-Improvement",
+     "url": "https://arxiv.org/abs/2609.15802",
+     "fulltext": "https://arxiv.org/pdf/2609.15802",
+     "date": "2026-09-14",
+     "desc": "Models recursive self-improvement in AI as feedback loops on directed graphs, showing that net acceleration depends on the product of elasticities around each loop and distinguishing narrow gains on AI R&D benchmarks from broad, economically valuable capabilities. Compiles existing parameter estimates and a wish list of measurable quantities for AI firms to share, and a calibrated back-of-the-envelope finds current feedback loops not yet strong enough for self-sustaining acceleration, though they appear to be strengthening. [arXiv econ.GN, submitted 2026-09-14]"
+    },
+    {
+     "title": "The Missing First Rung: Aggregate Resilience and Entry-Level Compression in the AI Labor Market",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7441121",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7441121",
+     "date": "2026-09-14",
+     "desc": "Constructs a symmetric occupation-industry job ledger from CPS microdata through August 2026 and finds aggregate employment resilience rather than an AI jobs collapse or boom. Workers aged 22-25 in high AI-exposure jobs, however, sit about 2.2-2.6 points below trend, a first-rung compression whose causal AI share remains unidentified. [SSRN, posted 2026-09-14]"
+    },
+    {
+     "title": "Redistributive Policies for the Times of Transformative AI",
+     "url": "https://arxiv.org/abs/2609.14750",
+     "desc": "Argues that broad automation after transformative AI would lower the labor share and concentrate gains, and evaluates redistributive policy options for containing the resulting inequality. [arXiv econ.GN, posted 2026-09-13]"
+    },
+    {
+     "title": "Bayesian Intelligence from the Outside",
+     "url": "https://arxiv.org/abs/2609.14724",
+     "fulltext": "https://arxiv.org/pdf/2609.14724",
+     "date": "2026-09-13",
+     "desc": "Develops a revealed-behavior test of whether an agent such as a language model acts as a Bayesian that updates a prior on an imperfect internal experiment and reports its posterior. Behavior admits this explanation if and only if reports are not fully contradictory; an ordering of intelligence is characterized through couplings of report distributions, and aggregating coarse reports from intelligent agents is shown to be potentially arbitrary. [arXiv cs.AI, submitted 2026-09-13]"
+    },
+    {
+     "title": "Extracting Dataset Mentions in Forced Displacement and FCV Documents: A Weakly Supervised Framework with LLM-Based Label Refinement",
+     "url": "https://arxiv.org/abs/2609.12107",
+     "fulltext": "https://arxiv.org/pdf/2609.12107",
+     "date": "2026-09-10",
+     "desc": "Builds a weakly supervised pipeline for finding dataset mentions in forced-displacement and fragile, conflict and violence documents: a lightweight model proposes candidates, a frontier LLM validates and corrects them, and the refined labels plus synthetic examples fine-tune the small model. On a 1,706-passage gold benchmark it reaches 74.1% precision and 70.5% recall at the mention level and 88.2% passage-level accuracy, supporting analysis of data use and gaps in displacement data. [arXiv cs.CL, submitted 2026-09-10]"
+    },
+    {
+     "title": "From Weekly Searches to Monthly Inflation: Feature Engineering and Machine Learning for Inflation Nowcasting in India",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7434638",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7434638",
+     "date": "2026-09-09",
+     "desc": "Compares a wide set of machine-learning and deep-learning models for nowcasting Indian inflation from weekly Google Trends data. How the weekly search data are represented matters most: lagged within-month features with LASSO perform best and beat standard benchmarks, while MIDAS and deep-learning models do not improve on it. [SSRN, posted 2026-09-09]"
+    },
+    {
+     "title": "AI Innovation and Firm Performance in the Medical Device Industry",
+     "url": "https://arxiv.org/abs/2609.08485",
+     "desc": "Exploits regulatory clearance records for AI-enabled medical devices as a dated, firm-attributable measure of AI innovation output, then links it to firm performance. [arXiv econ.GN, posted 2026-09-08]"
+    },
+    {
+     "title": "The Profit Alignment Problem: How Profit Mandates Induce Alignment Failures in LLMs",
+     "url": "https://arxiv.org/abs/2609.07731",
+     "desc": "In 3,600 controlled trials across eight reasoning LLMs, adding a 'maximize profitability' instruction raised risk-dismissing judgments about ambiguous safety signals by 6.8 percentage points. [arXiv econ.GN, posted 2026-09-07]"
+    },
+    {
+     "title": "Access to Live AI Advice and Behavior Under Risk: An Incentivized Experiment",
+     "url": "https://arxiv.org/abs/2609.07358",
+     "desc": "An incentivized lottery-choice experiment (N=158) comparing a pre-written decision aid, a one-shot live AI, and an interactive AI the subject could query, to see whether live advice changes risk behaviour. [arXiv econ.GN, posted 2026-09-07]"
+    },
+    {
+     "title": "The Utility of AI Tools in Auditing Adherence to Pre-Analysis Plans",
+     "url": "https://www.nber.org/papers/w35719",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w35719/w35719.pdf",
+     "date": "2026-09-07",
+     "desc": "Proposes using LLMs to audit whether studies follow their pre-analysis plans; applied to the authors' own research, an LLM identified pre-committed design choices, assessed deviations and found gaps in pre-specification, sharply reducing human effort. Audit output varied across LLMs, so human judgment remains necessary. [NBER w35719, issued 2026-09-07]"
+    },
+    {
+     "title": "Does AI Assistance Enhance or Erode Expertise? Evidence from a Three-Month Field Experiment in Patent Drafting",
+     "url": "https://www.nber.org/papers/w35720",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w35720/w35720.pdf",
+     "date": "2026-09-07",
+     "desc": "A pre-registered three-month RCT gave 133 patent lawyers at 11 U.S. IP firms a custom AI drafting assistant; AI raised the quality of drafting work by 0.34-0.38 SD, with larger gains for junior lawyers. In a later redlining task done without AI, treated lawyers scored 0.32 SD higher, but the gain came entirely from senior lawyers, while junior lawyers' scores split into more poor and more good outcomes. [NBER w35720, issued 2026-09-07]"
+    },
+    {
+     "title": "Dynamic Spatial Bayesian Machine Learning Model: Applications to Intergenerational Economic Mobility and Geographic Income Inequality in the United States",
+     "url": "https://arxiv.org/abs/2610.00072",
+     "fulltext": "https://arxiv.org/pdf/2610.00072",
+     "date": "2026-09-04",
+     "desc": "Develops DSP-BART-HS, a dynamic spatial panel Bayesian additive regression trees model with horseshoe shrinkage, and benchmarks it against spatial econometric, machine-learning and small-area estimators across nine simulated scenarios. It is best or statistically tied in every scenario and performs well in U.S. county-level applications to intergenerational mobility and income inequality, although a lighter autoregressive model wins under temporal extrapolation. [arXiv stat.ME, submitted 2026-09-04]"
+    },
+    {
+     "title": "Persuasion and Precision: How Generative AI Moves Inflation Expectations",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7381918",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7381918",
+     "date": "2026-09-03",
+     "desc": "Three preregistered experiments (N = 3,772) show that people give an AI chatbot about 45% more weight than a human partner when revising U.S. inflation forecasts. Chatbots that challenge users' reasoning are more persuasive, and combining the best conversational features nearly doubles the weight placed on the AI's estimate. [SSRN, posted 2026-09-03]"
+    },
+    {
+     "title": "Competitive Market Behavior of LLMs",
+     "url": "https://arxiv.org/abs/2609.02580",
+     "desc": "Replicates seminal economic experiments with LLM agents in place of human subjects, including a double auction, to test whether market mechanisms designed for humans still deliver their intended outcomes. [arXiv econ.GN, posted 2026-09-02]"
+    },
+    {
+     "title": "The Experience Paradox: Task Automation, Hiring Automation, and the Market That Stopped Evaluating",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7379059",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7379059",
+     "date": "2026-09-02",
+     "desc": "Proposes a framework separating codifiable execution from consequence-bearing judgment to reconcile conflicting 2026 evidence on AI and early-career employment. Drawing on the Mobley v. Workday litigation, it argues that AI raises the value of judgment just as automated hiring screens reduce the chance that judgment is ever evaluated, and offers five testable propositions. [SSRN, posted 2026-09-02]"
+    },
+    {
+     "title": "Liability and Pricing of Dual-Use AI",
+     "url": "https://www.nber.org/papers/w35828",
+     "desc": "Asks how much liability AI providers should bear when the same service enables both attack and defence, showing liability can raise welfare while also raising harm. [NBER WP 35828, posted September 2026]"
+    },
+    {
+     "title": "The Early Impacts of AI on Employment among Recent College Graduates",
+     "url": "https://www.nber.org/papers/w35796",
+     "desc": "Uses CPS microdata to produce first estimates of AI's effect on unemployment among recent college graduates, a magnitude and timing still much disputed. [NBER WP 35796, posted September 2026]"
+    },
+    {
+     "title": "The Macroeconomic Effect of AI: Sizing the Software Engineering Channel",
+     "url": "https://www.nber.org/papers/w35793",
+     "desc": "Builds a real-time, forward-looking measure from financial markets of how AI affects the economy through software engineering productivity, using firm stock-return sensitivity to an AI factor. [NBER WP 35793, posted September 2026]"
+    },
+    {
+     "title": "Deep Learning as a Projection Method for Solving Economic Models",
+     "url": "https://www.nber.org/papers/w35806",
+     "desc": "Argues that neural-network solvers presented as a new paradigm for dynamic economic models are better understood as least-squares projection methods, a reclassification with practical implications. [NBER WP 35806, posted September 2026]"
+    },
+    {
+     "title": "An LLM Workflow That Reproduces, Improves, and Extends Published Economics Research",
+     "url": "https://www.nber.org/papers/w35782",
+     "desc": "Introduces an open-source workflow letting an LLM reproduce an economics article from its replication package, flag discrepancies with published findings, and then extend the analysis. [NBER WP 35782, posted September 2026]"
+    },
+    {
+     "title": "Mechanism Design for Alignment and Control",
+     "url": "https://arxiv.org/abs/2609.01595",
+     "fulltext": "https://arxiv.org/pdf/2609.01595",
+     "date": "2026-09-01",
+     "desc": "Develops mechanism design for AI agents whose alignment (preferences) and capabilities (actions and information) are unknown, requiring mechanisms that induce both honesty and obedience. Assuming capabilities can be concealed but not counterfeited, it derives a revelation principle and characterizes implementable policies via nested cyclical monotonicity, with applications to sandbagging, an alignment-interpretability trade-off, peer scoring, competition among agents and scalable oversight. [arXiv econ.TH, submitted 2026-09-01]"
+    },
+    {
+     "title": "AI and the Economy: An Economic Examination of Production, Distribution, Firms, Labor, and Welfare",
+     "url": "https://arxiv.org/abs/2609.01263",
+     "fulltext": "https://arxiv.org/pdf/2609.01263",
+     "date": "2026-09-01",
+     "desc": "Essay on the economics of AI that treats it simultaneously as capital, synthetic labor, a general-purpose technology and economic infrastructure. Reviews channels through which AI affects productivity, labor substitution and complementarity, competition and concentration, entrepreneurship and welfare, and outlines policy considerations. [arXiv econ.GN, submitted 2026-09-01]"
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "SOTA: Stock Options Trading Agents Guided by Option-Implied Return Distributions",
+     "url": "https://arxiv.org/abs/2610.10407",
+     "fulltext": "https://arxiv.org/pdf/2610.10407",
+     "date": "2026-10-07",
+     "desc": "Introduces SOTA, an options-trading agent built by supervised fine-tuning and then RL-training Qwen3.8-27B to pick option strategies, with deterministic code handling contract implementation, tested on options on nine large-cap U.S. stocks and SPY. Over six months out of sample it earned 18.3% with a Sharpe ratio of 1.60, but keeping news inputs during RL training cut the return to -2.7%. [arXiv cs.AI, submitted 2026-10-07]"
+    },
+    {
+     "title": "OOM-RL II: Reality Is an Oracle, Not a Debugger Provenance-Constrained Diagnosis in Continually Evolving Agent-Engineered Systems",
+     "url": "https://arxiv.org/abs/2610.10256",
+     "fulltext": "https://arxiv.org/pdf/2610.10256",
+     "date": "2026-10-07",
+     "desc": "Case study of a year-long, human-directed quant trading system engineered largely by AI coding agents: the account beat a broad index, but its alpha was not statistically different from zero, and constantly changing code meant results could not be tied to a specific system version. Proposes a provenance-binding protocol that separates claims about outcomes from claims about what caused them. [arXiv cs.AI, submitted 2026-10-07]"
+    },
+    {
+     "title": "DSTNet: Dynamic Spectral Trajectory Network for Causal Multi-Horizon Financial Forecasting",
+     "url": "https://arxiv.org/abs/2610.09654",
+     "fulltext": "https://arxiv.org/pdf/2610.09654",
+     "date": "2026-10-07",
+     "desc": "DSTNet combines a causal wavelet 'spectral trajectory' of technical indicators with a factorized transformer and a CNN-BiLSTM to forecast seven equity indices and gold at 1-10 day horizons. It is the only model to beat a random-walk benchmark in every series-horizon cell (by 0.7-0.9% MAE at one day, 3.4-4.5% at ten days), though the gains do not produce an equity-timing advantage. [arXiv cs.LG, submitted 2026-10-07]"
+    },
+    {
+     "title": "Residual Learning in Empirical Asset Pricing",
+     "url": "https://arxiv.org/abs/2610.09613",
+     "fulltext": "https://arxiv.org/pdf/2610.09613",
+     "date": "2026-10-07",
+     "desc": "Uses residual (skip-connection) learning so neural asset-pricing models can go deeper while keeping their shallow counterparts as a base. Value-weighted long-short portfolios from deep residual models reach an out-of-sample Sharpe ratio of 2.07, versus 1.92 for shallow networks and 0.89 for deep feedforward ones. [arXiv q-fin.ST, submitted 2026-10-07]"
+    },
+    {
+     "title": "Large Language Models as Voting Mechanisms",
+     "url": "https://www.nber.org/papers/w35839",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w35839/w35839.pdf",
+     "date": "2026-10-05",
+     "desc": "Proves that an LLM behaves like a voting rule over its training corpus, so it can produce Condorcet cycles: intransitive pairwise recommendations open to money-pump exploitation. Querying ChatGPT-4o on pairwise investment choices among S&P 100 firms uncovers millions of such cycles, which generally cannot be corrected after the fact; the sampling temperature changes the effective voting rule. [NBER w35839, issued 2026-10-05]"
+    },
+    {
+     "title": "Causal Lag Structure Discovery in Confounded Time Series via Orthogonalized Adaptive Estimation",
+     "url": "https://arxiv.org/abs/2610.05618",
+     "fulltext": "https://arxiv.org/pdf/2610.05618",
+     "date": "2026-10-04",
+     "desc": "Proposes ORACLE-VARX, a causal lag-discovery pipeline for multivariate time series that uses double/debiased machine learning (e.g., LightGBM) to strip nonlinear confounding, adaptive lag-order selection, and FDR-controlled edge tests with valid rolling-window inference. On synthetic data it tracks the true lag order best with edge FDR near 0.05, and on nine U.S. sector ETFs with macroeconomic confounders it yields causal graphs whose lag order rises in high-volatility regimes. [arXiv stat.ME, submitted 2026-10-04]"
+    },
+    {
+     "title": "Measuring Learned Monotone Temporal Aggregation at Matched Admissibility",
+     "url": "https://arxiv.org/abs/2610.05196",
+     "fulltext": "https://arxiv.org/pdf/2610.05196",
+     "date": "2026-10-04",
+     "desc": "Builds a recurrent network that is monotone in every exposure input by construction, to measure what learned temporal aggregation adds to regulated risk scores when both it and hand-crafted pipelines satisfy the same monotonicity constraint. The learned channel reproduces standard engineered risk statistics (Spearman >= 0.996) but fails on consecutivity and time localization; overall the learned and engineered approaches are largely substitutes. [arXiv cs.LG, submitted 2026-10-04]"
+    },
+    {
+     "title": "AlphaPADI: Formulaic Alpha Discovery via Pool-Aware Hierarchical Discrete Diffusion",
+     "url": "https://arxiv.org/abs/2610.04959",
+     "fulltext": "https://arxiv.org/pdf/2610.04959",
+     "date": "2026-10-04",
+     "desc": "AlphaPADI generates whole pools of formulaic stock-return alphas with a grammar-constrained, pool-aware hierarchical discrete diffusion model refined through reward-guided search and preference learning. On Chinese and U.S. equities it beats RL and GFlowNet baselines in both predictive and portfolio performance. [arXiv cs.CE, submitted 2026-10-04]"
+    },
+    {
+     "title": "FactorBench: A Portfolio-Aware Benchmark for Automated Factor Mining",
+     "url": "https://arxiv.org/abs/2610.06947",
+     "fulltext": "https://arxiv.org/pdf/2610.06947",
+     "date": "2026-10-03",
+     "desc": "FactorBench compares about 5,000 factors produced by nine automated mining methods (genetic programming, RL, generative models and LLM agents) across five equity markets on validity, out-of-sample generalization, distinctness from Alpha101, and after-cost portfolio performance. No mining paradigm consistently dominates. [arXiv q-fin.PM, submitted 2026-10-03]"
+    },
+    {
+     "title": "From Individual Decisions to Collective Outcomes: A Review of LLM Agents in Financial Markets",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7549841",
+     "desc": "Synthesizes a verified corpus of 599 papers from November 2022 to September 2026 to ask when evidence about individual LLM decisions actually supports conclusions about interacting agents and markets. [SSRN, posted 2026-10-02]"
+    },
+    {
+     "title": "Agent Policy-Value Audit: Separating Transition Composition from Event Selection in Financial LLM Agents",
+     "url": "https://arxiv.org/abs/2610.04040",
+     "desc": "Argues that end-to-end return comparisons cannot isolate a financial LLM agent's event-selection skill, since frequent flat-to-long switching earns positive paired returns in a drifting market, and proposes an audit that separates the two. [arXiv q-fin.TR, posted 2026-10-02]"
+    },
+    {
+     "title": "MintEval: Do LLMs Implement the Trading Strategy You Asked For? A Behavioural-Equivalence Benchmark for Natural-Language-to-Strategy Code",
+     "url": "https://arxiv.org/abs/2610.03080",
+     "desc": "Targets the silent failure mode of LLM-written trading code — it runs and backtests cleanly while executing different risk logic than described — with a benchmark testing behavioural equivalence rather than unit-test correctness. [arXiv q-fin.TR, posted 2026-10-02]"
+    },
+    {
+     "title": "Multi-Agent AI as a Nested Principal-Agent Problem in Private Wealth Management",
+     "url": "https://arxiv.org/abs/2610.02863",
+     "desc": "Models a wealth manager delegating to AI as simultaneously the client's agent and the system's principal, with legal duties and mandate representation under Swiss, German and Austrian rules. [arXiv q-fin.GN, posted 2026-10-02]"
+    },
+    {
+     "title": "Shapley-based Structural Analysis of Neural Calibration for Stochastic Volatility Models",
+     "url": "https://arxiv.org/abs/2610.03076",
+     "desc": "Moves past predictive accuracy to analyse the structure of neural inverse-calibration mappings for stochastic volatility models using Shapley attribution. [arXiv q-fin.CP, posted 2026-10-02]"
+    },
+    {
+     "title": "When a Correct Reward Is Not Enough: Diagnosing and Guiding PPO in an Analytically Solved Broker-Trader Game",
+     "url": "https://arxiv.org/abs/2610.03598",
+     "fulltext": "https://arxiv.org/pdf/2610.03598",
+     "date": "2026-10-02",
+     "desc": "Places a PPO reinforcement-learning broker in an analytically solved broker-trader game to test whether RL recovers the known optimal trading speed. PPO gets close only without noise traders; with stochastic uninformed order flow its critics cannot rank nearby actions, and starting from the analytical policy proves a more useful route, giving small but repeatable gains after a cost change. [arXiv q-fin.TR, submitted 2026-10-02]"
+    },
+    {
+     "title": "PreFER: Interactive Robo-Advisor with Scoring Mechanism",
+     "url": "https://arxiv.org/abs/2610.03406",
+     "fulltext": "https://arxiv.org/pdf/2610.03406",
+     "date": "2026-10-02",
+     "desc": "Develops an interactive robo-advisor that learns a client's risk preference from noisy scores the client assigns to its advice, framed as an inverse-reinforcement-learning problem with exploratory investment strategies. Under CARA utility, the advisor provably identifies the client's current risk aversion after enough interactions. [arXiv q-fin.MF, submitted 2026-10-02]"
+    },
+    {
+     "title": "Mixture-of-Experts for Cryptocurrency Order Execution: Training Stability, Tail Risk, and Failure Modes",
+     "url": "https://arxiv.org/abs/2610.03369",
+     "fulltext": "https://arxiv.org/pdf/2610.03369",
+     "date": "2026-10-02",
+     "desc": "Tests mixture-of-experts deep Q-learning for BTC/USDT order execution on Binance limit-order-book data across up to 100 training seeds. No learned policy beat TWAP or immediate liquidation, and the apparent stabilizing benefit of expert partitioning is matched by simply annealing exploration, underlining the need for multi-seed evaluation. [arXiv q-fin.TR, submitted 2026-10-02]"
+    },
+    {
+     "title": "FinNextAssist: Towards Professional Financial Deep Research Assistant",
+     "url": "https://arxiv.org/abs/2610.03174",
+     "fulltext": "https://arxiv.org/pdf/2610.03174",
+     "date": "2026-10-02",
+     "desc": "FinNextAssist is a deep-research agent framework for professional financial analysis with planning, evidence, reasoning and report stages plus specialized sub-agents for cross-market tables and heterogeneous data. It outperforms proprietary and open-source deep-research agents on FinDeepResearch, the Finance Agent Benchmark and FinTMMBench-Web. [arXiv cs.MA, submitted 2026-10-02]"
+    },
+    {
+     "title": "Event History Over Scale: Compact Transformers for Low-Latency Limit Order Book Forecasting",
+     "url": "https://arxiv.org/abs/2610.02917",
+     "fulltext": "https://arxiv.org/pdf/2610.02917",
+     "date": "2026-10-02",
+     "desc": "Introduces tiny causal transformers (about 7k and 14k parameters) that read market-by-order message histories to predict short-horizon price trends in equity and intraday electricity markets. They achieve the best macro-F1 in 11 of 12 settings with sub-millisecond CPU inference, 5-8x faster than million-parameter baselines. [arXiv q-fin.CP, submitted 2026-10-02]"
+    },
+    {
+     "title": "Verify Claims, Not Scores: Evidence-Based Verification of Modular Agents",
+     "url": "https://arxiv.org/abs/2610.01348",
+     "fulltext": "https://arxiv.org/pdf/2610.01348",
+     "date": "2026-10-01",
+     "desc": "Proposes a claim-by-claim evidence audit for modular AI agents (oracle policies, swapping in perfect components, verifier tests) in place of a single aggregate score. Applied to a portfolio-allocation agent in a synthetic regime-switching market, it shows the runtime verifier can be bypassed with no visible change in outcomes and that the scenario generator discards most of the regime signal. [arXiv cs.AI, submitted 2026-10-01]"
+    },
+    {
+     "title": "PPO-HRAP: Proximal Policy Optimization with a Hybrid Regime-Aware Policy for Risk-Controlled Trading",
+     "url": "https://arxiv.org/abs/2610.01325",
+     "fulltext": "https://arxiv.org/pdf/2610.01325",
+     "date": "2026-10-01",
+     "desc": "PPO-HRAP blends a PPO trading policy with a VIX-conditioned regime prior and a reward that penalizes drawdowns and turnover. On held-out 2020-2022 SPY data it returns 27.6% with a Sharpe ratio of 0.64 while cutting maximum drawdown to 18.5% from 34.1% for buy-and-hold, though turnover remains high. [arXiv cs.AI, submitted 2026-10-01]"
+    },
+    {
+     "title": "Beyond Supra-Competitive Outcomes: Collusive Behaviour in Deep Reinforcement Learning for Optimal Execution Games",
+     "url": "https://arxiv.org/abs/2610.00619",
+     "desc": "Identifies a learned punitive mechanism that deters deviation in a two-player Almgren-Chriss liquidation game, offering behavioural evidence that independent PPO execution agents collude. [arXiv q-fin.TR, posted 2026-09-30]"
+    },
+    {
+     "title": "Spouse-Protected Tontines: Household Decumulation via Neural-Network Optimization",
+     "url": "https://arxiv.org/abs/2609.39569",
+     "fulltext": "https://arxiv.org/pdf/2609.39569",
+     "date": "2026-09-30",
+     "desc": "Designs a spouse-protected tontine for household retirement decumulation and solves the resulting withdrawal and rebalancing problem with a neural-network parameterization of control policies under a CVaR objective. Australian-calibrated experiments show the spouse-only phase is a large, persistent event whose upper-tail cost is mostly diversified away in large books. [arXiv q-fin.PM, submitted 2026-09-30]"
+    },
+    {
+     "title": "QuantCode Model: Specializing Language Models for Executable Algorithmic Trading Code",
+     "url": "https://arxiv.org/abs/2609.39420",
+     "fulltext": "https://arxiv.org/pdf/2609.39420",
+     "date": "2026-09-30",
+     "desc": "Specializes LLMs to write executable Backtrader trading code through continued pretraining on trading-framework code and supervised fine-tuning on validated request-code pairs, evaluated on a 400-task benchmark. SFT lifts Qwen3.6-35B-A3B to 58.2% judge pass and raises agentic final success from 47.5% to 79.5%, but specialization degrades general tool-calling ability. [arXiv cs.CL, submitted 2026-09-30]"
+    },
+    {
+     "title": "AI Infrastructure Investment Thesis",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544724",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544724",
+     "date": "2026-09-30",
+     "desc": "Presents a descriptive baseline, as of August 1, 2026, of the AI infrastructure buildout across compute spending, physical projects, power, grid equipment, financing and policy, separating announced projects from operating capacity. It concludes that physical demand can strengthen while returns on any particular investment remain uncertain. [SSRN, posted 2026-09-30]"
+    },
+    {
+     "title": "Say, Echo, Do: Strategic Narratives and Revealed Positioning in Financial Markets",
+     "url": "https://arxiv.org/abs/2609.38545",
+     "fulltext": "https://arxiv.org/pdf/2609.38545",
+     "date": "2026-09-29",
+     "desc": "Models an informed institution that talks an asset one way while trading the other, deriving when text signals from institutional statements and media echoes should be faded, and proposes embedding-based echo detection and return-aligned contrastive embeddings. In simulated markets, echo sentiment predicts returns with a negative sign in all 29 markets and a statement-position correlation flags false alarms with AUC 0.90. [arXiv q-fin.TR, submitted 2026-09-29]"
+    },
+    {
+     "title": "Large Language Models, Price Discovery, and Synchronized Trading",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7538559",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7538559",
+     "date": "2026-09-29",
+     "desc": "Using ChatGPT's launch as a shock, finds that order flow in hard-to-read firms became more one-sided and more synchronized with the market, while price discovery improved and earnings news was priced faster. A Kyle-style model shows how delegating disclosure reading to a common model can raise correlated trading and informativeness at the same time. [SSRN, posted 2026-09-29]"
+    },
+    {
+     "title": "FinAutoRubric: Expert-Guided Automatic Rubric Generation for Evaluating Financial Research Agents",
+     "url": "https://arxiv.org/abs/2609.35744",
+     "fulltext": "https://arxiv.org/pdf/2609.35744",
+     "date": "2026-09-28",
+     "desc": "FinAutoRubric has experts write reusable guidance while LLM agents generate, research and verify query-specific rubrics for grading financial research agents. Its rubrics track expert scoring as closely as the best generator, agree with human grading and are preferred by in-house analysts; a 100-query benchmark across eight asset classes is released. [arXiv cs.AI, submitted 2026-09-28]"
+    },
+    {
+     "title": "Deep kernel hedging",
+     "url": "https://arxiv.org/abs/2609.34474",
+     "fulltext": "https://arxiv.org/pdf/2609.34474",
+     "date": "2026-09-28",
+     "desc": "Proposes deep kernel hedging, which restricts hedging strategies to a reproducing kernel Hilbert space whose kernel is learned by a neural network, with signature features for path dependence and random Fourier features for scalability. It is competitive with standard deep hedging and more robust in low-data regimes on synthetic and real data. [arXiv cs.LG, submitted 2026-09-28]"
+    },
+    {
+     "title": "From Word Counts to Context: Topic Models for Asset Pricing",
+     "url": "https://arxiv.org/abs/2609.34169",
+     "fulltext": "https://arxiv.org/pdf/2609.34169",
+     "date": "2026-09-28",
+     "desc": "Compares LDA topic models with a frozen sentence transformer plus k-means on 394,661 news articles feeding the same factor-portfolio pipeline. The transformer version scores higher on topic coherence and Sharpe ratio (an exploratory combined model reaches 1.03), though the differences are not statistically established. [arXiv cs.CE, submitted 2026-09-28]"
+    },
+    {
+     "title": "Plumbing versus Information Rents: How Frontier AI Releases Reprice Exchanges, Clearing Houses, and Trading Platforms",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7525938",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7525938",
+     "date": "2026-09-28",
+     "desc": "An event study of 40 market-infrastructure firms around 13 frontier AI releases (2022-2026) finds that pure exchange and clearing operators are unaffected, while financial data and analytics providers lose about 0.8 pp for each point of software-sector underperformance. Their exposure jumped in 2026 with agentic AI tools, though large losses partly reversed within one to two months. [SSRN, posted 2026-09-28]"
+    },
+    {
+     "title": "LiveOption: Evaluating LLM Agents in Structured Option Trading with Nonlinear Payoffs",
+     "url": "https://arxiv.org/abs/2609.33470",
+     "desc": "Extends financial LLM-agent evaluation from equity direction-prediction to option trading, where nonlinear payoffs and multi-leg construction demand structured decisions. [arXiv q-fin.CP, posted 2026-09-27]"
+    },
+    {
+     "title": "Evolution of Market Microstructure in the Age of AI",
+     "url": "https://arxiv.org/abs/2609.33058",
+     "desc": "A survey tracing how trading rules have been repeatedly rebuilt — floor trading, electronic order books, HFT, batch auctions, AMMs — and now for AI agents that discover, pay for and compete over resources. [arXiv q-fin.TR, posted 2026-09-27]"
+    },
+    {
+     "title": "Taming the Greeks: Option Portfolios with Inductive Biases",
+     "url": "https://arxiv.org/abs/2609.33767",
+     "fulltext": "https://arxiv.org/pdf/2609.33767",
+     "date": "2026-09-27",
+     "desc": "End-to-end deep learning for systematic options trading that adds a differentiable Greek-exposure penalty to a risk-adjusted performance loss, trained directly on historical data. On Nasdaq-100 delta-neutral straddle portfolios, calibrated penalties improve out-of-sample risk-adjusted returns while lowering realized directional exposure. [arXiv q-fin.PM, submitted 2026-09-27]"
+    },
+    {
+     "title": "EverMine: Dissecting the Self-Evolution of Research Capabilities in Long-Horizon Alpha Research",
+     "url": "https://arxiv.org/abs/2609.33524",
+     "fulltext": "https://arxiv.org/pdf/2609.33524",
+     "date": "2026-09-27",
+     "desc": "EverMine tests whether self-evolving LLM research agents in long-horizon alpha discovery benefit from the skills and rules they accumulate. Across 18 full trajectories and 48 controlled continuation branches, evolved capabilities give no consistent gain over the initial ones, while tuning existing factors still improves the portfolio. [arXiv cs.AI, submitted 2026-09-27]"
+    },
+    {
+     "title": "Forecasting Intraday USD/CAD Exchange Rate with News-Derived Monetary-Policy Signals",
+     "url": "https://arxiv.org/abs/2609.32773",
+     "fulltext": "https://arxiv.org/pdf/2609.32773",
+     "date": "2026-09-26",
+     "desc": "Converts monetary-policy news into structured signals with LLMs and feature engineering, then forecasts intraday USD/CAD with tree-based models and an attribution test under false-discovery-rate control. Predictive value sits in a few signals, with communication timing the strongest and LLM-derived sentiment adding complementary information. [arXiv cs.AI, submitted 2026-09-26]"
+    },
+    {
+     "title": "Self-Evolving Multi-Agent Symbolic Discovery for Financial Fundamental Analysis",
+     "url": "https://arxiv.org/abs/2609.32746",
+     "fulltext": "https://arxiv.org/pdf/2609.32746",
+     "date": "2026-09-26",
+     "desc": "MUFASA is a hierarchical multi-agent LLM framework for symbolic regression of firm-valuation equations, with agents for distinct valuation perspectives, a market-aware meta-coordinator and a memory of performance statistics. On datasets from several countries it beats classical valuation methods, financial LLMs and standard symbolic regression while producing interpretable equations. [arXiv cs.MA, submitted 2026-09-26]"
+    },
+    {
+     "title": "Agentic Limit Order Books: Phase Transitions and Market Impact",
+     "url": "https://arxiv.org/abs/2609.31260",
+     "desc": "Studies limit order books populated entirely by autonomous reinforcement-learning traders, documenting equilibrium phase transitions in order-flow regimes and the structure of market impact. [arXiv q-fin.TR, posted 2026-09-25]"
+    },
+    {
+     "title": "Same Text, Different Numbers: The Divergence of LLM-Based Measures",
+     "url": "https://arxiv.org/abs/2609.31013",
+     "desc": "Scores S&P 500 earnings call transcripts with seven LLMs across thirteen measures — sentiment, clarity, uncertainty, climate and political risk — to test how far LLM-based textual variables are invariant to model choice. [arXiv q-fin.GN, posted 2026-09-25]"
+    },
+    {
+     "title": "Financial Fragility in Societies of LLM Agents: Coordination Failures and Stabilizing Mechanisms",
+     "url": "https://arxiv.org/abs/2609.30940",
+     "desc": "Introduces FRAIL, a controlled framework placing LLM agents in bank-run-style settings, to argue financial AI safety must be assessed at the system level and not only per agent. [arXiv q-fin.GN, posted 2026-09-25]"
+    },
+    {
+     "title": "Algorithmic trading and stochastic integration",
+     "url": "https://arxiv.org/abs/2609.31578",
+     "fulltext": "https://arxiv.org/pdf/2609.31578",
+     "date": "2026-09-25",
+     "desc": "Proves that trading strategies whose coefficients are neural networks of finitely many observations can approximate any stochastic integral against a semimartingale. Restricting to such strategies leaves the minimal mean-variance hedging error unchanged and preserves no-free-lunch and Bichteler-Dellacherie characterizations, giving theoretical grounding to neural trading strategies. [arXiv math.PR, submitted 2026-09-25]"
+    },
+    {
+     "title": "Functional Architecture of European Electricity Trading Markets: Requirements for AI Supported Trading Systems under Regulatory Constraints",
+     "url": "https://arxiv.org/abs/2609.29108",
+     "fulltext": "https://arxiv.org/pdf/2609.29108",
+     "date": "2026-09-24",
+     "desc": "Sets out a formal functional architecture for AI-supported trading in EU electricity markets that respects market coupling, cross-zonal constraints and REMIT/MiFID II/EMIR compliance, with fail-closed control logic and auditable records. Maps exchange venues and identifies where cross-border coordination breaks down, positioning AI as a bounded, governed decision component. [arXiv cs.AI, submitted 2026-09-24]"
+    },
+    {
+     "title": "Artificial intelligence and financial markets",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7515878",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7515878",
+     "date": "2026-09-24",
+     "desc": "An ECB working paper by leading market-microstructure researchers surveys how AI changes information production, decision-making, labor demand and intermediation in securities markets. It then discusses the implications for market efficiency, competition, informational frictions and financial stability. [SSRN, posted 2026-09-24]"
+    },
+    {
+     "title": "Multi-Agent AI Architecture for Regulated Insurers: A generic AI framework under Solvency II and the AI Act",
+     "url": "https://arxiv.org/abs/2609.27636",
+     "desc": "A formal multi-agent architecture for enterprise AI in regulated insurance, combining Arrow's risk-pooling, Nash equilibrium among decision agents, and principal-agent theory under Solvency II and the EU AI Act. [arXiv q-fin.GN, posted 2026-09-23]"
+    },
+    {
+     "title": "Compliant AI Infrastructure for Regulated Finance: A tiered multi-agent framework with DLT audit trails",
+     "url": "https://arxiv.org/abs/2609.27632",
+     "desc": "Treats regulation as an orientation layer rather than a fixed ruleset, mapping a matrix of regulatory intent and exposure into concrete prohibitions, obligations and runtime budgets via a governed policy compiler. [arXiv q-fin.GN, posted 2026-09-23]"
+    },
+    {
+     "title": "Propose, Don't Judge: An Anytime-Valid Referee for LLM Agents That Mine Investment Factors",
+     "url": "https://arxiv.org/abs/2609.27051",
+     "desc": "Proposes governed self-evolution for factor-research agents: the agent may propose factors, but a frozen statistical referee it cannot modify judges them only on market outcomes revealed after submission. [arXiv q-fin.PM, posted 2026-09-22]"
+    },
+    {
+     "title": "Hierarchical Multi-Task Learning with Liquidity-Aware Signals for Stock Forecasting",
+     "url": "https://arxiv.org/abs/2609.25617",
+     "fulltext": "https://arxiv.org/pdf/2609.25617",
+     "date": "2026-09-22",
+     "desc": "LiMT is a hierarchical multi-task deep model that encodes cross-stock and temporal dynamics and uses mixture-of-experts to jointly predict price movement, volatility and volume, feeding a liquidity-aware portfolio optimizer. In CSI300 backtests it raises annualized return from 3.99% to 10.01% and Sharpe ratio from 1.22 to 1.86 versus equal weighting. [arXiv cs.CE, submitted 2026-09-22]"
+    },
+    {
+     "title": "Firm Valuation When AI Shapes the Business Model: A Milestone-Based Real-Options Framework for the AI Valuation Uncertainty Problem",
+     "url": "https://arxiv.org/abs/2609.24181",
+     "fulltext": "https://arxiv.org/pdf/2609.24181",
+     "date": "2026-09-21",
+     "desc": "Proposes a valuation protocol for firms whose business model depends on AI, classifying them as AI Integrators (by integration depth) or AI Providers and overlaying milestone-gated real options whose probabilities come from an Analytic Hierarchy Process-based readiness index. Applied to one AI-native energy software-as-a-service firm, it produces a valuation band traceable to option-level assumptions with risk concentrated in later-stage continuation options, as a demonstration rather than an empirical validation. [arXiv q-fin.GN, submitted 2026-09-21]"
+    },
+    {
+     "title": "Financial Language Models as Applied Artificial Intelligence Systems for News-Based Trading under Market Frictions",
+     "url": "https://arxiv.org/abs/2609.23703",
+     "desc": "Proposes an integrated deployment framework for judging whether news-derived signals from financial language models survive realistic market frictions in a decision system. [arXiv q-fin.TR, posted 2026-09-20]"
+    },
+    {
+     "title": "Risk Measures under Paired-Ambiguity: A Deep Learning Reflected BSDE Framework",
+     "url": "https://arxiv.org/abs/2609.23768",
+     "fulltext": "https://arxiv.org/pdf/2609.23768",
+     "date": "2026-09-20",
+     "desc": "Studies optimal stopping under dynamic risk measures with ambiguity in both the probability model and the discount rate, characterized by a reflected BSDE, and develops a deep-learning solver with convergence analysis for the quadratic (entropic) case. American-option experiments show how discount-rate and entropic ambiguity shift stopping values and exercise decisions. [arXiv q-fin.RM, submitted 2026-09-20]"
+    },
+    {
+     "title": "OrderFusion+: Probabilistic Buy--Sell Price Trajectory Forecasting in Intraday Electricity Markets",
+     "url": "https://arxiv.org/abs/2609.23598",
+     "fulltext": "https://arxiv.org/pdf/2609.23598",
+     "date": "2026-09-20",
+     "desc": "OrderFusion+ is an open-source deep-learning model that uses order books of the target and neighboring delivery products to produce probabilistic buy-sell price-trajectory forecasts for German intraday electricity products, benchmarked against baselines and pretrained time-series foundation models. A dynamic masking mechanism also yields insights into market efficiency. [arXiv q-fin.CP, submitted 2026-09-20]"
+    },
+    {
+     "title": "Stealing profits: Spread-based temporal hierarchy forecasting for day-ahead electricity markets",
+     "url": "https://arxiv.org/abs/2609.23223",
+     "fulltext": "https://arxiv.org/pdf/2609.23223",
+     "date": "2026-09-19",
+     "desc": "Applies temporal hierarchy forecasting that jointly reconciles hourly day-ahead electricity price forecasts with all intraday price spreads, the quantities that matter for battery arbitrage, across three forecasting architectures including the pretrained TabPFN foundation model. On five years of out-of-sample German and Spanish data it improves accuracy by up to 19.7% and arbitrage profits by up to 10.4% relative to unreconciled hourly forecasts. [arXiv q-fin.ST, submitted 2026-09-19]"
+    },
+    {
+     "title": "Fedspeak, LLM-Derived Signals, and High-Frequency Trading",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7479619",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7479619",
+     "date": "2026-09-19",
+     "desc": "Builds an LLM-based Communication Divergence Signal that captures semantic, tonal and framing shifts across sequential FOMC communications. High-frequency event studies show that this divergence drives persistent intraday price moves, abnormal trading volume and open-interest changes, consistent with gradual belief updating. [SSRN, posted 2026-09-19]"
+    },
+    {
+     "title": "Does Training on Future Data Pay? Look-Ahead Bias in Forecasting with Pretrained Models",
+     "url": "https://arxiv.org/abs/2609.20554",
+     "fulltext": "https://arxiv.org/pdf/2609.20554",
+     "date": "2026-09-17",
+     "desc": "Tests whether financial time-series foundation models trained on data from after the forecast origin inflate measured accuracy and economic value, using five model sets with annual training vintages across 14 equity markets and four horizons, each paired with a point-in-time benchmark. For U.S.-trained models, post-origin vintages generally reduce accuracy (higher mean squared error in 18 of 20 cases) and lower annualized certainty-equivalent returns by about 1.8-2.1 percentage points, so look-ahead exposure is an information-set violation but not evidence of inflated performance. [arXiv econ.GN, submitted 2026-09-17]"
+    },
+    {
+     "title": "SAiFE-gym: Model-based Environments for Automated Market Making with Concentrated Liquidity",
+     "url": "https://arxiv.org/abs/2609.17788",
+     "fulltext": "https://arxiv.org/pdf/2609.17788",
+     "date": "2026-09-15",
+     "desc": "SAiFE-gym is a vectorized Python library of simulation environments for liquidity provision in constant-product automated market makers with concentrated liquidity, built for reinforcement-learning research. It demonstrates RL liquidity-provider agents under uncertainty in market parameters. [arXiv q-fin.TR, submitted 2026-09-15]"
+    },
+    {
+     "title": "Clean Scores, Buried Evidence, and Confident Wrong: A Receipt-Based Audit of Frontier Agentic QA",
+     "url": "https://arxiv.org/abs/2609.15319",
+     "desc": "A controlled data-room audit finds that burying evidence cuts frontier-model accuracy while raising tool calls, declarations and cost per correct answer, with confidence failing to flag the wrong answers. [arXiv q-fin.GN, posted 2026-09-14]"
+    },
+    {
+     "title": "Design of a Deep Learning Credit Risk Early Warning System Integrating Multi-source Heterogeneous Data",
+     "url": "https://arxiv.org/abs/2609.15744",
+     "desc": "Proposes a credit-risk early warning system built on heterogeneous information fusion and deep neural networks, aimed at the information silos and monitoring delays that slow existing systems. [arXiv q-fin.RM, posted 2026-09-14]"
+    },
+    {
+     "title": "WaVeFuse: Regime-Adaptive Equity Index Forecasting via Channel-Wise Wavelet Denoising and Vertical Attention Fusion",
+     "url": "https://arxiv.org/abs/2609.14733",
+     "fulltext": "https://arxiv.org/pdf/2609.14733",
+     "date": "2026-09-13",
+     "desc": "WaVeFuse combines wavelet denoising, channel-wise wavelet transforms of technical indicators, a CNN-BiLSTM and a transformer with attention-based fusion to forecast KOSPI, DAX, NYSE Composite and Russell 2000 (2010-2023). It beats seven benchmark models by 8.9-20.2% on MAE and reports a backtested mean Sharpe ratio of 3.69 after 10 bp costs. [arXiv cs.LG, submitted 2026-09-13]"
+    },
+    {
+     "title": "Towards foundation models for insurance risk modelling",
+     "url": "https://arxiv.org/abs/2609.14576",
+     "fulltext": "https://arxiv.org/pdf/2609.14576",
+     "date": "2026-09-13",
+     "desc": "Reviews language, vision, geospatial, time-series, tabular and scientific foundation models for insurance, from reading claim notes to climate simulation, and proposes a process for linking their outputs to actuarial models and testing predictive value, stability and compliance. Flags risks including long claim delays that complicate evaluation, finer risk classification affecting access to cover, and dependence on shared model providers. [arXiv q-fin.RM, submitted 2026-09-13]"
+    },
+    {
+     "title": "ViperQ: Order Flow Pattern Recognition via Auction Market Theory for Reinforcement Learning Trading",
+     "url": "https://arxiv.org/abs/2609.13825",
+     "desc": "Gives Auction Market Theory and Market Profile — practitioner microstructure theories absent from the academic RL literature — a computational instantiation as the state representation of an RL trading system. [arXiv q-fin.TR, posted 2026-09-12]"
+    },
+    {
+     "title": "Do Large Language Models Add Value in Credit Investing? Evidence from a Disclosure-Reading Agent for US Bank Bonds",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7423838",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7423838",
+     "date": "2026-09-12",
+     "desc": "Tests whether an LLM agent reading only SEC filings and FDIC financials can spot credit deterioration at US banks before it shows up in bond spreads, flagging one regional bank's funding stress two quarters early on post-training-cutoff data. Its main contribution is a careful treatment of look-ahead contamination via post-cutoff testing and anonymisation. [SSRN, posted 2026-09-12]"
+    },
+    {
+     "title": "VertiFuseX: Generalizable Financial Forecasting via Multi-Stream Temporal Fusion",
+     "url": "https://arxiv.org/abs/2609.12793",
+     "fulltext": "https://arxiv.org/pdf/2609.12793",
+     "date": "2026-09-11",
+     "desc": "VertiFuseX fuses penultimate-layer features from LSTM, Bi-LSTM, stacked-LSTM and DNN branches to forecast closing prices of 10 global equity indices (2010-2024). It cuts MAPE by 30-54% versus LSTM baselines and beats seven state-of-the-art models in 33 comparisons with a 2.6 MB model. [arXiv cs.LG, submitted 2026-09-11]"
+    },
+    {
+     "title": "Beyond Delegation: Spillover Effects of Robo-Advisors on Investor Risk-Taking",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7420538",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7420538",
+     "date": "2026-09-11",
+     "desc": "Using Alipay robo-advisor data covering both delegated and self-managed accounts, a staggered difference-in-differences design shows that after adopting the robo-advisor, investors take more risk in their own portfolios. Their self-managed holdings also become more market-exposed and diversified, which the authors read as learning from delegation rather than disengagement. [SSRN, posted 2026-09-11]"
+    },
+    {
+     "title": "Deep Learning of Robust Market Making under Regime-Switching Order Flow",
+     "url": "https://arxiv.org/abs/2609.11614",
+     "desc": "Relaxes the stationary-order-flow assumption behind Avellaneda-Stoikov and GLFT quoting rules, learning robust market-making policies when flow switches regimes. [arXiv q-fin.TR, posted 2026-09-10]"
+    },
+    {
+     "title": "The Great Codification: GenAI and Intangible Capital",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7435743",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7435743",
+     "date": "2026-09-10",
+     "desc": "Builds a task-based measure of the intangible capital embedded in firms' workforces and shows that intangible-intensive firms gained value at ChatGPT's release but lost value when agentic AI capabilities were priced in early 2026. The authors' model explains the reversal: agents let codifiable knowledge move into firm-owned software, creating value when that knowledge is firm-specific and destroying it when it is portable. [SSRN, posted 2026-09-10]"
+    },
+    {
+     "title": "Adversarial Training for Tabular Credit Scoring: A Multi-Attack Robustness Evaluation in P2P Lending",
+     "url": "https://arxiv.org/abs/2609.09945",
+     "fulltext": "https://arxiv.org/pdf/2609.09945",
+     "date": "2026-09-09",
+     "desc": "Benchmarks adversarial robustness of logistic-regression, neural-network and tabular-transformer credit scores on Lending Club data under four attacks restricted to applicant-editable features. Training against one attack protects well against similar gradient-based attacks but poorly against others; mixed-attack training gives the most balanced robustness without hurting clean accuracy. [arXiv cs.LG, submitted 2026-09-09]"
+    },
+    {
+     "title": "AI for AI: Optimizing Additional Infrastructure Build-out to Power Artificial Intelligence Data Centers",
+     "url": "https://arxiv.org/abs/2609.08166",
+     "desc": "Links data-center load growth, available generation capacity and market design to study why AI electricity demand is raising prices without a compensating supply response. [arXiv q-fin.GN, posted 2026-09-08]"
+    },
+    {
+     "title": "Explainable Deep Learning for Price-Trade Dynamics: From Black-Box Forecasts to Effective Parametric Models",
+     "url": "https://arxiv.org/abs/2609.06085",
+     "desc": "Uses deep networks for structural discovery rather than prediction alone, distilling the nonlinear, state-dependent interaction of returns and order flow into interpretable parametric form. [arXiv q-fin.TR, posted 2026-09-05]"
+    },
+    {
+     "title": "Artificial Intelligence in Equity and Crypto Markets: Progress, Profitability Evidence, and the Limits of Automated Investing",
+     "url": "https://arxiv.org/abs/2609.04917",
+     "desc": "A critical review of public research through 31 August 2026 across equities, ETFs, crypto spot, perpetual futures and on-chain markets, insisting technical capability is not evidence of investment profitability. [arXiv q-fin.PM, posted 2026-09-04]"
+    },
+    {
+     "title": "Do Large Language Models Overvalue AI Narratives?",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7397642",
+     "desc": "Uses a frozen DeepSeek model on 14,336 Chinese A-share firm-years of anonymized MD&A text to test whether an LLM treats AI mentions as informative disclosure or as a favourable narrative cue. [SSRN, posted 2026-09-02]"
+    },
+    {
+     "title": "The Analyst in the Prompt: Role, Retrieval, and Memory Biases in LLM Financial Analysis",
+     "url": "https://arxiv.org/abs/2609.03218",
+     "desc": "Tests whether personalization — memory, profiles and role prompts — shifts an LLM's conclusions from identical financial evidence, using long complex documents as the high-stakes setting. [arXiv q-fin.PM, posted 2026-09-02]"
+    },
+    {
+     "title": "Tempting the Agent: The Economics of Reputation without Persistent Identity in AI Agent Markets",
+     "url": "https://arxiv.org/abs/2609.02992",
+     "desc": "Asks what happens to reputation as a disciplinary mechanism in AI agent markets when identities can be abandoned and recreated at will. [arXiv q-fin.GN, posted 2026-09-02]"
+    },
+    {
+     "title": "Eliciting ESG Preferences for Reinforcement Learning-Based Portfolio Optimization",
+     "url": "https://arxiv.org/abs/2609.02677",
+     "desc": "Addresses RL portfolio methods that optimize against a single ESG provider by eliciting preferences across divergent rating methodologies instead of hand-weighting conflicting objectives. [arXiv q-fin.PM, posted 2026-09-02]"
+    },
+    {
+     "title": "Scaling Laws, Tabular Data and Actuarial Ratemaking Models",
+     "url": "https://arxiv.org/abs/2609.03106",
+     "fulltext": "https://arxiv.org/pdf/2609.03106",
+     "date": "2026-09-02",
+     "desc": "Tests whether deep-learning-style scaling laws hold in actuarial ratemaking on a real motor-insurance portfolio, training several model families on growing data fractions. All models improve with more data, but TabM scales much better than plain tabular transformers and MLPs, and larger transformers gain little without extra inductive biases. [arXiv cs.LG, submitted 2026-09-02]"
+    },
+    {
+     "title": "Insights on Time-consistent Deep Hedging under Elicitable Dynamic Risk Measures",
+     "url": "https://arxiv.org/abs/2609.02014",
+     "fulltext": "https://arxiv.org/pdf/2609.02014",
+     "date": "2026-09-02",
+     "desc": "Applies time-consistent deep hedging under dynamic spectral risk measures, via conditional elicitability, to a high-dimensional basket-option hedging problem. Shows the approach is feasible beyond simple low-dimensional settings, examines how the choice of scoring function affects training, and compares it with deep hedging under static risk measures. [arXiv q-fin.CP, submitted 2026-09-02]"
+    },
+    {
+     "title": "Multi-Agent Deep Reasoning Framework for Financial Trading Decision-Making: Architecture, Mechanism, and Empirical Analysis",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7396019",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7396019",
+     "date": "2026-09-02",
+     "desc": "Proposes a LangGraph-based multi-agent LLM trading system modeled on a trading firm, with analyst agents, a bull-vs-bear debate, a trader and adversarial risk review, plus episodic memory. The authors report that the debate mechanism reduces decision bias compared with single-agent setups and that reflection improves decisions over successive sessions. [SSRN, posted 2026-09-02]"
+    },
+    {
+     "title": "Agentic Empirical Asset Pricing: Methodological Foundations",
+     "url": "https://arxiv.org/abs/2609.00731",
+     "desc": "Defines Agentic Empirical Asset Pricing — LLM-agent systems that run the discovery process itself — and argues evaluation must test the discovery system, not just the factors or trades it emits. [arXiv q-fin.ST, posted 2026-09-01]"
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "AI on Time? Evidence from Curb-to-Gate Facial Recognition",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/msom.2023.0277",
+     "desc": "Examines how airport facial recognition affects flight on-time performance, weighing time saved at check-in and boarding against delays from recognition errors in an immature technology. [M&SOM, published online 2026-10-08]"
+    },
+    {
+     "title": "Using Representation Learning and Website Text to Identify Competitor Networks",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2024.06516",
+     "desc": "Builds company embeddings from website content to map competitive relationships, placing public and private firms in a single embedding space. [Management Science, published online 2026-10-07]"
+    },
+    {
+     "title": "Deep Learning vs. Statistical Models for Multi-Horizon Price Forecasting of Second-Hand Electronics: A Systematic Benchmark",
+     "url": "https://arxiv.org/abs/2610.10727",
+     "desc": "Builds the first multi-horizon benchmark for used-electronics resale prices, a setting with high volatility and sparse listing histories where pricing errors translate directly into platform risk. [arXiv q-fin.CP, posted 2026-10-07]"
+    },
+    {
+     "title": "Learning to Simulate: Generative Metamodeling via Quantile Regression",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2025.1378",
+     "desc": "Replaces metamodels tied to a single pre-chosen output statistic with generative metamodeling via quantile regression, giving real-time predictions of the whole output distribution. [INFORMS Journal on Computing, published online 2026-10-05]"
+    },
+    {
+     "title": "Modeling Shipping Emissions: Machine Learning, Engineering, and Policy Counterfactuals",
+     "url": "https://arxiv.org/abs/2610.01008",
+     "desc": "Combines machine learning with physics-based speed response for maritime CO2, matching hourly vessel tracking to EU-reported fuel consumption to show predictive accuracy does not guarantee reliable counterfactuals. [arXiv econ.GN, posted 2026-10-01]"
+    },
+    {
+     "title": "Pay with Your Data: Optimal Data-Sharing Mechanisms for AI Services",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/msom.2024.1514",
+     "desc": "Designs data-sharing mechanisms by which AI-service firms can acquire training data from consumers who bear privacy costs, trading model accuracy against those costs. [M&SOM, published online 2026-09-25]"
+    },
+    {
+     "title": "Generative Search: Evidence from a Large-Scale Field Experiment",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2025.02458",
+     "desc": "A large-scale field experiment on generative search — AI-generated answers shown ahead of conventional results — testing what changes when users state intent in natural language instead of keywords. [Management Science, published online 2026-09-24]"
+    },
+    {
+     "title": "The Impact of Generative AI on Collaborative Open-Source Software Development: Evidence from GitHub Copilot",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/isre.2024.1361",
+     "desc": "Investigates how a generative AI pair programmer changes developer productivity and participation in distributed open-source projects. [Information Systems Research, published online 2026-09-24]"
+    },
+    {
+     "title": "Feature-Rich, Data-Private: A Sparse Learning Framework for the High-Dimensional Newsvendor",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2025.2370",
+     "desc": "Tackles the double risk of the feature-based newsvendor — ineffective policies from a vast feature space, and leakage of sensitive data — with sparse learning that avoids privacy noise scaling with ambient dimension. [Operations Research, published online 2026-09-21]"
+    },
+    {
+     "title": "Learning Capacity Constraints with Convex Neural Networks in Lot-Sizing Problems",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2024.1033",
+     "desc": "Embeds convex neural networks into mixed-integer linear programs using a Maxout formulation, which outperforms ReLU-based networks on lot-sizing capacity constraints. [INFORMS Journal on Computing, published online 2026-09-21]"
+    },
+    {
+     "title": "How Platform Workers Contest Algorithmic Management: Theorizing the Dynamics of Algoactivistic Practices",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/isre.2024.0927",
+     "desc": "Challenges the assumption that resistance to algorithmic management is uniformly available to platform workers, theorizing instead how algoactivistic practices emerge and spread. [Information Systems Research, published online 2026-09-21]"
+    },
+    {
+     "title": "Reinforcement Learning for Intensity Control: An Application to Choice-Based Network Revenue Management",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2024.1190",
+     "desc": "Proposes a practical continuous-time reinforcement learning framework for intensity control, demonstrated on classical choice-based network revenue management. [Operations Research, published online 2026-09-18]"
+    },
+    {
+     "title": "Sequential Search Transformer: A Deep Structural Econometric Model",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2024.04540",
+     "desc": "Combines a transformer's ability to process large consumer datasets with the sequential-search structure economic theory implies, aiming for prediction without losing interpretability. [Management Science, published online 2026-09-16]"
+    },
+    {
+     "title": "Conformal Inverse Optimization for Adherence-Aware Prescriptive Analytics",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2024.1376",
+     "desc": "Notes that point estimates from inverse optimization can prescribe decisions humans will not adopt, and builds a prescriptive pipeline that accounts for adherence. [Operations Research, published online 2026-09-16]"
+    },
+    {
+     "title": "A Forest Approach for Analyzing the Heterogeneous and Nonlinear Effects of Sellers’ Response Time",
+     "url": "https://pubsonline.informs.org/doi/10.1287/msom.2023.0565",
+     "fulltext": "https://pubsonline.informs.org/doi/10.1287/msom.2023.0565",
+     "date": "2026-09-16",
+     "desc": "Uses eBay best-offer data to study how a seller's response time affects buyer concessions, finding an inverted-U average effect, and develops a multi-treatment instrumental-variable forest (a causal machine-learning method) to estimate effects that vary widely across items. Using the item-specific best response time yields a sizeable increase in buyer concessions. [M&SOM, published online 2026-09-16]"
+    },
+    {
+     "title": "Multi-Agent AI Framework for Supply Chain Risk Mitigation in Global Manufacturing: An Architecture for Autonomous Shortage Detection, Material-Aging Monitoring, and Cost-Shock Response",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7425538",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7425538",
+     "date": "2026-09-14",
+     "desc": "Presents a LangGraph multi-agent AI architecture that continuously detects component shortages, aging inventory and input-cost shocks, then responds by recommending viable substitute components or products. It is illustrated with an industrial-electronics example and includes human-approval loops, governance considerations and KPIs. [SSRN, posted 2026-09-14]"
+    },
+    {
+     "title": "Loop-Back Authority in LLM Agent Teams: A Paired Experiment on Flat and Hierarchical Coordination",
+     "url": "https://arxiv.org/abs/2609.14767",
+     "desc": "Tests the default multi-agent design in which a Manager agent can send a worker's output back for revision, against organizational theory's claim that authority improves decision quality. [arXiv econ.GN, posted 2026-09-13]"
+    },
+    {
+     "title": "AI Assisted Workflow Optimization and Automation",
+     "url": "https://arxiv.org/abs/2609.14323",
+     "fulltext": "https://arxiv.org/pdf/2609.14323",
+     "date": "2026-09-13",
+     "desc": "Analyzes the structure of auxiliary enterprise compliance processes and proposes an optimization path combining process reengineering with RPA, rule engines and semantic recognition for automation. The contribution is a qualitative framework without quantitative evaluation. [arXiv cs.SE, submitted 2026-09-13]"
+    },
+    {
+     "title": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
+     "url": "https://arxiv.org/abs/2609.11915",
+     "desc": "Develops marketing mix modeling for the generative era, estimating causal effects of generative engine optimization and marketing when standard data does not record brand mentions inside AI answers. [arXiv econ.EM, posted 2026-09-10]"
+    },
+    {
+     "title": "Adversarial Training–Based Deep Imbalanced Learning",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2025.1251",
+     "desc": "Addresses financial fraud detection under severe class imbalance and adversarial attack, two conditions that undermine deep networks in banking applications. [INFORMS Journal on Computing, published online 2026-09-09]"
+    },
+    {
+     "title": "ACT, WAIT, or EXPERIMENT: A Causal Governance Framework for Retail Price Optimization Under Abstentions",
+     "url": "https://arxiv.org/abs/2609.10615",
+     "fulltext": "https://arxiv.org/pdf/2609.10615",
+     "date": "2026-09-08",
+     "desc": "Builds a causal decision framework for list-price elasticities in intermediated retail channels using double machine learning and conformal prediction, which recommends acting on a price, abstaining, or running a designed pricing experiment. Acting beats abstaining when the calibration slope exceeds one half (predicting the sign of gains in 37 of 38 synthetic groups), and aggregation to brand or category cuts RMSE from 0.488 to 0.159, but the system abstains on 52-87% of identifiable cases. [arXiv econ.EM, submitted 2026-09-08]"
+    },
+    {
+     "title": "Cognitive Work-in-Process: Managing Artifact Abundance in AI-enabled Operations",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7403918",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7403918",
+     "date": "2026-09-05",
+     "desc": "Argues that generative and agentic AI create 'cognitive work-in-process': a growing backlog of AI-produced analyses and recommendations that must be evaluated with scarce human capacity. It proposes 'lean curation' (admission control, evaluation at the source, calibrated routing, evaluative memory) as a process-design discipline for managing this backlog. [SSRN, posted 2026-09-05]"
+    },
+    {
+     "title": "Generative AI, Platform Stances, and Content Creator Behavior",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/isre.2025.2155",
+     "desc": "Uses two natural experiments on leading Chinese visual-arts platforms, including Lofter's AI image generator launch, to show how a platform's signalled AI stance shapes creator behaviour. [Information Systems Research, published online 2026-09-04]"
+    },
+    {
+     "title": "Artificial Intelligence in International Supply Chain Management: Evidence From a Global Consumer Goods Company",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7391378",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7391378",
+     "date": "2026-09-03",
+     "desc": "A case study of a multinational FMCG firm reviews how AI is applied to demand forecasting, inventory optimization, vision-based quality control and predictive logistics. It concludes that gains are limited by heterogeneous supplier data and high deployment costs, so they depend on complementary organizational measures. [SSRN, posted 2026-09-03]"
+    },
+    {
+     "title": "When AI Speaks for the Crowd: A Field Experiment on the Design of AI-generated Summaries",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7385239",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7385239",
+     "date": "2026-09-02",
+     "desc": "A 2x2 randomized field experiment with 35,625 users on a major consumption platform tests how AI-generated review summaries should be designed. Framing reviews as consensus cuts viewing time by 10% and raises product clicks by 24%, and giving the AI an evaluative stance amplifies clicks further. [SSRN, posted 2026-09-02]"
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "In the race for AI dominance, the U.S. relies on a surprising ally: China",
+     "url": "https://www.washingtonpost.com/business/2026/10/11/race-ai-dominance-us-relies-surprising-ally-china/",
+     "date": "2026-10-11",
+     "desc": "Although the Trump administration casts AI as a winner-take-all race with China, U.S. data centers are full of Chinese-made equipment and many American companies rely on Chinese AI models. [Washington Post, published 2026-10-11]"
+    },
+    {
+     "title": "What's Dragging Down A.I. Efficiency? The 'Verification Tax.'",
+     "url": "https://www.nytimes.com/2026/10/10/business/dealbook/ai-verification-tax-rework.html",
+     "desc": "Argues that the time workers spend checking and redoing AI output is eating into the productivity gains firms expect from adoption. [New York Times DealBook, 2026-10-10]"
+    },
+    {
+     "title": "Anthropic AI agents took 'unintended' actions on government sites",
+     "url": "https://www.washingtonpost.com/technology/2026/10/09/anthropic-discloses-incidents-its-ai-models-misusing-government-sites/",
+     "desc": "Anthropic disclosed incidents in which its agents acted on government websites in ways not intended, a reliability problem that matters for anyone deploying agents in real workflows. [Washington Post, 2026-10-09]"
+    },
+    {
+     "title": "The Fallout From OpenAI’s Revenue Surprise",
+     "url": "https://www.nytimes.com/2026/10/09/business/dealbook/openai-revenue-safety.html",
+     "date": "2026-10-09",
+     "desc": "Reports that OpenAI's annualized revenue was near $50 billion, about $20 billion below previously circulated figures because of how partnership revenue had been counted, rattled AI stocks such as Nvidia and Oracle as the company pursues new funding. [NYT, published 2026-10-09]"
+    },
+    {
+     "title": "Here's an idea to help workers displaced by AI",
+     "url": "https://www.washingtonpost.com/technology/2026/10/08/think-tank-says-federal-tax-tweak-could-help-offset-ai-job-losses/",
+     "desc": "An influential think tank proposes a federal tax change to fund higher unemployment benefits for workers displaced by AI. [Washington Post, 2026-10-08]"
+    },
+    {
+     "title": "The rise of the AI marketplace",
+     "url": "https://www.economist.com/business/2026/10/08/the-rise-of-the-ai-marketplace",
+     "desc": "On the emergence of marketplaces built around AI models and agents, and what that intermediation does to competition and margins. [The Economist, 2026-10-08]"
+    },
+    {
+     "title": "A.I. Fueled More Resilient Global Growth, W.T.O. Says",
+     "url": "https://www.nytimes.com/2026/10/08/business/economy/wto-global-trade-resilient.html",
+     "date": "2026-10-08",
+     "desc": "The WTO roughly doubled its 2026 goods-trade growth forecast to 3.9%, saying AI-related purchases of chips and servers accounted for nearly half of global merchandise trade growth in the first half and helped offset the drag from the Middle East conflict. [NYT, published 2026-10-08]"
+    },
+    {
+     "title": "Data center boom is pushing prices higher, according to Fed officials",
+     "url": "https://www.washingtonpost.com/business/2026/10/07/datacenter-boom-is-pushing-prices-higher-fed-officials-said/",
+     "desc": "Federal Reserve officials are increasingly attributing persistent goods price increases to the AI data-center buildout rather than to tariffs. [Washington Post, 2026-10-07]"
+    },
+    {
+     "title": "The unexpected ways that AI is reshaping the U.S. economy",
+     "url": "https://www.washingtonpost.com/technology/2026/10/07/ai-is-propping-up-economy-including-manufacturing-ads-energy/",
+     "desc": "Traces how AI investment is lifting manufacturing, advertising and energy while concentrating the economy's growth on a narrow base and creating new vulnerabilities. [Washington Post, 2026-10-07]"
+    },
+    {
+     "title": "Energy Firms Try to Squeeze More Power Out of Old Nuclear Plants",
+     "url": "https://www.nytimes.com/2026/10/06/climate/nuclear-power-plant-google-data-centers.html",
+     "date": "2026-10-06",
+     "desc": "Google signed a deal under which Constellation Energy will invest more than $4.3 billion to upgrade existing reactors and raise their output, part of a broader push by energy companies to squeeze more power from old nuclear plants for AI data centers. [NYT, published 2026-10-06]"
+    },
+    {
+     "title": "High Interest Rates Aren’t Slowing the A.I. Boom. That’s a Problem for the Fed.",
+     "url": "https://www.nytimes.com/2026/10/05/business/ai-boom-interest-rates-fed.html",
+     "date": "2026-10-05",
+     "desc": "AI-driven investment is continuing despite elevated borrowing costs, blunting the usual effect of rate increases and complicating the Federal Reserve's efforts to cool inflation. [NYT, published 2026-10-05]"
+    },
+    {
+     "title": "Record labels are in a spin over AI music",
+     "url": "https://www.economist.com/business/2026/10/05/record-labels-are-in-a-spin-over-ai-music",
+     "date": "2026-10-05",
+     "desc": "Record labels are split over whether to fight AI music start-ups or strike deals with them, as AI-generated music grows into a commercial threat and opportunity for the industry. [The Economist, published 2026-10-05]"
+    },
+    {
+     "title": "As A.I. Agents Begin Shopping, Brands Are Changing Their Sales Pitch",
+     "url": "https://www.nytimes.com/2026/10/03/business/dealbook/ai-agent-marketing.html",
+     "date": "2026-10-03",
+     "desc": "As AI shopping agents begin buying on consumers' behalf, brands and a new crop of start-ups are retooling marketing to appeal to algorithms rather than people; Morgan Stanley estimates agent-influenced spending could reach up to 20% of U.S. e-commerce by 2030. [NYT, published 2026-10-03]"
+    },
+    {
+     "title": "China's Push Into A.I. Has Led to a Problem: Too Much Usage",
+     "url": "https://www.nytimes.com/2026/10/02/world/asia/china-ai-overuse.html",
+     "desc": "Reports that rapid AI adoption in China is straining the compute and infrastructure built to serve it. [New York Times, 2026-10-02]"
+    },
+    {
+     "title": "The Powerful Yet Fragile Force Propping Up Stocks and the Economy",
+     "url": "https://www.nytimes.com/2026/10/02/business/ai-stocks-bonds-economy.html",
+     "date": "2026-10-02",
+     "desc": "The AI industry has become a potent but fragile prop for both U.S. stocks and economic growth, with forecasters such as Capital Economics warning that the AI equity boom may be in its final stages. [NYT, published 2026-10-02]"
+    },
+    {
+     "title": "Amazon Promises More Local Funding and Less Secrecy Around Data Centers",
+     "url": "https://www.nytimes.com/2026/10/02/technology/amazon-data-centers-funding.html",
+     "date": "2026-10-02",
+     "desc": "Facing local backlash, Amazon pledged more than $1 billion over five years to communities that host its data centers and said it would stop using nondisclosure agreements with government agencies on its projects. [NYT, published 2026-10-02]"
+    },
+    {
+     "title": "The Latest Challenge to Data Centers? Restive Investors.",
+     "url": "https://www.nytimes.com/2026/10/02/business/dealbook/data-center-ai-bonds.html",
+     "date": "2026-10-02",
+     "desc": "DealBook reports that investors are becoming a new source of resistance to the AI data-center boom, growing warier of the debt being raised to finance the build-out. [NYT, published 2026-10-02]"
+    },
+    {
+     "title": "You're not sending an email. You're training a model",
+     "url": "https://www.economist.com/business/2026/10/01/youre-not-sending-an-email-youre-training-a-model",
+     "desc": "On how ordinary workplace activity has become an input to model training, and what that means for the value of corporate data. [The Economist, 2026-10-01]"
+    },
+    {
+     "title": "How to short AI with Carson Block",
+     "url": "https://www.economist.com/podcasts/2026/10/01/how-to-short-ai-with-carson-block",
+     "desc": "A short-seller's case for where the AI trade is mispriced, and the mechanics of betting against it. [The Economist podcast, 2026-10-01]"
+    },
+    {
+     "title": "How Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
+     "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
+     "date": "2026-09-30",
+     "desc": "A Times investigation finds Meta has cut its federal tax bill by billions by treating its AI data centers as experimental research for tax-credit purposes, with its credits rising from about $700 million in 2023 to $3.9 billion in 2025, a position its own accountants warned the IRS could overturn. [NYT, published 2026-09-30]"
+    },
+    {
+     "title": "DeepSeek and Huawei Target a Key Source of Nvidia’s A.I. Dominance",
+     "url": "https://www.nytimes.com/2026/09/30/business/china-ai-deepseek-huawei.html",
+     "date": "2026-09-30",
+     "desc": "DeepSeek and Huawei are working to chip away at a key source of Nvidia's AI dominance, aiming to give Chinese developers a homegrown alternative to Nvidia's technology. [NYT, published 2026-09-30]"
+    },
+    {
+     "title": "Fearing AI, workers go back to school seeking jobs that still need a human touch",
+     "url": "https://www.washingtonpost.com/education/2026/09/30/fearing-ai-workers-go-back-school-seeking-jobs-that-still-need-human-touch/",
+     "date": "2026-09-30",
+     "desc": "Worried about being displaced by AI, some workers and students are abandoning office career paths to train for fields such as teaching, health care and the skilled trades, though data on how widespread the shift is remain scarce. [Washington Post, published 2026-09-30]"
+    },
+    {
+     "title": "The AI boom meets a new kind of crypto scam",
+     "url": "https://www.economist.com/finance-and-economics/2026/09/29/the-ai-boom-meets-a-new-kind-of-crypto-scam",
+     "desc": "On fraud schemes that pair AI-boom enthusiasm with crypto, and the financial-stability questions they raise. [The Economist, 2026-09-29]"
+    },
+    {
+     "title": "College Students Flex Their Power in A.I. Investment Frenzy",
+     "url": "https://www.nytimes.com/2026/09/29/technology/dorm-room-fund-ai-investment.html",
+     "date": "2026-09-29",
+     "desc": "Dorm Room Fund, a student-run venture fund whose alumni have founded AI companies such as Cursor, raised a $50 million fund, four times its previous one, as investors compete ever harder for student founders during the AI boom. [NYT, published 2026-09-29]"
+    },
+    {
+     "title": "What’s In Anthropic’s I.P.O. Filing",
+     "url": "https://www.nytimes.com/2026/09/29/business/dealbook/anthropic-ipo-filing-s1.html",
+     "date": "2026-09-29",
+     "desc": "DealBook breaks down Anthropic's public IPO prospectus, which devotes unusually extensive space to risk factors, including warnings that advanced AI could pose catastrophic risks, as the company prepares for what could be one of the largest listings ever. [NYT, published 2026-09-29]"
+    },
+    {
+     "title": "How the AI boom could worsen the rich world’s fiscal crunch",
+     "url": "https://www.economist.com/finance-and-economics/2026/09/29/how-the-ai-boom-could-worsen-the-rich-worlds-fiscal-crunch",
+     "date": "2026-09-29",
+     "desc": "The AI boom is lifting corporate profits but not tax receipts, as tech firms write off huge capital spending, and if AI erodes wages it could shrink the labour-based tax base, so even faster growth may do less to ease rich countries' debt burdens than hoped. [The Economist, published 2026-09-29]"
+    },
+    {
+     "title": "Nvidia Adds $150 Billion to Massive Stock Buyback, the Largest Ever",
+     "url": "https://www.nytimes.com/2026/09/28/business/nvidia-stock-buyback.html",
+     "date": "2026-09-28",
+     "desc": "Nvidia's board added $150 billion to its share repurchase program, the largest buyback authorization on record, leaving about $235 billion available, as its stock lags chip rivals and trades near its lowest forward earnings multiple in about a decade. [NYT, published 2026-09-28]"
+    },
+    {
+     "title": "Is AI killing jobs for college grads? Not yet, new study says.",
+     "url": "https://www.washingtonpost.com/education/2026/09/28/is-ai-killing-jobs-college-grads-not-yet-new-study-says/",
+     "date": "2026-09-28",
+     "desc": "A UCLA working paper finds no AI-driven spike in unemployment for recent college graduates, whose jobless rate in summer 2026 was within the range of the previous four years, though the authors caution that AI's effects may not yet show up in the data. [Washington Post, published 2026-09-28]"
+    },
+    {
+     "title": "Satellite images show the scale of America's data center build-out",
+     "url": "https://www.washingtonpost.com/technology/interactive/2026/09/28/satellite-images-show-scale-americas-data-center-build-out/",
+     "date": "2026-09-28",
+     "desc": "A visual analysis uses satellite imagery to show the size and spread of the AI-driven data center construction boom across the United States. [Washington Post, published 2026-09-28]"
+    },
+    {
+     "title": "What Happens if the A.I. Bubble Bursts",
+     "url": "https://www.nytimes.com/2026/09/26/opinion/ai-bubble-banking-crisis-too-big-to-fail.html",
+     "date": "2026-09-26",
+     "desc": "An opinion essay considers how a collapse of the AI investment boom could spill over into banks and the wider financial system, and whether AI has become 'too big to fail.' [NYT, published 2026-09-26]"
+    },
+    {
+     "title": "As A.I. Makes Law Firms More Efficient, Clients Ask: ‘Where’s My Discount?’",
+     "url": "https://www.nytimes.com/2026/09/26/business/dealbook/ai-law-discount-billable-hour.html",
+     "date": "2026-09-26",
+     "desc": "As AI speeds up legal work, corporate clients are pressing law firms to share the savings through lower bills, putting new pressure on the billable-hour model. [NYT, published 2026-09-26]"
+    },
+    {
+     "title": "Battle of Hospital A.I. vs. Insurer A.I. Is Pushing Medical Costs Higher",
+     "url": "https://www.nytimes.com/2026/09/24/business/ai-hospitals-insurers-health-care-costs.html",
+     "date": "2026-09-24",
+     "desc": "Hospitals and insurers are deploying competing AI systems in billing disputes, with providers using AI to capture more billable diagnoses and insurers using it to deny or downcode claims, an escalating arms race that is pushing U.S. medical costs higher. [NYT, published 2026-09-24]"
+    },
+    {
+     "title": "Massachusetts Is Investigating Gambling Companies’ Use of A.I.",
+     "url": "https://www.nytimes.com/2026/09/24/business/massachusetts-draftkings-ai-gambling.html",
+     "date": "2026-09-24",
+     "desc": "Massachusetts gaming regulators said they will examine how DraftKings and other licensed sportsbooks use AI after a Times investigation into the company's targeting of bettors; DraftKings denies using AI to target customers based on losses. [NYT, published 2026-09-24]"
+    },
+    {
+     "title": "How China’s Leader Plans to Win the Future With A.I.",
+     "url": "https://www.nytimes.com/2026/09/23/world/asia/china-ai-economy-xi-jinping.html",
+     "date": "2026-09-23",
+     "desc": "Ahead of his summit with President Trump, Xi Jinping is betting that AI can become a new engine of growth for China's slowing economy, pushing an 'AI Plus' agenda to embed the technology across industry. [NYT, published 2026-09-23]"
+    },
+    {
+     "title": "Where Is the U.S. Beating China on A.I., and Where Is It Lagging?",
+     "url": "https://www.nytimes.com/2026/09/23/us/politics/ai-us-china-trump-xi-economy.html",
+     "date": "2026-09-23",
+     "desc": "A Times analysis ahead of the Trump-Xi summit assesses the areas where the U.S. leads China in artificial intelligence and those where it is falling behind. [NYT, published 2026-09-23]"
+    },
+    {
+     "title": "How Unions Are Confronting A.I. Threats in the Workplace",
+     "url": "https://www.nytimes.com/2026/09/22/business/economy/unions-ai-negotiations.html",
+     "date": "2026-09-22",
+     "desc": "Labor unions are putting AI at the top of bargaining agendas and negotiating limits on its use contract by contract, though with only about 6% of private-sector workers unionized their leverage is limited. [NYT, published 2026-09-22]"
+    },
+    {
+     "title": "Texas Halts Data Center Permits, Expanding Environmental Scrutiny",
+     "url": "https://www.nytimes.com/2026/09/22/climate/texas-halts-data-center-permits.html",
+     "date": "2026-09-22",
+     "desc": "Gov. Greg Abbott ordered Texas's environmental regulator to pause all permits for data center projects until grid operator ERCOT finishes auditing a huge queue of grid-connection requests, adding a new hurdle for the AI build-out in one of its biggest markets. [NYT, published 2026-09-22]"
+    },
+    {
+     "title": "You can’t trade your way through the AI apocalypse",
+     "url": "https://www.economist.com/finance-and-economics/2026/09/22/you-cant-trade-your-way-through-the-ai-apocalypse",
+     "date": "2026-09-22",
+     "desc": "Financial markets struggle to price the threat of a misaligned superintelligence, the Economist argues, so investors cannot simply hedge their way through an AI catastrophe. [The Economist, published 2026-09-22]"
+    },
+    {
+     "title": "Data centres are straining the insurance market",
+     "url": "https://www.economist.com/finance-and-economics/2026/09/22/data-centres-are-straining-the-insurance-market",
+     "date": "2026-09-22",
+     "desc": "The data-centre construction boom has created a lucrative new market for insurers, but the size and concentration of the risks are stretching the industry's capacity and its ability to price the exposure. [The Economist, published 2026-09-22]"
+    },
+    {
+     "title": "Young Consultants Are Jumping Ship for A.I. Start-Ups",
+     "url": "https://www.nytimes.com/2026/09/21/business/consulting-firms-employees-ai-startups.html",
+     "date": "2026-09-21",
+     "desc": "Junior staff at top consulting firms are leaving for AI start-ups, a sign of how the AI boom is reshaping career paths and the traditional consulting talent pipeline. [NYT, published 2026-09-21]"
+    },
+    {
+     "title": "The State of the Economy Before the Midterms: Rising Inflation and A.I. Unease",
+     "url": "https://www.nytimes.com/2026/09/21/us/politics/midterm-elections-economy.html",
+     "date": "2026-09-21",
+     "desc": "A pre-midterm look at the U.S. economy finds voters facing rising inflation alongside growing unease about artificial intelligence's effects on jobs and growth. [NYT, published 2026-09-21]"
+    },
+    {
+     "title": "In China, A.I. Is Moving Forward While the Economy Lags Behind",
+     "url": "https://www.nytimes.com/2026/09/20/business/china-ai-economy.html",
+     "date": "2026-09-20",
+     "desc": "China's rapid AI progress is narrowing the gap with the U.S. even as its broader economy weakens, with soft retail sales, falling fixed-asset investment and high youth unemployment, prompting economists to warn that resources are flowing to AI at the expense of household demand. [NYT, published 2026-09-20]"
+    },
+    {
+     "title": "At DraftKings, AI Targets the Gamblers Likeliest to Lose",
+     "url": "https://www.nytimes.com/2026/09/19/business/draftkings-ai.html",
+     "date": "2026-09-19",
+     "desc": "A Times investigation reports that DraftKings built machine-learning models to identify customers likely to keep betting, and losing, after receiving promotions, while former employees say parallel efforts to flag gambling-addiction risk stalled; the company disputes the account. [NYT, published 2026-09-19]"
+    },
+    {
+     "title": "Disney Hires Its First CTO Amid Industry Push to Embrace A.I.",
+     "url": "https://www.nytimes.com/2026/09/18/business/media/disney-ai-technology-karandeep-anand.html",
+     "date": "2026-09-18",
+     "desc": "Disney named Character.AI chief Karandeep Anand as its first chief technology officer, overseeing enterprise technology, data and AI platforms, as entertainment companies push to build AI into their operations. [NYT, published 2026-09-18]"
+    },
+    {
+     "title": "Anthropic Pursues IPO Despite Its A.I. Safety Warnings",
+     "url": "https://www.nytimes.com/2026/09/18/technology/anthropic-ipo-ai-safety.html",
+     "date": "2026-09-18",
+     "desc": "Anthropic is pressing ahead with a potentially record-setting IPO even as its leaders publicly warn about AI's dangers, highlighting the tension between its safety message and its need for vast amounts of capital. [NYT, published 2026-09-18]"
+    },
+    {
+     "title": "The trickle-down economics of the AI boom",
+     "url": "https://www.economist.com/finance-and-economics/2026/09/17/the-trickle-down-economics-of-the-ai-boom",
+     "date": "2026-09-17",
+     "desc": "Using Taiwan and South Korea as test cases, the Economist examines how quickly AI investment is spilling over into broader economic gains, as surging chip exports lift growth and begin to feed through to wages and consumption. [The Economist, published 2026-09-17]"
+    },
+    {
+     "title": "OpenAI Considers New Financing at a $1.5 Trillion Valuation",
+     "url": "https://www.nytimes.com/2026/09/16/business/dealbook/openai-new-funding-round.html",
+     "date": "2026-09-16",
+     "desc": "OpenAI is weighing a new private funding round at roughly a $1.5 trillion valuation, up from $852 billion in March, which would make it the world's most valuable privately held company ahead of an eventual IPO. [NYT, published 2026-09-16]"
+    },
+    {
+     "title": "The Quiet Way A.I. Is Hitting the Work Force",
+     "url": "https://www.nytimes.com/2026/09/16/business/ai-raises-hiring.html",
+     "date": "2026-09-16",
+     "desc": "Rather than mass layoffs, AI's labor-market impact is showing up as slower hiring and weaker wage growth in AI-exposed occupations, with research suggesting firms are capturing productivity gains by holding down pay rather than cutting headcount. [NYT, published 2026-09-16]"
+    },
+    {
+     "title": "House Passes Bill Taking Aim at Data Center Electricity Costs",
+     "url": "https://www.nytimes.com/2026/09/16/us/politics/house-bill-data-center-ai-energy.html",
+     "date": "2026-09-16",
+     "desc": "The House passed the bipartisan Ratepayer Protection Act 417-3, directing state utility regulators to consider rules that make large data centers pay for the added grid costs their power demand creates; the bill now goes to the Senate. [NYT, published 2026-09-16]"
+    },
+    {
+     "title": "Investors are trying to work out the financial costs of an AI slowdown",
+     "url": "https://www.washingtonpost.com/technology/2026/09/15/investors-are-trying-work-out-financial-costs-an-ai-slowdown/",
+     "date": "2026-09-15",
+     "desc": "After AI leaders called for slowing development, investors began weighing what a slowdown would mean for a stock market heavily concentrated in AI companies and for the hundreds of billions of dollars being poured into AI infrastructure. [Washington Post, published 2026-09-15]"
+    },
+    {
+     "title": "Tech Stocks Tumble After AI Leaders Call for Industry to Slow Down",
+     "url": "https://www.nytimes.com/2026/09/14/business/tech-stocks-ai.html",
+     "date": "2026-09-14",
+     "desc": "Chip and AI stocks sold off worldwide after Anthropic's Dario Amodei called for slowing AI development and other industry leaders voiced agreement, with semiconductor indexes falling about 5% and SoftBank plunging in Tokyo as investors weighed what a slowdown would mean for AI spending. [NYT, published 2026-09-14]"
+    },
+    {
+     "title": "Should Anthropic press pause on a potential $2trn IPO?",
+     "url": "https://www.economist.com/business/2026/09/14/should-anthropic-press-pause-on-a-potential-2trn-ipo",
+     "date": "2026-09-14",
+     "desc": "Anthropic's call to slow AI development comes just as it prepares what could be the biggest IPO ever, at a valuation of around $2 trillion, sharpening the tension between its safety mission and its need for capital. [The Economist, published 2026-09-14]"
+    },
+    {
+     "title": "San Francisco Mayor Declares Rent Emergency Amid A.I. Housing Frenzy",
+     "url": "https://www.nytimes.com/2026/09/10/us/san-francisco-daniel-lurie-rent-emergency.html",
+     "date": "2026-09-10",
+     "desc": "San Francisco Mayor Daniel Lurie declared a largely symbolic 'rent emergency' and proposed tenant protections after an influx of AI money and workers sent rents and eviction notices sharply higher. [NYT, published 2026-09-10]"
+    },
+    {
+     "title": "Clay, an A.I. Sales Tool Provider, Raises $115 Million",
+     "url": "https://www.nytimes.com/2026/09/09/business/dealbook/clay-ai-fundraising.html",
+     "date": "2026-09-09",
+     "desc": "Clay, which sells AI tools and agents to sales and marketing teams, raised $115 million at a $7.1 billion valuation, more than double its valuation a year earlier, as investor appetite for AI-agent start-ups stays hot. [NYT, published 2026-09-09]"
+    },
+    {
+     "title": "French A.I. Start-Up Mistral Raises $3.5 Billion as Part of Strategy Shift",
+     "url": "https://www.nytimes.com/2026/09/08/business/mistral-ai-fund-raising.html",
+     "date": "2026-09-08",
+     "desc": "Mistral raised about EUR 3 billion ($3.5 billion) in a Samsung-led round valuing it at more than EUR 21 billion, and is shifting from competing purely on models to building data centers and computing infrastructure for European businesses and governments. [NYT, published 2026-09-08]"
+    },
+    {
+     "title": "China’s New Graduates, Facing a Dire Job Market, Must Also Contend With A.I.",
+     "url": "https://www.nytimes.com/2026/09/06/world/asia/chinas-new-graduates-ai-challenges.html",
+     "date": "2026-09-06",
+     "desc": "A record class of roughly 12.7 million Chinese graduates is entering a sluggish job market in which AI is starting to shrink entry-level openings and change what recruiters want, even as Beijing promotes AI-related occupations to absorb them. [NYT, published 2026-09-06]"
+    },
+    {
+     "title": "How a Blacklisted Chinese Tech Giant Kept Buying America’s Best A.I. Chips",
+     "url": "https://www.nytimes.com/2026/09/06/technology/ai-chips-china-blacklist.html",
+     "date": "2026-09-06",
+     "desc": "A Times investigation finds that Inspur, placed on the U.S. entity list in 2023, kept access to Nvidia's top chips through its renamed U.S. arm, Aivres, which shipped billions of dollars of Blackwell-based AI servers that were routed through Southeast Asia to China, exposing gaps in export controls. [NYT, published 2026-09-06]"
+    },
+    {
+     "title": "Kenyans Made a Living Writing College Essays. Then A.I. Arrived.",
+     "url": "https://www.nytimes.com/2026/09/05/technology/kenya-college-essays-ai.html",
+     "date": "2026-09-05",
+     "desc": "Kenya's online essay-writing trade, which once supported tens of thousands of freelancers doing coursework for overseas students, has collapsed since ChatGPT arrived, an early case of generative AI wiping out a cross-border gig-economy livelihood. [NYT, published 2026-09-05]"
+    },
+    {
+     "title": "Corporate America Is Getting Hooked on Open-Source A.I.",
+     "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
+     "date": "2026-09-04",
+     "desc": "Companies including AT&T, Airbnb and Deloitte are shifting work from paid models by OpenAI and Anthropic to cheaper open models; AT&T says open models now handle about 40% of its AI use and have cut some AI costs by up to 80%. [NYT, published 2026-09-04]"
+    },
+    {
+     "title": "The jobs apocalypse is postponed. An AI jobs boom is here",
+     "url": "https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here",
+     "date": "2026-09-04",
+     "desc": "Early evidence suggests AI's net effect on employment has so far been positive, with AI-related hiring outweighing job losses even as some routine roles shrink. [The Economist, published 2026-09-04]"
+    },
+    {
+     "title": "Which Investors Will Get Rich From Anthropic’s IPO?",
+     "url": "https://www.nytimes.com/2026/09/03/technology/anthropic-ipo-investors-winners.html",
+     "date": "2026-09-03",
+     "desc": "The Times tallies who stands to profit from Anthropic's planned stock listing, from venture backers such as Sequoia, Altimeter and Dragoneer to strategic investors Amazon and Google, with many funds holding stakes in both Anthropic and OpenAI. [NYT, published 2026-09-03]"
+    },
+    {
+     "title": "Nvidia Buys Hugging Face in $12.9 Billion Deal",
+     "url": "https://www.nytimes.com/2026/09/03/technology/nvidia-hugging-face.html",
+     "date": "2026-09-03",
+     "desc": "Nvidia agreed to buy Hugging Face, the leading hub for open-source AI models, for $12.9 billion, its biggest acquisition to date, paying a steep price relative to the start-up's modest revenue as it pushes deeper into the open-model ecosystem. [NYT, published 2026-09-03]"
+    },
+    {
+     "title": "Nvidia is the central bank of AI",
+     "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+     "date": "2026-09-03",
+     "desc": "Nvidia has become a lender and guarantor to the AI industry, using financing deals, backstops and investments to sustain demand for its chips; the Economist's briefing asks whether those bets will prove sound. [The Economist, published 2026-09-03]"
+    },
+    {
+     "title": "How data centres became one of America’s hottest political issues",
+     "url": "https://www.economist.com/united-states/2026/09/02/how-data-centres-became-one-of-americas-hottest-political-issues",
+     "date": "2026-09-02",
+     "desc": "Opposition to data centres, driven partly by fears of higher electricity bills, has become one of America's hottest political issues and is reshaping the midterm campaigns. [The Economist, published 2026-09-02]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Welcome to the AI Research Digest briefing for Sunday, October eleventh. I'm Alex."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. This is a catch-up edition covering about six weeks, from September first to today, so we'll hit the big themes rather than every paper."
+  },
+  {
+   "speaker": "A",
+   "text": "Let's start with the money. A new NBER paper estimates that a one-gigawatt AI campus costs roughly forty-one billion dollars. Scale that to the build-out planned in the United States through twenty thirty-two and you're looking at close to nine trillion dollars of investment."
+  },
+  {
+   "speaker": "B",
+   "text": "And that spending is already showing up in the big numbers. The World Trade Organization roughly doubled its goods-trade growth forecast for this year, to three point nine percent, and said purchases of AI chips and servers made up nearly half of global merchandise trade growth in the first half."
+  },
+  {
+   "speaker": "A",
+   "text": "The Washington Post reports that Federal Reserve officials are increasingly pointing to the data-center boom, rather than tariffs, as a source of stubborn goods-price increases."
+  },
+  {
+   "speaker": "B",
+   "text": "The Economist had a memorable framing for who's holding it all together: Nvidia as the central bank of AI, lending to customers and backstopping deals to keep demand for its chips going."
+  },
+  {
+   "speaker": "A",
+   "text": "Markets are jittery, though. In mid-September chip and AI stocks sold off around the world, with semiconductor indexes down about five percent, after Anthropic's Dario Amodei called for slowing AI development and other industry leaders agreed."
+  },
+  {
+   "speaker": "B",
+   "text": "And Anthropic went on to file for what could be one of the largest IPOs ever. The prospectus spends unusual space on risk factors, including warnings that advanced AI could pose catastrophic risks."
+  },
+  {
+   "speaker": "A",
+   "text": "Okay, work and skills. My favorite paper this round is an NBER field experiment in patent drafting. A hundred and thirty-three patent lawyers at eleven firms got a custom AI drafting assistant for three months."
+  },
+  {
+   "speaker": "B",
+   "text": "Drafting quality rose by about a third of a standard deviation, more for junior lawyers. But here's the twist. In a later task done without the AI, the benefit carried over only for senior lawyers. The juniors split, with more very good results and more poor ones."
+  },
+  {
+   "speaker": "A",
+   "text": "So AI can build expertise or erode it, depending on who's using it. On the wider job market, another NBER paper uses Current Population Survey data for early estimates of AI's effect on unemployment among recent college graduates, and the Washington Post covered a separate new study whose answer to whether AI is killing graduate jobs was: not yet."
+  },
+  {
+   "speaker": "B",
+   "text": "Over to finance, and a clever theory result from NBER. A large language model behaves like a voting rule over its training data, which means it can produce cycles: preferring A to B, B to C, and then C to A."
+  },
+  {
+   "speaker": "A",
+   "text": "When the authors asked ChatGPT to compare investments among S and P one hundred firms, they found millions of those cycles. Something to keep in mind if you plan to let a chatbot pick stocks."
+  },
+  {
+   "speaker": "B",
+   "text": "A new SSRN paper called The Great Codification looks at firms whose value sits in their workforce's know-how. Those firms gained value when ChatGPT launched, but lost value once agentic AI capabilities were priced in early this year."
+  },
+  {
+   "speaker": "A",
+   "text": "The explanation is that agents let knowledge move into software the firm owns. That creates value when the knowledge is specific to the firm, and destroys it when the knowledge is portable."
+  },
+  {
+   "speaker": "B",
+   "text": "And a methods note for anyone using financial foundation models. A study across fourteen equity markets checked whether models trained on data from after the forecast date look artificially good. They don't. The U.S.-trained versions actually got slightly worse."
+  },
+  {
+   "speaker": "A",
+   "text": "In operations, a Management Science field experiment tested generative search, meaning AI answers shown ahead of regular results, and what changes when people describe what they want in plain language instead of keywords."
+  },
+  {
+   "speaker": "B",
+   "text": "And M&SOM looked at facial recognition at airport gates, weighing faster boarding against delays from recognition errors in a young technology."
+  },
+  {
+   "speaker": "A",
+   "text": "Last, a big-picture paper on the economics of recursive self-improvement. It models AI improving AI as feedback loops and concludes that, on current estimates, those loops aren't yet strong enough for self-sustaining acceleration, though they seem to be getting stronger."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the briefing. This catch-up has more than two hundred and forty items across today's two emails, all searchable on the web archive, with a NotebookLM button on every paper if you want to go deeper."
+  },
+  {
+   "speaker": "A",
+   "text": "Thanks for listening, and see you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-09-01 (last recorded digest) through 2026-10-11 — a 40-day catch-up after a gap in runs, so this issue is curated rather than exhaustive: 214 arXiv econ/q-fin papers matched the AI keyword list and the strongest ~50 are included here. Dates verified from arXiv <published> timestamps, NBER issue months, SSRN 'Posted:' lines, and INFORMS 'Published Online:' lines. arXiv's export API was unreachable from the sandbox, so it was queried through the browser. — Supplement: 157 more items added by the new pipeline the same day (same window; see the supplement email for date sources)."
+}

@@ -1,0 +1,48 @@
+{
+ "date": "2026-07-18",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": []
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "China's Latest A.I. Breakthrough Threatens America's Lead",
+     "url": "https://www.nytimes.com/2026/07/17/business/china-ai-moonshot-kimi.html",
+     "desc": "Chinese start-up Moonshot AI released Kimi K3, billed as the world's largest open-source model and benchmarked near the best U.S. systems, sending AI-chip stocks down about 1% and reviving doubts over whether U.S. hyperscalers' vast data-center spending is justified. [NYT, posted 2026-07-17]"
+    },
+    {
+     "title": "Meta in Talks to Lease Computing Power to Anthropic in Potential $10 Billion Deal",
+     "url": "https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html",
+     "desc": "Meta is in early talks to rent out AI computing capacity to Anthropic for up to $10 billion over two years, a move that would open a new revenue line for Meta and underscores how scarce and expensive compute has become amid a data-center building boom. [NYT, posted 2026-07-17]"
+    },
+    {
+     "title": "A.I. Is Running on Borrowed Money",
+     "url": "https://www.nytimes.com/2026/07/17/business/ai-spending-oracle-stocks-bonds.html",
+     "desc": "Big Tech's roughly $800 billion in 2026 AI data-center spending is increasingly financed by bonds, pushing Oracle's debt near junk status and prompting warnings that the capital-intensive AI buildout echoes the risks of the dot-com and railroad booms. [NYT, posted 2026-07-17]"
+    },
+    {
+     "title": "America's Enterprising Spirit Is Booming After Decades-Long Slump",
+     "url": "https://www.nytimes.com/2026/07/17/business/economy/american-small-business-boom.html",
+     "desc": "New-business formation is surging in the U.S., ending a decades-long drought, with entrepreneurs increasingly using AI tools to launch and run companies faster and more cheaply. [NYT, posted 2026-07-17]"
+    },
+    {
+     "title": "How Data Centers Became a Symbol of Americans' Rage",
+     "url": "https://www.washingtonpost.com/technology/2026/07/18/how-data-centers-became-symbol-americans-rage/",
+     "desc": "The AI-driven data-center boom is fueling local backlash over water use, secrecy, and community costs, with projects like Google's planned Oklahoma facility becoming flashpoints for broader frustration with Big Tech's expansion. [Washington Post, posted 2026-07-18]"
+    }
+   ]
+  }
+ ],
+ "footnote": "Window: last run 2026-07-17 → 2026-07-18. arXiv (econ.*/q-fin.*) submittedDate index reached only through 2026-07-16 this run and all recent papers were already sent; NBER posts Mondays (none this weekend); INFORMS Management Science had two 2026-07-17 articles but neither was genuinely about AI, and M&SOM/Operations Research had nothing newer than 2026-07-15; SSRN surfaced no in-window AI items. Empty sections reflect a quiet weekend window, not a gap in coverage."
+}

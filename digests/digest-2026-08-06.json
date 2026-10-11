@@ -1,0 +1,96 @@
+{
+  "date": "2026-08-06",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "Does generative AI narrow education-based productivity gaps? Evidence from a randomized experiment",
+          "url": "https://arxiv.org/abs/2608.04198",
+          "desc": "A randomized online experiment with 1,174 adults finds a generative-AI assistant improves performance for everyone but helps less-educated workers most, shrinking the education productivity gap from 0.548 to 0.139 standard deviations. [arXiv econ.GN, posted 2026-08-04]"
+        },
+        {
+          "title": "Optimal Liability Design for Medical AI",
+          "url": "https://arxiv.org/abs/2608.03114",
+          "desc": "A principal-agent model in which a planner sets medical-liability rules for a physician of unobservable quality who must choose between standard treatment, personalized judgment, or following an imperfect AI recommendation, yielding new insights on regulating AI-assisted care. [arXiv econ.TH, posted 2026-08-04]"
+        },
+        {
+          "title": "The Fallback as Signal: Preserved Human Skill, Liability, and Competence Signaling in Credence-Good Markets under Improving AI",
+          "url": "https://arxiv.org/abs/2608.04276",
+          "desc": "Models how firms deploying improving but imperfect AI decide how much to keep human workers engaged; an agent-based version reproduces the analytical thresholds under noisy beliefs, learning-by-record, and worker churn. [arXiv econ.TH, posted 2026-08-04]"
+        },
+        {
+          "title": "Revealed Rationality: Label-Free Evaluation and Regularization from Representation Theorems",
+          "url": "https://arxiv.org/abs/2608.05015",
+          "desc": "Argues that decision-theory representation theorems offer a label-free way to evaluate and regularize LLMs and other AI systems, checking axiom compliance directly from a model's own responses to synthetic choice problems. [arXiv econ.TH, posted 2026-08-05]"
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "From Financial Sentiment Classification to Return Predictability: A QLoRA Benchmark of Large Language Models",
+          "url": "https://arxiv.org/abs/2608.04200",
+          "desc": "Benchmarks TF-IDF, FinBERT, Financial-RoBERTa, and QLoRA-adapted Qwen2.5, LLaMA3, and Mistral LLMs on financial sentiment, showing that strong classification accuracy does not necessarily translate into economically useful return predictability. [arXiv q-fin.MF, posted 2026-08-04]"
+        },
+        {
+          "title": "Adaptive Finite-Budget Training for CVaR Risk-Aware Q-Learning",
+          "url": "https://arxiv.org/abs/2608.04305",
+          "desc": "Proposes an adaptive training controller for Conditional Value-at-Risk risk-aware Q-learning that stabilizes value estimates under limited sample budgets, evaluated on a daily Bitcoin trading task. [arXiv q-fin.RM / cs.LG, posted 2026-08-05]"
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": [
+        {
+          "title": "Discretion in Automated Supermarket Replenishment: Censorship Bias and Self-Inflicted Stockouts",
+          "url": "https://pubsonline.informs.org/doi/10.1287/msom.2023.0426",
+          "desc": "Using perishable-goods data from a supermarket chain, the paper shows that managers who deviate downward from an automated replenishment system's proposals after a stockout suffer from censorship bias, hurting inventory performance and revealing pitfalls of human discretion over algorithmic recommendations. [M&SOM, Published Online 2026-08-05]"
+        }
+      ]
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "India's IT sector is surviving artificial intelligence",
+          "url": "https://www.economist.com/finance-and-economics/2026/08/06/indias-it-sector-is-surviving-artificial-intelligence",
+          "desc": "Despite fears that AI would gut India's roughly 6-million-strong IT industry by automating software development and routine business processes, hard evidence of job losses is scarce so far, though the technology is making the graduate job market tougher. [Economist, 2026-08-06]"
+        },
+        {
+          "title": "Governments are making a dangerous bet on the AI boom",
+          "url": "https://www.economist.com/leaders/2026/08/05/governments-are-making-a-dangerous-bet-on-the-ai-boom",
+          "desc": "The Economist argues rich-world governments are relying on AI-fueled growth to repair strained public finances, but 30-year bond yields near post-financial-crisis highs suggest markets doubt the bet will pay off. [Economist, 2026-08-05]"
+        },
+        {
+          "title": "China's AI drive threatens the world's largest workforce",
+          "url": "https://www.economist.com/briefing/2026/08/06/chinas-ai-drive-threatens-the-worlds-largest-workforce",
+          "desc": "As China promotes AI adoption, its leaders worry about displacement; ByteDance's Seedance video model has cut microdrama production up to 90% cheaper, halving some workers' wages and drying up gigs. [Economist, 2026-08-06]"
+        },
+        {
+          "title": "The A.I. Jargon That Will Help You Spot a Stock Downturn",
+          "url": "https://www.nytimes.com/2026/08/06/opinion/ai-market-bubble-crash.html",
+          "desc": "An opinion column by economist Rebecca Patterson decodes four AI-industry concepts that reveal whether Big Tech's nearly $1 trillion in projected AI capital spending can earn enough revenue to justify valuations and avoid a market crash. [NYT, 2026-08-06]"
+        },
+        {
+          "title": "China's Robots Know Kung Fu and Can Scale Walls. Can They Woo Investors?",
+          "url": "https://www.nytimes.com/2026/08/06/business/china-unitree-ipo-robot.html",
+          "desc": "Chinese robotics maker Unitree is seeking about $900 million in an IPO that tests investor appetite for humanoid robots, an AI-driven technology that impresses but has yet to prove commercial viability. [NYT, 2026-08-06]"
+        },
+        {
+          "title": "The Winners of Trump's A.I. Safety Plan",
+          "url": "https://www.nytimes.com/2026/08/05/business/dealbook/winners-trump-ai-policy.html",
+          "desc": "DealBook analyzes how the Trump administration's new AI safety-review guidelines appear to exempt Chinese AI models while subjecting US firms such as OpenAI and Anthropic to scrutiny. [NYT, 2026-08-05]"
+        },
+        {
+          "title": "Google's stock drops after Nobel-winning AI executive steps aside",
+          "url": "https://www.washingtonpost.com/technology/2026/08/05/google-top-ai-leader-demis-hassabis-steps-aside-major-shakeup/",
+          "desc": "Google shares fell after Demis Hassabis, the Nobel-winning DeepMind co-founder who led all of Google's AI work, stepped aside to focus on AI-for-science, a shake-up that comes as Google faces pressure to keep pace in the AI race. [Washington Post, 2026-08-05]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: last run 2026-08-04 → 2026-08-06. NBER (Monday cadence) and SSRN had nothing new and date-verifiable in this window; INFORMS Management Science articles-in-advance had no AI items in-window."
+}

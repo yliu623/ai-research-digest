@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-26",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "Trust by Context, Not by Design? A Quantitative Study of Data Donation Willingness for Open-Source Civic AI in Switzerland",
+          "url": "https://arxiv.org/abs/2607.21044",
+          "desc": "A study of Swiss residents examines the conditions of transparency and user control under which people are willing to donate data to open-source 'civic AI' systems that support democratic participation, weighing the value of improving AI models against residents' expectations of privacy and consent. [arXiv econ.EM, posted 2026-07-23]"
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": []
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": []
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "Silicon Valley Splits Over Closing the Borders to Chinese A.I.",
+          "url": "https://www.nytimes.com/2026/07/25/technology/open-source-silicon-valley-china.html",
+          "desc": "A fight has erupted between Anthropic and OpenAI, which want tighter restrictions on Chinese open-source AI models on safety and IP-theft grounds, and much of the rest of the industry (Nvidia, Microsoft, Meta, Google), which signed a letter defending open source; the Trump administration is weighing targeted national-security curbs rather than a blanket ban as Chinese labs like Z.ai and Moonshot catch up. [NYT, 2026-07-25]"
+        },
+        {
+          "title": "Blockbuster I.P.O.s Are Creating New Millionaires. Philanthropies Want a Cut.",
+          "url": "https://www.nytimes.com/2026/07/25/business/dealbook/spacex-anthropic-philanthropy.html",
+          "desc": "As Anthropic, OpenAI and SpaceX head toward some of the largest IPOs ever, nonprofits and wealth advisers are bracing for a philanthropic windfall estimated between $37 billion and $100 billion a year, driven partly by capital-gains tax incentives and founders' effective-altruism pledges. [NYT DealBook, 2026-07-25]"
+        },
+        {
+          "title": "We Interviewed A.I. Agents. They Nailed Your Co-Workers' Worst Habits.",
+          "url": "https://www.nytimes.com/2026/07/24/opinion/ai-workplace-manager-teamwork.html",
+          "desc": "An executive coach argues that friction in workplace AI adoption stems less from the agents than from poor human management habits, such as vague requests, context hoarding and over-delegation, and that getting value from AI agents requires the same clarity, oversight and feedback that define good people managers. [NYT Opinion, 2026-07-24]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: last run 2026-07-24 → now (2026-07-26). Light weekend window: arXiv econ/q-fin had no new submissions dated 2026-07-24–26 yet (announcement lag); NBER posts Mondays; SSRN/INFORMS candidates fell outside the window. WaPo's open-source-AI story was dropped as a near-duplicate of the NYT piece."
+}

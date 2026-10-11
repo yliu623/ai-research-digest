@@ -1,0 +1,21 @@
+{
+  "date": "2026-08-31",
+  "sections": [
+    {"name": "📊 Economics (NBER / SSRN / arXiv)", "items": []},
+    {"name": "💵 Finance (SSRN / NBER / arXiv q-fin)", "items": [
+      {
+        "title": "What survives honest evaluation? Leakage-safe, search-aware assessment of LLM-driven trading strategy discovery",
+        "url": "https://arxiv.org/abs/2608.27734",
+        "desc": "Builds a strategy-discovery system in which the LLM agent can only act through registry-validated tools that structurally exclude look-ahead bias, and deflates every reported Sharpe ratio by the actual number of strategies the agent searched. Across a 453-stock US equity universe and a 39-ETF multi-asset universe with realistic costs, honest evaluation certifies passive benchmarks but rejects every LLM-discovered strategy across two frontier models and search budgets up to one hundred candidates. [arXiv q-fin.ST, posted 2026-08-31]"
+      },
+      {
+        "title": "RetailAgent: Structured Adverse Timing in Self-Conditioned Multimodal LLM Trading Agents",
+        "url": "https://arxiv.org/abs/2608.28399",
+        "desc": "Has an LLM repeatedly choose long or flat on anonymized intraday equity price paths, then measures timing skill after matching for overall exposure. Finds persistent negative timing across modalities, horizons and model families, and shows that feeding the agent its own saved memories makes the policy more persistent and the timing worse — a recoverable, predictable structure another market participant could exploit. [arXiv cs.AI / q-fin.TR, posted 2026-08-31]"
+      }
+    ]},
+    {"name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)", "items": []},
+    {"name": "📰 News (NYT / Washington Post / Economist)", "items": []}
+  ],
+  "footnote": "Window: 2026-08-30 (last run) through 2026-08-31. Both finance items come from arXiv's Monday 31 Aug announcement. Economics: the same announcement carried no AI-related econ.* papers, and the 27-28 Aug batch was already sent. NBER's Monday batch had not posted at run time; SSRN and the INFORMS articles-in-advance pages for Management Science (latest 2026-08-12) and M&SOM (latest 2026-06-19) showed nothing in the window. News is empty this run for a tooling reason, not an editorial one: the browser was unavailable and nytimes.com and economist.com refuse the search agent, so only washingtonpost.com could be checked — its most recent AI-economics piece is dated 2026-08-29 and was already sent."
+}

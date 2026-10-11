@@ -1,0 +1,76 @@
+{
+  "date": "2026-07-31",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "Voice AI in Firms: A Natural Field Experiment on Automated Job Interviews",
+          "url": "https://arxiv.org/abs/2607.28222",
+          "desc": "A field experiment randomly assigned 70,000 job applicants to interviews with human recruiters or AI voice agents; AI-interviewed applicants were 12% more likely to receive offers, with higher job starts and retention and no productivity loss, thanks to more structured, consistent information gathering. [arXiv econ.GN, posted 2026-07-30]"
+        },
+        {
+          "title": "AI Sycophancy and Decisions",
+          "url": "https://arxiv.org/abs/2607.28133",
+          "desc": "Across 1,500 participants in 30 decision environments, sycophantic LLM advice depolarized choices on average—moving people away from their initial leanings—even though the model used agreeable, flattering language; more sycophancy weakened but did not reverse the effect. [arXiv econ.GN, posted 2026-07-30]"
+        },
+        {
+          "title": "Using Large Language Models for Idea Generation in Innovation",
+          "url": "https://arxiv.org/abs/2607.27553",
+          "desc": "Comparing student-generated and GPT-4-generated new-product ideas, AI ideas scored higher on average purchase intent and were roughly seven times more likely to rank in the top 10%, though they were rated less novel and more similar to one another. [arXiv econ.GN / cs.AI, posted 2026-07-30]"
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "Can Large Language Models Execute Parent Orders?",
+          "url": "https://arxiv.org/abs/2607.28410",
+          "desc": "Examines whether LLMs can handle parent-order execution in algorithmic trading—splitting a large order into smaller ones to reduce execution costs—as an alternative to methods that rely on pre-specified and potentially fragile market assumptions. [arXiv q-fin.TR, posted 2026-07-30]"
+        },
+        {
+          "title": "FinSMART: Financial Sentiment Analysis for Algorithmic Trading through Market-Aligned Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2607.28127",
+          "desc": "Proposes market-aligned reinforcement learning to push financial-sentiment LLMs beyond market-agnostic supervised learning, tying sentiment signals more directly to trading outcomes. [arXiv q-fin.ST / q-fin.TR, posted 2026-07-30]"
+        },
+        {
+          "title": "FinanceHarness: Autonomous Financial Deep Research Framework",
+          "url": "https://arxiv.org/abs/2607.27853",
+          "desc": "Introduces an agentic LLM framework for financial deep research that produces finance-specific analytical reports rather than the general-purpose outputs typical of standard deep-research systems. [arXiv q-fin.CP, posted 2026-07-30]"
+        },
+        {
+          "title": "AWARE-FX: An Auditable Knowledge-Guided AI System for Measuring Corporate Foreign-Exchange Hedging Disclosure",
+          "url": "https://arxiv.org/abs/2607.27611",
+          "desc": "Develops an auditable AI/NLP decision-support system that converts weakly structured corporate annual-report text into structured evidence on foreign-exchange risk management, derivative use, and hedging (including explicit non-use). [arXiv q-fin.RM, posted 2026-07-30]"
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": [
+        {
+          "title": "Emission-Forecasting-Based Spatial-Temporal Carbon Response: A Multi-Agent Attention-Enhanced Deep Learning Framework",
+          "url": "https://arxiv.org/abs/2607.26560",
+          "desc": "A deep-learning framework combining dual-stage attention with an LLM-based multi-agent system forecasts day-ahead nodal carbon intensity to enable proactive low-carbon dispatch and scheduling of mobile storage and distributed data centers, cutting emissions by over 30% in tests. [arXiv econ.GN / eess.SY, posted 2026-07-29]"
+        }
+      ]
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "Larry Ellison Bet It All on the A.I. Boom. Will He Be the Face of the A.I. Bubble?",
+          "url": "https://www.nytimes.com/2026/07/31/magazine/larry-ellison-ai-oracle.html",
+          "desc": "A New York Times investigation into Oracle chairman Larry Ellison, whose fortune and company are heavily leveraged on surging demand for AI computing, asking whether he could become the emblem of an AI investment bubble. [NYT, posted 2026-07-31]"
+        },
+        {
+          "title": "America's biggest companies are burning cash on AI. It's risky for everyone.",
+          "url": "https://www.washingtonpost.com/technology/2026/07/31/tech-giants-burning-cash-ai-create-risks-whole-economy/",
+          "desc": "The Washington Post examines how the enormous AI capital spending of large US tech firms is binding the wider economy and financial markets to the AI bet, raising the stakes if returns disappoint. [Washington Post, posted 2026-07-31]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: last run (2026-07-30) through 2026-07-31. No new NBER (posts Mondays), SSRN, or INFORMS articles-in-advance appeared in this window; the latest AI-related INFORMS item was posted July 24. Two q-fin ML-forecasting preprints and one NYT data-center piece from 07-29 were already sent in a prior digest and excluded."
+}

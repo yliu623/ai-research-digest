@@ -1,0 +1,100 @@
+{
+  "date": "2026-07-21",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "Inference with AI-Generated Covariates",
+          "url": "https://www.nber.org/papers/w35481",
+          "desc": "Duan and Pelger show that treating LLM-extracted features (sentiment scores, classifications, expectations) as observed covariates can invalidate downstream inference when hallucination and look-ahead bias produce systematic, input-dependent errors, and they propose corrections. [NBER WP 35481, issued week of 2026-07-20]"
+        },
+        {
+          "title": "Training AI for When Humans Will Use It",
+          "url": "https://www.nber.org/papers/w35490",
+          "desc": "Bryan and Gans argue the economic value of an AI depends on the decision environment it is embedded in — how humans verify, query and combine its predictions — and model how training should be targeted to that downstream use. [NBER WP 35490, issued week of 2026-07-20]"
+        },
+        {
+          "title": "Vector Search As Nearest Neighbor Matching: RAG-based Policy Learning in Causal Inference",
+          "url": "https://arxiv.org/abs/2607.18225",
+          "desc": "Proposes one- and two-step policy-learning methods built on retrieval-augmented generation, formalizing RAG-based action selection in the potential-outcome framework with vector search acting as nearest-neighbor matching in embedding space. [arXiv econ.EM, posted 2026-07-20]"
+        },
+        {
+          "title": "Econometrics with Pre-Trained Embeddings for Unstructured Data",
+          "url": "https://arxiv.org/abs/2607.17378",
+          "desc": "Develops econometric theory for using off-the-shelf pre-trained embeddings of images and text as inputs to empirical economic analysis, avoiding the cost of training bespoke machine-learning models on unstructured data. [arXiv econ.EM, posted 2026-07-19]"
+        },
+        {
+          "title": "Rationalizing Boltzmann Rationality: An Axiomatic Characterization of Entropy-Regularized Policies",
+          "url": "https://arxiv.org/abs/2607.17316",
+          "desc": "Gives a decision-theoretic axiomatization of the softmax/entropy-regularized policy that is the default model of stochastic choice in reinforcement learning, resolving the tension between the entropy bonus and standard choice axioms. [arXiv cs.LG + econ.TH, posted 2026-07-19]"
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "Bank Runs With and Without Bank Failure",
+          "url": "https://www.nber.org/papers/w35504",
+          "desc": "Correia, Luck and Verner apply large language models to historical newspapers to build a database of 3,984 runs on individual U.S. banks from 1863 to 1934, then use it to study what causes runs and when they end in failure. [NBER WP 35504, issued week of 2026-07-20]"
+        },
+        {
+          "title": "Volatility Disagreement in the Options Market",
+          "url": "https://www.nber.org/papers/w35500",
+          "desc": "Bali, Kelly and Mörke construct a stock-level disagreement measure from the cross-sectional dispersion of realized-variance forecasts produced by heterogeneous machine-learning models, and show it predicts returns on delta-hedged straddles. [NBER WP 35500, issued week of 2026-07-20]"
+        },
+        {
+          "title": "AlphaZeroBeta: Deep Reinforcement Learning for Market-Neutral Portfolios",
+          "url": "https://arxiv.org/abs/2607.18001",
+          "desc": "A deep RL framework pairing a CNN-GRU policy trained with Recurrent PPO and a reward balancing excess return, benchmark correlation and transaction costs; 2014-2024 backtests across seven equity indices beat baselines on Sharpe while staying near beta-zero. [arXiv q-fin.PM, posted 2026-07-20]"
+        },
+        {
+          "title": "Abliteration Is Not a Scalpel: Off-Target Effects of Refusal Removal on Decision Disposition Across Model Families",
+          "url": "https://arxiv.org/abs/2607.17427",
+          "desc": "Using 21,600 weekly up/down calls on Warsaw Stock Exchange equities as a probe, the paper shows that removing an LLM's refusal direction makes models systematically more optimistic and less hedged — a materially different decision-maker when deployed as a trading agent. [arXiv cs.LG + q-fin.CP, posted 2026-07-19]"
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": []
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "The biggest winners of the American economy fear they're sinking fast",
+          "url": "https://www.washingtonpost.com/technology/2026/07/19/tech-has-never-been-richer-its-workers-have-never-felt-less-secure/",
+          "desc": "Repeated layoffs and pressure to automate roles have left tech workers anxious even as their employers post record profits; economists quoted expect the same squeeze to reach other white-collar occupations. [Washington Post, 2026-07-19]"
+        },
+        {
+          "title": "American A.I. Giants Face Fresh Tests",
+          "url": "https://www.nytimes.com/2026/07/20/business/dealbook/ai-china-alphabet.html",
+          "desc": "DealBook's rundown of the pressures converging on the largest U.S. AI companies, including competition from China and the market's expectations heading into Alphabet's results. [NYT DealBook, 2026-07-20]"
+        },
+        {
+          "title": "Why Silicon Valley Can't Stop Looking Over Its Shoulder at China",
+          "url": "https://www.nytimes.com/2026/07/20/technology/china-us-ai-race.html",
+          "desc": "How Chinese model releases and cheaper compute are reshaping the competitive and investment calculus for American AI firms. [NYT, 2026-07-20]"
+        },
+        {
+          "title": "Google Is Building an A.I. Fence Around the Internet It Once Championed",
+          "url": "https://www.nytimes.com/2026/07/20/technology/google-ai-open-web.html",
+          "desc": "As AI answers replace links, Google is enclosing content it once helped distribute — with consequences for publisher revenue and the economics of the open web. [NYT, 2026-07-20]"
+        },
+        {
+          "title": "'Vibecoded' Apps Are Flooding the App Store. Is That Good for Apple?",
+          "url": "https://www.nytimes.com/2026/07/20/technology/apple-app-store-vibecoding.html",
+          "desc": "AI coding tools have sharply lowered the cost of shipping an app, raising questions about quality, discovery and the economics of Apple's marketplace. [NYT, 2026-07-20]"
+        },
+        {
+          "title": "Step Into the 'Zone of Genius' (Before A.I. Takes Your Job)",
+          "url": "https://www.nytimes.com/2026/07/19/business/step-into-the-zone-of-genius-before-ai-takes-your-job.html",
+          "desc": "A look at how career advice and the market for white-collar skills are being reframed around what automation cannot yet do. [NYT Business, 2026-07-19]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: 2026-07-19 (last run) through 2026-07-21. SSRN could not be reached this run (Cloudflare bot check), so no SSRN items are included. INFORMS articles-in-advance (Management Science, M&SOM, Operations Research) had no AI-related postings in the window."
+}

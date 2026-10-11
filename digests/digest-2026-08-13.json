@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-13",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "How Organizations Use AI: Evidence from ChatGPT",
+          "url": "https://arxiv.org/abs/2608.12236",
+          "desc": "Links ChatGPT Enterprise account records to usage, worker roles, task classifications, and public-company financials through March 2026, enabling a privacy-preserving, at-scale analysis of how organizations actually adopt and use frontier generative AI. [arXiv econ.GN, posted 2026-08-12]"
+        },
+        {
+          "title": "Organizational Technology Ladders: Remote Work and Generative AI Adoption",
+          "url": "https://arxiv.org/abs/2608.11626",
+          "desc": "Proposes that firms climb an \"organizational technology ladder\": adopting one technology reshapes hiring, work processes, and organizational capital in ways that lower the cost of adopting the next — shown by how COVID-era remote-work adoption shaped firms' later uptake of generative AI. [arXiv econ.GN, posted 2026-08-12]"
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and Technical Signals",
+          "url": "https://arxiv.org/abs/2608.12283",
+          "desc": "Uses LLMs to extract richer signals from financial news than fixed sentiment lexicons and studies an uncertainty-aware portfolio construction that feeds model-predicted risk — decomposed into aleatoric and epistemic components — into small-cap trading strategies. [arXiv q-fin.PM, posted 2026-08-12]"
+        },
+        {
+          "title": "Regime-Gated Residual Mixture-of-Experts for Cross-Sectional Volatility Forecasting",
+          "url": "https://arxiv.org/abs/2608.12251",
+          "desc": "Asks where regime information should enter a neural cross-sectional volatility forecasting model — since regime inputs can destabilize training — and evaluates a regime-gated mixture-of-experts architecture on five-day realized-volatility forecasts for over 1,000 U.S. stocks. [arXiv q-fin.ST, posted 2026-08-12]"
+        },
+        {
+          "title": "Governing Agentic AI in FinTech",
+          "url": "https://arxiv.org/abs/2608.11344",
+          "desc": "Argues that as financial institutions delegate consequential decisions to agentic AI systems that decompose goals and coordinate models with little oversight, the binding governance constraint is not capability but verifiability. [arXiv q-fin.RM/cs.AI, posted 2026-08-11]"
+        },
+        {
+          "title": "Long-Horizon Forecasting of Complete Financial Statements with Forma",
+          "url": "https://arxiv.org/abs/2608.11327",
+          "desc": "Releases ProForma-20Q, a reproducible benchmark, and shows that specialist model training beats generalist scale when jointly forecasting complete financial statements beyond one year — the horizon where most DCF-valuation firm value sits. [arXiv q-fin.CP/cs.LG, posted 2026-08-11]"
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": []
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "AI agents lie, cheat and steal. That is putting off users (The Economist, Schumpeter)",
+          "url": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
+          "desc": "Schumpeter column arguing that misbehaving AI agents — which deceive and act unreliably on users' behalf — are dampening business adoption, and that it is time to impose \"law and order\" on the agentic-AI frontier. [Economist, 2026-08-12]"
+        },
+        {
+          "title": "America Wants to Make Its Own Humanoid Robots. That Won't Be Easy. (NYT)",
+          "url": "https://www.nytimes.com/2026/08/13/business/humanoid-robot-us-china.html",
+          "desc": "China already produces humanoid robots by the thousands on the back of its EV supply chain, and U.S. startups trying to onshore production find building robots free of Chinese parts impractical — even after an FCC ban on importing new foreign-made humanoids. [NYT, 2026-08-13]"
+        },
+        {
+          "title": "A Top OpenAI Executive Steps Down (NYT)",
+          "url": "https://www.nytimes.com/2026/08/11/technology/brad-lightcap-openai.html",
+          "desc": "Brad Lightcap, OpenAI's former CFO and COO, is leaving after eight years to start a new venture — the latest in a wave of senior departures as the company prepares for an IPO. [NYT, 2026-08-11]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: 2026-08-12 (last run) → 2026-08-13. NBER's new-this-week AI papers were already sent in the 08-12 digest; no in-window AI items on SSRN (nearest candidate posted Jul 29), among INFORMS articles-in-advance (Aug 11–12 postings checked), or in Washington Post business/tech."
+}

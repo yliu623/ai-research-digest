@@ -1,0 +1,71 @@
+{
+  "date": "2026-07-28",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "Randomness in Large Language Models: What Researchers Need to Know (and Report)",
+          "url": "https://arxiv.org/abs/2607.24372",
+          "desc": "LLMs are increasingly used to generate research data through classifications, annotations, and numerical scores, but their outputs vary across repeated queries; the paper documents the sources of this randomness and sets out what economists should report so LLM-based measurement is reproducible. [arXiv econ.GN, posted 2026-07-27]"
+        },
+        {
+          "title": "Debiased Machine Learning: Identification, Estimation, and Shape Constraints",
+          "url": "https://arxiv.org/abs/2607.24472",
+          "desc": "Develops a general framework for automatic debiased machine learning (DML), where a parameter of interest is identified by a moment condition involving a high-dimensional nuisance estimated with ML while correcting for regularization bias, and extends it to shape-constrained settings. [arXiv econ.EM, posted 2026-07-27]"
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "Variational Quantum Conditional Boltzmann Machines for Time-Series Forecasting",
+          "url": "https://arxiv.org/abs/2607.24065",
+          "desc": "Proposes quantum machine-learning architectures (variational quantum conditional Boltzmann machines) for financial time-series forecasting, comparing architectures and a symmetric hyperparameter-evaluation scheme against a nonlinear benchmark. [arXiv q-fin.ST/cs.LG, posted 2026-07-27]"
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": [
+        {
+          "title": "Doubly Adaptive Cascading Bandits with User Abandonment",
+          "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2024.1449",
+          "desc": "Studies an online-learning (reinforcement-learning) cascading-bandit model that adapts to user abandonment, developing algorithms for sequential recommendation and decision-making problems in operations. [INFORMS Operations Research, published online 2026-07-27]"
+        }
+      ]
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "AI Revenues Are Growing Fast, but Not Fast Enough",
+          "url": "https://www.economist.com/finance-and-economics/2026/07/28/ai-revenues-are-growing-fast-but-not-fast-enough",
+          "desc": "Big Tech's spending on AI infrastructure is ballooning toward roughly $900bn this year and an estimated $1.4trn in 2027, but although AI revenues are climbing quickly they are not rising fast enough to obviously justify the outlay, sharpening questions about returns. [The Economist, 2026-07-28]"
+        },
+        {
+          "title": "Tech Stocks Tumble on Worries About A.I. Spending and China's Chip Competition",
+          "url": "https://www.nytimes.com/2026/07/28/business/stocks-ai-chips.html",
+          "desc": "U.S. technology shares fell sharply as investors worried that enormous AI capital spending may not pay off and that Chinese chipmakers are closing the gap with American rivals. [The New York Times, 2026-07-28]"
+        },
+        {
+          "title": "The Chips Rout Goes Global",
+          "url": "https://www.nytimes.com/2026/07/28/business/dealbook/chips-market-rout-ai.html",
+          "desc": "A sell-off in semiconductor stocks spread across global markets as investors reassessed the AI-driven chip boom and its lofty valuations. [The New York Times / DealBook, 2026-07-28]"
+        },
+        {
+          "title": "Open or Shut? The A.I. Debate That's Driving a Wedge Through Big Tech",
+          "url": "https://www.nytimes.com/2026/07/27/business/dealbook/open-closed-ai-debate.html",
+          "desc": "A widening rift among major technology firms over whether AI models should be open-source or closed is reshaping industry strategy, competition, and alliances. [The New York Times / DealBook, 2026-07-27]"
+        },
+        {
+          "title": "Why Tech Companies Are Poaching Top Economists",
+          "url": "https://www.washingtonpost.com/technology/2026/07/28/ai-firms-are-poaching-top-economists-questions-grow-about-job-losses/",
+          "desc": "AI firms such as Google are hiring away leading academic economists to study AI's economic effects, including job losses, raising concerns about whether corporate-funded research serves the public interest. [The Washington Post, 2026-07-28]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: last run 2026-07-27 → 2026-07-28. Sources: arXiv (exact timestamps), NBER, SSRN, INFORMS articles-in-advance (dates verified), Economist/NYT/WaPo (dated URLs). NBER's 07-27 batch and SSRN had no new in-window AI items in economics/finance/operations."
+}

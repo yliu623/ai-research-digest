@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-28",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "Sophistication in GenAI Use: Field Evidence from a Large Firm",
+          "url": "https://arxiv.org/abs/2608.27364",
+          "desc": "Using 713,564 employee prompts from ~4,000 back-office workers at a large firm over eight months, the authors find senior employees use generative AI more sophisticatedly, with the highest sophistication in Strategy, Digital Innovation and Project Management. Sophistication did not improve over time or persist after formal AI training. [arXiv econ.GN, posted 2026-08-27]"
+        },
+        {
+          "title": "The Reverse Big Push: Generative AI and Self-Fulfilling Automation",
+          "url": "https://arxiv.org/abs/2608.25602",
+          "desc": "A theory paper showing that because generative AI shifts the fixed cost of automation to the model provider, a local service economy can support two equilibria: a high-demand human-augmented one and a low-demand automated one. Automation cascades can be self-fulfilling, and the authors derive conditions for equilibrium selection and optimal adoption policy. [arXiv econ.TH, posted 2026-08-26]"
+        },
+        {
+          "title": "Normative boundaries of AI in scientific work: Evidence from PhD researchers",
+          "url": "https://arxiv.org/abs/2608.25678",
+          "desc": "Analysis of 3,785 STEM and health PhD students from Nature's Graduate Survey 2025 identifies four attitudinal profiles toward AI. The dominant one is a 'division of labour': AI is accepted for literature search and summarising, but resisted for writing, data analysis and experimental design. [arXiv econ.GN, posted 2026-08-26]"
+        },
+        {
+          "title": "DIRECT: Decomposing Audience Preference and Creative Effect in Visual Content Analytics",
+          "url": "https://arxiv.org/abs/2608.26584",
+          "desc": "Combines double machine learning with CLIP-derived visual style features across 232,088 sponsored Instagram posts to separate audience-composition effects from true creative effects. Pooled estimates point the wrong creative direction on 2 of 11 attributes and forgo 31% of achievable engagement gains on held-out creators. [arXiv econ.EM, posted 2026-08-27]"
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "A Temporal Multiplex Graph Neural Network for Systemic Risk Transmission in Global Banking",
+          "url": "https://arxiv.org/abs/2608.27295",
+          "desc": "Builds a temporal heterogeneous multiplex graph neural network over bank fundamentals, CDS spreads and macro indicators to model contagion channels in global banking. It beats econometric, ML and graph baselines at short-horizon CDS forecasting and supports bank-level stress testing and country spillover analysis. [arXiv q-fin.CP, posted 2026-08-27]"
+        },
+        {
+          "title": "Tabular Deep Learning for Algorithmic Trading: Cross-Regime Bayesian Optimisation for Equity Signal Generation",
+          "url": "https://arxiv.org/abs/2608.27076",
+          "desc": "Trains five model classes on ~300 large-cap US equities over eleven years with Bayesian hyperparameter optimisation targeted at three distinct market regimes. No single tabular deep learning architecture beats gradient-boosted trees, but a XGBoost + TabNet rank-aggregation ensemble delivers 51.3% annualised return and a Sharpe of 2.44. [arXiv q-fin.CP/TR, posted 2026-08-27]"
+        },
+        {
+          "title": "Interpretable hybrid credit scoring for thin-file and underbanked populations",
+          "url": "https://arxiv.org/abs/2608.26837",
+          "desc": "Extends a logistic-scorecard-plus-gradient-boosting hybrid to East African financial inclusion data and audits fairness by interpretability region. The model improves AUC and cuts Brier score sharply, but the audit finds rural, less-educated and Ugandan borrowers are routed disproportionately into the opaque ML branch. [arXiv q-fin.RM, posted 2026-08-27]"
+        },
+        {
+          "title": "DTD-VAE: Disentangled Temporal Dependencies VAE for Credit Risk Prediction",
+          "url": "https://arxiv.org/abs/2608.26473",
+          "desc": "Proposes a variational autoencoder that disentangles credit-risk-relevant temporal patterns from general customer-preference behaviour in retail banking data. Across six real-world datasets it improves ROC-AUC by 3.2–4.9% and Accuracy Ratio by 6.4–9.7% over existing methods. [arXiv q-fin.RM, posted 2026-08-27]"
+        },
+        {
+          "title": "On the approximation of posterior laws in compound loss models by conditional Wasserstein GANs",
+          "url": "https://arxiv.org/abs/2608.27229",
+          "desc": "Frames repeated Bayesian inference for insurance compound loss models as amortized posterior approximation using a conditional Wasserstein GAN. A single generator approximates posteriors for Poisson intensity and Pareto shape across mixed priors, validated against MCMC and applied to extreme natural catastrophe losses. [arXiv q-fin.RM, posted 2026-08-27]"
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": [
+        {
+          "title": "Dynamic Learning for Joint Pricing, Advertising, and Inventory Management",
+          "url": "https://pubsonline.informs.org/doi/abs/10.1287/msom.2024.1182",
+          "desc": "Studies a startup-like firm that must jointly set price, advertising and inventory over T periods while learning demand and advertising-response models from scratch. The authors give sufficient conditions for exponentially fast learning and propose a simple asymptotically optimal policy for these cross-functional decisions. [M&SOM articles-in-advance, Published Online 2026-08-27]"
+        }
+      ]
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "What if the A.I. Stock Market Rally Is Just Getting Started?",
+          "url": "https://www.nytimes.com/2026/08/28/business/ai-stock-market-bull-rally.html",
+          "desc": "Jeff Sommer's Strategies column interviews strategist Edward Yardeni, who argues the AI-driven bull market has years left to run despite more than three years of large gains. A counterpoint to the growing chorus warning of an AI bubble. [NYT Business, 2026-08-28]"
+        },
+        {
+          "title": "China Sees Opportunity in America's Recent A.I. Security Scares",
+          "url": "https://www.nytimes.com/2026/08/28/business/china-artificial-intelligence-zai.html",
+          "desc": "Beijing start-up Z.ai released a new model and pitched China's open-weights approach as safer than Silicon Valley's closed one, after US incidents in which AI systems hacked other computer systems. The episode is being used as a competitive positioning argument in the global AI market. [NYT Business, 2026-08-28]"
+        },
+        {
+          "title": "As A.I. Money Floods the Market, San Francisco Renters Weigh Buyouts",
+          "url": "https://www.nytimes.com/2026/08/28/realestate/as-ai-money-floods-the-market-san-francisco-renters-weigh-buyouts.html",
+          "desc": "The AI boom has pushed San Francisco rents and home prices sharply higher, and landlords are now offering rent-controlled tenants tens of thousands of dollars to vacate. A concrete look at the local distributional consequences of the AI capital surge. [NYT Real Estate, 2026-08-28]"
+        },
+        {
+          "title": "Meta Took Aim at Anthropic. It Is Also One of Its Largest Customers.",
+          "url": "https://www.nytimes.com/2026/08/27/technology/meta-anthropic-frenemies.html",
+          "desc": "Internal projections reportedly show Meta could spend around $10 billion a year on Anthropic's tools even as Zuckerberg publicly criticises the rival lab. Illustrates how AI-model spending creates deep buyer-supplier dependencies between nominal competitors. [NYT Technology, 2026-08-27]"
+        },
+        {
+          "title": "Can AI make dysfunctional governments more effective?",
+          "url": "https://www.economist.com/asia/2026/08/27/can-ai-make-dysfunctional-governments-more-effective",
+          "desc": "Looks at Asian governments deploying AI against bureaucratic overload — Indonesia alone has more than 251,000 laws and regulations — and weighs the productivity promise against the risks of AI in the public sector. [The Economist, 2026-08-27]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: 2026-08-26 (last run) through 2026-08-28. arXiv dates are exact <published> timestamps from the export API (fetched via browser; the export host is blocked from the sandbox). NBER: no new AI-related working papers posted in this window (the latest Monday batch was already sent). INFORMS Management Science and Operations Research articles-in-advance had no AI-related items dated in the window. SSRN could not be reached this run — its search and results pages returned bot-protection errors — so no SSRN items are included."
+}

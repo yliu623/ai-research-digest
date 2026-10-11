@@ -1,0 +1,85 @@
+{
+ "date": "2026-08-18",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "The Global Transition – The Impact of Demographics and AI on Economic Power",
+     "url": "https://www.nber.org/papers/w35618",
+     "desc": "A multi-region dynamic life-cycle general-equilibrium model covering 17 regions (99% of world population) is used to project how population ageing interacts with AI-driven production over the rest of the century. The paper asks how the combination reshapes the distribution of global economic power. [NBER, posted 2026-08-17]"
+    },
+    {
+     "title": "One Click Away: AI Tutoring with Khanmigo in a Two-Year School Experiment",
+     "url": "https://www.nber.org/papers/w35620",
+     "desc": "Large-scale experimental evidence from a two-year cluster-randomized trial in 18 Tennessee middle schools where students were randomly given access to the Khanmigo generative-AI tutor. One of the first rigorous tests of the claim that AI can deliver a personal tutor to every student. [NBER, posted 2026-08-17]"
+    },
+    {
+     "title": "Making AI Tutoring Productive: Evidence from a Mastery-Based Math Practice Experiment",
+     "url": "https://www.nber.org/papers/w35621",
+     "desc": "A randomized field experiment with more than 6,000 middle-school students in Hamilton County Schools using the NUMI LLM tutor, testing whether design choices push students to reason through mistakes rather than use the model to avoid effort. [NBER, posted 2026-08-17]"
+    },
+    {
+     "title": "Taxpayer Behavior in the Age of AI: A Field Experiment on Property Tax Appeals",
+     "url": "https://www.nber.org/papers/w35632",
+     "desc": "A field experiment providing the first causal evidence on how taxpayers respond to AI assistance in property tax appeals, where AI may substitute for costly human expertise. [NBER, posted 2026-08-17]"
+    },
+    {
+     "title": "The AI Investment Boom and Housing Wealth: Evidence from Data Centers",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7283198",
+     "desc": "Using a new facility-level database of U.S. data centers in a staggered difference-in-differences design, the authors trace who captures the windfall from the data-center construction boom: host counties expand their tax base, cut property-tax rates, and local house prices rise about 4.5%. [SSRN, posted 2026-08-18]"
+    },
+    {
+     "title": "Shadow AI and Knowledge Governance in Firms",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7277338",
+     "desc": "Models why firms restrict employee access to generative AI and why employees conceal the productivity gains they get from it, treating both as equilibria of a single governance game with access policy, costly screening, and unverifiable knowledge extraction. [SSRN, posted 2026-08-17]"
+    },
+    {
+     "title": "Biases-Informed Job Search Guidance: Characterization, Implications, and Targeting Support",
+     "url": "https://arxiv.org/abs/2608.16827",
+     "desc": "Combines a new panel of French job seekers' subjective reemployment expectations with structural modeling and machine learning to recover what biased expectations reveal about underlying beliefs and preferences, and uses this to better target employment support. [arXiv econ.GN, posted 2026-08-17]"
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Generative AI Service Outages and Price Impact in Cryptocurrency Markets",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7300331",
+     "desc": "Identifies 252 OpenAI and Anthropic service outages from their status pages and aligns onset times with high-frequency Binance data for Bitcoin and Ethereum, using a stacked difference-in-differences design to test whether generative AI has become part of the market's information infrastructure. [SSRN, posted 2026-08-17]"
+    },
+    {
+     "title": "Self-Supervised Auxiliary Task Discovery for Stable Reinforcement Learning in Stock Trading",
+     "url": "https://arxiv.org/abs/2608.15841",
+     "desc": "Proposes automatically discovering self-supervised auxiliary tasks — rather than hand-designing them — to stabilize reinforcement-learning trading policies under non-stationary markets and noisy reward signals. [arXiv q-fin.CP / cs.LG, posted 2026-08-16]"
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Nvidia to Back Ohio Data Center With as Much as $105 Billion",
+     "url": "https://www.nytimes.com/2026/08/17/technology/nvidia-ohio-data-center-openai.html",
+     "desc": "Nvidia is committing up to $105 billion to one of the world's largest data centers in Ohio, a project reported to cost as much as $500 billion in total and to be leased by OpenAI — another marker of how AI capital spending is being financed. [NYT, 2026-08-17]"
+    },
+    {
+     "title": "How to Make a Robot Better at Its Job? Give It Eyes.",
+     "url": "https://www.nytimes.com/2026/08/17/business/robots-stellantis-inbolt.html",
+     "desc": "Inbolt, a French startup selling AI robot-vision systems, helped a Stellantis plant in Detroit become one of the company's top-performing factories — a concrete case of machine vision changing manufacturing operations. [NYT, 2026-08-17]"
+    },
+    {
+     "title": "China Wants to Shape What the World's A.I. Knows",
+     "url": "https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html",
+     "desc": "Reports on Chinese efforts to influence the training data and outputs of AI chatbots worldwide, with implications for who controls the information layer that increasingly mediates commerce and policy. [NYT, 2026-08-17]"
+    }
+   ]
+  }
+ ],
+ "footnote": "Window: 2026-08-17 (last run) → 2026-08-18 11:00 UTC. INFORMS (Management Science, M&SOM, Operations Research) articles-in-advance had no AI-related papers published online in this window, so the Operations section is empty. arXiv export API was unreachable from the sandbox (network allowlist) and was queried through the browser instead."
+}

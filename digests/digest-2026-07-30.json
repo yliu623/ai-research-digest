@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-30",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "The Last Costly Signal: How Generative AI Collapses Competence Signaling and Why Liability Sustains Markets for Expert Services",
+          "url": "https://arxiv.org/abs/2607.26327",
+          "desc": "Argues that generative AI has driven the cost of producing convincing 'artifacts of expertise' (reports, analyses, proposals) to near zero, eroding the cost-based signals that markets for expert services rely on, and formalizes how liability rules can keep those credence-good markets functioning. [arXiv econ.GN, posted 2026-07-28]"
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "Inverse Learning of Latent Risk-Neutral Densities from Irregular Option Quotes",
+          "url": "https://arxiv.org/abs/2607.27188",
+          "desc": "Shows that accurate option prices do not imply accurate recovery of the underlying risk-neutral density, and uses controlled and chronological (NIFTY) benchmarks to compare learning-based inversion against a two-component lognormal mixture for extracting densities from sparse quotes. [arXiv q-fin.CP, posted 2026-07-29]"
+        },
+        {
+          "title": "Crossing-Free Probabilistic K-Line Forecasts Without Retraining",
+          "url": "https://arxiv.org/abs/2607.26792",
+          "desc": "Proposes a method for probabilistic candlestick (open-high-low-close) price forecasting that eliminates quantile-crossing and K-line-crossing inconsistencies without retraining the underlying model. [arXiv q-fin.CP / cs.AI, posted 2026-07-29]"
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": []
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "OpenAI, Anthropic ask U.S. government to consider slowing down AI",
+          "url": "https://www.washingtonpost.com/technology/2026/07/29/openai-anthropic-endorse-call-government-pace-ai-progress/",
+          "desc": "Two of the leading AI labs publicly endorsed a call for the U.S. government to weigh pacing or slowing the frontier of AI development, a notable shift with implications for the AI industry's investment and competitive dynamics. [Washington Post, posted 2026-07-29]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: last run 2026-07-29 → now (2026-07-30). Sources scanned: arXiv econ.* + q-fin.*, NBER, SSRN, INFORMS (Management Science / M&SOM / Operations Research articles-in-advance), Economist, NYT, Washington Post. Most AI-in-econ/finance news surfaced this window was already sent on 2026-07-29 and de-duplicated out. NBER posts Mondays (none in window); no new AI-relevant INFORMS articles in window."
+}

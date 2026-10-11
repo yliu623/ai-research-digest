@@ -1,0 +1,65 @@
+{
+  "date": "2026-08-26",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "AI worsens climate change, integrated assessment shows",
+          "url": "https://arxiv.org/abs/2608.24670",
+          "desc": "Embeds AI's effects on emissions, output and climate damages into the DICE integrated-assessment model, separating an 'ICT-like' AI scenario from an 'Industrial-Revolution-like' one. Finds AI is net polluting, adding roughly 0.1-0.8 C by 2100, with climate costs offsetting about a fifth to a quarter of AI's economic gains. [arXiv econ.GN, announced 2026-08-26 (submitted 2026-08-24/25)]"
+        },
+        {
+          "title": "Learning Whom to Trust: Decision-Generated Credibility in Social Learning",
+          "url": "https://arxiv.org/abs/2608.24851",
+          "desc": "Reinforcement-learning agents make binary choices through a drift-diffusion process, and their own decision confidence becomes the credibility weight that other agents place on their advice. Moderate social transmission speeds up collective correction, while strong transmission can lock a population into a wrong consensus. [arXiv econ.GN / cs.NE, announced 2026-08-26 (submitted 2026-08-24/25)]"
+        },
+        {
+          "title": "Political Entrepreneurs",
+          "url": "https://www.nber.org/papers/w35637",
+          "desc": "Links state legislators' financial disclosures to bill sponsorship across 26 states from 2009 to 2023, using a large language model to classify bill text as pro-business and pro-entry. Entrepreneur-legislators, about 40% of the sample, turn out not to be generic business advocates but to selectively push deregulation and entry-lowering bills. [NBER, posted 2026-08-24]"
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "Harvesting the Volatility Risk Premium: A Learning-to-Rank Approach",
+          "url": "https://arxiv.org/abs/2608.24786",
+          "desc": "Uses a LightGBM LambdaRank learning-to-rank model to choose daily among nine short-put strategies on zero-day-to-expiry S&P 500 weekly options, adding margin-aware position sizing and a model-uncertainty abstention rule. Reports out-of-time Sharpe ratios of 4.3 to 5.8 against passive put-writing benchmarks. [arXiv q-fin, announced 2026-08-26 (submitted 2026-08-24/25)]"
+        },
+        {
+          "title": "Lead-Lag Relationships in Financial Markets: A Comparison of Multiple Clustering Algorithms",
+          "url": "https://arxiv.org/abs/2608.24703",
+          "desc": "Benchmarks three machine-learning time-series clustering methods (MiniRocket-KMeans, KShape, and a KShape/DTW-KMedoids ensemble) against standard DTW-KMedoids for constructing lead-lag trading strategies. MiniRocket-KMeans performs best under the lead strategy, and tuning the cluster count by silhouette score improves robustness. [arXiv q-fin, announced 2026-08-26 (submitted 2026-08-24/25)]"
+        },
+        {
+          "title": "findr: Transparent and Fair Credit Risk Decisions through Semi-Structured Regressions",
+          "url": "https://arxiv.org/abs/2608.24582",
+          "desc": "Splits a credit-scoring model's logit into an interpretable linear component plus an orthogonal neural-network residual, with a Wasserstein penalty during training to limit disparities across demographic groups. It behaves like logistic regression when the signal is linear but recovers most of a neural network's accuracy when it is not. [arXiv q-fin.RM / cs.LG, announced 2026-08-26 (submitted 2026-08-24/25)]"
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": []
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "Bill Gates says he's worried AI will harm workers, kids and society",
+          "url": "https://www.washingtonpost.com/technology/2026/08/26/bill-gates-says-he-worried-ai-will-harm-workers-kids-society/",
+          "desc": "Gates, long an AI optimist, now says he would rather the technology advanced more slowly, citing worker displacement among his concerns. The piece is framed as a wide-ranging interview on societal harms rather than a tight economic analysis. [Washington Post, 2026-08-26]"
+        },
+        {
+          "title": "Wall Street Journal says AI-generated op-ed didn't breach its standards",
+          "url": "https://www.washingtonpost.com/business/2026/08/25/wall-street-journal-says-ai-generated-op-ed-didnt-breach-its-standards/",
+          "desc": "The WSJ defended running an op-ed that investor Stanley Druckenmiller wrote with AI assistance criticising Treasury Secretary Scott Bessent's market interventions. The story sits in the Business section but is chiefly about newsroom AI-disclosure policy. [Washington Post, 2026-08-25]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: last run 2026-08-25 through now. Infrastructure notes for this run: the arXiv export API and direct site access were blocked by the network allowlist, and the Chrome browser tools were not connected, so arXiv was read from listing pages and news from search only. arXiv items were sourced from the 26 Aug announcement listing, which by construction contains v1 submissions from 24-25 Aug; individual abstract pages could not be opened to read exact timestamps because web_fetch hit its rate limit. INFORMS articles-in-advance pages returned a stale cache (nothing past June 2026) and SSRN abstract pages were unreadable because query strings are stripped, so both were excluded rather than guessed. The Economist and NYT were not reachable by search this run, so news coverage is Washington Post only; both news items are AI-and-business adjacent rather than squarely economic. Two otherwise-qualifying items (arXiv 2608.23420, NBER w35641) were dropped as already sent."
+}

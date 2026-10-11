@@ -1,0 +1,49 @@
+{
+  "date": "2026-08-23",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": []
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "M3: A State-Event Generative Foundation Model for Market Microstructure Dynamics",
+          "url": "https://arxiv.org/abs/2608.19227",
+          "desc": "Proposes M3, a generative foundation model that jointly simulates order-flow events and limit-order-book liquidity rather than modelling them in isolation. Trained on large-scale order-level stock data, it shows predictable scaling behaviour and reproduces key market stylized facts for counterfactual microstructure simulation. [arXiv q-fin.CP/cs.LG, newly announced 2026-08-21]"
+        },
+        {
+          "title": "CAT Bond Pricing with Kolmogorov–Arnold Networks",
+          "url": "https://arxiv.org/abs/2608.19217",
+          "desc": "Trains a Kolmogorov–Arnold Network on the residual from a closed-form lognormal baseline to price catastrophe bonds under a compound Poisson loss model, then extracts an interpretable symbolic pricing formula. The formula attains ~0.48% average relative pricing error on a disjoint holdout of 90,000 simulated prices. [arXiv q-fin.CP, newly announced 2026-08-21]"
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": []
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "The Data Center Backlash Bursts Into the Midterms",
+          "url": "https://www.nytimes.com/2026/08/23/us/politics/data-centers-midterm-elections.html",
+          "desc": "AI data-center buildout has become a central midterm campaign issue, with Democrats and a growing number of Republicans running ads tying data centers to rising household electricity bills. A review of TV and digital ads finds the theme spreading across Texas, Ohio, Michigan and Wisconsin races. [NYT, published 2026-08-23]"
+        },
+        {
+          "title": "See the moment when Republican politicians turned against data centers",
+          "url": "https://www.washingtonpost.com/technology/2026/08/23/most-gop-politicians-now-talk-negatively-about-data-centers-data-shows/",
+          "desc": "A Washington Post text analysis of politicians' public statements finds Republican rhetoric on data centers turned sharply negative over the past six months, reversing earlier framing of them as pure economic upside for states like Ohio. Signals a shifting political economy around AI infrastructure siting and energy costs. [Washington Post, published 2026-08-23]"
+        },
+        {
+          "title": "Harvard Is Selling a $699 Course Taught by A.I. Clones of Its Faculty",
+          "url": "https://www.nytimes.com/2026/08/22/business/dealbook/harvard-ai-faculty.html",
+          "desc": "Harvard Business School built interactive AI video avatars of its instructors for a paid entrepreneurship bootcamp, letting students pitch to an AI clone of a venture capitalist. DealBook tests the product and examines what monetizing faculty likenesses means for the economics of executive education. [NYT DealBook, published 2026-08-22]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: last run 2026-08-22 → 2026-08-23. Weekend window, so no new NBER working papers (posted Mondays), no INFORMS articles-in-advance (Management Science, M&SOM and Operations Research latest are 2026-08-21, 08-20 and 08-14), and no new Economist issue (latest 2026-08-20). The arXiv export API index currently lags to 2026-08-20 and no econ.* or q-fin.* papers were announced Sat/Sun; the two finance papers above were announced in the Friday 2026-08-21 arXiv listing, are AI-relevant, and had not appeared in any previous digest. SSRN search/browse pages returned errors or Cloudflare challenges this run; the SSRN candidates surfaced via web search (e.g. 6529799, 6290347) were opened in-browser and verified as posted 2026-04-20 and 2026-02-23, i.e. outside the window, so none were included."
+}

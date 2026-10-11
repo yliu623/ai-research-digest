@@ -1,0 +1,181 @@
+{
+ "date": "2026-07-16",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Does Multi-Agent Debate Improve AI Feedback on Research Papers?",
+     "url": "https://arxiv.org/abs/2607.14713",
+     "desc": "In a pre-registered, identity-masked experiment, authors of 44 economics meta-analyses ranked AI reports on their own papers; multi-agent debate tools did not beat a single frontier-model pass, questioning the value of agentic debate for research feedback. [arXiv econ.GN, posted 2026-07-16]"
+    },
+    {
+     "title": "When Is Delegated Play Truthful? Within-Range Regret and the Trilemma of Aligned Delegation",
+     "url": "https://arxiv.org/abs/2607.14357",
+     "desc": "Studies when it is optimal to honestly describe one's goals to an automated proxy that acts on your behalf in a mechanism (autobidders, LLM agents), formalizing a trilemma of aligned delegation via a within-range regret criterion. [arXiv econ.TH, posted 2026-07-15]"
+    },
+    {
+     "title": "Tabular Foundation Models for Discrete Choice Estimation",
+     "url": "https://arxiv.org/abs/2607.13314",
+     "desc": "Tests whether tabular foundation models can do discrete-choice demand estimation via in-context learning; naive application underperforms, and the paper examines how to close the gap for this central marketing/operations framework. [arXiv econ.EM, posted 2026-07-14]"
+    },
+    {
+     "title": "Governing Artificial Intelligence: Public Preferences and Regulatory Options",
+     "url": "https://arxiv.org/abs/2607.14585",
+     "desc": "Uses public-preference evidence to map how AI should be regulated, laying out the trade-offs policymakers face between innovation and safety and between public oversight and private self-regulation. [arXiv econ.GN, posted 2026-07-16]"
+    },
+    {
+     "title": "Supervised Fine-Tuning vs. In-Context Learning: An Equilibrium Analysis of LLM Personalization under Congestion",
+     "url": "https://arxiv.org/abs/2607.14371",
+     "desc": "A game-theoretic model of when users should invest in costly supervised fine-tuning versus lightweight in-context learning for LLMs, and how congestion from other users' personalization reshapes those incentives. [arXiv econ.TH, posted 2026-07-15]"
+    },
+    {
+     "title": "Equilibrium Information Aggregation under Machine Learning",
+     "url": "https://arxiv.org/abs/2607.13670",
+     "desc": "Studies the equilibrium effects when agents process information with a machine-learning procedure (a Chow-Liu tree); in an asset market with dispersed information, prices fail to aggregate what the algorithm extracts. [arXiv econ.TH, posted 2026-07-15]"
+    },
+    {
+     "title": "Forecasting Inflation with Microdata: An Adaptive Machine Learning Approach",
+     "url": "https://arxiv.org/abs/2607.12345",
+     "desc": "Develops a scan test and an adaptive machine-learning pipeline that encodes the distribution of individual price changes to forecast aggregate inflation in non-stationary environments. [arXiv econ.GN, posted 2026-07-14]"
+    },
+    {
+     "title": "Indirect Variational Inference: Applications to Earnings Dynamics",
+     "url": "https://arxiv.org/abs/2607.15168",
+     "desc": "Adapts variational inference from machine learning to estimate intractable latent-variable economic models, with an application to earnings dynamics and stronger parameter-recovery guarantees. [arXiv econ.GN, posted 2026-07-16]"
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Artificial Intelligence in Finance: What Have We Learned?",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6962078",
+     "desc": "A bibliometric and multi-method topic-modelling review of the AI-in-finance literature (1,579 articles, 2012-2025) using LDA, BERTopic and Bunka; documents rapid US- and China-led growth around machine learning, FinTech, sustainability and LLMs. [SSRN, posted 2026-07-14]"
+    },
+    {
+     "title": "SciPhy Reinforcement Learning for Portfolio Optimization",
+     "url": "https://arxiv.org/abs/2607.15195",
+     "desc": "Introduces a Scientific Physics-Informed Reinforcement Learning framework for dynamic portfolio optimization by large institutional investors, learning cost-aware, distribution-aware strategies from offline historical data in continuous time. [arXiv q-fin.PM, posted 2026-07-16]"
+    },
+    {
+     "title": "Measuring Sentiment News with Transformer-Based Language Models",
+     "url": "https://arxiv.org/abs/2607.13968",
+     "desc": "Builds daily financial-news sentiment indicators using transformer-based language models that capture context, negation and semantic structure better than traditional dictionary word-count methods. [arXiv q-fin.GN, posted 2026-07-15]"
+    },
+    {
+     "title": "VAIOM: Continuous-Input, Discrete-Output Decoder-Only Financial Sequence Modeling",
+     "url": "https://arxiv.org/abs/2607.13929",
+     "desc": "A decoder-only Transformer for probabilistic next-return prediction that ingests continuous, noisy financial observations and emits discrete ordinal-return distributions. [arXiv q-fin, posted 2026-07-15]"
+    },
+    {
+     "title": "Is Deep Hedging Reinforcement Learning?",
+     "url": "https://arxiv.org/abs/2607.13353",
+     "desc": "Examines whether the deep-hedging framework, which trains a neural-network policy to minimize terminal hedging error, should be understood as reinforcement learning, clarifying the link between the two. [arXiv q-fin, posted 2026-07-15]"
+    },
+    {
+     "title": "A Noise-Robust Elicit-to-Optimize Framework for Distortion Riskmetrics via Inverse Reinforcement Learning",
+     "url": "https://arxiv.org/abs/2607.14373",
+     "desc": "Combines inverse reinforcement learning and reinforcement learning to elicit agents' risk preferences and optimize policies under a broad class of distortion risk measures, robustly to noise. [arXiv q-fin.RM, posted 2026-07-15]"
+    },
+    {
+     "title": "Diachronic Sample Integration: Robust Tail-Risk Estimation with Generative Models",
+     "url": "https://arxiv.org/abs/2607.10810",
+     "desc": "Improves deep generative models used as simulators for risk-sensitive decisions by concentrating on rare adverse scenarios, sharpening tail-risk estimation under data scarcity. [arXiv q-fin.RM, posted 2026-07-12]"
+    },
+    {
+     "title": "Reinforcement Learning for Execution under Dynamic Fees in a Closed-Loop DEX Simulator",
+     "url": "https://arxiv.org/abs/2607.10960",
+     "desc": "Builds a closed-loop simulator of a decentralized exchange and uses reinforcement learning to study optimal trade execution when automated market makers charge trader-facing dynamic fees. [arXiv q-fin.CP, posted 2026-07-12]"
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "Assortment Optimization Under the Decision Forest Model",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/msom.2023.0634",
+     "desc": "Optimizes assortments under the decision forest model — a nonparametric, tree-ensemble choice model that can represent nonrational customer behavior — letting firms tailor offerings to profitably exploit those deviations. [M&SOM, published online 2026-07-15]"
+    },
+    {
+     "title": "Convex Surrogate Loss Functions for Contextual Pricing with Transaction Data",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2023.00122",
+     "desc": "Tackles off-policy contextual pricing from transaction data (past prices offered, purchase outcomes, customer/item features) by introducing convex surrogate loss functions to learn pricing policies without observing willingness-to-pay. [Management Science, published online 2026-07-14]"
+    },
+    {
+     "title": "Scalable Bundle Recommendations: A Large-Scale Field Experiment",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2022.01864",
+     "desc": "An end-to-end, scalable machine-learning framework that builds product embeddings from clickstream data to design complementary/substitutable bundle recommendations, validated in a large field experiment across 4,500 products. [Management Science, published online 2026-07-15]"
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Nearly 200 Economists and Tech Leaders Warn of A.I. Threats",
+     "url": "https://www.nytimes.com/2026/07/13/business/economists-ai-threat-jobs.html",
+     "desc": "Nearly 200 economists and technology leaders signed a warning about AI's risks to jobs and the economy, sharpening the debate over how fast automation could displace workers. [NYT, 2026-07-13]"
+    },
+    {
+     "title": "Anthropic Inches Toward a Mega-I.P.O.",
+     "url": "https://www.nytimes.com/2026/07/16/business/dealbook/anthropic-ipo-ai.html",
+     "desc": "Reporting on AI developer Anthropic moving toward a potential large initial public offering, a signal of how AI valuations are reshaping capital markets. [NYT DealBook, 2026-07-16]"
+    },
+    {
+     "title": "Google Ordered to Give A.I. Rivals More Access on Android Smartphones",
+     "url": "https://www.nytimes.com/2026/07/16/technology/google-android-ai.html",
+     "desc": "A ruling requires Google to open more access to AI competitors on Android, an antitrust move with implications for competition in the AI economy. [NYT, 2026-07-16]"
+    },
+    {
+     "title": "Is IBM a Canary in the Tech Coal Mine?",
+     "url": "https://www.nytimes.com/2026/07/15/business/dealbook/ibm-ai-software-consulting.html",
+     "desc": "Analyzes what IBM's AI software and consulting results signal about enterprise AI demand and the broader tech-spending economy. [NYT DealBook, 2026-07-15]"
+    },
+    {
+     "title": "Chai Discovery, an A.I. Drug Start-Up, Raises $400 Million",
+     "url": "https://www.nytimes.com/2026/07/14/business/dealbook/chai-discovery-ai-drug-development.html",
+     "desc": "AI drug-discovery start-up Chai Discovery raised $400 million, underscoring continued heavy venture financing flowing into applied-AI companies. [NYT DealBook, 2026-07-14]"
+    },
+    {
+     "title": "OpenAI Is Showing Kalshi's World Cup Odds in ChatGPT",
+     "url": "https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html",
+     "desc": "OpenAI is surfacing prediction-market odds from Kalshi inside ChatGPT, an early tie-up between a leading AI platform and financial-style event markets. [NYT, 2026-07-13]"
+    },
+    {
+     "title": "The Hottest AI Models in Silicon Valley Face a Powerful Source of Competition",
+     "url": "https://www.washingtonpost.com/technology/2026/07/14/silicon-valley-hottest-ai-models-face-powerful-source-competition/",
+     "desc": "Leading Silicon Valley AI model developers, squeezed by rising costs, are facing a powerful new source of competition — a shift with real implications for the economics of the AI-model business. [Washington Post, 2026-07-14]"
+    },
+    {
+     "title": "New York Becomes First State to Impose Data Center Moratorium",
+     "url": "https://www.washingtonpost.com/technology/2026/07/14/new-york-becomes-first-state-impose-data-center-moratorium/",
+     "desc": "New York's governor signed an order making it the first state to halt new data centers, a move with major implications for the AI compute buildout and its energy and economic footprint. [Washington Post, 2026-07-14]"
+    },
+    {
+     "title": "Sovereign AI, Independent of America and China, Is a Pipe Dream",
+     "url": "https://www.economist.com/international/2026/07/16/sovereign-ai-independent-of-america-and-china-is-a-pipe-dream",
+     "desc": "Argues that ambitions for 'sovereign AI' independent of American and Chinese technology are unrealistic given how concentrated compute, chips and model supply chains remain. [The Economist, 2026-07-16]"
+    },
+    {
+     "title": "How Europe Can Compete on AI",
+     "url": "https://www.economist.com/podcasts/2026/07/15/how-europe-can-compete-on-ai",
+     "desc": "An Economist podcast on how Europe might build competitive AI capacity despite trailing the US and China in compute, capital and talent. [The Economist, 2026-07-15]"
+    },
+    {
+     "title": "How to Make AI Safe—and Lessen Dependence on America and China",
+     "url": "https://www.economist.com/leaders/2026/07/15/how-to-make-ai-safe-and-lessen-dependence-on-america-and-china",
+     "desc": "An Economist leader arguing for policies that make AI safer while reducing other economies' dependence on American and Chinese AI models, chips and compute. [The Economist, 2026-07-15]"
+    },
+    {
+     "title": "Demis Hassabis Has a Plan to Harness AI Safely",
+     "url": "https://www.economist.com/business/2026/07/14/demis-hassabis-has-a-plan-to-harness-ai-safely",
+     "desc": "An Economist business profile of DeepMind chief Demis Hassabis and his approach to developing and commercializing AI safely. [The Economist, 2026-07-14]"
+    }
+   ]
+  }
+ ],
+ "footnote": "Window: since last run (2026-07-11) through 2026-07-16. Expanded keyword set: AI / agentic AI / LLM(s) / large language models / foundation models / ML / RL / transformers. INFORMS & SSRN posting dates verified directly on each page in-browser. Deduplicated against 286 previously-sent items. Sources: arXiv (econ.*, q-fin.*), SSRN, INFORMS (M&SOM, Management Science, Operations Research), NYT."
+}

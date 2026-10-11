@@ -1,0 +1,6 @@
+_site/
+releases.json
+candidates*.json
+__pycache__/
+.DS_Store
+/out/

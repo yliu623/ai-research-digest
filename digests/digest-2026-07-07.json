@@ -1,0 +1,43 @@
+{
+  "date": "2026-07-07",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {"title": "Some Simple Economics of AGI", "url": "https://arxiv.org/abs/2602.20946", "desc": "arXiv (econ). Builds a tractable framework for reasoning about the macroeconomic consequences of artificial general intelligence, including its effects on growth, wages, and factor shares."},
+        {"title": "Predictive Economics: Rethinking Economic Methodology with Machine Learning", "url": "https://arxiv.org/abs/2510.04726", "desc": "arXiv (econ.GN). Argues for treating prediction as a first-class objective in economics and examines how machine-learning methods reshape economic methodology alongside traditional causal inference."},
+        {"title": "Using Machine Learning to Generate, Clarify, and Improve Economic Models", "url": "https://arxiv.org/abs/2508.19136", "desc": "arXiv (econ). Explores how ML systems can help economists propose, refine, and stress-test formal economic models rather than only estimate existing ones."},
+        {"title": "Automation, AI, and the Intergenerational Transmission of Knowledge", "url": "https://arxiv.org/abs/2507.16078", "desc": "arXiv (econ.GN). Studies how AI-driven automation affects how skills and knowledge pass between generations of workers, and the long-run implications for human capital."}
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {"title": "Artificial Intelligence Asset Pricing Models", "url": "https://www.nber.org/papers/w33351", "desc": "Kelly, Kuznetsov, Malamud & Xu (NBER WP 33351). Develops asset-pricing models built on modern AI/deep-learning architectures and studies their out-of-sample performance relative to classical factor models."},
+        {"title": "Empirical Asset Pricing with Large Language Model Agents", "url": "https://arxiv.org/abs/2409.17266", "desc": "arXiv (q-fin). Uses LLM-based agents to form return forecasts and construct portfolios, testing whether language-model reasoning adds signal in empirical asset pricing."},
+        {"title": "Integrating Large Language Models in Financial Investments and Market Analysis: A Survey", "url": "https://arxiv.org/abs/2507.01990", "desc": "arXiv (q-fin). Surveys how LLMs are being applied across investment research, market analysis, and trading, and catalogs the main opportunities and open challenges."},
+        {"title": "Auditing Asset-Specific Preferences in Financial Large Language Models", "url": "https://arxiv.org/abs/2606.02528", "desc": "arXiv (q-fin). Probes financial LLMs for embedded asset-specific biases (e.g., toward Bitcoin) and shows how such preferences can distort portfolio-allocation advice."},
+        {"title": "A Comprehensive Review of AI-Driven Credit Risk Modeling: From Traditional Scoring to Explainable Machine Learning", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5414214", "desc": "Gates & Flynn (SSRN). Reviews the shift from traditional credit scoring to modern, explainable ML approaches in banking, weighing accuracy gains against transparency and governance."}
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": [
+        {"title": "Can Deep Reinforcement Learning Improve Inventory Management? Performance on Lost Sales, Dual-Sourcing, and Multi-Echelon Problems", "url": "https://pubsonline.informs.org/doi/abs/10.1287/msom.2021.1064", "desc": "M&SOM. Benchmarks deep reinforcement learning against established heuristics across canonical inventory problems, assessing where learned policies genuinely help."},
+        {"title": "Personalized Dynamic Pricing with Machine Learning: High-Dimensional Features and Heterogeneous Elasticity", "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3680", "desc": "Management Science. Develops an ML pricing method that exploits high-dimensional customer features and heterogeneous price sensitivity to set personalized prices."},
+        {"title": "A Manager and an AI Walk into a Bar: Does ChatGPT Make Biased Decisions Like We Do?", "url": "https://pubsonline.informs.org/doi/10.1287/msom.2023.0279", "desc": "M&SOM. Tests ChatGPT on 18 operations-relevant human biases and finds it mirrors human bias in roughly half of the experiments while diverging in the rest."},
+        {"title": "A Deep Q-Network for the Beer Game: Deep Reinforcement Learning for Inventory Optimization", "url": "https://pubsonline.informs.org/doi/abs/10.1287/msom.2020.0939", "desc": "M&SOM. Applies a deep Q-network to the classic Beer Game supply-chain setting, learning ordering policies that reduce the bullwhip effect."},
+        {"title": "Large Language Models in Creative Work: The Role of Collaboration Modality and User Expertise", "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2023.03014", "desc": "Management Science. Field/experimental evidence on how LLM collaboration modality and user expertise shape the quality and value of AI-assisted creative and knowledge work."}
+      ]
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {"title": "AI has taken over the stock market. The bond market is next", "url": "https://www.economist.com/finance-and-economics/2026/07/07/ai-has-taken-over-the-stock-market-the-bond-market-is-next", "desc": "The Economist (Jul 7). Meta, Nvidia, Oracle, SpaceX and Amazon have each raised tens of billions in AI-linked bonds; Morgan Stanley expects $350-400bn of AI investment-grade issuance in America this year, and the BIS warns some AI projects may not earn enough to repay it."},
+        {"title": "China's semiconductor industry is racing to catch the West's", "url": "https://www.economist.com/business/2026/07/07/chinas-semiconductor-industry-is-racing-to-catch-the-wests", "desc": "The Economist (Jul 7). On China's accelerating push to close the gap in advanced chipmaking that underpins the AI race, and what it means for the global tech supply chain."},
+        {"title": "From Cow-Milking Robots to Weed-Zapping Lasers, Farmers Are Embracing A.I.", "url": "https://www.nytimes.com/2026/06/05/magazine/ai-farms-technology.html", "desc": "NYT (Jun 5). How AI and robotics are moving into agricultural operations, from autonomous milking to laser weeding, reshaping farm labor and productivity."}
+      ]
+    }
+  ],
+  "footnote": "News folder was moved to Desktop this run. Washington Post business/technology surfaced mainly consumer/health AI stories, so nothing from it met the econ/finance/ops filter today. Papers verified against direct source URLs; items already sent on 2026-07-06 were excluded via seen-items.json."
+}

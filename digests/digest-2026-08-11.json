@@ -1,0 +1,131 @@
+{
+ "date": "2026-08-11",
+ "sections": [
+  {
+   "name": "\ud83d\udcca Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Staged Access and Liability for Dual-Use Artificial Intelligence",
+     "url": "https://www.nber.org/papers/w35586",
+     "desc": "Models how regulators should combine staged release of dual-use AI models with developer liability, showing how liability induces more defensive search for flaws after release. [NBER, issued 2026-08-10]"
+    },
+    {
+     "title": "AI Agents and Prompt Engineering in Econometric Coding",
+     "url": "https://www.nber.org/papers/w35588",
+     "desc": "Studies how large language models write econometric code, comparing performance across statistical software, zero- vs few-shot prompting, and degrees of agentic autonomy. [NBER, issued 2026-08-10]"
+    },
+    {
+     "title": "Environmental and Economic Implications of Artificial Intelligence Data Centers in the United States",
+     "url": "https://arxiv.org/abs/2608.09882",
+     "desc": "Uses electricity demand growth, cooling requirements, and backup-system operation to evaluate the environmental and economic impacts of U.S. AI data centers, finding impacts depend on grid context, not just facility design. [arXiv econ.GN, posted 2026-08-10]"
+    },
+    {
+     "title": "Beyond Headcount and Human Capital: The Effective Cognitive Population as a Decomposable Capacity Unit for AI-Era Planning",
+     "url": "https://arxiv.org/abs/2608.09642",
+     "desc": "Proposes an 'Effective Cognitive Population' measure that extends headcount- and human-capital-based national planning to count AI systems as decomposable units of cognitive capacity. [arXiv econ.GN, posted 2026-08-10]"
+    },
+    {
+     "title": "AI and the Research Team",
+     "url": "https://arxiv.org/abs/2608.08437",
+     "desc": "A span-of-control model reconciles why AI is associated with larger research teams overall, yet lets solo mathematicians produce research-grade results: AI lowers execution costs and automates codifiable tasks. [arXiv econ.GN, posted 2026-08-09]"
+    },
+    {
+     "title": "From Product Search to Preference Articulation: The Economics of Agentic Commerce",
+     "url": "https://arxiv.org/abs/2608.08395",
+     "desc": "Compares manual product search with agentic search in which consumers delegate discovery to AI agents that screen broad catalogs through noisy preference representations, deriving implications for digital commerce. [arXiv econ.TH, posted 2026-08-09]"
+    },
+    {
+     "title": "A Fair Objective for Human-Empowerment-Preserving AI: Desiderata, Design, and Likely Behavioral Consequences",
+     "url": "https://arxiv.org/abs/2608.08240",
+     "desc": "Game-theoretic analysis of AI agents explicitly designed to preserve human empowerment and manage the power balance in human-AI interactions. [arXiv econ.TH/cs.GT, posted 2026-08-08]"
+    },
+    {
+     "title": "Reading Copom's Tone: A Weighted LLM Framework for Hawkish-Dovish Sentiment, Forward Guidance, and Uncertainty",
+     "url": "https://arxiv.org/abs/2608.07251",
+     "desc": "An LLM-based NLP framework that classifies sentences of Brazilian central bank (Copom) statements as hawkish, dovish, or neutral to measure policy tone, forward guidance, and uncertainty. [arXiv econ.GN, posted 2026-08-07]"
+    },
+    {
+     "title": "Measuring Concept Content in Text from LLM Activations: ESG Evidence from Concept Vectors and Linear Probes",
+     "url": "https://arxiv.org/abs/2608.07208",
+     "desc": "Moves beyond dictionary and embedding measures of text content by reading concept intensity (e.g., ESG themes) directly from LLM internal activations via concept vectors and linear probes. [arXiv econ.GN cross-list, posted 2026-08-07]"
+    },
+    {
+     "title": "Tabular Foundation Models and the Unity of Economic Behaviour",
+     "url": "https://arxiv.org/abs/2608.06842",
+     "desc": "Runs a unified choice experiment spanning risk, time, losses, valuation, and social preferences, and shows a frozen tabular foundation model can recover a person's hidden choices in one domain from their behaviour in others. [arXiv econ.GN, posted 2026-08-07]"
+    }
+   ]
+  },
+  {
+   "name": "\ud83d\udcb5 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Joint Lyapunov Certificates for K-Agent Generative AI Governance: Stochastic Stability, Emergent Ensemble Risk, and Zero-Knowledge Governance Attestation",
+     "url": "https://arxiv.org/abs/2608.09087",
+     "desc": "Develops a mathematical model-risk-management framework for governing systems of coupled self-adapting generative AI models, with stability certificates and governance attestation. [arXiv q-fin.RM, posted 2026-08-10]"
+    },
+    {
+     "title": "Telemetry and Concealment in Self-Adapting Generative AI: Logging Architecture, Adversarial Model Hiding, and the Limits of Detection",
+     "url": "https://arxiv.org/abs/2608.09069",
+     "desc": "Argues model-risk-management guidance built for static model lifecycles breaks down for continually self-adapting generative AI, and analyzes logging architectures and the limits of detecting adversarial model changes. [arXiv q-fin.RM, posted 2026-08-10]"
+    },
+    {
+     "title": "Hybrid Neural-Classical Correction for Frozen Time Series Foundation Models: A Comprehensive Ablation Study on High-Frequency Stock Prediction",
+     "url": "https://arxiv.org/abs/2608.08825",
+     "desc": "Ablation study showing how hybrid neural-classical correction layers adapt frozen time-series foundation models, which generalize well zero-shot but underperform on high-frequency finance. [arXiv q-fin.ST, posted 2026-08-09]"
+    },
+    {
+     "title": "Can Open-Weight Models Compete on Financial Text Comprehension?",
+     "url": "https://arxiv.org/abs/2608.08634",
+     "desc": "Updates the Financial Touchstone benchmark (2,967 question-context-answer items) to test whether open-weight LLMs from Chinese labs match proprietary frontier models on real-world financial text tasks. [arXiv q-fin.GN, posted 2026-08-09]"
+    }
+   ]
+  },
+  {
+   "name": "\ud83d\udce6 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "The Impact of Manipulated Clinical Decision Support Algorithm on Opioid Prescribing Decision",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2024.07930",
+     "desc": "Management Science study of how a manipulated clinical decision-support algorithm shifts physicians' opioid prescribing decisions, with implications for governing algorithmic advice in healthcare operations. [Management Science, published online 2026-08-10]"
+    },
+    {
+     "title": "Fighting Fire with Fire: Infusing Artificial Intelligence into Peer Review to Sustain Quality Scholarship",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2026.00184",
+     "desc": "Proposes infusing AI into the peer-review process to sustain scholarship quality as AI-assisted submissions grow; published alongside three invited commentaries in the same issue. [Management Science, published online 2026-08-07]"
+    },
+    {
+     "title": "Learning to Simulate from Heavy-Tailed Distribution via Diffusion Model",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2024.1450",
+     "desc": "Develops diffusion-model-based generators for simulating heavy-tailed distributions, extending deep generative AI methods to stochastic simulation in operations research. [Operations Research, published online 2026-08-10]"
+    },
+    {
+     "title": "Certifiable Deep Importance Sampling for Rare-Event Simulation of Black Box Systems",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2021.0699",
+     "desc": "Presents deep-learning-driven importance sampling with certifiable guarantees for rare-event simulation of black-box systems, relevant to risk and reliability analysis in operations. [Operations Research, published online 2026-08-07]"
+    }
+   ]
+  },
+  {
+   "name": "\ud83d\udcf0 News (NYT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Wall St. Wants Another Half-Trillion Dollars for the A.I. Boom",
+     "url": "https://www.nytimes.com/2026/08/10/business/ai-nvidia-lenders-500-billion.html",
+     "desc": "Wall Street lenders are lining up roughly another half-trillion dollars of debt financing for AI infrastructure tied to Nvidia-powered data centers, deepening the financial system's exposure to the AI buildout. [NYT, 2026-08-10]"
+    },
+    {
+     "title": "A.I.-Driven Chip Crunch Leads to New Rush of Lobbying in Washington",
+     "url": "https://www.nytimes.com/2026/08/10/technology/memory-chip-shortage-ai.html",
+     "desc": "An AI-driven memory-chip shortage is rippling through electronics supply chains and has set off a lobbying scramble in Washington over chip allocation. [NYT, 2026-08-10]"
+    },
+    {
+     "title": "Why Meta Is Betting Big on Open A.I.",
+     "url": "https://www.nytimes.com/2026/08/10/business/dealbook/meta-open-ai.html",
+     "desc": "DealBook analysis of the business economics behind Meta's release of an open version of its most powerful AI model and what open-weight strategy means for the AI market. [NYT DealBook, 2026-08-10]"
+    }
+   ]
+  }
+ ],
+ "footnote": "Window: 2026-08-06 (last run) through 2026-08-11. No new in-scope SSRN or M&SOM items were found in this window."
+}

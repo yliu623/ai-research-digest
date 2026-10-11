@@ -1,0 +1,81 @@
+{
+  "date": "2026-07-24",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "Generative AI Availability, Grades, and Student Satisfaction at a Large University",
+          "url": "https://arxiv.org/abs/2607.21534",
+          "desc": "Tests the \"GenAI substitution hypothesis\" that students offload cognitive effort to generative AI to earn higher grades without learning, using grade and satisfaction data from a large university. [arXiv econ.GN, posted 2026-07-23]"
+        },
+        {
+          "title": "The Evolution of Digital Search: From Blue Links to Delegated Decision-Making",
+          "url": "https://arxiv.org/abs/2607.21459",
+          "desc": "Argues digital search is shifting from a human-driven process of discovery toward an agent-mediated system of delegated decision-making, and considers the economic implications. [arXiv econ.GN, posted 2026-07-23]"
+        },
+        {
+          "title": "pAI-Econ-claude: A Gated Human-in-the-Loop Multi-Agent Architecture for AI-Assisted Economic Theory Development",
+          "url": "https://arxiv.org/abs/2607.21268",
+          "desc": "Proposes an LLM-based, human-in-the-loop multi-agent architecture for economic-theory tasks where no cheap, machine-readable correctness signal exists. [arXiv econ.GN / cs.MA, posted 2026-07-23]"
+        },
+        {
+          "title": "Execution and Evaluation: A New Occupational Measure and Long-Run Employment Gradients",
+          "url": "https://arxiv.org/abs/2607.20807",
+          "desc": "Argues AI automates execution (producing output) more readily than evaluation (judging whether it is correct), and builds an occupational measure to study long-run employment gradients. [arXiv econ.GN, posted 2026-07-23]"
+        },
+        {
+          "title": "The Human-AI Substitution Principle: When will you be replaced by AI in your organization?",
+          "url": "https://arxiv.org/abs/2607.20781",
+          "desc": "Presents an analytical model for when a human employee will be substituted by AI within an organization, and the economic conditions that drive it. [arXiv econ.GN / cs.AI, posted 2026-07-22]"
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "Portfolio Optimization under Dynamic Rebalancing via Topological Data Analysis and News Sentiments",
+          "url": "https://arxiv.org/abs/2607.21170",
+          "desc": "Proposes a sentiment-adjusted portfolio optimization framework that integrates topological data analysis with technical indicators and FinBERT-based sentiment scores from financial news. [arXiv q-fin.PM, posted 2026-07-23]"
+        },
+        {
+          "title": "Quantum Kernels and the Cross-Section of Stock Returns: Anatomy of a Vanishing Advantage",
+          "url": "https://arxiv.org/abs/2607.20168",
+          "desc": "Runs a controlled horse race testing whether quantum machine-learning kernels beat a classical RBF kernel for cross-sectional stock-return prediction on the Chinese A-share market. [arXiv q-fin.PR / stat.ML, posted 2026-07-22]"
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": [
+        {
+          "title": "Group boarding for airplanes: benchmarking static policies and optimizing dynamic assignment with deep reinforcement learning",
+          "url": "https://arxiv.org/abs/2607.21512",
+          "desc": "Uses deep reinforcement learning to optimize dynamic airplane boarding-group assignment, benchmarked against static seat-based rules to reduce turnaround time and improve passenger experience. [arXiv econ.GN, posted 2026-07-23]"
+        }
+      ]
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "Can China dominate AI exports, too?",
+          "url": "https://www.economist.com/finance-and-economics/2026/07/23/can-china-dominate-ai-exports-too",
+          "desc": "Examines whether China can extend its manufacturing-export dominance into AI and what that would mean for the global economy. [Economist, 2026-07-23]"
+        },
+        {
+          "title": "Could A.I. Do Your Job? We Put Agents to the Test.",
+          "url": "https://www.nytimes.com/interactive/2026/07/23/technology/ai-agents-office-jobs.html",
+          "desc": "An interactive test of how well current AI agents handle real office-job tasks, probing the labor-market stakes of automation. [NYT, 2026-07-23]"
+        },
+        {
+          "title": "As China advances in AI, Trump faces a new test in the technology race",
+          "url": "https://www.washingtonpost.com/technology/2026/07/22/china-advances-ai-trump-faces-new-test-technology-race/",
+          "desc": "A wave of new Chinese AI model releases is testing Washington's regulatory and trade approach in the US-China technology race. [Washington Post, 2026-07-22]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: last run 2026-07-22 → now (2026-07-24). INFORMS (Management Science, M&SOM, Operations Research), NBER, and SSRN had no new AI-focused items in this window; the sole Operations item is from arXiv. Sources verified for posting date."
+}

@@ -1,0 +1,11 @@
+{"date":"2026-07-17","sections":[
+  {"name":"📊 Economics (NBER / SSRN / arXiv)","items":[]},
+  {"name":"💵 Finance (SSRN / NBER / arXiv q-fin)","items":[]},
+  {"name":"📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)","items":[]},
+  {"name":"📰 News (NYT / Washington Post / Economist)","items":[
+    {"title":"How SK Hynix became the king of advanced memory chips","url":"https://www.economist.com/business/2026/07/16/how-sk-hynix-became-the-king-of-advanced-memory-chips","desc":"The Economist charts SK Hynix's rise from near-bankruptcy in the early 2000s to a memory-chip powerhouse rivaling Samsung, propelled by surging AI demand for high-bandwidth memory (HBM). [Economist, posted 2026-07-16]"},
+    {"title":"China's Leader Pitches 'Openness' in Push to Shape A.I.'s Future","url":"https://www.nytimes.com/2026/07/17/business/xi-jinping-china-ai.html","desc":"Xi Jinping called AI development a 'symphony of global collaboration,' positioning China as a champion of openness as Beijing works to shape the technology's global rules and standards. [NYT, posted 2026-07-17]"},
+    {"title":"India Is Moving Fast to Build A.I. Data Centers. A Coastal City May Pay the Price.","url":"https://www.nytimes.com/2026/07/16/world/asia/india-ai-data-centers-google.html","desc":"With India lagging in AI, officials are courting giant data centers, but critics warn the megaprojects will consume scarce energy and water while creating few long-term jobs. [NYT, posted 2026-07-16]"},
+    {"title":"The Quest for 'Technological Sovereignty' in Europe (and Why It's So Hard)","url":"https://www.nytimes.com/2026/07/16/world/europe/digital-autonomy-ai.html","desc":"France and Germany want to reduce reliance on American and Chinese technology like AI, but are confronting hard trade-offs over where and how to build independent capacity. [NYT, posted 2026-07-16]"}
+  ]}
+],"footnote":"Window: last run 2026-07-16 through 2026-07-17. arXiv (econ.*/q-fin.*) matches this window were already sent in the 07-16 digest; no new NBER (no Monday issue), SSRN, or INFORMS AI items in economics/finance/operations were found. Papers sections intentionally empty."}

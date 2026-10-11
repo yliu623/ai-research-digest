@@ -1,0 +1,66 @@
+{
+ "date": "2026-08-07",
+ "sections": [
+  {
+   "name": "\ud83d\udcca Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Large-Market Discipline in Combinatorial Double Auctions: No Assembly, Bundle Selection, and Complementarities",
+     "url": "https://arxiv.org/abs/2608.06134",
+     "desc": "Designs combinatorial buyer's-bid double auctions for markets in AI assets \u2014 data, model weights, and fine-tuned models \u2014 where a \"No Assembly\" constraint prevents platforms from combining components supplied by different sellers, and establishes large-market incentive discipline. [arXiv econ.GN, posted 2026-08-06]"
+    },
+    {
+     "title": "The Institutional Window: Occupation- and Jurisdiction-Specific Calibration of Liability Signaling for Preserved Human Fallback Capability",
+     "url": "https://arxiv.org/abs/2608.05969",
+     "desc": "Models how generative AI collapses the classical cost-based quality signal in expert services, leaving outcome-contingent liability commitments as the only way for competent providers to separate themselves \u2014 and studies how such commitments certify a perishable human fallback capability. [arXiv econ.TH, posted 2026-08-06]"
+    }
+   ]
+  },
+  {
+   "name": "\ud83d\udcb5 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Cross-Sectional Heterogeneity in LSTM Networks for Financial Time Series",
+     "url": "https://arxiv.org/abs/2608.05755",
+     "desc": "Studies how cross-sectional heterogeneity across assets limits standard LSTM architectures for return prediction in low signal-to-noise financial time series, and proposes accounting for it explicitly. [arXiv q-fin.ST, posted 2026-08-06]"
+    },
+    {
+     "title": "Counterfactual Analysis via Large Language Models",
+     "url": "https://arxiv.org/abs/2608.05367",
+     "desc": "Investigates LLMs (GPT-3.5) for counterfactual analysis in online lending, predicting counterfactual return on investment under hypothetical scenarios to support lending decisions. [arXiv cs.AI / q-fin.GN, posted 2026-08-05]"
+    }
+   ]
+  },
+  {
+   "name": "\ud83d\udce6 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "Online Resource Allocation with Convex-Set Machine-Learned Advice",
+     "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2023.0338",
+     "desc": "Golrezaei, Jaillet, and Zhou propose a framework that uses machine-learned demand predictions (\"advice\") represented as convex sets to improve online resource-allocation decisions while staying robust to prediction inaccuracy. [Operations Research, published online 2026-08-06]"
+    }
+   ]
+  },
+  {
+   "name": "\ud83d\udcf0 News (NYT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Why AI is a risk to Communist China",
+     "url": "https://www.economist.com/leaders/2026/08/06/why-ai-is-a-risk-to-communist-china",
+     "desc": "Cover leader arguing China is adopting AI fast but is less well placed to benefit than many assume: autocracy brings some advantages in diffusing AI through the economy, but also serious economic and social problems. [Economist, 2026-08-06]"
+    },
+    {
+     "title": "How AI is breaking the British state",
+     "url": "https://www.economist.com/leaders/2026/08/06/how-ai-is-breaking-the-british-state",
+     "desc": "On \"agentic flooding\": citizens armed with AI models and agents are inundating bureaucracies with claims, objections, and appeals \u2014 employment-tribunal backlogs up 55% in a year \u2014 threatening to overwhelm government operations built for the age of post and telephone. [Economist, 2026-08-06]"
+    },
+    {
+     "title": "What's Behind the A.I. Shake-Up at Google",
+     "url": "https://www.nytimes.com/2026/08/06/business/dealbook/hassabis-google-ai.html",
+     "desc": "DealBook on Google's AI leadership reshuffle: Demis Hassabis becomes Alphabet chief scientist and DeepMind chair, Koray Kavukcuoglu takes over day-to-day DeepMind management, and Jeff Dean leaves to found a startup \u2014 amid investor anxiety over roughly $200 billion in AI capex and lagging models. [NYT, 2026-08-06]"
+    }
+   ]
+  }
+ ],
+ "footnote": "Window: 2026-08-06 (last run) through 2026-08-07 09:40 ET. NBER, SSRN, Management Science, and M&SOM had no new in-window AI items; WaPo had no in-window AI-economics items."
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-16",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": []
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": []
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": [
+        {
+          "title": "Separation of Nonergodic Uniform Convergence Rates for Regularized Learning in Games",
+          "url": "https://pubsonline.informs.org/doi/abs/10.1287/opre.2025.2166",
+          "desc": "Studies last-iterate, random-iterate and best-iterate convergence of optimistic follow-the-regularized-leader learning dynamics (including optimistic multiplicative weights update) in two-player zero-sum games, proving a separation between these notions and that OFTRL cannot attain uniform last-iterate rates. Relevant to the no-regret learning algorithms that underpin modern AI equilibrium-finding and multi-agent decision systems. [Operations Research, published online 2026-08-14]"
+        }
+      ]
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "With A.I. Riches at Stake, Pressures Mount to Share the Wealth",
+          "url": "https://www.nytimes.com/2026/08/16/business/ai-data-centers.html",
+          "desc": "State and local policymakers are increasingly trying to capture a share of the AI data-center boom, with Virginia becoming the first state to levy a tax on data centers' electricity consumption. The piece surveys the fiscal and political bargaining over who benefits from AI infrastructure buildout. [NYT, posted 2026-08-16]"
+        },
+        {
+          "title": "Tech Giants' Profits Reveal Potential Vulnerability in the Stock Market",
+          "url": "https://www.nytimes.com/2026/08/14/business/ai-tech-profits.html",
+          "desc": "A growing share of Alphabet's and Amazon's reported profits comes from mark-ups on their equity stakes in AI startups rather than core operations, tightening the circular financial linkages across the AI sector. Raises questions about earnings quality and concentration risk in an AI-led market. [NYT, posted 2026-08-14]"
+        },
+        {
+          "title": "The Markets Have Been on a Roll. Is It Time to Hedge Your Bets?",
+          "url": "https://www.nytimes.com/2026/08/14/business/stock-market-ai-bonds-rally.html",
+          "desc": "Markets columnist Jeff Sommer notes the S&P 500 is on track for a rare fourth straight year of double-digit gains, driven by AI enthusiasm, and draws parallels to the late-1990s internet boom. Argues risks are rising even as Wall Street doubles down. [NYT, posted 2026-08-14]"
+        }
+      ]
+    }
+  ],
+  "footnote": "Window: 2026-08-14 (last run) through 2026-08-16. arXiv's export index had no submissions past 2026-08-13, and all in-window AI papers in econ.* / q-fin.* were already sent in a prior digest; the only genuinely new arXiv items were pure economic-theory papers with no AI content. NBER's newest AI working papers (w35574, w35586, w35588, w35559) were all previously sent. Management Science and M&SOM had no AI articles published online in the window. SSRN could not be searched this run — its search endpoint returned a bot-check page and then a 404, so SSRN coverage is missing for this window. The Economist published nothing dated on or after 2026-08-14; Washington Post business/technology items in the window were not about AI in economics, finance, or operations."
+}

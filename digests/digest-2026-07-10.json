@@ -1,0 +1,116 @@
+{
+  "date": "2026-07-10",
+  "sections": [
+    {
+      "name": "📊 Economics (NBER / SSRN / arXiv)",
+      "items": [
+        {
+          "title": "A.I. and Our Economic Future (Charles I. Jones, NBER w34779)",
+          "url": "https://www.nber.org/papers/w34779",
+          "desc": "Revised June 2026. Frames scenarios for how AI — likely the most transformative technology of the modern era — could reshape economic growth, wages, and welfare, from modest productivity gains to transformative change."
+        },
+        {
+          "title": "Understanding Firms' AI Efforts and Their Economic Impact (Tania Babina, NBER w35123)",
+          "url": "https://www.nber.org/papers/w35123",
+          "desc": "Reviews firm-level datasets measuring AI adoption and shows that measurement is central: different AI datasets can lead to materially different conclusions about AI's economic impact."
+        },
+        {
+          "title": "The Urban-Rural Divide in the Age of Artificial Intelligence (arXiv econ.GN)",
+          "url": "https://arxiv.org/abs/2606.22833",
+          "desc": "Distinguishes automation exposure (concentrated in routine work) from AI exposure (concentrated in cognitive work) and assesses their diverging effects on regional labor markets."
+        },
+        {
+          "title": "Some Simple Economics of AGI (arXiv)",
+          "url": "https://arxiv.org/abs/2602.20946",
+          "desc": "A simple framework for how artificial general intelligence would affect output growth, the labor share, and wages."
+        },
+        {
+          "title": "Measuring What Cannot Be Surveyed: LLMs as Instruments for Latent Cognitive Variables in Labor Economics (arXiv)",
+          "url": "https://arxiv.org/abs/2604.02403",
+          "desc": "Proposes using large language models to measure latent cognitive variables in labor economics that traditional surveys cannot capture."
+        }
+      ]
+    },
+    {
+      "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+      "items": [
+        {
+          "title": "Large Language Models for Asset Pricing: Learning from Earnings Calls (Zhang & Zhou, SSRN)",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6712298",
+          "desc": "Posted May 2026. Applies LLMs to earnings-call transcripts to extract pricing-relevant signals for the cross-section of stock returns."
+        },
+        {
+          "title": "Option Return Predictability via Large Language Models (Liu et al., SSRN)",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6534498",
+          "desc": "Posted April 2026. Shows LLM-extracted textual information predicts option returns."
+        },
+        {
+          "title": "Large Language Models and Stock Investing: Is the Human Factor Required? (SSRN)",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6446182",
+          "desc": "Evaluates ChatGPT, Gemini, DeepSeek, and Perplexity stock recommendations across prompting strategies: LLMs show recurring reasoning failures, but with human guidance and oversight can outperform the market."
+        },
+        {
+          "title": "QRAFTI: An Agentic Framework for Empirical Research in Quantitative Finance (arXiv)",
+          "url": "https://arxiv.org/abs/2604.18500",
+          "desc": "An agentic LLM framework that automates empirical research workflows in quantitative finance."
+        },
+        {
+          "title": "Large Language Models and Generative Factor Discovery in Crypto Markets (SSRN)",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6153610",
+          "desc": "Uses LLMs to generate and discover pricing factors in cryptocurrency markets."
+        }
+      ]
+    },
+    {
+      "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+      "items": [
+        {
+          "title": "OM Forum — Supply Chain Management in the AI Era: A Vision Statement from the Operations Management Community (M&SOM)",
+          "url": "https://pubsonline.informs.org/doi/10.1287/msom.2025.1065",
+          "desc": "42 OM researchers, practitioners, and technology leaders outline how to combine the structural properties of OM models with machine learning, reinforcement learning, and LLMs across supply chains."
+        },
+        {
+          "title": "Artificial Intelligence, Emotional Labor, and Service Operations (M&SOM)",
+          "url": "https://pubsonline.informs.org/doi/10.1287/msom.2024.1459",
+          "desc": "Examines how AI adoption reshapes emotional labor and worker-customer interactions in service operations."
+        },
+        {
+          "title": "Large Language Model in Creative Work: The Role of Collaboration Modality and User Expertise (Management Science)",
+          "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2023.03014",
+          "desc": "Published January 2026. Shows how the mode of human-LLM collaboration and the user's expertise level jointly determine the quality of LLM-assisted creative work."
+        },
+        {
+          "title": "Dynamics of Cognitive Heterogeneity: Investigating Behavioral Biases in Multi-Stage Supply Chains with LLM-Based Simulation (arXiv)",
+          "url": "https://arxiv.org/abs/2604.17220",
+          "desc": "Uses LLM-based agents to simulate how heterogeneous behavioral biases propagate through multi-stage supply chains."
+        }
+      ]
+    },
+    {
+      "name": "📰 News (NYT / Washington Post / Economist)",
+      "items": [
+        {
+          "title": "A $3.2 Trillion Deal-Making Frenzy Is Spurred by the A.I. Economy (NYT, Jul 9)",
+          "url": "https://www.nytimes.com/2026/07/09/business/ai-boom-corporate-deals.html",
+          "desc": "Global deal-making hit ~$3.2T in H1 2026 — up 45% and the biggest half-year in a decade — driven by AI bets, mega-mergers (NextEra-Dominion, SpaceX-Cursor), and AI-linked IPOs; questions remain over whether demand justifies the spend."
+        },
+        {
+          "title": "AI has taken over the stock market. The bond market is next (The Economist, Jul 7)",
+          "url": "https://www.economist.com/finance-and-economics/2026/07/07/ai-has-taken-over-the-stock-market-the-bond-market-is-next",
+          "desc": "Hyperscalers are funding AI with record bond issuance — Morgan Stanley expects $350-400B of AI-related investment-grade issuance in 2026 — while the BIS warns AI projects may not earn enough to repay the debt."
+        },
+        {
+          "title": "China may struggle to fund Xi Jinping's tech dreams (The Economist, Jul 9)",
+          "url": "https://www.economist.com/finance-and-economics/2026/07/09/china-may-struggle-to-fund-xi-jinpings-tech-dreams",
+          "desc": "Despite a capital-markets comeback, China faces obstacles financing its state-led technology and AI ambitions."
+        },
+        {
+          "title": "From Cow-Milking Robots to Weed-Zapping Lasers, Farmers Are Embracing A.I. (NYT)",
+          "url": "https://www.nytimes.com/2026/06/05/magazine/ai-farms-technology.html",
+          "desc": "How AI-driven robotics and automation are transforming agricultural operations, from dairy barns to weed control."
+        }
+      ]
+    }
+  ],
+  "footnote": "Note: the Downloads/news folder was not accessible this run, so dedup history was unavailable (treated as empty) and the styled-PDF generator could not be run. Washington Post had no on-topic AI econ/finance/ops stories today."
+}
