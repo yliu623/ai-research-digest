@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Turn each recent digest's `briefing` script into a two-voice MP3 and attach it to a GitHub Release.
+"""Turn recent digests' audio scripts into two-voice MP3s attached to a GitHub Release per day.
 
 Runs in GitHub Actions (needs GEMINI_API_KEY, GH_TOKEN, ffmpeg and gh on PATH).
 Usage: python3 scripts/make_audio.py [--days 3] [--force DATE]
 
-For every digest dated within the last N days that has a briefing and no `audio-<date>` release yet:
-  briefing lines -> Gemini TTS (Interactions API, 2 speakers) in chunks -> PCM -> ffmpeg MP3 -> gh release.
+Release `audio-<date>` holds `briefing-<date>.mp3` (the daily briefing) and `p-<id>.mp3` per paper that has a
+`podcast` script (id = history.audio_id(url)). Only missing files are made; a Gemini quota error stops the run
+cleanly and the next run (push or the daily schedule) continues.
 """
 import argparse
 import base64
@@ -22,12 +23,15 @@ import urllib.error
 import urllib.request
 import wave
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from history import audio_id  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/interactions"
 MODEL = os.environ.get("GEMINI_TTS_MODEL", "gemini-3.8-flash-tts")
 SPEAKERS = {"A": ("Alex", os.environ.get("VOICE_A", "Puck")),
             "B": ("Sam", os.environ.get("VOICE_B", "Kore"))}
-CHUNK_WORDS = 320  # keep each request short; turns are never split
+CHUNK_WORDS = 450  # paper explainers fit in one request; turns are never split
 
 
 def find_audio(obj):
@@ -96,62 +100,103 @@ def chunks(lines):
         yield cur
 
 
-def release_exists(tag):
-    return subprocess.run(["gh", "release", "view", tag], capture_output=True).returncode == 0
+def release_assets(tag):
+    """Asset names of the day's release, or None if it doesn't exist yet."""
+    r = subprocess.run(["gh", "release", "view", tag, "--json", "assets", "-q", ".assets[].name"],
+                       capture_output=True, text=True)
+    return set(r.stdout.split()) if r.returncode == 0 else None
 
 
-def make(date, lines, key):
+class QuotaExhausted(Exception):
+    pass
+
+
+def synth(lines, key, out_path, title):
     pcm, rate = b"", 24000
-    for i, ch in enumerate(chunks(lines)):
-        data, rate = tts_chunk(ch, key)
+    for ch in chunks(lines):
+        try:
+            data, rate = tts_chunk(ch, key)
+        except RuntimeError as e:
+            if "HTTP 429" in str(e):
+                raise QuotaExhausted(str(e)) from None
+            raise
         pcm += data + b"\x00\x00" * int(rate * 0.35)  # short pause between chunks
-        print(f"  chunk {i + 1}: {len(ch)} turns", flush=True)
-    tmp = tempfile.mkdtemp()
-    wav_path = os.path.join(tmp, "briefing.wav")
-    mp3_path = os.path.join(tmp, f"briefing-{date}.mp3")
+    wav_path = out_path[:-4] + ".wav"
     with wave.open(wav_path, "wb") as w:
         w.setnchannels(1)
         w.setsampwidth(2)
         w.setframerate(rate)
         w.writeframes(pcm)
-    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", wav_path, "-ac", "1", "-b:a", "48k",
-                    "-metadata", f"title=AI Research Digest briefing {date}", mp3_path], check=True)
-    secs = len(pcm) / 2 / rate
-    subprocess.run(["gh", "release", "create", f"audio-{date}", mp3_path,
-                    "--title", f"Audio briefing {date}",
-                    "--notes", f"Two-voice audio briefing for the {date} AI Research Digest ({secs / 60:.1f} min)."],
-                   check=True)
-    print(f"  released audio-{date} ({secs / 60:.1f} min, {os.path.getsize(mp3_path) / 1e6:.1f} MB)")
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", wav_path, "-ac", "1", "-b:a", "40k",
+                    "-metadata", f"title={title}", out_path], check=True)
+    os.remove(wav_path)
+    return len(pcm) / 2 / rate
+
+
+def jobs_for(d):
+    """(asset name, script lines, title) for the briefing and every paper explainer in a digest."""
+    out = []
+    lines = [ln for ln in d.get("briefing") or [] if ln.get("speaker") in SPEAKERS and ln.get("text")]
+    if lines:
+        out.append((f"briefing-{d['date']}.mp3", lines, f"AI Research Digest briefing {d['date']}"))
+    for s in d["sections"]:
+        for it in s["items"]:
+            pod = [ln for ln in it.get("podcast") or [] if ln.get("speaker") in SPEAKERS and ln.get("text")]
+            if pod:
+                out.append((f"p-{audio_id(it['url'])}.mp3", pod, it["title"][:120]))
+    return out
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=3)
-    ap.add_argument("--force", default="", help="regenerate this date even if a release exists")
+    ap.add_argument("--force", default="", help="regenerate all audio for this date")
+    ap.add_argument("--max", type=int, default=40, help="max files to generate this run")
     a = ap.parse_args()
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         print("GEMINI_API_KEY not set; skipping audio")
         return
     cutoff = dt.date.today() - dt.timedelta(days=a.days)
-    failures = 0
-    for path in sorted(glob.glob(os.path.join(ROOT, "digests", "digest-*.json"))):
+    made = failures = 0
+    tmp = tempfile.mkdtemp()
+    for path in sorted(glob.glob(os.path.join(ROOT, "digests", "digest-*.json")), reverse=True):
         with open(path) as f:
             d = json.load(f)
-        date = d["date"]
-        lines = [ln for ln in d.get("briefing") or [] if ln.get("speaker") in SPEAKERS and ln.get("text")]
-        if not lines or (dt.date.fromisoformat(date) < cutoff and date != a.force):
+        date, tag = d["date"], f"audio-{d['date']}"
+        if dt.date.fromisoformat(date) < cutoff and date != a.force:
             continue
-        if release_exists(f"audio-{date}"):
-            if date != a.force:
+        have = release_assets(tag)
+        if date == a.force and have is not None:
+            subprocess.run(["gh", "release", "delete", tag, "--yes", "--cleanup-tag"], check=True)
+            have = None
+        todo = [j for j in jobs_for(d) if have is None or j[0] not in have]
+        if todo:
+            print(f"{date}: {len(todo)} audio file(s) to make", flush=True)
+        for name, lines, title in todo:
+            if made >= a.max:
+                print(f"reached --max {a.max}; the rest will be made on the next run")
+                return
+            out = os.path.join(tmp, name)
+            try:
+                secs = synth(lines, key, out, title)
+            except QuotaExhausted as e:
+                print(f"Gemini quota reached ({e}); the rest will be made on the next run")
+                return
+            except Exception as e:  # noqa: BLE001
+                failures += 1
+                print(f"  FAILED {name}: {e}", file=sys.stderr)
                 continue
-            subprocess.run(["gh", "release", "delete", f"audio-{date}", "--yes", "--cleanup-tag"], check=True)
-        print(f"{date}: {len(lines)} turns", flush=True)
-        try:
-            make(date, lines, key)
-        except Exception as e:  # noqa: BLE001
-            failures += 1
-            print(f"  FAILED: {e}", file=sys.stderr)
+            if have is None:
+                subprocess.run(["gh", "release", "create", tag, out, "--title", f"Audio {date}",
+                                "--notes", f"Audio for the {date} AI Research Digest: the daily briefing and "
+                                           f"short explainers for individual papers."], check=True)
+                have = set()
+            else:
+                subprocess.run(["gh", "release", "upload", tag, out, "--clobber"], check=True)
+            have.add(name)
+            made += 1
+            print(f"  {name}: {secs / 60:.1f} min, {os.path.getsize(out) / 1e6:.1f} MB", flush=True)
     if failures:
         sys.exit(1)
 

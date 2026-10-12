@@ -10,6 +10,9 @@ import os
 import re
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from history import audio_id  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INK = "#1a1a1a"
 MUTED = "#6b7280"
@@ -46,6 +49,8 @@ def build_text(d, day_url):
             out.append(f"  {body} [{tag}]" if tag else f"  {body}")
             if it.get("fulltext") and it["fulltext"] != it["url"]:
                 out.append(f"  Full text: {it['fulltext']}")
+            if it.get("podcast"):
+                out.append(f"  Listen (~2 min): {day_url.split('#')[0]}#p-{audio_id(it['url'])}")
             out.append("")
     if d.get("footnote"):
         out += ["—", d["footnote"]]
@@ -54,6 +59,7 @@ def build_text(d, day_url):
 
 def build_html(d, day_url):
     e = html.escape
+    site = day_url.split("#")[0]
     p = [f'<div style="font-family:-apple-system,BlinkMacSystemFont,\'Segoe UI\',Roboto,Helvetica,Arial,sans-serif;'
          f'color:{INK};max-width:720px;margin:0 auto;padding:8px 4px;line-height:1.5;">',
          f'<h1 style="font-size:22px;margin:0 0 4px;color:{INK};">🗞️ Daily AI Research Digest</h1>',
@@ -86,6 +92,10 @@ def build_html(d, day_url):
             body, tag = split_tag(it["desc"])
             ft = it.get("fulltext")
             full = f' · <a href="{e(ft, quote=True)}" style="color:{MUTED}">Full text</a>' if ft and ft != it["url"] else ""
+            if it.get("podcast"):
+                listen = f"{site}#p-{audio_id(it['url'])}"
+                full += f' · <a href="{e(listen, quote=True)}" style="color:{ACCENT};font-weight:600">▶ Listen (~2 min)</a>'
+
             p.append(f'<p style="margin:0 0 14px;font-size:14px;color:#333">'
                      f'<a href="{e(it["url"], quote=True)}" style="color:{ACCENT};font-weight:700;font-size:15px;'
                      f'text-decoration:none">{e(it["title"])}</a><br>{e(body)}<br>'

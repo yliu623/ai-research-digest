@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
     paths: ["digests/**", "site/**", "scripts/**", "config.json", ".github/workflows/site.yml"]
+  schedule:
+    - cron: "30 13 * * *"   # daily retry for audio the Gemini quota held back (8:30am Chicago in summer)
   workflow_dispatch:
     inputs:
       force_audio:
@@ -32,19 +34,20 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate audio briefings
+      - name: Generate audio (daily briefing + paper explainers)
         if: ${{ env.GEMINI_API_KEY != '' }}
         continue-on-error: true
         run: |
           command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
           python3 scripts/make_audio.py --days 3 --force "${{ github.event.inputs.force_audio }}"
 
-      - name: Download the last 30 days of audio
+      - name: Download the last 14 days of audio
         run: |
-          gh release list --limit 500 --json tagName > releases.json
+          gh api "repos/${{ github.repository }}/releases" --paginate \
+            --jq '[.[] | {tag: .tag_name, assets: [.assets[].name]}]' | jq -s 'add // []' > releases.json
           mkdir -p _site/audio
-          cutoff=$(date -u -d '30 days ago' +%F)
-          for t in $(jq -r '.[].tagName' releases.json | grep '^audio-' || true); do
+          cutoff=$(date -u -d '14 days ago' +%F)
+          for t in $(jq -r '.[].tag' releases.json | grep '^audio-' || true); do
             d=${t#audio-}
             if [[ ! "$d" < "$cutoff" ]]; then
               gh release download "$t" -p '*.mp3' -D _site/audio --clobber

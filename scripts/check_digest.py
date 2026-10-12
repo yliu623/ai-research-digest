@@ -66,11 +66,25 @@ def main():
     for i, line in enumerate(d.get("briefing") or []):
         if line.get("speaker") not in ("A", "B") or not line.get("text"):
             errs.append(f"briefing line {i} malformed")
+    pods = 0
+    for s in d["sections"]:
+        for it in s["items"]:
+            pod = it.get("podcast")
+            if pod is None:
+                continue
+            pods += 1
+            if s["name"].startswith("📰"):
+                errs.append(f"news items don't get podcasts: {it['title'][:60]}")
+            words = sum(len(x.get("text", "").split()) for x in pod)
+            if any(x.get("speaker") not in ("A", "B") or not x.get("text") for x in pod):
+                errs.append(f"podcast malformed: {it['title'][:60]}")
+            elif not 150 <= words <= 600:
+                errs.append(f"podcast {words} words (want ~200-450): {it['title'][:60]}")
     if errs:
         print("FAIL\n  " + "\n  ".join(errs))
         sys.exit(1)
     words = sum(len(x["text"].split()) for x in d.get("briefing") or [])
-    print(f"OK: {n} items, briefing {words} words, window {since}..{until}")
+    print(f"OK: {n} items, {pods} paper podcasts, briefing {words} words, window {since}..{until}")
 
 
 if __name__ == "__main__":

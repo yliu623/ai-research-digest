@@ -9,7 +9,41 @@
      "url": "https://arxiv.org/abs/2610.12917",
      "fulltext": "https://arxiv.org/pdf/2610.12917",
      "date": "2026-10-09",
-     "desc": "Models a retailer choosing a catalog when an AI shopping assistant forms the customer's shortlist, estimating Plackett-Luce ranking models from product rankings produced by leading AI models. Ignoring AI mediation costs 2.52% to 11.37% of revenue in simulations, while a simple deterministic plug-in loses at most 0.53%. [arXiv cs.AI, submitted 2026-10-09]"
+     "desc": "Models a retailer choosing a catalog when an AI shopping assistant forms the customer's shortlist, estimating Plackett-Luce ranking models from product rankings produced by leading AI models. Ignoring AI mediation costs 2.52% to 11.37% of revenue in simulations, while a simple deterministic plug-in loses at most 0.53%. [arXiv cs.AI, submitted 2026-10-09]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Sam, here's a shift retailers are only starting to reckon with. A consumer survey cited in this paper finds that 58 percent of shoppers across 12 countries now use generative artificial intelligence tools for product recommendations, up from 25 percent in 2023."
+      },
+      {
+       "speaker": "B",
+       "text": "And that matters because the retailer no longer controls what the customer actually sees. The store picks a catalog, but an AI assistant filters it down to a shortlist, and its ranking needn't match the retailer's revenue goals. So what does that cost, and how should a retailer choose its assortment?"
+      },
+      {
+       "speaker": "A",
+       "text": "The authors, from Cornell Tech, model it in three steps. The retailer picks a catalog, the AI ranks it and shows only its top few products, and the customer either buys from that shortlist or walks away. They try two versions of the AI: a deterministic one with a fixed ranking for each customer segment, and a random one that follows the Plackett-Luce ranking model."
+      },
+      {
+       "speaker": "B",
+       "text": "And they didn't just assume how the AI behaves. They generated 32,400 ranked recommendation lists by prompting models from OpenAI, Anthropic and Google with real product listings, things like Lightning chargers and robot vacuums, fitted ranking models, and tested them on product sets held out from estimation."
+      },
+      {
+       "speaker": "A",
+       "text": "Then they paired those fitted rankings with synthetic customer preferences. The headline: ignoring the AI layer is expensive. Across the display-capacity setups they tested, average revenue losses ranged from 2.52 percent to 11.37 percent compared with the best assortment under the random ranking model."
+      },
+      {
+       "speaker": "B",
+       "text": "What surprised me is the shortcut. Just take the order of the fitted AI scores, treat it as a fixed ranking, and optimize around that, and the average loss is at most 0.53 percent. Accounting for the AI also pushes retailers toward smaller catalogs on average, sometimes small enough that every product gets shown and the filtering never kicks in."
+      },
+      {
+       "speaker": "A",
+       "text": "On the theory side, they show the deterministic problem has an efficient near-optimal algorithm, a fully polynomial-time approximation scheme, for any fixed number of customer segments. Caveats, Sam?"
+      },
+      {
+       "speaker": "B",
+       "text": "The customer preferences are synthetic, so it's a semi-synthetic study, and the approximation guarantee covers only the deterministic model. Takeaway: when an AI picks the shortlist, plan your catalog around it, and a simple fixed-ranking approximation gets you nearly all the way there."
+      }
+     ]
     }
    ]
   },
@@ -21,28 +55,168 @@
      "url": "https://arxiv.org/abs/2610.13126",
      "fulltext": "https://arxiv.org/pdf/2610.13126",
      "date": "2026-10-09",
-     "desc": "Trains a supervised MLP on ex-post optimal exit labels and uses it to initialize reinforcement-learning actors for option exit timing. Over 2024-2026 out-of-sample, MLP-initialized Actor-Critic averages 37.54% cumulative return and a 1.705 Sharpe ratio, versus 0.18% return for Actor-Critic trained from scratch. [arXiv q-fin.TR, submitted 2026-10-09]"
+     "desc": "Trains a supervised MLP on ex-post optimal exit labels and uses it to initialize reinforcement-learning actors for option exit timing. Over 2024-2026 out-of-sample, MLP-initialized Actor-Critic averages 37.54% cumulative return and a 1.705 Sharpe ratio, versus 0.18% return for Actor-Critic trained from scratch. [arXiv q-fin.TR, submitted 2026-10-09]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Here's a trading question that sounds simple but isn't: when should you get out? This paper looks at short straddles on S and P 500 index options."
+      },
+      {
+       "speaker": "B",
+       "text": "Quick refresher. A short straddle means selling a call and a put with the same strike and expiration. You collect premium up front and profit if the index stays near the strike, harvesting what's called the variance risk premium, since implied volatility tends to exceed what's later realized. The catch is lopsided risk: frequent small gains, and big losses when markets move sharply."
+      },
+      {
+       "speaker": "A",
+       "text": "So exit timing matters. Hold too long and you're exposed to tail losses; exit too early and you leave premium on the table. The authors, from Nanyang Technological University and the University of Warsaw, use two stages. First, they look back at historical trades and find the best feasible exit time with hindsight, costs included. Those labels train a multilayer perceptron, a basic neural network, that sees only information available at the time, like moneyness, time to expiry, spreads, volatility risk premium signals and how long the position has been held."
+      },
+      {
+       "speaker": "B",
+       "text": "Then that network becomes the starting point for reinforcement learning, which fine-tunes it with a risk-aware trading reward. Everything is tested on locked out-of-sample trades from 2024 to 2026, with bid-ask execution, commissions and portfolio accounting."
+      },
+      {
+       "speaker": "A",
+       "text": "And the results?"
+      },
+      {
+       "speaker": "B",
+       "text": "The supervised network alone clearly beats holding to expiry and simple rules like fixed-time exits, profit targets and stop losses. Across seven random seeds, the version fine-tuned with an actor-critic method averages a 37.54 percent cumulative return and a Sharpe ratio of 1.705, versus 35.01 percent and 1.651 for the supervised network. The striking contrast: actor-critic trained from scratch averages just 0.18 percent."
+      },
+      {
+       "speaker": "A",
+       "text": "Limits, Sam?"
+      },
+      {
+       "speaker": "B",
+       "text": "The authors are upfront. The test window had no sustained volatility shock like 2008 or March 2020, so the roughly 4 percent drawdowns aren't a ceiling on tail risk, and the simulator can't fully reproduce crisis-style gaps or liquidity shortages. The fine-tuning gain also shrinks with fixed one-contract sizing, and at the episode level it isn't statistically significant."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: learning from hindsight-optimal exits gives reinforcement learning a stable foundation. Without it, reward-based training barely gets off the ground."
+      }
+     ]
     },
     {
      "title": "CorrFlow: Exact and Permutation-Equivariant Flow Matching on the Correlation Elliptope",
      "url": "https://arxiv.org/abs/2610.13606",
      "fulltext": "https://arxiv.org/pdf/2610.13606",
      "date": "2026-10-09",
-     "desc": "Introduces a graph flow-matching generator for correlation matrices that always yields valid outputs and is invariant to variable ordering. On 80x80 Taiwan equity matrices it beats a CorrGAN and image diffusion on sliced-Wasserstein distance, though the authors do not claim superiority over fully tuned image models. [arXiv stat.ML, submitted 2026-10-09]"
+     "desc": "Introduces a graph flow-matching generator for correlation matrices that always yields valid outputs and is invariant to variable ordering. On 80x80 Taiwan equity matrices it beats a CorrGAN and image diffusion on sliced-Wasserstein distance, though the authors do not claim superiority over fully tuned image models. [arXiv stat.ML, submitted 2026-10-09]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's paper is about correlation matrices, which turn out to be surprisingly fussy things to generate. Sam, why would anyone want to generate them?"
+      },
+      {
+       "speaker": "B",
+       "text": "Risk management, mostly. A library of plausible correlation matrices supports stress testing, reverse stress testing and portfolio risk analysis, because changing correlations changes diversification and potential losses. Real crisis observations are scarce, and the number of pairwise correlations grows quadratically with the number of assets."
+      },
+      {
+       "speaker": "A",
+       "text": "The fussy part is that a valid correlation matrix must be symmetric, have ones on the diagonal and be positive definite. And relabeling the assets just shuffles rows and columns, so order shouldn't matter. Earlier generators, like CorrGAN, a generative adversarial network, and image diffusion models, treat the matrix as an ordered image and repair invalid outputs afterward."
+      },
+      {
+       "speaker": "B",
+       "text": "CorrFlow, by Gautier Marti of the Abu Dhabi Investment Authority, splits the problem in two. First, a generalized Fisher transform maps every full-rank correlation matrix to unconstrained coordinates and back, so any generated vector becomes exactly one valid matrix, no repair needed. Second, a graph flow-matching network learns the empirical distribution in those coordinates, and it's permutation equivariant: reorder the input variables and the output is simply reordered the same way."
+      },
+      {
+       "speaker": "A",
+       "text": "The test case is 80 by 80 correlation matrices of Taiwan stocks, compared against a conditional CorrGAN reimplementation, an image diffusion model, a low-rank Gaussian generator and simple historical lookup, with five seeds per neural method."
+      },
+      {
+       "speaker": "B",
+       "text": "CorrFlow produced 100 percent valid draws without repair. On a feature sliced-Wasserstein distance, where lower means closer to the real data, it scored roughly 0.71, versus about 4.34 for CorrGAN and 4.61 for image diffusion, even after their invalid outputs were projected back. It also beat historical lookup on that distance, and it generates new scenarios rather than retrieving old ones."
+      },
+      {
+       "speaker": "A",
+       "text": "But the caveats are real. Lookup still has better local coverage, and generated summaries remain systematically different from real ones. The baselines got a limited training budget of 20 epochs, so this doesn't show superiority over fully tuned image models, or which component drives the gain. The 24,408 matrices come from heavily overlapping 252-day windows, so they aren't independent episodes, and correlation alone leaves out volatility, tails and dynamics."
+      },
+      {
+       "speaker": "B",
+       "text": "Bottom line, Alex: build the constraints and the symmetry into the coordinates, and you get valid, order-independent correlation scenarios by construction."
+      }
+     ]
     },
     {
      "title": "Market Impact Estimation via Causal Foundation Models",
      "url": "https://arxiv.org/abs/2610.12537",
      "fulltext": "https://arxiv.org/pdf/2610.12537",
      "date": "2026-10-08",
-     "desc": "Proposes a proof-of-concept causal prior-data fitted network that estimates what prices would have been without a large trade, correcting for confounding by informed flow, where the naive estimator overestimates impact by up to 68%. Its response is checked on a simulated limit order book and on crypto and Nasdaq flow bursts. [arXiv cs.LG, submitted 2026-10-08]"
+     "desc": "Proposes a proof-of-concept causal prior-data fitted network that estimates what prices would have been without a large trade, correcting for confounding by informed flow, where the naive estimator overestimates impact by up to 68%. Its response is checked on a simulated limit order book and on crypto and Nasdaq flow bursts. [arXiv cs.LG, submitted 2026-10-08]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "If you're about to execute a large order, the real question isn't what the price will be. It's what the price would have been if you hadn't traded. Sam, that's a causal question."
+      },
+      {
+       "speaker": "B",
+       "text": "And that's what this paper, by Dennis Thumm and Ying Chen at the National University of Singapore, tackles. Classic impact models essentially regress price on order flow. But informed traders buy because they expect prices to rise, so their flow predicts moves it didn't cause. Estimate impact that way and you soak up the information effect, and execution-cost models inherit the bias."
+      },
+      {
+       "speaker": "A",
+       "text": "Their proof of concept is a Causal Market Simulator, built on a prior-data fitted network: a model trained on lots of synthetic data so it learns to do inference in context. In those synthetic markets, a hidden informational flow confounds the link between flow and price, and the strength of that confounding is a knob they set exactly for each episode."
+      },
+      {
+       "speaker": "B",
+       "text": "On that synthetic data, the naive regression overestimates impact by up to 68 percent at strong coupling, matching a closed-form prediction within 2 percent. The network tracks an unbiased oracle that knows the true parameters, while a twin with its intervention inputs zeroed out collapses to the pre-window average. So the intervention pathway does the causal work."
+      },
+      {
+       "speaker": "A",
+       "text": "Then the real test, with no retraining. In an agent-based simulated limit order book, it responds to large orders at the ground-truth scale, an effect of 0.38 standard deviations against replayed counterfactuals across 1,000 held-out episodes. The response also replicates on about 2,300 detected flow bursts in Bitcoin, Ether and Solana perpetual futures, and about 3,800 on Nasdaq stocks."
+      },
+      {
+       "speaker": "B",
+       "text": "Notably, transfer hinged on encoding the large order as added flow rather than a clamped price level, not on more training. And a recurrent variant lets impact build up over the execution, raising the correlation with measured impact from 0.68 to between 0.92 and 0.96, though it deconfounds less well on the synthetic data."
+      },
+      {
+       "speaker": "A",
+       "text": "And the caveats? The authors call the real-market evidence consistent with, but not proof of, causal transfer. Identification comes from the assumed prior, which uses simple linear, mean-reverting dynamics, while real markets are nonlinear and heavy-tailed. Uncertainty intervals need recalibration after transfer, and feed it a mislabeled event and it will confidently manufacture impact."
+      },
+      {
+       "speaker": "B",
+       "text": "So the takeaway, Alex: a model trained on the right synthetic world can estimate impact causally, but only as well as that world matches the market it's used in."
+      }
+     ]
     },
     {
      "title": "A Distributional Framework for Behavioral Characterization and Risk Management of Large Language Models",
      "url": "https://arxiv.org/abs/2610.12718",
      "fulltext": "https://arxiv.org/pdf/2610.12718",
      "date": "2026-10-08",
-     "desc": "Proposes estimating an LLM's response distribution by Monte Carlo and probing it with semantic interventions, tying this to model risk management. It is illustrated on borrower classification and album recommendation and works for black-box API models. [arXiv q-fin.RM, submitted 2026-10-08]"
+     "desc": "Proposes estimating an LLM's response distribution by Monte Carlo and probing it with semantic interventions, tying this to model risk management. It is illustrated on borrower classification and album recommendation and works for black-box API models. [arXiv q-fin.RM, submitted 2026-10-08]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Ask a chatbot the same question twice and you may get two different answers. Sam, today's paper argues risk managers should take that seriously."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors, two quantitative risk practitioners at Spanish financial firms writing in a personal capacity, point out that large language models produce text piece by piece, sampling each piece from a probability distribution. So any single response is just one draw of a random variable, and it can't tell you how the model really behaves."
+      },
+      {
+       "speaker": "A",
+       "text": "Their proposal is a Monte Carlo approach, which here just means repeated sampling. Fix the task, the model, the prompt and the decoding settings, run it many times, and build the empirical distribution of responses. Then apply semantic interventions, deliberate changes to the prompt, and see how that distribution shifts."
+      },
+      {
+       "speaker": "B",
+       "text": "Each distribution becomes a point in what's called the probability simplex, and differences between points are measured with distributional distances. Because it needs only the outputs, it also works on black-box models reached through a commercial application programming interface."
+      },
+      {
+       "speaker": "A",
+       "text": "They illustrate it on two tasks, borrower classification and music album recommendation. For albums, the base prompt is: what is the best music album ever, answer band and album, no explanation. Then they add lines like I am a female, I am 70, I am Nigerian, I don't like Pink Floyd, or I love Bach, I believe he is the best, and even demand an answer in exactly 20 words, and they quantify how far each nudge moves the distribution."
+      },
+      {
+       "speaker": "B",
+       "text": "The governance angle is the heart of it. In finance, model risk management has followed supervisory guidance since 2011, and its 2026 replacement explicitly leaves generative and agentic artificial intelligence out of scope. This framework plugs into that lifecycle: designing the task, measuring robustness and whether controls actually work, characterizing residual behavior, and monitoring continuously."
+      },
+      {
+       "speaker": "A",
+       "text": "One subtle point: a model may read a condition differently than you intended, and that only shows up across many responses, not one. Limits, Sam?"
+      },
+      {
+       "speaker": "B",
+       "text": "It's demonstrated on two illustrative tasks, and the authors list stress testing and tail-risk analysis as directions still to explore. Takeaway, Alex: treat a language model's answer as a distribution, not a fact, and govern it by measuring how that distribution moves."
+      }
+     ]
     }
    ]
   },

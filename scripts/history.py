@@ -7,6 +7,7 @@ Usage:
   python3 scripts/history.py merge DIGEST.json   # adds the digest's items to data/seen-items.json
 """
 import datetime as dt
+import hashlib
 import json
 import os
 import re
@@ -28,6 +29,11 @@ def norm_url(u):
     u = re.sub(r"^http://", "https://", u)
     u = re.sub(r"(arxiv\.org/(?:abs|pdf)/\d{4}\.\d{4,5})v\d+", r"\1", u)
     return u.rstrip("/")
+
+
+def audio_id(url):
+    """Stable short id for a paper's audio file and its site anchor (#p-<id>)."""
+    return hashlib.sha1(norm_url(url).encode()).hexdigest()[:10]
 
 
 def norm_title(t):

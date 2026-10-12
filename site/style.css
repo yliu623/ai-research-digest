@@ -112,6 +112,9 @@ a { color: var(--accent); }
   border: 1px solid var(--line); background: var(--panel); color: var(--body);
 }
 .btn:hover { border-color: var(--accent); color: var(--ink); }
+.btn.play { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.btn.play:hover { background: var(--accent-soft); }
+.item .body audio { display: block; width: 100%; max-width: 520px; height: 36px; margin-top: 8px; }
 mark { background: #fde68a; color: #1a1a1a; border-radius: 2px; padding: 0 1px; }
 
 .foot { color: var(--muted); font-size: 12.5px; margin: 10px 0 14px; }

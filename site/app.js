@@ -100,6 +100,26 @@
     });
   }
 
+  var current = null; // { audio, button }
+  function togglePlayer(body, button, src) {
+    var existing = body.querySelector("audio");
+    if (existing) {
+      if (existing.paused) { existing.play(); } else { existing.pause(); }
+      return;
+    }
+    if (current) { current.audio.pause(); }
+    var a = el("audio", { controls: "", preload: "auto", src: src });
+    a.addEventListener("play", function () {
+      if (current && current.audio !== a) { current.audio.pause(); }
+      current = { audio: a, button: button };
+      button.textContent = "❚❚ Pause";
+    });
+    a.addEventListener("pause", function () { button.textContent = "▶ Listen"; });
+    a.addEventListener("ended", function () { button.textContent = "▶ Listen"; });
+    body.appendChild(a);
+    a.play().catch(function () { /* autoplay blocked: controls are visible */ });
+  }
+
   function itemMatches(it, q) {
     if (!q) return true;
     var hay = (it.title + " " + it.desc + " " + it.url).toLowerCase();
@@ -112,17 +132,24 @@
     var full = it.fulltext || it.url;
     var btn = el("button", { class: "btn", type: "button", title: "Copy the full-text link and open NotebookLM", text: "🎧 NotebookLM" });
     btn.addEventListener("click", function () { listen(full); });
-    var node = el("div", { class: "item", id: anchor }, [
-      el("a", { class: "num", href: "#" + anchor, title: "Link to item " + it._n + " (bookmark to pick up here)", text: String(it._n) }),
-      el("div", { class: "body" }, [
-        el("a", { class: "t", href: it.url, target: "_blank", rel: "noopener", html: highlight(it.title, state.q) }),
-        el("p", { class: "d", html: highlight(parts[0], state.q) }),
-        el("div", { class: "meta" }, [
-          parts[1] ? el("span", { text: parts[1] }) : null,
-          el("a", { href: full, target: "_blank", rel: "noopener", text: "Full text" }),
-          btn
-        ])
+    var play = null, body;
+    if (it.audio) {
+      play = el("button", { class: "btn play", type: "button", title: "Play a 2–3 minute audio explainer", text: "▶ Listen" });
+      play.addEventListener("click", function () { togglePlayer(body, play, it.audio); });
+    }
+    body = el("div", { class: "body" }, [
+      el("a", { class: "t", href: it.url, target: "_blank", rel: "noopener", html: highlight(it.title, state.q) }),
+      el("p", { class: "d", html: highlight(parts[0], state.q) }),
+      el("div", { class: "meta" }, [
+        parts[1] ? el("span", { text: parts[1] }) : null,
+        play,
+        el("a", { href: full, target: "_blank", rel: "noopener", text: "Full text" }),
+        btn
       ])
+    ]);
+    var node = el("div", { class: "item", id: anchor, "data-aid": it.aid || "" }, [
+      el("a", { class: "num", href: "#" + anchor, title: "Link to item " + it._n + " (bookmark to pick up here)", text: String(it._n) }),
+      body
     ]);
     if (anchor === state.target) node.classList.add("target");
     return node;
@@ -191,6 +218,14 @@
   }
   function goHash() {
     var h = decodeURIComponent(location.hash.slice(1));
+    var p = h.match(/^p-([0-9a-f]{10})$/);
+    if (p) { // a paper's stable id (used by email links): resolve to its day and number
+      state.days.some(function (d) {
+        return d.sections.some(function (s) {
+          return s.items.some(function (it) { if (it.aid === p[1]) { h = d.date + "-" + it._n; return true; } return false; });
+        });
+      });
+    }
     var m = h.match(/^(\d{4}-\d{2}-\d{2})(?:-(\d+))?$/);
     if (!m) return;
     if (state.q) { state.q = ""; $("q").value = ""; }

@@ -15,6 +15,7 @@ push is done (step 8).
 TODAY=$(TZ=America/Chicago date +%F)
 START=$(python3 scripts/history.py window)      # most recent date_sent in data/seen-items.json
 python3 scripts/history.py dedup /tmp/dedup.json
+pip install -q pypdf    # for scripts/paper_text.py
 ```
 **Mode.** If `digests/digest-$TODAY.json` already exists **and has at least one item**, this is a same-day
 re-run: `MODE=update` — you will email only items not yet sent (history guarantees that) and append them to
@@ -96,7 +97,7 @@ Section names must match exactly (copy them). Placement: arXiv econ.* → Econom
 financial markets; Ops if mainly operations); arXiv q-fin.* → Finance (Economics if mainly macro/labor);
 INFORMS → Ops; NBER and SSRN → by topic; news → News. Within a section, newest first.
 
-Each item: `{"title", "url", "fulltext", "date", "desc"}`
+Each item: `{"title", "url", "fulltext", "date", "desc"}`, plus `podcast` for papers (below)
 - `url` — the abstract/article page (arXiv: `https://arxiv.org/abs/<id>`). Every item must have one.
 - `fulltext` — best full-text link (arXiv `https://arxiv.org/pdf/<id>`, NBER PDF); otherwise same as url.
 - `desc` — 1–2 plain-text sentences in your own words: what it does and the main finding (concrete; data,
@@ -110,6 +111,19 @@ Each item: `{"title", "url", "fulltext", "date", "desc"}`
 cover the 6–10 most interesting items across sections (say the source, e.g. "a new NBER paper"), explain why
 each matters in plain language, keep facts strictly to the summaries, and close with a short sign-off pointing
 listeners to the web archive. Spoken style: no URLs, no bracketed tags, no markdown, spell out symbols.
+
+**podcast** (papers only — Economics, Finance and Ops items, never News): a short two-host audio explainer
+the site plays with one click. Give one to every paper, up to 15 per run (if more, pick the most interesting).
+- Source: for arXiv and NBER, read the paper with `python3 scripts/paper_text.py "<fulltext url>"` (condensed
+  full text) and write from that. For SSRN and INFORMS — or if the PDF can't be read — work from the abstract
+  only, keep it shorter, and have a host say it's based on the abstract.
+- Shape: `[{"speaker": "A", "text": "..."}, {"speaker": "B", "text": "..."}, ...]`, hosts **Alex** (A) and
+  **Sam** (B), 6–10 turns, 280–420 words (~2–3 min); 180–280 words when abstract-only.
+- Content: the question and why it matters → data and method in plain terms → the main findings with the
+  paper's actual numbers → caveats or limits → one-line takeaway. Strictly what the paper says — no invented
+  results. Spoken style: no URLs, citations, equations, bracketed tags or markdown; vary the openings.
+- The email automatically adds a "▶ Listen" link for every item with a podcast; GitHub turns the scripts
+  into audio a few minutes after the push.
 
 Empty sections are fine — never pad with older material.
 
