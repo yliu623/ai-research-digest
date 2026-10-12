@@ -1,0 +1,22 @@
+{
+ "date": "2026-10-12",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": []
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / Washington Post / Economist)",
+   "items": []
+  }
+ ],
+ "footnote": "Window: 2026-10-11 (last run) → 2026-10-12. arXiv (econ and q-fin), INFORMS journals, NBER, The Economist and the Washington Post could not be reached this run (network access denied); NYT returned no new matching items. SSRN searches turned up no papers with a verified in-window posting date. Items from the unreachable sources may be missing; the next run's window will start from the last digest that had items, so they should be picked up then."
+}
