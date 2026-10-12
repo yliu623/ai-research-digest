@@ -15,8 +15,16 @@
   },
   {
    "name": "📰 News (NYT / Washington Post / Economist)",
-   "items": []
+   "items": [
+    {
+     "title": "Is Universal Basic Income the Answer to A.I.-Fueled Job Losses?",
+     "url": "https://www.nytimes.com/2026/10/12/technology/universal-basic-income-silicon-valley.html",
+     "fulltext": "https://www.nytimes.com/2026/10/12/technology/universal-basic-income-silicon-valley.html",
+     "date": "2026-10-12",
+     "desc": "The New York Times followed recipients of universal basic income programs for more than a year, examining whether the cash payments that Elon Musk and other tech leaders promote can answer job losses attributed to A.I. [NYT, published 2026-10-12]"
+    }
+   ]
   }
  ],
- "footnote": "Window: 2026-10-11 (last run) → 2026-10-12. arXiv (econ and q-fin), INFORMS journals, NBER, The Economist and the Washington Post could not be reached this run (network access denied); NYT returned no new matching items. SSRN searches turned up no papers with a verified in-window posting date. Items from the unreachable sources may be missing; the next run's window will start from the last digest that had items, so they should be picked up then."
+ "footnote": "Window: 2026-10-11 (last run) → 2026-10-12. All sources were reachable this run. arXiv, INFORMS, NBER and The Economist had no new matching items; SSRN searches turned up no papers with a verified in-window posting date; one Washington Post item (DOGE alumni profiting) was judged off-topic."
 }
