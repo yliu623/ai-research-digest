@@ -19,6 +19,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -72,8 +73,14 @@ def get(url, ua=UA, timeout=45, tries=3):
             req = urllib.request.Request(url, headers={"User-Agent": ua, "Accept-Language": "en-US,en"})
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return r.read().decode("utf-8", "replace")
+        except urllib.error.HTTPError as e:
+            # 4xx (blocked host, missing feed) won't fix itself; only retry rate limits and server errors.
+            if e.code != 429 and e.code < 500:
+                raise
+            last = e
         except Exception as e:  # noqa: BLE001
             last = e
+        if i < tries - 1:
             time.sleep(3 * (i + 1))
     raise last
 
@@ -191,11 +198,13 @@ def fetch_nber(since, until, seen_urls):
 # ---------------------------------------------------------------- News
 def fetch_nyt(since, until):
     out, seen = [], set()
-    d = since
+    d, days, failed, last_err = since, 0, 0, None
     while d <= until:
+        days += 1
         try:
             page = get(f"https://www.nytimes.com/sitemap/{d:%Y/%m/%d}/")
-        except Exception:  # noqa: BLE001
+        except Exception as e:  # noqa: BLE001
+            failed, last_err = failed + 1, e
             d += dt.timedelta(days=1)
             continue
         pat = rf'<a href="(https://www\.nytimes\.com/{d:%Y/%m/%d}/[^"]+)"[^>]*>([^<]+)</a>'
@@ -213,6 +222,8 @@ def fetch_nyt(since, until):
                         "date": d.isoformat(), "abstract": ""})
         d += dt.timedelta(days=1)
         time.sleep(0.5)
+    if days and failed == days:
+        raise RuntimeError(f"all {days} NYT sitemap pages failed: {last_err}")
     # RSS gives descriptions for recent items
     for feed in ["Technology", "Business", "Economy", "YourMoney", "DealBook"]:
         try:
@@ -297,6 +308,7 @@ def main():
     only = [s for s in a.only.split(",") if s] or list(jobs)
     status, cands, have = {}, [], set()
     for name in only:
+        t0 = time.time()
         try:
             got = jobs[name]()
             kept = 0
@@ -307,10 +319,10 @@ def main():
                 have.add(u)
                 cands.append(c)
                 kept += 1
-            status[name] = f"ok: {len(got)} fetched, {kept} new"
+            status[name] = f"ok: {len(got)} fetched, {kept} new ({time.time() - t0:.0f}s)"
         except Exception as e:  # noqa: BLE001
-            status[name] = f"error: {type(e).__name__}: {e}"
-        print(f"{name:12s} {status[name]}", file=sys.stderr)
+            status[name] = f"error: {type(e).__name__}: {e} ({time.time() - t0:.0f}s)"
+        print(f"{name:12s} {status[name]}", file=sys.stderr, flush=True)
 
     with open(a.out, "w") as f:
         json.dump({"since": a.since, "until": a.until, "status": status, "candidates": cands}, f,

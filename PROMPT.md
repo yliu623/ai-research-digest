@@ -5,17 +5,28 @@ You are the daily run of the AI Research Digest: new papers and news about AI / 
 block the email on a non-essential failure (note it in the footnote instead). The routine prompt gives you
 the email recipient.
 
+**This run is unattended — nobody will resume you.** Never end your turn to wait for a background task,
+monitor or notification; if you do, the run stops and no email goes out. Run long commands in the
+foreground with a long Bash timeout (`timeout: 600000`), and keep working until the email is sent and the
+push is done (step 8).
+
 ## 0. Setup and guard
 ```bash
 TODAY=$(TZ=America/Chicago date +%F)
 START=$(python3 scripts/history.py window)      # most recent date_sent in data/seen-items.json
 python3 scripts/history.py dedup /tmp/dedup.json
 ```
-If `digests/digest-$TODAY.json` already exists, a run already happened today: stop and report that (do not
-email again).
+If `digests/digest-$TODAY.json` already exists **and has at least one item**, a run already happened today: stop
+and report that (do not email again). If it exists with zero items (e.g. sources were blocked), redo the run
+and overwrite it.
+
+If `fetch_sources.py` reports `error:` for most sources (e.g. `Tunnel connection failed: 403`), the
+environment's network allowlist is missing hosts: say so prominently at the top of the footnote and in your
+final report, listing the blocked hosts.
 
 ## 1. Collect dated candidates (scripts)
 ```bash
+# foreground, Bash timeout 600000 ms — usually under a minute
 python3 scripts/fetch_sources.py --since "$START" --until "$TODAY" --out /tmp/candidates.json
 ```
 This covers arXiv (econ.GN/EM/TH + q-fin.*, exact v1 submission dates), INFORMS Management Science / M&SOM /
