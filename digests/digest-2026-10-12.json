@@ -318,43 +318,67 @@
  "briefing": [
   {
    "speaker": "A",
-   "text": "Hi, I'm Alex, and this is a short update to the AI research digest for October twelfth."
+   "text": "Hi, I'm Alex, and this is the AI research digest for October twelfth, twenty twenty-six. This is a short update with a handful of new items."
   },
   {
    "speaker": "B",
-   "text": "And I'm Sam. Three late-arriving news items today, all Bloomberg, all about the economics of the AI build-out."
+   "text": "I'm Sam. We have a few new arXiv papers on finance and retail, plus news on AI infrastructure and debt."
   },
   {
    "speaker": "A",
-   "text": "First, Microsoft is preparing to put the latest version of its own chips into its data centers, with the aim of running its AI software mostly on homegrown hardware."
+   "text": "First, an arXiv paper on AI mediation in retail. AI shopping assistants now decide which products customers even consider."
   },
   {
    "speaker": "B",
-   "text": "That matters because chips are one of the biggest costs in AI. Relying more on in-house silicon is a way to reduce dependence on outside suppliers."
+   "text": "Right. The authors model a retailer picking a catalog while an AI forms the shortlist, using rankings collected from leading AI models."
   },
   {
    "speaker": "A",
-   "text": "Second, a Bloomberg newsletter says AI is fueling a boom in global goods trade, ahead of two international conferences this week about the forces reshaping the global economy."
+   "text": "What's the finding?"
   },
   {
    "speaker": "B",
-   "text": "So AI isn't only a software story. It shows up in shipping containers, supply chains, and trade statistics."
+   "text": "Ignoring the AI's role costs between about two and a half and eleven percent of revenue in their simulations. A simple plug-in based on the AI's ordering loses at most about half a percent."
   },
   {
    "speaker": "A",
-   "text": "And third, Meta says its new Muse model has reached the AI frontier after a fourteen-month push."
+   "text": "Next, finance. A paper on market impact uses a causal foundation model, asking what the price would have been had you not traded."
   },
   {
    "speaker": "B",
-   "text": "That's a company claim, and it ties into the question of whether huge AI spending pays off competitively."
+   "text": "The point is that naive estimates are biased when informed traders move prices, with overestimation up to sixty-eight percent in their synthetic setting. It's a proof of concept, and they say so."
   },
   {
    "speaker": "A",
-   "text": "That's the update. Full details and links are in the web archive."
+   "text": "Another one applies reinforcement learning to exit timing for S and P five hundred option straddles."
   },
   {
    "speaker": "B",
-   "text": "Thanks for listening, and see you next time."
+   "text": "Initializing the learner from a supervised network gave about thirty-seven and a half percent cumulative return out of sample, versus almost nothing when training from scratch."
+  },
+  {
+   "speaker": "A",
+   "text": "There's also CorrFlow, a generator of realistic correlation matrices for stocks, which always produces valid matrices and beat two baselines on their distance measure."
+  },
+  {
+   "speaker": "B",
+   "text": "And a framework for managing risk in large language models by studying their distribution of answers, tested on borrower classification."
+  },
+  {
+   "speaker": "A",
+   "text": "On the news side, the Financial Times looks at the huge leverage hiding behind AI hyperscalers, where creditors are scrutinising liabilities like data-centre leases."
+  },
+  {
+   "speaker": "B",
+   "text": "The FT also covers a pulled thirty billion dollar Australian data centre IPO, and the Wall Street Journal reports investors warning about AI concentration risks."
+  },
+  {
+   "speaker": "A",
+   "text": "The Journal also says AI agents threaten travel businesses, though Airbnb could still come out ahead, and that old FTX bitcoin-mining assets are being revived for the AI boom."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the update. Find full summaries and links in the web archive. Thanks for listening."
   }
  ]
 }

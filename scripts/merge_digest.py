@@ -3,7 +3,7 @@
 
 Usage: python3 scripts/merge_digest.py digests/digest-YYYY-MM-DD.json /tmp/digest-new.json
 Items from the update are appended per section (skipping URLs already in the file, newest first within
-each section), the update's briefing replaces the old one if it has one, and the footnotes are joined.
+each section), the update's briefing is used only if the day had none, and the footnotes are joined.
 """
 import json
 import re
@@ -34,8 +34,8 @@ def main():
             m = re.search(r"(\d{4}-\d{2}-\d{2})\]?\s*$", it.get("desc", ""))
             return it.get("date") or (m.group(1) if m else "")
         target["items"] = sorted(target["items"] + fresh, key=key, reverse=True)
-    if new.get("briefing"):
-        day["briefing"] = new["briefing"]
+    if new.get("briefing") and not day.get("briefing"):
+        day["briefing"] = new["briefing"]  # keep the day's main briefing; an update only fills a gap
     if new.get("footnote"):
         day["footnote"] = (day.get("footnote", "") + " — Update: " + new["footnote"]).strip(" —")
     with open(day_path, "w") as f:
