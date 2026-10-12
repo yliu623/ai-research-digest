@@ -16,9 +16,9 @@ TODAY=$(TZ=America/Chicago date +%F)
 START=$(python3 scripts/history.py window)      # most recent date_sent in data/seen-items.json
 python3 scripts/history.py dedup /tmp/dedup.json
 ```
-If `digests/digest-$TODAY.json` already exists **and has at least one item**, a run already happened today: stop
-and report that (do not email again). If it exists with zero items (e.g. sources were blocked), redo the run
-and overwrite it.
+**Mode.** If `digests/digest-$TODAY.json` already exists **and has at least one item**, this is a same-day
+re-run: `MODE=update` — you will email only items not yet sent (history guarantees that) and append them to
+the day's file. Otherwise `MODE=new` (an existing zero-item file, e.g. from blocked sources, is replaced).
 
 If `fetch_sources.py` reports `error:` for most sources (e.g. `Tunnel connection failed: 403`), the
 environment's network allowlist is missing hosts: say so prominently at the top of the footnote and in your
@@ -64,7 +64,8 @@ optimization papers that mention ML in passing; news about AI culture, arts, hea
 economic angle; podcasts, newsletters, quizzes; duplicate stories (keep the best one); near-duplicates of an
 already-sent item (e.g. an SSRN preprint of an already-sent journal article).
 
-## 4. Write the digest JSON — `digests/digest-$TODAY.json`
+## 4. Write this run's digest JSON — `/tmp/digest-$TODAY.json`
+Only this run's items go in this file (in update mode the day's earlier items stay in `digests/`).
 ```json
 {"date": "YYYY-MM-DD",
  "sections": [
@@ -99,31 +100,33 @@ Empty sections are fine — never pad with older material.
 
 ## 5. Check
 ```bash
-python3 scripts/check_digest.py "digests/digest-$TODAY.json" --since "$START"
+python3 scripts/check_digest.py "/tmp/digest-$TODAY.json" --since "$START"
 ```
 Fix every failure before sending.
 
 ## 6. Email (the deliverable)
 ```bash
-python3 scripts/build_email.py "digests/digest-$TODAY.json" /tmp/out
+python3 scripts/build_email.py "/tmp/digest-$TODAY.json" /tmp/out
 ```
 Read `/tmp/out/email-$TODAY.txt` and `/tmp/out/email-$TODAY.html`, then send with the AgentMail connector's
 `send_message`:
 - `inboxId`: the `inbox` value in `config.json`
 - `to`: [recipient from the routine prompt]
-- `subject`: `🗞️ Daily AI Research Digest — <TODAY>`
+- `subject`: `🗞️ Daily AI Research Digest — <TODAY>`, plus ` (update)` in update mode
 - `text` / `html`: the two files' contents, verbatim. No attachments.
 
 If it returns an organization error, call `list_organizations`, then `select_organization` for
-"Ye's Organization", and retry. If nothing qualified, still send a short email saying "Nothing new in this
-window" (with the footnote).
+"Ye's Organization", and retry. If nothing qualified: in new mode still send a short email saying "Nothing new
+in this window" (with the footnote); in update mode send nothing, skip step 7, and just report.
 
 ## 7. History + publish
 ```bash
-# only if the digest has at least one item (otherwise the next window widens automatically)
-python3 scripts/history.py merge "digests/digest-$TODAY.json"
+# new mode:    cp "/tmp/digest-$TODAY.json" "digests/digest-$TODAY.json"
+# update mode: python3 scripts/merge_digest.py "digests/digest-$TODAY.json" "/tmp/digest-$TODAY.json"
+# then, only if this run had at least one item (otherwise the next window widens automatically):
+python3 scripts/history.py merge "/tmp/digest-$TODAY.json"
 git add digests data
-git commit -m "Digest $TODAY: <N> items"
+git commit -m "Digest $TODAY: <N> items"        # "Digest $TODAY update: <N> items" in update mode
 git push origin HEAD:main || (git pull --rebase origin main && git push origin HEAD:main)
 ```
 Pushing to `main` triggers the GitHub Pages build (archive site + audio briefing).
