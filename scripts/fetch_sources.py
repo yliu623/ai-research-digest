@@ -4,7 +4,7 @@
 Usage: python3 scripts/fetch_sources.py --since YYYY-MM-DD [--until YYYY-MM-DD] [--out candidates.json]
 
 Sources: arXiv export API (econ.* + q-fin.*), Crossref (INFORMS journals, published-online date),
-NBER (API listing + paper-page issue date), NYT daily sitemaps + RSS, Economist RSS, Washington Post RSS.
+NBER (API listing + paper-page issue date), NYT daily sitemaps + RSS, Economist RSS, Washington Post RSS, WSJ RSS + news sitemap, Bloomberg RSS, FT RSS.
 SSRN is not covered here (no machine-readable feed); the agent searches it separately.
 
 Every candidate has a verified `date`, matches the AI keyword list, and is not already in
@@ -280,9 +280,44 @@ def fetch_rss_news(source, feeds, since, until):
 ECONOMIST_FEEDS = [f"https://www.economist.com/{s}/rss.xml" for s in
                    ["finance-and-economics", "business", "science-and-technology", "leaders", "briefing",
                     "united-states", "china", "international", "the-world-this-week"]]
+WSJ_FEEDS = [f"https://feeds.content.dowjones.io/public/rss/{s}" for s in
+             ["RSSWSJD", "socialeconomyfeed", "RSSMarketsMain", "WSJcomUSBusiness"]]
+BLOOMBERG_FEEDS = [f"https://feeds.bloomberg.com/{s}/news.rss" for s in
+                   ["technology", "markets", "economics", "business", "industries"]]
+FT_FEEDS = [f"https://www.ft.com/{s}?format=rss" for s in
+            ["artificial-intelligence", "technology", "companies", "markets", "global-economy", "us-economy",
+             "financials"]]
 WAPO_FEEDS = ["https://feeds.washingtonpost.com/rss/business",
               "https://feeds.washingtonpost.com/rss/business/technology",
               "https://feeds.washingtonpost.com/rss/business/economy"]
+
+
+def fetch_wsj(since, until):
+    """WSJ RSS (with teasers) plus its Google News sitemap for extra discovery; WSJ URLs carry no date."""
+    out = fetch_rss_news("WSJ", WSJ_FEEDS, since, until)
+    have = {c["url"] for c in out}
+    try:
+        page = get("https://www.wsj.com/wsjsitemaps/wsj_google_news.xml")
+        for block in re.findall(r"<url>(.*?)</url>", page, re.S):
+            loc = re.search(r"<loc>([^<]+)</loc>", block)
+            title = re.search(r"<news:title>([^<]+)</news:title>", block)
+            pub = re.search(r"<news:publication_date>(\d{4}-\d{2}-\d{2})", block)
+            if not (loc and title and pub):
+                continue
+            url, date = loc.group(1).split("?")[0], dt.date.fromisoformat(pub.group(1))
+            title = html.unescape(title.group(1)).strip()
+            if url in have or not (since <= date <= until) or not NEWS_KW.search(title):
+                continue
+            have.add(url)
+            out.append({"source": "WSJ", "title": title, "url": url, "date": date.isoformat(), "abstract": ""})
+    except Exception:  # noqa: BLE001  (RSS alone is enough)
+        pass
+    return out
+
+
+def fetch_bloomberg(since, until):
+    return [c for c in fetch_rss_news("Bloomberg", BLOOMBERG_FEEDS, since, until)
+            if "/news/videos/" not in c["url"] and "/news/audio/" not in c["url"]]
 
 
 # ---------------------------------------------------------------- main
@@ -291,7 +326,7 @@ def main():
     ap.add_argument("--since", required=True)
     ap.add_argument("--until", default=dt.date.today().isoformat())
     ap.add_argument("--out", default="candidates.json")
-    ap.add_argument("--only", default="", help="comma list: arxiv_econ,arxiv_qfin,informs,nber,nyt,economist,wapo")
+    ap.add_argument("--only", default="", help="comma list: arxiv_econ,arxiv_qfin,informs,nber,nyt,economist,wapo,wsj,bloomberg,ft")
     a = ap.parse_args()
     since, until = dt.date.fromisoformat(a.since), dt.date.fromisoformat(a.until)
 
@@ -310,6 +345,9 @@ def main():
         "nyt": lambda: fetch_nyt(since, until),
         "economist": lambda: fetch_rss_news("Economist", ECONOMIST_FEEDS, since, until),
         "wapo": lambda: fetch_rss_news("Washington Post", WAPO_FEEDS, since, until),
+        "wsj": lambda: fetch_wsj(since, until),
+        "bloomberg": lambda: fetch_bloomberg(since, until),
+        "ft": lambda: fetch_rss_news("Financial Times", FT_FEEDS, since, until),
     }
     only = [s for s in a.only.split(",") if s] or list(jobs)
     status, cands, have = {}, [], set()

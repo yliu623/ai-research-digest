@@ -18,7 +18,7 @@ from fetch_sources import PAPER_LOOKBACK_DAYS  # noqa: E402
 SECTIONS = ["📊 Economics (NBER / SSRN / arXiv)",
             "💵 Finance (SSRN / NBER / arXiv q-fin)",
             "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
-            "📰 News (NYT / Washington Post / Economist)"]
+            "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)"]
 
 
 def main():

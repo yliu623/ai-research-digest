@@ -31,7 +31,9 @@ python3 scripts/fetch_sources.py --since "$START" --until "$TODAY" --out /tmp/ca
 ```
 This covers arXiv (econ.GN/EM/TH + q-fin.*, exact v1 submission dates), INFORMS Management Science / M&SOM /
 Operations Research (Crossref "published-online" dates), NBER (issue date from the paper page), NYT (daily
-sitemaps), The Economist (RSS) and the Washington Post (RSS). Every candidate already has a verified in-window
+sitemaps), The Economist (RSS), the Washington Post (RSS), the Wall Street Journal (RSS + news sitemap),
+Bloomberg (RSS) and the Financial Times (RSS). News article pages are paywalled/blocked for scripts, so
+write news summaries from the feed teaser plus a WebSearch on the headline; never invent details. Every candidate already has a verified in-window
 date, matched the keyword list, and is not in history. Paper sources look back 7 days before `$START`
 (arXiv and Crossref publish with a lag), so a paper's submission/online date can predate the window —
 that's expected; it has never been sent. News must be dated inside the window. Read the per-source status lines; any `error:` goes in
@@ -69,7 +71,7 @@ already-sent item (e.g. an SSRN preprint of an already-sent journal article).
   {"name": "📊 Economics (NBER / SSRN / arXiv)", "items": [...]},
   {"name": "💵 Finance (SSRN / NBER / arXiv q-fin)", "items": [...]},
   {"name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)", "items": [...]},
-  {"name": "📰 News (NYT / Washington Post / Economist)", "items": [...]}
+  {"name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)", "items": [...]}
  ],
  "briefing": [{"speaker": "A", "text": "..."}, {"speaker": "B", "text": "..."}],
  "footnote": "Window: <START> (last run) → <TODAY>. ..."}
@@ -85,7 +87,7 @@ Each item: `{"title", "url", "fulltext", "date", "desc"}`
   method, headline number if given; no hype; never invent facts). End with the verified date tag, exactly one of:
   `[arXiv <primary cat>, submitted YYYY-MM-DD]`, `[NBER w<num>, issued YYYY-MM-DD]`,
   `[SSRN, posted YYYY-MM-DD]`, `[Management Science | M&SOM | Operations Research, published online YYYY-MM-DD]`,
-  `[NYT | The Economist | Washington Post, published YYYY-MM-DD]`.
+  `[NYT | WSJ | Bloomberg | Financial Times | The Economist | Washington Post, published YYYY-MM-DD]`.
 
 **briefing** (omit if there are no items): a two-host audio script, hosts **Alex** (speaker "A") and **Sam**
 (speaker "B"), 600–900 words total (~5–6 minutes), 12–24 turns. Open with the date and a one-line overview,

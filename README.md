@@ -13,7 +13,7 @@ A daily digest of new papers and news about AI / LLMs in economics, finance, and
 |---|---|
 | `digests/digest-YYYY-MM-DD.json` | one file per run (the source of truth) |
 | `data/seen-items.json` | every URL ever sent — the dedup history and the window start |
-| `scripts/fetch_sources.py` | dated candidates from arXiv, Crossref (INFORMS), NBER, NYT, Economist, WaPo |
+| `scripts/fetch_sources.py` | dated candidates from arXiv, Crossref (INFORMS), NBER, NYT, WSJ, Bloomberg, FT, Economist, WaPo |
 | `scripts/check_digest.py` | sanity checks before sending |
 | `scripts/build_email.py` | plain-text + inline-styled HTML email |
 | `scripts/history.py` | window start, dedup set, merge |
