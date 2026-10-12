@@ -7,8 +7,10 @@ Sources: arXiv export API (econ.* + q-fin.*), Crossref (INFORMS journals, publis
 NBER (API listing + paper-page issue date), NYT daily sitemaps + RSS, Economist RSS, Washington Post RSS.
 SSRN is not covered here (no machine-readable feed); the agent searches it separately.
 
-Every candidate has a verified `date` inside [since, until], matches the AI keyword list, and is not
-already in data/seen-items.json. Relevance judgment is left to the agent.
+Every candidate has a verified `date`, matches the AI keyword list, and is not already in
+data/seen-items.json. News dates fall inside [since, until]; paper sources look back PAPER_LOOKBACK_DAYS
+before `since` because they become visible days after their submission / online date. Relevance judgment
+is left to the agent.
 """
 import argparse
 import datetime as dt
@@ -55,6 +57,7 @@ ARXIV_CATS = {
     "qfin": ["q-fin.CP", "q-fin.EC", "q-fin.GN", "q-fin.MF", "q-fin.PM", "q-fin.PR",
              "q-fin.RM", "q-fin.ST", "q-fin.TR"],
 }
+PAPER_LOOKBACK_DAYS = 7
 INFORMS_JOURNALS = {"Management Science", "Manufacturing & Service Operations Management",
                     "Operations Research"}
 NEWS_KW = re.compile(r"(?<![A-Za-z])(A\.I\.|AI|OpenAI|ChatGPT|Nvidia|Anthropic|chatbots?|data cent(er|re)s?|"
@@ -296,11 +299,14 @@ def main():
     seen_urls = {norm_url(e["url"]) for e in seen}
     seen_titles = {norm_title(e.get("title", "")) for e in seen}
 
+    # Paper sources publish with a lag (arXiv announces 1-3 days after submission; Crossref deposits trail
+    # online publication), so look back a week and rely on the history to skip anything already sent.
+    papers_since = since - dt.timedelta(days=PAPER_LOOKBACK_DAYS)
     jobs = {
-        "arxiv_econ": lambda: fetch_arxiv("econ", since, until),
-        "arxiv_qfin": lambda: fetch_arxiv("qfin", since, until),
-        "informs": lambda: fetch_informs(since, until),
-        "nber": lambda: fetch_nber(since, until, seen_urls),
+        "arxiv_econ": lambda: fetch_arxiv("econ", papers_since, until),
+        "arxiv_qfin": lambda: fetch_arxiv("qfin", papers_since, until),
+        "informs": lambda: fetch_informs(papers_since, until),
+        "nber": lambda: fetch_nber(papers_since, until, seen_urls),
         "nyt": lambda: fetch_nyt(since, until),
         "economist": lambda: fetch_rss_news("Economist", ECONOMIST_FEEDS, since, until),
         "wapo": lambda: fetch_rss_news("Washington Post", WAPO_FEEDS, since, until),

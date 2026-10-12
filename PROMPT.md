@@ -32,7 +32,9 @@ python3 scripts/fetch_sources.py --since "$START" --until "$TODAY" --out /tmp/ca
 This covers arXiv (econ.GN/EM/TH + q-fin.*, exact v1 submission dates), INFORMS Management Science / M&SOM /
 Operations Research (Crossref "published-online" dates), NBER (issue date from the paper page), NYT (daily
 sitemaps), The Economist (RSS) and the Washington Post (RSS). Every candidate already has a verified in-window
-date, matched the keyword list, and is not in history. Read the per-source status lines; any `error:` goes in
+date, matched the keyword list, and is not in history. Paper sources look back 7 days before `$START`
+(arXiv and Crossref publish with a lag), so a paper's submission/online date can predate the window —
+that's expected; it has never been sent. News must be dated inside the window. Read the per-source status lines; any `error:` goes in
 the footnote as one line ("<source> could not be reached this run").
 
 ## 2. Sources the scripts can't cover

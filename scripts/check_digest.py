@@ -13,6 +13,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from history import load_seen, norm_url  # noqa: E402
+from fetch_sources import PAPER_LOOKBACK_DAYS  # noqa: E402
 
 SECTIONS = ["📊 Economics (NBER / SSRN / arXiv)",
             "💵 Finance (SSRN / NBER / arXiv q-fin)",
@@ -57,8 +58,11 @@ def main():
                 errs.append(f"desc lacks trailing [source, date] tag: {t}")
             if not date:
                 errs.append(f"no date: {t}")
-            elif not (since <= dt.date.fromisoformat(date) <= until):
-                errs.append(f"date {date} outside window {since}..{until}: {t}")
+            else:
+                # papers may predate the window by the fetcher's lookback (publication lag); news may not
+                lo = since if s["name"].startswith("📰") else since - dt.timedelta(days=PAPER_LOOKBACK_DAYS)
+                if not (lo <= dt.date.fromisoformat(date) <= until):
+                    errs.append(f"date {date} outside window {lo}..{until}: {t}")
     for i, line in enumerate(d.get("briefing") or []):
         if line.get("speaker") not in ("A", "B") or not line.get("text"):
             errs.append(f"briefing line {i} malformed")
