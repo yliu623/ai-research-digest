@@ -282,7 +282,7 @@ ECONOMIST_FEEDS = [f"https://www.economist.com/{s}/rss.xml" for s in
                     "united-states", "china", "international", "the-world-this-week"]]
 WSJ_FEEDS = [f"https://feeds.content.dowjones.io/public/rss/{s}" for s in
              ["RSSWSJD", "socialeconomyfeed", "RSSMarketsMain", "WSJcomUSBusiness"]]
-BLOOMBERG_FEEDS = [f"https://feeds.bloomberg.com/{s}/news.rss" for s in
+BLOOMBERG_FEEDS = [f"https://www.bloomberg.com/feeds/{s}/news.rss" for s in
                    ["technology", "markets", "economics", "business", "industries"]]
 FT_FEEDS = [f"https://www.ft.com/{s}?format=rss" for s in
             ["artificial-intelligence", "technology", "companies", "markets", "global-economy", "us-economy",
