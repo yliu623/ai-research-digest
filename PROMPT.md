@@ -61,7 +61,8 @@ the footnote as one line ("<source> could not be reached this run").
   story's public article URL with WebSearch restricted to the outlet's domain (newsletter links carry
   tracking/account tokens — never use them); no public URL → skip it. Date = the article URL's date if it has
   one, else the newsletter's send date. Tag such items `[<Outlet> via newsletter, published YYYY-MM-DD]`.
-  Note in the footnote how many newsletters were read. Never mention the user's name or account details.
+  If any newsletters were used, note how many in the footnote (say nothing when there were none). Never
+  mention the user's name or account details. Newsletter forwarding is optional — an empty inbox is normal.
 - **Washington Post backfill** — RSS covers only ~2 days. If the window is longer than 2 days, run a few
   WebSearch queries with `allowed_domains: ["washingtonpost.com"]` and keep only URLs whose `/YYYY/MM/DD/`
   date is in the window.
