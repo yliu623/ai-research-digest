@@ -115,75 +115,72 @@
      "fulltext": "https://www.wsj.com/cfo-journal/cfos-key-partners-for-ai-transformation-according-to-bcg-c189b480",
      "date": "2026-10-12",
      "desc": "CFO Journal item on which partners CFOs rely on for AI transformation, per BCG. [WSJ, published 2026-10-12]"
+    },
+    {
+     "title": "AI Fuels Boom in Global Goods Trade",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-10-12/ai-fuels-boom-in-global-goods-trade",
+     "fulltext": "https://www.bloomberg.com/news/newsletters/2026-10-12/ai-fuels-boom-in-global-goods-trade",
+     "date": "2026-10-12",
+     "desc": "A Bloomberg newsletter previews two international conferences this week and argues that AI-related demand is among the forces reshaping the global economy and driving a surge in goods trade. [Bloomberg, published 2026-10-12]"
+    },
+    {
+     "title": "Microsoft Prepares to Put Gigawatts of Its Chips in Data Centers",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-12/microsoft-prepares-to-put-gigawatts-of-its-chips-in-data-centers",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-12/microsoft-prepares-to-put-gigawatts-of-its-chips-in-data-centers",
+     "date": "2026-10-12",
+     "desc": "Microsoft is preparing to install the latest version of its own chips in data centers, aiming to power its AI software mostly with homegrown hardware rather than third-party processors. [Bloomberg, published 2026-10-12]"
+    },
+    {
+     "title": "Meta Says New Muse Model Reaches AI Frontier After 14-Month Push",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-12/meta-says-new-muse-model-reaches-ai-frontier-after-14-month-push",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-12/meta-says-new-muse-model-reaches-ai-frontier-after-14-month-push",
+     "date": "2026-10-12",
+     "desc": "Meta says its new Muse model has reached the AI frontier after a 14-month effort, a claim that bears on the company's heavy AI investment and its competitive position against rival labs. [Bloomberg, published 2026-10-12]"
     }
    ]
   }
  ],
- "footnote": "Window: 2026-10-11 (last run) → 2026-10-12. All sources were reachable this run. arXiv, INFORMS, NBER and The Economist had no new matching items; SSRN searches turned up no papers with a verified in-window posting date; one Washington Post item (DOGE alumni profiting) was judged off-topic. — Update: Window: 2026-10-12 (last run) → 2026-10-12. Same-day update. Bloomberg could not be reached this run. No SSRN items with a verified in-window posting date were found.",
+ "footnote": "Window: 2026-10-11 (last run) → 2026-10-12. All sources were reachable this run. arXiv, INFORMS, NBER and The Economist had no new matching items; SSRN searches turned up no papers with a verified in-window posting date; one Washington Post item (DOGE alumni profiting) was judged off-topic. — Update: Window: 2026-10-12 (last run) → 2026-10-12. Same-day update. Bloomberg could not be reached this run. No SSRN items with a verified in-window posting date were found. — Update: Window: 2026-10-12 (last run) → 2026-10-12. Same-day update. All sources were reachable this run. News summaries are based on feed teasers. No SSRN items with a verified in-window posting date were found.",
  "briefing": [
   {
    "speaker": "A",
-   "text": "Hi, I'm Alex, and this is the AI research digest for October twelfth, twenty twenty-six. This is a short update with a handful of new items."
+   "text": "Hi, I'm Alex, and this is a short update to the AI research digest for October twelfth."
   },
   {
    "speaker": "B",
-   "text": "I'm Sam. We have a few new arXiv papers on finance and retail, plus news on AI infrastructure and debt."
+   "text": "And I'm Sam. Three late-arriving news items today, all Bloomberg, all about the economics of the AI build-out."
   },
   {
    "speaker": "A",
-   "text": "First, an arXiv paper on AI mediation in retail. AI shopping assistants now decide which products customers even consider."
+   "text": "First, Microsoft is preparing to put the latest version of its own chips into its data centers, with the aim of running its AI software mostly on homegrown hardware."
   },
   {
    "speaker": "B",
-   "text": "Right. The authors model a retailer picking a catalog while an AI forms the shortlist, using rankings collected from leading AI models."
+   "text": "That matters because chips are one of the biggest costs in AI. Relying more on in-house silicon is a way to reduce dependence on outside suppliers."
   },
   {
    "speaker": "A",
-   "text": "What's the finding?"
+   "text": "Second, a Bloomberg newsletter says AI is fueling a boom in global goods trade, ahead of two international conferences this week about the forces reshaping the global economy."
   },
   {
    "speaker": "B",
-   "text": "Ignoring the AI's role costs between about two and a half and eleven percent of revenue in their simulations. A simple plug-in based on the AI's ordering loses at most about half a percent."
+   "text": "So AI isn't only a software story. It shows up in shipping containers, supply chains, and trade statistics."
   },
   {
    "speaker": "A",
-   "text": "Next, finance. A paper on market impact uses a causal foundation model, asking what the price would have been had you not traded."
+   "text": "And third, Meta says its new Muse model has reached the AI frontier after a fourteen-month push."
   },
   {
    "speaker": "B",
-   "text": "The point is that naive estimates are biased when informed traders move prices, with overestimation up to sixty-eight percent in their synthetic setting. It's a proof of concept, and they say so."
+   "text": "That's a company claim, and it ties into the question of whether huge AI spending pays off competitively."
   },
   {
    "speaker": "A",
-   "text": "Another one applies reinforcement learning to exit timing for S and P five hundred option straddles."
+   "text": "That's the update. Full details and links are in the web archive."
   },
   {
    "speaker": "B",
-   "text": "Initializing the learner from a supervised network gave about thirty-seven and a half percent cumulative return out of sample, versus almost nothing when training from scratch."
-  },
-  {
-   "speaker": "A",
-   "text": "There's also CorrFlow, a generator of realistic correlation matrices for stocks, which always produces valid matrices and beat two baselines on their distance measure."
-  },
-  {
-   "speaker": "B",
-   "text": "And a framework for managing risk in large language models by studying their distribution of answers, tested on borrower classification."
-  },
-  {
-   "speaker": "A",
-   "text": "On the news side, the Financial Times looks at the huge leverage hiding behind AI hyperscalers, where creditors are scrutinising liabilities like data-centre leases."
-  },
-  {
-   "speaker": "B",
-   "text": "The FT also covers a pulled thirty billion dollar Australian data centre IPO, and the Wall Street Journal reports investors warning about AI concentration risks."
-  },
-  {
-   "speaker": "A",
-   "text": "The Journal also says AI agents threaten travel businesses, though Airbnb could still come out ahead, and that old FTX bitcoin-mining assets are being revived for the AI boom."
-  },
-  {
-   "speaker": "B",
-   "text": "That's the update. Find full summaries and links in the web archive. Thanks for listening."
+   "text": "Thanks for listening, and see you next time."
   }
  ]
 }
