@@ -3,18 +3,55 @@
  "sections": [
   {
    "name": "📊 Economics (NBER / SSRN / arXiv)",
-   "items": []
+   "items": [
+    {
+     "title": "AI-Mediation in Retail Markets: Revenue Effects and Assortment Optimization",
+     "url": "https://arxiv.org/abs/2610.12917",
+     "fulltext": "https://arxiv.org/pdf/2610.12917",
+     "date": "2026-10-09",
+     "desc": "Models a retailer choosing a catalog when an AI shopping assistant forms the customer's shortlist, estimating Plackett-Luce ranking models from product rankings produced by leading AI models. Ignoring AI mediation costs 2.52% to 11.37% of revenue in simulations, while a simple deterministic plug-in loses at most 0.53%. [arXiv cs.AI, submitted 2026-10-09]"
+    }
+   ]
   },
   {
    "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
-   "items": []
+   "items": [
+    {
+     "title": "MLP-Initialized Reinforcement Learning for Exit Timing in SPX Short-Straddle Portfolios",
+     "url": "https://arxiv.org/abs/2610.13126",
+     "fulltext": "https://arxiv.org/pdf/2610.13126",
+     "date": "2026-10-09",
+     "desc": "Trains a supervised MLP on ex-post optimal exit labels and uses it to initialize reinforcement-learning actors for option exit timing. Over 2024-2026 out-of-sample, MLP-initialized Actor-Critic averages 37.54% cumulative return and a 1.705 Sharpe ratio, versus 0.18% return for Actor-Critic trained from scratch. [arXiv q-fin.TR, submitted 2026-10-09]"
+    },
+    {
+     "title": "CorrFlow: Exact and Permutation-Equivariant Flow Matching on the Correlation Elliptope",
+     "url": "https://arxiv.org/abs/2610.13606",
+     "fulltext": "https://arxiv.org/pdf/2610.13606",
+     "date": "2026-10-09",
+     "desc": "Introduces a graph flow-matching generator for correlation matrices that always yields valid outputs and is invariant to variable ordering. On 80x80 Taiwan equity matrices it beats a CorrGAN and image diffusion on sliced-Wasserstein distance, though the authors do not claim superiority over fully tuned image models. [arXiv stat.ML, submitted 2026-10-09]"
+    },
+    {
+     "title": "Market Impact Estimation via Causal Foundation Models",
+     "url": "https://arxiv.org/abs/2610.12537",
+     "fulltext": "https://arxiv.org/pdf/2610.12537",
+     "date": "2026-10-08",
+     "desc": "Proposes a proof-of-concept causal prior-data fitted network that estimates what prices would have been without a large trade, correcting for confounding by informed flow, where the naive estimator overestimates impact by up to 68%. Its response is checked on a simulated limit order book and on crypto and Nasdaq flow bursts. [arXiv cs.LG, submitted 2026-10-08]"
+    },
+    {
+     "title": "A Distributional Framework for Behavioral Characterization and Risk Management of Large Language Models",
+     "url": "https://arxiv.org/abs/2610.12718",
+     "fulltext": "https://arxiv.org/pdf/2610.12718",
+     "date": "2026-10-08",
+     "desc": "Proposes estimating an LLM's response distribution by Monte Carlo and probing it with semantic interventions, tying this to model risk management. It is illustrated on borrower classification and album recommendation and works for black-box API models. [arXiv q-fin.RM, submitted 2026-10-08]"
+    }
+   ]
   },
   {
    "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
    "items": []
   },
   {
-   "name": "📰 News (NYT / Washington Post / Economist)",
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
    "items": [
     {
      "title": "Is Universal Basic Income the Answer to A.I.-Fueled Job Losses?",
@@ -22,9 +59,131 @@
      "fulltext": "https://www.nytimes.com/2026/10/12/technology/universal-basic-income-silicon-valley.html",
      "date": "2026-10-12",
      "desc": "The New York Times followed recipients of universal basic income programs for more than a year, examining whether the cash payments that Elon Musk and other tech leaders promote can answer job losses attributed to A.I. [NYT, published 2026-10-12]"
+    },
+    {
+     "title": "The huge lurking leverage of AI hyperscalers",
+     "url": "https://www.ft.com/content/17a207f4-1563-48af-91e3-14bac89ab4b8",
+     "fulltext": "https://www.ft.com/content/17a207f4-1563-48af-91e3-14bac89ab4b8",
+     "date": "2026-10-12",
+     "desc": "Argues that while equity investors look to bright futures, creditors are scrutinising hyperscaler liabilities such as data-centre leases. [Financial Times, published 2026-10-12]"
+    },
+    {
+     "title": "What a $30bn Aussie data centre IPO debacle actually means",
+     "url": "https://www.ft.com/content/97a2c4ae-79df-4e67-a408-91a07bfc2546",
+     "fulltext": "https://www.ft.com/content/97a2c4ae-79df-4e67-a408-91a07bfc2546",
+     "date": "2026-10-12",
+     "desc": "Analysis of a pulled roughly $30bn Australian data-centre IPO and what it signals about the AI infrastructure boom. [Financial Times, published 2026-10-12]"
+    },
+    {
+     "title": "AI Fuels M&A Machine",
+     "url": "https://www.wsj.com/cio-journal/ai-fuels-m-a-machine-282e1e04",
+     "fulltext": "https://www.wsj.com/cio-journal/ai-fuels-m-a-machine-282e1e04",
+     "date": "2026-10-12",
+     "desc": "CIO Journal item on AI driving mergers and acquisitions, alongside the continuing enterprise search for AI-fueled productivity. [WSJ, published 2026-10-12]"
+    },
+    {
+     "title": "AI Agents Are a Threat to Travel Businesses. Airbnb Could Still Be a Winner.",
+     "url": "https://www.wsj.com/business/hospitality/ai-agents-are-a-threat-to-travel-businesses-airbnb-could-still-be-a-winner-3ad37351",
+     "fulltext": "https://www.wsj.com/business/hospitality/ai-agents-are-a-threat-to-travel-businesses-airbnb-could-still-be-a-winner-3ad37351",
+     "date": "2026-10-12",
+     "desc": "Says AI booking agents threaten travel companies, but Airbnb's stock could thrive if it turns repeat customers into loyal ones. [WSJ, published 2026-10-12]"
+    },
+    {
+     "title": "FTX's Old Bitcoin-Mining Assets Are Now Part of the AI Boom",
+     "url": "https://www.wsj.com/finance/currencies/ftxs-old-bitcoin-mining-assets-are-now-part-of-the-ai-boom-76fe9037",
+     "fulltext": "https://www.wsj.com/finance/currencies/ftxs-old-bitcoin-mining-assets-are-now-part-of-the-ai-boom-76fe9037",
+     "date": "2026-10-12",
+     "desc": "A bitcoin-mining business that seemed dead after FTX's collapse is being revived to serve the AI industry. [WSJ, published 2026-10-12]"
+    },
+    {
+     "title": "European Chip Stocks Mixed After Korean Tech Selloff",
+     "url": "https://www.wsj.com/finance/stocks/china-plays-critical-role-in-global-ai-supply-chain-domestic-ai-ecosystem-9de8dab7",
+     "fulltext": "https://www.wsj.com/finance/stocks/china-plays-critical-role-in-global-ai-supply-chain-domestic-ai-ecosystem-9de8dab7",
+     "date": "2026-10-12",
+     "desc": "European semiconductor stocks opened the week mixed after a selloff in South Korean stocks exposed to AI. [WSJ, published 2026-10-12]"
+    },
+    {
+     "title": "PE Daily: Investors Warn About AI Concentration Risks",
+     "url": "https://www.wsj.com/pro/private-equity/pe-daily-investors-warn-about-ai-concentration-risks-ba4ddea0",
+     "fulltext": "https://www.wsj.com/pro/private-equity/pe-daily-investors-warn-about-ai-concentration-risks-ba4ddea0",
+     "date": "2026-10-12",
+     "desc": "Private-equity newsletter item on investors warning about concentration risks in AI. [WSJ, published 2026-10-12]"
+    },
+    {
+     "title": "CFOs' Key Partners For AI Transformation, According to BCG",
+     "url": "https://www.wsj.com/cfo-journal/cfos-key-partners-for-ai-transformation-according-to-bcg-c189b480",
+     "fulltext": "https://www.wsj.com/cfo-journal/cfos-key-partners-for-ai-transformation-according-to-bcg-c189b480",
+     "date": "2026-10-12",
+     "desc": "CFO Journal item on which partners CFOs rely on for AI transformation, per BCG. [WSJ, published 2026-10-12]"
     }
    ]
   }
  ],
- "footnote": "Window: 2026-10-11 (last run) → 2026-10-12. All sources were reachable this run. arXiv, INFORMS, NBER and The Economist had no new matching items; SSRN searches turned up no papers with a verified in-window posting date; one Washington Post item (DOGE alumni profiting) was judged off-topic."
+ "footnote": "Window: 2026-10-11 (last run) → 2026-10-12. All sources were reachable this run. arXiv, INFORMS, NBER and The Economist had no new matching items; SSRN searches turned up no papers with a verified in-window posting date; one Washington Post item (DOGE alumni profiting) was judged off-topic. — Update: Window: 2026-10-12 (last run) → 2026-10-12. Same-day update. Bloomberg could not be reached this run. No SSRN items with a verified in-window posting date were found.",
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hi, I'm Alex, and this is the AI research digest for October twelfth, twenty twenty-six. This is a short update with a handful of new items."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. We have a few new arXiv papers on finance and retail, plus news on AI infrastructure and debt."
+  },
+  {
+   "speaker": "A",
+   "text": "First, an arXiv paper on AI mediation in retail. AI shopping assistants now decide which products customers even consider."
+  },
+  {
+   "speaker": "B",
+   "text": "Right. The authors model a retailer picking a catalog while an AI forms the shortlist, using rankings collected from leading AI models."
+  },
+  {
+   "speaker": "A",
+   "text": "What's the finding?"
+  },
+  {
+   "speaker": "B",
+   "text": "Ignoring the AI's role costs between about two and a half and eleven percent of revenue in their simulations. A simple plug-in based on the AI's ordering loses at most about half a percent."
+  },
+  {
+   "speaker": "A",
+   "text": "Next, finance. A paper on market impact uses a causal foundation model, asking what the price would have been had you not traded."
+  },
+  {
+   "speaker": "B",
+   "text": "The point is that naive estimates are biased when informed traders move prices, with overestimation up to sixty-eight percent in their synthetic setting. It's a proof of concept, and they say so."
+  },
+  {
+   "speaker": "A",
+   "text": "Another one applies reinforcement learning to exit timing for S and P five hundred option straddles."
+  },
+  {
+   "speaker": "B",
+   "text": "Initializing the learner from a supervised network gave about thirty-seven and a half percent cumulative return out of sample, versus almost nothing when training from scratch."
+  },
+  {
+   "speaker": "A",
+   "text": "There's also CorrFlow, a generator of realistic correlation matrices for stocks, which always produces valid matrices and beat two baselines on their distance measure."
+  },
+  {
+   "speaker": "B",
+   "text": "And a framework for managing risk in large language models by studying their distribution of answers, tested on borrower classification."
+  },
+  {
+   "speaker": "A",
+   "text": "On the news side, the Financial Times looks at the huge leverage hiding behind AI hyperscalers, where creditors are scrutinising liabilities like data-centre leases."
+  },
+  {
+   "speaker": "B",
+   "text": "The FT also covers a pulled thirty billion dollar Australian data centre IPO, and the Wall Street Journal reports investors warning about AI concentration risks."
+  },
+  {
+   "speaker": "A",
+   "text": "The Journal also says AI agents threaten travel businesses, though Airbnb could still come out ahead, and that old FTX bitcoin-mining assets are being revived for the AI boom."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the update. Find full summaries and links in the web archive. Thanks for listening."
+  }
+ ]
 }
