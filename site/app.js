@@ -9,11 +9,17 @@
     { k: "ops", label: "Operations" },
     { k: "news", label: "News" }
   ];
-  var state = { days: [], filter: "all", q: "", shown: PAGE };
+  var state = { days: [], filter: "all", q: "", shown: PAGE, target: "" };
   var $ = function (id) { return document.getElementById(id); };
 
   function secKey(name) {
+    // Emoji first: "News (… Economist)" would otherwise match "econom".
+    if (name.indexOf("📰") === 0) return "news";
+    if (name.indexOf("📊") === 0) return "econ";
+    if (name.indexOf("💵") === 0) return "fin";
+    if (name.indexOf("📦") === 0) return "ops";
     var n = name.toLowerCase();
+    if (n.indexOf("news") >= 0) return "news";
     if (n.indexOf("econom") >= 0) return "econ";
     if (n.indexOf("financ") >= 0) return "fin";
     if (n.indexOf("operation") >= 0 || n.indexOf("supply") >= 0) return "ops";
@@ -71,26 +77,55 @@
     });
   }
 
+  var THEMES = [
+    { k: "auto", label: "◐ Auto", title: "Theme: follows your device. Click for light." },
+    { k: "light", label: "☀ Light", title: "Theme: light. Click for dark." },
+    { k: "dark", label: "☾ Dark", title: "Theme: dark. Click to follow your device." }
+  ];
+  function applyTheme(k) {
+    if (k === "light" || k === "dark") document.documentElement.setAttribute("data-theme", k);
+    else document.documentElement.removeAttribute("data-theme");
+    var t = THEMES.filter(function (x) { return x.k === k; })[0] || THEMES[0];
+    var b = $("theme"); b.textContent = t.label; b.title = t.title; b.setAttribute("aria-label", t.title);
+  }
+  function initTheme() {
+    var k = "auto";
+    try { k = localStorage.getItem("theme") || "auto"; } catch (e) { /* storage unavailable */ }
+    applyTheme(k);
+    $("theme").addEventListener("click", function () {
+      var i = THEMES.map(function (x) { return x.k; }).indexOf(k);
+      k = THEMES[(i + 1) % THEMES.length].k;
+      try { localStorage.setItem("theme", k); } catch (e) { /* storage unavailable */ }
+      applyTheme(k);
+    });
+  }
+
   function itemMatches(it, q) {
     if (!q) return true;
     var hay = (it.title + " " + it.desc + " " + it.url).toLowerCase();
     return q.toLowerCase().split(/\s+/).every(function (w) { return hay.indexOf(w) >= 0; });
   }
 
-  function renderItem(it, q) {
+  function renderItem(it, q, date) {
     var parts = splitTag(it.desc);
+    var anchor = date + "-" + it._n;
     var full = it.fulltext || it.url;
     var btn = el("button", { class: "btn", type: "button", title: "Copy the full-text link and open NotebookLM", text: "🎧 NotebookLM" });
     btn.addEventListener("click", function () { listen(full); });
-    return el("div", { class: "item" }, [
-      el("a", { class: "t", href: it.url, target: "_blank", rel: "noopener", html: highlight(it.title, state.q) }),
-      el("p", { class: "d", html: highlight(parts[0], state.q) }),
-      el("div", { class: "meta" }, [
-        parts[1] ? el("span", { text: parts[1] }) : null,
-        el("a", { href: full, target: "_blank", rel: "noopener", text: "Full text" }),
-        btn
+    var node = el("div", { class: "item", id: anchor }, [
+      el("a", { class: "num", href: "#" + anchor, title: "Link to item " + it._n + " (bookmark to pick up here)", text: String(it._n) }),
+      el("div", { class: "body" }, [
+        el("a", { class: "t", href: it.url, target: "_blank", rel: "noopener", html: highlight(it.title, state.q) }),
+        el("p", { class: "d", html: highlight(parts[0], state.q) }),
+        el("div", { class: "meta" }, [
+          parts[1] ? el("span", { text: parts[1] }) : null,
+          el("a", { href: full, target: "_blank", rel: "noopener", text: "Full text" }),
+          btn
+        ])
       ])
     ]);
+    if (anchor === state.target) node.classList.add("target");
+    return node;
   }
 
   function renderDay(day, q, filter) {
@@ -102,13 +137,14 @@
       if (!items.length) return;
       total += items.length;
       secs.push(el("section", { class: "sec", "data-k": k }, [el("h3", { text: s.name.replace(/^\W+\s*/, "") + " (" + items.length + ")" })]
-        .concat(items.map(function (it) { return renderItem(it, q); }))));
+        .concat(items.map(function (it) { return renderItem(it, q, day.date); }))));
     });
     var hasAudio = !!day.audio && !q;
     if (!total && !(hasAudio && filter === "all")) return null;
     var head = el("div", { class: "day-head" }, [
       el("h2", {}, [el("a", { href: "#" + day.date, text: prettyDate(day.date) })]),
-      el("span", { class: "counts", text: total + (total === 1 ? " item" : " items") })
+      el("span", { class: "counts", text: total === day._total ? total + (total === 1 ? " item" : " items")
+        : total + " of " + day._total + " items" })
     ]);
     var kids = [head];
     if (hasAudio && filter === "all") {
@@ -155,15 +191,23 @@
   }
   function goHash() {
     var h = decodeURIComponent(location.hash.slice(1));
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(h)) return;
+    var m = h.match(/^(\d{4}-\d{2}-\d{2})(?:-(\d+))?$/);
+    if (!m) return;
     if (state.q) { state.q = ""; $("q").value = ""; }
-    ensureShown(h); render();
-    var t = $(h); if (t) t.scrollIntoView({ block: "start" });
-    $("jump").value = h;
+    state.target = m[2] ? h : "";
+    ensureShown(m[1]); render();
+    var t = $(h) || $(m[1]); if (t) t.scrollIntoView({ block: m[2] ? "center" : "start" });
+    $("jump").value = m[1];
   }
 
   function init(data) {
     state.days = data.days || [];
+    state.days.forEach(function (d) {
+      var n = 0;
+      d.sections.forEach(function (s) { s.items.forEach(function (it) { it._n = ++n; }); });
+      d._total = n;
+    });
+    initTheme();
     var chips = $("chips");
     SECTIONS.forEach(function (s) {
       var c = el("button", { class: "chip", type: "button", "aria-pressed": s.k === "all" ? "true" : "false", text: s.label });
