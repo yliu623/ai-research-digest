@@ -1,0 +1,173 @@
+{
+ "date": "2026-10-13",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": []
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Cracks Grow Across the AI Trade as Memory-Chip Stocks Tumble",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-13/cracks-grow-across-the-ai-trade-as-memory-chip-stocks-tumble",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-13/cracks-grow-across-the-ai-trade-as-memory-chip-stocks-tumble",
+     "date": "2026-10-13",
+     "desc": "Memory-chip makers led a sharp slide in AI-linked stocks, with Korean and Japanese chip names hit hard amid doubts about AI spending and a reported Chinese DRAM breakthrough claim. [Bloomberg, published 2026-10-13]"
+    },
+    {
+     "title": "Hyperscaler Debt Binge Risks Curbing Access for Emerging Nations",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-13/ai-debt-binge-risks-crowding-out-em-nations-from-global-markets",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-13/ai-debt-binge-risks-crowding-out-em-nations-from-global-markets",
+     "date": "2026-10-13",
+     "desc": "Bloomberg reports on the risk that heavy bond issuance by AI hyperscalers could crowd emerging-market borrowers out of global debt markets. [Bloomberg, published 2026-10-13]"
+    },
+    {
+     "title": "Infosys Chairman Calls Job Fears ‘Hogwash’ as AI Spurs Business",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-13/infosys-chairman-calls-job-fears-hogwash-as-ai-spurs-business",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-13/infosys-chairman-calls-job-fears-hogwash-as-ai-spurs-business",
+     "date": "2026-10-13",
+     "desc": "Infosys's chairman dismisses worries that AI will destroy jobs, arguing that AI is generating new business for the IT-services firm. [Bloomberg, published 2026-10-13]"
+    },
+    {
+     "title": "Chip stocks slide in wake of ‘casino’ comment by Broadcom boss",
+     "url": "https://www.ft.com/content/e16f0422-cf75-4cc9-962d-4605e421dc63",
+     "fulltext": "https://www.ft.com/content/e16f0422-cf75-4cc9-962d-4605e421dc63",
+     "date": "2026-10-13",
+     "desc": "Semiconductor shares fell after Broadcom's chief executive likened much AI investor behavior to gambling, feeding wider concern about sentiment and financing discipline in the AI trade. [Financial Times, published 2026-10-13]"
+    },
+    {
+     "title": "IMF upgrades outlook for UK as AI drives growth spurt",
+     "url": "https://www.ft.com/content/4a7a7282-74a5-4d12-8294-6dd0d4802d88",
+     "fulltext": "https://www.ft.com/content/4a7a7282-74a5-4d12-8294-6dd0d4802d88",
+     "date": "2026-10-13",
+     "desc": "The IMF raised its UK growth forecast, crediting AI-related investment and exports; it puts 2026 growth at about 1.3% and sees a slight slowdown in 2027. [Financial Times, published 2026-10-13]"
+    },
+    {
+     "title": "China resorts to Nvidia gaming chips in search for AI firepower",
+     "url": "https://www.ft.com/content/9dbd99db-6b0c-43bd-b7be-849f129df098",
+     "fulltext": "https://www.ft.com/content/9dbd99db-6b0c-43bd-b7be-849f129df098",
+     "date": "2026-10-13",
+     "desc": "The FT reports that Chinese AI developers are turning to Nvidia gaming chips to get compute amid supply constraints on advanced AI processors. [Financial Times, published 2026-10-13]"
+    },
+    {
+     "title": "Will Accenture survive or thrive in the age of AI?",
+     "url": "https://www.ft.com/content/15ae6a2e-6010-4d78-a752-2eeeca1e1c55",
+     "fulltext": "https://www.ft.com/content/15ae6a2e-6010-4d78-a752-2eeeca1e1c55",
+     "date": "2026-10-13",
+     "desc": "The FT asks whether the consulting and IT-services giant can adapt its business model as AI reshapes the demand for outsourced services. [Financial Times, published 2026-10-13]"
+    },
+    {
+     "title": "Chip Stocks Tumble on A.I. Spending Fears and Rising Chinese Competition",
+     "url": "https://www.nytimes.com/2026/10/13/business/technology-stocks-ai-nasdaq.html",
+     "fulltext": "https://www.nytimes.com/2026/10/13/business/technology-stocks-ai-nasdaq.html",
+     "date": "2026-10-13",
+     "desc": "The New York Times reports a tumble in chip stocks as investors worry about the durability of AI spending and growing competition from Chinese chipmakers. [NYT, published 2026-10-13]"
+    },
+    {
+     "title": "‘Phantom’ Data Centers Are Demanding More From the Power Grid Than They Need",
+     "url": "https://www.wsj.com/business/energy-oil/phantom-data-centers-are-demanding-more-from-the-power-grid-than-they-need-77e322bb",
+     "fulltext": "https://www.wsj.com/business/energy-oil/phantom-data-centers-are-demanding-more-from-the-power-grid-than-they-need-77e322bb",
+     "date": "2026-10-13",
+     "desc": "The Wall Street Journal reports that speculative data-center requests are inflating power-grid demand forecasts, and utilities are tightening terms to separate real projects from phantom ones. [WSJ, published 2026-10-13]"
+    },
+    {
+     "title": "Nasdaq Futures Fall as Global AI Selloff Intensifies",
+     "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-fall-as-global-ai-selloff-intensifies-fe149717",
+     "fulltext": "https://www.wsj.com/finance/stocks/nasdaq-futures-fall-as-global-ai-selloff-intensifies-fe149717",
+     "date": "2026-10-13",
+     "desc": "Nasdaq futures dropped as a selloff in AI-related stocks spread across global markets. [WSJ, published 2026-10-13]"
+    },
+    {
+     "title": "How the AI Boom Is Fueling Global Financial Risks",
+     "url": "https://www.bloomberg.com/news/features/2026-10-12/how-the-ai-boom-is-fueling-global-financial-risks",
+     "fulltext": "https://www.bloomberg.com/news/features/2026-10-12/how-the-ai-boom-is-fueling-global-financial-risks",
+     "date": "2026-10-12",
+     "desc": "Bloomberg examines how a circular funding model, with foreign money flowing into data-center buildouts, is accelerating the AI boom while amplifying financial imbalances that recall the run-up to the global financial crisis. Related IMF analysis counts about $300 billion of equity and $650 billion of debt moving into weaker AI firms through disclosed deals since 2023. [Bloomberg, published 2026-10-12]"
+    },
+    {
+     "title": "Meta Says New AI Model Is State-of-the-Art, Will Make Muse Agent Smarter",
+     "url": "https://www.wsj.com/tech/ai/meta-says-new-ai-model-is-state-of-the-art-will-make-muse-agent-smarter-1304cdf4",
+     "fulltext": "https://www.wsj.com/tech/ai/meta-says-new-ai-model-is-state-of-the-art-will-make-muse-agent-smarter-1304cdf4",
+     "date": "2026-10-12",
+     "desc": "Meta unveiled new AI models that it calls state-of-the-art and says will improve its Muse agent; Meta's stock rose on the news. [WSJ, published 2026-10-12]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello and welcome to the AI Research Digest briefing for October thirteenth, twenty twenty-six. No new papers cleared our filters today, so this is a news day, and the theme is nerves in the AI trade."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. Right, the big story is a global slide in chip stocks. The New York Times and Bloomberg both report memory-chip makers tumbling, on fears about AI spending and competition from China."
+  },
+  {
+   "speaker": "A",
+   "text": "The Financial Times adds the trigger that got a lot of attention: Broadcom's chief executive compared much AI investor behavior to gambling. Chip shares slid after that."
+  },
+  {
+   "speaker": "B",
+   "text": "Bloomberg also describes a reported Chinese breakthrough claim in memory chips, which hit Korean and Japanese names especially hard. Chinese chip claims have been walked back before, so that part is worth treating carefully."
+  },
+  {
+   "speaker": "A",
+   "text": "And the Wall Street Journal says Nasdaq futures fell as the selloff in AI stocks intensified globally."
+  },
+  {
+   "speaker": "B",
+   "text": "Underneath the price moves is a structural worry. A Bloomberg feature this week looks at how a circular funding model, where foreign money flows into data-center buildouts, is speeding up the boom while amplifying imbalances."
+  },
+  {
+   "speaker": "A",
+   "text": "Related IMF analysis counts about three hundred billion dollars of equity and six hundred fifty billion dollars of debt moving into weaker AI firms through disclosed deals since twenty twenty-three."
+  },
+  {
+   "speaker": "B",
+   "text": "Another Bloomberg story asks what happens when hyperscalers issue so much debt that emerging-market borrowers get crowded out of global bond markets."
+  },
+  {
+   "speaker": "A",
+   "text": "On the physical side, the Wall Street Journal reports on phantom data centers. Speculative projects are requesting more grid power than they will ever need, which inflates demand forecasts."
+  },
+  {
+   "speaker": "B",
+   "text": "Utilities are responding by tightening terms to tell real projects from speculative ones. That matters for anyone who pays an electricity bill."
+  },
+  {
+   "speaker": "A",
+   "text": "Not everything is gloomy. The FT says the IMF upgraded its outlook for the United Kingdom, crediting AI-related investment and exports, with growth around one point three percent this year."
+  },
+  {
+   "speaker": "B",
+   "text": "And at Infosys, the chairman called job-loss fears hogwash, saying AI is actually bringing the company new business. The FT, meanwhile, asks whether Accenture can survive or thrive in the age of AI."
+  },
+  {
+   "speaker": "A",
+   "text": "Two more items. The FT reports Chinese developers are turning to Nvidia gaming chips for compute. And Meta unveiled new models it calls state-of-the-art, which sent its stock up."
+  },
+  {
+   "speaker": "B",
+   "text": "So the picture is a boom with real money behind it, but with investors increasingly asking who is financing it and whether the demand is real."
+  },
+  {
+   "speaker": "A",
+   "text": "That's all for today. Full summaries and links are in the web archive."
+  },
+  {
+   "speaker": "B",
+   "text": "Thanks for listening, and we'll be back with the next digest."
+  }
+ ],
+ "footnote": "Window: 2026-10-12 (last run) → 2026-10-13. All sources were reachable this run. arXiv, INFORMS and NBER had no new matching AI-focused papers; SSRN searches turned up no papers with a verified in-window posting date. News summaries are based on feed headlines plus web searches."
+}
