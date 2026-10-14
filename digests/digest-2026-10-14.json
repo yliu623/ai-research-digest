@@ -1,0 +1,837 @@
+{
+ "date": "2026-10-14",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "AI Information Synthesis and Content Polarization",
+     "url": "https://arxiv.org/abs/2610.17674",
+     "fulltext": "https://arxiv.org/pdf/2610.17674",
+     "date": "2026-10-13",
+     "desc": "A game-theoretic model shows that AI's promise to reduce polarization can be undermined by content producers' strategic response: AI's effects unfold in three phases as its reliability rises, from no market effect to price discipline to consumer substitution. [arXiv econ.TH, submitted 2026-10-13]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "A theory paper on whether AI can reduce polarization. Abstract only, so we'll stay high level."
+      },
+      {
+       "speaker": "B",
+       "text": "The hope is AI synthesizes dispersed information into balanced content."
+      },
+      {
+       "speaker": "A",
+       "text": "But the authors model content producers who allocate limited capacity between broadly valuable information and horizontally differentiated information, and they respond strategically."
+      },
+      {
+       "speaker": "B",
+       "text": "What happens as AI gets better?"
+      },
+      {
+       "speaker": "A",
+       "text": "Three phases. At low reliability AI has no effect. At intermediate levels it disciplines prices without attracting consumers or changing content. When it's reliable enough, consumers start substituting toward it."
+      },
+      {
+       "speaker": "B",
+       "text": "And that last phase is where producers' response can undermine the depolarizing promise."
+      },
+      {
+       "speaker": "A",
+       "text": "So the takeaway is that market responses matter as much as the technology itself."
+      },
+      {
+       "speaker": "B",
+       "text": "Why would producers' response matter so much?"
+      },
+      {
+       "speaker": "A",
+       "text": "Because they can change what they produce when AI becomes an alternative source. The model has consumers acquiring information to make downstream decisions, so they weigh content against AI's synthesis."
+      },
+      {
+       "speaker": "B",
+       "text": "So reliability is the key parameter."
+      },
+      {
+       "speaker": "A",
+       "text": "Yes. Low reliability changes nothing, intermediate reliability disciplines prices, and high reliability triggers substitution and a content response."
+      },
+      {
+       "speaker": "B",
+       "text": "As a game-theoretic model it gives mechanisms rather than measured effects, so empirical tests would be the next step."
+      }
+     ]
+    },
+    {
+     "title": "Displacement Is Endogenous: AI Workers in a Search-and-Matching Labor Market",
+     "url": "https://arxiv.org/abs/2610.14850",
+     "fulltext": "https://arxiv.org/pdf/2610.14850",
+     "date": "2026-10-10",
+     "desc": "A simulated search-and-matching labor market lets AI systems apply, get hired and get dismissed alongside humans; AI entry at 70% of the human wage raises unemployment by 4.1 percentage points and leaves about 12 fewer humans employed across 30 seeded runs per configuration. [arXiv econ.GN, submitted 2026-10-10]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's paper builds a toy labor market where AI systems are workers, applying for jobs, getting screened, hired and fired next to humans. Fair warning, we're working from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "So what happens when AI shows up willing to work for seventy percent of the human wage?"
+      },
+      {
+       "speaker": "A",
+       "text": "Across thirty seeded runs, unemployment rises by about four point one percentage points, and roughly twelve fewer humans end up employed."
+      },
+      {
+       "speaker": "B",
+       "text": "And the mechanism is layoffs?"
+      },
+      {
+       "speaker": "A",
+       "text": "Mostly, when AI is much cheaper. Layoffs account for about seven of the lost jobs and reduced hiring for about five, though most dismissed workers find work again."
+      },
+      {
+       "speaker": "B",
+       "text": "Here's the twist: a wider price gap actually reduces displacement, because cheap AI makes firms expand. At price parity, with no dismissals at all, the unemployment effect is biggest, over nine points, entirely through reduced hiring."
+      },
+      {
+       "speaker": "A",
+       "text": "So the takeaway is that displacement is endogenous, shaped by firm responses and not just by how cheap the AI is."
+      },
+      {
+       "speaker": "B",
+       "text": "Right, and it's a simulation, so treat the numbers as illustrations of mechanisms rather than forecasts."
+      },
+      {
+       "speaker": "A",
+       "text": "Why build a simulation instead of using data? Because AI workers at scale don't exist yet in the data, so the authors vary the AI wage and the application rate and watch how firms and workers respond."
+      },
+      {
+       "speaker": "B",
+       "text": "And they report the parity result survives cutting AI applications per period sharply, so it isn't just AI flooding the market with applications."
+      },
+      {
+       "speaker": "A",
+       "text": "That's a useful robustness check. The limit is that this is a stylized model with seeded runs, so the magnitudes depend on assumptions about demand and search frictions."
+      },
+      {
+       "speaker": "B",
+       "text": "Still, the message is that who gets displaced depends on how firms adjust hiring and firing, not only on the relative price of AI labor."
+      }
+     ]
+    },
+    {
+     "title": "Too Late to Prune: Generative AI, the Screen, and Team Creative Decisions",
+     "url": "https://arxiv.org/abs/2610.14984",
+     "fulltext": "https://arxiv.org/pdf/2610.14984",
+     "date": "2026-10-10",
+     "desc": "A preregistered experiment with 148 three-person teams finds that moving the same 15 minutes of language-model access from the search stage to the selection stage lowered expert-rated creativity by 0.62 standard deviations, because early access enlarged the idea pool fivefold and teams pruned it. [arXiv econ.GN, submitted 2026-10-10]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper asks when, in creative work, generative AI helps most. We're working from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The pitch is that AI makes options cheap, so the bottleneck shifts from generating ideas to screening them."
+      },
+      {
+       "speaker": "A",
+       "text": "Exactly. The authors randomly assigned one hundred forty-eight teams of three to five schedules of access to the same language model during a product-design task."
+      },
+      {
+       "speaker": "B",
+       "text": "And the result?"
+      },
+      {
+       "speaker": "A",
+       "text": "Moving the same fifteen minutes of access from the search stage to the selection stage lowered expert-rated creativity by point six two standard deviations, even though teams used the model at similar rates."
+      },
+      {
+       "speaker": "B",
+       "text": "Why does timing matter?"
+      },
+      {
+       "speaker": "A",
+       "text": "Early access enlarged the pool of ideas fivefold, and teams pruned it at their screen. Options arriving after the screen go in unscreened."
+      },
+      {
+       "speaker": "B",
+       "text": "So the takeaway: get AI's ideas in front of the team's filter, not after it."
+      },
+      {
+       "speaker": "A",
+       "text": "The experiment also has a theory behind it, right?"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes. Early options compete for a place in the portfolio; late options arrive after that competition and are kept unscreened. The model predicts value depends on timing relative to the screen."
+      },
+      {
+       "speaker": "A",
+       "text": "And platform logs show where the difference arises?"
+      },
+      {
+       "speaker": "B",
+       "text": "They locate it at the screen. Early-access teams had five times as many ideas and pruned them; late-access teams reached the screen with the same small pool they would have had anyway."
+      },
+      {
+       "speaker": "A",
+       "text": "The caveat is a single product-design task with timed stages, so how far it generalizes to other creative work is open."
+      }
+     ]
+    },
+    {
+     "title": "Safety Research and the Allocation of Frontier Compute",
+     "url": "https://arxiv.org/abs/2610.14305",
+     "fulltext": "https://arxiv.org/pdf/2610.14305",
+     "date": "2026-10-09",
+     "desc": "A frontier-takeoff model asks whether customers or capability research should give up compute for AI safety, finding that research should contribute only when customer demand capacity falls below a threshold, and that customer-funded safety should come early. [arXiv econ.GN, submitted 2026-10-09]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This is a theory paper about who should give up compute for AI safety work. We're going on the abstract alone."
+      },
+      {
+       "speaker": "B",
+       "text": "Customers or capability research, who pays?"
+      },
+      {
+       "speaker": "A",
+       "text": "Safety paid for by customers delays no capability. Safety paid for by research slows the frontier, which gives knowledge time to accumulate but postpones what a finished frontier provides."
+      },
+      {
+       "speaker": "B",
+       "text": "So there's a trade-off."
+      },
+      {
+       "speaker": "A",
+       "text": "Yes, and the model finds a threshold in what the authors call demand capacity, the share of compute customers can use once the frontier is finished. Research should pay too only when demand capacity is below that threshold."
+      },
+      {
+       "speaker": "B",
+       "text": "In the calibration, customer-funded safety should come early, and its ratio to customer compute falls over the takeoff unless safety productivity rises fast."
+      },
+      {
+       "speaker": "A",
+       "text": "A stylized model, but a clean way to think about compute as an economic resource."
+      },
+      {
+       "speaker": "B",
+       "text": "Can you say more about demand capacity?"
+      },
+      {
+       "speaker": "A",
+       "text": "It's the share of compute customers can use once the frontier is finished. If customers can only use a small share, taking compute from them is cheap, so they should pay; if they can use a lot, research should share the burden."
+      },
+      {
+       "speaker": "B",
+       "text": "And where the threshold sits depends on how fast the value of customer services diminishes."
+      },
+      {
+       "speaker": "A",
+       "text": "In the calibration it rises with the service budget, because each further unit taken from customers costs them more."
+      },
+      {
+       "speaker": "B",
+       "text": "Remember this is a theoretical takeoff model with a calibration, so it's a framework for thinking, not a policy prescription."
+      }
+     ]
+    },
+    {
+     "title": "Is the business of frontier AI companies selling tokens? Value capture and equity prices",
+     "url": "https://arxiv.org/abs/2610.14145",
+     "fulltext": "https://arxiv.org/pdf/2610.14145",
+     "date": "2026-10-09",
+     "desc": "Reverse cash-flow calculations suggest OpenAI and Anthropic need combined year-ten revenue of $2.79 trillion or $733 billion depending on financial assumptions, and the paper reviews public evidence of income beyond selling model access, such as partnerships in pharmaceuticals, robotics or materials science. [arXiv econ.GN, submitted 2026-10-09]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Is the business of frontier AI companies just selling tokens? That's the question here, and we're working from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What do the authors do?"
+      },
+      {
+       "speaker": "A",
+       "text": "They run reverse cash-flow calculations on what valuations imply for OpenAI and Anthropic."
+      },
+      {
+       "speaker": "B",
+       "text": "And the numbers?"
+      },
+      {
+       "speaker": "A",
+       "text": "Combined year-ten revenue requirements of two point seven nine trillion dollars or seven hundred thirty-three billion, depending on financial assumptions."
+      },
+      {
+       "speaker": "B",
+       "text": "Those are huge. So where could the money come from?"
+      },
+      {
+       "speaker": "A",
+       "text": "Public documents point to proposed payments and ownership interests, for example through partnerships on pharmaceuticals, robotics or materials science, and the paper discusses firm boundaries and value capture."
+      },
+      {
+       "speaker": "B",
+       "text": "The takeaway: valuations may be betting on more than API revenue."
+      },
+      {
+       "speaker": "A",
+       "text": "What's the point of reverse cash-flow calculations?"
+      },
+      {
+       "speaker": "B",
+       "text": "Start from a valuation, apply financial assumptions, and ask what revenue the company would need in year ten to justify it. That gives the two figures, depending on the assumptions."
+      },
+      {
+       "speaker": "A",
+       "text": "So the gap between them shows how sensitive the story is to financial assumptions."
+      },
+      {
+       "speaker": "B",
+       "text": "Exactly. And the discussion of firm boundaries asks whether frontier labs will own pieces of the products built with their models."
+      },
+      {
+       "speaker": "A",
+       "text": "A caveat is that the evidence is public documents and proposals, not realized income, so it shows plans, not results."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "How Well Do LLMs Perform in Peer Review? Evidence from Finance and Accounting",
+     "url": "https://arxiv.org/abs/2610.18435",
+     "fulltext": "https://arxiv.org/pdf/2610.18435",
+     "date": "2026-10-13",
+     "desc": "GPT-4o, whose training data predate the 2024 season, refereed papers from the 2024 AFA and NBER finance meetings; papers it scored one standard deviation higher were 44% more likely to be published in top-three finance journals, with the signal coming from correctness and exposition judgments, not originality or significance. [arXiv q-fin.GN, submitted 2026-10-13]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper asks what part of a referee's job large language models can actually do. Abstract only today."
+      },
+      {
+       "speaker": "B",
+       "text": "How did they test it?"
+      },
+      {
+       "speaker": "A",
+       "text": "GPT-4o, with training data ending before the 2024 conference season, refereed papers presented at the 2024 AFA and NBER finance meetings. They compared its verdicts with publication in the top three finance journals over the next two years."
+      },
+      {
+       "speaker": "B",
+       "text": "And?"
+      },
+      {
+       "speaker": "A",
+       "text": "Papers scored one standard deviation higher were forty-four percent more likely to be published, net of author reputation, and it's not look-ahead bias because the model doesn't recall the outcomes."
+      },
+      {
+       "speaker": "B",
+       "text": "Where does the signal come from?"
+      },
+      {
+       "speaker": "A",
+       "text": "Its judgments of correctness and exposition. Its judgments of originality and significance carry none, and a guide stressing importance doesn't help. The split holds for accounting papers too."
+      },
+      {
+       "speaker": "B",
+       "text": "So models can check, but can't yet judge contribution."
+      },
+      {
+       "speaker": "A",
+       "text": "Why use a model whose training ended before 2024?"
+      },
+      {
+       "speaker": "B",
+       "text": "To avoid look-ahead bias, since the model can't have seen which papers got published. The authors also show it does not recall the outcomes."
+      },
+      {
+       "speaker": "A",
+       "text": "And net of author reputation, the effect holds."
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, which suggests the model picks up quality and not just who wrote the paper."
+      },
+      {
+       "speaker": "A",
+       "text": "The implication for journals deciding whether to allow referees to use LLMs is that models seem useful for checking correctness and clarity, but not for judging contribution. We only have the abstract, so details on the scoring are beyond us."
+      }
+     ]
+    },
+    {
+     "title": "Reinforcement Learning with Hawkes-Structured Networks for Market Making",
+     "url": "https://arxiv.org/abs/2610.16524",
+     "fulltext": "https://arxiv.org/pdf/2610.16524",
+     "date": "2026-10-12",
+     "desc": "The paper proposes the Hawkes-Structured Network, a neural architecture trained with model-free reinforcement learning for market making under self-exciting order flow, with non-asymptotic bounds on the loss from approximating the Hawkes state with exponentially weighted features. [arXiv cs.LG, submitted 2026-10-12]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper is about market making when order arrivals cluster and excite each other. Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Those are Hawkes processes."
+      },
+      {
+       "speaker": "A",
+       "text": "Right, and they're non-Markovian, which makes the problem hard. The authors propose model-free reinforcement learning for it."
+      },
+      {
+       "speaker": "B",
+       "text": "What's new?"
+      },
+      {
+       "speaker": "A",
+       "text": "They first prove non-asymptotic bounds on the loss from approximating the infinite-dimensional Hawkes state with a finite set of exponentially weighted features."
+      },
+      {
+       "speaker": "B",
+       "text": "Guided by that, they build the Hawkes-Structured Network, which encodes order-flow history through a learnable mixture-of-exponentials filter and is trained end to end with the quoting policy."
+      },
+      {
+       "speaker": "A",
+       "text": "They test on single- and multi-asset market-making problems."
+      },
+      {
+       "speaker": "B",
+       "text": "So theory-guided architecture for trading agents."
+      },
+      {
+       "speaker": "A",
+       "text": "Why not just fit a Hawkes model and solve for the optimal quotes?"
+      },
+      {
+       "speaker": "B",
+       "text": "With general Hawkes dynamics the state is infinite-dimensional, so the exact solution is intractable. The paper instead approximates it with a finite set of features and bounds the loss."
+      },
+      {
+       "speaker": "A",
+       "text": "The learnable filter then chooses the features end to end with the policy."
+      },
+      {
+       "speaker": "B",
+       "text": "Right, so representation and trading policy are optimized together from reward feedback."
+      },
+      {
+       "speaker": "A",
+       "text": "The abstract mentions experiments on single- and multi-asset problems, but without the numbers we can't say how large the gains are."
+      }
+     ]
+    },
+    {
+     "title": "Requested, Executed and Recoverable Credit: Shared Action Ordering among LLM Borrowers in a Simulated Lending Market",
+     "url": "https://arxiv.org/abs/2610.15973",
+     "fulltext": "https://arxiv.org/pdf/2610.15973",
+     "date": "2026-10-11",
+     "desc": "In a simulated collateralized lending market with 15 LLM agents, moving the borrowing action from last to first in the action list raises valid borrowing requests by 27 percentage points, and markets that list borrowing first raised net debt by 1.8 to 2.7 times initial unused capacity. [arXiv q-fin.RM, submitted 2026-10-11]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper looks at AI agents in a simulated lending market and how a shared piece of software can move them all. Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the shared component?"
+      },
+      {
+       "speaker": "A",
+       "text": "Just the order in which a borrowing agent's actions are listed."
+      },
+      {
+       "speaker": "B",
+       "text": "That seems trivial."
+      },
+      {
+       "speaker": "A",
+       "text": "In fixed decision states, moving borrowing from last to first raises valid borrowing requests by twenty-seven percentage points."
+      },
+      {
+       "speaker": "B",
+       "text": "And at market level?"
+      },
+      {
+       "speaker": "A",
+       "text": "In twelve matched pairs of fifteen-agent markets, the four that listed borrowing first raised net debt by one point eight to two point seven times their initial unused borrowing capacity, while those listing debt reduction first cut debt."
+      },
+      {
+       "speaker": "B",
+       "text": "So common interface choices could synchronize agents across different models."
+      },
+      {
+       "speaker": "A",
+       "text": "That's the systemic-risk angle, with the caveat that it's a simulation using three open-weight model families."
+      },
+      {
+       "speaker": "B",
+       "text": "Why does this matter for real markets?"
+      },
+      {
+       "speaker": "A",
+       "text": "Because agents built on different language models can still share software, like an interface or tool schema, and a common design choice can line them all up."
+      },
+      {
+       "speaker": "B",
+       "text": "The abstract says these groups account for ninety-six percent of the sample variation among common markets."
+      },
+      {
+       "speaker": "A",
+       "text": "Right, and the variation among common-order markets is three times the balanced-order markets, so a shared ordering moves whole markets in one direction."
+      },
+      {
+       "speaker": "B",
+       "text": "The limit is that it's a simulated market with open-weight models, so it flags a risk rather than measuring one in live lending."
+      }
+     ]
+    },
+    {
+     "title": "Do Rollups Self-Organize? Multi-Agent Reinforcement Learning in the EIP-4844 Blob Fee Market",
+     "url": "https://arxiv.org/abs/2610.15256",
+     "fulltext": "https://arxiv.org/pdf/2610.15256",
+     "date": "2026-10-11",
+     "desc": "The paper builds a calibrated multi-agent reinforcement learning environment for Ethereum's EIP-4844 blob fee market and finds that independent learners settle near the three-blob target without coordination, at 3.32 blobs per block over five seeds. [arXiv cs.MA, submitted 2026-10-11]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This one studies fee markets on Ethereum using multi-agent reinforcement learning. Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the setup?"
+      },
+      {
+       "speaker": "A",
+       "text": "EIP-4844 created a separate data fee for rollups with a target of three blobs per block. Whether the target is hit depends on many self-interested rollups."
+      },
+      {
+       "speaker": "B",
+       "text": "So they simulate learners."
+      },
+      {
+       "speaker": "A",
+       "text": "A calibrated environment fit to post-Dencun data, where the blob base fee is endogenous. It first reproduces the known single-agent optimum."
+      },
+      {
+       "speaker": "B",
+       "text": "Then independent learners with no convergence guarantee still settle near the target, three point three two blobs per block over five seeds."
+      },
+      {
+       "speaker": "A",
+       "text": "So the fee rule seems to coordinate behavior without explicit coordination."
+      },
+      {
+       "speaker": "B",
+       "text": "Why is this hard to analyze with equations?"
+      },
+      {
+       "speaker": "A",
+       "text": "Closed-form models handle a single agent under exogenous prices or a static equilibrium, but here the price is set by the aggregate of many agents' choices."
+      },
+      {
+       "speaker": "B",
+       "text": "And the environment is calibrated to real data."
+      },
+      {
+       "speaker": "A",
+       "text": "Yes, heterogeneous rollups fit to post-Dencun Ethereum data."
+      },
+      {
+       "speaker": "B",
+       "text": "The abstract also mentions testing a fiftyfold demand change, though we don't have those results. As a simulation, it shows what learners can do, not what real rollups will do."
+      }
+     ]
+    },
+    {
+     "title": "AlphaRLM: Aligning Language Models for Literature-Grounded Symbolic Factor Discovery",
+     "url": "https://arxiv.org/abs/2610.14959",
+     "fulltext": "https://arxiv.org/pdf/2610.14959",
+     "date": "2026-10-10",
+     "desc": "AlphaRLM is a reinforcement-learning framework that trains LLMs to construct executable symbolic alpha factors from financial literature, using literature-guided operator assembly and rewards for executable validity and grouped-return separation. [arXiv cs.AI, submitted 2026-10-10]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "AlphaRLM is about teaching language models to invent trading factors. Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Formulaic alpha mining, searching for executable expressions that predict returns."
+      },
+      {
+       "speaker": "A",
+       "text": "Yes. Earlier LLM approaches used prompting or iterative search. This one trains the model with reinforcement learning."
+      },
+      {
+       "speaker": "B",
+       "text": "How does it use the literature?"
+      },
+      {
+       "speaker": "A",
+       "text": "A component called LEGO conditions factor construction on literature-derived ideas and executable operators, giving the model semantic priors."
+      },
+      {
+       "speaker": "B",
+       "text": "And the rewards?"
+      },
+      {
+       "speaker": "A",
+       "text": "Executable validity and grouped-return separation, which captures non-monotonic patterns across factor quantiles."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors report extensive experiments; we don't have the numbers from the abstract here."
+      },
+      {
+       "speaker": "A",
+       "text": "What problem does this solve over earlier approaches?"
+      },
+      {
+       "speaker": "B",
+       "text": "Earlier LLM methods use prompting, iterative search or evolution from seed factors. Direct factor construction through policy learning has been less explored, and AlphaRLM needs no input factor expressions."
+      },
+      {
+       "speaker": "A",
+       "text": "That's the claim in the abstract."
+      },
+      {
+       "speaker": "B",
+       "text": "Yes. The rewards reflect that useful factors can behave non-monotonically across quantiles, so a simple rank correlation might miss them."
+      },
+      {
+       "speaker": "A",
+       "text": "As with any alpha mining paper, out-of-sample and live performance is what matters, and we only have the abstract summary."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "From Observation to Intervention: Mastering Bus Holding Control from Historical Uncontrolled Trajectories with Offline Reinforcement Learning",
+     "url": "https://arxiv.org/abs/2610.14632",
+     "fulltext": "https://arxiv.org/pdf/2610.14632",
+     "date": "2026-10-10",
+     "desc": "Offline-GMAC, a graph-based multi-agent actor-critic, learns bus holding policies purely from logged GPS data collected under uncontrolled operations, avoiding disruptive online exploration when tackling bus bunching. [arXiv econ.GN, submitted 2026-10-10]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper tackles bus bunching with offline reinforcement learning. Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Buses dispatched at equal headways inevitably bunch up."
+      },
+      {
+       "speaker": "A",
+       "text": "Right, which hurts waiting times and reliability. Reinforcement learning helps, but existing approaches must interact with the live system while learning."
+      },
+      {
+       "speaker": "B",
+       "text": "Which could disrupt service."
+      },
+      {
+       "speaker": "A",
+       "text": "So the authors propose Offline-GMAC, which trains holding policies using only logged GPS data from normal uncontrolled operations, with graph neural networks."
+      },
+      {
+       "speaker": "B",
+       "text": "The appeal is no disruptive exploration on real buses."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does offline learning matter here?"
+      },
+      {
+       "speaker": "B",
+       "text": "A bus system is live. If an agent has to explore to learn, it may worsen service for real passengers before it improves."
+      },
+      {
+       "speaker": "A",
+       "text": "So logged GPS data from normal operations becomes the training set."
+      },
+      {
+       "speaker": "B",
+       "text": "Right, with graph neural networks capturing the relationships among buses along the route."
+      },
+      {
+       "speaker": "A",
+       "text": "Bunching raises waiting times and creates load imbalances, so better holding control could improve reliability. We only have the abstract, so we can't report the size of the improvement."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Chip-Machine Supplier ASML Boosts Guidance for Third Time on Surging AI Demand",
+     "url": "https://www.wsj.com/business/earnings/chip-machine-supplier-asml-boosts-guidance-for-third-time-on-surging-ai-demand-7ea173d9",
+     "fulltext": "https://www.wsj.com/business/earnings/chip-machine-supplier-asml-boosts-guidance-for-third-time-on-surging-ai-demand-7ea173d9",
+     "date": "2026-10-14",
+     "desc": "ASML raised its guidance for the third time, as the data-center buildout that has made chips a red-hot commodity keeps driving demand. [WSJ, published 2026-10-14]"
+    },
+    {
+     "title": "Failure of Australia’s Largest IPO in Decades Sends Tremors Through AI Trade",
+     "url": "https://www.wsj.com/finance/firmus-ipo-ai-trade-f490c240",
+     "fulltext": "https://www.wsj.com/finance/firmus-ipo-ai-trade-f490c240",
+     "date": "2026-10-14",
+     "desc": "The failure of Australia's largest IPO in decades, Firmus, is rattling the AI trade; high interest rates and political uncertainty have data-center startups and other tech firms rethinking when to go public. [WSJ, published 2026-10-14]"
+    },
+    {
+     "title": "CoreWeave targets ‘unlimited’ insurance money to fund AI build-out",
+     "url": "https://www.ft.com/content/4ffa1853-0e2c-424f-b941-88c6bcac5765",
+     "fulltext": "https://www.ft.com/content/4ffa1853-0e2c-424f-b941-88c6bcac5765",
+     "date": "2026-10-14",
+     "desc": "CoreWeave's co-founder is eyeing insurers' vast capital for loans to fund the Nvidia-backed cloud provider's data-center build-out. [Financial Times, published 2026-10-14]"
+    },
+    {
+     "title": "The battle over the AI-led future of banking has begun",
+     "url": "https://www.ft.com/content/8c6a7595-9403-44f3-81ac-a2e5ceb37459",
+     "fulltext": "https://www.ft.com/content/8c6a7595-9403-44f3-81ac-a2e5ceb37459",
+     "date": "2026-10-14",
+     "desc": "A column argues an initiative is needed to bring banks, regulators and firms such as OpenAI and Anthropic together to shape how AI is used in banking. [Financial Times, published 2026-10-14]"
+    },
+    {
+     "title": "China’s exports surge 36% as AI-related shipments boom",
+     "url": "https://www.ft.com/content/4eab6c20-60d6-46b6-accd-2e04edfa541d",
+     "fulltext": "https://www.ft.com/content/4eab6c20-60d6-46b6-accd-2e04edfa541d",
+     "date": "2026-10-14",
+     "desc": "China's September exports surged 36% as AI-related shipments boomed, pushing the trade surplus to a record and the economy toward surpassing 2025's $1.2tn total. [Financial Times, published 2026-10-14]"
+    },
+    {
+     "title": "Singapore’s MAS Stands Pat as Easing AI Boom Tames Inflation",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-14/singapore-holds-monetary-policy-as-economy-expands-5-4-on-ai",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-14/singapore-holds-monetary-policy-as-economy-expands-5-4-on-ai",
+     "date": "2026-10-14",
+     "desc": "Singapore's central bank unexpectedly held policy, expecting both the global energy crunch and the AI boom to ease in 2027, with GDP growing 5.4%. [Bloomberg, published 2026-10-14]"
+    },
+    {
+     "title": "BofA No Longer in Talks to Arrange IPO of China’s Moonshot AI",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-14/bofa-no-longer-in-talks-to-arrange-ipo-of-china-s-moonshot-ai",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-14/bofa-no-longer-in-talks-to-arrange-ipo-of-china-s-moonshot-ai",
+     "date": "2026-10-14",
+     "desc": "Bank of America is no longer among banks working on a potential IPO of China's Moonshot AI, which faces scrutiny in the US, per people familiar. [Bloomberg, published 2026-10-14]"
+    },
+    {
+     "title": "AI Robots: China Is Beating the US to $5 Trillion Market",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-10-14/ai-robots-china-is-beating-the-us-to-5-trillion-market",
+     "fulltext": "https://www.bloomberg.com/news/newsletters/2026-10-14/ai-robots-china-is-beating-the-us-to-5-trillion-market",
+     "date": "2026-10-14",
+     "desc": "A Bloomberg newsletter piece argues Chinese firms lead in advanced physical-AI hardware such as robotic hands, putting China ahead in a potential $5 trillion robot market. [Bloomberg, published 2026-10-14]"
+    },
+    {
+     "title": "To Get This Job at McKinsey, You’ll Need to Survive a Debate With AI First",
+     "url": "https://www.wsj.com/lifestyle/careers/mckinsey-interview-process-ai-7d08a69e",
+     "fulltext": "https://www.wsj.com/lifestyle/careers/mckinsey-interview-process-ai-7d08a69e",
+     "date": "2026-10-14",
+     "desc": "McKinsey is rolling out an AI avatar that plays the client in some consulting interviews, so candidates must debate AI to get hired. [WSJ, published 2026-10-14]"
+    },
+    {
+     "title": "This used to be a cornerstone of every job application. Not anymore.",
+     "url": "https://www.washingtonpost.com/business/2026/10/14/has-ai-made-cover-letter-obsolete/",
+     "fulltext": "https://www.washingtonpost.com/business/2026/10/14/has-ai-made-cover-letter-obsolete/",
+     "date": "2026-10-14",
+     "desc": "The Washington Post asks whether AI has made the job-application cover letter obsolete. [Washington Post, published 2026-10-14]"
+    },
+    {
+     "title": "Jamie Dimon: Clients Need to Understand Risks of AI Agents in Bank Accounts",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-bank-earnings-10-13-2026/card/jamie-dimon-clients-need-to-understand-risks-of-ai-agents-in-bank-accounts-DPjkEK7udz1ulqgJX0Ns",
+     "fulltext": "https://www.wsj.com/livecoverage/stock-market-today-bank-earnings-10-13-2026/card/jamie-dimon-clients-need-to-understand-risks-of-ai-agents-in-bank-accounts-DPjkEK7udz1ulqgJX0Ns",
+     "date": "2026-10-13",
+     "desc": "The JPMorgan chief said clients need to understand the risks of letting AI agents into their bank accounts, in remarks during the bank-earnings coverage. [WSJ, published 2026-10-13]"
+    },
+    {
+     "title": "AI Chips’ New Secret Sauce Is Packaging",
+     "url": "https://www.wsj.com/tech/ai/ai-chips-new-secret-sauce-is-packaging-a144a348",
+     "fulltext": "https://www.wsj.com/tech/ai/ai-chips-new-secret-sauce-is-packaging-a144a348",
+     "date": "2026-10-13",
+     "desc": "A WSJ tech newsletter highlights advanced packaging as the new differentiator in AI chips. [WSJ, published 2026-10-13]"
+    },
+    {
+     "title": "Character.ai Maker Files for Chapter 11 Bankruptcy",
+     "url": "https://www.wsj.com/tech/ai/character-ai-maker-files-for-chapter-11-bankruptcy-740e6fb1",
+     "fulltext": "https://www.wsj.com/tech/ai/character-ai-maker-files-for-chapter-11-bankruptcy-740e6fb1",
+     "date": "2026-10-13",
+     "desc": "Character.ai's maker filed for Chapter 11 bankruptcy after scrutiny of its platform's effects on teen mental health. [WSJ, published 2026-10-13]"
+    },
+    {
+     "title": "AI Business Use Rises Despite Growing Concern",
+     "url": "https://www.wsj.com/cio-journal/ai-business-use-rises-despite-growing-concern-74f5e7d7",
+     "fulltext": "https://www.wsj.com/cio-journal/ai-business-use-rises-despite-growing-concern-74f5e7d7",
+     "date": "2026-10-13",
+     "desc": "A WSJ CIO Journal item reports business use of AI is rising despite growing concern. [WSJ, published 2026-10-13]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Good morning, this is the Daily AI Research Digest for October fourteenth, twenty twenty-six. Today: new research on AI workers and unemployment, an LLM refereeing finance papers, and a busy news day on the AI buildout."
+  },
+  {
+   "speaker": "B",
+   "text": "Starting with labor. A new arXiv paper builds a search-and-matching labor market where AI systems apply for jobs next to humans. With AI at seventy percent of the human wage, unemployment rises about four percentage points."
+  },
+  {
+   "speaker": "A",
+   "text": "And interestingly, the biggest effect comes at price parity, over nine points, entirely through reduced hiring, while a wider price gap lets firms expand and reduces displacement."
+  },
+  {
+   "speaker": "B",
+   "text": "Another economics paper ran a preregistered experiment with a hundred forty-eight teams. Giving the same fifteen minutes of model access during selection instead of search lowered creativity by point six two standard deviations."
+  },
+  {
+   "speaker": "A",
+   "text": "The lesson is that ideas have to arrive before the team's screen, or they go in unscreened."
+  },
+  {
+   "speaker": "B",
+   "text": "In finance, researchers had GPT-4o referee papers from the twenty twenty-four AFA and NBER meetings. Papers it scored one standard deviation higher were forty-four percent more likely to reach a top-three finance journal."
+  },
+  {
+   "speaker": "A",
+   "text": "But the signal came from judging correctness and exposition. Its views on originality and significance carried none."
+  },
+  {
+   "speaker": "B",
+   "text": "Also a striking simulation: fifteen LLM agents in a lending market. Simply listing the borrowing action first raised valid borrowing requests by twenty-seven percentage points, and whole markets piled on debt."
+  },
+  {
+   "speaker": "A",
+   "text": "Another paper asks whether frontier AI companies are just selling tokens. Reverse cash-flow calculations imply combined year-ten revenue needs of anywhere from seven hundred thirty-three billion to two point seven nine trillion dollars for OpenAI and Anthropic."
+  },
+  {
+   "speaker": "B",
+   "text": "On the news side, ASML raised guidance for the third time on surging AI demand, and the Financial Times reports it expects demand to exceed supply for two more years."
+  },
+  {
+   "speaker": "A",
+   "text": "The Financial Times also reports China's September exports surged thirty-six percent as AI-related shipments boomed."
+  },
+  {
+   "speaker": "B",
+   "text": "Not everything is rosy. The Wall Street Journal says the failure of Australia's largest IPO in decades, Firmus, is sending tremors through the AI trade."
+  },
+  {
+   "speaker": "A",
+   "text": "And CoreWeave's co-founder is eyeing insurers' capital to fund the build-out. Meanwhile Jamie Dimon says bank clients need to understand the risks of AI agents in their accounts."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest. Full summaries and links are in the web archive. Thanks for listening."
+  },
+  {
+   "speaker": "A",
+   "text": "See you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-10-13 (last run) → 2026-10-14. All sources reached. SSRN searches found no paper with a verified in-window posting date. News summaries are based on feed teasers; podcasts are based on abstracts."
+}
