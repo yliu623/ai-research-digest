@@ -1,0 +1,451 @@
+{
+ "date": "2026-10-15",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Creative destruction: Human-AI competition in an experimental market",
+     "url": "https://arxiv.org/abs/2610.18921",
+     "fulltext": "https://arxiv.org/pdf/2610.18921",
+     "date": "2026-10-12",
+     "desc": "Three experiments (N = 1,025) have participants design computer games with an AI coding agent and then buy them; games designed by the AI alone outperform those by human producers, including professional creatives, and producers do not anticipate this. Telling consumers a game is human-designed does not raise willingness to pay. [arXiv econ.GN, submitted 2026-10-12]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today a paper asks whether humans keep a role in production as AI improves. This one is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Two ideas are tested: humans might have a durable edge in taste and design, or consumers might simply prefer human-made products."
+      },
+      {
+       "speaker": "A",
+       "text": "In the experiments, participants act as producers designing computer games with an AI coding agent, and as consumers who buy the games. Across three studies with about one thousand twenty-five participants, they find no evidence for either idea."
+      },
+      {
+       "speaker": "B",
+       "text": "Games designed by the AI on its own did better than those from human producers, including amateurs and professional creatives."
+      },
+      {
+       "speaker": "A",
+       "text": "Human producers also did not anticipate the AI's advantage."
+      },
+      {
+       "speaker": "B",
+       "text": "And revealing that a game was human designed did not raise what consumers were willing to pay."
+      },
+      {
+       "speaker": "A",
+       "text": "So the takeaway is that neither taste nor a human-made premium obviously protects human roles, at least in this market."
+      },
+      {
+       "speaker": "B",
+       "text": "A fair caveat is that it is an experimental market for games, so results may not carry over everywhere."
+      }
+     ]
+    },
+    {
+     "title": "Recurrent Neural Networks for Forecasting Autoregressive Noncausal Processes",
+     "url": "https://arxiv.org/abs/2610.15296",
+     "fulltext": "https://arxiv.org/pdf/2610.15296",
+     "date": "2026-10-11",
+     "desc": "Compares RNN, LSTM, GRU, bidirectional LSTM and feed-forward networks for forecasting extreme values of noncausal time series that mimic bubbles and spikes; the simple feed-forward network does best at predicting extremes during a bubble, with further gains from pooling and a modified loss function. [arXiv econ.EM, submitted 2026-10-11]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper uses neural networks to forecast bubbles in economic time series. It is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The series are autoregressive causal-noncausal processes, which show local explosive patterns like bubbles and spikes."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors compare recurrent networks, LSTMs, GRUs, a bidirectional LSTM and a simple feed-forward network, across different training set lengths."
+      },
+      {
+       "speaker": "B",
+       "text": "Surprisingly, the simple feed-forward network is best at predicting extreme values of a noncausal series during a bubble."
+      },
+      {
+       "speaker": "A",
+       "text": "They also show that pooling forecasts and a modified loss function improve point predictions of extreme values."
+      },
+      {
+       "speaker": "B",
+       "text": "The takeaway: for bubble-like data, fancier architectures are not automatically better."
+      },
+      {
+       "speaker": "A",
+       "text": "Let me add some context on why anyone cares about noncausal processes. In economics, these models are used to capture episodes where a series climbs sharply and then crashes, which is how many people describe asset bubbles and commodity price spikes. Forecasting the peak is notoriously difficult, because the pattern looks locally explosive."
+      },
+      {
+       "speaker": "B",
+       "text": "That is why the question here is specifically about extreme values, not average accuracy. The authors vary both the type of network and the length of the training set, to see how each choice affects the ability to call those extremes during a bubble."
+      },
+      {
+       "speaker": "A",
+       "text": "The headline is that the plain feed-forward network outperforms the recurrent variants, including LSTM, GRU and bidirectional LSTM, when predicting extreme values of a univariate noncausal series during a bubble. They also report that pooling predictions and using a modified loss function improve the point predictions of extremes."
+      },
+      {
+       "speaker": "B",
+       "text": "Remember we are working only from the abstract, so details like exact error figures are not covered here. Still, the practical message for forecasters is to test simple networks before reaching for complex ones."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Data-Driven Dynamic Portfolio Selection with Vine Copula Simulation and Reinforcement Learning",
+     "url": "https://arxiv.org/abs/2610.20037",
+     "fulltext": "https://arxiv.org/pdf/2610.20037",
+     "date": "2026-10-14",
+     "desc": "Combines vine-copula scenario simulation with a recurrent reinforcement-learning policy for a CRRA investor with a CVaR penalty, with error bounds; on a seven-asset panel of US and Chinese equities and gold, an ensemble of ten policies reaches a 34.13% CAGR and Sharpe ratio of 2.31 over 22 monthly periods, beating six benchmarks. [arXiv q-fin.PM, submitted 2026-10-14]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Here is a q-fin paper on portfolio choice with reinforcement learning, based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The investor has constant relative risk aversion and maximizes expected terminal utility, with a penalty on conditional value at risk."
+      },
+      {
+       "speaker": "A",
+       "text": "The method estimates a vine copula model from historical returns, then uses it to simulate scenarios and train a recurrent portfolio policy."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors also derive bounds showing how errors in the fitted model carry through to policy values."
+      },
+      {
+       "speaker": "A",
+       "text": "On seven assets, US and Chinese equities and gold, an ensemble of ten policies earns a compound annual growth rate of thirty-four point one three percent and a Sharpe ratio of two point three one over twenty-two monthly periods, ahead of six benchmarks."
+      },
+      {
+       "speaker": "B",
+       "text": "Mixing simulated with historical training data cut monthly turnover by forty-one point five percent with comparable growth."
+      },
+      {
+       "speaker": "A",
+       "text": "The caveat is a short evaluation window of twenty-two months, so treat the headline numbers carefully."
+      }
+     ]
+    },
+    {
+     "title": "Beyond Time Induction: Structured Conditional Neural Solvers for Parametric Stochastic-Volatility Pricing",
+     "url": "https://arxiv.org/abs/2610.19254",
+     "fulltext": "https://arxiv.org/pdf/2610.19254",
+     "date": "2026-10-13",
+     "desc": "Introduces BeTINN, a physics-informed neural architecture for solving the parametric Heston stochastic-volatility PDE, improving joint accuracy of option values and sensitivities over baselines and showing that low validation loss does not guarantee accurate derivatives. [arXiv cs.LG, submitted 2026-10-13]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper uses neural networks to price options. It is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Physics-informed neural networks can learn families of PDE solutions without labeled data, but keeping derivatives accurate across regimes is hard."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors introduce BeTINN, which conditions on both time and model parameters and adds a joint residual pathway."
+      },
+      {
+       "speaker": "B",
+       "text": "They test it on the Heston stochastic volatility PDE, where sensitivities like the Greeks matter economically, and report better joint accuracy on option values and key sensitivities than their baselines."
+      },
+      {
+       "speaker": "A",
+       "text": "An important finding is that low validation physics loss does not fully determine derivative accuracy, so evaluation should check sensitivities directly."
+      },
+      {
+       "speaker": "B",
+       "text": "To put this in context, the Heston model is a standard stochastic volatility setup in options pricing, and its pricing equation is a partial differential equation with mixed derivatives. Traders care not only about the option value but also about sensitivities, which are the first and second order derivatives of that value."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors' neural architecture, BeTINN, extends an earlier idea called time induced modulation. It conditions the network on both time and the model parameters in several directions, and adds a joint residual pathway, so one network can cover a whole family of parameter settings."
+      },
+      {
+       "speaker": "B",
+       "text": "They run controlled ablations to see which architectural pieces matter, and report improved joint accuracy across normalized option value and key sensitivity metrics relative to their baselines."
+      },
+      {
+       "speaker": "A",
+       "text": "The caution flagged in the abstract is that accurate solution values can coexist with localized derivative errors. So a model can look good on price and still be off on sensitivities, which are what hedging depends on. Again, this summary rests on the abstract alone."
+      }
+     ]
+    },
+    {
+     "title": "Enhancing credit risk scorecards with transactional-based behavioural features",
+     "url": "https://arxiv.org/abs/2610.13199",
+     "fulltext": "https://arxiv.org/pdf/2610.13199",
+     "date": "2026-10-09",
+     "desc": "Uses natural language processing and a RegEx-based categorisation algorithm to turn raw transaction narratives from a South African SME lender into behavioural features; adding them to a credit scorecard significantly raises the Gini. [arXiv q-fin.RM, submitted 2026-10-09]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper mines bank transaction text for credit scoring, based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Using data from a large South African lender focused on small businesses, the authors apply language processing and regular expressions to categorize payment narratives into interpretable spending categories."
+      },
+      {
+       "speaker": "A",
+       "text": "The categorization algorithm shows high accuracy, and adding the features to a traditional scorecard significantly increases the Gini."
+      },
+      {
+       "speaker": "B",
+       "text": "The takeaway is that unstructured transaction text can improve credit models while staying explainable."
+      },
+      {
+       "speaker": "A",
+       "text": "A little more on the setup. Credit scorecards normally rely on credit history, repayment behavior, income and outstanding debt. Transaction data is sometimes added through summary measures like recency, frequency and monetary value, but the free text describing each payment has mostly gone unused because it is messy and unstructured."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors work with data from a large South African financial institution focused on small and medium enterprises. They develop a novel categorization algorithm, combining language processing with regular expressions, that sorts transaction descriptions into interpretable spending categories. They then evaluate its classification accuracy, which they describe as high."
+      },
+      {
+       "speaker": "A",
+       "text": "The categories become behavioral features that are added to a credit risk scorecard. The result is a significant increase in the Gini coefficient compared with a scorecard without them."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors stress explainability, which matters in lending, because the features are readable categories rather than opaque model outputs. As before, we only have the abstract, so we cannot say how large the Gini gain is."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "AI-Driven Human Task Substitution: Evidence from Google Translate and ChatGPT",
+     "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.06740",
+     "fulltext": "https://doi.org/10.1287/mnsc.2024.06740",
+     "date": "2026-10-14",
+     "desc": "Difference-in-differences on an online labor market for translation: Google Neural Machine Translation reduced demand for analytical tasks but not intuitive ones (transcreation), while ChatGPT cut demand substantially for both, so which work is resilient does not generalize from predictive to generative AI. [Management Science, published online 2026-10-14]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This Management Science paper studies how AI substitutes for knowledge work, based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "It uses two natural experiments in an online translation labor market: Google Neural Machine Translation and then ChatGPT."
+      },
+      {
+       "speaker": "A",
+       "text": "Regular translations count as analytical tasks, while transcreations needing creative and cultural adaptation count as intuitive tasks."
+      },
+      {
+       "speaker": "B",
+       "text": "Google's system reduced demand for analytical tasks by meaningful amounts and had no detectable effect on intuitive ones."
+      },
+      {
+       "speaker": "A",
+       "text": "ChatGPT produced much larger and more uniform reductions in both kinds."
+      },
+      {
+       "speaker": "B",
+       "text": "So lessons about which jobs are safe from predictive AI do not carry over to generative AI."
+      },
+      {
+       "speaker": "A",
+       "text": "Some detail on the design. The researchers estimate difference-in-differences models on transaction level data from an online labor market, using 2016 to 2017 for the Google neural translation episode and 2022 to 2023 for ChatGPT."
+      },
+      {
+       "speaker": "B",
+       "text": "They split work into analytical tasks, meaning regular translations, and intuitive tasks, meaning transcreations that require creative and cultural adaptation. The question is which kind of work a given generation of AI can replace."
+      },
+      {
+       "speaker": "A",
+       "text": "The finding for the earlier, task specific system is that it reduced demand for analytical tasks by economically meaningful magnitudes, with no detectable effect on intuitive tasks. For ChatGPT, the reductions were substantially larger and more uniform, hitting both kinds."
+      },
+      {
+       "speaker": "B",
+       "text": "The broader lesson is about the scope of substitution widening with generative AI. Conclusions about which human work is resilient, drawn from predictive AI, do not straightforwardly generalize. One caveat is that this is a single market, online translation, and we are working from the abstract only."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Anthropic Says Revenue Jumped 45% to $16.8 Billion in Third Quarter",
+     "url": "https://www.nytimes.com/2026/10/14/technology/anthropic-ipo-revenue-profit.html",
+     "fulltext": "https://www.nytimes.com/2026/10/14/technology/anthropic-ipo-revenue-profit.html",
+     "date": "2026-10-14",
+     "desc": "Anthropic told investors its third-quarter revenue rose 45% to $16.8 billion at a meeting ahead of a planned IPO as soon as next month. The WSJ and FT also cover it; the FT reports the growth is slower than some anticipated. [NYT, published 2026-10-14]"
+    },
+    {
+     "title": "Stocks Tumble as Concerns Over Inflation and A.I. Investments Grow",
+     "url": "https://www.nytimes.com/2026/10/14/business/stocks-500-index-ai.html",
+     "fulltext": "https://www.nytimes.com/2026/10/14/business/stocks-500-index-ai.html",
+     "date": "2026-10-14",
+     "desc": "The S&P 500 fell 1.1 percent on Wednesday, its steepest drop in more than two months, as a hot inflation report combined with doubts about AI investment. [NYT, published 2026-10-14]"
+    },
+    {
+     "title": "AI Jitters and Rate-Hike Fears Combine for Worst Day for Stocks Since July",
+     "url": "https://www.wsj.com/finance/stocks/ai-jitters-and-rate-hike-fears-combine-for-worst-day-for-stocks-since-july-6abd3a0f",
+     "fulltext": "https://www.wsj.com/finance/stocks/ai-jitters-and-rate-hike-fears-combine-for-worst-day-for-stocks-since-july-6abd3a0f",
+     "date": "2026-10-14",
+     "desc": "A hot inflation report reset expectations for an October rate increase, then wavering confidence in the AI trade took center stage in the market's worst day since July. [WSJ, published 2026-10-14]"
+    },
+    {
+     "title": "Global Tech Stocks Slump as AI Rout Intensifies",
+     "url": "https://www.wsj.com/finance/stocks/nikkei-falls-2-9-tracking-wall-streets-losses-c1844121",
+     "fulltext": "https://www.wsj.com/finance/stocks/nikkei-falls-2-9-tracking-wall-streets-losses-c1844121",
+     "date": "2026-10-15",
+     "desc": "A selloff in technology stocks exposed to artificial intelligence gathered pace on Thursday, with the Nikkei among the markets falling. [WSJ, published 2026-10-15]"
+    },
+    {
+     "title": "The AI Boom Is Supercharging Wall Street's Profits",
+     "url": "https://www.wsj.com/finance/banking/the-ai-boom-is-supercharging-wall-streets-profits-2a2d9747",
+     "fulltext": "https://www.wsj.com/finance/banking/the-ai-boom-is-supercharging-wall-streets-profits-2a2d9747",
+     "date": "2026-10-14",
+     "desc": "Investment banking revenues are up and wealth-management divisions are winning new AI millionaires as clients. [WSJ, published 2026-10-14]"
+    },
+    {
+     "title": "U.K. Economy Defies Gloomy Predictions With Help From AI",
+     "url": "https://www.wsj.com/economy/u-k-economy-continues-growth-path-helped-by-industry-a3e7497f",
+     "fulltext": "https://www.wsj.com/economy/u-k-economy-continues-growth-path-helped-by-industry-a3e7497f",
+     "date": "2026-10-15",
+     "desc": "According to Deutsche Bank, AI-related spending contributed as much as a third of U.K. growth in the first seven months of the year. [WSJ, published 2026-10-15]"
+    },
+    {
+     "title": "AI Race Puts $3.5 Trillion at Write-Down Risk, Gartner Warns",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-15/ai-race-puts-3-5-trillion-at-write-down-risk-gartner-warns",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-15/ai-race-puts-3-5-trillion-at-write-down-risk-gartner-warns",
+     "date": "2026-10-15",
+     "desc": "Gartner warns that more than $3.5 trillion of AI infrastructure spending could be at risk of impairment by 2030 as the investment boom threatens to outpace revenue. [Bloomberg, published 2026-10-15]"
+    },
+    {
+     "title": "TSMC's Upbeat Outlook Fails to Quash AI Buildout Concerns",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-15/tsmc-s-profit-surpasses-expectations-after-ai-orders-rush-in",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-15/tsmc-s-profit-surpasses-expectations-after-ai-orders-rush-in",
+     "date": "2026-10-15",
+     "desc": "TSMC delivered a better-than-expected revenue outlook, sustaining rapid growth, but that did not dispel concern about the AI buildout. The FT reports third-quarter earnings of $23.6bn. [Bloomberg, published 2026-10-15]"
+    },
+    {
+     "title": "AI demand to exceed supply for 2 more years, says ASML",
+     "url": "https://www.ft.com/content/2fc239ae-b0d4-41e8-81d0-cc2c0b3aba01",
+     "fulltext": "https://www.ft.com/content/2fc239ae-b0d4-41e8-81d0-cc2c0b3aba01",
+     "date": "2026-10-14",
+     "desc": "ASML said clients including TSMC and Intel are seeing very strong demand, which it expects to exceed supply for two more years. [Financial Times, published 2026-10-14]"
+    },
+    {
+     "title": "The AI boom is threatened by an epidemic of unreliable numbers",
+     "url": "https://www.economist.com/business/2026/10/14/the-ai-boom-is-threatened-by-an-epidemic-of-unreliable-numbers",
+     "fulltext": "https://www.economist.com/business/2026/10/14/the-ai-boom-is-threatened-by-an-epidemic-of-unreliable-numbers",
+     "date": "2026-10-14",
+     "desc": "The Economist argues that investors can no longer trust the data used to assess the AI boom. [The Economist, published 2026-10-14]"
+    },
+    {
+     "title": "FCA plans to embrace AI to automate financial regulation",
+     "url": "https://www.ft.com/content/3a9364ec-6930-4877-a1a2-c053dd689760",
+     "fulltext": "https://www.ft.com/content/3a9364ec-6930-4877-a1a2-c053dd689760",
+     "date": "2026-10-15",
+     "desc": "The UK financial watchdog will set out its response to the rise of the latest frontier AI models, planning to use AI to automate parts of financial regulation. [Financial Times, published 2026-10-15]"
+    },
+    {
+     "title": "How AI mega-rounds make life harder for VC firms",
+     "url": "https://www.ft.com/content/26db5bb2-9d81-4c62-aeac-c0dfef4c79e6",
+     "fulltext": "https://www.ft.com/content/26db5bb2-9d81-4c62-aeac-c0dfef4c79e6",
+     "date": "2026-10-15",
+     "desc": "Fewer but bigger AI deals mean venture investors have to put more eggs in a single basket. [Financial Times, published 2026-10-15]"
+    },
+    {
+     "title": "Senators Question Meta's Data Center Tax Strategy",
+     "url": "https://www.nytimes.com/2026/10/14/technology/meta-senators-tax-avoidance.html",
+     "fulltext": "https://www.nytimes.com/2026/10/14/technology/meta-senators-tax-avoidance.html",
+     "date": "2026-10-14",
+     "desc": "Democrats on the Senate Finance Committee wrote to Mark Zuckerberg questioning Meta's $6.6 billion in tax breaks tied to its data centers. [NYT, published 2026-10-14]"
+    },
+    {
+     "title": "A New Private-Equity Firm Specializes in Giving Companies AI Glow-Ups",
+     "url": "https://www.wsj.com/finance/investing/a-new-private-equity-firm-specializes-in-giving-companies-ai-glow-ups-86fcb48e",
+     "fulltext": "https://www.wsj.com/finance/investing/a-new-private-equity-firm-specializes-in-giving-companies-ai-glow-ups-86fcb48e",
+     "date": "2026-10-15",
+     "desc": "Aldaron, founded by people from Palantir and Carlyle, has closed its debut fund and made its first investment, focused on applying AI to portfolio companies. [WSJ, published 2026-10-15]"
+    },
+    {
+     "title": "Investor appetite for data centre IPOs is reaching its limit",
+     "url": "https://www.ft.com/content/99be8a0c-dc81-4798-a55a-f8b6054fe672",
+     "fulltext": "https://www.ft.com/content/99be8a0c-dc81-4798-a55a-f8b6054fe672",
+     "date": "2026-10-15",
+     "desc": "The FT argues the blend of property, infrastructure and fast-changing technology in data centres may be better suited to other kinds of funding than IPOs. [Financial Times, published 2026-10-15]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "This is the Daily AI Research Digest for October fifteenth. Today: AI-trade jitters in markets, plus new papers on human versus AI producers and AI substitution of workers."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. Let's start with the research. A new arXiv paper ran experiments with over a thousand participants designing computer games with an AI coding agent."
+  },
+  {
+   "speaker": "A",
+   "text": "Games designed by the AI alone beat those from human producers, including professional creatives, and revealing a game was human made did not raise willingness to pay."
+  },
+  {
+   "speaker": "B",
+   "text": "Related, Management Science published a study of the translation labor market. Google's neural translation cut demand for analytical tasks but not creative ones. ChatGPT cut demand for both."
+  },
+  {
+   "speaker": "A",
+   "text": "In finance, an arXiv paper combines vine copula simulation with reinforcement learning for portfolios. An ensemble of ten policies reached a Sharpe ratio of two point three one over twenty-two months, though that's a short window."
+  },
+  {
+   "speaker": "B",
+   "text": "Another q-fin paper mines bank transaction text with language processing to improve credit scorecards at a South African small business lender, raising the Gini."
+  },
+  {
+   "speaker": "A",
+   "text": "Now the news. Anthropic told investors third-quarter revenue jumped forty-five percent to sixteen point eight billion dollars ahead of a planned IPO next month. The Financial Times says growth was slower than some anticipated."
+  },
+  {
+   "speaker": "B",
+   "text": "That landed on a rough day. The Wall Street Journal says a hot inflation report and wavering confidence in the AI trade produced the worst day for stocks since July, and the selloff spread to global tech on Thursday."
+  },
+  {
+   "speaker": "A",
+   "text": "Bloomberg reports Gartner warns that more than three point five trillion dollars of AI infrastructure spending could face impairment by twenty thirty."
+  },
+  {
+   "speaker": "B",
+   "text": "Yet supply chain signals stay strong. TSMC beat expectations, and ASML says AI demand will exceed supply for two more years."
+  },
+  {
+   "speaker": "A",
+   "text": "The Wall Street Journal also says AI-related spending contributed as much as a third of U.K. growth in the first seven months of the year, according to Deutsche Bank."
+  },
+  {
+   "speaker": "B",
+   "text": "And the Financial Times reports the U.K. financial regulator plans to use AI to automate parts of financial regulation."
+  },
+  {
+   "speaker": "A",
+   "text": "That's the digest. Full summaries and links are in the web archive. Thanks for listening."
+  },
+  {
+   "speaker": "B",
+   "text": "See you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-10-14 (last run) → 2026-10-15. The Washington Post could not be reached this run (feed returned HTTP 502). SSRN searches found no paper with a verified in-window posting date. News summaries are based on feed teasers; podcasts are based on abstracts."
+}
