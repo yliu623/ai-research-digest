@@ -1,0 +1,219 @@
+{
+ "date": "2026-10-17",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": []
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "Competition and Diversity in Generative AI",
+     "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.02761",
+     "fulltext": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.02761",
+     "date": "2026-10-16",
+     "desc": "A game-theoretic model of content producers who compete while using generative AI shows that competitive markets select for diverse AI models, and that a model that benchmarks well in isolation may add little value in a competitive market; text and image model experiments support this. [Management Science, published online 2026-10-16]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's paper, from Management Science, asks whether generative AI will make everything we read and see the same. This one is based on the abstract only, so we'll keep it short."
+      },
+      {
+       "speaker": "B",
+       "text": "The worry is real. Evidence from the lab and from the wild suggests that when people use generative AI, the content they produce becomes less diverse."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors point out that producers don't act in isolation. They compete with each other for customers or attention, and that changes the picture."
+      },
+      {
+       "speaker": "B",
+       "text": "They build a formal game-theoretic model of that competition and look at both content diversity and overall social welfare."
+      },
+      {
+       "speaker": "A",
+       "text": "The key result is that competitive markets select for diverse AI models, which mitigates monoculture. If everyone used the same model, a producer would gain by differentiating."
+      },
+      {
+       "speaker": "B",
+       "text": "They also show that a model that performs well in isolation, judged on a benchmark, can fail to provide value once it is deployed in a competitive market."
+      },
+      {
+       "speaker": "A",
+       "text": "So the lesson is to evaluate models across the breadth of their output distributions, not just their single best answers. They back the theory with experiments on text and image models."
+      },
+      {
+       "speaker": "B",
+       "text": "The takeaway: under strong competition, homogenization from generative AI is unlikely to persist."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Weak Links Start to Show in A.I. Borrowing",
+     "url": "https://www.nytimes.com/2026/10/17/business/weak-links-start-to-show-in-ai-borrowing.html",
+     "fulltext": "https://www.nytimes.com/2026/10/17/business/weak-links-start-to-show-in-ai-borrowing.html",
+     "date": "2026-10-17",
+     "desc": "Debt trouble at CoreWeave, Oracle and SoftBank is raising questions about whether the borrowing-funded data center build-out is showing broader strain. [NYT, published 2026-10-17]"
+    },
+    {
+     "title": "Chinese Stocks Turn Biggest Losers as Global AI Trade Stumbles",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-17/chinese-stocks-turn-biggest-losers-as-global-ai-trade-stumbles",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-17/chinese-stocks-turn-biggest-losers-as-global-ai-trade-stumbles",
+     "date": "2026-10-17",
+     "desc": "Chinese firms have emerged as the biggest losers of the faltering global AI trade, a setback for Beijing's effort to use stock markets to fund its technology push. [Bloomberg, published 2026-10-17]"
+    },
+    {
+     "title": "Europe Is Racing China to Bring AI to the Factory Floor",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-17/europe-is-racing-china-to-bring-ai-to-the-factory-floor",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-17/europe-is-racing-china-to-bring-ai-to-the-factory-floor",
+     "date": "2026-10-17",
+     "desc": "Bloomberg looks at how AI could transform manufacturing and how Europe is trying to lead China in deploying it in factories. [Bloomberg, published 2026-10-17]"
+    },
+    {
+     "title": "Anthropic offers Blackstone double-digit yield in latest chip financing",
+     "url": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89",
+     "fulltext": "https://www.ft.com/content/cb4034e1-475f-40b9-a5f9-256e91aacb89",
+     "date": "2026-10-17",
+     "desc": "The FT reports Anthropic is offering Blackstone a double-digit yield in its latest chip financing, and that high borrowing costs complicate the AI lab's goal of reaching investment-grade status. [Financial Times, published 2026-10-17]"
+    },
+    {
+     "title": "New Cracks in AI Trade Push Wall Street to Worst Week Since June",
+     "url": "https://www.wsj.com/finance/stocks/us-death-penalty-execution-rates-41ea3427",
+     "fulltext": "https://www.wsj.com/finance/stocks/us-death-penalty-execution-rates-41ea3427",
+     "date": "2026-10-16",
+     "desc": "A stock rout swept up companies from CoreWeave to Alphabet while Treasury yields tumbled, giving Wall Street its worst week since June. [WSJ, published 2026-10-16]"
+    },
+    {
+     "title": "Warsh Vows to Tame Inflation as A.I. Delivers 'Shock' to Economy",
+     "url": "https://www.nytimes.com/2026/10/16/business/warsh-fed-imf-bangkok.html",
+     "fulltext": "https://www.nytimes.com/2026/10/16/business/warsh-fed-imf-bangkok.html",
+     "date": "2026-10-16",
+     "desc": "Fed Chairman Kevin Warsh stuck to his refusal to give guidance on interest rates while describing AI as a shock to the economy and stressing the need to tame inflation. [NYT, published 2026-10-16]"
+    },
+    {
+     "title": "Nvidia Partner GMI Cloud Calls CoreWeave 15% Yield 'Insane'",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-16/nvidia-partner-gmi-cloud-calls-coreweave-s-15-yield-insane",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-16/nvidia-partner-gmi-cloud-calls-coreweave-s-15-yield-insane",
+     "date": "2026-10-16",
+     "desc": "The founder of GMI Cloud, a company with a business model similar to CoreWeave's, called the roughly 15% yield on CoreWeave's bonds 'insane', a sign of stress in AI infrastructure credit. [Bloomberg, published 2026-10-16]"
+    },
+    {
+     "title": "The data centre IPO debacle that sparked a market meltdown",
+     "url": "https://www.ft.com/content/537c9a68-7b6f-41a7-80ff-acac5c52e80d",
+     "fulltext": "https://www.ft.com/content/537c9a68-7b6f-41a7-80ff-acac5c52e80d",
+     "date": "2026-10-16",
+     "desc": "Decisions by Australian groups Firmus and AirTrunk on data center listings have added to concerns about the AI borrowing frenzy, with data center bonds under pressure. [Financial Times, published 2026-10-16]"
+    },
+    {
+     "title": "Citi becomes latest US bank to restrict AI agents from accessing accounts",
+     "url": "https://www.ft.com/content/f49c8e39-f07f-4177-9948-aabe55e5ed91",
+     "fulltext": "https://www.ft.com/content/f49c8e39-f07f-4177-9948-aabe55e5ed91",
+     "date": "2026-10-16",
+     "desc": "US lenders including Citi are limiting AI agents' access to customer accounts, fearing chatbots could shift billions of dollars of deposits to higher-yielding accounts. [Financial Times, published 2026-10-16]"
+    },
+    {
+     "title": "China unveils draft export controls on AI technologies and chips",
+     "url": "https://www.ft.com/content/e0a1295c-4492-4fdd-aaf5-55678a9ef9bf",
+     "fulltext": "https://www.ft.com/content/e0a1295c-4492-4fdd-aaf5-55678a9ef9bf",
+     "date": "2026-10-16",
+     "desc": "Beijing published draft expanded export restrictions on AI technologies and chips, aimed at preventing transfer of its most advanced technology overseas. [Financial Times, published 2026-10-16]"
+    },
+    {
+     "title": "Anthropic Signs First Data-Center Deal in Canada With EverWind",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-16/everwind-to-build-nova-scotia-data-center-lease-to-ai-developer",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-16/everwind-to-build-nova-scotia-data-center-lease-to-ai-developer",
+     "date": "2026-10-16",
+     "desc": "Anthropic signed its first Canadian data-center lease, agreeing to buy capacity at a new Nova Scotia project worth more than C$10 billion. [Bloomberg, published 2026-10-16]"
+    },
+    {
+     "title": "Michael Dell, a Dot-Com Era Survivor, Has Tips to Beat an AI Bust",
+     "url": "https://www.wsj.com/tech/ai/michael-dell-a-dot-com-era-survivor-has-tips-to-beat-an-ai-bust-7987db49",
+     "fulltext": "https://www.wsj.com/tech/ai/michael-dell-a-dot-com-era-survivor-has-tips-to-beat-an-ai-bust-7987db49",
+     "date": "2026-10-16",
+     "desc": "While many tech firms pile on debt for long-term AI projects, Michael Dell says just-in-time manufacturing cushions Dell against an AI bust. [WSJ, published 2026-10-16]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Good morning, this is Alex, with the Daily AI Research Digest for October seventeenth, twenty twenty-six. The overview: one new paper on generative AI and competition, and a news cycle dominated by worries over how AI is being financed."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. Let's start with the paper. It's in Management Science, and it asks whether generative AI will make content homogeneous."
+  },
+  {
+   "speaker": "A",
+   "text": "Earlier evidence suggests people who use AI produce less diverse content. The authors argue that competition changes that. In their game-theoretic model, competitive markets select for diverse AI models, which mitigates monoculture."
+  },
+  {
+   "speaker": "B",
+   "text": "Another point I liked: a model that does well on a benchmark in isolation may fail to add value in a competitive market. So evaluation should look at the whole range of outputs, not only the best ones. Their conclusion is that homogenization is unlikely to persist under strong competition."
+  },
+  {
+   "speaker": "A",
+   "text": "Now the news. The Wall Street Journal reports Wall Street had its worst week since June, as a stock rout swept up companies from CoreWeave to Alphabet while Treasury yields tumbled."
+  },
+  {
+   "speaker": "B",
+   "text": "The credit side is where the stress shows. Bloomberg reports the founder of GMI Cloud, a company with a business model similar to CoreWeave's, called the roughly fifteen percent yield on CoreWeave's bonds insane."
+  },
+  {
+   "speaker": "A",
+   "text": "The New York Times says debt trouble at CoreWeave, Oracle and SoftBank is raising questions about the whole data center build-out."
+  },
+  {
+   "speaker": "B",
+   "text": "The Financial Times adds that decisions by Australian groups Firmus and AirTrunk on data center listings have fed concerns about the AI borrowing frenzy, and that investors are dumping data center bonds."
+  },
+  {
+   "speaker": "A",
+   "text": "Even the AI labs face this. The FT reports Anthropic is offering Blackstone a double-digit yield in its latest chip financing, and that high borrowing costs complicate its goal of investment-grade status."
+  },
+  {
+   "speaker": "B",
+   "text": "Meanwhile Bloomberg says Anthropic signed its first Canadian data center lease, at a Nova Scotia project worth more than ten billion Canadian dollars. So the build-out continues even as the financing is questioned."
+  },
+  {
+   "speaker": "A",
+   "text": "The Fed also weighed in. The New York Times says Fed Chairman Kevin Warsh refused to give guidance on interest rates and described AI as a shock to the economy."
+  },
+  {
+   "speaker": "B",
+   "text": "And Michael Dell told the Wall Street Journal that just-in-time manufacturing cushions his company against an AI bust, while many tech firms pile on debt."
+  },
+  {
+   "speaker": "A",
+   "text": "On geopolitics, the Financial Times reports Beijing published draft export controls on AI technologies and chips. And Bloomberg says Chinese stocks have become the biggest losers of the faltering global AI trade."
+  },
+  {
+   "speaker": "B",
+   "text": "In banking, the FT reports that Citi is the latest US bank to restrict AI agents from accessing customer accounts, because lenders fear chatbots could shift billions of dollars of deposits to higher-yielding accounts."
+  },
+  {
+   "speaker": "A",
+   "text": "One more from Bloomberg: Europe is racing China to bring AI to the factory floor, a reminder that adoption, not just financing, drives the economics."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest for today. The full written summaries and the web archive are linked in the email. Thanks for listening."
+  },
+  {
+   "speaker": "A",
+   "text": "Thanks everyone. We'll be back tomorrow with whatever is new."
+  }
+ ],
+ "footnote": "Window: 2026-10-16 (last run) → 2026-10-17. The Washington Post feed could not be reached this run (HTTP 502). SSRN searches were not run this session. News summaries are based on feed teasers and are not full-article reads."
+}
