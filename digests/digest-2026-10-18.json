@@ -1,0 +1,233 @@
+{
+ "date": "2026-10-18",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": []
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Aligned to Protect, Misaligned to Advise: Financial Advice from LLMs",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7621183",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7621183",
+     "date": "2026-10-16",
+     "desc": "Studies how alignment training shapes LLM advice on health insurance and retirement allocation, using over 112,000 model evaluations plus a human experiment. [SSRN, posted 2026-10-16]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Welcome back. Today's paper is about whether the way AI models are trained to be safe changes the financial advice they give. Based on the abstract only, so we'll keep it short."
+      },
+      {
+       "speaker": "B",
+       "text": "The title is Aligned to Protect, Misaligned to Advise, by Saurabh Bhargava, posted on SSRN. Alignment training is meant to make models safe and helpful."
+      },
+      {
+       "speaker": "A",
+       "text": "But advice is a special case. Good advice often means telling people what they may not want to hear, or recommending a specific choice, and a model tuned to be cautious might behave differently."
+      },
+      {
+       "speaker": "B",
+       "text": "The paper studies how alignment shapes advice in two settings: choosing health insurance and allocating retirement savings. It runs over one hundred twelve thousand model evaluations."
+      },
+      {
+       "speaker": "A",
+       "text": "It also includes a human experiment, so the authors can compare what the models recommend with how people respond to that advice."
+      },
+      {
+       "speaker": "B",
+       "text": "Since we're working from the abstract, we won't quote specific results beyond that. The title signals a tension between protective behavior and quality of advice."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: as people lean on chatbots for money decisions, how a model is aligned may matter as much as how capable it is."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Accenture looks to sell Chinese operations for up to $1.5bn",
+     "url": "https://www.ft.com/content/2dfdd513-26a6-4a10-9cae-5242eb4ee3ed",
+     "fulltext": "https://www.ft.com/content/2dfdd513-26a6-4a10-9cae-5242eb4ee3ed",
+     "date": "2026-10-18",
+     "desc": "Accenture is exploring a sale of its China business for as much as $1.5 billion, while its shares have swung in recent months over doubts about how AI will affect IT consulting. [Financial Times, published 2026-10-18]"
+    },
+    {
+     "title": "America’s $10tn AI infrastructure boom is starting to fray",
+     "url": "https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c",
+     "fulltext": "https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c",
+     "date": "2026-10-18",
+     "desc": "The FT argues the roughly $10 trillion US AI infrastructure build-out is meeting the hard economics of the physical world, with signs of strain appearing. [Financial Times, published 2026-10-18]"
+    },
+    {
+     "title": "Europe’s industrial giants take diverging paths as they ride AI boom",
+     "url": "https://www.ft.com/content/5d45d66f-fd31-4263-b52f-54d9d88baa63",
+     "fulltext": "https://www.ft.com/content/5d45d66f-fd31-4263-b52f-54d9d88baa63",
+     "date": "2026-10-18",
+     "desc": "Schneider Electric and Siemens are pushing further into software, while ABB is betting on physical equipment, as each tries to profit from AI-driven demand. [Financial Times, published 2026-10-18]"
+    },
+    {
+     "title": "The US needs a social compact on data centres",
+     "url": "https://www.ft.com/content/a1b2bdd8-212c-45bf-91d7-7e56a6fe14bb",
+     "fulltext": "https://www.ft.com/content/a1b2bdd8-212c-45bf-91d7-7e56a6fe14bb",
+     "date": "2026-10-18",
+     "desc": "An FT opinion piece argues that building data centres at home would let policymakers advance the interests of American companies and workers. [Financial Times, published 2026-10-18]"
+    },
+    {
+     "title": "Global economy set for AI-driven surge, FT survey suggests",
+     "url": "https://www.ft.com/content/c6aeb3a1-1874-4947-8ffc-4d993301244a",
+     "fulltext": "https://www.ft.com/content/c6aeb3a1-1874-4947-8ffc-4d993301244a",
+     "date": "2026-10-18",
+     "desc": "A poll of 94 economists points to AI-driven growth benefits reaching well beyond the US and China. [Financial Times, published 2026-10-18]"
+    },
+    {
+     "title": "Anthropic turns to lawyers to help AI agents strike deals",
+     "url": "https://www.ft.com/content/f7c26ac0-f5f2-443a-86b2-39d62f7920a9",
+     "fulltext": "https://www.ft.com/content/f7c26ac0-f5f2-443a-86b2-39d62f7920a9",
+     "date": "2026-10-18",
+     "desc": "Tech companies are being forced to confront the legal rules of negotiation when AI agents act on humans' behalf; Anthropic is drawing on lawyers for this. [Financial Times, published 2026-10-18]"
+    },
+    {
+     "title": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-18/microsoft-scraps-uk-data-center-deal-with-nscale-telegraph-says",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-18/microsoft-scraps-uk-data-center-deal-with-nscale-telegraph-says",
+     "date": "2026-10-18",
+     "desc": "Per the Telegraph, Microsoft has pulled out of a UK data-center deal with neocloud Nscale, at a sensitive time for the startup's IPO hopes. [Bloomberg, published 2026-10-18]"
+    },
+    {
+     "title": "AI Trade Reversal Pierces Asia’s Star Picks-and-Shovels Stocks",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-18/ai-trade-reversal-pierces-asia-s-star-picks-and-shovels-stocks",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-18/ai-trade-reversal-pierces-asia-s-star-picks-and-shovels-stocks",
+     "date": "2026-10-18",
+     "desc": "A deepening US tech selloff exposes Asia's AI supply chain, as rising financing costs could choke off the spending that has powered the region's rally. [Bloomberg, published 2026-10-18]"
+    },
+    {
+     "title": "The AI Stock Market Wobble Is a Reminder: This Time Isn’t Different",
+     "url": "https://www.wsj.com/finance/stocks/the-ai-stock-market-wobble-is-a-reminder-this-time-isnt-different-d3ea7f07",
+     "fulltext": "https://www.wsj.com/finance/stocks/the-ai-stock-market-wobble-is-a-reminder-this-time-isnt-different-d3ea7f07",
+     "date": "2026-10-18",
+     "desc": "The WSJ argues the AI build-out has not shown it can avoid the problems of past huge capital projects such as railways and the internet. [WSJ, published 2026-10-18]"
+    },
+    {
+     "title": "BoE’s Bailey tells G30 they ‘have got to address’ AI agent concerns",
+     "url": "https://www.ft.com/content/3185b4cd-ab35-4efc-9d75-dcecc1631625",
+     "fulltext": "https://www.ft.com/content/3185b4cd-ab35-4efc-9d75-dcecc1631625",
+     "date": "2026-10-17",
+     "desc": "The Bank of England governor warned that rapid AI development, including AI agents, is a major issue for financial stability. [Financial Times, published 2026-10-17]"
+    },
+    {
+     "title": "The dress rehearsal for an AI reckoning",
+     "url": "https://www.ft.com/content/3f982af9-3eec-476f-9d29-39145ac485c4",
+     "fulltext": "https://www.ft.com/content/3f982af9-3eec-476f-9d29-39145ac485c4",
+     "date": "2026-10-17",
+     "desc": "Recent market turbulence offers a preview of what a true bursting of the AI bubble might do to financial markets, the FT argues. [Financial Times, published 2026-10-17]"
+    },
+    {
+     "title": "CoreWeave Woes Risk Shutting Down AI Junk Market: Credit Weekly",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-17/coreweave-woes-risk-shutting-down-ai-junk-market-credit-weekly",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-17/coreweave-woes-risk-shutting-down-ai-junk-market-credit-weekly",
+     "date": "2026-10-17",
+     "desc": "Junk-bond buyers are increasingly freezing out tech startups seeking financing as CoreWeave's troubles raise questions about how AI companies will fund themselves. [Bloomberg, published 2026-10-17]"
+    },
+    {
+     "title": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
+     "date": "2026-10-17",
+     "desc": "DeepSeek released an updated model it calls faster and leaner, stepping up its challenge to Anthropic, OpenAI and Chinese rivals such as Moonshot Kimi and Z.ai. [Bloomberg, published 2026-10-17]"
+    },
+    {
+     "title": "Will Meta’s earnings restore confidence in the AI boom?",
+     "url": "https://www.ft.com/content/7c2e889e-2eb5-4c62-821b-1a7f88c13d05",
+     "fulltext": "https://www.ft.com/content/7c2e889e-2eb5-4c62-821b-1a7f88c13d05",
+     "date": "2026-10-18",
+     "desc": "The FT's week-ahead guide asks whether Meta's earnings can restore investor confidence in the AI boom. [Financial Times, published 2026-10-18]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello, and welcome to the Daily AI Research Digest for October eighteenth, twenty twenty-six. Today is dominated by one theme: is the AI investment boom starting to fray?"
+  },
+  {
+   "speaker": "B",
+   "text": "Yes, and the news flow is heavy. Let's start with the Financial Times, which says America's ten trillion dollar AI infrastructure boom is starting to fray, running into the unforgiving economics of the physical world."
+  },
+  {
+   "speaker": "A",
+   "text": "Bloomberg adds detail. Microsoft has reportedly scrapped a UK data center deal with the neocloud Nscale, according to the Telegraph, right when Nscale is hoping for an IPO."
+  },
+  {
+   "speaker": "B",
+   "text": "And Bloomberg's credit coverage says CoreWeave's troubles risk shutting the junk bond market to AI startups. Buyers are increasingly freezing out tech companies looking for financing, which raises the question of how these firms will fund themselves."
+  },
+  {
+   "speaker": "A",
+   "text": "That ripples abroad. A Bloomberg piece says the US tech selloff is hitting Asia's picks-and-shovels AI stocks, because rising financing costs could choke off the spending that powers the region's supply chain."
+  },
+  {
+   "speaker": "B",
+   "text": "The Wall Street Journal makes a historical argument: the AI build-out hasn't shown it can avoid the problems of past massive capital projects, like railways and the internet. This time isn't different."
+  },
+  {
+   "speaker": "A",
+   "text": "The Financial Times also runs a piece calling recent turbulence a dress rehearsal for an AI reckoning, a preview of what a true bursting of the bubble could do to markets."
+  },
+  {
+   "speaker": "B",
+   "text": "Regulators are watching too. The Bank of England's Andrew Bailey told the G30 they have got to address concerns about AI agents, calling rapid AI development a major issue for financial stability."
+  },
+  {
+   "speaker": "A",
+   "text": "Still, it's not all gloom. An FT survey of ninety-four economists points to an AI-driven surge in the global economy, with benefits reaching far beyond the US and China."
+  },
+  {
+   "speaker": "B",
+   "text": "On corporate strategy, the FT reports Schneider Electric and Siemens are moving further into software, while ABB bets on physical equipment, as they ride the AI boom."
+  },
+  {
+   "speaker": "A",
+   "text": "And Accenture is looking to sell its Chinese operations for up to one and a half billion dollars, while its shares have fluctuated over questions about AI's impact on IT consulting."
+  },
+  {
+   "speaker": "B",
+   "text": "On the research side, one SSRN paper by Saurabh Bhargava, Aligned to Protect, Misaligned to Advise, studies how alignment training shapes the financial advice language models give, with over one hundred twelve thousand model evaluations and a human experiment."
+  },
+  {
+   "speaker": "A",
+   "text": "That's interesting because the FT also reports Anthropic is turning to lawyers to help AI agents strike deals, so the rules for machines acting on our behalf are becoming a real question."
+  },
+  {
+   "speaker": "B",
+   "text": "Also worth a mention: DeepSeek released an updated model it says is faster and leaner, raising the competitive pressure on Anthropic and OpenAI."
+  },
+  {
+   "speaker": "A",
+   "text": "The common thread is money: who pays for AI, who profits, and what happens if funding dries up."
+  },
+  {
+   "speaker": "B",
+   "text": "Meta's earnings this week will be one test of investor confidence in the boom, so keep an eye on those."
+  },
+  {
+   "speaker": "A",
+   "text": "That's all for today. Full summaries and the paper's audio explainer are in the web archive."
+  },
+  {
+   "speaker": "B",
+   "text": "Thanks for listening, and we'll be back tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-10-17 (last run) → 2026-10-18. The Washington Post feed could not be reached this run (HTTP 502). No new arXiv, NBER or INFORMS papers qualified on relevance. The SSRN posting date is from Crossref's record-creation date. News summaries are based on feed teasers and web searches."
+}
