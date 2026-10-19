@@ -1,0 +1,323 @@
+{
+ "date": "2026-10-19",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "How language model agents reshape price competition",
+     "url": "https://arxiv.org/abs/2610.21711",
+     "fulltext": "https://arxiv.org/pdf/2610.21711",
+     "date": "2026-10-15",
+     "desc": "Shows that LLM pricing agents can escape the near-marginal-cost outcome of repeated Bertrand competition, with results depending on deployment: agents posting prices from raw histories sustain supracompetitive prices in self-play, while distribution-emitting agents move toward competitive prices. [arXiv cs.GT, submitted 2026-10-15]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Welcome back. Today's paper asks what happens to prices when AI language models, not simple algorithms, set prices against each other. This explainer is based on the abstract only, so we'll keep it short."
+      },
+      {
+       "speaker": "B",
+       "text": "The paper is called How language model agents reshape price competition. The benchmark is repeated Bertrand competition, where firms sell identical goods and standard learning algorithms usually drive prices down close to cost."
+      },
+      {
+       "speaker": "A",
+       "text": "So the worry about algorithmic pricing is usually collusion, but here the starting point is that old-style learners tend to land on competitive prices."
+      },
+      {
+       "speaker": "B",
+       "text": "Right, and the authors show that LLM pricing agents can escape that benchmark, depending on how they are deployed. They adapt faster than standard online learners, though that edge largely disappears against learners that see full information."
+      },
+      {
+       "speaker": "A",
+       "text": "The deployment detail matters a lot. Agents that post one price every period from raw market histories that include rival prices can sustain prices above the competitive level when they play each other."
+      },
+      {
+       "speaker": "B",
+       "text": "But agents that periodically output probability distributions, working from summaries of their own profits, drift toward competitive prices instead."
+      },
+      {
+       "speaker": "A",
+       "text": "And in mixed markets, the abstract says LLMs can set a high price anchor and then regularly undercut it to capture demand, which can keep both firms' prices above cost."
+      },
+      {
+       "speaker": "B",
+       "text": "The takeaway: with AI pricing agents, the design of the interface can matter as much as the model, and the focus shifts from stationary equilibria to dynamic pricing regimes. Check the full paper for the details."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Agentic AI in Automated Markets",
+     "url": "https://arxiv.org/abs/2610.22522",
+     "fulltext": "https://arxiv.org/pdf/2610.22522",
+     "date": "2026-10-15",
+     "desc": "Models rational, manipulator and herd-follower trading agents as reinforcement-learning systems (DQN and REINFORCE) in automated-market-maker settings; herd followers cause frequent short stress episodes, manipulators rare persistent ones, and the findings point to behavior-specific regulation. [arXiv econ.EM, submitted 2026-10-15]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's paper looks at what happens when autonomous AI trading agents operate in automated markets. We're working from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "It's called Agentic AI in Automated Markets. These are markets powered by automated market makers, and increasingly populated by trading agents that learn on their own."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors model three behavioral types as reinforcement learning agents: a rational arbitrageur, a manipulator, and a retail herd follower, each defined by its reward function, and each trained with two methods, a deep Q-network and REINFORCE."
+      },
+      {
+       "speaker": "B",
+       "text": "They motivate the hypotheses with a pilot on hourly cryptocurrency data for three tokens."
+      },
+      {
+       "speaker": "A",
+       "text": "The findings: herd followers produce the most frequent but shortest stress episodes, manipulators the fewest but most persistent, and rational agents have the most stable rolling Sharpe ratios even though their returns are more volatile."
+      },
+      {
+       "speaker": "B",
+       "text": "They also use SHAP attributions to link those patterns to drivers like drawdown, short-term volatility, position state and momentum."
+      },
+      {
+       "speaker": "A",
+       "text": "The policy angle is that regulation should target specific behaviors rather than apply uniform limits on volatility or turnover. As always, this is a simulation-based study, so the abstract is the guide."
+      }
+     ]
+    },
+    {
+     "title": "OrderFlowDiT: Transport-Regularized Diffusion Transformer for Probabilistic Limit-Order Supply Forecasting",
+     "url": "https://arxiv.org/abs/2610.22727",
+     "fulltext": "https://arxiv.org/pdf/2610.22727",
+     "date": "2026-10-15",
+     "desc": "A conditional diffusion transformer with an unbalanced optimal-transport loss forecasts five-minute limit-order volume fields; across 30 U.S. equities it cuts full-field transport cost by 45.8% versus mean squared error alone. [arXiv cs.LG, submitted 2026-10-15]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Now a machine learning paper on order books. This summary is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "It's called OrderFlowDiT. The task is forecasting how much limit-order volume will arrive in the next five minutes, and at which prices, given the current book and recent order flow."
+      },
+      {
+       "speaker": "A",
+       "text": "So not just a point forecast, but the whole distribution of bid and ask volume across price levels."
+      },
+      {
+       "speaker": "B",
+       "text": "Exactly. The authors build a conditional diffusion transformer, and add an auxiliary loss from unbalanced optimal transport so the model respects price geometry and total volume."
+      },
+      {
+       "speaker": "A",
+       "text": "They also propose a full-field evaluation framework, combining a transport cost with proper scoring rules and calibration checks, since matching a few summary statistics doesn't prove the model captures the joint distribution."
+      },
+      {
+       "speaker": "B",
+       "text": "On 1,950 validation conditions across 30 U.S. equities, adding the transport loss cuts full-field transport cost by 45.8 percent and the transport energy score by 26.1 percent versus mean squared error alone, and both improve for every stock."
+      },
+      {
+       "speaker": "A",
+       "text": "The takeaway: for market microstructure forecasting, building price geometry into the training objective helps, and uncertainty should be evaluated together with accuracy."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Malaysia Exports Surge 55% to a Record in September on AI Boom",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-19/malaysia-september-exports-surge-to-five-year-high-on-ai-demand",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-19/malaysia-september-exports-surge-to-five-year-high-on-ai-demand",
+     "date": "2026-10-19",
+     "desc": "Malaysia's exports hit an all-time high in September, growing at their fastest pace in more than five years on demand for AI-related products. [Bloomberg, published 2026-10-19]"
+    },
+    {
+     "title": "China Puts Growth Back on Target With Stimulus Push, Export Boom",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-19/china-s-growth-rebounds-to-4-5-puts-annual-target-within-reach",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-19/china-s-growth-rebounds-to-4-5-puts-annual-target-within-reach",
+     "date": "2026-10-19",
+     "desc": "China's third-quarter growth rebounded to 4.5%, powered by factory output and the AI supercycle, though these are largely failing to lift domestic demand. [Bloomberg, published 2026-10-19]"
+    },
+    {
+     "title": "AI Chip Startup Tenstorrent Raises Funds at $6.2 Billion Value",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-19/ai-chip-startup-tenstorrent-raises-funds-at-6-2-billion-value",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-19/ai-chip-startup-tenstorrent-raises-funds-at-6-2-billion-value",
+     "date": "2026-10-19",
+     "desc": "Tenstorrent raised $1.5 billion at a $6.2 billion valuation, after drawing takeover interest earlier this year. [Bloomberg, published 2026-10-19]"
+    },
+    {
+     "title": "AI’s Premium Valuations Are Getting More Pushback From Investors",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-10-19/ai-s-premium-valuations-are-getting-more-pushback-from-investors",
+     "fulltext": "https://www.bloomberg.com/news/newsletters/2026-10-19/ai-s-premium-valuations-are-getting-more-pushback-from-investors",
+     "date": "2026-10-19",
+     "desc": "Bloomberg reports investors are asking more questions about premium valuations for AI companies. [Bloomberg, published 2026-10-19]"
+    },
+    {
+     "title": "Korea Data Center IPO to Test AI Investor Resolve After Tumult",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-19/korea-data-center-ipo-to-test-ai-investor-resolve-after-tumult",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-19/korea-data-center-ipo-to-test-ai-investor-resolve-after-tumult",
+     "date": "2026-10-19",
+     "desc": "Data-center firm Elice is set to list on Korea's Kosdaq, testing AI investor nerves after peer Firmus canceled its high-profile listing this month. [Bloomberg, published 2026-10-19]"
+    },
+    {
+     "title": "The Weak Points in AI Bonds Are Becoming Clearer",
+     "url": "https://www.wsj.com/finance/investing/the-weak-points-in-ai-bonds-are-becoming-clearer-12f09cc6",
+     "fulltext": "https://www.wsj.com/finance/investing/the-weak-points-in-ai-bonds-are-becoming-clearer-12f09cc6",
+     "date": "2026-10-19",
+     "desc": "Traders are revealing where they see the biggest pitfalls in debt issuance related to artificial intelligence. [WSJ, published 2026-10-19]"
+    },
+    {
+     "title": "What to Know About the Obscure Trust Looming Over Anthropic’s IPO",
+     "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7",
+     "fulltext": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7",
+     "date": "2026-10-19",
+     "desc": "Anthropic has shared few details on the dynamics of the five-person trust empowered to shape its board and block major moves ahead of its IPO. [WSJ, published 2026-10-19]"
+    },
+    {
+     "title": "Anthropic commits 5% of shares to ‘public benefit’ fund",
+     "url": "https://www.ft.com/content/3beab58d-4269-4722-b299-8fa5a93f5a52",
+     "fulltext": "https://www.ft.com/content/3beab58d-4269-4722-b299-8fa5a93f5a52",
+     "date": "2026-10-19",
+     "desc": "Anthropic will set aside 5% of its shares for a public benefit fund amid growing public backlash over safety and economic concerns; WSJ notes the fund could send distributions to populations affected by AI labor disruption. [Financial Times, published 2026-10-19]"
+    },
+    {
+     "title": "US stocks set for rebound after AI sell-off",
+     "url": "https://www.ft.com/content/915ea7ca-1f35-4847-810a-fb29e8344496",
+     "fulltext": "https://www.ft.com/content/915ea7ca-1f35-4847-810a-fb29e8344496",
+     "date": "2026-10-19",
+     "desc": "Nasdaq 100 futures rose 1% following the biggest weekly drop since April last year's tariff 'liberation day' sell-off, driven by the AI sell-off. [Financial Times, published 2026-10-19]"
+    },
+    {
+     "title": "Australian Data Center Power Delay Exposes AI Bottleneck",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-18/nextdc-flags-earnings-risk-on-melbourne-data-center-power-delay",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-18/nextdc-flags-earnings-risk-on-melbourne-data-center-power-delay",
+     "date": "2026-10-18",
+     "desc": "NextDC flagged earnings risk as power supply problems hit a major Melbourne data center, highlighting electricity as a bottleneck for AI infrastructure rollout. [Bloomberg, published 2026-10-18]"
+    },
+    {
+     "title": "AI Firm Nscale Faces Investor Pushback Over IPO Valuation",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-18/ai-cloud-firm-nscale-faces-investor-pushback-over-ipo-valuation",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-18/ai-cloud-firm-nscale-faces-investor-pushback-over-ipo-valuation",
+     "date": "2026-10-18",
+     "desc": "Nscale faces opposition to its IPO valuation target after a series of market setbacks for AI companies, per people familiar. [Bloomberg, published 2026-10-18]"
+    },
+    {
+     "title": "Microsoft pulls plug on Nscale data centre deal",
+     "url": "https://www.ft.com/content/35cc5cc6-f9b6-49cc-8fc2-bd61e09c8c40",
+     "fulltext": "https://www.ft.com/content/35cc5cc6-f9b6-49cc-8fc2-bd61e09c8c40",
+     "date": "2026-10-18",
+     "desc": "Microsoft abandoned an agreement to lease capacity at the neocloud's UK site. [Financial Times, published 2026-10-18]"
+    },
+    {
+     "title": "The AI industry’s gigantic debts are making investors nervous",
+     "url": "https://www.economist.com/business/2026/10/18/the-ai-industrys-gigantic-debts-are-making-investors-nervous",
+     "fulltext": "https://www.economist.com/business/2026/10/18/the-ai-industrys-gigantic-debts-are-making-investors-nervous",
+     "date": "2026-10-18",
+     "desc": "The Economist asks who will be left to pick up the bill if the AI debt build-up crashes. [The Economist, published 2026-10-18]"
+    },
+    {
+     "title": "AI Agents Trading Stocks While You Sleep? Charles Schwab’s CEO Is Skeptical",
+     "url": "https://www.wsj.com/tech/ai/ai-agents-trading-stocks-while-you-sleep-charles-schwabs-ceo-is-skeptical-3ff1b5c3",
+     "fulltext": "https://www.wsj.com/tech/ai/ai-agents-trading-stocks-while-you-sleep-charles-schwabs-ceo-is-skeptical-3ff1b5c3",
+     "date": "2026-10-18",
+     "desc": "Schwab CEO Rick Wurster is betting that investing needs a human touch rather than autonomous AI trading agents. [WSJ, published 2026-10-18]"
+    },
+    {
+     "title": "Taiwan Dollar Bulls Look Past AI-Led Drop to Year-End Rally",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-18/taiwan-dollar-bulls-look-past-ai-led-selloff-to-year-end-rally",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-18/taiwan-dollar-bulls-look-past-ai-led-selloff-to-year-end-rally",
+     "date": "2026-10-18",
+     "desc": "Taiwan dollar weakness from global jitters over the AI trade is masking underlying economic resilience, analysts say. [Bloomberg, published 2026-10-18]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello, and welcome to the Daily AI Research Digest for October nineteenth, 2026. I'm Alex."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. Today's theme is a nervous market: two new papers on AI agents in markets, and a lot of news about AI debt and valuations."
+  },
+  {
+   "speaker": "A",
+   "text": "Let's start with research. A new arXiv paper asks what happens when language model agents set prices against each other in a classic Bertrand competition."
+  },
+  {
+   "speaker": "B",
+   "text": "Old-style learning algorithms usually push prices toward cost in that setting. The authors find LLM pricing agents can escape that outcome, depending on how they're deployed."
+  },
+  {
+   "speaker": "A",
+   "text": "Agents that post one price each period from raw market histories can sustain prices above the competitive level. Agents that output probability distributions from summaries of their own profits drift toward competitive prices."
+  },
+  {
+   "speaker": "B",
+   "text": "And in mixed markets, LLMs can set a high price anchor and then undercut it. So the interface design matters as much as the model."
+  },
+  {
+   "speaker": "A",
+   "text": "Second paper: Agentic AI in Automated Markets. It models arbitrageur, manipulator and herd-follower trading agents with reinforcement learning, in automated market makers."
+  },
+  {
+   "speaker": "B",
+   "text": "Herd followers cause frequent but short stress episodes, manipulators rarer but more persistent ones, and the authors argue for regulation aimed at specific behaviors rather than blanket limits."
+  },
+  {
+   "speaker": "A",
+   "text": "Third, a finance machine learning paper called OrderFlowDiT, a diffusion transformer that forecasts limit-order volume. Adding an optimal-transport loss cut transport cost by about forty-six percent across thirty U.S. stocks."
+  },
+  {
+   "speaker": "B",
+   "text": "Now the news. The Financial Times reports Nasdaq 100 futures up one percent after the biggest weekly drop since April last year, driven by an AI sell-off."
+  },
+  {
+   "speaker": "A",
+   "text": "The Economist asks who is left holding the bill if the AI industry's gigantic debts go bad, and the Wall Street Journal says traders are pinpointing weak points in AI bonds."
+  },
+  {
+   "speaker": "B",
+   "text": "Bloomberg says investors are pushing back on premium AI valuations. Nscale faces pushback on its IPO valuation, and the FT reports Microsoft pulled out of a data centre lease deal with Nscale in the U.K."
+  },
+  {
+   "speaker": "A",
+   "text": "In Korea, data-center firm Elice lists Tuesday, a test of investor nerves after peer Firmus canceled its listing this month."
+  },
+  {
+   "speaker": "B",
+   "text": "But the real economy side is still strong. Malaysia's September exports hit a record, up fifty-five percent, on AI demand."
+  },
+  {
+   "speaker": "A",
+   "text": "And Bloomberg says China's third-quarter growth rebounded to four point five percent, helped by the AI supercycle, although domestic demand remains weak."
+  },
+  {
+   "speaker": "B",
+   "text": "One more: Anthropic is committing five percent of its shares to a public benefit fund, and the Journal notes a little-known five-person trust looms over its IPO."
+  },
+  {
+   "speaker": "A",
+   "text": "Also, Schwab's CEO is skeptical about AI agents trading stocks while you sleep, which fits nicely with today's research on agent trading."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest for today. Find the full archive and audio explainers on the web archive linked in the email."
+  },
+  {
+   "speaker": "A",
+   "text": "Thanks for listening, and see you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-10-18 (last run) → 2026-10-19. The New York Times and Washington Post could not be reached this run. SSRN was not searched this run. Podcast scripts are based on abstracts only (PDF reader unavailable). News summaries are based on feed teasers."
+}
