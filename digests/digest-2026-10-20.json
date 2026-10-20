@@ -1,0 +1,639 @@
+{
+ "date": "2026-10-20",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Deep-π*: A Neural Network Estimate of Trend Inflation",
+     "url": "https://arxiv.org/abs/2610.26298",
+     "fulltext": "https://arxiv.org/pdf/2610.26298",
+     "date": "2026-10-19",
+     "desc": "Models innovations to trend inflation as a nonlinear neural-network function of many macro indicators and uses Shapley values to attribute trend movements. In US data the forward-looking trend rose earlier than the current trend, driven by real activity, employment and credit, and beat a standard UC-SV model in real-time forecasts. [arXiv econ.EM, submitted 2026-10-19]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex here. Today's paper builds a neural network estimate of trend inflation, called Deep pi star. This episode is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The problem is that most trend inflation models treat the trend as a random walk driven by unobserved shocks, so they can't say which economic conditions actually move it."
+      },
+      {
+       "speaker": "A",
+       "text": "Right. The authors let the innovations to the trend be a possibly nonlinear function of a large set of macroeconomic indicators, estimated with neural networks. Then they use Shapley values to attribute each movement in the trend to specific indicators."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: And they define two trends, correct?"
+      },
+      {
+       "speaker": "A",
+       "text": "Yes. A current trend that fits inflation today, and a forward-looking trend that best predicts inflation over the next year."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: What did they find in US data?"
+      },
+      {
+       "speaker": "A",
+       "text": "Employment-related variables were the biggest contributors to the post-pandemic rise of the current trend. But the forward-looking trend rose earlier, driven by real activity, employment, and money and credit, and it peaked eight to twelve months before the current trend. Both looked through most energy and commodity price swings."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: And does it forecast better?"
+      },
+      {
+       "speaker": "A",
+       "text": "Re-estimated every month during the surge, it forecast inflation more accurately than the standard unobserved-components model and a random walk. In early 2021, when professional forecasters expected three percent or less, the forward-looking trend already signalled persistent inflation."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Caveat, since we only have the abstract: contributions are nonlinear with sizeable interactions, so simple stories about single indicators may mislead."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: machine learning can make trend inflation both more accurate and more explainable."
+      }
+     ]
+    },
+    {
+     "title": "When Better Opportunities Backfire: Service Worker Responses to Parallel AI Deployment in Customer Acquisition",
+     "url": "https://arxiv.org/abs/2610.25603",
+     "fulltext": "https://arxiv.org/pdf/2610.25603",
+     "date": "2026-10-19",
+     "desc": "Studies an AI voice-agent rollout at a Chinese health-insurance brokerage (500k+ outreach records, regression discontinuity in time). Routing low-intent leads to AI raised the share of high-intent leads for humans by about 23 points early in the day, yet human customer acquisition fell about 5 points there as workers dropped leads more often. [arXiv econ.GN, submitted 2026-10-19]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: This paper asks what happens to human call-center workers when AI voice agents take the low-quality leads. It's based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Sounds like a clear win, humans get better leads."
+      },
+      {
+       "speaker": "A",
+       "text": "That's the intuition, but the authors use sequential search theory to argue that better opportunities raise a worker's reservation value, so they become less willing to persist with the lead in hand."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: What's the setting?"
+      },
+      {
+       "speaker": "A",
+       "text": "An AI voice-agent deployment at a Chinese online health-insurance brokerage, with more than half a million customer outreach records around the rollout, analysed with a regression-discontinuity-in-time design."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: And the results?"
+      },
+      {
+       "speaker": "A",
+       "text": "The share of high-intent leads on a worker's first three calls rose about 23 percentage points, fading later in the day. But customer acquisition by humans fell about 5 percentage points on those same calls. Workers reallocated their earliest leads about 8 points more often and shortened calls by around 13 percent."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: So net effect?"
+      },
+      {
+       "speaker": "A",
+       "text": "A calibrated decomposition says the modest gain from better lead ordering is outweighed by a much larger negative behavioral response."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: when deploying AI, how opportunities are distributed across the workday is an operations variable that matters."
+      }
+     ]
+    },
+    {
+     "title": "How exposed is work to robotics? Occupational, industry, and geographic measures",
+     "url": "https://arxiv.org/abs/2610.24267",
+     "fulltext": "https://arxiv.org/pdf/2610.24267",
+     "date": "2026-10-16",
+     "desc": "Builds abilities-based exposure indices for robotics and physical AI across 774 occupations, 250 industries and US counties, using an LLM to link 16 robotics capabilities to O*NET abilities. Exposure concentrates in physically intensive, lower-wage, lower-education work, unlike generative-AI exposure, and is an upper bound on technical potential. [arXiv cs.RO, submitted 2026-10-16]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: Today, how exposed is work to robotics and physical AI? Based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Existing AI exposure indices mostly cover software, right?"
+      },
+      {
+       "speaker": "A",
+       "text": "Yes, and robotics measures lean on patents and installation data that reflect older industrial robots. The authors follow the Felten framework and build a taxonomy of 16 robotics capabilities in eight domains from 78 sources."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Where does the large language model come in?"
+      },
+      {
+       "speaker": "A",
+       "text": "It scores how related each capability is to the 52 O*NET work abilities. They aggregate to occupation, industry and county-level exposure for 774 occupations and 250 industries."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: What do they find?"
+      },
+      {
+       "speaker": "A",
+       "text": "Exposure concentrates in construction, farming, transportation and production, and in industries like logging, mining, trucking and warehousing. Unlike generative-AI exposure, robotics exposure is higher in lower-wage, lower-education occupations with less creative content."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Any caution?"
+      },
+      {
+       "speaker": "A",
+       "text": "The measures capture technical relatedness, not readiness, cost or adoption, so they are an upper bound on where physical automation could matter."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: the next wave of automation may hit a different part of the labor market than chatbots."
+      }
+     ]
+    },
+    {
+     "title": "Do AI Activity Indices Really Measure AI Activity?",
+     "url": "https://arxiv.org/abs/2610.23971",
+     "fulltext": "https://arxiv.org/pdf/2610.23971",
+     "date": "2026-10-12",
+     "desc": "Shows that regressions on ratio-based AI activity indices cannot separate causal effects from co-movement with aggregate activity, and that low effective cluster counts make nulls uninformative. Applied to OECD.AI's hiring index and Eurostat employment, the detection floor exceeds the reported association, which vanishes once the 2021 survey break is excluded. [arXiv econ.EM, submitted 2026-10-12]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: A methods paper today about AI dashboards, based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: AI indices that track things like hiring shares feed into economic debate."
+      },
+      {
+       "speaker": "A",
+       "text": "Exactly. The authors point out that for a ratio, the same rise can come from the numerator growing, the denominator shrinking, or both, which creates structural non-identification. More data or fixed effects can't fix that."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: So what does a relative-index regression actually estimate?"
+      },
+      {
+       "speaker": "A",
+       "text": "A blend of the causal effect with co-movement between focal and aggregate activity, plus shared shocks. The coefficient can have either sign under a zero effect, or be erased under a real one."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: And the power issue?"
+      },
+      {
+       "speaker": "A",
+       "text": "If a handful of units drive the identifying variation, the minimum detectable effect blows up as the effective cluster count approaches one, so a null is uninformative."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Evidence?"
+      },
+      {
+       "speaker": "A",
+       "text": "They apply it to OECD.AI's hiring index and Eurostat employment for 24 to 27 European countries. The detection floor exceeds the reported association, and in a refreshed panel it disappears once the 2021 survey break is excluded."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: publish the denominator levels."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Cooperative Multi-Agent Reinforcement Learning for Market Making on Prediction-Market Order Books",
+     "url": "https://arxiv.org/abs/2610.26789",
+     "fulltext": "https://arxiv.org/pdf/2610.26789",
+     "date": "2026-10-19",
+     "desc": "Trains reinforcement-learning market makers on 417 real Polymarket markets, splitting the desk into a quoter and a risk manager with recurrent IPPO. Reward shaping makes the split work best, and the redesigned agent quotes more often with smaller held-out losses, though no configuration is profitable on average and each was trained with one seed. [arXiv stat.ML, submitted 2026-10-19]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: This one is about teaching AI market makers to quote prices on prediction markets like Polymarket. Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Why are those hard?"
+      },
+      {
+       "speaker": "A",
+       "text": "Thin order books. Adverse selection can make a trained policy stop quoting, rewards from a quote arrive many steps later, and the data doesn't identify individual orders."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: How do they handle that?"
+      },
+      {
+       "speaker": "A",
+       "text": "They reconstruct order-level data in a standard format from Polymarket and train agents on 417 real markets. They split the desk into a quoter and a risk manager trained with recurrent independent proximal policy optimisation."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Results?"
+      },
+      {
+       "speaker": "A",
+       "text": "A redesigned single-agent market maker quotes more frequently and loses less on held-out markets than the baseline. Splitting alone performs poorly, but careful reward design, like blending rewards and post-fill markout, gives the best result."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Honest limits?"
+      },
+      {
+       "speaker": "A",
+       "text": "None of the configurations achieves positive average portfolio value in held-out evaluation, and each used one seed."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: a useful environment and protocol, not yet a profitable strategy."
+      }
+     ]
+    },
+    {
+     "title": "Regime-Aware Interpretable Ranking for Sector Rotation",
+     "url": "https://arxiv.org/abs/2610.26456",
+     "fulltext": "https://arxiv.org/pdf/2610.26456",
+     "date": "2026-10-19",
+     "desc": "Proposes RegimeRank, an attention-based model that ranks S&P 500 sectors by expected forward risk-adjusted active performance, conditioning signals on learned macro states and cross-sector dependencies. On weekly data 2002-2024 it outperforms ranking and ML baselines, with attribution and attention maps for interpretation. [arXiv q-fin.PM, submitted 2026-10-19]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: A paper on using deep learning for sector rotation, based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Portfolio managers rank sectors to overweight and underweight, right?"
+      },
+      {
+       "speaker": "A",
+       "text": "Yes. The authors rank sectors by forward sector-benchmark Sharpe ratios and propose RegimeRank, which uses expert-defined temporal signal characteristics, conditions them on learned macro factors through cross-attention, and models relationships among sectors with self-attention."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Why interpretable?"
+      },
+      {
+       "speaker": "A",
+       "text": "Expected-gradient attributions identify which signal-transformation pairs matter, and attention maps show the macro states and sector relationships behind the rankings."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Evidence?"
+      },
+      {
+       "speaker": "A",
+       "text": "Weekly S&P 500 data from 2002 to 2024 under combinatorial purged cross-validation, where it beats representative ranking and machine-learning baselines on multiple ranking metrics, and ablations support the macro-state, regime and cross-sector pieces."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Caveat?"
+      },
+      {
+       "speaker": "A",
+       "text": "The abstract reports ranking metrics, not trading returns after costs."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Why does regime conditioning matter?"
+      },
+      {
+       "speaker": "A",
+       "text": "Because the relevance of a signal changes across macroeconomic environments. A momentum or value signal that works in one regime may fail in another, so the model learns macro states and lets them reweight the signals, while the self-attention step captures that sectors move together rather than independently."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Anything the abstract leaves open?"
+      },
+      {
+       "speaker": "A",
+       "text": "It says the model beats baselines, but not by how much, and it does not report portfolio returns net of trading costs, so the practical payoff is still to be shown."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: regime-aware attention is a promising, more transparent way to do sector ranking."
+      }
+     ]
+    },
+    {
+     "title": "The Control Layer Behind Rule-Following Agents Trading Across Market Conditions",
+     "url": "https://arxiv.org/abs/2610.26324",
+     "fulltext": "https://arxiv.org/pdf/2610.26324",
+     "date": "2026-10-19",
+     "desc": "Analyses 2,627 closed positions by four AI trading agents (Feb-Aug 2026, mostly simulated, 18% real Hyperliquid orders). The fleet ended net positive after fees, agents kept 97.5% of gross loss within declared stops through a 29% drawdown, and 23 of 24 runs respected the position limit; results are not proof of a lasting edge. [arXiv cs.AI, submitted 2026-10-19]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: Do AI trading agents follow their own rules? Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Practical question if someone gives an agent capital."
+      },
+      {
+       "speaker": "A",
+       "text": "The study looks at 2,627 closed positions from four agents between February and August 2026, with the same asset universe and execution conditions. Most were simulated at live prices with a 0.09 percent round-trip fee, and 18 percent involved real Hyperliquid orders."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Findings?"
+      },
+      {
+       "speaker": "A",
+       "text": "The fleet finished net positive after fees. Rule adherence was high for all four agents, even the unprofitable one. Agents kept 97.5 percent of gross loss within declared stops, and controls contained losses through a 29 percent market drawdown. Twenty-three of 24 runs respected the five-position limit."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: So profit?"
+      },
+      {
+       "speaker": "A",
+       "text": "Profitability tracked win rates relative to break-even win rates, and the same live data produced different results across strategies."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Caveats?"
+      },
+      {
+       "speaker": "A",
+       "text": "These are trade-level results, not account-level returns or proof of a lasting edge."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: discipline should be the entry test for agent trading, not the only test."
+      }
+     ]
+    },
+    {
+     "title": "Conflicting History in Foundation Model Return Forecasts",
+     "url": "https://arxiv.org/abs/2610.25822",
+     "fulltext": "https://arxiv.org/pdf/2610.25822",
+     "date": "2026-10-19",
+     "desc": "Tests five time-series foundation-model forecasting procedures on simulated processes with paired histories that differ only in older data. Conflicting history cuts the chance of beating a zero forecast in all 30 higher-signal comparisons; on 56 assets, shortening inputs from 256 to 64 returns raised error by 1.77-4.58 bp for every model. [arXiv q-fin.ST, submitted 2026-10-19]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: Can foundation models forecast returns when history is conflicting? Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: What's the tension?"
+      },
+      {
+       "speaker": "A",
+       "text": "Older data can help learn a relationship but mislead if the relationship changes. The authors build paired return histories that differ in older observations but share recent returns and the same conditional distribution of the next return."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: What did they test?"
+      },
+      {
+       "speaker": "A",
+       "text": "Five foundation-model forecasting procedures on three simulated processes with 1,024 replications each. Conflicting history reduced the probability of improving on a zero forecast in all 30 higher-signal comparisons, even though models recovered the signal under stable conditions."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: And real data?"
+      },
+      {
+       "speaker": "A",
+       "text": "An exploratory comparison on 56 assets found that shortening inputs from 256 to 64 returns increased mean absolute error for every model by 1.77 to 4.58 basis points. Neither length beat zero overall."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: extracting a signal is different from withstanding conflicting history, and context sensitivity alone doesn't justify discarding older data."
+      }
+     ]
+    },
+    {
+     "title": "More Mentions, Less Information? Diagnosing Identity and Alignment in Reddit Embeddings for Volatility Forecasting",
+     "url": "https://arxiv.org/abs/2610.25468",
+     "fulltext": "https://arxiv.org/pdf/2610.25468",
+     "date": "2026-10-18",
+     "desc": "Tests how much LLM embeddings of r/WallStreetBets posts add to volatility forecasts across 202,145 stock-days (2015-2022). Most standalone fit (R² 0.13) reflects firm identity; embeddings cut HAR error by only 1.22%, a gain concentrated in 2015-2019 and not distinguishable from zero in 2020-2022. [arXiv q-fin.ST, submitted 2026-10-18]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: Does Reddit text really help forecast volatility? Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: A model with just LLM embeddings of WallStreetBets posts gets an R-squared of 0.13, which sounds impressive."
+      },
+      {
+       "speaker": "A",
+       "text": "It does, but the authors ask where it comes from. They nest embeddings on a standard HAR benchmark, compare with text-free firm-identity controls, and shuffle the day-to-text pairing within firm-years."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: What happens?"
+      },
+      {
+       "speaker": "A",
+       "text": "On firms seen in training, a text-free firm baseline reaches R-squared 0.32, shuffling preserves 89 to 92 percent of the standalone fit, and masking ticker strings drops it to about zero."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: So any real gain?"
+      },
+      {
+       "speaker": "A",
+       "text": "Adding embeddings to HAR reduces error by 1.22 percent, small but significant, yet largely eliminated by shuffling. It is concentrated in 2015 to 2019 and indistinguishable from zero in 2020 to 2022."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: And more coverage?"
+      },
+      {
+       "speaker": "A",
+       "text": "Adding off-hours and weekend posts, 48 percent more coverage, adds no reliable increment."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: more mentions do not mean more information."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Elice's 32% Debut Flop Revives Fears AI Boom Is Ending",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-20/ai-debutant-s-flameout-stokes-fears-the-boom-is-ending",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-20/ai-debutant-s-flameout-stokes-fears-the-boom-is-ending",
+     "date": "2026-10-20",
+     "desc": "Shares of South Korean data-center firm Elice fell about 32% in their trading debut, becoming the focus of a debate over whether AI valuations can be justified by results. The Kospi is reported down 40% from its June record. [Bloomberg, published 2026-10-20]"
+    },
+    {
+     "title": "AI Selloff Returns, Oil Tops $110 a Barrel",
+     "url": "https://www.wsj.com/finance/stocks/ai-selloff-returns-oil-tops-110-a-barrel-b8400c70",
+     "fulltext": "https://www.wsj.com/finance/stocks/ai-selloff-returns-oil-tops-110-a-barrel-b8400c70",
+     "date": "2026-10-20",
+     "desc": "Chip makers and AI infrastructure stocks slid in US premarket trading as oil rose and investors pulled back from risk, per the Journal's market report. [WSJ, published 2026-10-20]"
+    },
+    {
+     "title": "AI debt worries spark surge in default insurance trading",
+     "url": "https://www.ft.com/content/6dd31584-064c-4015-bf5d-e5747799ccd5",
+     "fulltext": "https://www.ft.com/content/6dd31584-064c-4015-bf5d-e5747799ccd5",
+     "date": "2026-10-20",
+     "desc": "Volumes of credit default swaps linked to big tech groups have jumped as investors seek protection against an unravelling of the AI boom, making CDS a bellwether hedge for AI sentiment. [Financial Times, published 2026-10-20]"
+    },
+    {
+     "title": "Bank of England Considers Stress Testing AI's Effect on the Financial Sector",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-20/bank-of-england-considers-stress-testing-ai-s-effect-on-the-financial-sector",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-20/bank-of-england-considers-stress-testing-ai-s-effect-on-the-financial-sector",
+     "date": "2026-10-20",
+     "desc": "While stress testing UK private markets, the Bank of England is weighing tests of AI's impact on the financial sector, a threat regulators see looming. Earlier this year the BoE said it was exploring AI risks such as herding by AI trading agents. [Bloomberg, published 2026-10-20]"
+    },
+    {
+     "title": "Microsoft gives data centre hopefuls a pre-IPO reality check",
+     "url": "https://www.ft.com/content/0751ec3e-48d5-462c-a8d0-eca325daf1f3",
+     "fulltext": "https://www.ft.com/content/0751ec3e-48d5-462c-a8d0-eca325daf1f3",
+     "date": "2026-10-20",
+     "desc": "Microsoft calling time on its Nscale deal exposes faultlines in the fast-growing AI data-centre sector, the FT argues, as such firms eye public listings. [Financial Times, published 2026-10-20]"
+    },
+    {
+     "title": "Nscale, Anthropic in Talks for $45 Billion AI Computing Deal",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-19/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-19/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal",
+     "date": "2026-10-19",
+     "desc": "UK AI cloud firm Nscale is in talks to sell computing power to Anthropic in a deal that could be worth about $45 billion, according to people familiar with the talks. [Bloomberg, published 2026-10-19]"
+    },
+    {
+     "title": "Trafigura Says Hyperscaler Plans Signal AI Copper Use May Triple",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-20/projects-signal-ai-copper-use-may-triple-by-2028-trafigura-says",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-20/projects-signal-ai-copper-use-may-triple-by-2028-trafigura-says",
+     "date": "2026-10-20",
+     "desc": "Trafigura's head of industrial metals analysis says hyperscaler spending plans imply AI-infrastructure copper demand of up to 3 million tons within two years. [Bloomberg, published 2026-10-20]"
+    },
+    {
+     "title": "Amazon Pledges More Than $17 Billion to Expand German Operations",
+     "url": "https://www.wsj.com/business/telecom/amazon-pledges-over-17-billion-to-expand-german-operations-52c311ee",
+     "fulltext": "https://www.wsj.com/business/telecom/amazon-pledges-over-17-billion-to-expand-german-operations-52c311ee",
+     "date": "2026-10-20",
+     "desc": "Amazon plans to invest over €16 billion (about $17.9 billion) next year in Germany, covering AI infrastructure and data centers, satellite internet, logistics and Prime Video content. [WSJ, published 2026-10-20]"
+    },
+    {
+     "title": "Anthropic's I.P.O. Charity",
+     "url": "https://www.nytimes.com/2026/10/19/business/dealbook/anthropic-ipo-charity.html",
+     "fulltext": "https://www.nytimes.com/2026/10/19/business/dealbook/anthropic-ipo-charity.html",
+     "date": "2026-10-19",
+     "desc": "Anthropic plans to contribute 5% of its stock to a philanthropic fund, a pledge whose value depends on the AI boom continuing. [NYT, published 2026-10-19]"
+    },
+    {
+     "title": "Fastenal's CFO Is Building a Financial Planning Team. AI Is Helping.",
+     "url": "https://www.wsj.com/cfo-journal/fastenals-cfo-is-building-a-financial-planning-team-ai-is-helping-62ce9ab9",
+     "fulltext": "https://www.wsj.com/cfo-journal/fastenals-cfo-is-building-a-financial-planning-team-ai-is-helping-62ce9ab9",
+     "date": "2026-10-20",
+     "desc": "The Wall Street Journal's CFO Journal reports that Fastenal's finance chief is using AI as the company builds out a financial planning and analysis team. [WSJ, published 2026-10-20]"
+    },
+    {
+     "title": "Nvidia-Backed Startup doubleAI Launches Model to Pare Cost of Compute",
+     "url": "https://www.wsj.com/cio-journal/nvidia-backed-startup-doubleai-launches-model-to-pare-cost-of-compute-b780f215",
+     "fulltext": "https://www.wsj.com/cio-journal/nvidia-backed-startup-doubleai-launches-model-to-pare-cost-of-compute-b780f215",
+     "date": "2026-10-19",
+     "desc": "Startup doubleAI, co-founded by Mobileye CEO Amnon Shashua, launched a model it says cut one early customer's compute costs by 67%. [WSJ, published 2026-10-19]"
+    },
+    {
+     "title": "Is smart farming really smart business?",
+     "url": "https://www.ft.com/content/aeb432cd-5d95-4062-b7a8-f494592adb34",
+     "fulltext": "https://www.ft.com/content/aeb432cd-5d95-4062-b7a8-f494592adb34",
+     "date": "2026-10-19",
+     "desc": "The FT examines whether AI-driven farm tech, from driverless tractors to precision spraying and sowing, pays off as a business. [Financial Times, published 2026-10-19]"
+    },
+    {
+     "title": "Does China really prize AI speed over safety?",
+     "url": "https://www.economist.com/china/2026/10/19/does-china-really-prize-ai-speed-over-safety",
+     "fulltext": "https://www.economist.com/china/2026/10/19/does-china-really-prize-ai-speed-over-safety",
+     "date": "2026-10-19",
+     "desc": "The Economist argues China, in full command of its own cyberspace, wants similar control over AI, questioning the picture of a pure speed-over-safety race. [The Economist, published 2026-10-19]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello, this is Alex with the Daily AI Research Digest for October twentieth, twenty twenty-six. Today the research is about inflation, call centers, robots and trading agents, and the news is dominated by nerves over the AI boom."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. Let's start with the news. Bloomberg reports that Korean data-center firm Elice fell about thirty-two percent in its trading debut, and it has become a flashpoint in the debate over AI valuations."
+  },
+  {
+   "speaker": "A",
+   "text": "The Wall Street Journal says the AI selloff returned in premarket trading, with chip makers and infrastructure stocks sliding while oil topped one hundred ten dollars."
+  },
+  {
+   "speaker": "B",
+   "text": "The Financial Times adds a credit angle: trading in default insurance linked to big tech groups has surged, as investors hedge against the boom unravelling."
+  },
+  {
+   "speaker": "A",
+   "text": "Related, Bloomberg says the Bank of England is considering stress tests of AI's effect on the financial sector."
+  },
+  {
+   "speaker": "B",
+   "text": "Meanwhile the money keeps flowing. Bloomberg reports Nscale and Anthropic are in talks on a computing deal that could be worth about forty-five billion dollars, and Amazon pledged more than sixteen billion euros in Germany."
+  },
+  {
+   "speaker": "A",
+   "text": "And Trafigura says hyperscaler plans imply AI copper demand could triple by twenty twenty-eight, reaching as much as three million tons."
+  },
+  {
+   "speaker": "B",
+   "text": "Now the research. A new arXiv paper builds a neural-network estimate of trend inflation. Its forward-looking trend rose eight to twelve months before the current trend after the pandemic, and it forecast better than a standard benchmark."
+  },
+  {
+   "speaker": "A",
+   "text": "Another arXiv paper studies an AI voice agent at a Chinese insurance brokerage. Humans got better leads, about twenty-three points more high-intent calls early in the day, yet their sales fell about five points."
+  },
+  {
+   "speaker": "B",
+   "text": "Why? Workers became less willing to persist with a lead once better opportunities were on offer. The authors say the behavioral loss outweighs the gain from better lead ordering."
+  },
+  {
+   "speaker": "A",
+   "text": "On robotics, a new measure of exposure to physical AI finds it concentrates in construction, farming, trucking and warehousing, and in lower-wage work, unlike generative AI."
+  },
+  {
+   "speaker": "B",
+   "text": "A methods paper asks whether AI activity indices really measure AI activity. Ratio indices can't separate causal effects from co-movement, and one hiring association disappears once a survey break is excluded."
+  },
+  {
+   "speaker": "A",
+   "text": "In finance, a study of four AI trading agents across more than twenty-six hundred positions found they kept ninety-seven and a half percent of gross losses within their declared stops."
+  },
+  {
+   "speaker": "B",
+   "text": "But another paper shows foundation-model return forecasts get worse when older history conflicts with recent data, and a third finds Reddit embeddings add only a one percent gain in volatility forecasts."
+  },
+  {
+   "speaker": "A",
+   "text": "So the theme is the same on both sides: impressive headline numbers, and careful tests showing the real effect is smaller."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest for today. Find the full archive and audio explainers on the web archive linked in the email."
+  },
+  {
+   "speaker": "A",
+   "text": "Thanks for listening, and see you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-10-19 (last run) → 2026-10-20. The Washington Post could not be reached this run. SSRN searches returned no postings with a verifiable in-window date, so none are included. Podcast scripts are based on abstracts only. News summaries are based on feed teasers and search snippets."
+}
