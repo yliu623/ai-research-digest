@@ -1,0 +1,433 @@
+{
+ "date": "2026-10-21",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Stronger artificial intelligence breakthroughs hasten their own exhaustion",
+     "url": "https://arxiv.org/abs/2610.27296",
+     "fulltext": "https://arxiv.org/pdf/2610.27296",
+     "date": "2026-10-19",
+     "desc": "Analyzing 7.2 million computer-science papers, 73,089 peer reviews and 3.7 million researchers over 36 years, the authors find AI's attention narrowed sharply after the Transformer and that each bigger breakthrough was followed by steeper exhaustion of ideas; simulations suggest reciprocal reviewing worsens the concentration. [arXiv cs.AI, submitted 2026-10-19]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Welcome back. Today a paper asks whether the AI field is using up the very ideas it needs for its next breakthrough."
+      },
+      {
+       "speaker": "B",
+       "text": "That sounds like a growth theory question. The authors, from Tsinghua and the University of Chicago, argue that breakthroughs depend on diverse attention, and that collective concentration can deplete it."
+      },
+      {
+       "speaker": "A",
+       "text": "What data do they use?"
+      },
+      {
+       "speaker": "B",
+       "text": "Thirty-six years of computer science: about seven point two million papers, seventy-three thousand peer reviews, and three point seven million researchers and their topic shifts."
+      },
+      {
+       "speaker": "A",
+       "text": "And what do they find?"
+      },
+      {
+       "speaker": "B",
+       "text": "The field expanded while its attention narrowed sharply after the Transformer. Over half of topic-shifting researchers moved into AI, especially mid-career ones, and reviewer confidence fell by a full point on a five-point scale."
+      },
+      {
+       "speaker": "A",
+       "text": "So each breakthrough makes things worse for the next?"
+      },
+      {
+       "speaker": "B",
+       "text": "Each one, from AlexNet to large language models, raised the field's capacity for ideas, but was followed by steeper exhaustion of those ideas. Bigger breakthroughs capture attention more completely. They see the same cycle in structural biology after cryo-EM and AlphaFold."
+      },
+      {
+       "speaker": "A",
+       "text": "Any policy angle?"
+      },
+      {
+       "speaker": "B",
+       "text": "Simulations suggest well-intentioned policies like reciprocal reviewing empower prolific authors and narrow what the field accepts further. The authors call for institutions that protect diverse attention."
+      },
+      {
+       "speaker": "A",
+       "text": "The takeaway: scaling up researchers and money is not enough if everyone chases the same paradigm."
+      }
+     ]
+    },
+    {
+     "title": "OptScientist: Automated Discovery of Optimization Laws",
+     "url": "https://arxiv.org/abs/2610.28562",
+     "fulltext": "https://arxiv.org/pdf/2610.28562",
+     "date": "2026-10-20",
+     "desc": "An LLM-agent framework with a symbolic-discovery model that infers compact optimization problems from data; it recovers ground-truth laws for over 80% of 99 physics-derived problems and finds competitive compact laws for human risky choice and central-bank monetary policy. [arXiv cs.AI, submitted 2026-10-20]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Next, a paper on automated scientific discovery, with an economics twist."
+      },
+      {
+       "speaker": "B",
+       "text": "The system is called OptScientist. Instead of fitting equations to data, it tries to discover the optimization problem that generates the data, in compact symbolic form."
+      },
+      {
+       "speaker": "A",
+       "text": "How does it work?"
+      },
+      {
+       "speaker": "B",
+       "text": "Two parts. A model learns to represent data as an optimization problem and then extracts its symbolic form. And an LLM agent system wraps it, proposing theoretical priors, testing candidate laws, abstracting mechanisms and suggesting new data to collect."
+      },
+      {
+       "speaker": "A",
+       "text": "How is it tested?"
+      },
+      {
+       "speaker": "B",
+       "text": "First on OptFeynman, a new benchmark of ninety-nine physics-derived optimization problems, where it recovers the ground-truth laws for over eighty percent of problems and beats machine-learning, symbolic and LLM baselines."
+      },
+      {
+       "speaker": "A",
+       "text": "And the social science part?"
+      },
+      {
+       "speaker": "B",
+       "text": "On human risky choice and central-bank monetary policy, it finds compact laws with held-out predictive performance competitive with leading baselines, using few parameters and far fewer tokens than LLM baselines."
+      },
+      {
+       "speaker": "A",
+       "text": "Caveats?"
+      },
+      {
+       "speaker": "B",
+       "text": "The economic applications are two examples among three experiments, so this is early evidence. Still, the pitch is automated theory building, and the takeaway is that LLM agents may start proposing economic models, not just estimating them."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "LOB-Impact Benchmark: Emergent Market Impact in Generative Limit Order Book Models",
+     "url": "https://arxiv.org/abs/2610.27100",
+     "fulltext": "https://arxiv.org/pdf/2610.27100",
+     "date": "2026-10-19",
+     "desc": "A benchmark that injects large execution-style orders into five neural limit-order-book generators across five NASDAQ stocks, finding emergent market impact with exponents of 0.63 to 1.21 (above the 0.5 square-root law) and no observed post-execution decay. [arXiv q-fin.TR, submitted 2026-10-19]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Now to finance. Generative AI models of limit order books are being proposed as simulators for trading agents. This paper asks whether they get market impact right."
+      },
+      {
+       "speaker": "B",
+       "text": "Why does that matter?"
+      },
+      {
+       "speaker": "A",
+       "text": "If a simulator misprices the effect of an agent's own orders, the agent learns policies that are optimal in the simulator but wrong in the real market."
+      },
+      {
+       "speaker": "B",
+       "text": "What did the Oxford team do?"
+      },
+      {
+       "speaker": "A",
+       "text": "They built the LOB-Impact benchmark. They inject execution-style large orders into the generated message flow of five autoregressive models across five NASDAQ stocks, and measure the response with estimators from the empirical impact literature."
+      },
+      {
+       "speaker": "B",
+       "text": "What did they find?"
+      },
+      {
+       "speaker": "A",
+       "text": "Impact emerges naturally in models trained only for next-token prediction. The impact exponents range from zero point six three to one point two one, slightly above the traditional square-root law value of zero point five."
+      },
+      {
+       "speaker": "B",
+       "text": "Anything missing?"
+      },
+      {
+       "speaker": "A",
+       "text": "They could not observe impact decay after execution ends, which they tentatively blame on the models' short context windows."
+      },
+      {
+       "speaker": "B",
+       "text": "The benchmark is released as open source, so future market-data generators can be checked on this dimension."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: realistic-looking order flow is not enough; you must test how the simulated market reacts to you."
+      }
+     ]
+    },
+    {
+     "title": "Deep catastrophic-risk-aware reinforcement learning",
+     "url": "https://arxiv.org/abs/2610.27214",
+     "fulltext": "https://arxiv.org/pdf/2610.27214",
+     "date": "2026-10-19",
+     "desc": "Combines extreme value theory with neural-network policies to get a differentiable tail-risk (CVaR) objective; in a deep-hedging experiment the EVT-trained policies show lower hedging losses in extreme scenarios than empirical-CVaR training. [arXiv cs.LG, submitted 2026-10-19]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper is about teaching neural network policies to avoid rare catastrophic losses, using deep hedging."
+      },
+      {
+       "speaker": "B",
+       "text": "The problem is that at high confidence levels only a few training observations land in the tail, so empirical conditional value at risk is noisy."
+      },
+      {
+       "speaker": "A",
+       "text": "And their fix?"
+      },
+      {
+       "speaker": "B",
+       "text": "They bring in extreme value theory. Using a peaks-over-threshold representation and method-of-moments estimation, they build a differentiable tail-risk objective whose gradient can be computed with automatic differentiation."
+      },
+      {
+       "speaker": "A",
+       "text": "Why is that new?"
+      },
+      {
+       "speaker": "B",
+       "text": "An earlier approach used finite differences for the gradient, which becomes impractical as the number of policy parameters grows. This extends it to neural-network policies."
+      },
+      {
+       "speaker": "A",
+       "text": "What are the results?"
+      },
+      {
+       "speaker": "B",
+       "text": "First a controlled experiment with a known optimal solution, then a deep-hedging problem with rare extreme market moves. Under normal conditions both approaches hedge similarly, but the extreme-value-trained policies show lower hedging losses in extreme scenarios across the training sample sizes considered."
+      },
+      {
+       "speaker": "A",
+       "text": "So it helps when tail data is scarce."
+      },
+      {
+       "speaker": "B",
+       "text": "Exactly. The takeaway is that extreme value theory can be a practical alternative when the observations that matter are rare."
+      }
+     ]
+    },
+    {
+     "title": "AuDQ: Auditable Data Quality through Agentic Rule Discovery",
+     "url": "https://arxiv.org/abs/2610.26031",
+     "fulltext": "https://arxiv.org/pdf/2610.26031",
+     "date": "2026-10-19",
+     "desc": "Proposes a versioned, provenance-linked data-quality layer for regulated pipelines with LLM-agent rule discovery (autonomous and guided modes) and human review, with preliminary tests on finance and retail datasets. [arXiv cs.AI, submitted 2026-10-19]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "A quick one, based on the abstract only. This paper proposes an auditable data quality layer for regulated, high-stakes pipelines."
+      },
+      {
+       "speaker": "B",
+       "text": "The idea is that quality rules become first-class artifacts: versioned, linked to governance texts, and replayable through immutable execution traces."
+      },
+      {
+       "speaker": "A",
+       "text": "Where do LLM agents come in?"
+      },
+      {
+       "speaker": "B",
+       "text": "The authors implement an agentic rule-discovery core with a fully autonomous mode and a guided mode, plus a human-in-the-loop review interface."
+      },
+      {
+       "speaker": "A",
+       "text": "How is it evaluated?"
+      },
+      {
+       "speaker": "B",
+       "text": "They ask whether autonomous rule discovery produces rules of the same quality and diversity as a human expert's, reporting preliminary results on two real-world industry datasets in finance and retail."
+      },
+      {
+       "speaker": "A",
+       "text": "Preliminary is the key word. The authors describe this as a first step toward validating a larger vision, not a finished system."
+      },
+      {
+       "speaker": "B",
+       "text": "Why does the finance angle matter?"
+      },
+      {
+       "speaker": "A",
+       "text": "Regulated domains need traceability and accountability, and the paper notes that LLM-era automation raises those expectations. Today the quality checks in high-stakes pipelines tend to be scattered and static, which makes them hard to evolve or audit against policy intent."
+      },
+      {
+       "speaker": "B",
+       "text": "So the hope is rules that evolve but stay auditable."
+      },
+      {
+       "speaker": "A",
+       "text": "Exactly. Takeaway: a vision for making AI-generated data checks traceable for regulators, though the evidence so far is limited and only from two datasets."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Anthropic S-1 Shows Red-Hot Growth, Risks and Massive Computing Costs",
+     "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
+     "fulltext": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
+     "date": "2026-10-20",
+     "desc": "A draft prospectus viewed by the Journal discloses an $80.7 billion net loss for the first half of 2026 alongside rapid growth, a long list of risk factors and plans for very large computing spend. [WSJ, published 2026-10-20]"
+    },
+    {
+     "title": "BlackRock’s Fink Says Slow AI Buildout Would Spur Inflation",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-21/blackrock-s-fink-says-slow-data-center-buildout-is-inflationary",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-21/blackrock-s-fink-says-slow-data-center-buildout-is-inflationary",
+     "date": "2026-10-21",
+     "desc": "Larry Fink warned that delays in building data centers could raise computing costs and threaten economic growth as AI demand accelerates. [Bloomberg, published 2026-10-21]"
+    },
+    {
+     "title": "Silicon Data Plans Tradable Token Index Products With CME",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-21/silicon-data-plans-tradable-token-index-products-with-cme",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-21/silicon-data-plans-tradable-token-index-products-with-cme",
+     "date": "2026-10-21",
+     "desc": "The AI-index startup plans products based on AI token expenditures through its partnership with CME Group. [Bloomberg, published 2026-10-21]"
+    },
+    {
+     "title": "DayOne Said to Weigh Options for IPO After Data Center Rout",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-21/dayone-is-said-to-weigh-options-for-us-ipo-amid-data-center-rout",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-21/dayone-is-said-to-weigh-options-for-us-ipo-amid-data-center-rout",
+     "date": "2026-10-21",
+     "desc": "DayOne Data Centers is weighing a delay or smaller size for its US IPO as volatility around data-center stocks rises, according to people familiar. [Bloomberg, published 2026-10-21]"
+    },
+    {
+     "title": "Australian data centre group falls 44% on profit warning",
+     "url": "https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f",
+     "fulltext": "https://www.ft.com/content/023caf76-40df-485d-8a28-0ff62aa7ec6f",
+     "date": "2026-10-21",
+     "desc": "NextDC's plunge on a profit warning adds to sector woes, while Nvidia is reported to be in talks about injecting capital into Firmus after its failed IPO. [Financial Times, published 2026-10-21]"
+    },
+    {
+     "title": "Can Big Tech calm investors' AI jitters?",
+     "url": "https://www.ft.com/content/b41c0be4-b20f-48de-8bbd-b854f3b637bd",
+     "fulltext": "https://www.ft.com/content/b41c0be4-b20f-48de-8bbd-b854f3b637bd",
+     "date": "2026-10-20",
+     "desc": "Credit default swaps are becoming a bellwether hedge for sentiment on AI spending. [Financial Times, published 2026-10-20]"
+    },
+    {
+     "title": "U.S. Stocks Mixed as Strong Earnings Offset AI Credit Fears",
+     "url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-strong-earnings-offset-ai-credit-fears-d55414c3",
+     "fulltext": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-strong-earnings-offset-ai-credit-fears-d55414c3",
+     "date": "2026-10-20",
+     "desc": "US stocks ended mixed as solid earnings were offset by worries about the sustainability of the debt-fuelled AI boom. [WSJ, published 2026-10-20]"
+    },
+    {
+     "title": "AI Boom Has Years to Run Before Risks Bite, Chiavarone Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-21/ai-boom-has-years-to-run-before-bubble-risks-bite-cio-says",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-21/ai-boom-has-years-to-run-before-bubble-risks-bite-cio-says",
+     "date": "2026-10-21",
+     "desc": "Federated Hermes' Steve Chiavarone argues bubble worries may be right but several years early, since the infrastructure buildout still has years to run. [Bloomberg, published 2026-10-21]"
+    },
+    {
+     "title": "SpaceX Swings to a Profit, as A.I. Business Grows",
+     "url": "https://www.nytimes.com/2026/10/20/technology/spacex-earnings-elon-musk.html",
+     "fulltext": "https://www.nytimes.com/2026/10/20/technology/spacex-earnings-elon-musk.html",
+     "date": "2026-10-20",
+     "desc": "SpaceX reported a profit as AI spending soared, with revenue more than doubling on Starlink and AI products. [NYT, published 2026-10-20]"
+    },
+    {
+     "title": "Asia’s Chip Exports Soar as AI Bubble Debate Rages",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-10-21/asia-s-chip-exports-soar-as-ai-bubble-debate-rages",
+     "fulltext": "https://www.bloomberg.com/news/newsletters/2026-10-21/asia-s-chip-exports-soar-as-ai-bubble-debate-rages",
+     "date": "2026-10-21",
+     "desc": "Asian chip shipments are surging even as markets debate whether the AI boom is healthy. [Bloomberg, published 2026-10-21]"
+    },
+    {
+     "title": "AI-powered personal assistants could reshape the digital economy",
+     "url": "https://www.economist.com/business/2026/10/20/ai-powered-personal-assistants-could-reshape-the-digital-economy",
+     "fulltext": "https://www.economist.com/business/2026/10/20/ai-powered-personal-assistants-could-reshape-the-digital-economy",
+     "date": "2026-10-20",
+     "desc": "The Economist argues AI personal assistants could reshape the digital economy but must first prove safe for users and helpful for businesses. [The Economist, published 2026-10-20]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello and welcome to the Daily AI Research Digest for October twenty-first, twenty twenty-six. I'm Alex."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. Today: a paper on whether AI is exhausting its own ideas, new research on AI-generated market simulators, and a market worried about AI debt and data centers."
+  },
+  {
+   "speaker": "A",
+   "text": "Let's start with research. A new arXiv paper from Tsinghua and the University of Chicago analyzes seven point two million computer science papers over thirty-six years."
+  },
+  {
+   "speaker": "B",
+   "text": "They find the field's attention narrowed sharply after the Transformer, and that each bigger breakthrough was followed by steeper exhaustion of ideas. More researchers, but less diversity."
+  },
+  {
+   "speaker": "A",
+   "text": "Why does that matter for the economy?"
+  },
+  {
+   "speaker": "B",
+   "text": "Because growth theory mostly treats the number of researchers as what counts. This suggests concentration on one paradigm can undercut future breakthroughs."
+  },
+  {
+   "speaker": "A",
+   "text": "Another paper, OptScientist, uses LLM agents to discover optimization laws from data. It recovers ground-truth laws for over eighty percent of ninety-nine physics problems, and also finds compact laws for central-bank monetary policy."
+  },
+  {
+   "speaker": "B",
+   "text": "In finance, an Oxford-led team built a benchmark for generative limit order book models. They inject big orders into five neural models across five NASDAQ stocks and find market impact emerges on its own, with exponents from zero point six three to one point two one, above the classic square-root law."
+  },
+  {
+   "speaker": "A",
+   "text": "So these simulators learn something real, but not exactly the real thing."
+  },
+  {
+   "speaker": "B",
+   "text": "Right, and they could not see impact decay afterward, probably because of short context windows. A separate paper uses extreme value theory to train deep hedging policies, which show lower losses in extreme scenarios."
+  },
+  {
+   "speaker": "A",
+   "text": "Now the news. The Wall Street Journal reports Anthropic's draft prospectus shows an eighty point seven billion dollar net loss for the first half of the year, alongside fast growth and massive planned computing spend."
+  },
+  {
+   "speaker": "B",
+   "text": "And markets are nervous. Stocks ended mixed as strong earnings offset worries about the debt-fuelled AI boom, and the Financial Times says credit default swaps are becoming a bellwether hedge for AI sentiment."
+  },
+  {
+   "speaker": "A",
+   "text": "Data centers are feeling it. NextDC fell forty-four percent on a profit warning, and DayOne is weighing delaying or shrinking its US IPO."
+  },
+  {
+   "speaker": "B",
+   "text": "Yet BlackRock's Larry Fink warned that a slow data center buildout would raise computing costs and be inflationary, and one strategist says the boom has years to run before risks bite."
+  },
+  {
+   "speaker": "A",
+   "text": "Also, Silicon Data plans token index products with CME, which would let investors trade on AI token spending."
+  },
+  {
+   "speaker": "B",
+   "text": "And Asian chip exports are surging even as the bubble debate rages."
+  },
+  {
+   "speaker": "A",
+   "text": "That's all for today. Find the full list and audio in the web archive."
+  },
+  {
+   "speaker": "B",
+   "text": "Thanks for listening, see you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-10-20 (last run) → 2026-10-21. Washington Post could not be reached this run (feed returned HTTP 502). SSRN was not searched this run. News summaries are based on feed teasers only."
+}
