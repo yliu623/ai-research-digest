@@ -5083,5 +5083,75 @@
   "url": "https://www.economist.com/business/2026/10/20/ai-powered-personal-assistants-could-reshape-the-digital-economy",
   "title": "AI-powered personal assistants could reshape the digital economy",
   "date_sent": "2026-10-21"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.28907",
+  "title": "JaxMARL-BC: Multi-Agent Reinforcement Learning for Macroeconomic Modelling, in Seconds",
+  "date_sent": "2026-10-22"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.29663",
+  "title": "Lineage-Aware Search Control for LLM-Based Evolutionary Factor Mining",
+  "date_sent": "2026-10-22"
+ },
+ {
+  "url": "https://arxiv.org/abs/2610.28753",
+  "title": "Understanding the Inner Workings of a State-Space Foundation Model for Limit Order Books",
+  "date_sent": "2026-10-22"
+ },
+ {
+  "url": "https://pubsonline.informs.org/doi/10.1287/msom.2025.0215",
+  "title": "Inpatient Overflow Management with Proximal Policy Optimization",
+  "date_sent": "2026-10-22"
+ },
+ {
+  "url": "https://www.economist.com/leaders/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+  "title": "AI compute is the new oil—and needs a new market",
+  "date_sent": "2026-10-22"
+ },
+ {
+  "url": "https://www.wsj.com/articles/metaplatforms-meta-3q-earnings-report-2026-stock-f28d64c2",
+  "title": "Meta Will Split Stock, Create New Class to Fund AI Spending",
+  "date_sent": "2026-10-22"
+ },
+ {
+  "url": "https://www.ft.com/content/e83591cd-13d4-4358-aee9-c500930bfd36",
+  "title": "Barclays to cut 5,000 jobs as bank steps up AI adoption",
+  "date_sent": "2026-10-22"
+ },
+ {
+  "url": "https://www.bloomberg.com/news/articles/2026-10-22/softbank-market-value-poised-to-halve-from-peak-as-ai-fears-grow",
+  "title": "SoftBank Market Value Halves From Peak as AI Fears Grow",
+  "date_sent": "2026-10-22"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/10/22/business/economy/ai-economy-jobs-history.html",
+  "title": "For Clues About How A.I. Will Change Work, Look to the Past",
+  "date_sent": "2026-10-22"
+ },
+ {
+  "url": "https://www.ft.com/content/68b04a9b-714e-4a5a-8dde-d9d7b8a65197",
+  "title": "AI's true effect on inflation",
+  "date_sent": "2026-10-22"
+ },
+ {
+  "url": "https://www.wsj.com/finance/investing/want-to-short-the-ai-boom-she-wants-to-give-you-a-way-to-bet-on-compute-prices-bcdafd3e",
+  "title": "Want to Short the AI Boom? She Wants to Give You a Way to Bet on 'Compute' Prices",
+  "date_sent": "2026-10-22"
+ },
+ {
+  "url": "https://www.ft.com/content/09f56730-4702-446d-9986-f7c93ffe6bf0",
+  "title": "Who's paying for the AI build-out? Probably you",
+  "date_sent": "2026-10-22"
+ },
+ {
+  "url": "https://www.economist.com/leaders/2026/10/21/either-ai-or-public-debt-could-crash-markets-but-probably-not-both",
+  "title": "Either AI or public debt could crash markets. But probably not both",
+  "date_sent": "2026-10-22"
+ },
+ {
+  "url": "https://www.nytimes.com/2026/10/21/technology/meta-earnings.html",
+  "title": "Meta Earnings Show Increased A.I. Spending, Even as Cash Pressures Grow",
+  "date_sent": "2026-10-22"
  }
 ]

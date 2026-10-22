@@ -1,0 +1,306 @@
+{
+ "date": "2026-10-22",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "JaxMARL-BC: Multi-Agent Reinforcement Learning for Macroeconomic Modelling, in Seconds",
+     "url": "https://arxiv.org/abs/2610.28907",
+     "fulltext": "https://arxiv.org/pdf/2610.28907",
+     "date": "2026-10-20",
+     "desc": "A JAX-accelerated simulator trains multi-agent RL business-cycle economies 75x to 724x faster than the reference, scaling to 200,000 learning households. [arXiv cs.MA, submitted 2026-10-20]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Welcome back. This one is based on the abstract only. It's about simulating whole economies with reinforcement learning agents."
+      },
+      {
+       "speaker": "B",
+       "text": "Right. Macroeconomists have been slow to adopt multi-agent reinforcement learning, partly because training takes so long and partly because it was hard to connect to the standard DSGE models the profession trusts."
+      },
+      {
+       "speaker": "A",
+       "text": "A previous framework, MARL-BC, put deep RL households into a real business cycle economy and showed it reduces to classic models in specific limits. This paper tackles the speed problem."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors built JaxMARL-BC, a JAX-accelerated simulator that trains these economies in seconds, between seventy-five and seven hundred twenty-four times faster than the reference implementation, and scaling to two hundred thousand independent learning households."
+      },
+      {
+       "speaker": "A",
+       "text": "They checked correctness against the known DSGE limits, and as a demonstration calibrated an extended model with heterogeneous returns on capital in a two-hour experiment that would previously have taken over a month."
+      },
+      {
+       "speaker": "B",
+       "text": "The takeaway: it makes agent-based macro with learning households practical to iterate on, and the code is open source."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Lineage-Aware Search Control for LLM-Based Evolutionary Factor Mining",
+     "url": "https://arxiv.org/abs/2610.29663",
+     "fulltext": "https://arxiv.org/pdf/2610.29663",
+     "date": "2026-10-21",
+     "desc": "LineageEvo guides LLM-driven evolutionary search for alpha factors using lineage-level priors and budget allocation, reporting the strongest predictive performance on CSI 500 and S&P 500. [arXiv q-fin.CP, submitted 2026-10-21]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's paper is about using language models to find trading signals. We're working from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Alpha factor mining means searching for symbolic formulas that turn market data into predictive signals. Recent methods use an LLM as the mutation operator inside an evolutionary search."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors say those searches tend to be weakly directed and cluster around structurally similar factors, because control happens only at the individual and population level."
+      },
+      {
+       "speaker": "B",
+       "text": "Their method, LineageEvo, tracks lineages, meaning chains of descent between factor variants. It distills experience from each lineage into priors that guide the LLM, and it spreads the search budget across lineages so no branch dominates."
+      },
+      {
+       "speaker": "A",
+       "text": "They test on CSI 500 and S&P 500 stocks, and report the strongest predictive performance on both, plus a more balanced and structurally broader pool of factors."
+      },
+      {
+       "speaker": "B",
+       "text": "So the claim is that lineage is a useful unit for steering LLM-driven search. As always, results are the authors' own backtests."
+      }
+     ]
+    },
+    {
+     "title": "Understanding the Inner Workings of a State-Space Foundation Model for Limit Order Books",
+     "url": "https://arxiv.org/abs/2610.28753",
+     "fulltext": "https://arxiv.org/pdf/2610.28753",
+     "date": "2026-10-20",
+     "desc": "An 8.2M-parameter Mamba-3 model trained on order messages for eight US equities learns a steerable internal representation; order-flow imbalance is decodable at R^2 of about 0.59, including for unseen stocks. [arXiv q-fin.TR, submitted 2026-10-20]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper asks what a foundation model for limit order books actually learns. Again, we're going from the abstract."
+      },
+      {
+       "speaker": "B",
+       "text": "These models generate the stream of order messages in a market, and people want to know whether they capture real market microstructure or just surface patterns."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors study an 8.2 million parameter Mamba-3 state-space model trained on the tokenized message stream of eight large-cap US equities."
+      },
+      {
+       "speaker": "B",
+       "text": "They find an internal representation of the market: order-flow imbalance, a key driver of short-horizon price moves, can be decoded with an R-squared of about 0.59, far above controls and baselines."
+      },
+      {
+       "speaker": "A",
+       "text": "It carries over to unseen stocks, and also holds for traded volume and volatility. Pushing the state along a feature's direction shifts the model's next-message beliefs in the expected way, which the authors read as an emergent world model."
+      },
+      {
+       "speaker": "B",
+       "text": "Why does that matter? If a generative market model has really internalized things like order-flow imbalance, volume and volatility, researchers can probe it, steer it and judge whether it is trustworthy before anyone uses it for simulation or trading research."
+      },
+      {
+       "speaker": "A",
+       "text": "One caution, since we only have the abstract: it covers eight large-cap US stocks and one model size, so how far the finding stretches to other markets or larger models is something the full paper would need to answer."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: these models seem to learn general market structure, not ticker-specific quirks."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "Inpatient Overflow Management with Proximal Policy Optimization",
+     "url": "https://pubsonline.informs.org/doi/10.1287/msom.2025.0215",
+     "fulltext": "https://pubsonline.informs.org/doi/10.1287/msom.2025.0215",
+     "date": "2026-10-21",
+     "desc": "A domain-adapted proximal policy optimization approach to hospital patient overflow matches or beats benchmarks including approximate dynamic programming, which is infeasible beyond five wards. [M&SOM, published online 2026-10-21]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Now an operations paper from Manufacturing and Service Operations Management, working from the abstract."
+      },
+      {
+       "speaker": "B",
+       "text": "Hospitals need to decide where to place patients when their home ward is full. That inpatient overflow problem gets very hard in large systems."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors apply proximal policy optimization, a reinforcement learning method, adapted to the specific problem."
+      },
+      {
+       "speaker": "B",
+       "text": "They report it matches or beats existing benchmarks, including approximate dynamic programming, which becomes computationally infeasible beyond five wards."
+      },
+      {
+       "speaker": "A",
+       "text": "Their broader lesson is that domain-aware adaptation of a general-purpose algorithm matters more than fine-tuning the neural network's parameters."
+      },
+      {
+       "speaker": "B",
+       "text": "That scalability matters in practice, because large hospital systems have many wards and the exact optimization methods simply cannot be computed at that size."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors also stress explainability, since hospital managers need to understand why a policy sends patients where it does before they trust it with real beds."
+      },
+      {
+       "speaker": "B",
+       "text": "A caveat: we only have the abstract, so details such as the data, the exact benchmarks and the size of the gains are in the full paper, which also links to released code and appendices."
+      },
+      {
+       "speaker": "A",
+       "text": "The takeaway is a scalable and explainable approach to patient flow, and a broader lesson that tailoring a general algorithm to the problem beats tuning its network."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "AI compute is the new oil—and needs a new market",
+     "url": "https://www.economist.com/leaders/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+     "fulltext": "https://www.economist.com/leaders/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+     "date": "2026-10-22",
+     "desc": "The Economist argues that processing power is becoming a commodity and that financial firms are racing to create instruments to trade it. [The Economist, published 2026-10-22]"
+    },
+    {
+     "title": "Meta Will Split Stock, Create New Class to Fund AI Spending",
+     "url": "https://www.wsj.com/articles/metaplatforms-meta-3q-earnings-report-2026-stock-f28d64c2",
+     "fulltext": "https://www.wsj.com/articles/metaplatforms-meta-3q-earnings-report-2026-stock-f28d64c2",
+     "date": "2026-10-22",
+     "desc": "Meta reported record third-quarter revenue of $64.6 billion and said it will split its stock and create a new share class to fund AI spending, without affecting Mark Zuckerberg's voting control. [WSJ, published 2026-10-22]"
+    },
+    {
+     "title": "Barclays to cut 5,000 jobs as bank steps up AI adoption",
+     "url": "https://www.ft.com/content/e83591cd-13d4-4358-aee9-c500930bfd36",
+     "fulltext": "https://www.ft.com/content/e83591cd-13d4-4358-aee9-c500930bfd36",
+     "date": "2026-10-22",
+     "desc": "Barclays will cut 5,000 jobs as it steps up AI adoption, announced alongside third-quarter profits that fell short of expectations. [Financial Times, published 2026-10-22]"
+    },
+    {
+     "title": "SoftBank Market Value Halves From Peak as AI Fears Grow",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-22/softbank-market-value-poised-to-halve-from-peak-as-ai-fears-grow",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-22/softbank-market-value-poised-to-halve-from-peak-as-ai-fears-grow",
+     "date": "2026-10-22",
+     "desc": "SoftBank's market value has halved from its June peak as higher borrowing costs feed investor worries about the sustainability of its large AI investments. [Bloomberg, published 2026-10-22]"
+    },
+    {
+     "title": "For Clues About How A.I. Will Change Work, Look to the Past",
+     "url": "https://www.nytimes.com/2026/10/22/business/economy/ai-economy-jobs-history.html",
+     "fulltext": "https://www.nytimes.com/2026/10/22/business/economy/ai-economy-jobs-history.html",
+     "date": "2026-10-22",
+     "desc": "Economists are turning to earlier episodes of labor disruption, from the Industrial Revolution to the Great Depression, for guidance on how AI may reshape work. [NYT, published 2026-10-22]"
+    },
+    {
+     "title": "AI's true effect on inflation",
+     "url": "https://www.ft.com/content/68b04a9b-714e-4a5a-8dde-d9d7b8a65197",
+     "fulltext": "https://www.ft.com/content/68b04a9b-714e-4a5a-8dde-d9d7b8a65197",
+     "date": "2026-10-22",
+     "desc": "An FT piece on how relative price shifts driven by AI can affect the overall price level. [Financial Times, published 2026-10-22]"
+    },
+    {
+     "title": "Want to Short the AI Boom? She Wants to Give You a Way to Bet on 'Compute' Prices",
+     "url": "https://www.wsj.com/finance/investing/want-to-short-the-ai-boom-she-wants-to-give-you-a-way-to-bet-on-compute-prices-bcdafd3e",
+     "fulltext": "https://www.wsj.com/finance/investing/want-to-short-the-ai-boom-she-wants-to-give-you-a-way-to-bet-on-compute-prices-bcdafd3e",
+     "date": "2026-10-21",
+     "desc": "Silicon Data founder Carmen Li is teaming with CME Group to launch derivatives on compute prices. [WSJ, published 2026-10-21]"
+    },
+    {
+     "title": "Who's paying for the AI build-out? Probably you",
+     "url": "https://www.ft.com/content/09f56730-4702-446d-9986-f7c93ffe6bf0",
+     "fulltext": "https://www.ft.com/content/09f56730-4702-446d-9986-f7c93ffe6bf0",
+     "date": "2026-10-21",
+     "desc": "The FT notes that every big pool of capital in the developed world is funding data centres, so the cost of the AI build-out is likely to land on ordinary savers and consumers. [Financial Times, published 2026-10-21]"
+    },
+    {
+     "title": "Either AI or public debt could crash markets. But probably not both",
+     "url": "https://www.economist.com/leaders/2026/10/21/either-ai-or-public-debt-could-crash-markets-but-probably-not-both",
+     "fulltext": "https://www.economist.com/leaders/2026/10/21/either-ai-or-public-debt-could-crash-markets-but-probably-not-both",
+     "date": "2026-10-21",
+     "desc": "The Economist argues that if AI stocks collapse, bond yields would fall, so the two market risks offset each other. [The Economist, published 2026-10-21]"
+    },
+    {
+     "title": "Meta Earnings Show Increased A.I. Spending, Even as Cash Pressures Grow",
+     "url": "https://www.nytimes.com/2026/10/21/technology/meta-earnings.html",
+     "fulltext": "https://www.nytimes.com/2026/10/21/technology/meta-earnings.html",
+     "date": "2026-10-21",
+     "desc": "Meta's AI spending has pushed its cash flow negative, and it said it would issue a new class of stock to raise money. [NYT, published 2026-10-21]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hi, I'm Alex, and this is your AI research digest for October twenty-second. The big theme today is who pays for AI, and whether markets still believe in it."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. Let's start with the money. Meta reported record third-quarter revenue of sixty-four point six billion dollars, but it also said it will split its stock and create a new share class to fund AI spending, without touching Mark Zuckerberg's voting control."
+  },
+  {
+   "speaker": "A",
+   "text": "The New York Times adds that Meta's cash flow turned negative because of that spending. So the AI build-out is now being financed with new equity, not just profits."
+  },
+  {
+   "speaker": "B",
+   "text": "And the Financial Times piece asks who's paying for all of it. Its answer is that every big pool of capital in the developed world is funding data centres, so probably ordinary savers and consumers."
+  },
+  {
+   "speaker": "A",
+   "text": "Meanwhile Bloomberg reports SoftBank's market value has halved from its June peak as higher borrowing costs raise doubts about its AI investments."
+  },
+  {
+   "speaker": "B",
+   "text": "On the other side, The Economist argues that AI compute is becoming like oil and needs a market. The Wall Street Journal says Silicon Data's founder is working with CME Group to launch derivatives on compute prices."
+  },
+  {
+   "speaker": "A",
+   "text": "The Economist also makes a neat point: if AI stocks collapse, bond yields would fall, so AI risk and public debt risk probably won't hit together."
+  },
+  {
+   "speaker": "B",
+   "text": "On labor, Barclays will cut five thousand jobs as it steps up AI adoption, according to the Financial Times. And the New York Times looks to past disruptions, from the Industrial Revolution to the Great Depression, for clues about AI and work."
+  },
+  {
+   "speaker": "A",
+   "text": "Now to research. A new arXiv paper presents JaxMARL-BC, a simulator that trains reinforcement learning macro economies between seventy-five and seven hundred twenty-four times faster than before, scaling to two hundred thousand households."
+  },
+  {
+   "speaker": "B",
+   "text": "In finance, a paper called LineageEvo uses language models to evolve trading factors, and reports the strongest predictive performance on CSI 500 and S and P 500 data."
+  },
+  {
+   "speaker": "A",
+   "text": "Another q-fin paper opens up a foundation model for limit order books, and finds order-flow imbalance can be decoded with an R squared of about point five nine, even for stocks the model never saw."
+  },
+  {
+   "speaker": "B",
+   "text": "And in operations, an M and S O M paper uses proximal policy optimization for hospital patient overflow, beating benchmarks that break down beyond five wards."
+  },
+  {
+   "speaker": "A",
+   "text": "That's the digest. Full summaries and per-paper audio are in the web archive. Thanks for listening."
+  },
+  {
+   "speaker": "B",
+   "text": "See you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-10-21 (last run) → 2026-10-22. Washington Post could not be reached this run (HTTP 502). SSRN searches were not run this time. News summaries are based on feed teasers."
+}
