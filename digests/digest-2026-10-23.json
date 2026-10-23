@@ -1,0 +1,458 @@
+{
+ "date": "2026-10-23",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "The Delegation Divide: An Open Index of AI-Agent Delegability across Occupations and Countries",
+     "url": "https://arxiv.org/abs/2610.30752",
+     "fulltext": "https://arxiv.org/pdf/2610.30752",
+     "date": "2026-10-22",
+     "desc": "Builds an Agent Delegability Index by having two language models rate 18,796 O*NET tasks, then weights by employment in 146 countries; finds 35.2% of task time is at least partly delegable to AI agents but only 2.5% fully, rising from 22.5% in low-income to 48.7% in high-income countries. [arXiv econ.GN, submitted 2026-10-22]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This is based on the abstract only. The question is how much of the world's work could be handed to AI agents, not just the American slice."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors have two language models rate every O-NET task statement, map them to occupations, and weight by employment in 146 countries."
+      },
+      {
+       "speaker": "A",
+       "text": "The headline: about 35 percent of task time worldwide is at least partly delegable, but only 2.5 percent can be handed over in full."
+      },
+      {
+       "speaker": "B",
+       "text": "And there's a divide. In low-income countries about 22 percent of employment is delegable, versus nearly 49 percent in high-income countries."
+      },
+      {
+       "speaker": "A",
+       "text": "Why? Mostly composition. Poorer countries employ more people in physical work, and physical barriers dominate."
+      },
+      {
+       "speaker": "B",
+       "text": "They also tested a preregistered idea of an adoption gap in middle-income countries, and it wasn't supported. Delegability and observed AI usage correlate at 0.86 across 101 countries."
+      },
+      {
+       "speaker": "A",
+       "text": "Full delegation peaks for tasks that take a human about twelve minutes. So the takeaway: AI-agent exposure is real but mostly partial, and it is unevenly spread across income levels."
+      }
+     ]
+    },
+    {
+     "title": "Joules-to-GDP: How Much Economic Value Do AI Systems Produce per Unit of Energy?",
+     "url": "https://arxiv.org/abs/2610.30858",
+     "fulltext": "https://arxiv.org/pdf/2610.30858",
+     "date": "2026-10-22",
+     "desc": "Measures economic value per unit of energy for AI systems on 220 GDPval tasks across 44 occupations; the best-value model by dollars is not the best per joule, e.g. Gemma 4 31B gets 56% of GLM 5.2's net value with 23% of its energy. [arXiv econ.GN, submitted 2026-10-22]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This one is based on the abstract only. It asks how much economic value an AI system produces per unit of energy."
+      },
+      {
+       "speaker": "B",
+       "text": "They define net value per joule and time saving per joule, using 220 GDPval tasks across 44 occupations and five open-weight models run locally."
+      },
+      {
+       "speaker": "A",
+       "text": "The ranking changes once you divide by energy. GLM 5.2 earns the highest net value, about 72 dollars per task using 0.43 megajoules."
+      },
+      {
+       "speaker": "B",
+       "text": "But Gemma 4 31B gets 56 percent of that value with just 23 percent of the energy, roughly 2.5 times the value per joule."
+      },
+      {
+       "speaker": "A",
+       "text": "Occupations shift too. Engineering work yields about 10 percent more net dollar value per task than software development, yet software gives about 27 percent more value per joule."
+      },
+      {
+       "speaker": "B",
+       "text": "Hardware matters: the same model's value per joule varies by a factor of 4.3 across four accelerators, with B200 leading."
+      },
+      {
+       "speaker": "A",
+       "text": "The takeaway: judging AI by capability alone misses the energy side of its economic return."
+      }
+     ]
+    },
+    {
+     "title": "The Customer Is the Builder: How AI Coding Agents Are Rewriting the Economics of Software",
+     "url": "https://arxiv.org/abs/2610.30307",
+     "fulltext": "https://arxiv.org/pdf/2610.30307",
+     "date": "2026-10-21",
+     "desc": "Argues AI coding agents may let customers build rather than buy software; benchmark task length at 50% success has doubled about every 129 days, and 32% of surveyed respondents say they skipped a software purchase because they could build it, though evidence on displaced spending is mixed. [arXiv econ.GN, submitted 2026-10-21]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Based on the abstract only. Will AI coding agents make companies build their own software instead of buying it?"
+      },
+      {
+       "speaker": "B",
+       "text": "The authors define a software substitution frontier: functions a customer could build and maintain acceptably for less than buying."
+      },
+      {
+       "speaker": "A",
+       "text": "On capacity, the length of tasks agents can complete at 50 percent success has doubled about every 129 days since 2023."
+      },
+      {
+       "speaker": "B",
+       "text": "They found 575 possible open-source alternatives to commercial products, and a suite of agents produced 12 application repositories in 12 days, though those are early versions."
+      },
+      {
+       "speaker": "A",
+       "text": "The market evidence is mixed. Purchased software gained investment share and commercial installations grew."
+      },
+      {
+       "speaker": "B",
+       "text": "But 32 percent of survey respondents said they had forgone a purchase because they could build it with coding agents."
+      },
+      {
+       "speaker": "A",
+       "text": "Caveats: the self-reports don't prove spending was displaced, and projections are extrapolation. The warning is that build decisions may move before a broad shift shows up."
+      },
+      {
+       "speaker": "B",
+       "text": "One more point on why this matters: software vendors price on the assumption that customers will buy. If a meaningful share of professional buyers can specify and evaluate tools well enough to have agents build them, the pressure shows up first in individual purchasing decisions, long before aggregate spending data moves. The authors stress that their projections are extrapolations, not forecasts, and that the repositories built so far are early versions."
+      }
+     ]
+    },
+    {
+     "title": "The Reaction of Financial Markets to the Releases of DeepSeek R1 and Kimi K3: A Critical Analysis",
+     "url": "https://arxiv.org/abs/2610.30886",
+     "fulltext": "https://arxiv.org/pdf/2610.30886",
+     "date": "2026-10-22",
+     "desc": "Compares market reactions to DeepSeek R1 (January 2025) and Kimi K3 (July 2026); R1's low reported costs hit semiconductor and data-centre stocks, while Kimi K3 mostly moved rival Chinese labs, suggesting open-weight models redistribute rents across the AI value chain. [arXiv econ.GN, submitted 2026-10-22]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This is from the abstract only. How did markets react when Chinese AI models landed?"
+      },
+      {
+       "speaker": "B",
+       "text": "The paper compares DeepSeek R1 in January 2025 with Kimi K3 in July 2026 using descriptive event windows."
+      },
+      {
+       "speaker": "A",
+       "text": "R1 came with open weights and unusually low reported costs, so investors reassessed demand for computing and semiconductor and data-centre stocks fell sharply."
+      },
+      {
+       "speaker": "B",
+       "text": "Kimi K3 entered at roughly frontier prices, and the reaction fell mostly on rival Chinese AI labs."
+      },
+      {
+       "speaker": "A",
+       "text": "The author argues open-weight models redistribute rents across the value chain rather than eliminating them."
+      },
+      {
+       "speaker": "B",
+       "text": "Incumbents are protected by complements like distribution, bundling, switching costs, proprietary data and serving capacity."
+      },
+      {
+       "speaker": "A",
+       "text": "The takeaway: assess AI risks by who owns durable complementary assets, not only model capability."
+      },
+      {
+       "speaker": "B",
+       "text": "The broader lesson is about reading market signals. A sharp fall in chip stocks after a cheap open model tells you investors reassessed compute demand, not that rents vanished. The paper leans on event windows, capability and cost comparisons, and the history of open-source software, so it is a descriptive argument rather than a causal estimate, and I'm working only from the abstract here."
+      }
+     ]
+    },
+    {
+     "title": "Paying for Information, Not for Clicks: A Block-Level Publisher Content Marketplace for AI Answers",
+     "url": "https://arxiv.org/abs/2610.30324",
+     "fulltext": "https://arxiv.org/pdf/2610.30324",
+     "date": "2026-10-21",
+     "desc": "Proposes a block-level marketplace paying publishers for facts used in AI answers, evaluated on 1,974 queries; premium publishers get 42% under equal sharing vs 46-50% under a first-publication rule, so a global index of who published each block matters. [arXiv econ.GN, submitted 2026-10-21]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Based on the abstract only. How should AI answer engines pay publishers?"
+      },
+      {
+       "speaker": "B",
+       "text": "The authors split content into blocks, distinct facts or commentary, and compare three payment rules: equal sharing, first reporter, and indispensable contribution, all within a Shapley framework."
+      },
+      {
+       "speaker": "A",
+       "text": "They test on answers to 1,974 queries about a heavily covered news episode."
+      },
+      {
+       "speaker": "B",
+       "text": "With attribution limited to retrieved articles, most blocks look unique and the rules give nearly identical payouts."
+      },
+      {
+       "speaker": "A",
+       "text": "With a global index over the full corpus, overlap appears and the rule matters: premium publishers get 42 percent under equal sharing, but 46 to 50 percent under first publication."
+      },
+      {
+       "speaker": "B",
+       "text": "The takeaway: you need a shared index recording who published each block and when."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does this matter? As AI answers replace clicks, publishers lose the traffic that used to pay for reporting. A fair payment scheme needs to know who reported a fact first and who else reported it. The paper shows that without that global view, the choice of rule looks harmless, when in fact it shifts several percentage points of value toward or away from premium outlets."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "When News Gets Old: Portfolio Allocation with Reinforcement Learning and Large Language Models",
+     "url": "https://arxiv.org/abs/2610.30564",
+     "fulltext": "https://arxiv.org/pdf/2610.30564",
+     "date": "2026-10-22",
+     "desc": "Tests whether to keep or filter aging news signals extracted by a fixed LLM from SEC disclosures in RL and LLM portfolio choice over 2023-2025; filtering old news gave the LLM its best net return, 18.43% per year with four-week-delayed news, beating all RL strategies using news. [arXiv q-fin, submitted 2026-10-22]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Based on the abstract only. Does old financial news still help an AI portfolio?"
+      },
+      {
+       "speaker": "B",
+       "text": "A fixed LLM extracts signals from public SEC disclosures. The paper compares giving a portfolio policy timing information against filtering stale news out."
+      },
+      {
+       "speaker": "A",
+       "text": "They test reinforcement learning policies and LLMs that pick portfolios directly, with returns after trading costs over 2023 to 2025."
+      },
+      {
+       "speaker": "B",
+       "text": "For RL, timing information changes behavior in a controlled test, but historical returns show no consistent benefit."
+      },
+      {
+       "speaker": "A",
+       "text": "For the LLM, filtering old news produced the highest average net return, 18.43 percent a year when delivery was delayed four weeks."
+      },
+      {
+       "speaker": "B",
+       "text": "That beat every RL strategy using news. The takeaway: freshness handling matters, and it's only a historical test."
+      },
+      {
+       "speaker": "A",
+       "text": "A few caveats are worth stating. These are historical tests over 2023 to 2025 with a particular delay setup, and the abstract says RL policies showed no consistent benefit from timing information. So the result is suggestive about how language models handle stale signals, not a proven trading edge, and costs and sample period matter a lot."
+      }
+     ]
+    },
+    {
+     "title": "Governed Self-Evolution for Autonomous Investing: A Multi-Agent LLM System with an Invariant Core",
+     "url": "https://arxiv.org/abs/2610.30557",
+     "fulltext": "https://arxiv.org/pdf/2610.30557",
+     "date": "2026-10-22",
+     "desc": "Presents Steward, a nine-agent LLM investing system with an invariant risk core; in a five-month live run (102 trading days) it held a 24.6% sector drawdown to a 0.3% loss, and a 2015-2026 backtest shows the core lowers maximum drawdown under all 50 random entry policies. [arXiv q-fin, submitted 2026-10-22]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Based on the abstract only. Can an LLM agent invest autonomously and still stay safe?"
+      },
+      {
+       "speaker": "B",
+       "text": "Steward uses nine role-specialised agents: four analysts read news, SEC filings, macro series and market data, a portfolio manager sets targets, and a protected risk manager audits."
+      },
+      {
+       "speaker": "A",
+       "text": "It improves itself through nightly grading and quarterly prompt learnings applied through a deterministic gate, around an invariant core no self-edit can touch."
+      },
+      {
+       "speaker": "B",
+       "text": "In a five-month live deployment of 102 trading days, it contained a 24.6 percent sector drawdown to a 0.3 percent loss."
+      },
+      {
+       "speaker": "A",
+       "text": "In replay, a single model with the same data traded more and lost 1.35 points against the market, while no injected instruction was followed."
+      },
+      {
+       "speaker": "B",
+       "text": "A 2015 to 2026 backtest shows the core alone lowers maximum drawdown under all 50 random entry policies. Caveat: it's a short live sample."
+      },
+      {
+       "speaker": "A",
+       "text": "What stands out is the design philosophy: let the agents learn from outcomes, but put order arithmetic, risk rules and discipline prompts out of reach of any self-edit. The authors also report that an injected instruction from untrusted web content was not followed. As always, a five-month live window is short, so treat the drawdown result as encouraging rather than conclusive."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Barclays to Cut 5,000 Jobs in A.I.-Driven Push to Lower Costs",
+     "url": "https://www.nytimes.com/2026/10/22/business/barclays-job-cuts-ai.html",
+     "fulltext": "https://www.nytimes.com/2026/10/22/business/barclays-job-cuts-ai.html",
+     "date": "2026-10-22",
+     "desc": "Barclays will cut 5,000 jobs, about 5% of staff, in an AI-driven push to lower costs, which the NYT calls the latest example of a company citing AI for efficiency with fewer workers. [NYT, published 2026-10-22]"
+    },
+    {
+     "title": "Stocks See Steepest Decline in Months Amid A.I. Worries",
+     "url": "https://www.nytimes.com/2026/10/22/business/stocks-oil-prices.html",
+     "fulltext": "https://www.nytimes.com/2026/10/22/business/stocks-oil-prices.html",
+     "date": "2026-10-22",
+     "desc": "US stocks had their steepest decline in months on AI worries: the S&P 500 fell over 1.4%, its biggest daily drop since July, and the Nasdaq slumped nearly 2.5%. [NYT, published 2026-10-22]"
+    },
+    {
+     "title": "Fearing Mass A.I. Layoffs, Some in Congress Eye Ways to Aid Workers",
+     "url": "https://www.nytimes.com/2026/10/23/business/ai-jobs-layoffs-congress.html",
+     "fulltext": "https://www.nytimes.com/2026/10/23/business/ai-jobs-layoffs-congress.html",
+     "date": "2026-10-23",
+     "desc": "Some in Congress are weighing ways to aid workers in case of mass AI layoffs, including a bill to bolster unemployment insurance, though the NYT notes risks in the approach. [NYT, published 2026-10-23]"
+    },
+    {
+     "title": "How the A.I. Boom Is Driving Up Sales of Gray Paint",
+     "url": "https://www.nytimes.com/2026/10/22/technology/ai-data-centers-paint.html",
+     "fulltext": "https://www.nytimes.com/2026/10/22/technology/ai-data-centers-paint.html",
+     "date": "2026-10-22",
+     "desc": "Data centers are becoming a fast-growing market for paint makers, as tech firms coat facilities in gray coatings that resist fire, rust and static electricity. [NYT, published 2026-10-22]"
+    },
+    {
+     "title": "If AI displaces human workers, they will lose more than just pay",
+     "url": "https://www.economist.com/business/2026/10/22/if-ai-displaces-human-workers-they-will-lose-more-than-just-pay",
+     "fulltext": "https://www.economist.com/business/2026/10/22/if-ai-displaces-human-workers-they-will-lose-more-than-just-pay",
+     "date": "2026-10-22",
+     "desc": "The Economist examines the non-pay costs of AI job displacement, arguing that work has value beyond the income it provides. [The Economist, published 2026-10-22]"
+    },
+    {
+     "title": "How to share the wealth from AI? Alaska offers lessons",
+     "url": "https://www.economist.com/united-states/2026/10/22/how-to-share-the-wealth-from-ai-alaska-offers-lessons",
+     "fulltext": "https://www.economist.com/united-states/2026/10/22/how-to-share-the-wealth-from-ai-alaska-offers-lessons",
+     "date": "2026-10-22",
+     "desc": "The Economist looks at what Alaska's sharing of resource proceeds suggests for distributing the wealth from an AI boom, noting that dividing the proceeds is harder than it looks. [The Economist, published 2026-10-22]"
+    },
+    {
+     "title": "Politicians Are Turning Against AI, but Your Pension Is Riding on It",
+     "url": "https://www.wsj.com/finance/investing/politicians-are-turning-against-ai-but-your-pension-is-riding-on-it-6764d852",
+     "fulltext": "https://www.wsj.com/finance/investing/politicians-are-turning-against-ai-but-your-pension-is-riding-on-it-6764d852",
+     "date": "2026-10-23",
+     "desc": "AI-linked stocks drove $138 billion in gains across 13 public pension funds since 2022, helping them recover from financial-crisis losses, even as politicians turn against AI. [WSJ, published 2026-10-23]"
+    },
+    {
+     "title": "Chinese AI Startup DeepSeek Raises $15 Billion Ahead of Potential IPO",
+     "url": "https://www.wsj.com/tech/ai/chinese-ai-startup-deekseek-raises-15-billion-ahead-of-potential-ipo-f7fe3a49",
+     "fulltext": "https://www.wsj.com/tech/ai/chinese-ai-startup-deekseek-raises-15-billion-ahead-of-potential-ipo-f7fe3a49",
+     "date": "2026-10-22",
+     "desc": "DeepSeek has raised $15 billion ahead of a potential IPO, according to the WSJ. [WSJ, published 2026-10-22]"
+    },
+    {
+     "title": "SK Hynix Pulls Solidigm’s $10 Billion IPO on Regulatory Pushback",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-22/sk-hynix-scraps-solidigm-us-ipo-after-shareholder-concerns",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-22/sk-hynix-scraps-solidigm-us-ipo-after-shareholder-concerns",
+     "date": "2026-10-22",
+     "desc": "SK Hynix has pulled the roughly $10 billion US IPO of its Solidigm unit amid regulatory pushback and shareholder concerns. [Bloomberg, published 2026-10-22]"
+    },
+    {
+     "title": "Blackstone Bet on Chips Drove a Debt Boom That’s Upending Credit",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-23/blackstone-bet-on-chips-drove-a-debt-boom-that-s-upending-credit",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-23/blackstone-bet-on-chips-drove-a-debt-boom-that-s-upending-credit",
+     "date": "2026-10-23",
+     "desc": "Blackstone's bet on chips drove a debt boom that is upending credit markets; executives reportedly asked CoreWeave's leadership basic questions like what a GPU is and whether AI is real. [Bloomberg, published 2026-10-23]"
+    },
+    {
+     "title": "AI Tech Fears Push Global Credit Spreads to 17-Month High",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-23/ai-tech-fears-push-global-credit-spreads-to-17-month-high",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-23/ai-tech-fears-push-global-credit-spreads-to-17-month-high",
+     "date": "2026-10-23",
+     "desc": "A selloff in AI stocks and geopolitical tensions pushed global credit spreads to a 17-month high, with bond metrics signaling the biggest risk-off mood in more than a year. [Bloomberg, published 2026-10-23]"
+    },
+    {
+     "title": "Jane Street, HRT Are Spending Billions to Win in AI Era",
+     "url": "https://www.bloomberg.com/news/features/2026-10-22/jane-street-hrt-are-spending-billions-to-win-in-ai-era",
+     "fulltext": "https://www.bloomberg.com/news/features/2026-10-22/jane-street-hrt-are-spending-billions-to-win-in-ai-era",
+     "date": "2026-10-22",
+     "desc": "High-frequency trading firms such as Jane Street and HRT are spending billions, including building their own data centers, to gain an edge in the AI era. [Bloomberg, published 2026-10-22]"
+    },
+    {
+     "title": "OpenAI trims valuation target to $1.25tn after pitching higher price",
+     "url": "https://www.ft.com/content/bb564eb1-79d4-4694-aa24-1155202a9abc",
+     "fulltext": "https://www.ft.com/content/bb564eb1-79d4-4694-aa24-1155202a9abc",
+     "date": "2026-10-22",
+     "desc": "OpenAI has trimmed its valuation target to $1.25 trillion after earlier floating $1.4 trillion, according to documents seen by the FT. [Financial Times, published 2026-10-22]"
+    },
+    {
+     "title": "Calpers retreats from Big Tech as AI rally falters",
+     "url": "https://www.ft.com/content/e842173f-6f9f-4115-9e5f-a0f06f0df18d",
+     "fulltext": "https://www.ft.com/content/e842173f-6f9f-4115-9e5f-a0f06f0df18d",
+     "date": "2026-10-23",
+     "desc": "California's pension fund Calpers cut its Magnificent 7 holdings as doubts grow about lofty valuations and soaring AI spending. [Financial Times, published 2026-10-23]"
+    },
+    {
+     "title": "Anthropic strikes deal to launch European consultancy",
+     "url": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4",
+     "fulltext": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4",
+     "date": "2026-10-23",
+     "desc": "A new company backed by Anthropic and UK buyout group Hg will advise firms on how to deploy AI, launching a European consultancy. [Financial Times, published 2026-10-23]"
+    },
+    {
+     "title": "Nasdaq tumbles while Treasuries soar as Meta rekindles AI spending fears",
+     "url": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f",
+     "fulltext": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f",
+     "date": "2026-10-22",
+     "desc": "Nasdaq tumbled while Treasuries rallied after Meta said it will raise hundreds of billions of dollars, sinking its market value by $124 billion and reviving AI spending fears. [Financial Times, published 2026-10-22]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hi, I'm Alex, and this is the AI research digest for October 23rd, 2026. Today: markets wobble over AI spending, and new research on who AI can replace and what it costs in energy."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. Let's start with news. US stocks had their steepest drop in months. The S&P 500 fell over one point four percent and the Nasdaq nearly two and a half, as Meta said it would raise hundreds of billions of dollars."
+  },
+  {
+   "speaker": "A",
+   "text": "Credit markets felt it too. Bloomberg reports global credit spreads hit a seventeen-month high, and the Financial Times says Calpers has cut its Magnificent Seven holdings."
+  },
+  {
+   "speaker": "B",
+   "text": "On the jobs side, Barclays will cut five thousand jobs, about five percent of staff, in an AI-driven cost push. And the New York Times reports some in Congress want to strengthen unemployment insurance against possible mass AI layoffs."
+  },
+  {
+   "speaker": "A",
+   "text": "The Wall Street Journal notes AI stocks drove one hundred thirty-eight billion dollars of gains across thirteen public pension funds since 2022, so a pullback matters for retirees."
+  },
+  {
+   "speaker": "B",
+   "text": "Now research. A new paper builds an Agent Delegability Index. Roughly thirty-five percent of task time worldwide is at least partly delegable to AI agents, but only two and a half percent fully."
+  },
+  {
+   "speaker": "A",
+   "text": "And the share rises with income, from about twenty-two percent in low-income countries to nearly forty-nine percent in high-income ones, mostly because poorer countries employ more physical work."
+  },
+  {
+   "speaker": "B",
+   "text": "Another paper asks how much economic value AI produces per unit of energy. A smaller model, Gemma 4 thirty-one B, delivers fifty-six percent of the top model's net value with just twenty-three percent of the energy."
+  },
+  {
+   "speaker": "A",
+   "text": "There's also a paper on coding agents. Thirty-two percent of surveyed respondents said they skipped a software purchase because their organization could build it with agents, though that doesn't prove spending was displaced."
+  },
+  {
+   "speaker": "B",
+   "text": "In finance, a paper on portfolios finds that an LLM that filters out old news earned eighteen point four three percent a year in a historical test, while another describes Steward, a multi-agent investing system that held a twenty-four percent sector drawdown to a loss of just point three percent in live trading."
+  },
+  {
+   "speaker": "A",
+   "text": "And a Banca d'Italia paper compares market reactions to DeepSeek R1 and Kimi K3, arguing open-weight models shift rents along the AI value chain rather than erase them."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest. Full summaries and listen links are in the web archive. Thanks for listening."
+  },
+  {
+   "speaker": "A",
+   "text": "See you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-10-22 (last run) → 2026-10-23. Washington Post could not be reached this run (HTTP 502). SSRN searches were not run this time (no postings could be date-verified). News summaries are based on feed teasers. Podcasts for papers are based on abstracts."
+}
