@@ -1,0 +1,195 @@
+{
+ "date": "2026-10-24",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": []
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "A Tech Rotation Roils the Markets, Again",
+     "url": "https://www.nytimes.com/2026/10/23/business/dealbook/tech-rotation-nasdaq-ai.html",
+     "fulltext": "https://www.nytimes.com/2026/10/23/business/dealbook/tech-rotation-nasdaq-ai.html",
+     "date": "2026-10-23",
+     "desc": "Investors are bracing for rising oil prices alongside worries about the soaring costs of the artificial intelligence buildout, driving another rotation out of tech stocks. [NYT, published 2026-10-23]"
+    },
+    {
+     "title": "A.I. and New Rules for Accounting Are an Opportunity for Start-Ups",
+     "url": "https://www.nytimes.com/2026/10/23/business/dealbook/pennylane-ai-accounting-france.html",
+     "fulltext": "https://www.nytimes.com/2026/10/23/business/dealbook/pennylane-ai-accounting-france.html",
+     "date": "2026-10-23",
+     "desc": "French company Pennylane has gained market share at home by helping accountants work with clients using AI and new accounting rules, and is now aiming to expand internationally. [NYT, published 2026-10-23]"
+    },
+    {
+     "title": "Why Anger About Data Centers and Energy Prices May Not Swing Votes",
+     "url": "https://www.nytimes.com/2026/10/23/business/energy-environment/ohio-election-gas-prices.html",
+     "fulltext": "https://www.nytimes.com/2026/10/23/business/energy-environment/ohio-election-gas-prices.html",
+     "date": "2026-10-23",
+     "desc": "In Ohio, many voters say frustration over rising electricity and fuel prices and data center growth will not decide how they vote. [NYT, published 2026-10-23]"
+    },
+    {
+     "title": "SK Hynix Pauses IPO of Memory-Chip Unit as AI Valuation Fears Mount",
+     "url": "https://www.wsj.com/tech/sk-hynix-shelves-plans-for-u-s-listing-of-memory-chip-unit-solidigm-e9670506",
+     "fulltext": "https://www.wsj.com/tech/sk-hynix-shelves-plans-for-u-s-listing-of-memory-chip-unit-solidigm-e9670506",
+     "date": "2026-10-23",
+     "desc": "SK Hynix is pulling the planned U.S. public debut of its Solidigm memory-chip unit amid deepening investor caution toward AI valuations. [WSJ, published 2026-10-23]"
+    },
+    {
+     "title": "Stocks Pulled in Two Directions, Fall to End Volatile Week",
+     "url": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8",
+     "fulltext": "https://www.wsj.com/finance/stocks/stocks-pulled-in-two-directions-fall-to-end-volatile-week-0c2042a8",
+     "date": "2026-10-23",
+     "desc": "US stocks fell to close a volatile week as inflation concerns and jitters over artificial intelligence competed for investors' attention. [WSJ, published 2026-10-23]"
+    },
+    {
+     "title": "A Veteran of the Telecom Bust Navigates the AI Boom",
+     "url": "https://www.wsj.com/cio-journal/a-veteran-of-the-telecom-bust-navigates-the-ai-boom-b063fa63",
+     "fulltext": "https://www.wsj.com/cio-journal/a-veteran-of-the-telecom-bust-navigates-the-ai-boom-b063fa63",
+     "date": "2026-10-23",
+     "desc": "Ciena CEO Gary Smith, who lived through the telecom bust, describes himself as suitably paranoid but optimistic about demand from the AI buildout. [WSJ, published 2026-10-23]"
+    },
+    {
+     "title": "SpaceX $40 Billion Off-Balance Sheet Debt Snarled by AI Turmoil",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-23/spacex-40-billion-off-balance-sheet-debt-snarled-by-ai-turmoil",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-23/spacex-40-billion-off-balance-sheet-debt-snarled-by-ai-turmoil",
+     "date": "2026-10-23",
+     "desc": "SpaceX's effort to finalize a $40 billion off-balance-sheet debt structure for its AI buildout has been disrupted by market turmoil that raised sector-wide borrowing costs and complicated pricing talks. [Bloomberg, published 2026-10-23]"
+    },
+    {
+     "title": "Data Centers Face Downgrade Risk Amid Local Pushback, S&P Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-23/data-centers-face-downgrade-risk-amid-local-pushback-s-p-says",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-23/data-centers-face-downgrade-risk-amid-local-pushback-s-p-says",
+     "date": "2026-10-23",
+     "desc": "S&P Global Ratings says data centers could face credit rating downgrades as moratoriums and cancellations driven by public opposition mount. [Bloomberg, published 2026-10-23]"
+    },
+    {
+     "title": "AI-Driven Job Losses and Inequality: A Guide to Proposals for Helping Workers",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-23/ai-driven-job-losses-and-inequality-a-guide-to-proposals-for-helping-workers",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-23/ai-driven-job-losses-and-inequality-a-guide-to-proposals-for-helping-workers",
+     "date": "2026-10-23",
+     "desc": "A guide to proposals from policymakers, economists and tech leaders for protecting workers from AI-driven job losses and spreading the technology's gains. [Bloomberg, published 2026-10-23]"
+    },
+    {
+     "title": "Swiss Stocks Are Becoming a Haven From AI Fears Roiling Markets",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-24/swiss-stocks-are-becoming-a-haven-from-ai-fears-roiling-markets",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-24/swiss-stocks-are-becoming-a-haven-from-ai-fears-roiling-markets",
+     "date": "2026-10-24",
+     "desc": "Shares of Switzerland's ultra-defensive large companies are a bright spot in a turbulent period for European equities as AI fears roil markets. [Bloomberg, published 2026-10-24]"
+    },
+    {
+     "title": "Musk's bet of the century",
+     "url": "https://www.ft.com/content/dfe64d5e-f5f3-444f-a233-a516483fa6f0",
+     "fulltext": "https://www.ft.com/content/dfe64d5e-f5f3-444f-a233-a516483fa6f0",
+     "date": "2026-10-24",
+     "desc": "The proposed Tesla-SpaceX merger is described as going all in on AI. [Financial Times, published 2026-10-24]"
+    },
+    {
+     "title": "Managing a new world of bots and bargain hunters",
+     "url": "https://www.ft.com/content/a7e72609-8b63-4412-ab07-ccd7f685c5ea",
+     "fulltext": "https://www.ft.com/content/a7e72609-8b63-4412-ab07-ccd7f685c5ea",
+     "date": "2026-10-23",
+     "desc": "AI agents promise to empower consumers and boost competition, but must first earn users' trust. [Financial Times, published 2026-10-23]"
+    },
+    {
+     "title": "What the coming copper crunch means for the global economy",
+     "url": "https://www.ft.com/content/06209f51-de7c-4de0-8e66-5c621a960b87",
+     "fulltext": "https://www.ft.com/content/06209f51-de7c-4de0-8e66-5c621a960b87",
+     "date": "2026-10-23",
+     "desc": "A looming copper shortage is expected to push up costs for AI, defence tech and the green transition. [Financial Times, published 2026-10-23]"
+    },
+    {
+     "title": "The money questions children ask AI chatbots",
+     "url": "https://www.ft.com/content/9c00e8f9-b7dc-4893-8b34-66a4bb5a5605",
+     "fulltext": "https://www.ft.com/content/9c00e8f9-b7dc-4893-8b34-66a4bb5a5605",
+     "date": "2026-10-24",
+     "desc": "In a survey, 40 per cent of UK youngsters had asked AI for financial advice. [Financial Times, published 2026-10-24]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello and welcome to the Daily AI Research Digest for October twenty-fourth, twenty twenty-six. I'm Alex."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. No new papers cleared the bar today, but the news is dominated by one theme: nervousness about the economics of the AI buildout."
+  },
+  {
+   "speaker": "A",
+   "text": "Let's start with markets. The New York Times says a tech rotation is roiling markets again, with investors bracing for rising oil prices and worries about the soaring cost of AI infrastructure."
+  },
+  {
+   "speaker": "B",
+   "text": "And the Wall Street Journal's wrap of the week says stocks fell to end a volatile stretch, with inflation and AI jitters competing for investor attention."
+  },
+  {
+   "speaker": "A",
+   "text": "There's a concrete casualty too. SK Hynix is pausing the planned American listing of its Solidigm memory-chip unit, as AI valuation fears mount."
+  },
+  {
+   "speaker": "B",
+   "text": "That's a good example of how sentiment feeds back into real financing decisions. Bloomberg has another: SpaceX's forty billion dollar off-balance-sheet debt structure for its AI buildout has been snarled by the turmoil, which has pushed up borrowing costs across the sector."
+  },
+  {
+   "speaker": "A",
+   "text": "Related, S&P Global Ratings warns that data centers face potential credit downgrades as local moratoriums and cancellations, driven by public opposition, pile up."
+  },
+  {
+   "speaker": "B",
+   "text": "The politics of data centers is interesting. The New York Times reports that in Ohio, many voters say frustration over electricity and fuel prices, and over data center growth, won't actually change how they vote."
+  },
+  {
+   "speaker": "A",
+   "text": "On the safe-haven side, Bloomberg notes Swiss stocks are becoming a refuge from AI fears roiling European markets, thanks to their ultra-defensive large companies."
+  },
+  {
+   "speaker": "B",
+   "text": "From a company viewpoint, the Journal profiled Ciena's chief executive, Gary Smith, who lived through the telecom bust. He calls himself suitably paranoid, but optimistic about the AI boom."
+  },
+  {
+   "speaker": "A",
+   "text": "Over at the Financial Times, there's a piece on Elon Musk's proposed Tesla and SpaceX merger, framed as going all in on AI."
+  },
+  {
+   "speaker": "B",
+   "text": "The FT also looks at a physical constraint: a coming copper crunch that it says will push up costs for AI, defence technology and the green transition."
+  },
+  {
+   "speaker": "A",
+   "text": "Now to people. Bloomberg published a guide to proposals for helping workers who lose out to AI, from policymakers, economists and tech leaders, aimed at spreading the gains more widely."
+  },
+  {
+   "speaker": "B",
+   "text": "And on the consumer side, the FT says AI agents promise to empower shoppers and boost competition, but must first earn users' trust. Separately, a survey found forty percent of young people in the UK had asked AI for financial advice."
+  },
+  {
+   "speaker": "A",
+   "text": "One more business story: French start-up Pennylane is winning share by using AI and new accounting rules to help accountants work with clients, and it wants to go international."
+  },
+  {
+   "speaker": "B",
+   "text": "The common thread is that the AI story has shifted from pure enthusiasm to questions about financing, power, materials and public support."
+  },
+  {
+   "speaker": "A",
+   "text": "That's all for today. Find the full list and the archive on the digest website."
+  },
+  {
+   "speaker": "B",
+   "text": "Thanks for listening, and see you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-10-23 (last run) → 2026-10-24. The Washington Post feed could not be reached this run. No new qualifying papers in the window; SSRN searches turned up nothing with a verified in-window posting date."
+}
