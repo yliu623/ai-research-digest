@@ -1,0 +1,122 @@
+{
+ "date": "2026-10-25",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": []
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "AI Provides ‘Zero Payoff’ to S&P 493 Outside Tech, Apollo Economist Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-25/ai-provides-zero-payoff-to-s-p-493-outside-tech-apollo-economist-says",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-25/ai-provides-zero-payoff-to-s-p-493-outside-tech-apollo-economist-says",
+     "date": "2026-10-25",
+     "desc": "Apollo chief economist Torsten Slok argues that despite heavy AI investment, companies outside the technology sector have seen no financial payoff. Revenue per worker is rising at the largest tech firms but has stalled across the other S&P 500 companies, and margins show the same split. [Bloomberg, published 2026-10-25]"
+    },
+    {
+     "title": "Goldman Cuts Kospi 12-Month Target by 25% as AI Trade Unravels",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-25/goldman-cuts-kospi-12-month-target-by-25-as-ai-trade-unravels",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-25/goldman-cuts-kospi-12-month-target-by-25-as-ai-trade-unravels",
+     "date": "2026-10-25",
+     "desc": "Goldman Sachs strategists cut their 12-month Kospi target by 25% after raising it repeatedly this year, as concerns over the AI trade intensify. South Korea's market is heavily exposed to AI memory-chip makers. [Bloomberg, published 2026-10-25]"
+    },
+    {
+     "title": "SoftBank’s Son Plans $50 Billion Malaysia Tech Outlay, PM Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-25/softbank-s-son-plans-50-billion-malaysia-tech-outlay-pm-says",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-25/softbank-s-son-plans-50-billion-malaysia-tech-outlay-pm-says",
+     "date": "2026-10-25",
+     "desc": "Malaysia's prime minister said SoftBank's Masayoshi Son has chosen locations in the country for $50 billion of technology investment, which would extend his global bet on AI infrastructure. The figure comes from the prime minister's account; no SoftBank confirmation or timeline was reported. [Bloomberg, published 2026-10-25]"
+    },
+    {
+     "title": "Chinese Manufacturer Dongshan Raises $1.3 Billion in HK Listing",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-25/chinese-manufacturer-dongshan-raises-1-3-billion-in-hk-listing",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-25/chinese-manufacturer-dongshan-raises-1-3-billion-in-hk-listing",
+     "date": "2026-10-25",
+     "desc": "Printed circuit board maker Suzhou Dongshan Precision raised about HK$9.9 billion ($1.3 billion) in Hong Kong's biggest listing in nearly two months, which landed in a volatile market for companies tied to the AI build-out. [Bloomberg, published 2026-10-25]"
+    },
+    {
+     "title": "The Earnings Boom Is Heavily Reliant on Just a Handful of Stocks",
+     "url": "https://www.wsj.com/finance/stocks/the-earnings-boom-is-heavily-reliant-on-just-a-handful-of-stocks-21decb53",
+     "fulltext": "https://www.wsj.com/finance/stocks/the-earnings-boom-is-heavily-reliant-on-just-a-handful-of-stocks-21decb53",
+     "date": "2026-10-25",
+     "desc": "The Wall Street Journal reports that ten companies, including Nvidia, Micron and other AI giants, account for roughly two-thirds of corporate profit growth. [WSJ, published 2026-10-25]"
+    },
+    {
+     "title": "C.E.O.s Say the A.I. Rollout Is Going Well. Employees Feel Differently.",
+     "url": "https://www.nytimes.com/2026/10/24/business/dealbook/ceos-say-the-ai-rollout-is-going-well-employees-feel-differently.html",
+     "fulltext": "https://www.nytimes.com/2026/10/24/business/dealbook/ceos-say-the-ai-rollout-is-going-well-employees-feel-differently.html",
+     "date": "2026-10-24",
+     "desc": "DealBook looks at surveys showing executives and workers hold different views of how AI adoption is going inside companies. [NYT, published 2026-10-24]"
+    },
+    {
+     "title": "Technical Colleges Bet on AI-Driven Demand for Skilled Workers",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-24/technical-colleges-bet-on-ai-driven-demand-for-skilled-workers",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-24/technical-colleges-bet-on-ai-driven-demand-for-skilled-workers",
+     "date": "2026-10-24",
+     "desc": "Technical colleges are betting that a surge in demand for skilled workers will lift profits, though the payoff may take time as they expand campuses and programs. [Bloomberg, published 2026-10-24]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hi, I'm Alex, and this is your AI research digest for October twenty-fifth, twenty twenty-six. No new papers cleared the bar today, so it's a news-driven edition about money and AI."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. The theme is whether the AI spending boom is paying off, and the answers today are mixed."
+  },
+  {
+   "speaker": "A",
+   "text": "Bloomberg reports that Apollo's chief economist, Torsten Slok, says AI has delivered zero payoff to American companies outside tech. Revenue per worker is rising at the biggest tech names but has stalled across the other four hundred ninety-three firms in the S and P five hundred."
+  },
+  {
+   "speaker": "B",
+   "text": "That fits a Wall Street Journal story saying ten companies, including Nvidia, Micron and other AI giants, account for roughly two thirds of corporate profit growth. The earnings boom is very concentrated."
+  },
+  {
+   "speaker": "A",
+   "text": "Markets are also getting nervous. Goldman Sachs cut its twelve-month Kospi target by twenty-five percent, after raising it several times this year, as concerns over the AI trade intensify."
+  },
+  {
+   "speaker": "B",
+   "text": "And in Hong Kong, circuit board maker Dongshan raised about one point three billion dollars in the city's biggest listing in nearly two months, landing in a volatile market for AI build-out companies."
+  },
+  {
+   "speaker": "A",
+   "text": "On the investment side, Malaysia's prime minister said SoftBank's Masayoshi Son has picked sites in the country for fifty billion dollars of technology spending. That figure comes from the prime minister, and SoftBank hasn't confirmed it."
+  },
+  {
+   "speaker": "B",
+   "text": "Then there's the workplace. The New York Times DealBook looks at surveys suggesting chief executives think the AI rollout is going well, while employees feel differently."
+  },
+  {
+   "speaker": "A",
+   "text": "And Bloomberg notes technical colleges are betting on AI-driven demand for skilled workers, though the payoff may take time."
+  },
+  {
+   "speaker": "B",
+   "text": "So the common thread is a gap between heavy spending and visible returns, outside a handful of firms."
+  },
+  {
+   "speaker": "A",
+   "text": "That's all for today. Find the full list and the archive on the digest website."
+  },
+  {
+   "speaker": "B",
+   "text": "Thanks for listening, and see you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-10-24 (last run) → 2026-10-25. The Washington Post feed could not be reached this run. No new qualifying papers in the window; SSRN searches turned up nothing with a verified in-window posting date."
+}
