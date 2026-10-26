@@ -1,0 +1,504 @@
+{
+ "date": "2026-10-26",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Competition in Generative AI: Evidence from Consumer Demand",
+     "url": "https://www.nber.org/papers/w35953",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w35953/w35953.pdf",
+     "date": "2026-10-26",
+     "desc": "Card-transaction data on 174 million consumers show about 2.9% of US consumers pay for a major generative AI service as of April 2026, with 20-45% annual retention and rising switching around model releases. A structural demand model implies strong price sensitivity and substitutability that constrain provider pricing power. [NBER w35953, issued 2026-10-26]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "A new NBER paper asks how competitive the market for generative AI will be. We're working from the abstract here, as the full text wasn't available to us."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors use transaction-level credit and debit card data covering 174 million consumers and 114 billion transactions. As of April 2026, about 2.9 percent of US consumers pay for at least one major generative AI service, and adoption is highest among younger and higher-income people. Nearly all paid users are on basic plans costing thirty dollars a month or less."
+      },
+      {
+       "speaker": "A",
+       "text": "They point to three signs of limited differentiation. Multihoming, using several services, is common but has declined as capabilities expanded. Annual retention ranges from twenty to forty-five percent across providers, lower than many subscription products. And switching rises around major model releases."
+      },
+      {
+       "speaker": "B",
+       "text": "Then they estimate a structural model of demand and supply. Consumers are highly price sensitive, care much less about a particular provider than about AI overall, and see services as increasingly close substitutes."
+      },
+      {
+       "speaker": "A",
+       "text": "The implication: unless model quality becomes substantially more differentiated, growing substitutability will limit providers' pricing power and let consumers capture a large share of the surplus. Again, that's from the abstract only."
+      }
+     ]
+    },
+    {
+     "title": "HouseholdBench: Evaluating Large Language Models as Predictors of Household Economic Behavior",
+     "url": "https://www.nber.org/papers/w35927",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w35927/w35927.pdf",
+     "date": "2026-10-26",
+     "desc": "A benchmark of 32 prediction tasks across 6 US household surveys evaluates 13 LLMs against a no-change baseline and gradient-boosted trees. Most LLMs beat no-change (best cuts numeric error 12.2%), but boosted trees usually rank first; fine-tuning and aggregating 16 predictions lets a 4B open model match proprietary ones. [NBER w35927, issued 2026-10-26]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Can large language models predict what households will do economically? A new NBER paper builds a benchmark to find out. We're working from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "HouseholdBench combines six US household surveys and thirty-two prediction tasks, covering consumption, income, labor, expectations and housing. Models get past behavior, demographics and macro conditions, and some tasks test how households respond to policy changes."
+      },
+      {
+       "speaker": "A",
+       "text": "They evaluate thirteen proprietary and open-weight LLMs against two baselines: assuming nothing changes, and a gradient-boosted tree model."
+      },
+      {
+       "speaker": "B",
+       "text": "Most LLMs beat the no-change baseline, including on policy-response tasks, and the best model cuts error on numeric outcomes by twelve point two percent. But across most tasks the gradient-boosted trees rank first. Leading proprietary LLMs come close, while open-weight models lag, and the LLMs show systematic over- and under-prediction on different tasks."
+      },
+      {
+       "speaker": "A",
+       "text": "One practical result: fine-tuning plus aggregating sixteen predictions per observation lets a four-billion-parameter open model match proprietary models, and the gains carry over to policy tasks excluded from fine-tuning. The authors release data, code and a leaderboard. Again, this summary is from the abstract."
+      }
+     ]
+    },
+    {
+     "title": "Training Your Replacement: Worker Incentives and the Pace of Automation",
+     "url": "https://www.nber.org/papers/w35950",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w35950/w35950.pdf",
+     "date": "2026-10-26",
+     "desc": "A model of workers asked to train the AI that will replace them, who can shirk, cooperate or obstruct. Because training ends the job, dismissal is a weaker threat, so firms must raise worker rents and may slow training; a completion bonus equal to the worker's no-AI rent removes the gain and the slowdown. [NBER w35950, issued 2026-10-26]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Here's a theory paper with a vivid title: Training Your Replacement. It's a new NBER working paper, and we're going from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The situation is real: firms ask workers to train AI systems that will take over their jobs. The model gives the worker three options: shirk, cooperate with the training, or obstruct it while still looking productive."
+      },
+      {
+       "speaker": "A",
+       "text": "The twist is that training ends the job, but only cooperation finishes the training. So being fired becomes a weaker penalty for shirking, because the job was going away anyway. To compensate, the firm must raise the worker's rent, meaning pay above their outside option, and the worker ends up gaining from their own replacement."
+      },
+      {
+       "speaker": "B",
+       "text": "The paper says AI can create jobs that pay more than they produce, and eliminate jobs it never actually automates. Firms that pay only wages may slow down training."
+      },
+      {
+       "speaker": "A",
+       "text": "The fix the authors identify is a credible completion bonus equal to the worker's rent without AI, which removes both the gain and the slowdown. That's the abstract's claim, and the full details weren't available to us."
+      }
+     ]
+    },
+    {
+     "title": "An LLM Workflow for Functional Form Sensitivity Analysis",
+     "url": "https://www.nber.org/papers/w35947",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w35947/w35947.pdf",
+     "date": "2026-10-26",
+     "desc": "Introduces an LLM workflow that tests how much an estimate can change when the functional form of a working model changes without hurting fit, first seeking analytic solutions and otherwise numerical ones, yielding a verifiable lower bound on in-sample sensitivity; illustrated on the welfare cost of adverse selection in health insurance. [NBER w35947, issued 2026-10-26]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This NBER paper uses an LLM as a research tool. We're working from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The problem: a researcher estimates something by fitting a working model that assumes an arbitrary function, say a demand curve. How much could the answer change if you picked a different functional form that fits the data equally well? That's the sensitivity the authors want to measure."
+      },
+      {
+       "speaker": "A",
+       "text": "Their workflow has an LLM first look for an analytic solution. If that fails, it approximates the answer with numerical methods that respect the fit constraint at every step of the solver path."
+      },
+      {
+       "speaker": "B",
+       "text": "The output is a verifiable lower bound on in-sample sensitivity, and the authors say it's fast in many practical situations. They illustrate it on the welfare cost of adverse selection in health insurance."
+      },
+      {
+       "speaker": "A",
+       "text": "The takeaway: LLMs may help economists stress-test modeling assumptions, with a checkable bound rather than a black-box answer. Details beyond the abstract weren't available to us."
+      }
+     ]
+    },
+    {
+     "title": "Generative AI, Managerial Expectations, and Economic Activity",
+     "url": "https://www.nber.org/papers/w35949",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w35949/w35949.pdf",
+     "date": "2026-10-26",
+     "desc": "Uses generative AI to extract managers' economic expectations from over 120,000 earnings-call transcripts; the resulting AI Economy Score predicts GDP growth, production, employment and wages five or more quarters ahead beyond survey forecasts, with predictability concentrated among historically more accurate managers. [NBER w35949, issued 2026-10-26]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Another NBER paper, this one on using generative AI to read what executives say about the economy. We're working from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors extract managers' economic expectations from more than one hundred twenty thousand corporate conference call transcripts. The resulting measure, called the AI Economy Score, predicts GDP growth, production, employment and wages five or more quarters ahead, beyond survey forecasts and other existing measures."
+      },
+      {
+       "speaker": "A",
+       "text": "Industry-level and firm-level scores track sector- and firm-specific activity, and a composite of firm, industry and macro expectations improves forecasting power and extends the horizon."
+      },
+      {
+       "speaker": "B",
+       "text": "Predictability is concentrated among managers who were historically more accurate and less biased, which fits an information story rather than a noise story."
+      },
+      {
+       "speaker": "A",
+       "text": "Why it matters: surveys of forecasters are slow and infrequent, while earnings calls happen every quarter across thousands of firms. If managers' words contain information that surveys miss, a text-based measure could give policymakers and investors an earlier read on where activity is heading."
+      },
+      {
+       "speaker": "B",
+       "text": "The takeaway: what managers say on earnings calls carries incremental information about the economy, and generative AI makes it possible to measure at scale. We should note the abstract does not give the size of the forecasting gains, and that this summary is based on the abstract alone."
+      }
+     ]
+    },
+    {
+     "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
+     "url": "https://arxiv.org/abs/2610.32945",
+     "fulltext": "https://arxiv.org/pdf/2610.32945",
+     "date": "2026-10-23",
+     "desc": "A mechanism-design model of a monopoly LLM platform that jointly sets response quality, ad intensity and subscription prices. It finds that ad-funded plans can serve users who get nothing under pure subscription, that an intermediate ad cap can maximize consumer surplus, and that large compute-cost cuts can even raise total ad revenue. [arXiv econ.TH, submitted 2026-10-23]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Welcome back. Today a theory paper about something every chatbot user is starting to see: ads inside AI assistants. It's called Monetizing Intelligence, from researchers at Fudan University and the University of Connecticut."
+      },
+      {
+       "speaker": "B",
+       "text": "The setup is a single platform that sells a chatbot. It has to decide three things together: how good the answers are, how many ads to show, and what to charge people who want to avoid ads. The key tension is that ads make the service less valuable to the user, but better answers make each ad more valuable to advertisers."
+      },
+      {
+       "speaker": "A",
+       "text": "So ads can pay for quality. The paper's first finding is that when a partly ad-supported plan and an ad-free plan coexist, advertising can fund useful service for people who would get nothing under a pure subscription model. Some fully ad-supported users actually end up better off."
+      },
+      {
+       "speaker": "B",
+       "text": "But there's a catch for everyone else. The middle plans get lower effective quality, which weakens the alternatives available to premium users, and that lets the platform charge more for an ad-free service that hasn't changed. So partly ad-supported users and ad-free users both lose. The authors call this utility polarization: wider access, but a split in who gains."
+      },
+      {
+       "speaker": "A",
+       "text": "Second finding, on policy. An intermediate cap on advertising can maximize consumer surplus. A cap that's too loose lets quality degrade, but a cap that's too tight starves the revenue that finances the service."
+      },
+      {
+       "speaker": "B",
+       "text": "Third, and this one is counterintuitive: cheaper compute can raise quality and reduce ad intensity per interaction. But if costs fall far enough, total advertising revenue can end up above where it started, because better answers make the remaining ads more valuable."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors also show that if ad-funded upgrades bring every plan to the same maximum capability and ad exposure, the basis for different prices disappears."
+      },
+      {
+       "speaker": "B",
+       "text": "Worth remembering that this is a stylized theory model, with a monopolist and stylized users, not an empirical test. The takeaway: to judge LLM advertising, look at the whole menu of plans and prices, not only at the users who see the ads."
+      }
+     ]
+    },
+    {
+     "title": "AI-Augmented Research: Free to Write, Costly to Read",
+     "url": "https://arxiv.org/abs/2610.32355",
+     "fulltext": "https://arxiv.org/pdf/2610.32355",
+     "date": "2026-10-23",
+     "desc": "A model of what happens when AI makes writing papers nearly free but reading and verifying them stays costly: verification shrinks to a middle band of authors, impact comes to depend on reputation, and AI summaries and AI refereeing can lock in shared AI errors once enough papers are written with the same AI. [arXiv econ.GN, submitted 2026-10-23]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This next paper asks a question many academics are quietly worrying about: what happens to research when AI makes writing almost free, but reading is still expensive? It's by Wolfgang Kuhle."
+      },
+      {
+       "speaker": "B",
+       "text": "The model has authors who differ in reputation, meaning the probability their paper is correct, and time-limited readers like referees. For each paper a reader can ignore it, verify it at a cost, or just trust it."
+      },
+      {
+       "speaker": "A",
+       "text": "Equilibrium has a neat shape. Readers ignore low-reputation authors, verify the middle, and trust the high-reputation authors. Now let writing get cheaper. More papers compete for the same fixed attention, so the verified band shrinks from both sides: outsiders stop being read, and established authors stop being checked."
+      },
+      {
+       "speaker": "B",
+       "text": "In the limit where writing is costless, the share of verified papers goes to zero, and a paper's impact depends on the author's reputation alone."
+      },
+      {
+       "speaker": "A",
+       "text": "Readers might escape by asking AI to summarize the literature. The paper treats a summary like a jury in the Condorcet tradition: it gets the right answer if enough papers make independent, better-than-random judgments. The problem is that papers written with the same AI share its errors. Once the share of papers written with that AI passes a threshold, the summary inherits the AI's mistakes."
+      },
+      {
+       "speaker": "B",
+       "text": "It gets worse if the AI also acts as referee. An AI that favors papers agreeing with its own answer filters out dissent, and when the AI is wrong, dissenting papers are exactly the ones that could correct it. That lowers the threshold at which the literature's consensus gets captured."
+      },
+      {
+       "speaker": "A",
+       "text": "The simplest remedy the author finds is an unrefereed preprint server that summaries draw from, which restores the correct consensus as long as AI-written papers stay under a threshold."
+      },
+      {
+       "speaker": "B",
+       "text": "A theory paper, so the thresholds are illustrative rather than measured. The takeaway: cheap writing without cheap verification could make science run on reputation, and correlated AI errors make that more fragile."
+      }
+     ]
+    },
+    {
+     "title": "When AI Gets Cheaper, Do Prices Follow? Information Delays and Algorithmic Pricing",
+     "url": "https://arxiv.org/abs/2610.31693",
+     "fulltext": "https://arxiv.org/pdf/2610.31693",
+     "date": "2026-10-20",
+     "desc": "A simulation of two Q-learning sellers tests whether stale rival-price information and limits on repricing change how much falling costs reach consumers. The key interaction on consumer surplus is statistically indistinguishable from zero, pass-through of the cost cut is partial (about 44-56%) in the fast treatment, and learned policies fall below the Nash benchmark. [arXiv econ.GN, submitted 2026-10-20]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Here's a paper with a simple question: when AI gets cheaper to run, do AI prices actually fall? A student-authored study from the University of North Texas tests it in a simulated market."
+      },
+      {
+       "speaker": "B",
+       "text": "The market has two differentiated sellers, logit demand, and pricing agents that learn with tabular Q-learning. The experiment crosses four switches: how old the rival's price information is, how often a seller can change its own price, whether production costs fall, and whether the firms are identical or differ in quality and cost."
+      },
+      {
+       "speaker": "A",
+       "text": "That makes sixteen conditions, with sixty paired market seeds each, so nine hundred and sixty training runs. Afterward the learned policies are frozen and measured on expected consumer surplus."
+      },
+      {
+       "speaker": "B",
+       "text": "The headline is a null result. In the main case, identical firms with falling costs, the interaction between information delay and repricing frequency is essentially zero, with a confidence interval running from about minus four hundredths to plus four hundredths in normalized welfare. Neither of the pre-specified moderation tests is distinguishable from zero either."
+      },
+      {
+       "speaker": "A",
+       "text": "On pass-through: in the fast-information, fast-repricing treatment, the sellers' average price changes amount to about fifty-six percent and forty-four percent of the imposed cost reductions. So consumers get only part of the saving. Also, welfare under the learned policies is below the static Nash benchmark in every treatment cell."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors are careful about limits. Two firms, one scalar price each, stipulated demand and costs, and simple Q-learners that real AI providers are not known to use. Only one size of cost shock was tested, so it doesn't trace a general pass-through schedule, and nothing here shows collusion by actual companies."
+      },
+      {
+       "speaker": "A",
+       "text": "The takeaway: this is a reproducible baseline for studying algorithmic pricing timing, but it does not show how real AI providers set prices."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "When Cash Wakes Up: Inertia in Institutional Money Market Funds and the Potential Effects of AI Disruption",
+     "url": "https://www.nber.org/papers/w35954",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w35954/w35954.pdf",
+     "date": "2026-10-26",
+     "desc": "Monthly 2010-2024 data show over half of mutual funds never switched money market funds; a structural model finds inattention drives flows. A counterfactual where AI automation removes inattention halves fees and collapses yield dispersion but triples monthly flows and raises fund-months with redemptions above weekly liquid assets about sixfold. [NBER w35954, issued 2026-10-26]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This NBER paper is about how institutional investors manage cash, and what happens if AI wakes them up. We're working from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors build a dataset of which money market funds each mutual fund held every month from 2010 to 2024. They find remarkable inertia: more than half of mutual funds never switched money market funds, despite real yield differences."
+      },
+      {
+       "speaker": "A",
+       "text": "A two-stage structural model separates attentiveness, the waking up, from preferences once attentive. Funds with less attentive investors do more liquidity transformation and offer lower yields, yet earn higher profits and survive more often. Flows look more yield-sensitive when rates are low because more investors become attentive, a composition effect rather than a shift in preferences."
+      },
+      {
+       "speaker": "B",
+       "text": "The AI angle is a counterfactual: if AI-driven automation removes inattention, fees fall by roughly half, yield dispersion collapses to near zero and concentration drops about twenty percent."
+      },
+      {
+       "speaker": "A",
+       "text": "But monthly fund flows rise about threefold, and fund-months where redemptions exceed weekly liquid assets rise about sixfold, raising the risk of fire sales and runs. So there's a tension between efficiency and stability. That's from the abstract only."
+      }
+     ]
+    },
+    {
+     "title": "Financial Context-Rich Strategy for Actor-Critic based Agents: A Deep Reinforcement Learning Approach for Stock Trading",
+     "url": "https://arxiv.org/abs/2610.32237",
+     "fulltext": "https://arxiv.org/pdf/2610.32237",
+     "date": "2026-10-23",
+     "desc": "Tests five actor-critic deep RL trading agents (A2C, PPO, DDPG, TD3, SAC) with no, partial and deep infusion of sentiment signals. Deeper sentiment infusion improves DDPG and SAC on returns and risk-adjusted performance, while TD3 gets worse. [arXiv cs.AI (cross-listed q-fin.CP), submitted 2026-10-23]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This one is about teaching AI agents to trade stocks. It's from researchers at IIT Roorkee in India, and it won a best paper award at an operational research conference in 2024."
+      },
+      {
+       "speaker": "B",
+       "text": "The motivation is that most algorithmic strategies rely on price-based indicators, which miss events like social sentiment, political instability or economic shocks. So the authors feed sentiment information into deep reinforcement learning trading agents."
+      },
+      {
+       "speaker": "A",
+       "text": "They compare five agent designs. A2C and PPO optimize the policy only. DDPG, TD3 and SAC combine policy optimization with Q-learning ideas. And they test three conditions: technical indicators only, partial sentiment infusion, and deep sentiment infusion."
+      },
+      {
+       "speaker": "B",
+       "text": "The results are mixed by algorithm. Partial sentiment improved every agent except PPO. With deeper infusion, DDPG showed the most consistent gains, with higher returns, better risk-adjusted performance and smaller drawdowns, and SAC improved in annual returns and Sharpe ratio, ranking just below DDPG."
+      },
+      {
+       "speaker": "A",
+       "text": "TD3 went the other way, becoming less profitable. The authors' explanation is that TD3's double Q-learning is conservative, and the noisier reward signal from sentiment may make it overly cautious and under-exploring. That's a hypothesis rather than a tested mechanism."
+      },
+      {
+       "speaker": "B",
+       "text": "As caveats, this is a simulated trading exercise on a curated set of stocks, and the paper itself suggests explainable reinforcement learning as future work to show which features drive decisions."
+      },
+      {
+       "speaker": "A",
+       "text": "The takeaway: adding sentiment can help some deep RL traders, but the benefit depends heavily on the algorithm, so you can't assume more information always helps."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "AI Bots Are Transforming Bond Markets, Barclays Warns of Volatility Risk",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-10-26/ai-bots-are-transforming-bond-markets-barclays-warns-of-volatility-risk",
+     "fulltext": "https://www.bloomberg.com/news/newsletters/2026-10-26/ai-bots-are-transforming-bond-markets-barclays-warns-of-volatility-risk",
+     "date": "2026-10-26",
+     "desc": "Barclays says AI agents will trade up to 65% of US investment-grade bonds, and warns the shift could raise volatility risk in the market. [Bloomberg, published 2026-10-26]"
+    },
+    {
+     "title": "AI Agents Seen Taking Credit Trading Work From Humans Over Time",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-26/ai-agents-seen-taking-credit-trading-work-from-humans-over-time",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-26/ai-agents-seen-taking-credit-trading-work-from-humans-over-time",
+     "date": "2026-10-26",
+     "desc": "Bloomberg reports that AI is expected to take over some, but not all, of bond traders' work, and only gradually. [Bloomberg, published 2026-10-26]"
+    },
+    {
+     "title": "CoreWeave Rout Sends Warning Sign to Rest of the Stock Market",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-26/coreweave-rout-sends-warning-sign-to-rest-of-the-stock-market",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-26/coreweave-rout-sends-warning-sign-to-rest-of-the-stock-market",
+     "date": "2026-10-26",
+     "desc": "Wall Street strategists warn that falling shares of AI cloud-computing providers such as CoreWeave could spill into other parts of the tech trade and drag the US market toward its June lows. [Bloomberg, published 2026-10-26]"
+    },
+    {
+     "title": "AI Funding Angst Stands in Way of Return to Highs: Taking Stock",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-26/ai-funding-angst-stands-in-way-of-return-to-highs-taking-stock",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-26/ai-funding-angst-stands-in-way-of-return-to-highs-taking-stock",
+     "date": "2026-10-26",
+     "desc": "Bloomberg says worries about the financing costs of AI must be dealt with before the market can attempt fresh highs. [Bloomberg, published 2026-10-26]"
+    },
+    {
+     "title": "Dutch Government Plans to Cut 25,000 Jobs in AI-Led Overhaul",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-26/dutch-government-plans-to-cut-25-000-jobs-in-ai-led-overhaul",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-26/dutch-government-plans-to-cut-25-000-jobs-in-ai-led-overhaul",
+     "date": "2026-10-26",
+     "desc": "The Dutch government aims to cut 25,000 civil-servant jobs in an AI-led efficiency drive targeting annual savings of EUR 3.5 billion ($3.9 billion). [Bloomberg, published 2026-10-26]"
+    },
+    {
+     "title": "Thailand Imports Surge at Record Pace on AI, Energy Demand",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-26/thailand-imports-surge-at-record-pace-on-ai-energy-demand",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-26/thailand-imports-surge-at-record-pace-on-ai-energy-demand",
+     "date": "2026-10-26",
+     "desc": "Thailand's imports grew at the fastest pace on record in September, driven by higher energy costs and an investment boom in AI and advanced electronics. [Bloomberg, published 2026-10-26]"
+    },
+    {
+     "title": "Tata Commits $450 Million to 'AI Superhighway' Linking Hubs",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-26/tata-commits-450-million-to-ai-superhighway-linking-hubs",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-26/tata-commits-450-million-to-ai-superhighway-linking-hubs",
+     "date": "2026-10-26",
+     "desc": "Tata Communications plans to spend up to $450 million on a long-haul fiber network linking India's key AI hubs. [Bloomberg, published 2026-10-26]"
+    },
+    {
+     "title": "Musk Claims $40 Billion Chips Debt Closed, Yet Talks Ongoing",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-25/musk-says-spacex-closed-40-billion-debt-deal-blasts-neoclouds",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-25/musk-says-spacex-closed-40-billion-debt-deal-blasts-neoclouds",
+     "date": "2026-10-25",
+     "desc": "Elon Musk says SpaceX closed a $40 billion debt deal to pay for AI chips, but people familiar told Bloomberg that talks over pricing were still ongoing. [Bloomberg, published 2026-10-25]"
+    },
+    {
+     "title": "An IPO Paused as AI Valuation Fears Mount",
+     "url": "https://www.wsj.com/finance/investing/an-ipo-paused-as-ai-valuation-fears-mount-fa1688c9",
+     "fulltext": "https://www.wsj.com/finance/investing/an-ipo-paused-as-ai-valuation-fears-mount-fa1688c9",
+     "date": "2026-10-26",
+     "desc": "The Wall Street Journal reports an IPO has been paused as concerns about AI valuations grow. [WSJ, published 2026-10-26]"
+    },
+    {
+     "title": "Why So Many Shoppers Think Retailers Are Using AI to Jack Up Prices",
+     "url": "https://www.wsj.com/business/retail/why-so-many-shoppers-think-retailers-are-using-ai-to-jack-up-prices-d77cd4eb",
+     "fulltext": "https://www.wsj.com/business/retail/why-so-many-shoppers-think-retailers-are-using-ai-to-jack-up-prices-d77cd4eb",
+     "date": "2026-10-26",
+     "desc": "Walmart, McDonald's and other companies have dismissed concerns that they use AI to raise prices based on who is buying or on sudden need. [WSJ, published 2026-10-26]"
+    },
+    {
+     "title": "U.S. Manufacturing Is Adding Jobs Again, but the Hiring Rules Have Changed",
+     "url": "https://www.wsj.com/business/u-s-manufacturing-is-adding-jobs-again-but-the-hiring-rules-have-changed-29171127",
+     "fulltext": "https://www.wsj.com/business/u-s-manufacturing-is-adding-jobs-again-but-the-hiring-rules-have-changed-29171127",
+     "date": "2026-10-26",
+     "desc": "Factory employment is rising, but a shift toward high-tech automation is creating roles with higher barriers to entry, including more that require a college degree. [WSJ, published 2026-10-26]"
+    },
+    {
+     "title": "China increasingly depends on copying American AI",
+     "url": "https://www.economist.com/science-and-technology/2026/10/25/china-increasingly-depends-on-copying-american-ai",
+     "fulltext": "https://www.economist.com/science-and-technology/2026/10/25/china-increasingly-depends-on-copying-american-ai",
+     "date": "2026-10-25",
+     "desc": "The Economist says model distillation infuriates America but may end up holding China back. [The Economist, published 2026-10-25]"
+    },
+    {
+     "title": "UK financial ombudsman hits phones to cut through AI hallucinations",
+     "url": "https://www.ft.com/content/5f56b300-f8a6-4834-a2e6-75902880ef87",
+     "fulltext": "https://www.ft.com/content/5f56b300-f8a6-4834-a2e6-75902880ef87",
+     "date": "2026-10-26",
+     "desc": "Public bodies and courts are weighed down by lengthy, inaccurate AI-assisted complaints, and the UK financial ombudsman is turning to phone calls in response. [Financial Times, published 2026-10-26]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello, I'm Alex, and this is your AI research digest for Monday, October twenty-sixth, twenty twenty-six. Today: new papers on the economics of generative AI, plus a rough day for AI stocks."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. Let's start with a new NBER paper on competition in generative AI. Using card transaction data on a hundred seventy-four million consumers, it finds about two point nine percent of US consumers pay for a major AI service."
+  },
+  {
+   "speaker": "A",
+   "text": "And retention is only twenty to forty-five percent a year, with switching rising around model releases. The authors conclude that growing substitutability will constrain providers' pricing power."
+  },
+  {
+   "speaker": "B",
+   "text": "A related theory paper looks at what happens when chatbots add advertising. It finds ads can fund service for users who'd otherwise get none, but premium users can end up paying more for the same ad-free experience."
+  },
+  {
+   "speaker": "A",
+   "text": "Another NBER paper, HouseholdBench, tests thirteen language models on predicting household economic behavior. Most beat a no-change baseline, though gradient-boosted trees still usually win."
+  },
+  {
+   "speaker": "B",
+   "text": "There's also a paper where an AI score built from over a hundred twenty thousand earnings calls predicts GDP growth five or more quarters ahead."
+  },
+  {
+   "speaker": "A",
+   "text": "On the labor side, a model called Training Your Replacement shows why workers asked to train their own AI substitute can slow things down, and why a completion bonus can fix it."
+  },
+  {
+   "speaker": "B",
+   "text": "In finance, a new NBER paper on money market funds says that if AI automation wakes up inattentive investors, fees could fall by about half, but redemptions exceeding liquid assets could rise about sixfold."
+  },
+  {
+   "speaker": "A",
+   "text": "Turning to the news. Bloomberg reports Barclays expects AI agents to trade up to sixty-five percent of US investment-grade bonds, with a warning about volatility."
+  },
+  {
+   "speaker": "B",
+   "text": "Meanwhile, strategists warn that the rout in AI cloud providers like CoreWeave could drag the broader market toward its June lows, and the Journal says an IPO was paused over AI valuation fears."
+  },
+  {
+   "speaker": "A",
+   "text": "Also, the Dutch government plans to cut twenty-five thousand civil service jobs in an AI-led overhaul targeting three point five billion euros in annual savings."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest. Find the full list with links in the web archive. Thanks for listening."
+  },
+  {
+   "speaker": "A",
+   "text": "See you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-10-25 (last run) → 2026-10-26. The New York Times and Washington Post could not be reached this run. No SSRN papers with a verified in-window posting date were found. Podcasts for NBER and abstract-only items are based on the abstract (the NBER PDFs were not accessible)."
+}
