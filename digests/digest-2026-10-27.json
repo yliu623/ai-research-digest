@@ -1,0 +1,626 @@
+{
+ "date": "2026-10-27",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "AI in Econometric Theory: An Example",
+     "url": "https://arxiv.org/abs/2610.35831",
+     "fulltext": "https://arxiv.org/pdf/2610.35831",
+     "date": "2026-10-26",
+     "desc": "A short note pairing a paper on the admissibility of two-stage least squares with weak instruments with an account of how the authors' LLMs wrote it, and reflections on what that means for econometrics. [arXiv econ.EM, submitted 2026-10-26]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today, a note on econometric theory written with heavy help from large language models. This summary is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The note has two parts: a paper on whether two-stage least squares is admissible when instruments are weak, a topic the authors have studied together since 2019, and a story about how their LLMs wrote that paper."
+      },
+      {
+       "speaker": "A",
+       "text": "So the econometrics is almost secondary. The interesting part is a working theorist describing, firsthand, what it is like to hand research production to AI."
+      },
+      {
+       "speaker": "B",
+       "text": "Right, and the authors say they draw thoughts on what this may mean for the field. The abstract doesn't give specifics, so we can't say what conclusions they reach."
+      },
+      {
+       "speaker": "A",
+       "text": "Still, it matters because theory papers are exactly the sort of work many assumed was hardest to automate."
+      },
+      {
+       "speaker": "B",
+       "text": "The takeaway: an example, not a verdict, of LLMs doing real theoretical econometrics, with the authors reflecting on the consequences."
+      },
+      {
+       "speaker": "A",
+       "text": "One caveat worth repeating: we only worked from the abstract here, so details such as robustness checks, data construction and exact specifications are not covered in this explainer."
+      },
+      {
+       "speaker": "B",
+       "text": "Agreed. Treat this as a pointer to the paper rather than a substitute for reading it, especially before relying on any of the numbers we mentioned."
+      }
+     ]
+    },
+    {
+     "title": "Screening AI-equipped applicants",
+     "url": "https://arxiv.org/abs/2610.34508",
+     "fulltext": "https://arxiv.org/pdf/2610.34508",
+     "date": "2026-10-25",
+     "desc": "A theory model of hiring when generative AI makes polished application materials cheap; shows optimal hiring can collapse to selection on observable quality alone and proposes an asymptotically optimal dual-track mechanism. [arXiv econ.TH, submitted 2026-10-25]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Generative AI makes cover letters and application materials cheap to polish. This summary is based on the abstract only. How should an employer hire?"
+      },
+      {
+       "speaker": "B",
+       "text": "The model has an employer who sees qualifications and work history, and reports that applicants can manipulate at costs that depend on private manipulation ability."
+      },
+      {
+       "speaker": "A",
+       "text": "The key result is what the authors call strategic feature collapse: as manipulation ability becomes more dispersed among applicants of the same observable quality, optimal hiring converges to selecting on observable quality alone."
+      },
+      {
+       "speaker": "B",
+       "text": "So the reports stop being useful. But they say some welfare gain from reports can still be captured."
+      },
+      {
+       "speaker": "A",
+       "text": "Yes, with a dual-track mechanism: directly admit applicants with high observable quality, and give some otherwise excluded applicants a report-based route in. Under extra regularity it is asymptotically optimal, matching the best possible gain through second order."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: when AI cheapens signals, lean on hard-to-fake credentials, but a limited report-based track can still add value."
+      },
+      {
+       "speaker": "A",
+       "text": "One caveat worth repeating: we only worked from the abstract here, so details such as robustness checks, data construction and exact specifications are not covered in this explainer."
+      },
+      {
+       "speaker": "B",
+       "text": "Agreed. Treat this as a pointer to the paper rather than a substitute for reading it, especially before relying on any of the numbers we mentioned."
+      }
+     ]
+    },
+    {
+     "title": "Efficiency vs Capability in the Intelligence Explosion",
+     "url": "https://arxiv.org/abs/2610.33447",
+     "fulltext": "https://arxiv.org/pdf/2610.33447",
+     "date": "2026-10-24",
+     "desc": "A task-automation model of AI research shows a software-driven intelligence explosion needs both capability and efficiency progress to be fast; calibrated simulations give an explosion in 49% of draws, with efficiency progress the largest uncertainty. [arXiv econ.GN, submitted 2026-10-24]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Could AI research accelerate itself without more compute or people? This summary is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The paper models two feedback channels: capability gains let AI do more of AI research, while efficiency gains raise output per unit of compute on tasks already automated."
+      },
+      {
+       "speaker": "A",
+       "text": "The theory result is that a software-driven intelligence explosion needs both margins to improve fast enough, and neither can substitute for the other."
+      },
+      {
+       "speaker": "B",
+       "text": "Then the author calibrates both using data on recent AI progress. Capability progress looks likely fast enough, while efficiency progress is on the knife-edge."
+      },
+      {
+       "speaker": "A",
+       "text": "In Monte Carlo simulations, an explosion occurs in 49 percent of draws, and uncertainty about efficiency progress drives 45 percent of the uncertainty about whether it happens."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: plausible but uncertain, and better data on efficiency gains in frontier models is the most valuable thing to collect."
+      },
+      {
+       "speaker": "A",
+       "text": "One caveat worth repeating: we only worked from the abstract here, so details such as robustness checks, data construction and exact specifications are not covered in this explainer."
+      },
+      {
+       "speaker": "B",
+       "text": "Agreed. Treat this as a pointer to the paper rather than a substitute for reading it, especially before relying on any of the numbers we mentioned."
+      }
+     ]
+    },
+    {
+     "title": "Jawboning the Fed: Do Markets Listen When Administrations Talk?",
+     "url": "https://arxiv.org/abs/2610.32300",
+     "fulltext": "https://arxiv.org/pdf/2610.32300",
+     "date": "2026-10-23",
+     "desc": "Uses an LLM ensemble to classify four decades of Reuters articles into dovish and hawkish pressure on the Fed; dovish pressure lowers near-term rate expectations by about one basis point per event, while hawkish pressure has no detectable effect. [arXiv econ.GN, submitted 2026-10-23]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Do markets react when politicians lean on the Federal Reserve? This summary is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors take about four decades of Reuters newswire articles, from 1988 to 2025, and use an ensemble of open-weight large language models to classify them as dovish or hawkish pressure."
+      },
+      {
+       "speaker": "A",
+       "text": "Then they measure daily responses in interest rate expectations, the dollar, inflation compensation and volatility."
+      },
+      {
+       "speaker": "B",
+       "text": "Dovish pressure lowers near-term rate expectations by roughly one basis point per event, about a four percent higher implied probability of a rate cut at the next meeting, fading within three months."
+      },
+      {
+       "speaker": "A",
+       "text": "Hawkish pressure shows no detectable effect, and dropping the Trump presidencies doesn't weaken the result. The dollar depreciates while inflation compensation stays stable."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: markets price expected accommodation rather than a credibility tax on the nominal anchor, and LLMs made the news-classification possible at scale."
+      },
+      {
+       "speaker": "A",
+       "text": "One caveat worth repeating: we only worked from the abstract here, so details such as robustness checks, data construction and exact specifications are not covered in this explainer."
+      },
+      {
+       "speaker": "B",
+       "text": "Agreed. Treat this as a pointer to the paper rather than a substitute for reading it, especially before relying on any of the numbers we mentioned."
+      }
+     ]
+    },
+    {
+     "title": "Prospect Theory in Large Language Models: A Meta-Analysis of Loss Aversion, Diminishing Sensitivity, and Probability Weighting",
+     "url": "https://arxiv.org/abs/2610.33103",
+     "fulltext": "https://arxiv.org/pdf/2610.33103",
+     "date": "2026-10-22",
+     "desc": "Meta-analysis of 102 estimates from 11 studies covering 32 LLMs finds modest loss aversion (pooled lambda 1.26 vs 1.96 in humans), near-linear value functions in one method, and human-like probability weighting. [arXiv cs.AI, submitted 2026-10-22]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Do language models behave like humans facing risky choices? This summary is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "This meta-analysis pools 102 fitted estimates from 11 studies covering 32 language models, looking at the three parts of prospect theory."
+      },
+      {
+       "speaker": "A",
+       "text": "Loss aversion is modest: pooled lambda is 1.26, far below the strongest human estimate of 1.96, though similar to people when gains and losses are symmetric."
+      },
+      {
+       "speaker": "B",
+       "text": "Diminishing sensitivity depends on method. Under one method value functions are nearly linear, 1.01 against 0.67 for humans, while under another they are more concave than people's."
+      },
+      {
+       "speaker": "A",
+       "text": "Probability weighting keeps a human-like inverse S shape, though on few studies."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: LLMs show little loss aversion but retain human-like probability distortion, which matters for those using them as simulated survey respondents."
+      },
+      {
+       "speaker": "A",
+       "text": "One caveat worth repeating: we only worked from the abstract here, so details such as robustness checks, data construction and exact specifications are not covered in this explainer."
+      },
+      {
+       "speaker": "B",
+       "text": "Agreed. Treat this as a pointer to the paper rather than a substitute for reading it, especially before relying on any of the numbers we mentioned."
+      }
+     ]
+    },
+    {
+     "title": "The Capability Transfer: Cohort Reversal, Codified Expertise, and the Adaptability Tax of AI Transformation",
+     "url": "https://arxiv.org/abs/2610.33102",
+     "fulltext": "https://arxiv.org/pdf/2610.33102",
+     "date": "2026-10-22",
+     "desc": "A two-cohort firm model shows automating codified work cuts junior demand first and senior stock later but further, lengthens expert development from about five to nine years, and a short-horizon manager cuts the wage bill 21% while firm capacity on non-AI work falls two-fifths. [arXiv econ.GN, submitted 2026-10-22]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Which jobs does AI expose is the usual question; this paper asks what happens to the pipeline that produces experts. This summary is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "It extends a single-worker model to a firm with juniors and seniors. Junior work is most codified, so junior demand falls first, bottoming out about a fifth below its 2022 level."
+      },
+      {
+       "speaker": "A",
+       "text": "Seniors fall later but further: the senior stock drops by a quarter and later halves, because nobody is being trained to replace retirees."
+      },
+      {
+       "speaker": "B",
+       "text": "Since expertise forms through unassisted practice on work AI can't do, developing an expert takes about nine years instead of five."
+      },
+      {
+       "speaker": "A",
+       "text": "A manager with a three-year horizon maximizes near-term output, cutting the wage bill by 21 percent while capacity on work AI can't do falls by two-fifths."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors stress these are scenarios, since two key parameters are unmeasured, and suggest tracking unaided junior practice, senior time, and years to develop an expert."
+      },
+      {
+       "speaker": "A",
+       "text": "One caveat worth repeating: we only worked from the abstract here, so details such as robustness checks, data construction and exact specifications are not covered in this explainer."
+      },
+      {
+       "speaker": "B",
+       "text": "Agreed. Treat this as a pointer to the paper rather than a substitute for reading it, especially before relying on any of the numbers we mentioned."
+      }
+     ]
+    },
+    {
+     "title": "The Digital-Energy Recomposition of the Kitchin Cycle: Exploratory Evidence from U.S. IT and Irish Data-Centre Series (1995-2025)",
+     "url": "https://arxiv.org/abs/2610.33122",
+     "fulltext": "https://arxiv.org/pdf/2610.33122",
+     "date": "2026-10-23",
+     "desc": "Exploratory time-series study finds the U.S. IT–GDP correlation broke in 2014Q3, before the AI era, and that Irish data-centre electricity's link to GDP vanishes when GNP is used, suggesting a multinational tax-footprint artefact. [arXiv physics.soc-ph, submitted 2026-10-23]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Is AI infrastructure reshaping the business cycle? This summary is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors use quarterly U.S. IT investment data and Irish data-centre electricity use from 1995 to 2025."
+      },
+      {
+       "speaker": "A",
+       "text": "First, the U.S. IT and GDP correlation breaks in 2014Q3, falling from positive 0.45 to negative 0.12, which is about six years before the AI era."
+      },
+      {
+       "speaker": "B",
+       "text": "Second, in Ireland, data-centre electricity correlates 0.41 with real GDP, but about zero with real GNP, so the headline looks like a multinational tax-structure artefact."
+      },
+      {
+       "speaker": "A",
+       "text": "Third, GDP seems to precede data-centre load rather than the reverse, so compute is coincident or lagging, not a leading indicator."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: all results are exploratory, with small AI-era samples, and Irish GDP overstates the data-centre story."
+      },
+      {
+       "speaker": "A",
+       "text": "One caveat worth repeating: we only worked from the abstract here, so details such as robustness checks, data construction and exact specifications are not covered in this explainer."
+      },
+      {
+       "speaker": "B",
+       "text": "Agreed. Treat this as a pointer to the paper rather than a substitute for reading it, especially before relying on any of the numbers we mentioned."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Det-MASO: Diversity-Regularized Multi-Agent Sequential Optimization for Factor Generation",
+     "url": "https://arxiv.org/abs/2610.34936",
+     "fulltext": "https://arxiv.org/pdf/2610.34936",
+     "date": "2026-10-26",
+     "desc": "Proposes a multi-agent learning framework with a log-determinant diversity penalty to generate varied alpha factors; reports gains of 1.1% in information coefficient, 6.4% in annualized return and 0.33 in Sharpe ratio over baselines. [arXiv q-fin.CP, submitted 2026-10-26]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Quant funds want alpha factors that are predictive and diverse. This summary is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Existing single-agent methods explore the factor space narrowly, and multi-agent ones tend to collapse to similar outputs."
+      },
+      {
+       "speaker": "A",
+       "text": "Det-MASO adds a differentiable log-determinant penalty on the correlation between agents directly into training, with cost scaling linearly in the number of assets."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors show the penalty prevents homogeneous equilibria, and a context-conditioned scheduler shifts emphasis across market regimes."
+      },
+      {
+       "speaker": "A",
+       "text": "Experiments report a 1.1 percent better information coefficient, 6.4 percent higher annualized return, and a 0.33 higher Sharpe ratio than baselines."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: forcing agents to be different keeps factor diversity, though the abstract doesn't detail the backtest data."
+      },
+      {
+       "speaker": "A",
+       "text": "One caveat worth repeating: we only worked from the abstract here, so details such as robustness checks, data construction and exact specifications are not covered in this explainer."
+      },
+      {
+       "speaker": "B",
+       "text": "Agreed. Treat this as a pointer to the paper rather than a substitute for reading it, especially before relying on any of the numbers we mentioned."
+      }
+     ]
+    },
+    {
+     "title": "Certifying Reward Alignment in Portfolio Reinforcement Learning",
+     "url": "https://arxiv.org/abs/2610.34153",
+     "fulltext": "https://arxiv.org/pdf/2610.34153",
+     "date": "2026-10-25",
+     "desc": "Develops a decision audit separating reward misspecification from learning error in mean-variance portfolio RL; calibration preserves the fitted target but does not improve realised performance in 432 months of US industry portfolio tests. [arXiv q-fin.PM, submitted 2026-10-25]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Can you tell whether a reinforcement-learning portfolio agent actually implements the investor's stated objective? This summary is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Financial RL often turns an objective into an additive risk-adjusted reward, so an agent can optimize that reward well yet implement a different preference."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors build a certificate for terminal mean-variance equilibrium that bounds the gain from changing one action using actor, reward and critic residuals."
+      },
+      {
+       "speaker": "B",
+       "text": "A continuation-aware actor-critic method reduces policy distance and one-step deviation gain versus a matched myopic-reward network across nine controlled markets and twenty seeds."
+      },
+      {
+       "speaker": "A",
+       "text": "But in historical tests on 10, 30 and 49 US industry portfolios over 432 months, calibrating the reward preserves the target without improving realised performance."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: this measures whether a learned decision matches its objective, separately from whether that objective earns money."
+      },
+      {
+       "speaker": "A",
+       "text": "One caveat worth repeating: we only worked from the abstract here, so details such as robustness checks, data construction and exact specifications are not covered in this explainer."
+      },
+      {
+       "speaker": "B",
+       "text": "Agreed. Treat this as a pointer to the paper rather than a substitute for reading it, especially before relying on any of the numbers we mentioned."
+      }
+     ]
+    },
+    {
+     "title": "Cross-Bond Panel Learning for Next-Day Price Forecasting of Chinese Convertible Bonds: A Reality Check",
+     "url": "https://arxiv.org/abs/2610.33453",
+     "fulltext": "https://arxiv.org/pdf/2610.33453",
+     "date": "2026-10-24",
+     "desc": "Tests deep cross-bond neural models on 73,806 daily observations of 100 Chinese convertible bonds and finds no out-of-sample advantage over a random walk (RMSE 2.3619–2.3645 vs 2.3577 CNY). [arXiv q-fin.CP, submitted 2026-10-24]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "A reality check on deep learning for convertible bond prices. This summary is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The data are 73,806 daily observations across 100 Chinese A-share convertible bonds from 2022 to 2025, with strict temporal splitting and purging."
+      },
+      {
+       "speaker": "A",
+       "text": "On the holdout, the random walk gets an RMSE of 2.3577 yuan, while neural ensembles get 2.3619 and 2.3645, with slightly negative out-of-sample R squared."
+      },
+      {
+       "speaker": "B",
+       "text": "Pooling across bonds does help versus single-bond models for 79 of 90 bonds, but doesn't beat persistence in aggregate."
+      },
+      {
+       "speaker": "A",
+       "text": "Five highly volatile, clause-sensitive bonds account for 74.4 percent of excess squared error."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: without equity market information or contract-event conditioning, deep panel models add no next-day predictability."
+      },
+      {
+       "speaker": "A",
+       "text": "One caveat worth repeating: we only worked from the abstract here, so details such as robustness checks, data construction and exact specifications are not covered in this explainer."
+      },
+      {
+       "speaker": "B",
+       "text": "Agreed. Treat this as a pointer to the paper rather than a substitute for reading it, especially before relying on any of the numbers we mentioned."
+      }
+     ]
+    },
+    {
+     "title": "Uncertainty Quantification for Financial Foundation Models: A Survey",
+     "url": "https://arxiv.org/abs/2610.33109",
+     "fulltext": "https://arxiv.org/pdf/2610.33109",
+     "date": "2026-10-22",
+     "desc": "Survey proposing a source-aware framework with six sources of uncertainty for financial foundation models and agentic workflows, finding most studies address only parts of the workflow. [arXiv q-fin.GN, submitted 2026-10-22]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "How should we think about uncertainty when foundation models do financial work? This summary is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The survey covers workflows like financial question answering, disclosure analysis, forecasting and decision-making."
+      },
+      {
+       "speaker": "A",
+       "text": "It argues uncertainty can't be reduced to confidence in a final output, and distinguishes six sources across evidence and context, model and inference, and outcome and action."
+      },
+      {
+       "speaker": "B",
+       "text": "Agentic workflows are treated as the execution layer through which uncertainty can propagate, change form, or be reduced."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors build a taxonomy of methods and map finance-specific studies against it."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: most work addresses uncertainty in isolated steps, with little connecting evidence reliability to downstream prediction and constrained action."
+      },
+      {
+       "speaker": "A",
+       "text": "One caveat worth repeating: we only worked from the abstract here, so details such as robustness checks, data construction and exact specifications are not covered in this explainer."
+      },
+      {
+       "speaker": "B",
+       "text": "Agreed. Treat this as a pointer to the paper rather than a substitute for reading it, especially before relying on any of the numbers we mentioned."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Anthropic S-1 Reveals Rapid Growth Ahead of Blockbuster IPO",
+     "url": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-finances.html",
+     "fulltext": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-finances.html",
+     "date": "2026-10-26",
+     "desc": "Anthropic's filing for what could be the largest public listing ever shows revenue of $16.3 billion in the first half of the year and planned AI infrastructure spending of $807 billion. [NYT, published 2026-10-26]"
+    },
+    {
+     "title": "Anthropic's 'Adjusted' Profit Exposes Wall Street's Earnings Game",
+     "url": "https://www.wsj.com/finance/investing/anthropics-adjusted-profit-exposes-wall-streets-earnings-game-40cbcef1",
+     "fulltext": "https://www.wsj.com/finance/investing/anthropics-adjusted-profit-exposes-wall-streets-earnings-game-40cbcef1",
+     "date": "2026-10-27",
+     "desc": "Examines Anthropic's adjusted earnings metrics from its IPO filing, noting its losses were the flip side of large gains booked by investors Amazon and Alphabet. [WSJ, published 2026-10-27]"
+    },
+    {
+     "title": "Broadcom CEO Intervened to Seal $63 Billion Anthropic Debt Deal",
+     "url": "https://www.wsj.com/finance/broadcom-ceo-intervened-to-seal-63-billion-anthropic-debt-deal-c807754f",
+     "fulltext": "https://www.wsj.com/finance/broadcom-ceo-intervened-to-seal-63-billion-anthropic-debt-deal-c807754f",
+     "date": "2026-10-27",
+     "desc": "The deal announced Monday is the biggest ever to raise money for AI infrastructure; a coalition of banks and Blackstone is lining up $63 billion to buy Broadcom AI computing hardware and lease it to Anthropic. [WSJ, published 2026-10-27]"
+    },
+    {
+     "title": "Meta Plans up to $95 Billion in Financing to Power Its AI Growth",
+     "url": "https://www.wsj.com/tech/ai/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan-10b8947e",
+     "fulltext": "https://www.wsj.com/tech/ai/meta-plans-35-billion-stock-offering-to-power-ai-buildout-eyes-95-billion-total-plan-10b8947e",
+     "date": "2026-10-26",
+     "desc": "Meta said it would seek up to $95 billion to fund its heavy AI infrastructure investment; the FT reports Nvidia, AMD and Broadcom will act as cornerstone investors in the stock offering. [WSJ, published 2026-10-26]"
+    },
+    {
+     "title": "Musk Is Predicting 'Guppy-level Death' for Scores of A.I. Companies",
+     "url": "https://www.nytimes.com/2026/10/26/business/dealbook/musk-ai-credit-shakeout.html",
+     "fulltext": "https://www.nytimes.com/2026/10/26/business/dealbook/musk-ai-credit-shakeout.html",
+     "date": "2026-10-26",
+     "desc": "Elon Musk expects many AI infrastructure companies to be shut out of the debt market, a warning that could weigh on markets. [NYT, published 2026-10-26]"
+    },
+    {
+     "title": "What's Riding on Anthropic Going Public? Nearly Everything.",
+     "url": "https://www.nytimes.com/2026/10/26/technology/anthropic-going-public-stakes.html",
+     "fulltext": "https://www.nytimes.com/2026/10/26/technology/anthropic-going-public-stakes.html",
+     "date": "2026-10-26",
+     "desc": "Anthropic sits atop a pyramid of business partners and suppliers, making it a barometer of the broader economy, so its IPO has widespread implications. [NYT, published 2026-10-26]"
+    },
+    {
+     "title": "Don't expect supersize profits from Anthropic soon",
+     "url": "https://www.economist.com/business/2026/10/26/dont-expect-supersize-profits-from-anthropic-soon",
+     "fulltext": "https://www.economist.com/business/2026/10/26/dont-expect-supersize-profits-from-anthropic-soon",
+     "date": "2026-10-26",
+     "desc": "The IPO prospectus contains warnings of challenges ahead for Anthropic's profitability. [The Economist, published 2026-10-26]"
+    },
+    {
+     "title": "Anthropic IPO Filing Reveals $417 Billion in Future AI Spending",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-10-27/anthropic-ipo-filing-reveals-417-billion-in-future-ai-spending",
+     "fulltext": "https://www.bloomberg.com/news/newsletters/2026-10-27/anthropic-ipo-filing-reveals-417-billion-in-future-ai-spending",
+     "date": "2026-10-27",
+     "desc": "Anthropic's filing for one of the biggest IPOs in history discloses large future AI spending commitments, and the company may need more money. [Bloomberg, published 2026-10-27]"
+    },
+    {
+     "title": "Microsoft Offers Buyouts to 60,000 Employees as It Spends on A.I.",
+     "url": "https://www.nytimes.com/2026/10/26/technology/microsoft-buyouts-ai-spending.html",
+     "fulltext": "https://www.nytimes.com/2026/10/26/technology/microsoft-buyouts-ai-spending.html",
+     "date": "2026-10-26",
+     "desc": "About a quarter of Microsoft's employees were eligible for the packages, though the company said it did not expect many to accept. [NYT, published 2026-10-26]"
+    },
+    {
+     "title": "Plan for AI 'agents' to run US companies challenged by lawmakers",
+     "url": "https://www.ft.com/content/d5021cdf-816e-4cb9-bbf9-e4ba816a004f",
+     "fulltext": "https://www.ft.com/content/d5021cdf-816e-4cb9-bbf9-e4ba816a004f",
+     "date": "2026-10-26",
+     "desc": "The US House oversight committee is probing a Delaware proposal that would allow corporate entities to be run by autonomous bots. [Financial Times, published 2026-10-26]"
+    },
+    {
+     "title": "India's outsourcers defy AI threat",
+     "url": "https://www.ft.com/content/42dc1a1c-2454-4eaf-bafe-ded5ad7855e4",
+     "fulltext": "https://www.ft.com/content/42dc1a1c-2454-4eaf-bafe-ded5ad7855e4",
+     "date": "2026-10-27",
+     "desc": "Indian IT services groups now make about 10% of revenue from helping companies integrate AI. [Financial Times, published 2026-10-27]"
+    },
+    {
+     "title": "Microsoft Alumni Score Funding to Build AI Agents for Finance",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-27/microsoft-alumni-score-funding-to-build-ai-agents-for-finance",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-27/microsoft-alumni-score-funding-to-build-ai-agents-for-finance",
+     "date": "2026-10-27",
+     "desc": "Hyphenate Inc. raised $45 million in a round led by Nexus Venture Partners to build AI agents that can run finances for businesses. [Bloomberg, published 2026-10-27]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello, this is the Daily AI Research Digest for October 27th, 2026. Alex here."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. Today is dominated by Anthropic's IPO filing, plus a handful of new papers on AI and the economy."
+  },
+  {
+   "speaker": "A",
+   "text": "Let's start with the news. The New York Times reports Anthropic's filing shows revenue of 16.3 billion dollars in the first half of the year, and planned AI infrastructure spending of 807 billion dollars."
+  },
+  {
+   "speaker": "B",
+   "text": "That spending is enormous. Bloomberg says the filing reveals 417 billion dollars in future AI spending, and the Wall Street Journal reports banks and Blackstone are lining up 63 billion dollars to buy Broadcom computing hardware and lease it to Anthropic, the biggest deal ever to raise money for AI infrastructure."
+  },
+  {
+   "speaker": "A",
+   "text": "Meta is also raising money, up to 95 billion dollars according to the Journal, with Nvidia, AMD and Broadcom as cornerstone investors, per the Financial Times."
+  },
+  {
+   "speaker": "B",
+   "text": "And Elon Musk, per the Times, expects many AI infrastructure companies to be shut out of the debt market. The Economist, meanwhile, warns not to expect supersize profits from Anthropic soon."
+  },
+  {
+   "speaker": "A",
+   "text": "On the labor side, Microsoft offered buyouts to 60,000 employees, about a quarter of its staff, while spending heavily on AI."
+  },
+  {
+   "speaker": "B",
+   "text": "Now to research. A new arXiv paper on the intelligence explosion models AI research as task automation. It finds an explosion needs both capability and efficiency progress, and in simulations it happens in 49 percent of draws."
+  },
+  {
+   "speaker": "A",
+   "text": "Another paper looks at the expert pipeline. As AI automates junior work, the time to develop an expert rises from about five years to nine in the authors' scenarios."
+  },
+  {
+   "speaker": "B",
+   "text": "There's also a theory paper on hiring when AI makes applications cheap to polish. It finds optimal hiring can collapse to selection on observable quality alone."
+  },
+  {
+   "speaker": "A",
+   "text": "In finance, a paper used a large language model ensemble to classify four decades of news about political pressure on the Fed. Dovish pressure lowers near-term rate expectations by about one basis point per event."
+  },
+  {
+   "speaker": "B",
+   "text": "And a reality check on deep learning for Chinese convertible bonds found the models do not beat a simple random walk out of sample."
+  },
+  {
+   "speaker": "A",
+   "text": "One more: a meta-analysis of 32 language models finds they show modest loss aversion, a pooled lambda of 1.26 versus 1.96 for people, but human-like probability distortion."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest for today. Full summaries and audio explainers are in the web archive."
+  },
+  {
+   "speaker": "A",
+   "text": "Thanks for listening, and see you tomorrow."
+  },
+  {
+   "speaker": "B",
+   "text": "Take care, everyone."
+  }
+ ],
+ "footnote": "Window: 2026-10-26 (last run) → 2026-10-27. The Washington Post feed could not be reached this run (HTTP 502). PDF full text could not be read this run, so paper audio explainers are based on abstracts. SSRN searches found no postings verified inside the window. News summaries are based on feed teasers."
+}
