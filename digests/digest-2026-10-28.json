@@ -1,0 +1,377 @@
+{
+ "date": "2026-10-28",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Practice Makes Perfect: Tacit Knowledge, Generative AI, and Returns to Schooling and Experience",
+     "url": "https://arxiv.org/abs/2610.36008",
+     "fulltext": "https://arxiv.org/pdf/2610.36008",
+     "date": "2026-10-26",
+     "desc": "Using US CPS earnings data from 2018 to June 2026, the paper compares occupations by pre-ChatGPT AI exposure and finds the return to a year of schooling falls by 0.55 log points in exposed occupations after ChatGPT's release, while the experience profile rotates (up 0.26 at three years, down 0.12 at twenty-five). [arXiv econ.GN, submitted 2026-10-26]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's paper asks a simple question with big stakes: if generative AI makes textbook-style knowledge cheap, what happens to the wage payoff from going to school, and the payoff from experience?"
+      },
+      {
+       "speaker": "B",
+       "text": "And the authors split human capital in two. Codified knowledge, the stuff you can write down and teach, versus practice-based knowledge, the judgment you build by doing the work."
+      },
+      {
+       "speaker": "A",
+       "text": "Right. Their theory says AI substitutes for the codified part, so the return to schooling should fall. But if the two kinds of knowledge are complements, the return to experience should rise where people learn fastest by practice, early in a career."
+      },
+      {
+       "speaker": "B",
+       "text": "There's a twist, though. Some experience is tied to the old way of doing tasks, so it can become obsolete. That means the experience profile rotates rather than just shifting up or down."
+      },
+      {
+       "speaker": "A",
+       "text": "For data they use the US Current Population Survey earnings files from 2018 through June 2026. They compare occupations in the top and bottom quartiles of a pre-ChatGPT exposure index from Felten, Raj and Seamans, before and after ChatGPT's public release in November 2022."
+      },
+      {
+       "speaker": "B",
+       "text": "So what did they find?"
+      },
+      {
+       "speaker": "A",
+       "text": "After the release, the return to a year of schooling falls by 0.55 log points in exposed occupations. Against a pre-shock return of about 7.5 log points, that's roughly a seven percent decline."
+      },
+      {
+       "speaker": "B",
+       "text": "And experience?"
+      },
+      {
+       "speaker": "A",
+       "text": "It rotates. The return to a year of experience rises by 0.26 log points at three years of experience, shows no significant change at fifteen, and falls by 0.12 log points at twenty-five. In their baseline specification the effect crosses zero at about 18.1 years."
+      },
+      {
+       "speaker": "B",
+       "text": "Do they check whether this is just something else going on?"
+      },
+      {
+       "speaker": "A",
+       "text": "They do. The breaks line up with the ChatGPT release, they disappear in a placebo using the pandemic date, they survive a common censoring rule, and they hold when each occupation gets its own pre-shock gradients."
+      },
+      {
+       "speaker": "B",
+       "text": "Caveats: it's a difference-in-differences design that relies on parallel trends in those skill prices, and the exposure index is an occupation-level measure, so it isn't tracking individual AI use."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: inside exposed occupations, codifiable knowledge is getting cheaper, and experience is worth more only if it transfers to the new technology. Human capital is being repriced, not just reduced."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "A Deep Learning-Driven Operator Splitting Scheme for Free Boundary Problems: An Application to American Option Pricing in Incomplete Markets",
+     "url": "https://arxiv.org/abs/2610.36921",
+     "fulltext": "https://arxiv.org/pdf/2610.36921",
+     "date": "2026-10-27",
+     "desc": "Combines a physics-informed neural network with a closed-form early-exercise projection to price American options with transaction costs, stochastic liquidity and two-factor stochastic volatility, matching finite-difference and Monte Carlo benchmarks. [arXiv q-fin.MF, submitted 2026-10-27]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This episode is based on the paper's abstract and early sections, so we'll keep it short. It's about pricing American options with deep learning."
+      },
+      {
+       "speaker": "B",
+       "text": "American options can be exercised early, which means you have to solve for the option value and the best exercise boundary at the same time. That's a free-boundary problem, and it's hard."
+      },
+      {
+       "speaker": "A",
+       "text": "It gets harder when you add realism. The authors include proportional transaction costs, a stochastic liquidity risk whose drift they say is validated empirically on S and P 500 data, and two-factor stochastic volatility."
+      },
+      {
+       "speaker": "B",
+       "text": "Put together, the pricing problem becomes a five-dimensional, highly nonlinear variational inequality. Grid-based methods struggle with that many dimensions."
+      },
+      {
+       "speaker": "A",
+       "text": "Their approach is operator splitting. At each time layer, they split the problem into two parts: an elliptic continuation equation, approximated with a physics-informed neural network, and a closed-form projection step that enforces the early-exercise constraint."
+      },
+      {
+       "speaker": "B",
+       "text": "So the neural net handles the diffusion part, and the early-exercise rule is handled exactly."
+      },
+      {
+       "speaker": "A",
+       "text": "They also derive a conditional stability bound under stated assumptions, and they validate the scheme against finite-difference and least-squares Monte Carlo benchmarks. Prices and the learned exercise boundary agree closely with the reference solutions, and they run sensitivity analyses on the key parameters."
+      },
+      {
+       "speaker": "B",
+       "text": "The limit here is that this is a numerical-methods paper; it shows the method works against benchmarks, not that it improves trading outcomes."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: deep learning can make high-dimensional American option pricing tractable while keeping the early-exercise structure intact."
+      }
+     ]
+    },
+    {
+     "title": "FinLLM-KG: Knowledge Graph-Enhanced LLMs for Financial Sentiment Analysis in Algorithmic Trading",
+     "url": "https://arxiv.org/abs/2610.36083",
+     "fulltext": "https://arxiv.org/pdf/2610.36083",
+     "date": "2026-10-26",
+     "desc": "Adds 10-K-derived knowledge-graph context to finance LLMs at inference time, without retraining, to score news sentiment with explainable evidence; simulations show better portfolio performance than the baseline. [arXiv cs.CL, submitted 2026-10-26]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This episode is based on the abstract and introduction. The paper is FinLLM-KG, from Imperial College London, about financial sentiment analysis for algorithmic trading."
+      },
+      {
+       "speaker": "B",
+       "text": "The problem is that current finance-tuned language models score each news article on its own, and they're black boxes. But news about one firm can matter for its competitors, suppliers and customers."
+      },
+      {
+       "speaker": "A",
+       "text": "Their idea is to feed the model extra context at inference time, without retraining it. The context comes from a knowledge graph built from SEC 10-K filings, and it's supplied either as a natural-language company profile or as a few relevance-ranked factual triples, like one company partners with another."
+      },
+      {
+       "speaker": "B",
+       "text": "And there's a temporal gate, so only the latest 10-K filed strictly before the article is used. That avoids look-ahead."
+      },
+      {
+       "speaker": "A",
+       "text": "It works with any causal language model. The authors also attribute each sentiment score back to individual sentences and retrieved facts, so a human reviewer can inspect the evidence."
+      },
+      {
+       "speaker": "B",
+       "text": "Does it make money in simulation?"
+      },
+      {
+       "speaker": "A",
+       "text": "The abstract says simulations show it consistently improves portfolio performance over the state-of-the-art baseline. We're working from the abstract here, so we won't quote specific numbers."
+      },
+      {
+       "speaker": "B",
+       "text": "Caveat: those are simulated portfolios, so transaction costs and real-world implementation would need testing."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: grounding sentiment scores in firm-level filings can make LLM trading signals both better informed and easier to audit."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Wall Street’s AI Debt Machine Is Starting to Choke on Supply",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-28/wall-street-s-ai-debt-machine-is-starting-to-choke-on-supply",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-28/wall-street-s-ai-debt-machine-is-starting-to-choke-on-supply",
+     "date": "2026-10-28",
+     "desc": "Bloomberg reports early signs that the credit market is nearing the limits of how much more debt it can absorb as Wall Street finances the data centers and chips behind the AI boom. [Bloomberg, published 2026-10-28]"
+    },
+    {
+     "title": "Microsoft and Alphabet Earnings Put Focus on AI Cash Flow Drain",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-28/microsoft-and-alphabet-earnings-put-focus-on-ai-cash-flow-drain",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-28/microsoft-and-alphabet-earnings-put-focus-on-ai-cash-flow-drain",
+     "date": "2026-10-28",
+     "desc": "As the two companies report earnings, investors are increasingly scrutinizing how heavy AI spending is weighing on their bottom lines. [Bloomberg, published 2026-10-28]"
+    },
+    {
+     "title": "How Much Does the US Economy Depend on AI?",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-28/how-much-does-the-us-economy-depend-on-ai",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-28/how-much-does-the-us-economy-depend-on-ai",
+     "date": "2026-10-28",
+     "desc": "Economists expect third-quarter GDP due Oct. 29 to show the fastest growth in a year; AI has no line item in the report but touches many of its categories. [Bloomberg, published 2026-10-28]"
+    },
+    {
+     "title": "OpenAI Plans to Buy Google’s Chips as Part of Its AI Build-Out",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-28/openai-plans-to-buy-google-s-chips-as-part-of-its-ai-build-out",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-28/openai-plans-to-buy-google-s-chips-as-part-of-its-ai-build-out",
+     "date": "2026-10-28",
+     "desc": "According to a person familiar with the matter, OpenAI intends to buy AI computing chips from Google as part of its infrastructure expansion. [Bloomberg, published 2026-10-28]"
+    },
+    {
+     "title": "Nvidia-Backed Firm Launches $3.1 Billion GPU Loan in Market",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-28/nvidia-backed-firm-launches-3-1-billion-gpu-loan-into-market",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-28/nvidia-backed-firm-launches-3-1-billion-gpu-loan-into-market",
+     "date": "2026-10-28",
+     "desc": "Indonesian AI infrastructure platform Zankore is syndicating a $3.1 billion loan, adding to a flurry of financing for Asia’s AI buildout. [Bloomberg, published 2026-10-28]"
+    },
+    {
+     "title": "AI Boom Drives a Jump in Lending, but Bankers Still Sound Cautious",
+     "url": "https://www.wsj.com/finance/banking/ai-boom-drives-a-jump-in-lending-but-bankers-still-sound-cautious-78bd7a58",
+     "fulltext": "https://www.wsj.com/finance/banking/ai-boom-drives-a-jump-in-lending-but-bankers-still-sound-cautious-78bd7a58",
+     "date": "2026-10-28",
+     "desc": "Big and regional banks alike are riding a wave of AI-related lending, though executives remain cautious in tone. [WSJ, published 2026-10-28]"
+    },
+    {
+     "title": "See How Anthropic Arrived at Its Mind-Boggling $40 Trillion Market Opportunity",
+     "url": "https://www.wsj.com/tech/ai/see-how-anthropic-arrived-at-its-mind-boggling-40-trillion-market-opportunity-948c56a0",
+     "fulltext": "https://www.wsj.com/tech/ai/see-how-anthropic-arrived-at-its-mind-boggling-40-trillion-market-opportunity-948c56a0",
+     "date": "2026-10-28",
+     "desc": "The company’s estimated market opportunity is tied to the economic value of work done by knowledge workers and exceeds SpaceX’s figure from earlier this year. [WSJ, published 2026-10-28]"
+    },
+    {
+     "title": "The AI bubble already popped — in China",
+     "url": "https://www.ft.com/content/6abfda69-f4f7-45d5-922c-f4b65a72bcdc",
+     "fulltext": "https://www.ft.com/content/6abfda69-f4f7-45d5-922c-f4b65a72bcdc",
+     "date": "2026-10-28",
+     "desc": "An FT newsletter item arguing the AI trade has already turned in China. [Financial Times, published 2026-10-28]"
+    },
+    {
+     "title": "China rushes to shore up markets as AI trade sours",
+     "url": "https://www.ft.com/content/2bb82c45-04b2-4ccc-9002-f54483fb044e",
+     "fulltext": "https://www.ft.com/content/2bb82c45-04b2-4ccc-9002-f54483fb044e",
+     "date": "2026-10-28",
+     "desc": "A state-backed ‘national team’ of funds and brokers is buying stocks after the CSI 300 index entered a technical bear market. [Financial Times, published 2026-10-28]"
+    },
+    {
+     "title": "SK Hynix profits soar amid roaring AI chip demand",
+     "url": "https://www.ft.com/content/44c35ed7-aa46-4d45-91f5-2773f00ae6be",
+     "fulltext": "https://www.ft.com/content/44c35ed7-aa46-4d45-91f5-2773f00ae6be",
+     "date": "2026-10-28",
+     "desc": "The South Korean chipmaker reported better-than-expected quarterly operating profit and will return $75bn to investors this year. [Financial Times, published 2026-10-28]"
+    },
+    {
+     "title": "ETFs use ‘perps’ to offer bets on private companies such as Anthropic and OpenAI",
+     "url": "https://www.ft.com/content/b5407b4e-3f63-451b-95b9-d7162ed3d0bf",
+     "fulltext": "https://www.ft.com/content/b5407b4e-3f63-451b-95b9-d7162ed3d0bf",
+     "date": "2026-10-28",
+     "desc": "Newly authorised derivatives underpin the latest attempt to give investors access to sought-after private AI companies. [Financial Times, published 2026-10-28]"
+    },
+    {
+     "title": "In an AI blow-up, would insurance pay out?",
+     "url": "https://www.economist.com/finance-and-economics/2026/10/27/in-an-ai-blow-up-would-insurance-pay-out",
+     "fulltext": "https://www.economist.com/finance-and-economics/2026/10/27/in-an-ai-blow-up-would-insurance-pay-out",
+     "date": "2026-10-27",
+     "desc": "Credit default swaps are back in vogue amid fears of a debt disaster tied to the AI build-out. [The Economist, published 2026-10-27]"
+    },
+    {
+     "title": "U.S. Pensions Are Riding the A.I. Wave. For Better or Worse.",
+     "url": "https://www.nytimes.com/2026/10/27/business/pensions-ai.html",
+     "fulltext": "https://www.nytimes.com/2026/10/27/business/pensions-ai.html",
+     "date": "2026-10-27",
+     "desc": "With bubble fears growing, public pension funds are starting to grapple with their exposure to AI and the risks it brings. [NYT, published 2026-10-27]"
+    },
+    {
+     "title": "In Anthropic I.P.O., Goldman and Morgan Stanley Slug It Out for Top Banker Role",
+     "url": "https://www.nytimes.com/2026/10/27/business/anthropic-ipo-goldman-morgan-stanley.html",
+     "fulltext": "https://www.nytimes.com/2026/10/27/business/anthropic-ipo-goldman-morgan-stanley.html",
+     "date": "2026-10-27",
+     "desc": "Anthropic named the Wall Street firms lead underwriters on its upcoming public offering, a role bringing large fees and prestige. [NYT, published 2026-10-27]"
+    },
+    {
+     "title": "Anthropic Says Enterprise AI Adoption Remains in ‘Early Phases’",
+     "url": "https://www.wsj.com/cio-journal/anthropic-says-enterprise-ai-adoption-remains-in-early-phases-d3e93c47",
+     "fulltext": "https://www.wsj.com/cio-journal/anthropic-says-enterprise-ai-adoption-remains-in-early-phases-d3e93c47",
+     "date": "2026-10-27",
+     "desc": "Anthropic characterizes enterprise AI adoption as still early; the piece also notes Nvidia’s plan to invest $3 billion in Meta’s equity offering. [WSJ, published 2026-10-27]"
+    },
+    {
+     "title": "Inside the 11th-Hour Scramble to Save Anthropic’s Debt Deal",
+     "url": "https://www.wsj.com/articles/inside-the-11th-hour-scramble-to-save-anthropics-debt-deal-1c8ad883",
+     "fulltext": "https://www.wsj.com/articles/inside-the-11th-hour-scramble-to-save-anthropics-debt-deal-1c8ad883",
+     "date": "2026-10-27",
+     "desc": "WSJ recounts the last-minute effort to rescue a debt financing for Anthropic. [WSJ, published 2026-10-27]"
+    },
+    {
+     "title": "Anthropic’s big financial reveal",
+     "url": "https://www.ft.com/content/d1dca5d1-467f-4311-a004-82bb1ef761e0",
+     "fulltext": "https://www.ft.com/content/d1dca5d1-467f-4311-a004-82bb1ef761e0",
+     "date": "2026-10-27",
+     "desc": "FT commentary on the financial disclosures in Anthropic’s IPO filing, with the offering shaping up to be the largest ever. [Financial Times, published 2026-10-27]"
+    }
+   ]
+  }
+ ],
+ "footnote": "Window: 2026-10-27 (last run) → 2026-10-28. The Washington Post feed could not be reached this run (HTTP 502). SSRN was not searched this run. No forwarded newsletters were available. News summaries are based on feed teasers only.",
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello, this is the Daily AI Research Digest for October twenty-eighth, twenty twenty-six. I'm Alex."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. Today's theme: the money behind AI is getting a hard look, from debt markets to the Anthropic offering."
+  },
+  {
+   "speaker": "A",
+   "text": "Let's start with a new arXiv paper on generative AI and wages. Using US earnings survey data through June twenty twenty-six, the authors compare occupations more and less exposed to AI, before and after ChatGPT's release."
+  },
+  {
+   "speaker": "B",
+   "text": "What do they see?"
+  },
+  {
+   "speaker": "A",
+   "text": "The return to a year of schooling falls by about half a log point in exposed occupations, roughly seven percent of its earlier level. The return to experience rises early in a career, and turns negative after about eighteen years."
+  },
+  {
+   "speaker": "B",
+   "text": "So AI makes book knowledge cheaper, and experience is valuable mostly if it carries over to the new technology."
+  },
+  {
+   "speaker": "A",
+   "text": "Now to finance. Bloomberg reports that Wall Street's AI debt machine is starting to choke on supply. Early signs suggest the credit market is approaching the limits of how much more debt it can absorb."
+  },
+  {
+   "speaker": "B",
+   "text": "That fits a Bloomberg story about a three point one billion dollar loan being syndicated by Zankore, an Nvidia-backed AI infrastructure firm in Indonesia, adding to the flurry of financing for Asia's buildout."
+  },
+  {
+   "speaker": "A",
+   "text": "And The Economist asks whether insurance would pay out in an AI blow-up, noting credit default swaps are back in vogue amid fears of a debt disaster."
+  },
+  {
+   "speaker": "B",
+   "text": "Meanwhile, Microsoft and Alphabet report earnings, and Bloomberg says investors are focused on how heavy AI spending weighs on cash flow."
+  },
+  {
+   "speaker": "A",
+   "text": "On the other side, SK Hynix reported better than expected quarterly operating profit, and the FT says it will return seventy-five billion dollars to investors this year."
+  },
+  {
+   "speaker": "B",
+   "text": "In China, though, the FT reports a state-backed national team of funds buying stocks after the CSI three hundred index entered a technical bear market as the AI trade soured."
+  },
+  {
+   "speaker": "A",
+   "text": "Then there's Anthropic. The New York Times says Goldman Sachs and Morgan Stanley are competing for the top bank role in its public offering, and the Wall Street Journal describes how Anthropic's market opportunity estimate is tied to the value of knowledge workers' output."
+  },
+  {
+   "speaker": "B",
+   "text": "The Journal also reports Anthropic describing enterprise adoption as still in the early phases, which is a notable thing to say alongside a giant offering."
+  },
+  {
+   "speaker": "A",
+   "text": "On finance methods, there's a paper from Imperial College on FinLLM-KG. It feeds company facts from annual filings into a language model at inference time to score news sentiment, and reports better simulated portfolio performance than a baseline."
+  },
+  {
+   "speaker": "B",
+   "text": "And a deep learning paper prices American options with transaction costs, liquidity risk and stochastic volatility, matching standard benchmarks."
+  },
+  {
+   "speaker": "A",
+   "text": "One more from the Times: public pensions are starting to grapple with their exposure to the AI wave, as bubble fears grow."
+  },
+  {
+   "speaker": "B",
+   "text": "The thread today is who ends up holding the risk of the AI buildout."
+  },
+  {
+   "speaker": "A",
+   "text": "That's the digest. Full summaries and audio are in the web archive. Thanks for listening."
+  },
+  {
+   "speaker": "B",
+   "text": "See you tomorrow."
+  }
+ ]
+}
