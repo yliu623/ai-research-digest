@@ -1,0 +1,248 @@
+{
+ "date": "2026-10-29",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Algorithmic Monoculture in Machine Learning-based Site-Specific Fertilizer Recommendation",
+     "url": "https://arxiv.org/abs/2610.36941",
+     "fulltext": "https://arxiv.org/pdf/2610.36941",
+     "date": "2026-10-27",
+     "desc": "Models how shared errors across widely adopted ML fertilizer recommenders create systemic losses; using nine model families across five Moroccan cereal systems, accuracy-constrained diversification lowers modeled social loss by 10.89-41.53% (mean 19.41%) under illustrative parameters. [arXiv cs.LG, submitted 2026-10-27]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex here. This one is based on the abstract only. When many farms use machine learning to decide fertilizer doses, what happens if they all use the same model?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The worry is algorithmic monoculture. Models are usually judged one at a time, but if farms adopt the same model, its errors are correlated across farms and add up into a systemic cost."
+      },
+      {
+       "speaker": "A",
+       "text": "Right. The authors build a model of shared and farm-specific errors that links expected social loss to how adoption is split across models, using a concentration index to capture the effect."
+      },
+      {
+       "speaker": "B",
+       "text": "They also show when a privately best choice, everyone using the single most accurate model, is socially dominated, and propose a portfolio rule that caps how much accuracy any farm gives up."
+      },
+      {
+       "speaker": "A",
+       "text": "For calibration they use nine model families across five Moroccan cereal systems. With a ten percent regret cap, diversification cuts modeled social loss by about eleven to forty-two percent, averaging roughly nineteen percent."
+      },
+      {
+       "speaker": "B",
+       "text": "One caveat: uniform allocation also cuts loss but breaks the regret cap in every crop. And if model errors are highly correlated, the benefit shrinks. The authors stress these are counterfactual, not agronomic or monetary welfare estimates."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: evaluate AI recommenders at the ecosystem level, not just model by model."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "Joint Service Depth and Priority Design in Queueing Systems",
+     "url": "https://arxiv.org/abs/2610.33334",
+     "fulltext": "https://arxiv.org/pdf/2610.33334",
+     "date": "2026-10-23",
+     "desc": "Studies how an AI-assisted server should jointly set processing depth and priority for customers with different delay sensitivity, finding a welfare gap between centralized and incentive-compatible pricing designs, and calibrates an agentic coding system on DeepSWE trials. [arXiv cs.GT, submitted 2026-10-23]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex here, working from the abstract only. Picture an AI service that can think harder on each job. Deeper reasoning gives better output but ties up the server. How should it set depth and priority?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The paper studies a single-server queue where customers differ in how much they hate waiting, and the goal is social welfare."
+      },
+      {
+       "speaker": "A",
+       "text": "With two customer types, the centralized optimum counterintuitively can prioritize the patient type and give it less depth when patient customers are common."
+      },
+      {
+       "speaker": "B",
+       "text": "But if delay sensitivity is private information, incentive compatibility means the impatient type must get a weakly shorter wait, so the best price menu never prioritizes the patient type. That creates a welfare gap."
+      },
+      {
+       "speaker": "A",
+       "text": "With a continuum of types the optimum is monotone, more delay-sensitive customers get higher priority and smaller depth, and a price menu can implement it with no welfare loss. Randomized depths also close the gap in the two-type case."
+      },
+      {
+       "speaker": "B",
+       "text": "They finish by calibrating an agentic AI service system with published coding-agent trials from DeepSWE and examining priority inversion and the value of personalization."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: in AI services, how deep to think and who goes first are really one design problem."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Google shares tumble 10% after $51bn AI outlay deepens cash burn",
+     "url": "https://www.ft.com/content/eb386156-5bf9-4edd-80f2-803fdee1e33d",
+     "fulltext": "https://www.ft.com/content/eb386156-5bf9-4edd-80f2-803fdee1e33d",
+     "date": "2026-10-28",
+     "desc": "Alphabet's shares fell about 10% after sales and profit undershot expectations, with the company admitting its AI mode has hurt traditional search while capital spending reached roughly $51 billion. [Financial Times, published 2026-10-28]"
+    },
+    {
+     "title": "Google Shares Drop After Sales Miss Reignites Fears Over AI",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-28/alphabet-reports-disappointing-revenue-income-shares-drop",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-28/alphabet-reports-disappointing-revenue-income-shares-drop",
+     "date": "2026-10-28",
+     "desc": "Alphabet fell about 10% in early trading after disappointing revenue and income, setting up what Bloomberg describes as its biggest-ever market value wipeout and reviving doubts over AI spending. [Bloomberg, published 2026-10-28]"
+    },
+    {
+     "title": "Alphabet's Revenue Rises 25% as Profit Falls",
+     "url": "https://www.nytimes.com/2026/10/28/technology/alphabet-earnings-google-ai.html",
+     "fulltext": "https://www.nytimes.com/2026/10/28/technology/alphabet-earnings-google-ai.html",
+     "date": "2026-10-28",
+     "desc": "Alphabet's revenue rose 25% while profit dropped on changes in the value of its investments; the company said it will increase AI investment next year. [NYT, published 2026-10-28]"
+    },
+    {
+     "title": "Microsoft's Profit Jumps 32% Despite Big Increase in Spending",
+     "url": "https://www.nytimes.com/2026/10/28/technology/microsoft-earnings-ai.html",
+     "fulltext": "https://www.nytimes.com/2026/10/28/technology/microsoft-earnings-ai.html",
+     "date": "2026-10-28",
+     "desc": "Microsoft's profit rose 32% and free cash flow stayed positive even as it spent $45.2 billion on capital expenses such as data centers. [NYT, published 2026-10-28]"
+    },
+    {
+     "title": "Microsoft blames data centre delays for lower capital expenditure",
+     "url": "https://www.ft.com/content/93f53cb4-1fc8-4ca5-aa91-186b77b03d92",
+     "fulltext": "https://www.ft.com/content/93f53cb4-1fc8-4ca5-aa91-186b77b03d92",
+     "date": "2026-10-28",
+     "desc": "Microsoft reported revenue up 19% to $92.3 billion for the September quarter, with capital expenditure lower than expected because of data-centre delays. [Financial Times, published 2026-10-28]"
+    },
+    {
+     "title": "Oracle rallies after telling investors its AI bet will pay off sooner than expected",
+     "url": "https://www.ft.com/content/fb08df06-da63-4e94-822d-a47b94616871",
+     "fulltext": "https://www.ft.com/content/fb08df06-da63-4e94-822d-a47b94616871",
+     "date": "2026-10-28",
+     "desc": "Oracle projects $30 billion in free cash flow by 2029 and says it will limit additional raising for its data-centre strategy to $20 billion, lifting its shares. [Financial Times, published 2026-10-28]"
+    },
+    {
+     "title": "Investors May Have Bought All the AI Bonds They Can Handle",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-10-29/investors-may-have-bought-all-the-ai-bonds-they-can-handle",
+     "fulltext": "https://www.bloomberg.com/news/newsletters/2026-10-29/investors-may-have-bought-all-the-ai-bonds-they-can-handle",
+     "date": "2026-10-29",
+     "desc": "Credit default swap pricing points to growing perceived risk in data-center bonds, suggesting appetite for AI-related debt may be saturating. [Bloomberg, published 2026-10-29]"
+    },
+    {
+     "title": "Warsh Puts a Spotlight on AI Financing's Vulnerability to Fed Policy",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-10-29/warsh-puts-a-spotlight-on-ai-financing-s-vulnerability-to-fed-policy",
+     "fulltext": "https://www.bloomberg.com/news/newsletters/2026-10-29/warsh-puts-a-spotlight-on-ai-financing-s-vulnerability-to-fed-policy",
+     "date": "2026-10-29",
+     "desc": "Bloomberg asks whether AI-market wobbles factored into the Fed holding rates, after the Fed chair said the AI boom is not immune to higher rates. [Bloomberg, published 2026-10-29]"
+    },
+    {
+     "title": "The Beleaguered Chip Sellers Getting Their Revenge on Apple",
+     "url": "https://www.wsj.com/tech/apple-iphone-memory-chips-ai-c0084cc9",
+     "fulltext": "https://www.wsj.com/tech/apple-iphone-memory-chips-ai-c0084cc9",
+     "date": "2026-10-29",
+     "desc": "Flash-storage makers that Apple long pressed for steep discounts now have leverage, as AI hyperscalers bid up memory prices and absorb supply. [WSJ, published 2026-10-29]"
+    },
+    {
+     "title": "Samsung Hikes AI Spending, Dashes Shareholder Payout Hopes",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-29/samsung-chip-profit-misses-estimates-lifted-by-resurgent-ai-hope",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-29/samsung-chip-profit-misses-estimates-lifted-by-resurgent-ai-hope",
+     "date": "2026-10-29",
+     "desc": "Samsung plans to raise spending by more than 60% this year after selling out of high-end chips for 2027, yet its stock fell as profit missed estimates. [Bloomberg, published 2026-10-29]"
+    },
+    {
+     "title": "Marvell Is Said to Near Megadeal for Lumentum in AI Push",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal",
+     "date": "2026-10-28",
+     "desc": "Marvell is reportedly in advanced talks to buy data-center optics maker Lumentum, according to people familiar with the matter. [Bloomberg, published 2026-10-28]"
+    },
+    {
+     "title": "Ignore AI and ask for that pay rise",
+     "url": "https://www.economist.com/finance-and-economics/2026/10/29/ignore-ai-and-ask-for-that-pay-rise",
+     "fulltext": "https://www.economist.com/finance-and-economics/2026/10/29/ignore-ai-and-ask-for-that-pay-rise",
+     "date": "2026-10-29",
+     "desc": "The Economist argues that fear of an AI-driven technological revolution may be suppressing wage demands and wage growth. [The Economist, published 2026-10-29]"
+    },
+    {
+     "title": "AI agents need middle managers too",
+     "url": "https://www.ft.com/content/b25a880c-cd64-49d1-ba5f-7d077eb1adac",
+     "fulltext": "https://www.ft.com/content/b25a880c-cd64-49d1-ba5f-7d077eb1adac",
+     "date": "2026-10-28",
+     "desc": "An FT column argues that as AI collapses the cost of moving and reconciling corporate information, the roles built to do those functions must change. [Financial Times, published 2026-10-28]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hi, I'm Alex, and this is your AI research digest for October twenty-ninth, twenty twenty-six. Today is dominated by big tech earnings and what they say about the AI spending boom."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. The headline is Alphabet. The Financial Times reports Google shares fell about ten percent after sales and profit undershot expectations, with capital spending around fifty-one billion dollars."
+  },
+  {
+   "speaker": "A",
+   "text": "Bloomberg says that set up the biggest market value wipeout in the company's history, and it revived doubts about whether all this AI investment will pay off. The New York Times adds that revenue rose twenty-five percent but profit fell, and Alphabet plans to invest even more next year."
+  },
+  {
+   "speaker": "B",
+   "text": "Microsoft told a different story. The Times says profit jumped thirty-two percent with positive free cash flow, even after spending forty-five point two billion dollars on things like data centers. The FT notes capital expenditure came in lower than expected because of data-centre delays."
+  },
+  {
+   "speaker": "A",
+   "text": "And Oracle rallied after telling investors its AI bet will pay off sooner than expected. The FT says it projects thirty billion dollars of free cash flow by twenty twenty-nine and will cap extra raising for data centers at twenty billion."
+  },
+  {
+   "speaker": "B",
+   "text": "That financing angle matters. A Bloomberg piece says credit default swaps show growing risk in data-center bonds, suggesting investors may have bought about all the AI debt they can handle."
+  },
+  {
+   "speaker": "A",
+   "text": "Another Bloomberg newsletter asks whether AI wobbles were part of why the Fed held rates, after the Fed chair said the AI boom isn't immune to higher rates."
+  },
+  {
+   "speaker": "B",
+   "text": "Down the supply chain, the Wall Street Journal says memory chip makers are getting revenge on Apple. For years Apple pushed them into steep discounts, but AI hyperscalers are now bidding up prices and soaking up supply."
+  },
+  {
+   "speaker": "A",
+   "text": "Samsung fits that picture. Bloomberg says it plans to raise spending by more than sixty percent after selling out of high-end chips for twenty twenty-seven, though its stock fell because profit missed estimates."
+  },
+  {
+   "speaker": "B",
+   "text": "On labor, The Economist argues that fear of an AI revolution may be holding down wage demands, hence the headline telling people to ignore AI and ask for that raise."
+  },
+  {
+   "speaker": "A",
+   "text": "Now two papers. A new arXiv paper looks at algorithmic monoculture in machine learning fertilizer recommendations. If many farms rely on the same model, correlated errors add up, and in Moroccan cereal systems diversifying models cut modeled social loss by about nineteen percent on average."
+  },
+  {
+   "speaker": "B",
+   "text": "The other, also on arXiv, studies AI-assisted service queues: how deep an AI should reason on each job and who gets priority. It finds that a centralized planner and a pricing mechanism can end up with different answers, which creates a welfare gap."
+  },
+  {
+   "speaker": "A",
+   "text": "That's all for today. Full summaries and the archive are on the web site. Thanks for listening."
+  },
+  {
+   "speaker": "B",
+   "text": "See you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-10-28 (last run) → 2026-10-29. Washington Post could not be reached this run (502 errors). No SSRN papers with a verifiable in-window posting date were found. News summaries are based on feed teasers."
+}
