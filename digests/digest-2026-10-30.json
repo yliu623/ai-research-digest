@@ -1,0 +1,453 @@
+{
+ "date": "2026-10-30",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "What is Work For? Labor, Politics, and Meaning in the Age of AI",
+     "url": "https://arxiv.org/abs/2610.39375",
+     "fulltext": "https://arxiv.org/pdf/2610.39375",
+     "date": "2026-10-29",
+     "desc": "Surveys 8,234 working-age adults in the UK, US, Denmark and India: about a third are intrinsically motivated by their job, a majority would leave for a guaranteed income equal to their salary, and one fifth would stay even at 120%, which the author links to managing an AI labor shock. [arXiv econ.GN, submitted 2026-10-29]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Next, a paper about what work is for, in the shadow of AI. This episode is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The author ran an original survey of 8,234 working-age adults across the UK, US, Denmark and India about what motivates them at work."
+      },
+      {
+       "speaker": "A",
+       "text": "What did people say?"
+      },
+      {
+       "speaker": "B",
+       "text": "Eighty-one percent are satisfied with their job, and a majority in all four countries are strongly motivated by non-monetary parts of work."
+      },
+      {
+       "speaker": "A",
+       "text": "Can you break the motives down?"
+      },
+      {
+       "speaker": "B",
+       "text": "Using a Work Values Index, about a third are intrinsically motivated, nearly a quarter value community, seventeen percent value status, and just over a quarter are driven by the financial benefits."
+      },
+      {
+       "speaker": "A",
+       "text": "What about basic income?"
+      },
+      {
+       "speaker": "B",
+       "text": "A majority would leave their role if offered their salary as guaranteed income, but one fifth would stay even if offered up to 120 percent. Intrinsically motivated workers were most likely to refuse."
+      },
+      {
+       "speaker": "A",
+       "text": "And the AI angle?"
+      },
+      {
+       "speaker": "B",
+       "text": "These motives are spread evenly across incomes and between white- and blue-collar workers. The author argues basic income may be needed in an AI labor shock but might not replace the meaning people get from work. That's the takeaway."
+      }
+     ]
+    },
+    {
+     "title": "Can Artificial Intelligence Forecast Treatment Effects in Economics?",
+     "url": "https://arxiv.org/abs/2610.38883",
+     "fulltext": "https://arxiv.org/pdf/2610.38883",
+     "date": "2026-10-28",
+     "desc": "Uses LLMs with knowledge cutoffs before the results to forecast treatment effects of 33 pre-registered studies (673 effects); the best model's median absolute error is 0.054 SD and it beats zero-effect and mean-effect benchmarks. [arXiv econ.GN, submitted 2026-10-28]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Welcome. Today's first paper asks whether an AI can predict what an experiment will find before the results are out. This is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The author takes studies pre-registered on the AEA RCT Registry and the Open Science Framework, whose results came out in 2026, and asks language models with earlier knowledge cutoffs to forecast the treatment effects."
+      },
+      {
+       "speaker": "A",
+       "text": "So the models can't have seen the answers. How is it set up?"
+      },
+      {
+       "speaker": "B",
+       "text": "Language models first pull forecasting questions out of the pre-registrations. Then models forecast effects, and the forecasts are scored against the published papers wherever the question resolves."
+      },
+      {
+       "speaker": "A",
+       "text": "What's the sample?"
+      },
+      {
+       "speaker": "B",
+       "text": "Forecasts for 889 treatment effects from 39 papers, and after screening 673 effects from 33 papers, standardized so they can be compared across papers."
+      },
+      {
+       "speaker": "A",
+       "text": "And how good are the forecasts?"
+      },
+      {
+       "speaker": "B",
+       "text": "The best model has a median absolute error of 0.054 standard deviations, an average absolute error of 0.093, and a mean squared error of 0.0218. That clearly beats guessing zero effect or the average effect of other papers."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does it matter?"
+      },
+      {
+       "speaker": "B",
+       "text": "It suggests forecasts like these could help inform policy and research design. The takeaway: AI forecasts of experimental effects already look useful, though this is a small early sample."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Information Flow and Market Risk: Transformer-Based Evidence on Sentiment and Volatility Dynamics",
+     "url": "https://arxiv.org/abs/2610.39636",
+     "fulltext": "https://arxiv.org/pdf/2610.39636",
+     "date": "2026-10-29",
+     "desc": "Tests whether ModernFinBERT news sentiment improves volatility forecasts for eleven US stocks; naive persistence has the lowest average loss and sentiment improves HAR forecasts in only two of 33 comparisons, neither significant under longer HAC bandwidths. [arXiv q-fin.ST, submitted 2026-10-29]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper asks whether AI-read news sentiment helps forecast stock volatility. It's an abstract-only summary."
+      },
+      {
+       "speaker": "B",
+       "text": "They use eleven US stocks and a transformer sentiment model called ModernFinBERT, added to standard volatility models alongside the VIX and an investor sentiment survey."
+      },
+      {
+       "speaker": "A",
+       "text": "How is it tested?"
+      },
+      {
+       "speaker": "B",
+       "text": "Walk-forward tests at one, five and twenty-two day horizons, with corrections for multiple testing and serial dependence."
+      },
+      {
+       "speaker": "A",
+       "text": "And the result?"
+      },
+      {
+       "speaker": "B",
+       "text": "A naive persistence benchmark has the lowest average loss at every horizon. Adding news sentiment improves the HAR model in only two of 33 expanding-window comparisons, and neither holds up under longer HAC bandwidths."
+      },
+      {
+       "speaker": "A",
+       "text": "Anything else?"
+      },
+      {
+       "speaker": "B",
+       "text": "A blinded audit of 2,700 news texts looked at how the classifier's agreement and confidence behave, which helps show where the sentiment labels themselves are shaky, and the authors stress aligning the timing of news and prices carefully."
+      },
+      {
+       "speaker": "A",
+       "text": "So the lesson?"
+      },
+      {
+       "speaker": "B",
+       "text": "The findings do not establish a general forecasting advantage from transformer news sentiment. For anyone building such signals, the lesson is to test against strong benchmarks, align timing carefully, and use robust inference before believing a text-derived predictor adds value. That is the takeaway, and remember this was based on the abstract only."
+      }
+     ]
+    },
+    {
+     "title": "Right Numbers, Wrong Questions: Evaluating LLMs on Underspecified Financial Queries",
+     "url": "https://arxiv.org/abs/2610.38631",
+     "fulltext": "https://arxiv.org/pdf/2610.38631",
+     "date": "2026-10-28",
+     "desc": "Studies how financial LLM assistants answer questions that depend on unstated context in Indian mutual funds, finding they use mislabeled figures, are swayed by layout order, assume default or outdated tax rules, and that AI judges miss answers that silently pick another reading. [arXiv q-fin.GN, submitted 2026-10-28]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Now a paper on financial chatbots that give the right number to the wrong question. Abstract-only summary."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors call the failure frame collapse: the assistant answers with a real figure from its data, but for a different question than the user meant."
+      },
+      {
+       "speaker": "A",
+       "text": "Why Indian mutual funds?"
+      },
+      {
+       "speaker": "B",
+       "text": "Product variants and tax rules are formally defined there, so the correct answer can be computed for every reading of a question."
+      },
+      {
+       "speaker": "A",
+       "text": "What did they find?"
+      },
+      {
+       "speaker": "B",
+       "text": "Given an ambiguously labelled figure, models used it, often under the user's label. When every alternative was labelled, they listed all of them, but layout decided which came first."
+      },
+      {
+       "speaker": "A",
+       "text": "And missing investor facts?"
+      },
+      {
+       "speaker": "B",
+       "text": "Weaker agents assumed a default or an outdated tax rule, and requiring the fact did not guarantee it was used."
+      },
+      {
+       "speaker": "A",
+       "text": "Can checks catch it?"
+      },
+      {
+       "speaker": "B",
+       "text": "Checks against the data pass these answers. An AI judge caught mislabelled figures only when told what each field means. The authors show how failures arise, not how often, and propose controls."
+      }
+     ]
+    },
+    {
+     "title": "CADENCE: Distributional Next-Transaction Forecasting for Business Cash-Flow Underwriting",
+     "url": "https://arxiv.org/abs/2610.38084",
+     "fulltext": "https://arxiv.org/pdf/2610.38084",
+     "date": "2026-10-27",
+     "desc": "A compact transaction-level Transformer predicting amount and timing distributions of small-business cash flows; versus a production FFT baseline it improves one-day timing accuracy by 93.3% and, in a credit evaluation, raises approval rate at a fixed loss rate by 18.2%. [arXiv q-fin.GN, submitted 2026-10-27]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This one is about lending to small businesses. Abstract-only summary."
+      },
+      {
+       "speaker": "B",
+       "text": "Underwriters want to know which cash flows recur, but small-business income is messy: ambiguous transfers, short payment streams, and calendar-driven schedules."
+      },
+      {
+       "speaker": "A",
+       "text": "What did the authors build?"
+      },
+      {
+       "speaker": "B",
+       "text": "CADENCE, a compact causal Transformer that treats each transaction as a token and predicts the amount and a full timing distribution for each flow's next payment."
+      },
+      {
+       "speaker": "A",
+       "text": "How does it compare?"
+      },
+      {
+       "speaker": "B",
+       "text": "Against a production FFT baseline, one-day timing accuracy improves by 93.3 percent and next-event F1 by 6.7 percent."
+      },
+      {
+       "speaker": "A",
+       "text": "And for credit decisions?"
+      },
+      {
+       "speaker": "B",
+       "text": "On production applications, using CADENCE features raises KS by 4.8 percent, lifts approval rate at a fixed loss rate by 18.2 percent, and lowers loss rate at a fixed approval rate by 13.1 percent."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway?"
+      },
+      {
+       "speaker": "B",
+       "text": "Calibrated, interpretable cash-flow forecasts from a small model can feed straight into existing underwriting. The calibrated distributions can also act as a confidence gate, so downstream credit decisions know when to trust a forecast. Ablations show counterparty meaning helps most on short histories, calendar inputs help timing, and no-event supervision helps precision. Again, this summary rests on the abstract only."
+      }
+     ]
+    },
+    {
+     "title": "Decorrelating the Advice Layer: A Calibrated Fragility Metric and Tested Mitigations for Synchronized Agentic Wealth Management",
+     "url": "https://arxiv.org/abs/2610.37705",
+     "fulltext": "https://arxiv.org/pdf/2610.37705",
+     "date": "2026-10-26",
+     "desc": "An agent-based model of AI wealth-management agents finds the effective number of independent decision-makers is about 2.0, index tail losses are 1.47-1.90 times larger than under periodic robo-advice, and dispersing overlay parameters with staged execution and a breaker cuts tail liquidation by 63%. [arXiv q-fin.RM, submitted 2026-10-26]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "What happens if millions of clients get advice from the same few AI models? Abstract-only summary."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors build a multi-asset agent-based model of that layer, calibrated to model concentration, correlation, retail turnover and 33 years of equity returns."
+      },
+      {
+       "speaker": "A",
+       "text": "What's the headline?"
+      },
+      {
+       "speaker": "B",
+       "text": "The effective number of independent decision-makers is bounded, about 2.0 at today's concentration, so views are a monoculture and crowd individual securities."
+      },
+      {
+       "speaker": "A",
+       "text": "But does that cause crashes?"
+      },
+      {
+       "speaker": "B",
+       "text": "Not directly. Index tail losses rise with the square root of agentic adoption and are 1.47 to 1.90 times larger than under periodic robo-advice, driven by synchronized automation, not model concentration."
+      },
+      {
+       "speaker": "A",
+       "text": "What fixes it?"
+      },
+      {
+       "speaker": "B",
+       "text": "Decorrelating the automation: dispersing overlay parameters, staging execution and a participation breaker cut tail liquidation by 63 percent at no measurable welfare cost. Provider diversification did nothing."
+      },
+      {
+       "speaker": "A",
+       "text": "Any scary number?"
+      },
+      {
+       "speaker": "B",
+       "text": "In historical replays, an agentic layer holding ten percent of the market would have deepened the 2020 crash by about 858 basis points."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Big Tech sheds nearly $900bn in rout over soaring AI spending",
+     "url": "https://www.ft.com/content/c695558e-11e6-494c-aeee-0f9fb5c75afc",
+     "fulltext": "https://www.ft.com/content/c695558e-11e6-494c-aeee-0f9fb5c75afc",
+     "date": "2026-10-30",
+     "desc": "Cash burn at Google, Amazon and Meta has Wall Street questioning the price of the AI boom, with Big Tech shedding nearly $900bn in market value. [Financial Times, published 2026-10-30]"
+    },
+    {
+     "title": "Tech Stocks Poised to Drop After Amazon Adds to AI Spending Fear",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-30/tech-stocks-poised-to-drop-after-amazon-adds-to-ai-spending-fear",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-30/tech-stocks-poised-to-drop-after-amazon-adds-to-ai-spending-fear",
+     "date": "2026-10-30",
+     "desc": "US tech futures pointed lower after Amazon added to worries about AI spending. [Bloomberg, published 2026-10-30]"
+    },
+    {
+     "title": "Deutsche Bank Says 'AI Dollar' Is Here, Haven Bias Less Certain",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-30/deutsche-bank-says-ai-dollar-is-here-haven-bias-less-certain",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-30/deutsche-bank-says-ai-dollar-is-here-haven-bias-less-certain",
+     "date": "2026-10-30",
+     "desc": "Deutsche Bank argues the dollar's haven status should not be taken for granted during an AI-driven market correction. [Bloomberg, published 2026-10-30]"
+    },
+    {
+     "title": "AI Darling Taiwan Extends Economic Growth Run Unseen Since 1987",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-30/taiwan-posts-longest-run-of-double-digit-gdp-growth-since-1987",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-30/taiwan-posts-longest-run-of-double-digit-gdp-growth-since-1987",
+     "date": "2026-10-30",
+     "desc": "Taiwan posted a fourth straight quarter of double-digit growth, the longest such run in nearly 39 years, as the AI boom spills into domestic demand. [Bloomberg, published 2026-10-30]"
+    },
+    {
+     "title": "Murata Invests $6.4 Billion to Double MLCC Output for AI",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-30/murata-boosts-mlcc-output-investment-to-keep-pace-with-ai-demand",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-30/murata-boosts-mlcc-output-investment-to-keep-pace-with-ai-demand",
+     "date": "2026-10-30",
+     "desc": "Murata will invest ¥1 trillion ($6.4 billion) over five years to more than double capacitor sales to meet AI data-center demand. [Bloomberg, published 2026-10-30]"
+    },
+    {
+     "title": "Circular AI Deals Spread to Asia, Widening Contagion Risk",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-10-30/circular-ai-deals-spread-to-asia-widening-contagion-risk",
+     "fulltext": "https://www.bloomberg.com/news/newsletters/2026-10-30/circular-ai-deals-spread-to-asia-widening-contagion-risk",
+     "date": "2026-10-30",
+     "desc": "Investors are raising concerns as circular AI financing deals spread to Asia, widening potential contagion risk. [Bloomberg, published 2026-10-30]"
+    },
+    {
+     "title": "Big Tech's Data Center Blitz Is Burning Through Cash and Scaring Wall St.",
+     "url": "https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html",
+     "fulltext": "https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html",
+     "date": "2026-10-29",
+     "desc": "Amazon became the latest tech company to announce swelling AI investment amid stumbling share prices. [NYT, published 2026-10-29]"
+    },
+    {
+     "title": "Intel's Shares Plunge 20% as A.I. Hinders Some Parts of Its Business",
+     "url": "https://www.nytimes.com/2026/10/29/technology/intel-earnings.html",
+     "fulltext": "https://www.nytimes.com/2026/10/29/technology/intel-earnings.html",
+     "date": "2026-10-29",
+     "desc": "Intel reported that the AI boom's knock-on effects hurt sales to PC makers, and its shares fell 20%. [NYT, published 2026-10-29]"
+    },
+    {
+     "title": "Microsoft Up, Google Down. A Tale of Two Hyperscalers.",
+     "url": "https://www.nytimes.com/2026/10/29/business/dealbook/microsoft-google-ai-hyperscalers.html",
+     "fulltext": "https://www.nytimes.com/2026/10/29/business/dealbook/microsoft-google-ai-hyperscalers.html",
+     "date": "2026-10-29",
+     "desc": "Investors are showing little patience for lavish AI spending with meager returns, rewarding Microsoft and punishing Google. [NYT, published 2026-10-29]"
+    },
+    {
+     "title": "Google's $500bn bloodbath reflects the danger it faces from AI",
+     "url": "https://www.economist.com/business/2026/10/29/googles-500bn-bloodbath-reflects-the-danger-it-faces-from-ai",
+     "fulltext": "https://www.economist.com/business/2026/10/29/googles-500bn-bloodbath-reflects-the-danger-it-faces-from-ai",
+     "date": "2026-10-29",
+     "desc": "As its search engine sputters, rivals gain ground, and Google's roughly $500bn market-value drop reflects the threat AI poses to it. [The Economist, published 2026-10-29]"
+    },
+    {
+     "title": "The Fed's AI Puzzle: Will High Rates Slow the Boom?",
+     "url": "https://www.wsj.com/economy/central-banking/the-feds-ai-puzzle-will-high-rates-slow-the-boom-c9c43ce2",
+     "fulltext": "https://www.wsj.com/economy/central-banking/the-feds-ai-puzzle-will-high-rates-slow-the-boom-c9c43ce2",
+     "date": "2026-10-29",
+     "desc": "WSJ examines whether high interest rates will slow the AI investment boom. [WSJ, published 2026-10-29]"
+    },
+    {
+     "title": "Canada to Take Equity Stake in AI Firm Cohere",
+     "url": "https://www.wsj.com/pro/venture-capital/canada-to-take-equity-stake-in-ai-firm-cohere-e8d7215f",
+     "fulltext": "https://www.wsj.com/pro/venture-capital/canada-to-take-equity-stake-in-ai-firm-cohere-e8d7215f",
+     "date": "2026-10-29",
+     "desc": "Canada will take an equity stake in Cohere, whose funding round drew commitments from Nvidia, Schwarz Group and BCE. [WSJ, published 2026-10-29]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Good morning, I'm Alex, and this is the AI research digest for October thirtieth, twenty twenty-six. Today's theme: markets are getting nervous about how much AI costs, and the research looks at forecasting, work, and risk."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. Let's start with the market. The Financial Times says Big Tech shed nearly nine hundred billion dollars in a rout, as cash burn at Google, Amazon and Meta makes Wall Street question the price of the AI boom."
+  },
+  {
+   "speaker": "A",
+   "text": "The New York Times adds that Amazon became the latest company to announce swelling AI investment while its shares stumbled, and that Intel fell twenty percent because the AI boom's knock-on effects hurt its PC customers."
+  },
+  {
+   "speaker": "B",
+   "text": "The Economist ties Google's roughly five hundred billion dollar drop to the threat AI poses to search, while the Times contrasts it with Microsoft, which investors are rewarding."
+  },
+  {
+   "speaker": "A",
+   "text": "Meanwhile Bloomberg reports that Deutsche Bank thinks the dollar's haven status shouldn't be taken for granted in an AI-driven correction, and that circular AI deals are spreading to Asia, raising contagion worries."
+  },
+  {
+   "speaker": "B",
+   "text": "On the real economy, Taiwan posted a fourth straight quarter of double-digit growth, its longest run in nearly thirty-nine years, and Murata plans to invest six point four billion dollars to double capacitor output for AI data centers."
+  },
+  {
+   "speaker": "A",
+   "text": "Now the research. A new arXiv paper asks whether AI can forecast the results of pre-registered economics experiments. For six hundred seventy-three treatment effects, the best model's median error was about five hundredths of a standard deviation, beating naive benchmarks."
+  },
+  {
+   "speaker": "B",
+   "text": "Interesting, and a caution from another arXiv paper: transformer-based news sentiment did not reliably improve stock volatility forecasts. A naive persistence benchmark had the lowest average loss."
+  },
+  {
+   "speaker": "A",
+   "text": "There's also a paper on agentic wealth management. When many clients follow similar AI advisers, index tail losses can be one point four seven to one point nine times larger than under periodic robo-advice, but staggering and dispersing the automation cut tail liquidation by sixty-three percent."
+  },
+  {
+   "speaker": "B",
+   "text": "And a survey of over eight thousand workers in four countries finds about a third are intrinsically motivated by their jobs, and one fifth would keep working even if offered a guaranteed income of one hundred twenty percent of their salary."
+  },
+  {
+   "speaker": "A",
+   "text": "That's all for today. Full summaries and the archive are on the web site. Thanks for listening."
+  },
+  {
+   "speaker": "B",
+   "text": "See you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-10-29 (last run) → 2026-10-30. Washington Post could not be reached this run (502 errors). No SSRN papers with a verifiable in-window posting date were found. News summaries are based on feed teasers; paper podcasts are abstract-based."
+}
