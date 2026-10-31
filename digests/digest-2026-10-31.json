@@ -1,0 +1,206 @@
+{
+ "date": "2026-10-31",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "How Different are Different Differences-in-Differences? A Large-Scale Meta-Analysis",
+     "url": "https://arxiv.org/abs/2610.39995",
+     "fulltext": "https://arxiv.org/pdf/2610.39995",
+     "date": "2026-10-29",
+     "desc": "Uses AI-assisted replication of 1,346 staggered-adoption specifications from 108 economics papers to show that two-way fixed effects estimates are highly correlated with modern DiD estimates (sign reversals in 10.8-14.5% of comparisons), suggesting negative weights matter less in practice. [arXiv econ.EM, submitted 2026-10-29]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This one is about a long-running worry in applied economics: whether the standard two-way fixed effects approach to difference-in-differences is badly biased. We're working from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Right, the concern is negative weights, where some comparisons get counted backwards when treatment timing is staggered. Newer estimators fix that, but how much did it matter in real papers?"
+      },
+      {
+       "speaker": "A",
+       "text": "The author uses AI-assisted replication to rerun 1,346 staggered-adoption specifications drawn from 108 economics papers, comparing the old estimates with modern ones."
+      },
+      {
+       "speaker": "B",
+       "text": "And the headline is that they are highly correlated. Sign reversals show up in roughly eleven to fourteen and a half percent of comparisons, and the old approach is actually more precise."
+      },
+      {
+       "speaker": "A",
+       "text": "Then a hierarchical model accounts for estimation noise. It implies a correlation of ninety-one to ninety-eight percent between the underlying estimands, and only a small chance, between point six and two point one percent, of getting a significant estimate with the wrong sign."
+      },
+      {
+       "speaker": "B",
+       "text": "So the takeaway is that negative weights may be a less serious problem in practice than feared, and the paper also pitches AI as a way to run large-scale checks of new econometric methods."
+      },
+      {
+       "speaker": "A",
+       "text": "Caveat, since we only have the abstract: the details of the replication pipeline matter, and we can't judge them here."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "OpenAI Raises Less Than Half of $30 Billion Target in Latest Round",
+     "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+     "fulltext": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+     "date": "2026-10-31",
+     "desc": "OpenAI's latest funding round values the company at $1.25 trillion, below the $1.4 trillion it targeted, and has raised less than half of its $30 billion goal. [WSJ, published 2026-10-31]"
+    },
+    {
+     "title": "OpenAI slashes funding target by $10bn as tech anxieties mount",
+     "url": "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f",
+     "fulltext": "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f",
+     "date": "2026-10-31",
+     "desc": "OpenAI is now seeking about $20 billion at a $1.25 trillion valuation, tempering its ambitions as the tech selloff continues. [Financial Times, published 2026-10-31]"
+    },
+    {
+     "title": "Is this the first clear evidence of AI's impact on the labour market?",
+     "url": "https://www.ft.com/content/7f27aa5f-5994-4f82-aed8-1cade18fb487",
+     "fulltext": "https://www.ft.com/content/7f27aa5f-5994-4f82-aed8-1cade18fb487",
+     "date": "2026-10-31",
+     "desc": "The FT examines data showing productivity up and employment down in the tech sector, while the picture in other sectors is murkier. [Financial Times, published 2026-10-31]"
+    },
+    {
+     "title": "The New Bottleneck in America's AI Build-Out: A Shortage of Cheap Money",
+     "url": "https://www.wsj.com/finance/the-new-bottleneck-in-americas-ai-build-out-a-shortage-of-cheap-money-0c14c84d",
+     "fulltext": "https://www.wsj.com/finance/the-new-bottleneck-in-americas-ai-build-out-a-shortage-of-cheap-money-0c14c84d",
+     "date": "2026-10-31",
+     "desc": "Lenders and investors are becoming choosier and demanding stricter terms as the AI build-out enters a new phase, making financing a constraint. [WSJ, published 2026-10-31]"
+    },
+    {
+     "title": "OpenAI's Altman Meets Samsung Executives as Chip Crunch Deepens",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-31/openai-sam-altman-samsung-executives-memory-crunch-deepens",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-31/openai-sam-altman-samsung-executives-memory-crunch-deepens",
+     "date": "2026-10-31",
+     "desc": "Sam Altman met Samsung's top executives in South Korea to deepen cooperation on memory chips and AI infrastructure as global shortages intensify. [Bloomberg, published 2026-10-31]"
+    },
+    {
+     "title": "Big Tech Holds $3 Trillion in Spending Commitments for AI Boom",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-30/big-tech-holds-3-trillion-in-spending-commitments-for-ai-boom",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-30/big-tech-holds-3-trillion-in-spending-commitments-for-ai-boom",
+     "date": "2026-10-30",
+     "desc": "The five largest data-center players have committed more than $3 trillion in spending over the coming years. [Bloomberg, published 2026-10-30]"
+    },
+    {
+     "title": "Meta's Rating Outlook Cut to Negative by S&P on AI Spending",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-30/meta-s-credit-rating-outlook-downgraded-to-negative-by-s-p",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-30/meta-s-credit-rating-outlook-downgraded-to-negative-by-s-p",
+     "date": "2026-10-30",
+     "desc": "S&P moved Meta's outlook to negative, an early step toward a possible downgrade within two years, citing pressure on its balance sheet from elevated AI-related spending. [Bloomberg, published 2026-10-30]"
+    },
+    {
+     "title": "Apple Overtakes Nvidia to Become World's Most Valuable Company",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-30/apple-overtakes-nvidia-to-become-world-s-most-valuable-company",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-30/apple-overtakes-nvidia-to-become-world-s-most-valuable-company",
+     "date": "2026-10-30",
+     "desc": "Apple reclaimed the top market-value spot from Nvidia as investors sought safety amid concerns about AI spending. [Bloomberg, published 2026-10-30]"
+    },
+    {
+     "title": "Tech Stocks See Worst Day Since June, Pressuring Broader Market",
+     "url": "https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html",
+     "fulltext": "https://www.nytimes.com/2026/10/30/business/stock-market-october-ai.html",
+     "date": "2026-10-30",
+     "desc": "The Nasdaq and S&P 500 had their worst day since June as investors worried about spending on AI infrastructure. [NYT, published 2026-10-30]"
+    },
+    {
+     "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+     "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+     "fulltext": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+     "date": "2026-10-30",
+     "desc": "Blackstone says Anthropic is expected to receive a 'high' junk rating after its IPO, a shift from earlier guidance, adding to concerns about AI-sector borrowing. [Financial Times, published 2026-10-30]"
+    },
+    {
+     "title": "How One Country Became the Unlikely Crossroads of the Global A.I. Boom",
+     "url": "https://www.nytimes.com/2026/10/30/business/malaysia-data-center-china.html",
+     "fulltext": "https://www.nytimes.com/2026/10/30/business/malaysia-data-center-china.html",
+     "date": "2026-10-30",
+     "desc": "US and Chinese tech giants are pouring billions into Malaysian data centers, straining local resources and testing Washington's chip restrictions. [NYT, published 2026-10-30]"
+    },
+    {
+     "title": "Binance's $6.3 Billion Hack Is Just the Start of a Risky New Era",
+     "url": "https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html",
+     "fulltext": "https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html",
+     "date": "2026-10-30",
+     "desc": "The largest crypto heist on record came as attackers increasingly use AI and other advanced techniques to steal and quickly launder funds. [NYT, published 2026-10-30]"
+    },
+    {
+     "title": "Meta Faces U.K. Antitrust Probe Over Publisher Content Terms",
+     "url": "https://www.wsj.com/tech/meta-faces-u-k-antitrust-probe-over-publisher-content-use-11637585",
+     "fulltext": "https://www.wsj.com/tech/meta-faces-u-k-antitrust-probe-over-publisher-content-use-11637585",
+     "date": "2026-10-30",
+     "desc": "UK regulators opened a probe into planned terms that would let Meta collect publisher content to power its own AI products. [WSJ, published 2026-10-30]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hi, this is Alex with the Daily AI Research Digest for October thirty-first, twenty twenty-six. Today the story is money: the AI trade is under pressure and the financing is getting harder."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. Let's start with OpenAI. The Wall Street Journal reports its round raised less than half of a thirty billion dollar target, at a valuation of one point two five trillion, below the one point four trillion it wanted."
+  },
+  {
+   "speaker": "A",
+   "text": "The Financial Times says it now seeks about twenty billion, cutting its target by ten billion as tech anxieties mount."
+  },
+  {
+   "speaker": "B",
+   "text": "That fits the broader mood. The New York Times reports the Nasdaq and S and P five hundred had their worst day since June, as investors worried about spending on AI infrastructure."
+  },
+  {
+   "speaker": "A",
+   "text": "And the spending is huge. Bloomberg says the five largest data center players have committed more than three trillion dollars over the coming years."
+  },
+  {
+   "speaker": "B",
+   "text": "Financing is the pressure point. The Wall Street Journal describes a shortage of cheap money, with lenders demanding stricter terms. Bloomberg adds that S and P moved Meta's outlook to negative, citing elevated AI spending."
+  },
+  {
+   "speaker": "A",
+   "text": "The Financial Times also reports Blackstone expects Anthropic to get a high junk rating after its IPO, a shift from earlier guidance."
+  },
+  {
+   "speaker": "B",
+   "text": "Meanwhile Apple overtook Nvidia as the world's most valuable company, as investors sought perceived safety."
+  },
+  {
+   "speaker": "A",
+   "text": "On the real economy, the Financial Times asks whether this is the first clear evidence of AI's labor market impact, with productivity up and employment down in tech, but a muddier picture elsewhere."
+  },
+  {
+   "speaker": "B",
+   "text": "On supply, Bloomberg says Sam Altman met Samsung executives about memory chips as shortages deepen, and the New York Times looks at Malaysia as a crossroads for data centers from both US and Chinese firms."
+  },
+  {
+   "speaker": "A",
+   "text": "One paper too: an economist uses AI-assisted replication across more than thirteen hundred specifications to argue that standard two-way fixed effects estimates are closer to modern methods than feared."
+  },
+  {
+   "speaker": "B",
+   "text": "That's it for today. Find the full list and archive on the digest website. Thanks for listening."
+  },
+  {
+   "speaker": "A",
+   "text": "See you next time."
+  }
+ ],
+ "footnote": "Window: 2026-10-30 (last run) → 2026-10-31. The Washington Post feed could not be reached this run (HTTP 502). SSRN searches returned no candidates with a verified in-window posting date. No newsletters were used."
+}
