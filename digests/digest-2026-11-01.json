@@ -1,0 +1,129 @@
+{
+ "date": "2026-11-01",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": []
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "The Stock Market Is Roaring. It's (Basically) All From AI.",
+     "url": "https://www.wsj.com/livecoverage/midterm-election-news-2026/card/the-stock-market-is-roaring-it-s-basically-all-from-ai--quVheTknOG92dv4uJ97Z",
+     "fulltext": "https://www.wsj.com/livecoverage/midterm-election-news-2026/card/the-stock-market-is-roaring-it-s-basically-all-from-ai--quVheTknOG92dv4uJ97Z",
+     "date": "2026-11-01",
+     "desc": "A WSJ midterm-coverage card argues that the stock market's recent gains are driven almost entirely by artificial intelligence. [WSJ, published 2026-11-01]"
+    },
+    {
+     "title": "The Tangled Web of AI Bets Is Reason to Fear Tech Stocks",
+     "url": "https://www.wsj.com/tech/the-tangled-web-of-ai-bets-is-reason-to-fear-tech-stocks-905bde86",
+     "fulltext": "https://www.wsj.com/tech/the-tangled-web-of-ai-bets-is-reason-to-fear-tech-stocks-905bde86",
+     "date": "2026-11-01",
+     "desc": "Vendor financing has returned in a new form, linking AI companies' fortunes; the piece argues this magnifies the AI trade on the way up and on the way down. [WSJ, published 2026-11-01]"
+    },
+    {
+     "title": "AI Investors Are Racing to Get Insurance on the Biggest Market Bet in History",
+     "url": "https://www.wsj.com/finance/stocks/ai-investors-are-racing-to-get-insurance-on-the-biggest-market-bet-in-history-a60e296f",
+     "fulltext": "https://www.wsj.com/finance/stocks/ai-investors-are-racing-to-get-insurance-on-the-biggest-market-bet-in-history-a60e296f",
+     "date": "2026-11-01",
+     "desc": "With trillions of dollars riding on the AI trade, investors, traders and even tech executives are looking for protection against a reversal. [WSJ, published 2026-11-01]"
+    },
+    {
+     "title": "We're Living in the Age of the Imperial CEO",
+     "url": "https://www.wsj.com/tech/ai/anthropic-ipo-dual-class-stock-founder-control-4c43a56d",
+     "fulltext": "https://www.wsj.com/tech/ai/anthropic-ipo-dual-class-stock-founder-control-4c43a56d",
+     "date": "2026-11-01",
+     "desc": "Anthropic joins other hot tech companies in going public with a share structure that keeps founders in control. [WSJ, published 2026-11-01]"
+    },
+    {
+     "title": "DeepSeek Drops Enhanced Coding Agent With Aim to Rival Anthropic",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-01/deepseek-drops-enhanced-coding-agent-with-aim-to-rival-anthropic",
+     "date": "2026-11-01",
+     "desc": "DeepSeek released a prototype of a more autonomous coding agent as it seeks to challenge Anthropic's popular Claude Code. [Bloomberg, published 2026-11-01]"
+    },
+    {
+     "title": "S. Korea Exports Extend Robust Growth as Chip Boom Continues",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-01/south-korea-exports-extend-robust-growth-as-chip-boom-continues",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-01/south-korea-exports-extend-robust-growth-as-chip-boom-continues",
+     "date": "2026-11-01",
+     "desc": "South Korea's October exports kept growing strongly, underscoring an AI-driven boom that has powered its economy even as a tech-stock selloff raises doubts about the durability of the AI trade. [Bloomberg, published 2026-11-01]"
+    },
+    {
+     "title": "AI Enthusiasm Is Collapsing and Tech Earnings Just Made It Worse",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-31/ai-enthusiasm-is-collapsing-and-tech-earnings-just-made-it-worse",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-10-31/ai-enthusiasm-is-collapsing-and-tech-earnings-just-made-it-worse",
+     "date": "2026-10-31",
+     "desc": "After a run of big-tech earnings meant to clarify a wobbly market, doubts about heavy AI spending persist and the reports appear to have deepened them. [Bloomberg, published 2026-10-31]"
+    },
+    {
+     "title": "Investors trim growth bets over fears of US economy's AI exposure",
+     "url": "https://www.ft.com/content/56b0d5fa-829c-47b1-b07b-b4be18f60151",
+     "fulltext": "https://www.ft.com/content/56b0d5fa-829c-47b1-b07b-b4be18f60151",
+     "date": "2026-10-31",
+     "desc": "Investors are returning to bonds after a long sell-off, as concern rises about the US economy's over-reliance on tech spending. [Financial Times, published 2026-10-31]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello and welcome to the Daily AI Research Digest for November first, twenty twenty-six. I'm Alex."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. No new research papers on AI qualified today, so we're focusing on the news, and the theme is clear: how much the market is leaning on AI."
+  },
+  {
+   "speaker": "A",
+   "text": "The Wall Street Journal says the stock market's recent roar is basically all from AI. That's a lot of concentration."
+  },
+  {
+   "speaker": "B",
+   "text": "And a Journal column warns that vendor financing is back in a new form, tangling AI companies' bets together. The worry is that it magnifies the trade on the way up, and on the way down."
+  },
+  {
+   "speaker": "A",
+   "text": "Related, the Journal reports that investors, traders and even tech executives are racing to buy insurance against an AI reversal, with trillions of dollars riding on it."
+  },
+  {
+   "speaker": "B",
+   "text": "Bloomberg's take is blunt: AI enthusiasm is collapsing, and the latest tech earnings made it worse, because doubts about heavy AI spending haven't gone away."
+  },
+  {
+   "speaker": "A",
+   "text": "The Financial Times adds that investors are trimming growth bets and returning to bonds, over fears about the US economy's exposure to AI and tech spending."
+  },
+  {
+   "speaker": "B",
+   "text": "Yet the real economy is still benefiting. South Korea's October exports kept growing strongly on the chip boom, even as the selloff raises questions about how durable it is."
+  },
+  {
+   "speaker": "A",
+   "text": "On the corporate side, the Journal notes Anthropic is joining other hot tech companies going public with a share structure that keeps founders in control."
+  },
+  {
+   "speaker": "B",
+   "text": "And Bloomberg reports DeepSeek released a prototype of a more autonomous coding agent, aiming to rival Anthropic's Claude Code."
+  },
+  {
+   "speaker": "A",
+   "text": "So: strong AI-driven activity, but growing nervousness about how much rides on it."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest. Find the full list in the web archive. Thanks for listening."
+  }
+ ],
+ "footnote": "Window: 2026-10-31 (last run) → 2026-11-01. The New York Times sitemap and the Washington Post feed could not be reached this run (HTTP 404 / 502). SSRN searches found no candidates with a verified in-window posting date. No newsletters were used."
+}
