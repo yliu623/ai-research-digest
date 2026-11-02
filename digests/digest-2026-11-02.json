@@ -1,0 +1,351 @@
+{
+ "date": "2026-11-02",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Training for Alignment",
+     "url": "https://arxiv.org/abs/2610.40684",
+     "fulltext": "https://arxiv.org/pdf/2610.40684",
+     "date": "2026-10-26",
+     "desc": "A theoretical model of how a principal should train an agent with an endogenous bias, finding that optimal training over-corrects in trained states and chooses states with an eye to generalization; applications include AI post-training. [arXiv econ.TH, submitted 2026-10-26]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper is a theory model of training an agent whose preferences are biased. It's an arXiv economics paper, and we're working from the abstract."
+      },
+      {
+       "speaker": "B",
+       "text": "The setup: a principal picks which states to train the agent in and what actions to prescribe. The agent then updates its bias, and acts on the new bias in untrained states."
+      },
+      {
+       "speaker": "A",
+       "text": "So training can generalize to untrained situations, through the agent's own bias updating."
+      },
+      {
+       "speaker": "B",
+       "text": "The optimal policy involves over-correction in the trained states, and a non-greedy, generalization-aware choice of which states to train on."
+      },
+      {
+       "speaker": "A",
+       "text": "If only a small share of states can be trained, greedy selection is approximately optimal, but over-correction still matters."
+      },
+      {
+       "speaker": "B",
+       "text": "With a more pessimistic objective, under-correction or even no training at all may be best. And making the agent's preferences more flexible, which they call corrigibility, helps only when the possible biases are known and include full alignment."
+      },
+      {
+       "speaker": "A",
+       "text": "The applications they name include socialization in organizations and families, and AI post-training and recursive self-improvement."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: how you train matters beyond the states you train on, and more corrigibility isn't always better."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Green Tastes, Beliefs, and Portfolios: Evidence from Synthetic Investors",
+     "url": "https://www.nber.org/papers/w35982",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w35982/w35982.pdf",
+     "date": "2026-11-02",
+     "desc": "Uses LLMs as synthetic survey respondents (480 retail and 60 institutional investor identities) to study green tastes and portfolios; institutions report weaker green tastes yet hold greener tilts, citing outside pressure. [NBER w35982, issued 2026-11-02]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's paper asks whether large language models can stand in for survey respondents on green investing. This one is an NBER working paper, and we're working from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Right, so the authors have LLMs play 480 retail and 60 institutional investor identities, and ask about green tastes, return beliefs, portfolio allocations and motives."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does that matter? Because real surveys of investors are expensive and slow, and it's hard to separate what investors actually like from what they feel pushed to do."
+      },
+      {
+       "speaker": "B",
+       "text": "And that's the first finding. Compared with retail investors, the institutions report weaker tastes for green, yet hold greener portfolio tilts, and they cite outside pressure. So a greener tilt doesn't necessarily mean a stronger taste for greenness."
+      },
+      {
+       "speaker": "A",
+       "text": "They also find retail tastes depend mostly on political affiliation, while institutional tastes depend on investor type and geography. Beliefs differ across the three ESG dimensions, with high governance portfolios expected to outperform."
+      },
+      {
+       "speaker": "B",
+       "text": "Then there's a clever time exercise. They reconstruct responses under information environments from 2014 to 2025, using date-masked information modules shuffled across years."
+      },
+      {
+       "speaker": "A",
+       "text": "Tastes vary little over time, but beliefs about green portfolios turn more pessimistic after 2020. And the two reconstructed series line up with different real-world data: tastes with measures of green demand, beliefs with measures of attention."
+      },
+      {
+       "speaker": "B",
+       "text": "Big caveat, these are synthetic respondents, so the evidence is only as good as the models' imitation of real investors. Takeaway: a green tilt and a green taste are not the same thing."
+      }
+     ]
+    },
+    {
+     "title": "QBX: A Compiler for Well-Formed, Auditable Alpha Programs",
+     "url": "https://arxiv.org/abs/2610.41689",
+     "fulltext": "https://arxiv.org/pdf/2610.41689",
+     "date": "2026-10-30",
+     "desc": "A compiler that restricts formulaic alpha search to a valid, auditable program space; on Chinese A-share panels valid proposals rise from 26.8% (free strings) to 97.7%, and LLM-guided search needs fewer calls. [arXiv cs.CE, submitted 2026-10-30]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper is about finding trading signals, so-called alpha, with search systems that often use language models. It's an arXiv paper and again we're working from the abstract."
+      },
+      {
+       "speaker": "B",
+       "text": "The problem is that every alpha mining system has its own representation, evaluator and selector, so results are hard to reproduce or compare."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors present QBX, a compiler that defines a well-formed, auditable space of alpha programs. A proposal is either rejected with structured diagnostics, or compiled into a checked intermediate form."
+      },
+      {
+       "speaker": "B",
+       "text": "One neat piece is an availability checker that rejects look-ahead, meaning using information that wouldn't have been known at the time, while still allowing legal point-in-time forecasts."
+      },
+      {
+       "speaker": "A",
+       "text": "On Chinese A-share panels, the share of evaluation-valid proposals rises from 26.8 percent for free strings and 36.4 percent for a grammar-only control to 97.7 percent for typed programs."
+      },
+      {
+       "speaker": "B",
+       "text": "Incremental evaluation replays search lineages 7.5 times faster with numerical parity, and the checker admits zero contract violations across 23,342 candidates."
+      },
+      {
+       "speaker": "A",
+       "text": "And under matched LLM-call budgets, compiler-closed search reaches the diagnostic frontier with substantially fewer calls."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors are careful: these gains are about validity, reuse and search efficiency, not about extracting more information from the market data. Takeaway: it's plumbing, but plumbing that makes alpha research auditable."
+      }
+     ]
+    },
+    {
+     "title": "Neural Network Methods in the 2BSDE Formalism for Solving the High-Dimensional Black–Scholes Equation with Transaction Costs",
+     "url": "https://arxiv.org/abs/2610.41019",
+     "fulltext": "https://arxiv.org/pdf/2610.41019",
+     "date": "2026-10-29",
+     "desc": "Solves the high-dimensional Black–Scholes equation with Leland transaction costs by casting it as a 2BSDE system and training a single ResNet to learn prices of options such as calls and butterfly spreads. [arXiv math.OC, submitted 2026-10-29]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Here's a paper that uses neural networks to price derivatives with transaction costs. It's on arXiv, and we're working from the abstract."
+      },
+      {
+       "speaker": "B",
+       "text": "Pricing options in many dimensions is hard, and transaction costs make the pricing equation nastier. The authors take the Black-Scholes equation with the Leland cost model."
+      },
+      {
+       "speaker": "A",
+       "text": "They write it as a second-order backward stochastic differential equation, a 2BSDE system, which takes input from the derivative of the curvature of the price."
+      },
+      {
+       "speaker": "B",
+       "text": "Then a single ResNet neural network learns both the solution to the pricing equation and the degrees of freedom in the curvature matrix."
+      },
+      {
+       "speaker": "A",
+       "text": "They test it by learning prices for derivatives such as call options and butterfly spreads on geometric baskets."
+      },
+      {
+       "speaker": "B",
+       "text": "The appeal is that deep learning methods can scale to high dimensions where grid methods break down."
+      },
+      {
+       "speaker": "A",
+       "text": "We should say the abstract doesn't give headline accuracy numbers, so we can't judge the size of the gains. Takeaway: a neural-network route to high-dimensional option pricing with frictions."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "OpenAI's Altman Signs Energy, Investment Deals in the UAE",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-02/openai-s-altman-travels-to-uae-to-sign-energy-investment-deals",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-02/openai-s-altman-travels-to-uae-to-sign-energy-investment-deals",
+     "date": "2026-11-02",
+     "desc": "OpenAI signed deals to deploy its technology across energy companies, investment firms and government agencies in the UAE, as it seeks billions of dollars in funding from the country's state-backed investors. [Bloomberg, published 2026-11-02]"
+    },
+    {
+     "title": "UBS's Fowler Says Market Is Underpricing the Length of AI Cycle",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-02/ubs-s-fowler-says-market-is-underpricing-the-length-of-ai-cycle",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-02/ubs-s-fowler-says-market-is-underpricing-the-length-of-ai-cycle",
+     "date": "2026-11-02",
+     "desc": "UBS strategist Gerry Fowler argues hyperscaler valuations look attractive after the recent AI unwind because the market is pricing a shorter AI cycle than is likely to play out. [Bloomberg, published 2026-11-02]"
+    },
+    {
+     "title": "Oaktree's Howard Marks Says AI Stumbles Boosted Skepticism",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-02/oaktree-s-howard-marks-says-ai-stumbles-have-boosted-skepticism",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-02/oaktree-s-howard-marks-says-ai-stumbles-have-boosted-skepticism",
+     "date": "2026-11-02",
+     "desc": "Howard Marks says recent AI-related market stumbles have somewhat burst the bubble of infallibility around the sector. [Bloomberg, published 2026-11-02]"
+    },
+    {
+     "title": "Kioxia Shares Sink After Outlook Shows Demand Leveling Off",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-02/kioxia-shares-tumble-after-outlook-suggests-demand-leveling-off",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-02/kioxia-shares-tumble-after-outlook-suggests-demand-leveling-off",
+     "date": "2026-11-02",
+     "desc": "Kioxia shares fell the most in three months after a cautious outlook fed concern that AI-driven growth in memory demand may be leveling off. [Bloomberg, published 2026-11-02]"
+    },
+    {
+     "title": "Macquarie Executive Sees AI Fast-Tracking Junior Analyst Careers",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-02/macquarie-executive-sees-ai-fast-tracking-junior-analyst-careers",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-02/macquarie-executive-sees-ai-fast-tracking-junior-analyst-careers",
+     "date": "2026-11-02",
+     "desc": "A Macquarie Capital executive says junior research staff need not fret too much about AI taking their jobs, and expects AI to speed up their career progression. [Bloomberg, published 2026-11-02]"
+    },
+    {
+     "title": "AI mania can't survive higher interest rates",
+     "url": "https://www.ft.com/content/6e99dc59-8bd0-4c5c-8186-f6ceed04233a",
+     "fulltext": "https://www.ft.com/content/6e99dc59-8bd0-4c5c-8186-f6ceed04233a",
+     "date": "2026-11-02",
+     "desc": "An FT column argues the price of money is the pin that deflates market bubbles, applying that logic to AI valuations. [Financial Times, published 2026-11-02]"
+    },
+    {
+     "title": "Global AI sell-off eases after Nasdaq's worst month in over a year",
+     "url": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3",
+     "fulltext": "https://www.ft.com/content/d7fe99f8-d292-4cb5-a8fd-45be0f8cc2b3",
+     "date": "2026-11-02",
+     "desc": "US tech stocks were set to start the week higher following a bruising rout that made October the Nasdaq's worst month in over a year. [Financial Times, published 2026-11-02]"
+    },
+    {
+     "title": "What the increasingly awkward data centre construction delays mean for investors",
+     "url": "https://www.ft.com/content/824fcec4-bded-44f3-9e42-565ba0d2cfa8",
+     "fulltext": "https://www.ft.com/content/824fcec4-bded-44f3-9e42-565ba0d2cfa8",
+     "date": "2026-11-02",
+     "desc": "The FT looks at what delays in data centre construction mean for investors in the AI build-out. [Financial Times, published 2026-11-02]"
+    },
+    {
+     "title": "Asia's Factory Activity Buoyed by AI Demand, but Cracks Emerge",
+     "url": "https://www.wsj.com/economy/china-private-manufacturing-gauge-shows-steady-expansion-in-october-9e3be2ca",
+     "fulltext": "https://www.wsj.com/economy/china-private-manufacturing-gauge-shows-steady-expansion-in-october-9e3be2ca",
+     "date": "2026-11-02",
+     "desc": "Asian factory surveys show growth supported by AI-related demand, led by new product launches and better production capabilities, though the report flags emerging cracks. [WSJ, published 2026-11-02]"
+    },
+    {
+     "title": "AI Spenders Get Spooked",
+     "url": "https://www.wsj.com/tech/ai/ai-spenders-get-spooked-80534757",
+     "fulltext": "https://www.wsj.com/tech/ai/ai-spenders-get-spooked-80534757",
+     "date": "2026-11-01",
+     "desc": "A WSJ tech newsletter on investor jitters over AI spending, alongside other tech stories of the week. [WSJ, published 2026-11-01]"
+    },
+    {
+     "title": "Investors Are Hedging Against the Risks of the AI Boom",
+     "url": "https://www.wsj.com/articles/investors-are-hedging-against-the-risks-of-the-ai-boom-603203d5",
+     "fulltext": "https://www.wsj.com/articles/investors-are-hedging-against-the-risks-of-the-ai-boom-603203d5",
+     "date": "2026-11-01",
+     "desc": "WSJ reports that investors are hedging against the risks of the AI boom. [WSJ, published 2026-11-01]"
+    },
+    {
+     "title": "Hackers are running riot with AI. Its makers want to cash in",
+     "url": "https://www.economist.com/business/2026/11/01/hackers-are-running-riot-with-ai-its-makers-want-to-cash-in",
+     "fulltext": "https://www.economist.com/business/2026/11/01/hackers-are-running-riot-with-ai-its-makers-want-to-cash-in",
+     "date": "2026-11-01",
+     "desc": "The Economist says OpenAI and Anthropic see a big commercial opportunity in cyber-security as hackers adopt AI. [The Economist, published 2026-11-01]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hi, I'm Alex, and this is the AI Research Digest for November second, twenty twenty-six. Today's theme is markets wrestling with how long the AI boom will last."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. A busy morning on the news side, plus a handful of fresh papers. Alex, where do we start?"
+  },
+  {
+   "speaker": "A",
+   "text": "The Financial Times reports that the global AI sell-off is easing after the Nasdaq's worst month in over a year, with US tech stocks set to start the week higher."
+  },
+  {
+   "speaker": "B",
+   "text": "Bloomberg has the same mood from a famous investor: Howard Marks of Oaktree says recent AI stumbles have somewhat burst the bubble of infallibility around the sector."
+  },
+  {
+   "speaker": "A",
+   "text": "But not everyone is bearish. A UBS strategist, Gerry Fowler, argues that hyperscaler valuations look attractive after the unwind, because the market is pricing in a shorter AI cycle than is likely to play out."
+  },
+  {
+   "speaker": "B",
+   "text": "Meanwhile an FT column argues AI mania can't survive higher interest rates, since the price of money is the pin that deflates bubbles."
+  },
+  {
+   "speaker": "A",
+   "text": "On the real economy side, Kioxia, the Japanese memory maker, saw its shares fall the most in three months after a cautious outlook raised concern that AI-driven demand may be leveling off."
+  },
+  {
+   "speaker": "B",
+   "text": "And the FT looks at what increasingly awkward data centre construction delays mean for investors. The Wall Street Journal adds that Asian factory activity is buoyed by AI demand, though cracks are emerging."
+  },
+  {
+   "speaker": "A",
+   "text": "One more deal story: Bloomberg says OpenAI signed deals across energy companies, investment firms and government agencies in the UAE, as it seeks billions from the country's state-backed investors."
+  },
+  {
+   "speaker": "B",
+   "text": "Now to labor. A Macquarie Capital executive tells Bloomberg that junior analysts need not fret too much about AI taking their jobs, and that AI may even fast-track their careers."
+  },
+  {
+   "speaker": "A",
+   "text": "On the research side, a new NBER paper uses large language models as synthetic survey respondents, 480 retail and 60 institutional investor identities, to study green investing."
+  },
+  {
+   "speaker": "B",
+   "text": "What did it find? Institutions report weaker green tastes than retail investors, yet hold greener portfolio tilts, citing outside pressure. So a greener tilt doesn't necessarily mean a stronger taste for greenness."
+  },
+  {
+   "speaker": "A",
+   "text": "A caveat, Alex: those respondents are synthetic, so the results depend on how well the models imitate real investors."
+  },
+  {
+   "speaker": "B",
+   "text": "Good point. An arXiv paper called QBX is about auditable alpha research. It's a compiler that restricts formulaic alpha search to a valid program space, and on Chinese A-share data valid proposals jump from about twenty-seven percent for free strings to nearly ninety-eight percent for typed programs."
+  },
+  {
+   "speaker": "A",
+   "text": "And another arXiv paper trains a single ResNet neural network to price options with transaction costs in high dimensions, by recasting the Black-Scholes equation as a second-order backward stochastic differential equation."
+  },
+  {
+   "speaker": "B",
+   "text": "There's also an economic theory paper on training an agent with a bias, with applications to AI post-training. It finds optimal training over-corrects in the trained states."
+  },
+  {
+   "speaker": "A",
+   "text": "The Economist also notes that OpenAI and Anthropic see a big commercial opportunity in cyber-security as hackers adopt AI."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest for today. Full summaries, plus audio explainers for each paper, are in the web archive."
+  },
+  {
+   "speaker": "A",
+   "text": "Thanks for listening, and see you tomorrow."
+  },
+  {
+   "speaker": "B",
+   "text": "Take care, everyone."
+  }
+ ],
+ "footnote": "Window: 2026-11-01 (last run) → 2026-11-02. The New York Times (sitemap 404) and Washington Post (RSS 502) could not be reached this run. SSRN searches surfaced no candidate with a verified in-window posting date, so none were included. Podcast scripts for papers are based on abstracts only because the PDF reader was unavailable in this environment. News summaries are based on feed teasers. No forwarded newsletters this run."
+}
