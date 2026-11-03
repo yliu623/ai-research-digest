@@ -1,0 +1,635 @@
+{
+ "date": "2026-11-03",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "The Market for AI-Assisted Signaling",
+     "url": "https://arxiv.org/abs/2611.02910",
+     "fulltext": "https://arxiv.org/pdf/2611.02910",
+     "date": "2026-11-02",
+     "desc": "A theory paper on AI providers that choose technologies and prices for tools people use to signal their ability. Profitable AI assistance can lower welfare relative to signaling without AI, because easier imitation raises the output needed to prove ability. [arXiv econ.TH, submitted 2026-11-02]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Think about a job applicant writing a cover letter. Today a paper asks what happens when AI companies sell the tool that helps write it."
+      },
+      {
+       "speaker": "B",
+       "text": "The setup is a signaling model. Senders have high or low ability, a receiver wants to judge ability, and AI assistance makes it cheaper to produce an impressive piece of output. Providers choose the technology and the price, and individual adoption is not observed."
+      },
+      {
+       "speaker": "A",
+       "text": "The key result is that profitable assistance can lower welfare compared with a world without AI. When imitation gets easier, a strong sender has to produce even more output to stand apart from a weak one, and that extra signaling effort can outweigh the savings in production."
+      },
+      {
+       "speaker": "B",
+       "text": "There is also a twist on product design. Providers can profit from improving the assistance for lower-ability senders, because that pushes higher-ability senders to buy more. Those improvements can again reduce welfare compared with keeping the existing tools."
+      },
+      {
+       "speaker": "A",
+       "text": "On competition, providers selling the same technology can support full information, but development costs can sustain a monopoly that conceals ability. And more verification capacity, such as supervised work trials, can reduce information by changing which customers the providers serve."
+      },
+      {
+       "speaker": "B",
+       "text": "It is a theoretical model, so the findings depend on its assumptions about two ability types and limited hard evidence. The takeaway: cheap AI help can make signals less informative, and the market for that help may not fix it."
+      }
+     ]
+    },
+    {
+     "title": "The Verification Bottleneck",
+     "url": "https://arxiv.org/abs/2611.02265",
+     "fulltext": "https://arxiv.org/pdf/2611.02265",
+     "date": "2026-11-01",
+     "desc": "A general-equilibrium model of peer review shows that generative AI, by cheapening research production, can reduce reviewer capacity and verified knowledge once a technological threshold is passed. With observable quality, the same progress would raise both. [arXiv econ.TH, submitted 2026-11-01]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Journals are getting flooded with submissions. This paper asks how generative AI changes the economics of checking research."
+      },
+      {
+       "speaker": "B",
+       "text": "The author builds a model of peer review. Researchers know their own quality and choose observable output, an editor chooses how deep the review goes, and reviewers decide how much time to supply based on the expected scientific contribution."
+      },
+      {
+       "speaker": "A",
+       "text": "Producing output is costly, and that cost helps screen good research from weak. When AI makes production cheaper, weaker researchers can imitate stronger ones more easily."
+      },
+      {
+       "speaker": "B",
+       "text": "Beyond a technological threshold, reviewer capacity and verified knowledge weakly decline even when editors decide optimally, and strictly decline when the screening constraint matters. Reviewer withdrawal can amplify the loss."
+      },
+      {
+       "speaker": "A",
+       "text": "The paper contrasts this with a case where quality is observable. There, the same technological progress weakly increases both reviewer capacity and verified knowledge, so the problem comes from the screening role of costly output."
+      },
+      {
+       "speaker": "B",
+       "text": "The paper motivates the model with reported rises in submissions at major publishers and arXiv, but it is a theory result, not an empirical estimate. The takeaway: cheaper research production can create a bottleneck in verification."
+      }
+     ]
+    },
+    {
+     "title": "Same Text, Different Filename: Are LLM Judges Biased?",
+     "url": "https://arxiv.org/abs/2611.01829",
+     "fulltext": "https://arxiv.org/pdf/2611.01829",
+     "date": "2026-11-01",
+     "desc": "Three frontier LLMs score the same document differently when only its filename changes. A person-related label scores higher than no label, with context-specific bias whose direction and size vary by document and label. [arXiv econ.GN, submitted 2026-11-01]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Would a language model rate your paper differently if you only renamed the file? This study says yes."
+      },
+      {
+       "speaker": "B",
+       "text": "The motivation is that leading economics journals started using an LLM-based tool, Refine.ink, to check manuscripts before publication. The author takes four documents he wrote, converts them to text, and varies only the filename."
+      },
+      {
+       "speaker": "A",
+       "text": "Three frontier LLMs score the same document differently depending on the label. A filename that looks like a person scores higher than no label at all."
+      },
+      {
+       "speaker": "B",
+       "text": "The author finds no consistent preference for own-model or rival-model labels, and no penalty for an Asian name. But there is a context-specific bias whose direction and size vary with both the document and the label."
+      },
+      {
+       "speaker": "A",
+       "text": "With LLM-written documents, some self-premium can be detected, but a significant context-dependent label bias remains. The studies were preregistered."
+      },
+      {
+       "speaker": "B",
+       "text": "The author notes that whether to correct this depends on the cost of evaluation errors. The takeaway: automated quality checks can be moved by trivia that should not matter."
+      }
+     ]
+    },
+    {
+     "title": "Learning about Markets from Models: Evidence from an AI Hiring Platform",
+     "url": "https://arxiv.org/abs/2611.01226",
+     "fulltext": "https://arxiv.org/pdf/2611.01226",
+     "date": "2026-10-31",
+     "desc": "Using an AI hiring platform for large low-skill employers, firm-specific retention models are highly predictive for their own firm but no better than chance at other firms. Applicants' predicted retention gains from applying elsewhere are highly heterogeneous. [arXiv econ.GN, submitted 2026-10-31]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Hiring platforms use machine learning to score applicants. This paper asks what you can learn when a platform stores many different firms' models."
+      },
+      {
+       "speaker": "B",
+       "text": "The data come from an AI hiring platform used by large employers of low-skill workers. It uses a standardized psychometric assessment to build a model for each firm that predicts an application's retention likelihood at that firm."
+      },
+      {
+       "speaker": "A",
+       "text": "Each firm's model is highly predictive for itself but no better than chance at other firms. So pooling the data would not obviously help accuracy."
+      },
+      {
+       "speaker": "B",
+       "text": "Still, the authors argue the platform captures a model comparison externality. Every firm scores every application, not only the ones it receives, which builds a firm by application matrix."
+      },
+      {
+       "speaker": "A",
+       "text": "An application's improved retention likelihood if sent to a different firm is highly heterogeneous across traits, and the gains come from two distinct mechanisms. Firms also value traits differently, disagreeing about whether important traits raise or lower retention at the margin."
+      },
+      {
+       "speaker": "B",
+       "text": "These insights require access to both the full applicant pool and each firm's model. The takeaway: platforms hold information about market differentiation that individual firms cannot see."
+      }
+     ]
+    },
+    {
+     "title": "Designing Behavioral Profiles for Language Model Simulation of Out-of-Distribution Human Behavior",
+     "url": "https://arxiv.org/abs/2611.00661",
+     "fulltext": "https://arxiv.org/pdf/2611.00661",
+     "date": "2026-10-31",
+     "desc": "A framework chooses which behavioral descriptions to give an LLM simulating players in economic games. Across 616 public-goods, 144 bargaining and 1,480 money-request designs, one-feature profiles beat no profile or generic personas. [arXiv cs.AI, submitted 2026-10-31]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Researchers increasingly use language models to simulate how people behave in economic experiments. This paper asks what to tell the model about the people."
+      },
+      {
+       "speaker": "B",
+       "text": "The framework draws candidate behavioral features from the literature and builds profiles from earlier human experiments. One LLM assigns feature values from observed actions, messages and surveys, and another simulates behavior using those profiles."
+      },
+      {
+       "speaker": "A",
+       "text": "Features are added by forward selection while they improve prediction on the learning data. Then the selected profiles are tested unchanged on new participants under new designs."
+      },
+      {
+       "speaker": "B",
+       "text": "The data cover 616 public-goods games, 144 multi-party bargaining games, and 1,480 generalized eleven-twenty money-request designs."
+      },
+      {
+       "speaker": "A",
+       "text": "Leading one-feature profiles predict human outcome distributions better than no profile or general-purpose personas. Adding more features gives no clear extra benefit."
+      },
+      {
+       "speaker": "B",
+       "text": "Transfer across game families is uneven, and using profiles from one family to simulate another can be worse than using none. The takeaway: choosing behavioral information is a testable design decision."
+      }
+     ]
+    },
+    {
+     "title": "Validating LLM-Generated Synthetic Survey Samples: A Use-Dependent Multi-Dimensional Framework for Social-Science Applications",
+     "url": "https://arxiv.org/abs/2611.00256",
+     "fulltext": "https://arxiv.org/pdf/2611.00256",
+     "date": "2026-10-30",
+     "desc": "A validation framework separates predictive, distributional and substantive validity of LLM-generated survey respondents, tested on Eurobarometer data on attitudes toward AI with four off-the-shelf LLMs. Some samples preserve group patterns despite imperfect respondent-level matches. [arXiv econ.GN, submitted 2026-10-30]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Can language models stand in for survey respondents? This paper says the answer depends on what you want to use them for."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors argue that a single accuracy number is the wrong test. They distinguish predictive validity, distributional validity and substantive validity."
+      },
+      {
+       "speaker": "A",
+       "text": "They illustrate it with Eurobarometer data on attitudes toward artificial intelligence. Four off-the-shelf LLMs generate answers conditional on real respondents' observed profiles."
+      },
+      {
+       "speaker": "B",
+       "text": "Supervised machine learning provides a predictive benchmark for interpreting how well the LLMs do."
+      },
+      {
+       "speaker": "A",
+       "text": "Results differ a lot across validation dimensions. Some samples preserve marginal heterogeneity, demographic ordering, cross-country variation and predictor structure despite imperfect respondent-level correspondence, with performance varying by model and outcome."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors call the overall picture cautiously constructive, not a blanket endorsement. A sample that is weak at predicting any single person can still be useful if what you need is the right ordering across demographic groups or countries."
+      },
+      {
+       "speaker": "A",
+       "text": "The paper does not claim synthetic respondents replace real surveys. It offers a way to check, case by case, whether a particular use is justified. The takeaway: judge a synthetic sample by the properties your analysis actually needs, and report them separately."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Penalize the Common Trade: A Collision-Aware Layer for Learned Portfolios",
+     "url": "https://arxiv.org/abs/2611.03453",
+     "fulltext": "https://arxiv.org/pdf/2611.03453",
+     "date": "2026-11-02",
+     "desc": "Proposes subtracting a penalty for loading on the recent common return mode when learned portfolios crowd into the same trade. On ten ETFs over 760 weeks, maximum drawdown falls from 23.6% to 14.1%, though the confidence interval includes zero. [arXiv q-fin.PM, submitted 2026-11-02]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "If many AI trading models make nearly the same trade, the market sees concentration even when the models look different. This paper calls it signal collision."
+      },
+      {
+       "speaker": "B",
+       "text": "A linear-impact game shows the externality: each allocator takes too much common exposure because it does not bear the full price effect on others. An overlap-dependent toll recovers the social choice."
+      },
+      {
+       "speaker": "A",
+       "text": "A feedback model gives the exact gain at which return-responsive allocation becomes unstable."
+      },
+      {
+       "speaker": "B",
+       "text": "This motivates a simple layer after the model: subtract a penalty for loading on the recent common return mode before forming the portfolio."
+      },
+      {
+       "speaker": "A",
+       "text": "On a frozen panel of ten liquid ETFs, 760 weeks from 2012 to July 2026, and ten basis point trading costs, maximum drawdown goes from 23.6 percent to 14.1 percent and volatility from 12.6 to 10.7 percent. Sharpe is nearly unchanged, 0.664 versus 0.667."
+      },
+      {
+       "speaker": "B",
+       "text": "But the bootstrap interval for the drawdown improvement runs from minus 3.3 to plus 18.4 points and includes zero. It is a risk-control association, not proof of AI crowding."
+      }
+     ]
+    },
+    {
+     "title": "Can We Stop the Backtest Yet? Anytime-Valid Promotion Tests for Adaptive Financial Research Agents",
+     "url": "https://arxiv.org/abs/2611.03384",
+     "fulltext": "https://arxiv.org/pdf/2611.03384",
+     "date": "2026-11-02",
+     "desc": "Introduces PROMOTE, a protocol controlling false promotion of trading rules found by autonomous research agents that test and drop candidates at data-dependent times. Repeated unadjusted tests cross in 94.5% of null paths versus 0.0% for PROMOTE. [arXiv q-fin.ST, submitted 2026-11-02]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "AI research agents can propose and monitor trading rules at machine speed. This paper asks how to stop them from fooling themselves."
+      },
+      {
+       "speaker": "B",
+       "text": "Candidates appear at data-dependent times, weak rules are dropped, and promising ones are watched until they cross a threshold. Treating the final rule as one fixed test understates how many chances the system had to get lucky."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors introduce PROMOTE. Each candidate gets predictable testing wealth at birth, and a cost-aware e-process accumulates only from later returns. If lifetime allocations sum to at most one, the chance of ever promoting a rule with nonpositive mean is bounded."
+      },
+      {
+       "speaker": "B",
+       "text": "In a replay with 24 hypotheses and 3,000 null paths, repeated unadjusted tests produce a family crossing in 94.5 percent of paths, versus 0.0 percent for PROMOTE. At a 15 basis point perturbation, target power is 70.1 percent."
+      },
+      {
+       "speaker": "A",
+       "text": "In a separate experiment where the agent picks candidates and birth times, false-family crossings are 1.77 percent across 3,000 programs."
+      },
+      {
+       "speaker": "B",
+       "text": "On real market data the replay produced zero promotions after costs. The certificate controls false promotion under the declared null; it does not guarantee an edge persists."
+      }
+     ]
+    },
+    {
+     "title": "EventGPT: Next-Event Pretraining on Banking Customer Histories",
+     "url": "https://arxiv.org/abs/2611.03302",
+     "fulltext": "https://arxiv.org/pdf/2611.03302",
+     "date": "2026-11-02",
+     "desc": "A transformer pretrained on 38.8 million transactions predicts clients' next events; without labels it scores first-time transaction targets at ROC-AUC 0.79 to 0.92. Frozen embeddings trail engineered features on product prediction (0.787 vs 0.808). [arXiv stat.ML, submitted 2026-11-02]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Can a language-model-style approach work on bank customer histories? This paper pretrains a model to predict the next event."
+      },
+      {
+       "speaker": "B",
+       "text": "EventGPT is a hierarchical causal transformer trained on the public Multimodal Banking Dataset with 100,224 clients, 38.8 million transactions and 66.3 million geolocation pings. It trains in about two hours on one GPU."
+      },
+      {
+       "speaker": "A",
+       "text": "With no labels, its next-event distribution scores five targets, such as a client making a given kind of transaction for the first time next month, at ROC-AUC between 0.79 and 0.92."
+      },
+      {
+       "speaker": "B",
+       "text": "Gradient boosting on 114 engineered features needs between 10,000 and 300,000 labeled client-months to match it on four targets, and stays below it on the fifth."
+      },
+      {
+       "speaker": "A",
+       "text": "For product prediction, frozen embeddings score below the engineered features, 0.787 against 0.808. A rank-averaged ensemble adds 0.014 to 0.017, of which 0.007 to 0.016 is EventGPT's own."
+      },
+      {
+       "speaker": "B",
+       "text": "Code and weights are released. The takeaway: pretrained event models are label-efficient but complement feature engineering."
+      }
+     ]
+    },
+    {
+     "title": "Learning AI Agents, Market Makers, and Stress in Automated Markets",
+     "url": "https://arxiv.org/abs/2611.01799",
+     "fulltext": "https://arxiv.org/pdf/2611.01799",
+     "date": "2026-11-01",
+     "desc": "Models trading AI agents by their reward functions on a constant-product automated market maker. Herd-dominated and arbitrage-dominated markets have identical return distributions, so volatility, VaR and volume cannot tell them apart, yet stress episodes differ greatly in length. [arXiv econ.EM, submitted 2026-11-01]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "As more trading is done by learning agents against automated market makers, how can a regulator tell what is going on?"
+      },
+      {
+       "speaker": "B",
+       "text": "The paper defines each AI agent by the reward it maximizes and studies the feedback on a constant-product market maker, the pricing rule used in decentralized exchanges."
+      },
+      {
+       "speaker": "A",
+       "text": "The first result is that herd-dominated and arbitrage-dominated markets of equal size have identical return distributions and turnover. So no rule based on volatility, value at risk, stress frequency or volume can distinguish them."
+      },
+      {
+       "speaker": "B",
+       "text": "Yet their stress episodes differ in length by a factor that is unbounded in the feedback-to-noise ratio. Serial statistics can identify the feedback sign, and the required number of observations is shown to be tight."
+      },
+      {
+       "speaker": "A",
+       "text": "When agents trade together, profit-seeking agents ride herds rather than lean against them, which leads to all-or-nothing participation. Spread-earning market makers restore stability but make liquidity fragile, with discontinuous collapse and hysteresis."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors conclude that maker-taker pricing, not a uniform fee, is the effective instrument. This is a theoretical model. The takeaway: look at serial dependence, not just volatility."
+      }
+     ]
+    },
+    {
+     "title": "Beyond Binary Detection: Type-Aware Hallucination Analysis and Hierarchical Detection in Financial Question Answering",
+     "url": "https://arxiv.org/abs/2611.02258",
+     "fulltext": "https://arxiv.org/pdf/2611.02258",
+     "date": "2026-11-01",
+     "desc": "Analyzes LLM hallucination detection on PHANTOM, a benchmark built from SEC filings. A detector with 80.2% binary accuracy reaches only 44.7% on subtype; a two-stage detector lifts these to 95.6% and 56.1%. [arXiv cs.AI, submitted 2026-11-01]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "LLMs answering questions about SEC filings can misstate a figure or invent a rule. This paper looks at how well hallucination detectors catch different errors."
+      },
+      {
+       "speaker": "B",
+       "text": "It uses PHANTOM, a long-context benchmark built from filings. Without any detector, 15,443 paired answers show hallucinated answers are more than twice as long as faithful ones."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors then generate hallucinations in nine financially motivated categories, verify them, and test an LLM-based detector on 4,086 usable examples. Generation success ranges from 66.3 to 100 percent."
+      },
+      {
+       "speaker": "B",
+       "text": "The detector reaches 80.2 percent binary accuracy but only 44.7 percent at identifying the subtype. It never assigns two of the nine categories and misses between 5.3 and 46.8 percent depending on category."
+      },
+      {
+       "speaker": "A",
+       "text": "Misses are unrelated to input length but rise with how far an answer departs from the correct one."
+      },
+      {
+       "speaker": "B",
+       "text": "A two-stage detector first decides if an answer is hallucinated, then assigns a subtype, raising binary accuracy to 95.6 percent and subtype accuracy to 56.1 percent. The takeaway: aggregate scores hide weaknesses."
+      }
+     ]
+    },
+    {
+     "title": "AIDA: An AI Outage Registry with Evidence from On-Chain MEV",
+     "url": "https://arxiv.org/abs/2611.01656",
+     "fulltext": "https://arxiv.org/pdf/2611.01656",
+     "date": "2026-11-01",
+     "desc": "Builds a registry of 5,868 outage incidents across 30 AI providers and pairs it with 5 million Ethereum MEV transactions. During AI outages, new trading-code releases stall (to 0.67 of normal) while deployed bots keep trading. [arXiv q-fin.TR, submitted 2026-11-01]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Generative AI tools make it cheaper to write trading software. This paper asks what happens when those tools go down."
+      },
+      {
+       "speaker": "B",
+       "text": "The author builds AIDA, a registry of 5,868 deduplicated outage incidents across 30 providers from 2025 to 2026, and pairs it with over five million verified maximal extractable value transactions on Ethereum and a large panel of swaps on Base."
+      },
+      {
+       "speaker": "A",
+       "text": "First, entry into this activity expanded where code and public state suffice. Active arbitrage addresses quadrupled from late 2024 to late 2026 and liquidators grew by a third, while sandwich attackers, who need private order flow, declined. Execution stayed concentrated, with the top fifty addresses doing two thirds of trades."
+      },
+      {
+       "speaker": "B",
+       "text": "Second, AI outages stall new trading code while deployed bots keep trading. On Ethereum, addresses releasing a private executor fall to 0.67 of normal on the day of an eight-hour disruption, and to 0.68 during OpenAI outage hours."
+      },
+      {
+       "speaker": "A",
+       "text": "Non-trading creations, factory clones and live arbitrage and sandwich execution are unchanged."
+      },
+      {
+       "speaker": "B",
+       "text": "The takeaway: cheaper code lowers the barrier to building, but private order flow, latency and capital still decide who wins."
+      }
+     ]
+    },
+    {
+     "title": "Optimal portfolio and consumption under no-shorting constraints: The exploratory formulation and reinforcement learning",
+     "url": "https://arxiv.org/abs/2611.00700",
+     "fulltext": "https://arxiv.org/pdf/2611.00700",
+     "date": "2026-10-31",
+     "desc": "Develops a continuous-time reinforcement learning framework for portfolio-consumption choice under no-shorting constraints, with explicit Gaussian portfolio and Gibbs consumption policies for CRRA utility and a constrained policy-iteration algorithm. [arXiv q-fin.PM, submitted 2026-10-31]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Classic portfolio theory needs accurate market parameters. This paper uses reinforcement learning when those are unknown."
+      },
+      {
+       "speaker": "B",
+       "text": "It studies optimal portfolio and consumption with no-shorting constraints, using an exploratory formulation with entropy regularization."
+      },
+      {
+       "speaker": "A",
+       "text": "The constraint is imposed as a nonnegative conditional-mean requirement on randomized policies, while sampled actions can be negative during training."
+      },
+      {
+       "speaker": "B",
+       "text": "For CRRA utility, the authors derive a homothetic value function, an optimal Gaussian portfolio policy and a Gibbs consumption policy, and prove a verification theorem."
+      },
+      {
+       "speaker": "A",
+       "text": "The algorithm uses trajectory-based moment conditions for evaluation and a convex quadratic program for improvement, without needing market coefficients as inputs. The Gaussian mode equals its constrained mean, so deployed controls satisfy no-shorting."
+      },
+      {
+       "speaker": "B",
+       "text": "This is a theory and algorithm paper, and the abstract reports no empirical performance numbers, so there are no headline results to quote."
+      },
+      {
+       "speaker": "A",
+       "text": "One practical point is that the method does not require the market coefficients as inputs, which is the usual obstacle when expected returns and covariances must be estimated. I am working from the paper's abstract and introduction, so details of the algorithm are beyond what I can summarize here. The takeaway: reinforcement learning can respect a no-shorting rule with a tractable Gaussian exploration scheme."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Anthropic Reveals $17 Billion in Revenue as I.P.O. Approaches",
+     "url": "https://www.nytimes.com/2026/11/02/business/anthropic-earnings-ai.html",
+     "fulltext": "https://www.nytimes.com/2026/11/02/business/anthropic-earnings-ai.html",
+     "date": "2026-11-02",
+     "desc": "Anthropic's quarterly revenue totaled $17 billion, 12 times the same quarter a year earlier, while its net loss totaled $23 billion, according to figures disclosed ahead of its planned IPO. [NYT, published 2026-11-02]"
+    },
+    {
+     "title": "Inside Anthropic's Hunt for A.I. Computing Power",
+     "url": "https://www.nytimes.com/2026/11/02/technology/anthropic-ai-computing-power.html",
+     "fulltext": "https://www.nytimes.com/2026/11/02/technology/anthropic-ai-computing-power.html",
+     "date": "2026-11-02",
+     "desc": "The company struck a spree of deals with tech giants, former crypto miners and others to secure computing power for its AI ambitions. [NYT, published 2026-11-02]"
+    },
+    {
+     "title": "Cracks in the A.I. Borrowing Binge",
+     "url": "https://www.nytimes.com/2026/11/02/business/dealbook/ai-borrowing-binge.html",
+     "fulltext": "https://www.nytimes.com/2026/11/02/business/dealbook/ai-borrowing-binge.html",
+     "date": "2026-11-02",
+     "desc": "Investors are increasingly concerned about the debt-fueled spending spree at the heart of the AI buildout. [NYT, published 2026-11-02]"
+    },
+    {
+     "title": "Driven by A.I. Boom, Marvell and Lumentum Announce $115 Billion Merger",
+     "url": "https://www.nytimes.com/2026/11/02/technology/marvell-lumentum-115-billion-merger-ai.html",
+     "fulltext": "https://www.nytimes.com/2026/11/02/technology/marvell-lumentum-115-billion-merger-ai.html",
+     "date": "2026-11-02",
+     "desc": "The two firms are combining in a bet on optical networking, increasingly used in AI data centers; the Financial Times puts the deal at $115bn. [NYT, published 2026-11-02]"
+    },
+    {
+     "title": "Palantir Profit Soars as U.S. Commercial Revenue Overtakes Government Business",
+     "url": "https://www.wsj.com/business/earnings/palantir-lifts-outlook-as-u-s-commercial-business-overtakes-government-business-16eb693f",
+     "fulltext": "https://www.wsj.com/business/earnings/palantir-lifts-outlook-as-u-s-commercial-business-overtakes-government-business-16eb693f",
+     "date": "2026-11-03",
+     "desc": "Palantir's revenue surged and it said businesses are increasingly turning away from AI labs and seeking to control their use of the technology more fully. [WSJ, published 2026-11-03]"
+    },
+    {
+     "title": "Anthropic Investors Push for Cautious Valuation Closer to $1.5 Trillion",
+     "url": "https://www.wsj.com/finance/stocks/anthropic-investors-push-for-cautious-valuation-closer-to-1-5-trillion-2f2df9cf",
+     "fulltext": "https://www.wsj.com/finance/stocks/anthropic-investors-push-for-cautious-valuation-closer-to-1-5-trillion-2f2df9cf",
+     "date": "2026-11-02",
+     "desc": "Institutional investors planning to buy shares in the IPO are showing concern following a selloff in tech stocks and favor a valuation near $1.5 trillion. [WSJ, published 2026-11-02]"
+    },
+    {
+     "title": "Oracle Looks to Raise $20 Billion to Fund AI Ambitions",
+     "url": "https://www.wsj.com/finance/oracle-looks-to-raise-20-billion-to-fund-ai-ambitions-582c814f",
+     "fulltext": "https://www.wsj.com/finance/oracle-looks-to-raise-20-billion-to-fund-ai-ambitions-582c814f",
+     "date": "2026-11-02",
+     "desc": "Filings show Oracle selling $10 billion in common stock and $10 billion in bonds. [WSJ, published 2026-11-02]"
+    },
+    {
+     "title": "America's Multi-Trillion-Dollar AI Buildout Is on the Ballot—and Wall Street Is Watching",
+     "url": "https://www.wsj.com/finance/stocks/the-risks-state-and-local-elections-pose-for-wall-street-and-the-ai-trade-3bc5219d",
+     "fulltext": "https://www.wsj.com/finance/stocks/the-risks-state-and-local-elections-pose-for-wall-street-and-the-ai-trade-3bc5219d",
+     "date": "2026-11-02",
+     "desc": "Investors are following races in key states for pushback against the AI infrastructure build-out. [WSJ, published 2026-11-02]"
+    },
+    {
+     "title": "CIOs Say Companies Tighten Focus on AI Outcomes",
+     "url": "https://www.wsj.com/cio-journal/cios-say-companies-tighten-focus-on-ai-outcomes-6d85fe46",
+     "fulltext": "https://www.wsj.com/cio-journal/cios-say-companies-tighten-focus-on-ai-outcomes-6d85fe46",
+     "date": "2026-11-02",
+     "desc": "Chief information officers say companies are focusing more tightly on AI outcomes, with a look at how AI diffusion varies across industries. [WSJ, published 2026-11-02]"
+    },
+    {
+     "title": "Investors Split on Earnings Season Job Cuts Tied to AI and Costs",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-03/investors-split-on-earnings-season-job-cuts-tied-to-ai-and-costs",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-03/investors-split-on-earnings-season-job-cuts-tied-to-ai-and-costs",
+     "date": "2026-11-03",
+     "desc": "Companies have told investors of thousands of job cuts this earnings season as CEOs react to AI and the need to reduce costs. [Bloomberg, published 2026-11-03]"
+    },
+    {
+     "title": "AI Evolution Stokes 'Fear Factor,' StanChart CEO Winters Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-03/ai-evolution-stokes-fear-factor-stanchart-ceo-winters-says",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-03/ai-evolution-stokes-fear-factor-stanchart-ceo-winters-says",
+     "date": "2026-11-03",
+     "desc": "AI may come for hundreds of thousands of jobs, but Standard Chartered's CEO tells anxious employees that we have been here before. [Bloomberg, published 2026-11-03]"
+    },
+    {
+     "title": "Wall Street CEOs, Big Money Managers Divided Over AI Risks",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-03/wall-street-ceos-big-global-money-managers-debate-ai-risks",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-03/wall-street-ceos-big-global-money-managers-debate-ai-risks",
+     "date": "2026-11-03",
+     "desc": "Some of the biggest asset managers warn of risks to the AI boom even as Wall Street's top CEOs talk up the potential windfall. [Bloomberg, published 2026-11-03]"
+    },
+    {
+     "title": "Brookfield, QIA to Invest £2.5 Billion in Drax Data Center",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-03/brookfield-qai-to-invest-2-5-billion-in-data-center-for-drax",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-03/brookfield-qai-to-invest-2-5-billion-in-data-center-for-drax",
+     "date": "2026-11-03",
+     "desc": "Brookfield Asset Management and the Qatar Investment Authority agreed to invest £2.5 billion ($3.4 billion) in a data center project with UK power generator Drax. [Bloomberg, published 2026-11-03]"
+    },
+    {
+     "title": "Anthropic reveals $900bn AI spending commitments ahead of IPO",
+     "url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+     "fulltext": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+     "date": "2026-11-02",
+     "desc": "The Claude maker's infrastructure costs are rising faster than revenues, as investors scrutinise the economics of the AI boom. [Financial Times, published 2026-11-02]"
+    },
+    {
+     "title": "Nvidia orders data centre clients to reduce China exposure",
+     "url": "https://www.ft.com/content/1902df70-1380-4588-bad5-171352b575f2",
+     "fulltext": "https://www.ft.com/content/1902df70-1380-4588-bad5-171352b575f2",
+     "date": "2026-11-03",
+     "desc": "Nvidia has told cloud computing providers that a majority of their clients must be non-Chinese. [Financial Times, published 2026-11-03]"
+    },
+    {
+     "title": "Why America is struggling to power the AI boom",
+     "url": "https://www.ft.com/content/20d5599f-8955-4184-a2a0-ac1296e400f3",
+     "fulltext": "https://www.ft.com/content/20d5599f-8955-4184-a2a0-ac1296e400f3",
+     "date": "2026-11-03",
+     "desc": "The US is building electricity lines at a quarter the rate of a decade ago. [Financial Times, published 2026-11-03]"
+    },
+    {
+     "title": "AI is making CDS great again",
+     "url": "https://www.ft.com/content/67da8e84-17b3-4371-a1f8-2fbe02997491",
+     "fulltext": "https://www.ft.com/content/67da8e84-17b3-4371-a1f8-2fbe02997491",
+     "date": "2026-11-03",
+     "desc": "A column on credit default swaps and the basis, in the context of AI-related borrowing. [Financial Times, published 2026-11-03]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello, I'm Alex, and this is the AI Research Digest for November third, twenty twenty-six. Today: AI's economics in theory papers, AI trading agents, and a big week for AI financing."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. Let's start with the news. Anthropic disclosed quarterly revenue of seventeen billion dollars, twelve times a year earlier, but a net loss of twenty-three billion, according to the New York Times."
+  },
+  {
+   "speaker": "A",
+   "text": "And the Financial Times says the company revealed about nine hundred billion dollars of spending commitments, with infrastructure costs rising faster than revenue. The Wall Street Journal adds that institutional investors want a valuation nearer one and a half trillion dollars after a tech selloff."
+  },
+  {
+   "speaker": "B",
+   "text": "That fits another New York Times piece on cracks in the AI borrowing binge, as investors worry about debt-funded spending. Oracle is looking to raise twenty billion dollars, half stock and half bonds."
+  },
+  {
+   "speaker": "A",
+   "text": "On the power side, the Financial Times notes the US is building electricity lines at a quarter of the rate of a decade ago, while Brookfield and Qatar's investment authority will put two and a half billion pounds into a Drax data center."
+  },
+  {
+   "speaker": "B",
+   "text": "Now research. A theory paper, the Market for AI-Assisted Signaling, asks what happens when AI helps people signal ability, like writing cover letters. Its answer: profitable assistance can lower welfare, because easier imitation forces people to produce even more to stand out."
+  },
+  {
+   "speaker": "A",
+   "text": "A related paper, the Verification Bottleneck, models peer review. Cheaper research production lets weaker researchers imitate stronger ones, and beyond a threshold, reviewer capacity and verified knowledge can decline."
+  },
+  {
+   "speaker": "B",
+   "text": "Another paper finds that three frontier language models score the same document differently when only its filename changes. A person-like label scores higher than none."
+  },
+  {
+   "speaker": "A",
+   "text": "In finance, a paper on learning AI agents and automated market makers shows that herd-dominated and arbitrage-dominated markets can have identical return distributions, so volatility and value at risk cannot tell them apart, yet stress lasts very different lengths of time."
+  },
+  {
+   "speaker": "B",
+   "text": "And an event study built on a registry of nearly six thousand AI outages finds that when OpenAI is down, new trading-bot releases on Ethereum fall to about two thirds of normal, while already deployed bots keep trading."
+  },
+  {
+   "speaker": "A",
+   "text": "One more: EventGPT, a transformer trained on bank transactions, predicts first-time transaction types with no labels, at ROC-AUC between point seven nine and point nine two."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest. Full summaries and the short audio explainers are in the web archive. Thanks for listening."
+  },
+  {
+   "speaker": "A",
+   "text": "Bye from both of us."
+  }
+ ],
+ "footnote": "Window: 2026-11-02 (last run) → 2026-11-03. The Washington Post could not be reached this run (feeds returned HTTP 502). SSRN was not searched this run. News summaries are based on feed teasers only."
+}
