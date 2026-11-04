@@ -1,0 +1,619 @@
+{
+ "date": "2026-11-04",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Prizes, Shared Hazard, and the Speed of Frontier AI",
+     "url": "https://arxiv.org/abs/2611.04266",
+     "fulltext": "https://arxiv.org/pdf/2611.04266",
+     "date": "2026-11-03",
+     "desc": "A calibrated takeoff model of three racing frontier AI labs finds a contest for commercial leadership plus a shared catastrophe hazard produces much faster racing: 18 months versus 69 months under a common research-share rule. Removing the contest closes most of the catastrophe-risk gap, and the model suggests an audit-only accord would not slow the race. [arXiv econ.GN, submitted 2026-11-03]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Welcome back. Today a paper on why frontier AI labs might move faster than anyone would choose. This summary is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The setup: labs compete for commercial leadership, but they share the risk of catastrophe. Each lab gains from arriving earlier, yet bears only part of the hazard its speed adds. The author calls that the hazard externality."
+      },
+      {
+       "speaker": "A",
+       "text": "So what does the model say?"
+      },
+      {
+       "speaker": "B",
+       "text": "In an illustrative calibrated takeoff, three racing labs get through the takeoff period in eighteen months. A common rule on research shares would stretch it to sixty-nine months."
+      },
+      {
+       "speaker": "A",
+       "text": "And which force matters more, the contest or the shared hazard?"
+      },
+      {
+       "speaker": "B",
+       "text": "Neither alone explains it, but removing the contest first closes over ninety percent of the gap in catastrophe probability when full-speed catastrophe probability is seventy-five percent, and sixty-nine percent when it is twenty-five percent."
+      },
+      {
+       "speaker": "A",
+       "text": "Interesting that more labs make each lab race harder, and that perfect open source, where everyone publishes findings at once, slows labs to the coordinated pace."
+      },
+      {
+       "speaker": "B",
+       "text": "Right, because no one can get ahead. One lab's restraint achieves much less than a common rule. And the paper argues the September 2026 White House accord, which audits safety but limits no speed, would not slow the race in the model."
+      },
+      {
+       "speaker": "A",
+       "text": "Caveat: it's an illustrative calibration, so treat the numbers as a demonstration. Takeaway: speed rules, not just safety audits, are what change racing incentives."
+      }
+     ]
+    },
+    {
+     "title": "Agreements Have a Clock: Compute Growth and the Verification of AI Restraint",
+     "url": "https://arxiv.org/abs/2611.04272",
+     "fulltext": "https://arxiv.org/pdf/2611.04272",
+     "date": "2026-11-03",
+     "desc": "A game-theoretic model of a pause on frontier AI shows agreements 'have a clock': as compute grows during a pause, a secret advance catches the frozen frontier sooner and the response window shrinks. In the example, cooperation holds through month 18.9, extended to 25.5 with verified safety research and 31.8 with halved monitoring costs. [arXiv econ.GN, submitted 2026-11-03]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Next, a paper on how long an international pause on frontier AI could hold. Based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The question: what does an agreement to pause frontier AI need, compared with past arms or ozone agreements?"
+      },
+      {
+       "speaker": "A",
+       "text": "The model has a leader and a follower. The follower advances through its own research and by diffusion from the leader, and diffusion fades as the gap closes, so a paused leader stays ahead longer than its raw lead suggests."
+      },
+      {
+       "speaker": "B",
+       "text": "Then they solve an agreement game with voluntary entry, costly monitoring, secret advances and credible responses."
+      },
+      {
+       "speaker": "A",
+       "text": "Cooperation is supportable when the monitoring needed to deter a breakout costs no more than either country gains from cooperating."
+      },
+      {
+       "speaker": "B",
+       "text": "The twist is the clock: as compute keeps growing during a pause, a secret advance reaches the frozen frontier sooner, shrinking the time to respond."
+      },
+      {
+       "speaker": "A",
+       "text": "In their example with a fixed leader window, cooperation is supportable through month eighteen point nine. Verified matched safety research extends that to month twenty-five point five, and halving monitoring cost to month thirty-one point eight."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: verification costs and compute growth, not just goodwill, decide how long a pause can last."
+      }
+     ]
+    },
+    {
+     "title": "Designing AI-Mediated Communication in Teams",
+     "url": "https://arxiv.org/abs/2611.04686",
+     "fulltext": "https://arxiv.org/pdf/2611.04686",
+     "date": "2026-11-03",
+     "desc": "Models how a firm should design AI-assistant-mediated communication when workers' interests conflict with each other's and the firm's. Full disclosure helps under strong coordination, while coarsening project information can preserve truthful preference reports under weak coordination, and the firm-optimal policy can leave workers worse off. [arXiv cs.GT, submitted 2026-11-03]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Now a theory paper on AI assistants at work. Based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "AI assistants increasingly help employees exchange information and coordinate. This paper asks how a firm should design that communication when workers' interests conflict."
+      },
+      {
+       "speaker": "A",
+       "text": "In the model, two workers know local conditions and their own preferences, while the assistant knows aggregate project conditions. The firm decides what project information to disclose before workers report and act."
+      },
+      {
+       "speaker": "B",
+       "text": "Transparency helps adaptation but can undermine truthful preference reporting."
+      },
+      {
+       "speaker": "A",
+       "text": "Exactly. Under strong coordination, the firm prefers full disclosure and factual reports. Under weak coordination, coarsening project information can preserve useful reporting at a cost in forecast precision."
+      },
+      {
+       "speaker": "B",
+       "text": "And workers? The paper says the firm-optimal policy can leave them worse off than direct exchange with each other."
+      },
+      {
+       "speaker": "A",
+       "text": "Timing matters too: releasing project context after reports can sustain factual communication that early release would prevent."
+      },
+      {
+       "speaker": "B",
+       "text": "Numerical comparisons show full initial disclosure captures most gains in aligned settings. Takeaway: how and when an AI assistant shares information changes whether employees tell the truth."
+      }
+     ]
+    },
+    {
+     "title": "Experimentally Validated Digital Twins: Evaluating Workforce Training Programs in the Age of Big Data",
+     "url": "https://arxiv.org/abs/2611.03938",
+     "fulltext": "https://arxiv.org/pdf/2611.03938",
+     "date": "2026-11-02",
+     "desc": "Uses machine-learning models on IRS tax records for all US adults (1999–2025) to predict counterfactual earnings and estimate effects of workforce training programs; against 37 RCTs the estimates match closely, with RMSE comparable to the RCTs and 60% lower than parametric estimators. Programs placing participants in target-sector jobs yield the largest, persistent gains. [arXiv econ.GN, submitted 2026-11-02]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Let's talk about using machine learning to evaluate job training. This is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The worry in program evaluation is that observational estimates often diverge from randomized trials. But that finding came from small survey datasets."
+      },
+      {
+       "speaker": "A",
+       "text": "These authors use anonymized income tax records covering all American adults from 1999 to 2025, and machine learning models to predict what earnings would have been without training."
+      },
+      {
+       "speaker": "B",
+       "text": "How do they check it?"
+      },
+      {
+       "speaker": "A",
+       "text": "They use thirty-seven randomized trials to estimate the distribution of bias in their estimates. The machine learning estimates closely match the trials, with error comparable to the trials themselves."
+      },
+      {
+       "speaker": "B",
+       "text": "And compared with older methods, it cuts root mean squared error by sixty percent."
+      },
+      {
+       "speaker": "A",
+       "text": "Applied beyond the experimental sample, effects vary a lot across locations and years, even within one program. Programs that place participants into target-sector jobs generate the biggest earnings gains, persisting after people leave their first job."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: with rich administrative data, experimentally validated digital twins can scale program evaluation."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "CosmosAlpha: Multi-Relational Graph Search with Pareto-Guided Exploration for LLM-Driven Alpha Mining",
+     "url": "https://arxiv.org/abs/2611.04555",
+     "fulltext": "https://arxiv.org/pdf/2611.04555",
+     "date": "2026-11-03",
+     "desc": "Introduces CosmosAlpha, an LLM-driven alpha-factor mining framework that organizes discovered factors in a multi-relational graph with Pareto-guided selection. On CSI 300 and CSI 500 it gets the best mean rank across seven metrics and beats its tree-search variant on every reported metric. [arXiv q-fin.CP, submitted 2026-11-03]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "A quant finance paper: using LLMs to mine alpha factors. Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "LLM-driven formulaic alpha mining generates symbolic factor expressions and refines them with quantitative feedback. Existing search strategies organize factors by generation lineage, leaving relationships across branches unused."
+      },
+      {
+       "speaker": "A",
+       "text": "CosmosAlpha represents factors as a graph encoding lineage, expression similarity and cross-sectional exposure correlation, and propagates search utility across it."
+      },
+      {
+       "speaker": "B",
+       "text": "And selection?"
+      },
+      {
+       "speaker": "A",
+       "text": "Pareto-guided: it weighs quality, fertility and diversity together instead of one criterion."
+      },
+      {
+       "speaker": "B",
+       "text": "On CSI 300 and CSI 500, it achieves the best mean rank over seven predictive and portfolio metrics and beats the tree-search version on every reported metric. Takeaway: relational graph search finds better factors than tree search."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does that matter outside the lab? Because alpha mining is a crowded field, and any method that explores less redundant regions of the factor space could save a lot of search effort."
+      },
+      {
+       "speaker": "B",
+       "text": "Though remember this is Chinese equity data only, and the abstract reports ranks across metrics rather than a headline return figure, so we can't say how much money it would make after costs. The code is public, which should help others check the claims."
+      }
+     ]
+    },
+    {
+     "title": "Multidimensional Views Behind Target-Price Revisions: An LLM-Based Representation of Analyst Outlooks",
+     "url": "https://arxiv.org/abs/2611.04119",
+     "fulltext": "https://arxiv.org/pdf/2611.04119",
+     "date": "2026-11-03",
+     "desc": "Proposes an LLM-based method that extracts question-based outlook scores from analyst research reports; in walk-forward tests the scores improve prediction of subsequent target-price revisions beyond momentum and sector effects and outperform dictionary and FinBERT sentiment. [arXiv q-fin.CP, submitted 2026-11-03]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Next, how LLMs can read analyst reports. Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "A target price squeezes an analyst's many views into one number. This paper uses an LLM to pull those views out of research reports as question-based outlook scores, with supporting evidence."
+      },
+      {
+       "speaker": "A",
+       "text": "The questions cover earnings, valuation, industry conditions and other dimensions."
+      },
+      {
+       "speaker": "B",
+       "text": "Does it help?"
+      },
+      {
+       "speaker": "A",
+       "text": "In walk-forward evaluation, the scores improve prediction of later target-price revisions beyond current-revision momentum and sector differences, and beat financial dictionary and FinBERT sentiment."
+      },
+      {
+       "speaker": "B",
+       "text": "And it's inspectable, since each score links to an explicit question and report evidence. Takeaway: analyst narratives contain information the headline number misses."
+      },
+      {
+       "speaker": "A",
+       "text": "A practical point is that the evaluation is walk-forward, so each prediction only uses information available at the time, which guards against look-ahead."
+      },
+      {
+       "speaker": "B",
+       "text": "Right, but the abstract doesn't give effect sizes, so we can't say how large the improvement is. And the scores predict revisions of target prices, not necessarily stock returns, so treat it as evidence about analyst behaviour rather than a trading strategy."
+      }
+     ]
+    },
+    {
+     "title": "Thinking Fast, Trading Late: System One Decision Models vs the Market",
+     "url": "https://arxiv.org/abs/2611.03985",
+     "fulltext": "https://arxiv.org/pdf/2611.03985",
+     "date": "2026-11-02",
+     "desc": "Proposes OLIVIA, a leak-proof testing protocol for LLM news-based return prediction. A fine-tuned model's signal fell to an information coefficient of 0.020 (t = 1.7) on a blinded Jan–Jul 2026 test, commercial models' readings only matched the overnight move, and no pre-registered strategy survived costs: the market reads the news first. [arXiv cs.AI, submitted 2026-11-02]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "A cautionary paper now, on whether language models really predict stock returns from news. Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Backtests suggest LLMs reading company news predict returns. The authors ask how much survives once you rule out look-ahead, memorization and selection."
+      },
+      {
+       "speaker": "A",
+       "text": "They propose a protocol called OLIVIA: point-in-time inputs with company names masked, selection on validation data only, an analysis plan frozen by cryptographic hash, and a test period unblinded once."
+      },
+      {
+       "speaker": "B",
+       "text": "What happened?"
+      },
+      {
+       "speaker": "A",
+       "text": "A fine-tuned open-weights model had daily information coefficients of point zero five five and point zero six five on two validation quarters, but only point zero two zero on the blinded January to July 2026 test."
+      },
+      {
+       "speaker": "B",
+       "text": "And commercial models?"
+      },
+      {
+       "speaker": "A",
+       "text": "Their readings line up with the overnight move to the open but not the move after, so the news is already priced by the time a trader can act. Also, they identify masked companies in sixty-two to seventy-four percent of cases, so masking hides names, not companies."
+      },
+      {
+       "speaker": "B",
+       "text": "No pre-registered strategy survives costs. Takeaway: the market reads the news first."
+      }
+     ]
+    },
+    {
+     "title": "Are LLM Research Agents Reliable Judges of Predictability? Evidence from Planted-Signal Worlds",
+     "url": "https://arxiv.org/abs/2611.04070",
+     "fulltext": "https://arxiv.org/pdf/2611.04070",
+     "date": "2026-11-02",
+     "desc": "Scores frontier LLM research agents as statistical tests in simulated worlds with a planted signal: they detect weak signals more often than an out-of-sample test mainly by accepting weaker evidence, claim predictability too often when none exists, and are miscalibrated. Verdicts need a neutral brief, an external decision rule and a sealed holdout. [arXiv q-fin.ST, submitted 2026-11-02]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Can an AI research agent tell you if a forecasting model really works? Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Researchers increasingly ask LLM agents whether a model beats a benchmark. Real data can't check that verdict, so the authors simulate worlds with a planted signal."
+      },
+      {
+       "speaker": "A",
+       "text": "They treat the agent like a statistical test and score three frontier models and one open-weight model."
+      },
+      {
+       "speaker": "B",
+       "text": "Results?"
+      },
+      {
+       "speaker": "A",
+       "text": "The agents detect weak signals more often than a pre-specified out-of-sample test, but mainly because they accept weaker evidence. Held to the same false-positive rate, a conventional in-sample test does as well or better."
+      },
+      {
+       "speaker": "B",
+       "text": "They also claim predictability too often in worlds with no signal, state miscalibrated probabilities, and change verdicts after one sentence about prior research."
+      },
+      {
+       "speaker": "A",
+       "text": "Magnitudes depend on the model. The advice: use a neutral brief, a decision rule fixed outside the agent, and a sealed holdout. Takeaway: informative, but not a judge to trust alone."
+      },
+      {
+       "speaker": "B",
+       "text": "Why does this matter now? Because more empirical finance work is being run by AI research agents, and a lenient agent will produce many false discoveries that look publishable."
+      },
+      {
+       "speaker": "A",
+       "text": "The design is clever: since real data cannot tell you the truth, planting a signal gives a ground truth against which the agent's verdict can be scored."
+      },
+      {
+       "speaker": "B",
+       "text": "Exactly. One caveat is that these are simulated worlds, so real markets may differ, and the abstract says the size of the problem depends on which model you use."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "Democratizing Optimization with Generative AI",
+     "url": "https://pubsonline.informs.org/doi/10.1287/opre.2025.2412",
+     "fulltext": "https://pubsonline.informs.org/doi/10.1287/opre.2025.2412",
+     "date": "2026-11-03",
+     "desc": "Argues GenAI can bridge the gap between optimization's capabilities and its real-world uptake, presenting a '4I' framework (Insight, Interpretability, Interactivity, Improvisation) in which GenAI makes optimization conversational and explainable while optimization enforces business constraints; also discusses hallucination and over-reliance risks. [Operations Research, published online 2026-11-03]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Finally, an Operations Research article on generative AI and optimization. Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Optimization is powerful but little used beyond specialists. The authors argue GenAI can close that gap."
+      },
+      {
+       "speaker": "A",
+       "text": "They present the 4I framework: Insight, Interpretability, Interactivity and Improvisation."
+      },
+      {
+       "speaker": "B",
+       "text": "What does each mean?"
+      },
+      {
+       "speaker": "A",
+       "text": "Insight is a trusted, current view of operations; interpretability explains model logic and trade-offs; interactivity enables conversational what-if analysis; improvisation supports model updates and event-driven re-optimization."
+      },
+      {
+       "speaker": "B",
+       "text": "GenAI complements rather than replaces optimization: it lowers barriers to modeling, while optimization enforces goals and hard constraints."
+      },
+      {
+       "speaker": "A",
+       "text": "They also flag hallucinations and over-reliance. Takeaway: pair chat interfaces with solvers so frontline decisions stay rigorous."
+      },
+      {
+       "speaker": "B",
+       "text": "This is a perspective article rather than an empirical study, so there are no experiments or headline numbers in the abstract."
+      },
+      {
+       "speaker": "A",
+       "text": "Right. Its value is the design principles. Think of a planner asking in plain language what happens if a supplier is late, and the system re-optimizing while still respecting the hard rules encoded in the model."
+      },
+      {
+       "speaker": "B",
+       "text": "And the authors outline research directions for integrating the two responsibly, which suggests plenty of open work on trust and verification."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Voters Rejecting Data Center Development in Ballot Measures",
+     "url": "https://www.wsj.com/livecoverage/midterm-election-results-2026-latest-updates/card/voters-rejecting-data-center-development-in-ballot-measures-G2USC5DVgAzw4W8aODHa",
+     "fulltext": "https://www.wsj.com/livecoverage/midterm-election-results-2026-latest-updates/card/voters-rejecting-data-center-development-in-ballot-measures-G2USC5DVgAzw4W8aODHa",
+     "date": "2026-11-04",
+     "desc": "Ballot measures show voters rejecting data center development, a sign of local backlash against the AI infrastructure build-out. [WSJ, published 2026-11-04]"
+    },
+    {
+     "title": "Meta Starts Debut Euro Bond as AI Funding Race Gets Costlier",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-04/meta-starts-debut-euro-bond-sale-after-15-billion-dollar-deal",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-04/meta-starts-debut-euro-bond-sale-after-15-billion-dollar-deal",
+     "date": "2026-11-04",
+     "desc": "Meta Platforms is set to pay generous yields in its first euro bond sale, following a $15 billion deal, as big tech's race to fund AI gets costlier. [Bloomberg, published 2026-11-04]"
+    },
+    {
+     "title": "Google to Spend $15 Billion in Malaysia Data Center Expansion",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-04/google-to-spend-15-billion-in-malaysia-data-center-expansion",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-04/google-to-spend-15-billion-in-malaysia-data-center-expansion",
+     "date": "2026-11-04",
+     "desc": "Google plans to spend $15 billion expanding data center and cloud operations in Malaysia as the AI boom spreads across the region. [Bloomberg, published 2026-11-04]"
+    },
+    {
+     "title": "Nvidia China Clients to Get 1% of $70 Billion RTX Chips Ordered",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-04/nvidia-china-clients-to-get-1-of-70-billion-rtx-chips-ordered",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-04/nvidia-china-clients-to-get-1-of-70-billion-rtx-chips-ordered",
+     "date": "2026-11-04",
+     "desc": "Chinese AI developers expect to receive only about 1% of the $70 billion of Nvidia RTX chips they have ordered over the next several months. [Bloomberg, published 2026-11-04]"
+    },
+    {
+     "title": "Thailand Growth Forecasts Raised on Factory Data Revamp",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-04/thailand-growth-forecasts-raised-on-factory-data-revamp",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-04/thailand-growth-forecasts-raised-on-factory-data-revamp",
+     "date": "2026-11-04",
+     "desc": "Thailand's growth forecasts are rising as revised factory data show a bigger boost from the AI boom, though much of the economy remains weak. [Bloomberg, published 2026-11-04]"
+    },
+    {
+     "title": "Democratic governors elected on promises to stop data centre building",
+     "url": "https://www.ft.com/content/badd6af9-88b7-47b7-b1c2-067814e70fb5",
+     "fulltext": "https://www.ft.com/content/badd6af9-88b7-47b7-b1c2-067814e70fb5",
+     "date": "2026-11-04",
+     "desc": "Democratic gubernatorial wins in Texas, Georgia and Ohio, plus local ballot measures, show discontent with the Trump-backed data centre building spree. [Financial Times, published 2026-11-04]"
+    },
+    {
+     "title": "Are we ready for an AI bust?",
+     "url": "https://www.ft.com/content/b954b99c-b71e-4334-9789-18e2b69de76d",
+     "fulltext": "https://www.ft.com/content/b954b99c-b71e-4334-9789-18e2b69de76d",
+     "date": "2026-11-04",
+     "desc": "An FT column argues that the longer the AI investment surge and its financial engineering continue, the bigger the negative impact when it ends. [Financial Times, published 2026-11-04]"
+    },
+    {
+     "title": "Oracle cancels $7bn Tencent AI deal under Trump pressure",
+     "url": "https://www.ft.com/content/c5a6a738-cd78-4a8e-a814-57a7473ebb9c",
+     "fulltext": "https://www.ft.com/content/c5a6a738-cd78-4a8e-a814-57a7473ebb9c",
+     "date": "2026-11-04",
+     "desc": "Oracle cancelled a $7bn AI deal with Tencent under Trump administration pressure, amid growing tension for US AI infrastructure groups doing business with Chinese tech giants. [Financial Times, published 2026-11-04]"
+    },
+    {
+     "title": "China’s AI stock-market struggles are a warning",
+     "url": "https://www.economist.com/finance-and-economics/2026/11/03/chinas-ai-stock-market-struggles-are-a-warning",
+     "fulltext": "https://www.economist.com/finance-and-economics/2026/11/03/chinas-ai-stock-market-struggles-are-a-warning",
+     "date": "2026-11-03",
+     "desc": "The Economist asks what happens when the supply of new tech catches up with demand, as China's AI-linked stocks struggle. [The Economist, published 2026-11-03]"
+    },
+    {
+     "title": "Beijing Reins In IPO Rush After AI Concerns Hit Stock Market",
+     "url": "https://www.wsj.com/finance/stocks/beijing-reins-in-ipo-rush-after-ai-concerns-hit-stock-market-d6abe32b",
+     "fulltext": "https://www.wsj.com/finance/stocks/beijing-reins-in-ipo-rush-after-ai-concerns-hit-stock-market-d6abe32b",
+     "date": "2026-11-03",
+     "desc": "China's market regulator told banks ongoing IPO processes would continue but no new listings would be taken up for now, after AI concerns hit the stock market. [WSJ, published 2026-11-03]"
+    },
+    {
+     "title": "Bitcoin Miners Pivoted to AI—Only to Find It’s Just as Turbulent as Crypto",
+     "url": "https://www.wsj.com/finance/currencies/bitcoin-miners-pivoted-to-aionly-to-find-its-just-as-turbulent-as-crypto-17485887",
+     "fulltext": "https://www.wsj.com/finance/currencies/bitcoin-miners-pivoted-to-aionly-to-find-its-just-as-turbulent-as-crypto-17485887",
+     "date": "2026-11-03",
+     "desc": "Bitcoin miners that swapped their servers for AI data centers are finding the business no easier than crypto: operating AI data centers is just as turbulent. [WSJ, published 2026-11-03]"
+    },
+    {
+     "title": "Demand for Forward-Deployed Engineers Is Leading to $1.5 Million Paychecks",
+     "url": "https://www.wsj.com/cio-journal/demand-for-forward-deployed-engineers-is-leading-to-1-5-million-paychecks-c1cd713a",
+     "fulltext": "https://www.wsj.com/cio-journal/demand-for-forward-deployed-engineers-is-leading-to-1-5-million-paychecks-c1cd713a",
+     "date": "2026-11-03",
+     "desc": "Demand for forward-deployed engineers is producing paychecks around $1.5 million as enterprises, AI labs and consulting firms fight for the same talent in the hunt for corporate AI returns. [WSJ, published 2026-11-03]"
+    },
+    {
+     "title": "Canva Announces Layoffs, Job Changes for About 22% of Workforce",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-03/canva-announces-layoffs-job-changes-for-about-22-of-workforce",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-03/canva-announces-layoffs-job-changes-for-about-22-of-workforce",
+     "date": "2026-11-03",
+     "desc": "Canva announced job cuts and changes affecting about 22% of its workforce, as artificial intelligence forces a structural overhaul. [Bloomberg, published 2026-11-03]"
+    },
+    {
+     "title": "AMD Forecast Exceeds Estimates After AI Chip Demand Soars",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-03/amd-sales-forecast-tops-estimates-on-soaring-ai-chip-demand",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-03/amd-sales-forecast-tops-estimates-on-soaring-ai-chip-demand",
+     "date": "2026-11-03",
+     "desc": "AMD gave a sales forecast well above analyst projections as AI chip demand soars, reinforcing its position as Nvidia's main challenger. [Bloomberg, published 2026-11-03]"
+    },
+    {
+     "title": "A chill wind in the AI credit market",
+     "url": "https://www.ft.com/content/5f08f1fb-4948-4420-8fe4-3c8c8cc492ef",
+     "fulltext": "https://www.ft.com/content/5f08f1fb-4948-4420-8fe4-3c8c8cc492ef",
+     "date": "2026-11-03",
+     "desc": "Investors are demanding more to finance the data centre boom, signalling a chill in the AI credit market. [Financial Times, published 2026-11-03]"
+    },
+    {
+     "title": "Marshall Wace and Millennium hit as hedge funds suffer in October’s AI rout",
+     "url": "https://www.ft.com/content/fae029f1-f03e-4509-852e-396fa4863271",
+     "fulltext": "https://www.ft.com/content/fae029f1-f03e-4509-852e-396fa4863271",
+     "date": "2026-11-03",
+     "desc": "Hedge funds including Marshall Wace and Millennium suffered losses in October as a tech correction and bond market turbulence produced an AI rout. [Financial Times, published 2026-11-03]"
+    },
+    {
+     "title": "Apollo lends record $114bn as it piles into AI financing boom",
+     "url": "https://www.ft.com/content/72cb3140-49ba-4ce1-be8c-ee5295612b55",
+     "fulltext": "https://www.ft.com/content/72cb3140-49ba-4ce1-be8c-ee5295612b55",
+     "date": "2026-11-03",
+     "desc": "Apollo lent a record $114bn in the third quarter as it piles into AI financing, including funding for Anthropic and chipmaker Nvidia. [Financial Times, published 2026-11-03]"
+    },
+    {
+     "title": "The AI problem we feared is not the AI problem we got",
+     "url": "https://www.ft.com/content/cf6fd711-cfa5-49f9-9958-3aec32369286",
+     "fulltext": "https://www.ft.com/content/cf6fd711-cfa5-49f9-9958-3aec32369286",
+     "date": "2026-11-03",
+     "desc": "An FT commentary says AI-related lay-offs are low by historical standards, but young people may still need help finding a foothold in the labour market. [Financial Times, published 2026-11-03]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Good morning, and welcome to the AI Research Digest for November fourth, 2026. I'm Alex."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. Today: racing and pausing frontier AI, skepticism about language models in trading, and a lot of money chasing data centers."
+  },
+  {
+   "speaker": "A",
+   "text": "Let's start with research. A new arXiv paper on frontier AI labs models three racing labs that gain from arriving first but share the risk of catastrophe."
+  },
+  {
+   "speaker": "B",
+   "text": "In the calibrated example they get through takeoff in eighteen months, versus sixty-nine months under a common rule on research shares. The author says removing the contest explains most of the gap, and that an audit-only accord would not slow the race."
+  },
+  {
+   "speaker": "A",
+   "text": "A companion paper asks how long a pause on frontier AI could hold. Its answer is that agreements have a clock, because compute keeps growing and a secret advance reaches the frozen frontier sooner."
+  },
+  {
+   "speaker": "B",
+   "text": "In their example cooperation holds through month eighteen point nine, stretching to thirty-one point eight if monitoring costs are halved."
+  },
+  {
+   "speaker": "A",
+   "text": "Moving to finance. A paper called Thinking Fast, Trading Late tests whether language models reading news really predict stock returns, with masked names and a frozen analysis plan."
+  },
+  {
+   "speaker": "B",
+   "text": "The fine-tuned model's information coefficient fell to point zero two on the blinded test, commercial models only tracked the overnight move, and no strategy survived costs. The market reads the news first."
+  },
+  {
+   "speaker": "A",
+   "text": "A related paper tests LLM research agents as judges of predictability. They claim predictability too often when there's no signal, so you need a sealed holdout and a rule set outside the agent."
+  },
+  {
+   "speaker": "B",
+   "text": "There's also work using an LLM to pull structured outlook scores from analyst reports, which beat FinBERT in predicting target-price revisions."
+  },
+  {
+   "speaker": "A",
+   "text": "On labor, researchers used machine learning on tax records for all American adults to evaluate job training. Their estimates matched thirty-seven randomized trials, and programs placing people in target-sector jobs gained most."
+  },
+  {
+   "speaker": "B",
+   "text": "And in Operations Research, a new article argues generative AI can make optimization conversational and explainable, while the solver still enforces the hard constraints."
+  },
+  {
+   "speaker": "A",
+   "text": "Now the news. Financing is the theme. The Financial Times reports investors are demanding more to fund the data center boom, and hedge funds took losses in October's AI rout."
+  },
+  {
+   "speaker": "B",
+   "text": "Meanwhile Meta is selling its first euro bond, Google plans fifteen billion dollars in Malaysia, and Apollo lent a record one hundred fourteen billion dollars in the quarter."
+  },
+  {
+   "speaker": "A",
+   "text": "There's a political twist too. Democratic governors won in Texas, Georgia and Ohio, and ballot measures showed voter discontent with data center building."
+  },
+  {
+   "speaker": "B",
+   "text": "On the chip side, Bloomberg says Chinese developers expect only about one percent of the seventy billion dollars of Nvidia chips they ordered, and Oracle cancelled a seven billion dollar Tencent deal."
+  },
+  {
+   "speaker": "A",
+   "text": "And on jobs, Canva is cutting about twenty-two percent of its workforce, while The Wall Street Journal says forward-deployed engineers are earning around one and a half million dollars."
+  },
+  {
+   "speaker": "B",
+   "text": "That's it for today. Find the full list and the archive on the digest website. Thanks for listening."
+  },
+  {
+   "speaker": "A",
+   "text": "See you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-11-03 (last run) → 2026-11-04. The Washington Post could not be reached this run (feeds returned HTTP 502). SSRN searches returned no postings with a verified in-window date, so none are included. News summaries are based on feed teasers only; paper podcasts are based on abstracts."
+}
