@@ -1,0 +1,507 @@
+{
+ "date": "2026-11-05",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Does Frontier AI Strengthen Cyber Defense? Evidence from Project Glasswing",
+     "url": "https://arxiv.org/abs/2611.06629",
+     "fulltext": "https://arxiv.org/pdf/2611.06629",
+     "date": "2026-11-04",
+     "desc": "Using the launch of Project Glasswing, which gave a few large US tech firms early access to a vulnerability-finding model, the paper compares disclosures with Chinese and Russian firms lacking access: access firms more than doubled disclosures and found about 150 percent more high-impact flaws, with no sign attackers exploited the extra bugs. [arXiv econ.GN, submitted 2026-11-04]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Welcome to the explainer. I'm Alex, and this is based on the abstract only, not the full paper. Today: does giving defenders a frontier AI model actually make software safer?"
+      },
+      {
+       "speaker": "B",
+       "text": "I'm Sam. The setup is a natural experiment. Project Glasswing gave a small group of large US tech firms early access to a model built for finding software vulnerabilities."
+      },
+      {
+       "speaker": "A",
+       "text": "And the author compares those firms against Chinese and Russian tech firms that did not get access, using the universe of publicly disclosed vulnerabilities."
+      },
+      {
+       "speaker": "B",
+       "text": "The headline: firms with access more than doubled their disclosures, and disclosed about one hundred fifty percent more high-impact vulnerabilities. Importantly, they fixed flaws just as quickly as before."
+      },
+      {
+       "speaker": "A",
+       "text": "There's an interesting market effect too. External researchers, who sell findings through bug bounties, reported about half as many vulnerabilities in the treated firms' code, and more in other firms' code, without leaving the market."
+      },
+      {
+       "speaker": "B",
+       "text": "What about attackers? The abstract says there's no evidence they exploited the additional vulnerabilities. The share exploited within a month of disclosure fell by about two thirds, mostly because fewer were already exploited when disclosed, while the number exploited didn't change."
+      },
+      {
+       "speaker": "A",
+       "text": "So the caveat is distributional. Frontier AI helped defenders find and fix more flaws before attackers got to them, but the restricted release creates an asymmetry in software security between firms in different countries."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: early, restricted access to defensive AI seems to help defenders, and it also creates a gap between those with access and those without."
+      }
+     ]
+    },
+    {
+     "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
+     "url": "https://arxiv.org/abs/2611.06888",
+     "fulltext": "https://arxiv.org/pdf/2611.06888",
+     "date": "2026-11-04",
+     "desc": "Using 21 O*NET items across 754 US occupations, the paper finds higher AI exposure goes with lower working-condition scores, but the association shrinks after adjusting for physical demands, education, training and wages, and confidence intervals include zero for the LLM-based exposure measure. [arXiv cs.AI, submitted 2026-11-04]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Welcome. I'm Alex, and this episode works from the abstract only. The question: is AI automating the dull, dirty and dangerous jobs, as often promised?"
+      },
+      {
+       "speaker": "B",
+       "text": "I'm Sam. The author uses twenty-one O*NET items covering seven hundred fifty-four US occupations, and relates those working-condition scores to two measures of AI exposure: one built with a large language model, and the established AI Occupational Exposure index."
+      },
+      {
+       "speaker": "A",
+       "text": "What do they find at first glance?"
+      },
+      {
+       "speaker": "B",
+       "text": "Higher exposure goes with lower condition scores under both measures, whether you weight occupations equally or by employment. So exposed jobs look like the dull, dirty or dangerous ones."
+      },
+      {
+       "speaker": "A",
+       "text": "But then the adjustments matter. Controlling for physical demands, required education, training and experience, and wages, the association shrinks. For the LLM exposure measure the adjusted confidence intervals include zero. For the older AIOE measure they stay below zero."
+      },
+      {
+       "speaker": "B",
+       "text": "The author also splits repetition from restricted discretion, and that changes what the combined Dull score actually conveys. So how you group the items shapes the interpretation."
+      },
+      {
+       "speaker": "A",
+       "text": "The limits are stated plainly: occupational profiles are a starting point for choosing research settings, but showing that automation actually relieves workers needs evidence about worker preferences and specific interventions."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: exposure scores don't by themselves tell us AI removes the worst parts of work."
+      }
+     ]
+    },
+    {
+     "title": "Decision Models as Scalable Economic Surrogates that Capture Human Variation",
+     "url": "https://arxiv.org/abs/2611.05553",
+     "fulltext": "https://arxiv.org/pdf/2611.05553",
+     "date": "2026-11-03",
+     "desc": "Compares 10 Decision Models, a new class of fast AI models returning probability distributions over options, with 8 LLMs as human surrogates in a spending survey, classic economic games and a labour-market field experiment; frontier DMs reproduce human variation better, run about 10x faster and can be over 100x cheaper. [arXiv econ.GN, submitted 2026-11-03]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Hello, I'm Alex. This one is abstract-only. Researchers increasingly use language models as stand-ins for human survey respondents. This paper asks whether there's something better."
+      },
+      {
+       "speaker": "B",
+       "text": "I'm Sam. The candidate is a Decision Model, a new class of AI model that responds quickly and returns a probability distribution over a fixed set of options, rather than generating free text."
+      },
+      {
+       "speaker": "A",
+       "text": "The motivation is that LLMs are costly at scale and under-represent the variation in human behaviour. They tend to give one typical answer."
+      },
+      {
+       "speaker": "B",
+       "text": "The authors compare ten Decision Models with eight LLMs in three settings: a household spending survey on consumption, several classic economic games, and a labour-market field experiment."
+      },
+      {
+       "speaker": "A",
+       "text": "The result: frontier Decision Models, the ones scoring highest on general decision-making benchmarks, reproduce the variation in human responses more closely than LLMs in all three settings."
+      },
+      {
+       "speaker": "B",
+       "text": "On the modal, most common response, they match LLMs in the spending survey but do less well in the economic games."
+      },
+      {
+       "speaker": "A",
+       "text": "And the practical side: frontier Decision Models are roughly ten times faster than the fastest LLM and can be over a hundred times cheaper."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: for simulating people at scale, models built to output distributions may capture heterogeneity better, though games remain a weak spot."
+      }
+     ]
+    },
+    {
+     "title": "Organizing Intelligence",
+     "url": "https://arxiv.org/abs/2611.05417",
+     "fulltext": "https://arxiv.org/pdf/2611.05417",
+     "date": "2026-10-31",
+     "desc": "A theory model in which humans and AI agents sort into competing firms shows that better AI competence can shrink firms, while improved AI coordination can break the Coasean ceiling on firm size and trigger a phase transition toward large, concentrated AI-heavy firms. [arXiv econ.TH, submitted 2026-10-31]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Welcome. I'm Alex, working from the abstract only. When will advances in AI actually transform the economy? This paper answers with a theory of organizations."
+      },
+      {
+       "speaker": "B",
+       "text": "I'm Sam. Agents, human or AI, have multidimensional capabilities and sort into competing firms. A firm's productivity depends on two things: competence, which shifts productivity levels, and coordination, which governs how productivity scales with size."
+      },
+      {
+       "speaker": "A",
+       "text": "Two differences drive the story. AI expertise is reproducible, while human expertise is in fixed supply. And AIs may not face the same limits on coordination that humans do."
+      },
+      {
+       "speaker": "B",
+       "text": "A surprising result: even when AI is more capable than the average human, organizations of complementary humans can still outperform AI."
+      },
+      {
+       "speaker": "A",
+       "text": "Also, increases in AI competence can change the mix of workers inside firms and actually decrease firm size."
+      },
+      {
+       "speaker": "B",
+       "text": "But as AI coordination improves, it can break the Coasean ceiling on firm size, and the market undergoes a phase transition toward large, concentrated, AI-heavy firms."
+      },
+      {
+       "speaker": "A",
+       "text": "For workers, employment changes are gradual when AI displaces people inside mixed firms, but sudden when AI firms outcompete human firms. Wages split into a technology effect and a reorganization effect, and reorganization can reverse the technology effect."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: the shape of the transition depends less on raw capability and more on how well AI can coordinate."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Hard to Fool: A Bounded LLM Research Loop for Quantitative Finance, and What Two Dozen Campaigns Found",
+     "url": "https://arxiv.org/abs/2611.06607",
+     "fulltext": "https://arxiv.org/pdf/2611.06607",
+     "date": "2026-11-04",
+     "desc": "Describes an open-source loop where an LLM only proposes declarative strategies and trusted code decides, with a holdout set opened once; across about two dozen campaigns most hypotheses failed, and an LLM-found strategy with Sharpe near 3 in discovery and validation fell to 0.26 on holdout. [arXiv q-fin.CP, submitted 2026-11-04]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Hi, I'm Alex. This is based on the abstract only. Can you let a language model hunt for trading strategies without it fooling you?"
+      },
+      {
+       "speaker": "B",
+       "text": "I'm Sam. The worry is that an agentic loop, where a model proposes a change, runs a fixed experiment and keeps whatever improves the metric, is in trading a machine for false discoveries: overfit, look-ahead, multiple comparisons, ignored costs."
+      },
+      {
+       "speaker": "A",
+       "text": "So the authors built Autonomous Quant Researcher on the opposite premise: the model proposes, and only trusted code decides. Proposals are strict declarative JSON over a fixed vocabulary, so there's no model-written code to sandbox."
+      },
+      {
+       "speaker": "B",
+       "text": "Evaluation uses chronological data split into discovery, validation and a final holdout that can be opened exactly once. Acceptance requires many gates at once, like positive net profit after costs and a positive bootstrap lower bound, not a single score."
+      },
+      {
+       "speaker": "A",
+       "text": "They report every campaign run so far, from zero-day options to Kalshi crypto binaries to earnings options. Most hypotheses fail, and they publish those failures. Two results survive their pre-registered bars."
+      },
+      {
+       "speaker": "B",
+       "text": "The clearest example of the loop working is a failure: a language-model survivor with Sharpe ratios near three in discovery and validation fell to zero point two six on its single holdout use."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: the value is less in what the loop finds than in how hard it is to make it report something that isn't there."
+      }
+     ]
+    },
+    {
+     "title": "Neural Score-Driven Volatility and Risk Forecasting",
+     "url": "https://arxiv.org/abs/2611.05778",
+     "fulltext": "https://arxiv.org/pdf/2611.05778",
+     "date": "2026-11-04",
+     "desc": "Proposes a score-driven volatility model where a lightweight neural network learns the innovation density without a parametric assumption; on eight international equity indices it is competitive with Gaussian and Student-t benchmarks, especially in early 2020. [arXiv econ.EM, submitted 2026-11-04]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Welcome, I'm Alex, working from the abstract only. Volatility models usually assume returns follow a specific distribution. This paper tries to learn it instead."
+      },
+      {
+       "speaker": "B",
+       "text": "I'm Sam. They build a score-driven volatility model and use a lightweight neural network to represent the negative score of the innovation density. Integrate and normalize it, impose identification, and you recover a flexible density."
+      },
+      {
+       "speaker": "A",
+       "text": "That density can handle asymmetry, including the negative skewness commonly seen in financial returns."
+      },
+      {
+       "speaker": "B",
+       "text": "There are two estimation routes: a two-step approach that estimates the neural score by score matching and then fits the volatility recursion, and a one-step approach that refines everything jointly under the conditional likelihood."
+      },
+      {
+       "speaker": "A",
+       "text": "They test on eight international equity indices, with a separate look at the high-volatility first half of 2020."
+      },
+      {
+       "speaker": "B",
+       "text": "The finding: the neural score-driven models are competitive with Gaussian and Student-t benchmarks that need a prespecified distribution, with particularly strong performance in the COVID period."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: you can get distribution-free flexibility without losing competitiveness, most visibly during a crisis."
+      }
+     ]
+    },
+    {
+     "title": "Constrained defined-contribution pension management: A reparameterized neural network approach",
+     "url": "https://arxiv.org/abs/2611.06495",
+     "fulltext": "https://arxiv.org/pdf/2611.06495",
+     "date": "2026-11-04",
+     "desc": "Uses a reparameterized neural network to compute duality bounds for a constrained DC pension problem with bonds, stock and life insurance; it yields smaller duality gaps than benchmarks, and shows trading constraints substantially change wealth, portfolios and insurance demand. [arXiv q-fin.PM, submitted 2026-11-04]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Hello, I'm Alex. Abstract-only again. How should a pension saver invest when trading is constrained?"
+      },
+      {
+       "speaker": "B",
+       "text": "I'm Sam. The market has cash, two nominal bonds, an inflation-linked bond and a stock index, and the member can buy term life insurance. Constraints are general, covering no short-selling, no borrowing and portfolio-mix limits."
+      },
+      {
+       "speaker": "A",
+       "text": "Solving that exactly is hard, so they build unconstrained artificial markets that adjust drift terms, derive a Lagrangian dual problem, and use a reparameterized neural network to compute lower and upper bounds on the value function."
+      },
+      {
+       "speaker": "B",
+       "text": "They calibrate with US data using a Kalman filter."
+      },
+      {
+       "speaker": "A",
+       "text": "The method produces a smaller duality gap than benchmark methods, which means tighter bounds."
+      },
+      {
+       "speaker": "B",
+       "text": "And the economics: compared with the unconstrained explicit solution, trading constraints substantially change wealth accumulation, portfolio strategies and insurance demand."
+      },
+      {
+       "speaker": "A",
+       "text": "This matters because real pension accounts do face rules like no borrowing and no short selling, so ignoring them can misstate how much people accumulate and how much insurance they would want. The paper frames the neural network as a practical way to put numbers on a problem that has no clean closed form once constraints bind."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: unconstrained textbook solutions can give misleading guidance for real pension accounts, and the neural network bounds are a tighter tool for the constrained case."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "OpenAI to Change How It Handles Data Center Efforts After Outcry",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-05/openai-to-change-how-it-handles-data-center-efforts-after-outcry",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-05/openai-to-change-how-it-handles-data-center-efforts-after-outcry",
+     "date": "2026-11-05",
+     "desc": "OpenAI says it will change how it approaches data center projects following public backlash. [Bloomberg, published 2026-11-05]"
+    },
+    {
+     "title": "China Blocks SoftBank’s $5.4 Billion ABB Robot Unit Takeover",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-05/china-blocks-softbank-s-acquisition-of-abb-industrial-robot-unit",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-05/china-blocks-softbank-s-acquisition-of-abb-industrial-robot-unit",
+     "date": "2026-11-05",
+     "desc": "China has blocked SoftBank's $5.4 billion acquisition of ABB's industrial robotics unit, a move WSJ describes as flexing control over AI technology. [Bloomberg, published 2026-11-05]"
+    },
+    {
+     "title": "Bank of England Questions Lenders About Risky Data Center Loans",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-05/bank-of-england-questions-lenders-about-risky-data-center-loans",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-05/bank-of-england-questions-lenders-about-risky-data-center-loans",
+     "date": "2026-11-05",
+     "desc": "The Bank of England is asking lenders about their exposure to risky data center loans, a financial-stability signal on AI infrastructure financing. [Bloomberg, published 2026-11-05]"
+    },
+    {
+     "title": "AI Skills Are Make or Break in UK’s Brutal Youth Jobs Market",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-05/ai-skills-are-make-or-break-in-uk-s-brutal-youth-jobs-market",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-05/ai-skills-are-make-or-break-in-uk-s-brutal-youth-jobs-market",
+     "date": "2026-11-05",
+     "desc": "Bloomberg reports that AI skills are becoming decisive for young job seekers in a tough UK youth labour market. [Bloomberg, published 2026-11-05]"
+    },
+    {
+     "title": "Nvidia Partner Hon Hai’s Sales Rise 46% Thanks to AI Demand",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-05/nvidia-partner-hon-hai-s-sales-rise-46-thanks-to-ai-demand",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-05/nvidia-partner-hon-hai-s-sales-rise-46-thanks-to-ai-demand",
+     "date": "2026-11-05",
+     "desc": "Hon Hai, an Nvidia partner, reported sales up 46%, driven by AI demand. [Bloomberg, published 2026-11-05]"
+    },
+    {
+     "title": "AI Selloff Extends, Treasurys Gain as Blue Wave Reverberates",
+     "url": "https://www.wsj.com/finance/stocks/ai-selloff-extends-treasurys-gain-as-blue-wave-reverberates-2d60fa21",
+     "fulltext": "https://www.wsj.com/finance/stocks/ai-selloff-extends-treasurys-gain-as-blue-wave-reverberates-2d60fa21",
+     "date": "2026-11-05",
+     "desc": "The AI-stock selloff extended while Treasurys gained after the Democratic midterm sweep. [WSJ, published 2026-11-05]"
+    },
+    {
+     "title": "The Election Day Revolt That Threatens America’s AI Boom",
+     "url": "https://www.wsj.com/tech/ai/the-election-day-revolt-that-threatens-americas-ai-boom-03a53b52",
+     "fulltext": "https://www.wsj.com/tech/ai/the-election-day-revolt-that-threatens-americas-ai-boom-03a53b52",
+     "date": "2026-11-05",
+     "desc": "WSJ examines how voter backlash at the midterms, especially over data centers, could threaten the US AI buildout. [WSJ, published 2026-11-05]"
+    },
+    {
+     "title": "Meta President Says Midterm Results Will Make Building Data Centers Harder",
+     "url": "https://www.wsj.com/tech/ai/meta-president-says-midterm-results-will-make-building-data-centers-harder-f1d27c93",
+     "fulltext": "https://www.wsj.com/tech/ai/meta-president-says-midterm-results-will-make-building-data-centers-harder-f1d27c93",
+     "date": "2026-11-05",
+     "desc": "A Meta president says the midterm results will make building data centers harder. [WSJ, published 2026-11-05]"
+    },
+    {
+     "title": "Asian tech stocks slide on post-midterm AI fears",
+     "url": "https://www.ft.com/content/21755495-c68a-45a9-90d8-64f698cd1952",
+     "fulltext": "https://www.ft.com/content/21755495-c68a-45a9-90d8-64f698cd1952",
+     "date": "2026-11-05",
+     "desc": "Asian tech stocks slid as investors worried about the AI trade after the US midterms. [Financial Times, published 2026-11-05]"
+    },
+    {
+     "title": "Microsoft rejects multibillion-dollar AI deal with UK’s Nscale",
+     "url": "https://www.ft.com/content/668e6ef8-88a1-4bef-8664-8f495baf09f8",
+     "fulltext": "https://www.ft.com/content/668e6ef8-88a1-4bef-8664-8f495baf09f8",
+     "date": "2026-11-05",
+     "desc": "Microsoft has turned down a multibillion-dollar AI infrastructure deal with UK firm Nscale. [Financial Times, published 2026-11-05]"
+    },
+    {
+     "title": "Maersk shares fall despite improved outlook on surging data centre demand",
+     "url": "https://www.ft.com/content/5a074bde-e1cc-4c93-957d-8d1c951b0cbb",
+     "fulltext": "https://www.ft.com/content/5a074bde-e1cc-4c93-957d-8d1c951b0cbb",
+     "date": "2026-11-05",
+     "desc": "Maersk shares fell even as the shipper improved its outlook, citing surging data centre demand. [Financial Times, published 2026-11-05]"
+    },
+    {
+     "title": "AI is turning protectionists into free traders",
+     "url": "https://www.economist.com/finance-and-economics/2026/11/05/ai-is-turning-protectionists-into-free-traders",
+     "fulltext": "https://www.economist.com/finance-and-economics/2026/11/05/ai-is-turning-protectionists-into-free-traders",
+     "date": "2026-11-05",
+     "desc": "The Economist argues that AI is shifting protectionists' views on trade. [The Economist, published 2026-11-05]"
+    },
+    {
+     "title": "Micron Pauses Work on $4.5 Billion Taiwan Plant After Labor Spat",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-05/micron-pauses-work-on-4-5-billion-taiwan-plant-after-labor-spat",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-05/micron-pauses-work-on-4-5-billion-taiwan-plant-after-labor-spat",
+     "date": "2026-11-05",
+     "desc": "Micron has paused work on a $4.5 billion Taiwan plant after a labor dispute. [Bloomberg, published 2026-11-05]"
+    },
+    {
+     "title": "Arm Holdings Sales Climb 27% on AI Demand",
+     "url": "https://www.wsj.com/business/earnings/arm-holdings-sales-climb-27-on-ai-demand-206782b6",
+     "fulltext": "https://www.wsj.com/business/earnings/arm-holdings-sales-climb-27-on-ai-demand-206782b6",
+     "date": "2026-11-04",
+     "desc": "Arm Holdings reported sales up 27% on AI demand. [WSJ, published 2026-11-04]"
+    },
+    {
+     "title": "Datadog Says Lower Usage From Major AI Customer Is Weighing on Growth",
+     "url": "https://www.wsj.com/business/earnings/datadog-says-lower-usage-from-major-ai-customer-is-weighing-on-growth-ef50184f",
+     "fulltext": "https://www.wsj.com/business/earnings/datadog-says-lower-usage-from-major-ai-customer-is-weighing-on-growth-ef50184f",
+     "date": "2026-11-04",
+     "desc": "Datadog says lower usage from a major AI customer is weighing on its growth. [WSJ, published 2026-11-04]"
+    },
+    {
+     "title": "AI & Tech Brief: Midterms turn the AI tide",
+     "url": "https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/11/04/ai-tech-brief-midterms-turn-ai-tide/",
+     "fulltext": "https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/11/04/ai-tech-brief-midterms-turn-ai-tide/",
+     "date": "2026-11-04",
+     "desc": "The Post's AI and tech brief says voters rejected local data center construction and elected Democrats outspoken about AI risk, with ballot measures on data centers in at least 40 jurisdictions. [Washington Post, published 2026-11-04]"
+    },
+    {
+     "title": "World shares mostly gain after US midterm elections as AI-related stocks sink",
+     "url": "https://www.washingtonpost.com/business/2026/11/04/stocks-markets-ai-midterm-oil-trump/fe6cabb2-d8c4-11f1-930a-e08f8086f5ac_story.html",
+     "fulltext": "https://www.washingtonpost.com/business/2026/11/04/stocks-markets-ai-midterm-oil-trump/fe6cabb2-d8c4-11f1-930a-e08f8086f5ac_story.html",
+     "date": "2026-11-04",
+     "desc": "Global shares mostly rose after the midterms while AI-related stocks sank; South Korea's Kospi fell more than 5%. [Washington Post, published 2026-11-04]"
+    },
+    {
+     "title": "‘The money didn’t work’: Big Tech’s $600mn midterm campaign falls flat",
+     "url": "https://www.ft.com/content/3e65138f-068f-465f-a1ae-a9c61ea1afc4",
+     "fulltext": "https://www.ft.com/content/3e65138f-068f-465f-a1ae-a9c61ea1afc4",
+     "date": "2026-11-04",
+     "desc": "The FT reports Big Tech's roughly $600mn midterm campaign spending failed to deliver. [Financial Times, published 2026-11-04]"
+    },
+    {
+     "title": "China steps up defence of stock market in bid to revive AI boom",
+     "url": "https://www.ft.com/content/b86cc3e7-e638-4b58-8d4d-4516c13c45f5",
+     "fulltext": "https://www.ft.com/content/b86cc3e7-e638-4b58-8d4d-4516c13c45f5",
+     "date": "2026-11-04",
+     "desc": "China is stepping up support for its stock market in an effort to revive its AI boom. [Financial Times, published 2026-11-04]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Good morning, this is the Daily AI Research Digest for November fifth, twenty twenty-six. I'm Alex."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. Today's overview: a market and politics story about AI after the midterms, plus several new papers on AI and the economy."
+  },
+  {
+   "speaker": "A",
+   "text": "Let's start with the news. The Wall Street Journal reports the AI stock selloff extended on Thursday, while Treasurys gained after the Democratic sweep in the midterms."
+  },
+  {
+   "speaker": "B",
+   "text": "And the Financial Times says Asian tech stocks slid on post-midterm AI fears. The Washington Post, citing wire coverage, notes South Korea's Kospi fell more than five percent."
+  },
+  {
+   "speaker": "A",
+   "text": "A key theme is data centers. The Post's tech brief says voters rejected local data center construction, with ballot measures in at least forty jurisdictions."
+  },
+  {
+   "speaker": "B",
+   "text": "Reaction from companies is already showing. A Meta president says the results will make building data centers harder, and Bloomberg says OpenAI will change how it handles its data center efforts after the outcry."
+  },
+  {
+   "speaker": "A",
+   "text": "There's a financing angle too. Bloomberg reports the Bank of England is questioning lenders about risky data center loans."
+  },
+  {
+   "speaker": "B",
+   "text": "On the supply chain side, Hon Hai, an Nvidia partner, reported sales up forty-six percent on AI demand, and Arm's sales climbed twenty-seven percent."
+  },
+  {
+   "speaker": "A",
+   "text": "And on geopolitics, China blocked SoftBank's five point four billion dollar takeover of ABB's robotics unit, which the Journal describes as flexing control over AI technology."
+  },
+  {
+   "speaker": "B",
+   "text": "Now the research. A new arXiv paper studies Project Glasswing, where a few large US tech firms got early access to a vulnerability-finding model."
+  },
+  {
+   "speaker": "A",
+   "text": "The abstract says those firms more than doubled their disclosures compared with Chinese and Russian firms without access, and there's no evidence attackers exploited the extra flaws."
+  },
+  {
+   "speaker": "B",
+   "text": "Another paper, Organizing Intelligence, is a theory of how AI changes firms. A key claim is that better AI coordination could break the Coasean ceiling on firm size and push markets toward large, concentrated AI-heavy firms."
+  },
+  {
+   "speaker": "A",
+   "text": "On labour, a paper using twenty-one O*NET items across seven hundred fifty-four occupations finds the link between AI exposure and poor working conditions weakens after adjusting for factors like education and wages."
+  },
+  {
+   "speaker": "B",
+   "text": "For economists who simulate people, a paper compares Decision Models with language models as human surrogates. The frontier Decision Models matched human variation better, ran about ten times faster and could be over a hundred times cheaper."
+  },
+  {
+   "speaker": "A",
+   "text": "And in finance, a paper on an LLM research loop for quant trading reports that most hypotheses fail. One language-model survivor had a Sharpe ratio near three in testing, then fell to zero point two six on its single holdout use."
+  },
+  {
+   "speaker": "B",
+   "text": "A good reminder about overfitting. That's all for today. Find the full list, with a listen link for each paper, in the web archive."
+  },
+  {
+   "speaker": "A",
+   "text": "Thanks for listening, and see you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-11-04 (last run) → 2026-11-05. SSRN searches surfaced no postings with a verified in-window date, so none are included. The Washington Post RSS feeds could not be reached this run (HTTP 502); two Post items came from web search. News summaries are based on feed teasers only; paper podcasts are based on abstracts."
+}
