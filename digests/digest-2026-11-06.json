@@ -1,0 +1,337 @@
+{
+ "date": "2026-11-06",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "How Green Is Your Manifesto? Scoring Environmental Positions in the 2024 EU Elections with an LLM Panel",
+     "url": "https://arxiv.org/abs/2611.02033",
+     "fulltext": "https://arxiv.org/pdf/2611.02033",
+     "date": "2026-11-01",
+     "desc": "A panel of three LLMs from independent providers scores every sentence of 41 European Parliament election manifestos on environmental protection and climate change, recovering expert party orderings with strong rank agreement while rating manifestos as greener than experts do. [arXiv cs.CL, submitted 2026-11-01]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Hi, Alex here. Today: can a panel of language models replace expert surveys when placing political parties on climate policy? This is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam here. The problem is that expert surveys and hand coding of manifestos are costly, periodic and slow to extend to new documents."
+      },
+      {
+       "speaker": "A",
+       "text": "So the authors treat each manifesto as a set of sentences. Three models from independent providers score every sentence on two dimensions: environmental protection and climate change."
+      },
+      {
+       "speaker": "B",
+       "text": "And they separate a party's position from how much salience it gives the issue."
+      },
+      {
+       "speaker": "A",
+       "text": "Yes, then average to the manifesto level, and keep the agreement between models as a built-in reliability signal."
+      },
+      {
+       "speaker": "B",
+       "text": "What did they apply it to?"
+      },
+      {
+       "speaker": "A",
+       "text": "Forty-one manifestos from the 2024 European Parliament election, covering Austria, France, Germany, Italy, Spain and European party families. They validated against the Chapel Hill Expert Survey for twenty-five parties."
+      },
+      {
+       "speaker": "B",
+       "text": "And the result?"
+      },
+      {
+       "speaker": "A",
+       "text": "The panel recovers the expert ordering with strong rank agreement on both dimensions. But the models rate manifestos as systematically greener than experts, which the authors read as the gap between promise and governing record."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: a cheap, open, multilingual complement to expert coding, not a replacement."
+      }
+     ]
+    },
+    {
+     "title": "Regression with Many Generated Controls",
+     "url": "https://arxiv.org/abs/2611.06855",
+     "fulltext": "https://arxiv.org/pdf/2611.06855",
+     "date": "2026-11-04",
+     "desc": "Studies linear regression with endogenous covariates when a sufficient control is latent but many proxies can be generated, for example by different AI/ML methods, and shows that with a rich enough set of generated controls the parameter can be recovered consistently without validation data. [arXiv econ.EM, submitted 2026-11-04]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex here. A methods paper today about using AI-generated variables in regressions. Based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam. The setup: some covariates are endogenous, a variable that would fix this exists but is latent, and you can cheaply generate lots of imperfect proxies for it, say by imputing it with different AI or machine learning methods."
+      },
+      {
+       "speaker": "A",
+       "text": "So what can a practitioner do with all those proxies?"
+      },
+      {
+       "speaker": "B",
+       "text": "Include them all as controls, include factors computed from them, use instrumental variables, or try nonlinear variants of those."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors use a transparent model to work out the implicit estimand each approach targets."
+      },
+      {
+       "speaker": "B",
+       "text": "And when do those recover the parameter of interest?"
+      },
+      {
+       "speaker": "A",
+       "text": "They determine that and give practical recommendations. The headline result is that with a sufficiently rich set of generated controls, you can estimate the parameter consistently without relying on validation data."
+      },
+      {
+       "speaker": "B",
+       "text": "Which matters because validation data is often exactly what you lack."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: many noisy AI-made proxies can substitute for a clean one, if you analyze them the right way."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance",
+     "url": "https://arxiv.org/abs/2611.07464",
+     "fulltext": "https://arxiv.org/pdf/2611.07464",
+     "date": "2026-11-05",
+     "desc": "Introduces a benchmark where a simulated user holds a hidden trading strategy and an AI agent must gather web data, build its own backtest and deliver verifiable results; across 150 sessions with four coding agents none was accepted, and agents raised only 54-64% of the details they were not told. [arXiv cs.AI, submitted 2026-11-05]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Welcome back. Alex here. Today, a paper on whether AI agents can really do financial work for you. This one is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "I'm Sam. It's called FINCOSMOS, and the worry is that an agent can fail silently, handing you a report that looks convincing even though the data was unverified or the backtest used future information."
+      },
+      {
+       "speaker": "A",
+       "text": "Right. Most benchmarks fix the task, the data or the timeline, which removes those failure modes instead of measuring them. FINCOSMOS keeps the world open."
+      },
+      {
+       "speaker": "B",
+       "text": "How does it work?"
+      },
+      {
+       "speaker": "A",
+       "text": "A simulated user holds a hidden strategy, drawn from a compositional grammar, and only reveals it when the agent asks. The agent gets no data, so it must find it on the web, build its own backtest under a data cutoff, and deliver results."
+      },
+      {
+       "speaker": "B",
+       "text": "And grading doesn't need a reference answer, right?"
+      },
+      {
+       "speaker": "A",
+       "text": "Correct. Programs check point-in-time correctness and recompute every reported metric. The delivered strategy is compared with the hidden spec, and a run only counts if the user is satisfied and none of fifteen veto checks fails."
+      },
+      {
+       "speaker": "B",
+       "text": "So how did the agents do?"
+      },
+      {
+       "speaker": "A",
+       "text": "Across four coding agents and one model without tools, in one hundred fifty sessions, no session was accepted. Every session the simulated user signed off still failed a program check, and agents raised only fifty-four to sixty-four percent of the details they were not told."
+      },
+      {
+       "speaker": "B",
+       "text": "Humans agreed it was the agents' fault in eighty-eight percent of failures. One bright spot: an agent with persistent memory learned all ten tasks when given FINCOSMOS feedback."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: today's finance agents look more reliable than they are, and checks must verify the work itself, not just how the report reads."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Wall Street Gets $2.5 Trillion AI Reality Check With Historic Rout of Tech Stocks",
+     "url": "https://www.wsj.com/finance/stocks/wall-street-gets-2-5-trillion-ai-reality-check-with-historic-rout-of-tech-stocks-93985d7c",
+     "fulltext": "https://www.wsj.com/finance/stocks/wall-street-gets-2-5-trillion-ai-reality-check-with-historic-rout-of-tech-stocks-93985d7c",
+     "date": "2026-11-05",
+     "desc": "The Nasdaq composite closed in correction territory in the market's worst day since last April's tariff turmoil, as a roughly $2.5 trillion selloff in tech stocks forced a reassessment of AI valuations. [WSJ, published 2026-11-05]"
+    },
+    {
+     "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5 Trillion Valuation",
+     "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b",
+     "fulltext": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b",
+     "date": "2026-11-06",
+     "desc": "Some major investors doubt that an Anthropic IPO can reach the $1.5 trillion valuation floated earlier, though others say strong October financial results could soften the blow of the market rout. [WSJ, published 2026-11-06]"
+    },
+    {
+     "title": "AI Companies Scramble to Navigate a World Hostile to Data Centers",
+     "url": "https://www.wsj.com/tech/ai/ai-companies-scramble-to-navigate-a-world-hostile-to-data-centers-c6023a14",
+     "fulltext": "https://www.wsj.com/tech/ai/ai-companies-scramble-to-navigate-a-world-hostile-to-data-centers-c6023a14",
+     "date": "2026-11-06",
+     "desc": "With winning candidates promising data-center moratoriums in key states, builders are weighing options ranging from moving overseas to building in the desert. [WSJ, published 2026-11-06]"
+    },
+    {
+     "title": "China Blocks $5.4 Billion SoftBank Robot Deal, Flexing Control Over AI Tech",
+     "url": "https://www.wsj.com/business/deals/abb-confirms-china-blocked-softbank-deal-for-robotics-unit-cf1d44bf",
+     "fulltext": "https://www.wsj.com/business/deals/abb-confirms-china-blocked-softbank-deal-for-robotics-unit-cf1d44bf",
+     "date": "2026-11-05",
+     "desc": "ABB confirmed that Beijing blocked SoftBank's $5.4 billion purchase of its robotics unit, part of an effort to keep AI data and expertise developed in China from leaking abroad. [WSJ, published 2026-11-05]"
+    },
+    {
+     "title": "SoftBank Leads Asia Bond Losses as AI Rout Spreads to Credit",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-06/softbank-leads-asia-bond-losses-ai-rout-spreads-credit",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-06/softbank-leads-asia-bond-losses-ai-rout-spreads-credit",
+     "date": "2026-11-06",
+     "desc": "SoftBank's dollar bonds led declines in Asian credit on Friday as the deepening rout in AI stocks extended into debt markets. [Bloomberg, published 2026-11-06]"
+    },
+    {
+     "title": "Mystery Seller Puts Up $500 Million Data Center Loans Backing Stargate, CyrusOne",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-05/mystery-seller-puts-up-500-million-data-center-loans-backing-stargate-cyrusone",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-05/mystery-seller-puts-up-500-million-data-center-loans-backing-stargate-cyrusone",
+     "date": "2026-11-05",
+     "desc": "Dutch bank ING is reportedly looking to sell about $500 million of data center loans, as fears that a Democratic midterm sweep could stall such projects fed a market rout. [Bloomberg, published 2026-11-05]"
+    },
+    {
+     "title": "Blue Owl Sees Gains on Election Results Limiting AI Compute",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-05/blue-owl-sees-gains-as-election-results-limit-ai-compute-supply",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-05/blue-owl-sees-gains-as-election-results-limit-ai-compute-supply",
+     "date": "2026-11-05",
+     "desc": "Blue Owl told investors it expects higher returns on digital infrastructure deals as capital becomes scarcer, while warning that a Democratic sweep could make adding computing capacity harder. [Bloomberg, published 2026-11-05]"
+    },
+    {
+     "title": "'Anti-AI' Trade Turns Indian Equities Into Asia's Bright Spot",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-06/indian-stocks-gain-haven-appeal-as-investors-flee-ai-trade",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-06/indian-stocks-gain-haven-appeal-as-investors-flee-ai-trade",
+     "date": "2026-11-06",
+     "desc": "Indian equities, long pitched as a hideout if the global AI trade unraveled, gained haven appeal this week as investors fled AI-linked stocks elsewhere in Asia. [Bloomberg, published 2026-11-06]"
+    },
+    {
+     "title": "The AI gamble strains for more cash",
+     "url": "https://www.ft.com/content/4e0dbca4-5917-483f-b524-8b8a2b4c54b2",
+     "fulltext": "https://www.ft.com/content/4e0dbca4-5917-483f-b524-8b8a2b4c54b2",
+     "date": "2026-11-06",
+     "desc": "True believers in the technology are still angling to spend tens or hundreds of billions of dollars on AI even as funding strains grow. [Financial Times, published 2026-11-06]"
+    },
+    {
+     "title": "AI backlash threatens trillion-dollar data centre boom, say tech leaders",
+     "url": "https://www.ft.com/content/32fd4450-5880-437d-9bd9-df13289ada24",
+     "fulltext": "https://www.ft.com/content/32fd4450-5880-437d-9bd9-df13289ada24",
+     "date": "2026-11-05",
+     "desc": "Executives at the FT's Future of AI summit admitted the tech industry has fuelled hostility toward its own expansion, putting the trillion-dollar data centre build-out at risk. [Financial Times, published 2026-11-05]"
+    },
+    {
+     "title": "Consultancies show that graduates can actually benefit from the rise of AI",
+     "url": "https://www.ft.com/content/fce32d1c-cff0-4c32-95ed-bdca21e8cda5",
+     "fulltext": "https://www.ft.com/content/fce32d1c-cff0-4c32-95ed-bdca21e8cda5",
+     "date": "2026-11-05",
+     "desc": "An opinion piece argues that consulting firms still need juniors whose skills go beyond long hours and churning out slide decks, suggesting graduates can benefit from AI. [Financial Times, published 2026-11-05]"
+    },
+    {
+     "title": "Firms are racing to protect themselves from AI cyber threats",
+     "url": "https://www.economist.com/business/2026/11/05/firms-are-racing-to-protect-themselves-from-ai-cyber-threats",
+     "fulltext": "https://www.economist.com/business/2026/11/05/firms-are-racing-to-protect-themselves-from-ai-cyber-threats",
+     "date": "2026-11-05",
+     "desc": "Hackers have unleashed a wave of damaging attacks using AI, and companies are rushing to bolster defenses as more may follow. [The Economist, published 2026-11-05]"
+    },
+    {
+     "title": "OpenAI Pledges to Give Locals More Say in Data Center Projects",
+     "url": "https://www.nytimes.com/2026/11/05/technology/openai-data-centers-midterms.html",
+     "fulltext": "https://www.nytimes.com/2026/11/05/technology/openai-data-centers-midterms.html",
+     "date": "2026-11-05",
+     "desc": "OpenAI pledged to be more collaborative with the communities where it is building data centers. [NYT, published 2026-11-05]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello and welcome to the Daily AI Research Digest for Friday, November sixth, twenty twenty-six. I'm Alex."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. The overview: AI stocks had a brutal week, and the news is dominated by the fallout, plus a few interesting papers."
+  },
+  {
+   "speaker": "A",
+   "text": "Let's start with markets. The Wall Street Journal reports the Nasdaq closed in correction territory in the worst day since last April's tariff turmoil, with about two and a half trillion dollars wiped from tech stocks."
+  },
+  {
+   "speaker": "B",
+   "text": "And it spread. Bloomberg says the rout has reached credit markets, with SoftBank's dollar bonds leading declines in Asia on Friday."
+  },
+  {
+   "speaker": "A",
+   "text": "There's a flip side too. Bloomberg notes Indian equities, pitched for months as a hideout from an AI unwind, gained haven appeal this week."
+  },
+  {
+   "speaker": "B",
+   "text": "What's driving the fear? A lot of it is politics. The Wall Street Journal says winning candidates in key states are promising data center moratoriums, so builders are weighing everything from moving overseas to building in the desert."
+  },
+  {
+   "speaker": "A",
+   "text": "The Financial Times adds that tech leaders at its summit admitted the industry helped fuel hostility to its own expansion, putting a trillion-dollar data centre boom at risk."
+  },
+  {
+   "speaker": "B",
+   "text": "That shows up in financing. Bloomberg reports Dutch bank ING is looking to sell roughly five hundred million dollars of data center loans, and Blue Owl told investors capital is getting scarcer, which could raise returns on its deals but make adding compute harder."
+  },
+  {
+   "speaker": "A",
+   "text": "The Wall Street Journal also says major investors are skeptical an Anthropic IPO can reach a one point five trillion dollar valuation, though some think strong October results could soften the blow."
+  },
+  {
+   "speaker": "B",
+   "text": "Geopolitics too: ABB confirmed China blocked SoftBank's five point four billion dollar purchase of its robotics unit, as Beijing tries to keep AI data and expertise at home."
+  },
+  {
+   "speaker": "A",
+   "text": "Now to research. A new arXiv paper called FINCOSMOS tests AI agents doing financial work. A simulated user hides a strategy, and the agent must find web data and build a backtest."
+  },
+  {
+   "speaker": "B",
+   "text": "And how did they do?"
+  },
+  {
+   "speaker": "A",
+   "text": "Across one hundred fifty sessions, none was accepted. Every session the simulated user signed off still failed a program check."
+  },
+  {
+   "speaker": "B",
+   "text": "Sobering. Another arXiv paper uses a panel of three language models to score environmental positions in forty-one European election manifestos, and it tracks expert rankings well, though the models rate parties as greener than experts do."
+  },
+  {
+   "speaker": "A",
+   "text": "And a methods paper shows that many noisy, AI-generated proxy variables can, with the right analysis, recover a causal parameter without validation data."
+  },
+  {
+   "speaker": "B",
+   "text": "One more from The Economist: companies are racing to defend against AI-powered cyberattacks after a wave of damaging hacks."
+  },
+  {
+   "speaker": "A",
+   "text": "That's it for today. Full summaries and audio are in the web archive. Thanks for listening."
+  },
+  {
+   "speaker": "B",
+   "text": "See you next time."
+  }
+ ],
+ "footnote": "Window: 2026-11-05 (last run) → 2026-11-06. The Washington Post feed could not be reached this run (HTTP 502). SSRN was not searched this run; no newsletters were available. Papers are from arXiv; news summaries are based on feed teasers."
+}
