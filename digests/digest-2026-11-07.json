@@ -1,0 +1,233 @@
+{
+ "date": "2026-11-07",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": []
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "Generative Artificial Intelligence and Sales Productivity: Field Experiments in Online Retail",
+     "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2026.00623",
+     "fulltext": "https://pubsonline.informs.org/doi/10.1287/mnsc.2026.00623",
+     "date": "2026-11-06",
+     "desc": "Randomized field experiments with millions of users at a crossborder online retailer test GenAI in seven workflows; sales rise in most, by up to 16.3%, worth roughly $5 per consumer per year, driven by conversion rather than cart size, with no worse returns or ratings. [Management Science, published online 2026-11-06]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's paper asks a simple question: does generative AI actually make a retailer sell more? It's from Management Science, and note we're working from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Nice, because most evidence so far is lab studies. Here it's field experiments."
+      },
+      {
+       "speaker": "A",
+       "text": "Right. Randomized experiments involving millions of users and products at a leading crossborder online retail platform, over 2023 and 2024. The platform put GenAI into seven business workflows: customer service, matching consumers to products, advertising, and seller services."
+      },
+      {
+       "speaker": "B",
+       "text": "And the result?"
+      },
+      {
+       "speaker": "A",
+       "text": "Sales go up in most workflows, with effects from no detectable impact to 16.3 percent. The size depends on how much the AI adds beyond what the firm already did. Across the four applications that worked, that's roughly five dollars of extra value per consumer per year."
+      },
+      {
+       "speaker": "B",
+       "text": "Where does the gain come from?"
+      },
+      {
+       "speaker": "A",
+       "text": "Higher conversion rates, not bigger carts. The authors read that as AI reducing frictions in search, information, communication and personalization. And importantly, return rates and customer ratings didn't get worse."
+      },
+      {
+       "speaker": "B",
+       "text": "So no hidden cost of pushy sales. Any heterogeneity?"
+      },
+      {
+       "speaker": "A",
+       "text": "Yes, larger gains for less experienced consumers. Caveat: these are short-term effects at one platform, so generalizing needs care. Takeaway: well-placed GenAI can causally lift retail sales without hurting satisfaction."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Men see more career advancement in jobs with AI, as women lose ground",
+     "url": "https://www.washingtonpost.com/business/2026/11/07/men-see-more-career-advancement-jobs-with-ai-women-lose-ground/",
+     "fulltext": "https://www.washingtonpost.com/business/2026/11/07/men-see-more-career-advancement-jobs-with-ai-women-lose-ground/",
+     "date": "2026-11-07",
+     "desc": "New research examines how exposure to AI shapes the gender gap at work, reporting that men in AI-exposed jobs are advancing faster while women are losing ground. [Washington Post, published 2026-11-07]"
+    },
+    {
+     "title": "Why does America hate AI?",
+     "url": "https://www.ft.com/content/af97585a-3381-42a9-838b-9a205ab81232",
+     "fulltext": "https://www.ft.com/content/af97585a-3381-42a9-838b-9a205ab81232",
+     "date": "2026-11-07",
+     "desc": "The FT argues that voter hostility to Big Tech helped shape the US midterms and that similar fears are spreading across the West, while attitudes in Asia remain far more optimistic. [Financial Times, published 2026-11-07]"
+    },
+    {
+     "title": "How Wall Street's all-in bet on AI blew up",
+     "url": "https://www.ft.com/content/5a6806f0-e82e-4b34-b761-f9877e2b511c",
+     "fulltext": "https://www.ft.com/content/5a6806f0-e82e-4b34-b761-f9877e2b511c",
+     "date": "2026-11-07",
+     "desc": "After the US midterm elections, hedge funds and retail investors fled a trade that had come to dominate equity markets, according to the FT. [Financial Times, published 2026-11-07]"
+    },
+    {
+     "title": "Wall Street Grapples With $5.7 Trillion Rout as AI Bets Unwind",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-06/ai-s-wild-week-has-wall-street-hunting-for-fresh-escape-routes",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-06/ai-s-wild-week-has-wall-street-hunting-for-fresh-escape-routes",
+     "date": "2026-11-06",
+     "desc": "Months of unease over the AI boom erupted into a global market convulsion this week, opening a new chapter for the investment frenzy that has helped power stock prices, corporate spending and economic growth. [Bloomberg, published 2026-11-06]"
+    },
+    {
+     "title": "S&P 500 Posts Biggest Weekly Drop Since 2025 on AI Trade Worries",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-06/ai-stocks-rebound-as-investors-weigh-whether-selloff-is-over",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-06/ai-stocks-rebound-as-investors-weigh-whether-selloff-is-over",
+     "date": "2026-11-06",
+     "desc": "US stocks logged their biggest weekly loss since April 2025 on concerns over the AI trade after Democrats swept the midterms, even as AI shares rebounded somewhat on Friday. [Bloomberg, published 2026-11-06]"
+    },
+    {
+     "title": "The Wild Week That Brought AI Investors to the Brink",
+     "url": "https://www.wsj.com/finance/stocks/midterms-markets-week-ai-trade-97b3fc5d",
+     "fulltext": "https://www.wsj.com/finance/stocks/midterms-markets-week-ai-trade-97b3fc5d",
+     "date": "2026-11-06",
+     "desc": "Democratic victories amplified anxieties that had been building for weeks, and systematic trades magnified the losses in AI-linked stocks. [WSJ, published 2026-11-06]"
+    },
+    {
+     "title": "Why investors are dumping AI company stocks after Democrats' election sweep",
+     "url": "https://www.washingtonpost.com/business/2026/11/06/investors-dumping-ai-company-stocks-fears-democrats-will-stop-data-centers/",
+     "fulltext": "https://www.washingtonpost.com/business/2026/11/06/investors-dumping-ai-company-stocks-fears-democrats-will-stop-data-centers/",
+     "date": "2026-11-06",
+     "desc": "Investors worry data center building will slow; if the AI industry's investment math stops working, the broader US economy could take a hit. [Washington Post, published 2026-11-06]"
+    },
+    {
+     "title": "A.I. Was Supposed to Come for Our Jobs. So Far, Evidence Is Mixed.",
+     "url": "https://www.nytimes.com/2026/11/06/business/economy/ai-jobs-layoffs.html",
+     "fulltext": "https://www.nytimes.com/2026/11/06/business/economy/ai-jobs-layoffs.html",
+     "date": "2026-11-06",
+     "desc": "White-collar industries most exposed to AI kept adding jobs in October, though the growth was weak, leaving the evidence on AI and employment inconclusive. [NYT, published 2026-11-06]"
+    },
+    {
+     "title": "US Job Gains May Be Spreading From AI Buildout to Implementation",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-06/us-job-gains-may-be-spreading-from-ai-buildout-to-implementation",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-06/us-job-gains-may-be-spreading-from-ai-buildout-to-implementation",
+     "date": "2026-11-06",
+     "desc": "White-collar consulting jobs tied to AI implementation may be joining blue-collar construction and manufacturing roles tied to the data center buildout as a driver of US employment growth. [Bloomberg, published 2026-11-06]"
+    },
+    {
+     "title": "OpenAI Completes $11 Billion Portion of Funding at $1.25 Trillion Value",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value",
+     "date": "2026-11-06",
+     "desc": "OpenAI closed roughly $11 billion, the first part of a round valuing the company at $1.25 trillion, according to people familiar with the matter. [Bloomberg, published 2026-11-06]"
+    },
+    {
+     "title": "Anthropic to press ahead with IPO targeting $1.5tn valuation",
+     "url": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452",
+     "fulltext": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452",
+     "date": "2026-11-06",
+     "desc": "Anthropic intends to list before Thanksgiving despite the tech rout, targeting a $1.5 trillion valuation, the FT reports. [Financial Times, published 2026-11-06]"
+    },
+    {
+     "title": "Everyone blames data centers for high electricity prices. But these are the real reasons.",
+     "url": "https://www.washingtonpost.com/climate-environment/2026/11/06/data-centers-may-not-be-raising-americans-electricity-bills-that-much/",
+     "fulltext": "https://www.washingtonpost.com/climate-environment/2026/11/06/data-centers-may-not-be-raising-americans-electricity-bills-that-much/",
+     "date": "2026-11-06",
+     "desc": "A new study finds data centers have had only a marginal impact on residential electricity prices so far. [Washington Post, published 2026-11-06]"
+    },
+    {
+     "title": "Neocloud Groq Aims to Double Value to $8 Billion Amid AI Selloff",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-06/neocloud-groq-aims-to-double-value-to-8-billion-amid-ai-selloff",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-06/neocloud-groq-aims-to-double-value-to-8-billion-amid-ai-selloff",
+     "date": "2026-11-06",
+     "desc": "An executive at the data center operator kicked off a bid to double its valuation in about three months while criticizing rivals for relying too heavily on debt markets. [Bloomberg, published 2026-11-06]"
+    },
+    {
+     "title": "Copper prices fall on fears of AI backlash",
+     "url": "https://www.ft.com/content/0a4e2a58-f83f-4445-8f32-892657cf8c27",
+     "fulltext": "https://www.ft.com/content/0a4e2a58-f83f-4445-8f32-892657cf8c27",
+     "date": "2026-11-06",
+     "desc": "Copper, which soared this year on forecasts of surging AI data center demand, fell as that demand is seen at risk after the Democratic midterm sweep. [Financial Times, published 2026-11-06]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello, this is the AI Research Digest for November seventh, 2026. Today is dominated by the market rout around the AI trade, plus one solid field experiment on generative AI and sales."
+  },
+  {
+   "speaker": "B",
+   "text": "Let's start with the markets. Bloomberg describes a five point seven trillion dollar rout this week as AI bets unwound, and says the S and P 500 had its biggest weekly drop since April 2025."
+  },
+  {
+   "speaker": "A",
+   "text": "The trigger, according to several outlets, was the Democratic sweep in the midterms. The Washington Post says investors fear data center building will slow, and if the industry's investment math stops working, the broader economy could take a hit."
+  },
+  {
+   "speaker": "B",
+   "text": "The Wall Street Journal adds that systematic trades amplified the losses, calling it a wild week that brought AI investors to the brink. And the Financial Times reports that hedge funds and retail investors both fled the trade."
+  },
+  {
+   "speaker": "A",
+   "text": "There are knock-on effects too. The FT says copper, which had soared on forecasts of data center demand, fell on fears of an AI backlash."
+  },
+  {
+   "speaker": "B",
+   "text": "Yet money keeps flowing at the top. Bloomberg reports OpenAI closed about eleven billion dollars of a round valuing it at one point two five trillion, and the FT says Anthropic plans to press ahead with an IPO targeting one point five trillion dollars before Thanksgiving."
+  },
+  {
+   "speaker": "A",
+   "text": "On jobs, the New York Times says the evidence is mixed: white-collar industries most exposed to AI kept adding jobs in October, though growth was weak. Bloomberg suggests hiring may be shifting from the data center buildout toward consultants who implement AI."
+  },
+  {
+   "speaker": "B",
+   "text": "And a Washington Post piece on new research says men in AI-exposed jobs are advancing faster while women lose ground."
+  },
+  {
+   "speaker": "A",
+   "text": "Another Post story offers a counterweight on energy: a new study finds data centers have had only a marginal effect on residential electricity prices so far."
+  },
+  {
+   "speaker": "B",
+   "text": "Now the research. A Management Science paper ran randomized field experiments with millions of users at a crossborder online retailer, putting generative AI into seven workflows."
+  },
+  {
+   "speaker": "A",
+   "text": "Sales rose in most of them, by up to sixteen point three percent, worth about five dollars per consumer per year, mostly through higher conversion. Returns and ratings did not get worse, and less experienced shoppers gained most."
+  },
+  {
+   "speaker": "B",
+   "text": "That's a useful contrast to the market anxiety: concrete, measured gains at the firm level."
+  },
+  {
+   "speaker": "A",
+   "text": "One more: the FT asks why America seems to dislike AI, noting voter hostility to Big Tech shaped the midterms while attitudes in Asia are far more optimistic."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest for today. Full summaries and the archive are on the web page. Thanks for listening."
+  },
+  {
+   "speaker": "A",
+   "text": "See you next time."
+  },
+  {
+   "speaker": "B",
+   "text": "Take care."
+  }
+ ],
+ "footnote": "Window: 2026-11-06 (last run) → 2026-11-07. SSRN searches returned no postings with a verifiable in-window date, so none are included. No newsletters were available. The Economist returned no items. News summaries are based on feed teasers. arXiv candidates this run were not about AI as subject or method."
+}
