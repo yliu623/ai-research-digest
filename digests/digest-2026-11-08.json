@@ -1,0 +1,166 @@
+{
+ "date": "2026-11-08",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": []
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "The only town in the U.S. that said yes to data centers",
+     "url": "https://www.washingtonpost.com/technology/2026/11/08/only-town-america-that-said-yes-data-centers/",
+     "fulltext": "https://www.washingtonpost.com/technology/2026/11/08/only-town-america-that-said-yes-data-centers/",
+     "date": "2026-11-08",
+     "desc": "A Washington Post story on why one U.S. town welcomed the massive AI data-center projects that much of the country rejected at the ballot box on Election Day. [Washington Post, published 2026-11-08]"
+    },
+    {
+     "title": "Americans are anxious about the AI boom going bust",
+     "url": "https://www.washingtonpost.com/technology/2026/11/07/americans-are-worried-about-ai-boom-going-bust-survey-finds/",
+     "fulltext": "https://www.washingtonpost.com/technology/2026/11/07/americans-are-worried-about-ai-boom-going-bust-survey-finds/",
+     "date": "2026-11-07",
+     "desc": "A new survey finds Americans adding fear of an AI-boom bust to their list of economic worries. [Washington Post, published 2026-11-07]"
+    },
+    {
+     "title": "AI Slump Revives Asia's Forgotten Trades From China to India",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-08/ai-slump-revives-asia-s-forgotten-trades-from-china-to-india",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-08/ai-slump-revives-asia-s-forgotten-trades-from-china-to-india",
+     "date": "2026-11-08",
+     "desc": "Investors are rethinking their Asia playbook as the AI trade unravels after the U.S. midterms, reviving demand for out-of-favor Chinese and Indian stocks and for companies set to gain from easing inflation and trade tensions. [Bloomberg, published 2026-11-08]"
+    },
+    {
+     "title": "Stockland Scraps Sydney Data Center Plans After Local Backlash",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-08/stockland-scraps-sydney-data-center-plans-after-local-backlash",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-08/stockland-scraps-sydney-data-center-plans-after-local-backlash",
+     "date": "2026-11-08",
+     "desc": "Australian property group Stockland abandoned a planned Sydney data center after community opposition, another sign of growing resistance to AI infrastructure. [Bloomberg, published 2026-11-08]"
+    },
+    {
+     "title": "AI is coming for managers' headcount",
+     "url": "https://www.ft.com/content/c1af5834-e9ee-411f-ba57-9af758ac6682",
+     "fulltext": "https://www.ft.com/content/c1af5834-e9ee-411f-ba57-9af758ac6682",
+     "date": "2026-11-08",
+     "desc": "The FT argues that AI-driven cuts are moving up the ladder to management roles, suggesting managers' pay grade could be next. [Financial Times, published 2026-11-08]"
+    },
+    {
+     "title": "Argentina's Milei dreams of data centres on the Patagonian steppe",
+     "url": "https://www.ft.com/content/d432ae29-6454-4916-98c7-afb6993cfb67",
+     "fulltext": "https://www.ft.com/content/d432ae29-6454-4916-98c7-afb6993cfb67",
+     "date": "2026-11-08",
+     "desc": "President Milei hopes to turn Argentina's vast land and energy resources into the base of an 'unregulated' AI hub built on data centres. [Financial Times, published 2026-11-08]"
+    },
+    {
+     "title": "Is AI Taking White-Collar Jobs? What the Latest Numbers Tell Us",
+     "url": "https://www.wsj.com/economy/jobs/is-ai-taking-white-collar-jobs-what-the-latest-numbers-tell-us-dd31b115",
+     "fulltext": "https://www.wsj.com/economy/jobs/is-ai-taking-white-collar-jobs-what-the-latest-numbers-tell-us-dd31b115",
+     "date": "2026-11-07",
+     "desc": "The WSJ reports that strong hiring at law offices and consulting firms is staving off fears of an AI-driven white-collar job apocalypse. [WSJ, published 2026-11-07]"
+    },
+    {
+     "title": "CoreWeave Asks Texas Governor-Elect for Data Center Cooperation",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-07/coreweave-asks-texas-governor-elect-for-data-center-cooperation",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-07/coreweave-asks-texas-governor-elect-for-data-center-cooperation",
+     "date": "2026-11-07",
+     "desc": "CoreWeave wrote to Texas Governor-elect Gina Hinojosa seeking to work with her incoming administration on current and future data center projects in the state. [Bloomberg, published 2026-11-07]"
+    },
+    {
+     "title": "AI Backlash Spreads Across Europe With Data Center Protests",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-07/ai-backlash-spreads-across-europe-with-data-center-protests",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-07/ai-backlash-spreads-across-europe-with-data-center-protests",
+     "date": "2026-11-07",
+     "desc": "Protests against data centers continued across Europe on Saturday, with citizens voicing concerns about their social and environmental impact. [Bloomberg, published 2026-11-07]"
+    },
+    {
+     "title": "Data centres rebuked",
+     "url": "https://www.ft.com/content/9d40f40a-cbf2-46f5-b3d0-cee554e35298",
+     "fulltext": "https://www.ft.com/content/9d40f40a-cbf2-46f5-b3d0-cee554e35298",
+     "date": "2026-11-07",
+     "desc": "An FT piece on the collision between AI data-centre capital spending and voters, framed as 'Capex, meet the electorate'. [Financial Times, published 2026-11-07]"
+    },
+    {
+     "title": "UK will not slow down on AI despite backlash in US, says growth minister",
+     "url": "https://www.ft.com/content/47dba9d2-4c82-4e17-969d-f1728ef13a5a",
+     "fulltext": "https://www.ft.com/content/47dba9d2-4c82-4e17-969d-f1728ef13a5a",
+     "date": "2026-11-07",
+     "desc": "Growth minister Dan Tomlinson says UK AI investment is 'too low for what we need to stay at the forefront', and that Britain won't slow down despite the US backlash. [Financial Times, published 2026-11-07]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello, and welcome to the Daily AI Research Digest for November eighth, twenty twenty-six. I'm Alex."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. No new papers cleared our bar today, so this is a news-heavy edition, and the theme is clear: the AI buildout is meeting resistance."
+  },
+  {
+   "speaker": "A",
+   "text": "Start with the Washington Post. A new survey finds Americans are anxious that the AI boom could go bust, one more worry on top of everything else in the economy."
+  },
+  {
+   "speaker": "B",
+   "text": "And the Post has a companion story. On Election Day much of the country turned against the massive projects that power AI, yet one town said yes to data centers. The piece looks at why that place was different."
+  },
+  {
+   "speaker": "A",
+   "text": "The backlash isn't only American. Bloomberg reports protests against data centers continued across Europe on Saturday, with people raising social and environmental worries."
+  },
+  {
+   "speaker": "B",
+   "text": "In Australia, property group Stockland scrapped a planned Sydney data center after local opposition. Bloomberg calls it another sign of growing resistance to AI infrastructure."
+  },
+  {
+   "speaker": "A",
+   "text": "The Financial Times has a short piece titled Data centres rebuked, with the line, capex, meet the electorate. That captures the tension nicely: companies are spending heavily, and voters now have a say."
+  },
+  {
+   "speaker": "B",
+   "text": "Yet governments are split. The FT reports UK growth minister Dan Tomlinson saying Britain will not slow down on AI, and that investment is too low for what the country needs to stay at the forefront."
+  },
+  {
+   "speaker": "A",
+   "text": "And in Argentina, the FT says President Milei dreams of data centres on the Patagonian steppe, using vast land and energy resources to build what it describes as an unregulated AI hub."
+  },
+  {
+   "speaker": "B",
+   "text": "Companies are still lobbying. Bloomberg says CoreWeave wrote to Texas Governor-elect Gina Hinojosa asking to cooperate on present and future data center projects."
+  },
+  {
+   "speaker": "A",
+   "text": "Now markets. Bloomberg says the AI trade has been unraveling since the midterms, and investors are rethinking their Asia playbook, with renewed demand for out-of-favor Chinese and Indian stocks, and for companies that could benefit from easing inflation and trade tensions."
+  },
+  {
+   "speaker": "B",
+   "text": "That fits with the Post's survey on boom-and-bust anxiety. Sentiment seems to be wobbling both on Main Street and in markets."
+  },
+  {
+   "speaker": "A",
+   "text": "Jobs next. The Wall Street Journal looks at whether AI is taking white-collar work, and reports that strong hiring at law offices and consulting firms is staving off fears of a job apocalypse."
+  },
+  {
+   "speaker": "B",
+   "text": "But the Financial Times argues the other direction on one front: AI is coming for managers' headcount, and their pay grade could be next. So the picture is mixed, and worth watching."
+  },
+  {
+   "speaker": "A",
+   "text": "That's the digest for today. Everything is linked in the email and in the web archive."
+  },
+  {
+   "speaker": "B",
+   "text": "Thanks for listening, and we'll be back with more research tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-11-07 (last run) → 2026-11-08. No papers qualified this run. The NYT sitemap could not be reached this run. News summaries are based on feed teasers; SSRN searches yielded no verifiable in-window postings."
+}
