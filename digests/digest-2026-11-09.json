@@ -1,0 +1,426 @@
+{
+ "date": "2026-11-09",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains",
+     "url": "https://www.nber.org/papers/w36003",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w36003/w36003.pdf",
+     "date": "2026-11-09",
+     "desc": "Studies a Chinese e-commerce platform that embedded a generative AI system in its seller software in 2024; a matched difference-in-differences design on small firms finds adoption raises monthly sales by 51.6%, mostly via 47.0% more orders, with the largest gains for the smallest firms and market expansion rather than business stealing. [NBER w36003, issued 2026-11-09]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Welcome to the explainer. Today: a new NBER paper on whether generative AI that sits inside a platform's seller software actually helps small businesses grow. Note: we're working from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam here. The setting is a leading Chinese e-commerce platform that in 2024 built a generative AI system into the software firms use to run their shops, so every firm gets ready-to-use AI tools."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors link complete records of each firm's AI use to monthly operations and sales, and use a matched difference-in-differences design, focusing on firms with annual sales below five million renminbi."
+      },
+      {
+       "speaker": "B",
+       "text": "The headline: adoption raises monthly sales by about 51.6 percent, mainly through a 47 percent rise in the number of orders. Instrumental variable estimates confirm it."
+      },
+      {
+       "speaker": "A",
+       "text": "Why? Two channels. AI lowers the cost of routine work, like writing product content and updating listings, with less staff time per order. And it reduces information frictions, with richer product information, especially where demand is hard to predict."
+      },
+      {
+       "speaker": "B",
+       "text": "The gains are proportionally biggest for the smallest firms, and at the market level categories with more friction see more sales, more entry and more new products. AI expands the market rather than just shifting sales to adopters."
+      },
+      {
+       "speaker": "A",
+       "text": "A caveat: this is one platform in one country, and the figures cover small firms. Takeaway: platform-provided AI can be a leveler for small sellers."
+      }
+     ]
+    },
+    {
+     "title": "TaskNet: Building Occupational Task Inventories from Worker Interviews at Scale",
+     "url": "https://www.nber.org/papers/w35987",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w35987/w35987.pdf",
+     "date": "2026-11-09",
+     "desc": "Introduces TaskNet, an occupational task taxonomy built by an AI-run interview system that interviewed 132 workers across six occupations; it covers 75% of published O*NET tasks, adds 79 new ones, and shifts AI-exposure estimates up for software developers and lawyers. [NBER w35987, issued 2026-11-09]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's topic: how do we know which job tasks AI will touch? A new NBER paper says our task lists are out of date. This is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The authors built the Stanford Task Network, or TaskNet, an occupational taxonomy grounded in what workers say about their everyday work."
+      },
+      {
+       "speaker": "A",
+       "text": "Their system conducts interviews, standardizes the reports into task lists, and aggregates them into occupational task inventories."
+      },
+      {
+       "speaker": "B",
+       "text": "They applied it to six occupations, interviewing 132 workers and producing 202 task statements from 2,726 reports. All were accepted by O*NET analysts, versus roughly 65 percent of workers' write-in suggestions in the current process."
+      },
+      {
+       "speaker": "A",
+       "text": "Compared with O*NET, TaskNet covers 75 percent of the 118 published tasks, adds 79 with no counterpart and refines 58. It covers 89 percent of tasks from held-out workers, against 79 percent for O*NET."
+      },
+      {
+       "speaker": "B",
+       "text": "Importantly, it changes AI exposure estimates in both directions, raising them for software developers and lawyers."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: fresher task data could change who we think is exposed to AI."
+      }
+     ]
+    },
+    {
+     "title": "Artificial Shoppers and Attention Competition",
+     "url": "https://arxiv.org/abs/2611.09399",
+     "fulltext": "https://arxiv.org/pdf/2611.09399",
+     "date": "2026-11-06",
+     "desc": "A theory model of how AI shopping assistants and delegated AI agents affect price competition, platform profit and consumer welfare; it finds assistance can soften competition and some consumers can end up worse off even when their best option is recommended. [arXiv econ.TH, submitted 2026-11-06]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Let's talk about AI shopping assistants and what they do to prices. This is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The paper is a theory model. A platform hosts two of three products of different quality, and consumers compare them with a salience distortion, overweighting whichever of price or quality stands out."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors compare no AI, an assistant that recommends the two highest-utility products, and a delegation agent that picks the best product subject to approval."
+      },
+      {
+       "speaker": "B",
+       "text": "First result: assistance can soften competition even though it expands product access. Depending on which pair is hosted, it can lower both prices or raise both."
+      },
+      {
+       "speaker": "A",
+       "text": "Second, an alignment paradox: some consumers can be worse off with AI even though their best option is recommended and cheaper, because salience can push them to a lower-quality product."
+      },
+      {
+       "speaker": "B",
+       "text": "Third, assistance or delegation can raise both platform profit and consumer surplus in some cases, though the platform's preferred design can leave both lower than the no-AI optimum."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: more capable AI shoppers don't automatically mean more competition."
+      }
+     ]
+    },
+    {
+     "title": "Knowing When to Intervene: Causal Evaluation of AI Agents",
+     "url": "https://arxiv.org/abs/2611.09792",
+     "fulltext": "https://arxiv.org/pdf/2611.09792",
+     "date": "2026-11-06",
+     "desc": "Develops a causal-inference framework for estimating the value of randomized interventions, such as verification or screening, within AI agent trajectories, and applies it to tau-bench Retail, ToolSandbox and ImpossibleBench, finding intervention effects vary substantially across agent actions and states. [arXiv cs.AI, submitted 2026-11-06]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today: how should we decide when to step in on an AI agent mid-task? Abstract-only summary."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Benchmarks are static, so they say little about whether an intervention at deployment, like verifying an output or steering the agent, is worth its cost."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors frame that as a dynamic causal inference problem and build a framework that uses a small dataset of agent trajectories collected under randomized interventions."
+      },
+      {
+       "speaker": "B",
+       "text": "From it they can estimate the effect of a rich class of contextual intervention policies, and build safety leaderboards of risky agent actions for audit prioritization."
+      },
+      {
+       "speaker": "A",
+       "text": "Applied to tau-bench Retail, ToolSandbox and ImpossibleBench, intervention effects vary substantially across actions and states."
+      },
+      {
+       "speaker": "B",
+       "text": "The point is that benchmarks alone cannot say whether supervision pays off; you need causal estimates tied to the specific context and the agent's likely future behavior."
+      },
+      {
+       "speaker": "A",
+       "text": "The framework only needs a relatively small set of trajectories collected with randomized checks, which makes it practical for teams that already log agent runs."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: oversight should be targeted, and causal tools can tell you where it pays."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Does a Trading Policy Need to Know What It Trades? Microstructure Invariance and Zero-Shot Transfer of Execution Policies",
+     "url": "https://arxiv.org/abs/2611.08701",
+     "fulltext": "https://arxiv.org/pdf/2611.08701",
+     "date": "2026-11-05",
+     "desc": "Trains reinforcement-learning execution policies on 954 Nasdaq stocks from 2019 and tests them unchanged on 1,964 unseen stocks, 2025-26 data, crypto and a second exchange; a policy seeing only trade rate, size, spread and tick comes within 0.015 spreads per share of one trained on the stock. [arXiv cs.LG, submitted 2026-11-05]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today: can a trading algorithm trained on some stocks work on others? Abstract-only summary."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Execution algorithms are usually calibrated asset by asset. This paper trains RL policies once, on 954 stocks in 2019, to choose between waiting in the queue and crossing the spread, using exact order-by-order Nasdaq replay."
+      },
+      {
+       "speaker": "A",
+       "text": "They test unchanged on 1,964 unseen stocks in 2020 to 2021, 2,629 stocks in 2025 to 2026, crypto pairs and a second exchange."
+      },
+      {
+       "speaker": "B",
+       "text": "A policy that sees a stock only through recent trade rate, trade size, spread and tick costs within 0.015 spreads per share of one trained on that stock."
+      },
+      {
+       "speaker": "A",
+       "text": "Normalizing into each asset's own units beats raw units, but by under a basis point, and nothing extrapolates to unseen spread regimes."
+      },
+      {
+       "speaker": "B",
+       "text": "They also warn that a near-zero transfer gap is weak evidence a representation is right. Takeaway: zero-shot transfer works well, but the theory behind it is less proven."
+      }
+     ]
+    },
+    {
+     "title": "Towards Robust Reinforcement Learning Market Making: Lessons from Loss Function Experimentation",
+     "url": "https://arxiv.org/abs/2611.09012",
+     "fulltext": "https://arxiv.org/pdf/2611.09012",
+     "date": "2026-11-06",
+     "desc": "Compares loss-function designs for reinforcement-learning market-making agents and finds that penalties for inventory and cash management produce more resilient, adaptable strategies than pure profit maximization. [arXiv cs.LG, submitted 2026-11-06]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Quick one on reinforcement learning market makers. Abstract-only summary."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Market makers keep trade flowing, and recent work trains them with reinforcement learning. This paper asks how the loss function shapes risk behavior."
+      },
+      {
+       "speaker": "A",
+       "text": "They contrast profit-maximizing agents with risk-averse ones through empirical evaluation."
+      },
+      {
+       "speaker": "B",
+       "text": "The finding: penalties for inventory and cash management foster more resilient and adaptable strategies."
+      },
+      {
+       "speaker": "A",
+       "text": "Many earlier systems simply maximize profit, which can leave a market maker holding large, risky inventory when conditions shift."
+      },
+      {
+       "speaker": "B",
+       "text": "By adding explicit penalties, the agents behave more conservatively and adapt better, which is the kind of robustness practitioners care about."
+      },
+      {
+       "speaker": "A",
+       "text": "Because this summary rests only on the abstract, details such as the exact markets, data and performance numbers are not covered here, and listeners should check the paper itself for how large the differences were and how robust they are across market conditions and parameter settings."
+      },
+      {
+       "speaker": "B",
+       "text": "The paper is a set of empirical experiments, so the lesson is about design choices rather than a new theory."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: balancing profit and risk in the objective matters for practical algorithmic trading."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Nvidia’s Stock Price Set to Drop After Investigation Into CEO Jensen Huang",
+     "url": "https://www.nytimes.com/2026/11/09/business/nvidia-stock-price-jensen-huang-ceo.html",
+     "date": "2026-11-09",
+     "desc": "Nvidia's size and role in the AI trade mean Jensen Huang's admission of a relationship with a suspected Chinese spy, and the resulting board probe, could reverberate across Wall Street. [NYT, published 2026-11-09]",
+     "fulltext": "https://www.nytimes.com/2026/11/09/business/nvidia-stock-price-jensen-huang-ceo.html"
+    },
+    {
+     "title": "Nvidia Shares Drop After CEO Huang’s Affair Triggers Board Probe",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-09/nvidia-shares-dip-on-robinhood-as-huang-affair-spurs-board-probe",
+     "date": "2026-11-09",
+     "desc": "Nvidia shares fell in premarket trading after the board opened an investigation into CEO Jensen Huang following his admission of an affair with a woman reported to be a suspected Chinese spy. [Bloomberg, published 2026-11-09]",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-09/nvidia-shares-dip-on-robinhood-as-huang-affair-spurs-board-probe"
+    },
+    {
+     "title": "Hedge Funds Dump Tech Stocks at One of Fastest Paces on Record",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-09/hedge-funds-dump-tech-stocks-at-one-of-fastest-paces-on-record",
+     "date": "2026-11-09",
+     "desc": "Hedge funds sold global tech stocks at one of the fastest paces on record last week as concern that political opposition could derail the data-center buildout prompted a sharp reassessment of the AI trade. [Bloomberg, published 2026-11-09]",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-09/hedge-funds-dump-tech-stocks-at-one-of-fastest-paces-on-record"
+    },
+    {
+     "title": "Citi Strategists Cut US Stocks, Upgrade Europe After AI Turmoil",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-09/citi-strategists-cut-us-stocks-upgrade-europe-after-ai-turmoil",
+     "date": "2026-11-09",
+     "desc": "Citigroup strategists downgraded US stocks and the global tech sector and upgraded European equities, citing Europe's lower exposure to AI turbulence. [Bloomberg, published 2026-11-09]",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-09/citi-strategists-cut-us-stocks-upgrade-europe-after-ai-turmoil"
+    },
+    {
+     "title": "SoftBank’s Mobile Arm Braces for Possible AI Correction in US",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-09/softbank-s-mobile-arm-braces-for-possible-ai-correction-in-us",
+     "date": "2026-11-09",
+     "desc": "The head of SoftBank Corp. says he is preparing for a possible slowdown in US AI data-center demand and that the company may look elsewhere for growth. [Bloomberg, published 2026-11-09]",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-09/softbank-s-mobile-arm-braces-for-possible-ai-correction-in-us"
+    },
+    {
+     "title": "Tech sell-off raises risks for SoftBank’s massive AI bet",
+     "url": "https://www.ft.com/content/e19c86dc-9437-4827-a5ae-14bd4033037b",
+     "date": "2026-11-09",
+     "desc": "Falling values of its holdings leave founder Masayoshi Son grappling with the risks of SoftBank's large AI bet ahead of an earnings report. [Financial Times, published 2026-11-09]",
+     "fulltext": "https://www.ft.com/content/e19c86dc-9437-4827-a5ae-14bd4033037b"
+    },
+    {
+     "title": "Norway Halts Power Connections for New Data Centers",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-09/norway-halts-power-connections-for-new-data-centers",
+     "date": "2026-11-09",
+     "desc": "Norway will suspend further reservations of electricity grid connections for data centers while it works out how to handle the burden they place on the grid. [Bloomberg, published 2026-11-09]",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-09/norway-halts-power-connections-for-new-data-centers"
+    },
+    {
+     "title": "Data Center Boss Vows Engagement After Backlash Tanks Stock",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-09/data-center-boss-vows-engagement-after-backlash-tanks-stock",
+     "date": "2026-11-09",
+     "desc": "Nextdc's CEO pledged to put communities first after local backlash delayed a major Melbourne data-center project last month and sent the stock sharply lower. [Bloomberg, published 2026-11-09]",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-09/data-center-boss-vows-engagement-after-backlash-tanks-stock"
+    },
+    {
+     "title": "Taiwan Stocks Jump as Authorities Move to Stem Market Rout",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-09/taiwan-stocks-gain-as-authorities-move-to-stem-market-rout",
+     "date": "2026-11-09",
+     "desc": "Taiwanese shares rallied after authorities announced measures to restore investor confidence following the longest selling streak since 2022 amid a global AI stock rout. [Bloomberg, published 2026-11-09]",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-09/taiwan-stocks-gain-as-authorities-move-to-stem-market-rout"
+    },
+    {
+     "title": "Anthropic strikes $3.4bn deal to generate gas-fired power for data centres",
+     "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
+     "date": "2026-11-08",
+     "desc": "The AI lab is bypassing traditional suppliers to secure scarce power-generation equipment in a $3.4bn deal, as energy demand from AI surges. [Financial Times, published 2026-11-08]",
+     "fulltext": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0"
+    },
+    {
+     "title": "RBA’s Hunter Says AI Boom Will Put Near-Term Pressure on CPI",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-08/rba-s-hunter-says-ai-boom-will-put-near-term-pressure-on-prices",
+     "date": "2026-11-08",
+     "desc": "A senior Reserve Bank of Australia official says surging AI-related investment will add to demand just as policymakers are aggressively raising rates to fight inflation. [Bloomberg, published 2026-11-08]",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-08/rba-s-hunter-says-ai-boom-will-put-near-term-pressure-on-prices"
+    },
+    {
+     "title": "Treasury Rally Gets New Boost as Election Hammers AI Trade",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-08/treasury-rally-gets-new-boost-as-election-hammers-the-ai-trade",
+     "date": "2026-11-08",
+     "desc": "Wall Street sees Treasuries as a winner of the Democratic midterm landslide, giving traders another reason to rethink this year's sharp selloff in the AI trade. [Bloomberg, published 2026-11-08]",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-08/treasury-rally-gets-new-boost-as-election-hammers-the-ai-trade"
+    },
+    {
+     "title": "Is AI taking white-collar jobs? Latest hiring report suggests not yet.",
+     "url": "https://www.washingtonpost.com/business/2026/11/07/white-collar-hiring-jumps-october-complicating-ai-story/",
+     "date": "2026-11-08",
+     "desc": "A sector often used as a gauge of white-collar work added 70,000 jobs despite AI fears, though one economist calls the gain a head fake. [Washington Post, published 2026-11-08]",
+     "fulltext": "https://www.washingtonpost.com/business/2026/11/07/white-collar-hiring-jumps-october-complicating-ai-story/"
+    },
+    {
+     "title": "When the Boss on the Phone Isn’t Real: How More Than $129 Million Was Stolen Using A.I.",
+     "url": "https://www.nytimes.com/2026/11/08/business/ai-ceo-impersonation-theft.html",
+     "date": "2026-11-08",
+     "desc": "A federal indictment alleges three men used generative AI to impersonate the voices of chief executives and lawyers to defraud companies of more than $129 million. [NYT, published 2026-11-08]",
+     "fulltext": "https://www.nytimes.com/2026/11/08/business/ai-ceo-impersonation-theft.html"
+    },
+    {
+     "title": "Deutsche Telekom Adds Latest Nvidia Chips in German AI Buildout",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-09/deutsche-telekom-adds-latest-nvidia-chips-in-german-ai-buildout",
+     "date": "2026-11-09",
+     "desc": "Deutsche Telekom will invest about €250 million ($289 million) to equip its Munich AI data center with more advanced Nvidia processors, part of a European push in industrial AI. [Bloomberg, published 2026-11-09]",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-09/deutsche-telekom-adds-latest-nvidia-chips-in-german-ai-buildout"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello and welcome to the AI Research Digest briefing for November ninth, 2026. I'm Alex."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. Today the story is mostly markets: an AI stock rout, plus a few fresh papers on how AI changes business and trading."
+  },
+  {
+   "speaker": "A",
+   "text": "Let's start with the news. Nvidia's board has opened an investigation into chief executive Jensen Huang after he admitted a relationship with a woman reported to be a suspected Chinese spy. Bloomberg reports the shares fell in premarket trading, and the New York Times notes Nvidia's weight in the AI trade means this could reverberate across Wall Street."
+  },
+  {
+   "speaker": "B",
+   "text": "That comes on top of a broader selloff. Bloomberg says hedge funds dumped global tech stocks at one of the fastest paces on record last week, as worries that political opposition could derail the data center buildout drove a reassessment of the AI trade."
+  },
+  {
+   "speaker": "A",
+   "text": "Citigroup strategists downgraded US stocks and global tech and upgraded Europe, citing its lower exposure to AI turbulence. And in Taiwan, authorities announced measures to restore confidence after the longest selling streak since 2022."
+  },
+  {
+   "speaker": "B",
+   "text": "SoftBank is in the spotlight too. The head of SoftBank Corp. says he is preparing for a possible slowdown in US AI data center demand, and the Financial Times says falling values of its holdings raise the risks of Masayoshi Son's big AI bet."
+  },
+  {
+   "speaker": "A",
+   "text": "There's a physical side to this as well. Norway is suspending new grid connection reservations for data centers, and the Financial Times reports Anthropic struck a three point four billion dollar deal for gas-fired power generation for its data centers."
+  },
+  {
+   "speaker": "B",
+   "text": "On the macro front, a Reserve Bank of Australia official said the AI investment boom will put near-term pressure on consumer prices while the central bank is already raising rates. Meanwhile, the Washington Post notes a white-collar hiring gain of seventy thousand jobs, though one economist calls it a head fake for the AI jobs story."
+  },
+  {
+   "speaker": "A",
+   "text": "Now to research. A new NBER paper studies a Chinese e-commerce platform that built generative AI into its seller software. Small adopting firms saw monthly sales rise by about fifty-two percent, mostly from more orders, with the biggest gains for the smallest firms."
+  },
+  {
+   "speaker": "B",
+   "text": "Another NBER paper introduces TaskNet, which uses AI-run interviews of workers to build better occupational task lists. It covers three quarters of official O-NET tasks, adds seventy-nine new ones, and changes AI exposure estimates for software developers and lawyers."
+  },
+  {
+   "speaker": "A",
+   "text": "On the theory side, an arXiv paper on artificial shoppers shows AI shopping assistants can soften price competition, and some consumers can even end up worse off."
+  },
+  {
+   "speaker": "B",
+   "text": "In finance, a reinforcement learning paper trained trade execution policies on nearly a thousand Nasdaq stocks and tested them on thousands of unseen ones, finding they transfer surprisingly well, within a fraction of a spread of stock-specific policies."
+  },
+  {
+   "speaker": "A",
+   "text": "Another paper finds that penalizing inventory and cash in the loss function makes reinforcement learning market makers more resilient."
+  },
+  {
+   "speaker": "B",
+   "text": "And one more cautionary item: the New York Times reports an indictment alleging three men used generative AI voice impersonation of executives to steal more than one hundred twenty-nine million dollars from companies."
+  },
+  {
+   "speaker": "A",
+   "text": "That's a lot of moving pieces: markets are repricing AI, physical constraints like power are biting, and the research suggests real gains for small firms."
+  },
+  {
+   "speaker": "B",
+   "text": "Agreed. Full summaries and the web archive are linked in today's email. Thanks for listening, and we'll be back tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-11-08 (last run) → 2026-11-09. All sources reachable. SSRN and Washington Post backfill searches were not run this run; no forwarded newsletters were present. News summaries are based on feed teasers; paper explainers are based on abstracts only."
+}
