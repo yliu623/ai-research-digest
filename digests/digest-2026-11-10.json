@@ -1,0 +1,542 @@
+{
+ "date": "2026-11-10",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Winning Reviews, Losing Discovery? The Co-Evolutionary Game of AI Research and Peer Review",
+     "url": "https://arxiv.org/abs/2611.10791",
+     "fulltext": "https://arxiv.org/pdf/2611.10791",
+     "date": "2026-11-07",
+     "desc": "An evolutionary-game model of authors and reviewers shows how AI-generated, acceptance-oriented papers and proxy-based automated reviewing can reinforce each other, sustaining a regime where publication counts hide a loss of scientific value; careful audits and reviewer rewards can reverse it. [arXiv cs.GT, submitted 2026-11-07]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's paper asks what happens to science when machines both write and review the papers. It is a theory paper, and I should say up front that this explainer is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "So what's the setup?"
+      },
+      {
+       "speaker": "A",
+       "text": "Two populations in an evolutionary game. Authors choose between acceptance-oriented research, which is cheap to produce and looks complete, and exploratory research. Reviewers choose between proxy evaluation, which is quick, and careful assessment."
+      },
+      {
+       "speaker": "B",
+       "text": "And the worry is a feedback loop?"
+      },
+      {
+       "speaker": "A",
+       "text": "Exactly. When acceptance-oriented work gets cheaper, review pressure rises, which makes quick proxy reviewing more attractive. Proxy reviewing in turn rewards work that is built to please the reviewer. The authors derive conditions under which that loop becomes a stable regime that rewards publication success while reducing the scientific value of what gets accepted."
+      },
+      {
+       "speaker": "B",
+       "text": "What is the surprising part?"
+      },
+      {
+       "speaker": "A",
+       "text": "An analytical basin boundary. The same institutional rules can support either the bad regime or a healthy one with exploratory research and careful review, depending on where the community starts. Numerical illustrations show publication counts can conceal the scientific loss, and that partial reform may fail once the cycle is established."
+      },
+      {
+       "speaker": "B",
+       "text": "Is there a way out?"
+      },
+      {
+       "speaker": "A",
+       "text": "Careful audits and rewards for reviewers can reverse the feedback. And temporary support can produce lasting recovery if it pushes the community across the basin boundary, so a one-off intervention can matter."
+      },
+      {
+       "speaker": "B",
+       "text": "What are the limits?"
+      },
+      {
+       "speaker": "A",
+       "text": "The authors stress this is a warning mechanism, not a forecast about any particular conference. It is a stylized model, so no empirical numbers here."
+      },
+      {
+       "speaker": "B",
+       "text": "The takeaway: a review system can keep running and keep paying people privately while quietly losing its scientific purpose."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Diversification Across Predictors: Heterogeneous Ensemble Learning for Cross-Sectional Return Prediction",
+     "url": "https://arxiv.org/abs/2611.12389",
+     "fulltext": "https://arxiv.org/pdf/2611.12389",
+     "date": "2026-11-09",
+     "desc": "Proposes bagging linear and nonlinear predictors so their errors cancel, formalized as an analogy to portfolio diversification; on CSI300 Alpha158 factor data the ensemble raises Rank IC by over 13% versus standalone neural networks and beats XGBoost and Double Ensemble. [arXiv q-fin.CP, submitted 2026-11-09]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This one is about predicting stock returns with machine learning, and borrowing the idea of diversification. Again, this is from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Stock return prediction has terrible signal-to-noise, right?"
+      },
+      {
+       "speaker": "A",
+       "text": "Right. Neural networks tend to overfit the noise, while linear models underfit nonlinear structure. The authors say each model class fails in complementary ways."
+      },
+      {
+       "speaker": "B",
+       "text": "So combine them?"
+      },
+      {
+       "speaker": "A",
+       "text": "Yes, with a bagging procedure that mixes linear and nonlinear predictors. Each acts as a specialist, and because their errors have low covariance, aggregating them cancels errors."
+      },
+      {
+       "speaker": "B",
+       "text": "Where does the portfolio analogy come in?"
+      },
+      {
+       "speaker": "A",
+       "text": "They use a bias-variance-covariance decomposition and argue there is an exact mathematical correspondence between portfolio diversification and predictor aggregation. Combining predictors reduces error the way combining assets reduces risk."
+      },
+      {
+       "speaker": "B",
+       "text": "And does it work?"
+      },
+      {
+       "speaker": "A",
+       "text": "On daily Alpha158 factor data for the CSI300, the ensemble improves Rank IC by more than 13 percent over standalone neural networks. It also beats tree-based state-of-the-art methods like XGBoost and Double Ensemble on both predictive accuracy and portfolio-based metrics."
+      },
+      {
+       "speaker": "B",
+       "text": "Caveats?"
+      },
+      {
+       "speaker": "A",
+       "text": "One market, one factor set, and we are going on the abstract, so check costs and robustness in the full paper."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: diversify your models, not just your assets."
+      }
+     ]
+    },
+    {
+     "title": "Optimal execution in a fractional setting with reinforcement learning",
+     "url": "https://arxiv.org/abs/2611.11373",
+     "fulltext": "https://arxiv.org/pdf/2611.11373",
+     "date": "2026-11-08",
+     "desc": "Revisits Almgren-Chriss optimal liquidation when prices follow fractional Brownian motion; since the deterministic solution is no longer optimal for H not equal to 1/2, a neural-network policy-gradient strategy trained on CARA utility exploits price-increment correlation and improves significantly. [arXiv q-fin.TR, submitted 2026-11-08]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Let's talk about selling a large block of shares without moving the price against yourself. This explainer is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "That's the Almgren-Chriss problem."
+      },
+      {
+       "speaker": "A",
+       "text": "Yes. The classic setup has linear market impact and a deterministic optimal selling schedule. This paper changes the price process to fractional Brownian motion."
+      },
+      {
+       "speaker": "B",
+       "text": "Which means what in plain terms?"
+      },
+      {
+       "speaker": "A",
+       "text": "Price increments are correlated over time, with a parameter H. When H equals one half you get the standard random walk. When H differs from one half, past moves tell you something about future ones."
+      },
+      {
+       "speaker": "B",
+       "text": "And then the old schedule fails."
+      },
+      {
+       "speaker": "A",
+       "text": "Right, the authors observe that for H not equal to one half the deterministic Almgren-Chriss solution is no longer optimal, because it ignores that correlation information."
+      },
+      {
+       "speaker": "B",
+       "text": "So they bring in reinforcement learning."
+      },
+      {
+       "speaker": "A",
+       "text": "They derive a strategy from a policy gradient algorithm, with the policy parameterized by a neural network and trained to maximize CARA utility, which is exponential utility with constant risk aversion. The network learns to exploit the correlation between increments."
+      },
+      {
+       "speaker": "B",
+       "text": "Results?"
+      },
+      {
+       "speaker": "A",
+       "text": "The abstract says the method allows significant improvements, without giving numbers, so I would not quote a figure."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: if prices have memory, an adaptive learned execution policy can beat the textbook schedule."
+      }
+     ]
+    },
+    {
+     "title": "Risk-Sensitive Reinforcement Learning for an Options Market Maker: An Empirical Study with Real S&P 500 Options",
+     "url": "https://arxiv.org/abs/2611.10956",
+     "fulltext": "https://arxiv.org/pdf/2611.10956",
+     "date": "2026-11-07",
+     "desc": "Trains a distributional TD3 hedging agent on 1996-2017 S&P 500 option data and tests it out of sample over 2018-2023; it cuts CVaR tail loss 3.1% versus delta hedging (8.9% in volatile falling markets) but costs 7-10% in rising markets. [arXiv q-fin.RM, submitted 2026-11-07]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Next, a paper on teaching a reinforcement learning agent to hedge an options book. Abstract-only again."
+      },
+      {
+       "speaker": "B",
+       "text": "Why would an options market maker need that?"
+      },
+      {
+       "speaker": "A",
+       "text": "They absorb client order flow and end up with inventory risk they must hedge, with trading frictions. Standard practice is delta hedging."
+      },
+      {
+       "speaker": "B",
+       "text": "What's new here?"
+      },
+      {
+       "speaker": "A",
+       "text": "Most RL hedging agents are trained in simulated markets that don't contain real crashes and volatility regimes. These authors build an empirical replay environment from S&P 500 option data from 1996 to 2017, and compare it with a geometric Brownian motion simulator, a SABR stochastic-volatility simulator, and a hybrid."
+      },
+      {
+       "speaker": "B",
+       "text": "And the agent?"
+      },
+      {
+       "speaker": "A",
+       "text": "A distributional Twin Delayed Deep Deterministic Policy Gradient agent, evaluated out of sample from 2018 to 2023."
+      },
+      {
+       "speaker": "B",
+       "text": "Does it beat delta hedging?"
+      },
+      {
+       "speaker": "A",
+       "text": "On tail risk, yes. The agent trained on empirical data reduces Conditional Value-at-Risk tail loss by 3.1 percent against delta hedging, and beats every hedge-ratio rule chosen during training and every other training environment."
+      },
+      {
+       "speaker": "B",
+       "text": "Any catch?"
+      },
+      {
+       "speaker": "A",
+       "text": "A big one. The reduction reaches 8.9 percent in volatile, falling markets, but reverses to a cost of 7 to 10 percent in rising markets. The learned policy takes a state-dependent short net delta."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: real-data training buys crash protection, but you pay for it when markets rise."
+      }
+     ]
+    },
+    {
+     "title": "DeepFinance: Can AI Diligence a $100MM Deal?",
+     "url": "https://arxiv.org/abs/2611.10926",
+     "fulltext": "https://arxiv.org/pdf/2611.10926",
+     "date": "2026-11-07",
+     "desc": "Introduces a benchmark of 21 end-to-end private equity and investment banking tasks, each taking a professional about 27 hours and graded on about 84 expert rubric criteria; across 22 model configurations the best satisfies 57.6% and the top four are statistically indistinguishable. [arXiv cs.CL, submitted 2026-11-07]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Can AI do the work of a private equity or investment banking team? This is a benchmark paper, summarized from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What's in DeepFinance?"
+      },
+      {
+       "speaker": "A",
+       "text": "Twenty-one ultra long-horizon tasks. Each pairs a request with a data room of about 19 files, and takes a human professional an average of 27.1 hours."
+      },
+      {
+       "speaker": "B",
+       "text": "How is it graded?"
+      },
+      {
+       "speaker": "A",
+       "text": "Against an average of 84 expert-written rubric criteria, covering the output, the workflow, and the judgment. Not just whether the numbers are right."
+      },
+      {
+       "speaker": "B",
+       "text": "Why does that matter?"
+      },
+      {
+       "speaker": "A",
+       "text": "Because real deal work means choosing between conflicting sources, making sound assumptions, and keeping every step auditable. Earlier evaluations focused on retrieving answers from documents."
+      },
+      {
+       "speaker": "B",
+       "text": "How did the models do?"
+      },
+      {
+       "speaker": "A",
+       "text": "They tested 22 model configurations, each in its native agent harness. The best one, run with maximum reasoning, satisfied 57.6 percent of rubric criteria, and the top four were not statistically distinguishable."
+      },
+      {
+       "speaker": "B",
+       "text": "What goes wrong?"
+      },
+      {
+       "speaker": "A",
+       "text": "Frontier models often calculate correctly from the wrong inputs, and find decision-relevant evidence without acting on it."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: capable, but far from handing it the data room and walking away."
+      }
+     ]
+    },
+    {
+     "title": "Track or Follow? A Jev-Compatible Multi-Agent Trading System When Web News Lags the Market",
+     "url": "https://arxiv.org/abs/2611.10414",
+     "fulltext": "https://arxiv.org/pdf/2611.10414",
+     "date": "2026-11-07",
+     "desc": "Tests whether LLM judgments of web news track the market's reaction or merely follow it: item judgments correlate with announcement-window abnormal returns (weekly Spearman 0.119), but 72% of earnings items appear after the filing and the association falls to 0.023 from the first post-publication trade. [arXiv cs.CL, submitted 2026-11-07]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper asks whether language models trading on web news are reading events or just reading the market. Abstract-only explainer."
+      },
+      {
+       "speaker": "B",
+       "text": "Meaning the news is already stale?"
+      },
+      {
+       "speaker": "A",
+       "text": "Much web news about listed firms is published after, and about, the price move it reports. So a model agreeing with the market might just be following it."
+      },
+      {
+       "speaker": "B",
+       "text": "How do they test it?"
+      },
+      {
+       "speaker": "A",
+       "text": "They build a multi-agent trading system where agents share only point-in-time data stores, and code sets every position under a proved bound on how far text can move it. Then a hash-committed test."
+      },
+      {
+       "speaker": "B",
+       "text": "What did they find?"
+      },
+      {
+       "speaker": "A",
+       "text": "Item judgments track announcement-window abnormal returns, with a weekly Spearman correlation of 0.119, and event types agree with issuers' 8-K filings with an AUC of 0.833."
+      },
+      {
+       "speaker": "B",
+       "text": "So it works?"
+      },
+      {
+       "speaker": "A",
+       "text": "Partly. Exploratory analysis shows 72 percent of earnings news items appear after the issuer's filing, and contributor-written items often report the price move. From the first trade after publication, the association falls to 0.023."
+      },
+      {
+       "speaker": "B",
+       "text": "And as a trading signal?"
+      },
+      {
+       "speaker": "A",
+       "text": "At a weekly horizon, the confirmatory test detects no rank information over code-only features. Under attack, decision cards traced 88 percent of successful attacks to the planted item."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: much of an LLM's apparent news skill may just be hindsight."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "SoftBank Loses $7 Billion After Big US Data Center Writedown",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-10/softbank-group-earnings-loss-after-ai-worries-hit-tech-stocks-masayoshi-son",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-10/softbank-group-earnings-loss-after-ai-worries-hit-tech-stocks-masayoshi-son",
+     "date": "2026-11-10",
+     "desc": "SoftBank reported its first net loss in almost two years, about $7 billion, after a $3.7 billion writedown on US data-center projects and lower AI valuations worldwide. [Bloomberg, published 2026-11-10]"
+    },
+    {
+     "title": "SoftBank slumps to loss on US data centre writedown",
+     "url": "https://www.ft.com/content/5ceed157-0016-4822-a272-8b607911da5e",
+     "fulltext": "https://www.ft.com/content/5ceed157-0016-4822-a272-8b607911da5e",
+     "date": "2026-11-10",
+     "desc": "The Financial Times also covers SoftBank's swing to a loss on its US data-centre writedown, another sign of strain in AI infrastructure investing. [Financial Times, published 2026-11-10]"
+    },
+    {
+     "title": "Anthropic Filing Snafu Jolts Investors in Run-Up to Mega IPO",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-seeks-to-raise-69-3-billion-via-its-ipo-reuters-says",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-seeks-to-raise-69-3-billion-via-its-ipo-reuters-says",
+     "date": "2026-11-10",
+     "desc": "Anthropic was set to start formal marketing of its IPO as early as Tuesday after an apparent snafu over filing documents added last-minute drama to a nervous market. [Bloomberg, published 2026-11-10]"
+    },
+    {
+     "title": "TSMC's Revenue Rises 60% in a Sign of Resilient AI Chip Demand",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-10/tsmc-taiwan-semiconductor-manufacturing-revenue-earnings-ai-chip-demand",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-10/tsmc-taiwan-semiconductor-manufacturing-revenue-earnings-ai-chip-demand",
+     "date": "2026-11-10",
+     "desc": "TSMC posted a 60% increase in monthly sales, reflecting its central role in the global AI infrastructure build-out. [Bloomberg, published 2026-11-10]"
+    },
+    {
+     "title": "Qantas to Cut 850 Jobs in AI Technology Deal with Accenture",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-10/qantas-to-cut-850-jobs-in-technology-agreement-with-accenture",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-10/qantas-to-cut-850-jobs-in-technology-agreement-with-accenture",
+     "date": "2026-11-10",
+     "desc": "Qantas signed a technology-outsourcing agreement with Accenture that will remove about 850 jobs at the airline while increasing its use of AI. [Bloomberg, published 2026-11-10]"
+    },
+    {
+     "title": "CoreWeave Has a Sentiment Problem Even Strong Earnings Can't Fix",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-10/coreweave-has-a-sentiment-problem-even-strong-earnings-can-t-fix",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-10/coreweave-has-a-sentiment-problem-even-strong-earnings-can-t-fix",
+     "date": "2026-11-10",
+     "desc": "After a bruising week for AI stocks, CoreWeave faced a high bar to persuade Wall Street the AI trade is intact when it reported earnings after the bell. [Bloomberg, published 2026-11-10]"
+    },
+    {
+     "title": "Chip Maker Infineon Lifts AI Sales Goal on Strong Data-Center Demand",
+     "url": "https://www.wsj.com/business/earnings/chip-maker-infineon-lifts-ai-sales-goal-signaling-confidence-in-demand-80ba33f3",
+     "fulltext": "https://www.wsj.com/business/earnings/chip-maker-infineon-lifts-ai-sales-goal-signaling-confidence-in-demand-80ba33f3",
+     "date": "2026-11-10",
+     "desc": "Infineon raised its AI sales forecast and shares rose more than 4%, signaling the company expects demand for advanced semiconductors and the data-center buildout to continue. [WSJ, published 2026-11-10]"
+    },
+    {
+     "title": "Investors pile into defensive stocks amid fears AI bull market may be over",
+     "url": "https://www.ft.com/content/efe9653b-6802-485e-8eae-97fa2e6df770",
+     "fulltext": "https://www.ft.com/content/efe9653b-6802-485e-8eae-97fa2e6df770",
+     "date": "2026-11-10",
+     "desc": "Consumer staples and healthcare are among sectors performing strongly as investors worry about future tech earnings and whether the AI bull market has ended. [Financial Times, published 2026-11-10]"
+    },
+    {
+     "title": "Nvidia CEO's affair with an alleged Chinese spy could be a problem for the economy",
+     "url": "https://www.washingtonpost.com/technology/2026/11/10/nvidia-ceo-jensen-huang-affair-could-be-problem-us-economy/",
+     "fulltext": "https://www.washingtonpost.com/technology/2026/11/10/nvidia-ceo-jensen-huang-affair-could-be-problem-us-economy/",
+     "date": "2026-11-10",
+     "desc": "Jensen Huang and Nvidia have propelled the AI boom that has lifted the stock market, and he has no obvious successor, raising the stakes of the board investigation for the broader economy. [Washington Post, published 2026-11-10]"
+    },
+    {
+     "title": "Anthropic Prepares to Push Ahead With IPO Despite Market Jitters",
+     "url": "https://www.wsj.com/finance/stocks/anthropic-prepares-to-push-ahead-with-ipo-despite-market-jitters-843dd16c",
+     "fulltext": "https://www.wsj.com/finance/stocks/anthropic-prepares-to-push-ahead-with-ipo-despite-market-jitters-843dd16c",
+     "date": "2026-11-09",
+     "desc": "The Claude maker is moving ahead with its IPO despite investor nerves around AI and the Nvidia investigation. [WSJ, published 2026-11-09]"
+    },
+    {
+     "title": "Investors Brush Off Election, Selloff and Even Nvidia's Spy Scandal to Buy Stocks",
+     "url": "https://www.wsj.com/finance/stocks/investors-brush-off-election-selloff-and-even-nvidias-spy-scandal-to-buy-stocks-8f6d406a",
+     "fulltext": "https://www.wsj.com/finance/stocks/investors-brush-off-election-selloff-and-even-nvidias-spy-scandal-to-buy-stocks-8f6d406a",
+     "date": "2026-11-09",
+     "desc": "Faith in tech stocks wobbled last week, but by Monday investors had bought back in, with eulogies for the AI trade described as hyperbolic. [WSJ, published 2026-11-09]"
+    },
+    {
+     "title": "Could the Voter Backlash Against A.I. Actually Help the Economy?",
+     "url": "https://www.nytimes.com/2026/11/09/business/economy/ai-bubble-democrats-midterms-economy.html",
+     "fulltext": "https://www.nytimes.com/2026/11/09/business/economy/ai-bubble-democrats-midterms-economy.html",
+     "date": "2026-11-09",
+     "desc": "Voter backlash could threaten the data-center boom, and some economists think that might be a good thing. [NYT, published 2026-11-09]"
+    },
+    {
+     "title": "U.S. Commerce Dept. Inquiry Into Megaspeed Was Halted After Nvidia Intervention",
+     "url": "https://www.nytimes.com/2026/11/09/business/economy/nvidia-megaspeed-investigation-huang.html",
+     "fulltext": "https://www.nytimes.com/2026/11/09/business/economy/nvidia-megaspeed-investigation-huang.html",
+     "date": "2026-11-09",
+     "desc": "An investigation into Megaspeed, a Singapore company buying advanced Nvidia AI chips, was moved to the Justice Department after a top Nvidia executive contacted Commerce officials. [NYT, published 2026-11-09]"
+    },
+    {
+     "title": "US stocks rebound after AI rout",
+     "url": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b",
+     "fulltext": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b",
+     "date": "2026-11-09",
+     "desc": "Lower oil prices helped US equity indices shrug off a fall in Nvidia shares after the AI-led rout. [Financial Times, published 2026-11-09]"
+    },
+    {
+     "title": "Moonshot Rents Nvidia's Top AI Chips in China, Documents Show",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-10/moonshot-rents-nvidia-s-top-ai-chips-in-china-documents-show",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-10/moonshot-rents-nvidia-s-top-ai-chips-in-china-documents-show",
+     "date": "2026-11-10",
+     "desc": "Moonshot AI accessed a trove of Nvidia's most advanced chips this summer, per filings with Beijing regulators, showing Chinese reliance on US hardware despite export restrictions. [Bloomberg, published 2026-11-10]"
+    }
+   ]
+  }
+ ],
+ "footnote": "Window: 2026-11-09 (last run) → 2026-11-10. All automated sources reachable. SSRN searches did not yield verifiable in-window posting dates, so no SSRN items; no forwarded newsletters were present. News summaries are based on feed teasers; paper explainers are based on abstracts only.",
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Good morning, this is your AI research digest for November tenth, twenty twenty-six. Today the AI trade is under strain, with data-center write-downs and a scandal at Nvidia, plus a handful of papers on machine learning in markets."
+  },
+  {
+   "speaker": "B",
+   "text": "Let's start with the money. Bloomberg reports SoftBank posted a net loss of about seven billion dollars, its first in almost two years, after a three point seven billion dollar writedown on its US data-center projects, and AI valuations dipping around the world."
+  },
+  {
+   "speaker": "A",
+   "text": "And the Financial Times says investors are piling into defensive stocks, like consumer staples and healthcare, because they fear the AI bull market may be over. Yet the Wall Street Journal reported that by Monday investors had bought stocks again, calling eulogies for the AI trade hyperbolic."
+  },
+  {
+   "speaker": "B",
+   "text": "So sentiment is split. Meanwhile there is real demand data. Bloomberg says TSMC's monthly sales rose sixty percent, and the Journal says Infineon raised its AI sales goal, with shares up more than four percent."
+  },
+  {
+   "speaker": "A",
+   "text": "On the Nvidia story, the Washington Post argues the board investigation of Jensen Huang matters for the broader economy, because Nvidia has propelled the AI boom that has lifted the stock market, and he has no obvious successor."
+  },
+  {
+   "speaker": "B",
+   "text": "The New York Times also reported that a Commerce Department inquiry into Megaspeed, a Singapore company buying advanced Nvidia chips, was moved to the Justice Department after a top Nvidia executive reached out to officials."
+  },
+  {
+   "speaker": "A",
+   "text": "On the IPO front, Anthropic is pressing ahead with its public offering. Bloomberg says an apparent snafu over filing documents added some last-minute drama to a nervous market."
+  },
+  {
+   "speaker": "B",
+   "text": "On labor, Bloomberg reports Qantas will cut about eight hundred and fifty jobs in a technology outsourcing deal with Accenture that increases its use of AI. A concrete case of AI and employment."
+  },
+  {
+   "speaker": "A",
+   "text": "Now to the research. A new q-fin paper, from the abstract, proposes combining linear and nonlinear models into an ensemble for predicting stock returns, drawing an analogy to portfolio diversification. On Chinese CSI three hundred data it improves rank information coefficient by more than thirteen percent over standalone neural networks."
+  },
+  {
+   "speaker": "B",
+   "text": "Another paper trains a reinforcement learning agent to hedge S and P five hundred options using real historical data. It cuts tail loss by three point one percent versus delta hedging, nearly nine percent in volatile falling markets, but costs seven to ten percent in rising markets."
+  },
+  {
+   "speaker": "A",
+   "text": "Then there is DeepFinance, a benchmark of private equity and investment banking tasks that each take a human about twenty-seven hours. The best of twenty-two model setups met fifty-seven point six percent of expert rubric criteria."
+  },
+  {
+   "speaker": "B",
+   "text": "The authors note that models often calculate correctly from the wrong inputs. So we're not at handing over the data room yet."
+  },
+  {
+   "speaker": "A",
+   "text": "And a paper on language models reading web news asks whether they track the market or follow it. Seventy-two percent of earnings news items appeared after the company's filing, and the association with returns nearly vanishes after publication."
+  },
+  {
+   "speaker": "B",
+   "text": "A theory paper on AI and peer review rounds things out. It models how AI-written papers and automated reviewing can reinforce each other, hiding a loss of scientific value behind healthy publication counts."
+  },
+  {
+   "speaker": "A",
+   "text": "One more on the AI trade: the Times asks whether voter backlash against AI could help the economy, since it might slow the data-center boom, which some economists see as a good thing."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest. Everything is in the web archive, with links to each item."
+  },
+  {
+   "speaker": "A",
+   "text": "Thanks for listening, and we'll be back tomorrow."
+  }
+ ]
+}
