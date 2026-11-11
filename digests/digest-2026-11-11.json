@@ -1,0 +1,298 @@
+{
+ "date": "2026-11-11",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Double Machine Learning for Panel Data: Identification, Specification, and a Bank Regulation Effect",
+     "url": "https://arxiv.org/abs/2611.07249",
+     "fulltext": "https://arxiv.org/pdf/2611.07249",
+     "date": "2026-11-04",
+     "desc": "Studies identification and specification when applying double/debiased machine learning to panel data, using the 2018 US banking regulation as the example; estimates vary with asset-size classification and prior growth, and prior-growth adjustment lowers overlap-weighted estimates across four machine learners. [arXiv econ.EM, submitted 2026-11-04]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This one is about using machine learning for causal questions in panel data, with a real policy example: the 2018 US banking regulation. This explainer is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the problem they're tackling?"
+      },
+      {
+       "speaker": "A",
+       "text": "Double or debiased machine learning lets you use flexible learners to control for confounders. But in panels, the choice of transformation, such as the within or first-difference version, can introduce specification bias. The authors characterize what identification and nuisance restrictions are needed when treatment timing is common, and derive exact bank-level representations of those scores."
+      },
+      {
+       "speaker": "B",
+       "text": "And did they test it?"
+      },
+      {
+       "speaker": "A",
+       "text": "They run simulations on how model transformation affects bias and how inference behaves when overlap between treated and untreated is weak."
+      },
+      {
+       "speaker": "B",
+       "text": "What about the bank regulation result?"
+      },
+      {
+       "speaker": "A",
+       "text": "Estimates vary with how banks are classified by asset size and with prior growth. Adjusting for prior growth reduces the overlap-weighted estimates across four different machine learners, and the doubly robust estimates depend on the fitted propensity scores and concentrated weights. Since both bank groups received regulatory relief, they estimate differential exposure effects."
+      },
+      {
+       "speaker": "B",
+       "text": "So the message is about robustness."
+      },
+      {
+       "speaker": "A",
+       "text": "Right. Functional-form robustness and causal identification are linked, and specification choices matter even with flexible machine learning."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: machine learning does not remove specification problems in causal panel work, it moves them."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Tabular Foundation Models in Financial Predictions",
+     "url": "https://arxiv.org/abs/2611.13550",
+     "fulltext": "https://arxiv.org/pdf/2611.13550",
+     "date": "2026-11-10",
+     "desc": "A technical note introduces tabular foundation models to accounting research and tests Google Research's TabFM on predicting firms' next-year earnings changes; it is more accurate than a fine-tuned open-weight LLM and tree-based models, and cheaper than the LLM, though trees are faster, and it rests on a single benchmark task. [arXiv q-fin.CP, submitted 2026-11-10]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's paper is a short technical note from accounting researchers about a new kind of AI model for spreadsheets. It's called a tabular foundation model, and the question is whether it can predict next year's earnings changes for firms."
+      },
+      {
+       "speaker": "B",
+       "text": "Why not just use a large language model or the usual tree-based models?"
+      },
+      {
+       "speaker": "A",
+       "text": "Good question. Conventional machine learning has to be trained from scratch on every new dataset, with a search over settings. Fine-tuning a large language model means adjusting billions of parameters. A tabular foundation model is pretrained once, on hundreds of millions of synthetic datasets, and then learns in context: you hand it historical examples with known outcomes plus the rows to predict, and it just produces numbers, with no tuning."
+      },
+      {
+       "speaker": "B",
+       "text": "And synthetic pretraining matters for finance because of look-ahead bias?"
+      },
+      {
+       "speaker": "A",
+       "text": "Exactly. A language model might have memorized what happened to companies, which spoils historical backtests. This model was never trained on real firms, so it cannot have memorized their outcomes. The authors note it is not immune, though. If the synthetic data resemble real earnings processes and those processes change over time, in-sample tests could still look better than real-time performance."
+      },
+      {
+       "speaker": "B",
+       "text": "So how did it do?"
+      },
+      {
+       "speaker": "A",
+       "text": "They implemented Google Research's TabFM and compared it with a fine-tuned open-weight language model from recent accounting research and several tree-based models, predicting the direction of one-year-ahead earnings changes, scored by area under the curve. TabFM was more accurate than all of them, and faster and less computationally intensive than the language model."
+      },
+      {
+       "speaker": "B",
+       "text": "Any catch?"
+      },
+      {
+       "speaker": "A",
+       "text": "Yes. Several tree-based specifications produce predictions more quickly than TabFM, so there's a trade-off between accuracy and speed. And the evaluation uses a single benchmark task, so the authors say no class of models is likely to win everywhere."
+      },
+      {
+       "speaker": "B",
+       "text": "So the takeaway: tabular foundation models look like a promising new tool for forecasting in accounting and finance, but one benchmark is not a verdict."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Anthropic bankers prepare to increase IPO valuation to $1.5tn or more",
+     "url": "https://www.ft.com/content/68bcba57-0575-44ee-80f4-2e5ea23a431e",
+     "fulltext": "https://www.ft.com/content/68bcba57-0575-44ee-80f4-2e5ea23a431e",
+     "date": "2026-11-11",
+     "desc": "Bankers working on Anthropic's planned public offering are preparing to raise the target valuation to $1.5 trillion or more, the FT reports, a sign of strong investor demand; earlier reports had put the target nearer $1.4 trillion. [Financial Times, published 2026-11-11]"
+    },
+    {
+     "title": "Anthropic's Giant IPO Will Tie It Closer to Nvidia",
+     "url": "https://www.nytimes.com/2026/11/10/business/anthropic-ipo-nvidia.html",
+     "fulltext": "https://www.nytimes.com/2026/11/10/business/anthropic-ipo-nvidia.html",
+     "date": "2026-11-10",
+     "desc": "Nvidia planned to invest $10 billion in Anthropic alongside its initial public offering, the largest of several new financial commitments from industry giants, deepening the two companies' ties. [NYT, published 2026-11-10]"
+    },
+    {
+     "title": "Goldman Sachs expects Anthropic revenue to exceed $600bn by 2030",
+     "url": "https://www.ft.com/content/fd209548-d2df-470c-ab9a-caadbec08b58",
+     "fulltext": "https://www.ft.com/content/fd209548-d2df-470c-ab9a-caadbec08b58",
+     "date": "2026-11-10",
+     "desc": "Goldman Sachs projects the AI start-up will grow sales about 130 times and turn cash-flow positive by the end of the decade. [Financial Times, published 2026-11-10]"
+    },
+    {
+     "title": "OpenAI Continues to Suffer Heavy Losses as Revenue Rises to $10 Billion",
+     "url": "https://www.wsj.com/business/earnings/openai-continues-to-suffer-heavy-losses-as-revenue-rises-to-10-billion-d2a96bbb",
+     "fulltext": "https://www.wsj.com/business/earnings/openai-continues-to-suffer-heavy-losses-as-revenue-rises-to-10-billion-d2a96bbb",
+     "date": "2026-11-11",
+     "desc": "OpenAI's revenue has risen to $10 billion and its adjusted operating margin improved, but the company remains far from profitability. [WSJ, published 2026-11-11]"
+    },
+    {
+     "title": "SoftBank Posts $7 Billion Loss as AI Trade Falters",
+     "url": "https://www.wsj.com/business/earnings/softbank-group-posts-quarterly-loss-on-special-losses-linked-to-u-s-data-center-projects-23b37a41",
+     "fulltext": "https://www.wsj.com/business/earnings/softbank-group-posts-quarterly-loss-on-special-losses-linked-to-u-s-data-center-projects-23b37a41",
+     "date": "2026-11-11",
+     "desc": "SoftBank took a hit on the value of power-generating equipment meant for AI data centers; its stock has more than halved from its June peak. [WSJ, published 2026-11-11]"
+    },
+    {
+     "title": "CoreWeave plans multibillion-dollar chip-backed debt deal",
+     "url": "https://www.ft.com/content/fa5c5bdc-c2b0-4fab-8951-0526a4608773",
+     "fulltext": "https://www.ft.com/content/fa5c5bdc-c2b0-4fab-8951-0526a4608773",
+     "date": "2026-11-11",
+     "desc": "The AI infrastructure group is turning to asset-backed debt secured on chips, plus customer pre-payments, to finance its expansion. [Financial Times, published 2026-11-11]"
+    },
+    {
+     "title": "CoreWeave Quiets Doubts Over AI Business With Upbeat Outlook",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-10/coreweave-boosts-annual-forecast-easing-concerns-about-slowdown",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-10/coreweave-boosts-annual-forecast-easing-concerns-about-slowdown",
+     "date": "2026-11-10",
+     "desc": "CoreWeave eased fears about its debt-laden business in a high-stakes quarterly report, signaling that sales growth remains strong despite challenges facing the data center industry. [Bloomberg, published 2026-11-10]"
+    },
+    {
+     "title": "Fed's Bowman Warns of Stock Correction If AI Bets Don't Pan Out",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-bowman-warns-of-stock-correction-if-ai-bets-don-t-pan-out",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-10/fed-s-bowman-warns-of-stock-correction-if-ai-bets-don-t-pan-out",
+     "date": "2026-11-10",
+     "desc": "Fed Governor Michelle Bowman listed financial-market risks to the economy, including a sharp fall in stock prices if returns on AI investment fall short of expectations. [Bloomberg, published 2026-11-10]"
+    },
+    {
+     "title": "AI Has Driven a Quarter of UK Growth This Year, Analysis Shows",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-11/ai-has-driven-a-quarter-of-uk-growth-this-year-analysis-shows",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-11/ai-has-driven-a-quarter-of-uk-growth-this-year-analysis-shows",
+     "date": "2026-11-11",
+     "desc": "Bloomberg economists estimate AI has powered around a quarter of UK growth this year, leaving the country exposed to a global downturn in AI valuations. [Bloomberg, published 2026-11-11]"
+    },
+    {
+     "title": "Banks turn to credit insurance to stretch AI lending limits",
+     "url": "https://www.ft.com/content/599932b7-a548-4d45-8ba4-70bdb8d14565",
+     "fulltext": "https://www.ft.com/content/599932b7-a548-4d45-8ba4-70bdb8d14565",
+     "date": "2026-11-11",
+     "desc": "Barclays, HSBC and JPMorgan Chase are among lenders exploring or using credit insurance to free up capacity for lending to AI projects. [Financial Times, published 2026-11-11]"
+    },
+    {
+     "title": "US regulator postpones Wall Street push to trade AI computing futures",
+     "url": "https://www.ft.com/content/269b0245-44c4-4e34-94df-202bef642539",
+     "fulltext": "https://www.ft.com/content/269b0245-44c4-4e34-94df-202bef642539",
+     "date": "2026-11-10",
+     "desc": "The CFTC raised concerns about price manipulation as exchanges race to create a new asset class around AI computing power, and postponed the push. [Financial Times, published 2026-11-10]"
+    },
+    {
+     "title": "Nvidia-Backed Cohere in 'Fight' to Secure AI Computing Power",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-backed-cohere-in-a-fight-to-secure-ai-computing-power",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-backed-cohere-in-a-fight-to-secure-ai-computing-power",
+     "date": "2026-11-11",
+     "desc": "Cohere's CEO pushed back on worries about overbuilt AI capacity, saying his startup struggles daily to procure the power it needs to operate. [Bloomberg, published 2026-11-11]"
+    },
+    {
+     "title": "The job market is tough for younger workers. This group is thriving.",
+     "url": "https://www.washingtonpost.com/technology/2026/11/11/middle-aged-workers-are-doing-better-than-young-people-job-market/",
+     "fulltext": "https://www.washingtonpost.com/technology/2026/11/11/middle-aged-workers-are-doing-better-than-young-people-job-market/",
+     "date": "2026-11-11",
+     "desc": "Millennials and Gen X are proving valuable in the labor market, with evidence suggesting experience is an advantage in the era of artificial intelligence. [Washington Post, published 2026-11-11]"
+    },
+    {
+     "title": "Lessons from a miserable month for hedge funds",
+     "url": "https://www.economist.com/finance-and-economics/2026/11/10/lessons-from-a-miserable-month-for-hedge-funds",
+     "fulltext": "https://www.economist.com/finance-and-economics/2026/11/10/lessons-from-a-miserable-month-for-hedge-funds",
+     "date": "2026-11-10",
+     "desc": "The Economist looks at a poor month for hedge funds and the struggle to invest in anything other than AI. [The Economist, published 2026-11-10]"
+    },
+    {
+     "title": "AI Agents Have Yet to Disrupt Uber, DoorDash or Online Travel",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-11-10/ai-agents-have-yet-to-disrupt-uber-doordash-or-online-travel",
+     "fulltext": "https://www.bloomberg.com/news/newsletters/2026-11-10/ai-agents-have-yet-to-disrupt-uber-doordash-or-online-travel",
+     "date": "2026-11-10",
+     "desc": "Consumer adoption of AI agents is lagging because of limited trust and usefulness, so incumbents in ride-hailing, delivery and online travel have not yet been disrupted. [Bloomberg, published 2026-11-10]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello, and welcome to the AI Research Digest for November eleventh, twenty twenty-six. Today is dominated by one theme: the money behind AI, from a possible record-setting Anthropic public offering to anxious questions about whether the boom can be financed."
+  },
+  {
+   "speaker": "B",
+   "text": "Let's start with that offering. The Financial Times reports that bankers are preparing to lift Anthropic's target valuation to one and a half trillion dollars or more, a sign of strong investor demand."
+  },
+  {
+   "speaker": "A",
+   "text": "The New York Times adds that Nvidia planned to invest ten billion dollars in Anthropic alongside the offering, which ties the two companies closer together. And Goldman Sachs, per the FT, expects Anthropic's revenue to exceed six hundred billion dollars by twenty thirty, about a hundred and thirty times larger than today, with positive cash flow by the end of the decade."
+  },
+  {
+   "speaker": "B",
+   "text": "Meanwhile, the Wall Street Journal says OpenAI's revenue has risen to ten billion dollars. Its adjusted operating margin improved, but it is still far from profitable."
+  },
+  {
+   "speaker": "A",
+   "text": "So revenue is growing, and the question is who pays for the buildout. Bloomberg reports CoreWeave eased fears about its debt-laden business with a strong outlook, saying sales growth remains solid despite challenges facing the data center industry."
+  },
+  {
+   "speaker": "B",
+   "text": "And the FT says CoreWeave plans a multibillion-dollar debt deal backed by chips, plus customer pre-payments. It's creative financing, secured on the hardware itself."
+  },
+  {
+   "speaker": "A",
+   "text": "Banks are getting creative too. The FT reports Barclays, HSBC and JPMorgan are exploring or using credit insurance to free up lending capacity for AI projects."
+  },
+  {
+   "speaker": "B",
+   "text": "Then there's SoftBank. The Journal reports a seven billion dollar loss after a hit on the value of power equipment meant for AI data centers. Its stock has more than halved from its June peak."
+  },
+  {
+   "speaker": "A",
+   "text": "That fits with a warning from Federal Reserve Governor Michelle Bowman, reported by Bloomberg. She said a sharp fall in stock prices is one risk if returns on AI investment fall short of expectations."
+  },
+  {
+   "speaker": "B",
+   "text": "And Bloomberg economists estimate that AI has powered around a quarter of UK growth this year, which leaves Britain exposed to a global downturn in AI valuations."
+  },
+  {
+   "speaker": "A",
+   "text": "On the infrastructure side, the FT reports the US commodities regulator has postponed a push to trade AI computing futures, over concerns about price manipulation. Bloomberg also reports that Cohere's chief executive says his startup struggles daily to secure the power it needs, pushing back on fears of overbuilding."
+  },
+  {
+   "speaker": "B",
+   "text": "On the human side, the Washington Post reports that millennials and Gen X are doing better in the job market than younger workers, with evidence that experience is an advantage in the era of AI."
+  },
+  {
+   "speaker": "A",
+   "text": "One cooler note from Bloomberg: consumer adoption of AI agents is lagging because of limited trust and usefulness, so companies like Uber and DoorDash have not yet been disrupted."
+  },
+  {
+   "speaker": "B",
+   "text": "On the research side, a new technical note on arXiv tests a tabular foundation model, Google Research's TabFM, on predicting firms' earnings changes. It beat a fine-tuned language model and tree-based models in accuracy, while the authors caution it rests on a single task."
+  },
+  {
+   "speaker": "A",
+   "text": "And another paper looks at double machine learning for panel data, using the twenty eighteen banking regulation to show how specification choices change causal estimates."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest for today. Listen to the podcasts and see the full archive on the web page linked in your email. Thanks for listening."
+  },
+  {
+   "speaker": "A",
+   "text": "See you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-11-10 (last run) → 2026-11-11. News summaries are based on feed teasers; article pages are paywalled. SSRN searches returned no items with a verified in-window posting date. The double machine learning explainer is based on the abstract."
+}
