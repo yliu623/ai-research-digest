@@ -1,0 +1,188 @@
+{
+ "date": "2026-11-12",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": []
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Why you should expect an AI crash",
+     "url": "https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
+     "fulltext": "https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
+     "date": "2026-11-12",
+     "desc": "A leader article arguing that the AI boom is likely to end in a crash, appearing alongside a briefing on whether AI companies can earn enough to sustain their spending. [The Economist, published 2026-11-12]"
+    },
+    {
+     "title": "Can the AI boom make enough money to sustain itself?",
+     "url": "https://www.economist.com/briefing/2026/11/12/can-the-ai-boom-make-enough-money-to-sustain-itself",
+     "fulltext": "https://www.economist.com/briefing/2026/11/12/can-the-ai-boom-make-enough-money-to-sustain-itself",
+     "date": "2026-11-12",
+     "desc": "A briefing examining whether revenues from AI can justify the scale of investment now flowing into the sector. [The Economist, published 2026-11-12]"
+    },
+    {
+     "title": "Nvidia board weighs fate of CEO Jensen Huang after affair with alleged Chinese spy",
+     "url": "https://www.washingtonpost.com/technology/2026/11/11/nvidia-board-weighs-fate-of-ceo-jensen-huang-after-affair-with-alleged-spy/",
+     "fulltext": "https://www.washingtonpost.com/technology/2026/11/11/nvidia-board-weighs-fate-of-ceo-jensen-huang-after-affair-with-alleged-spy/",
+     "date": "2026-11-11",
+     "desc": "Reports that Nvidia's board is weighing the future of CEO Jensen Huang following revelations about an affair with an alleged Chinese spy, a governance shock at the company at the center of the AI chip trade. [Washington Post, published 2026-11-11]"
+    },
+    {
+     "title": "Nvidia Is Preparing to Oust CEO Jensen Huang",
+     "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+     "fulltext": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+     "date": "2026-11-12",
+     "desc": "WSJ reports that Nvidia is preparing to remove its CEO; related coverage the same day shows Nvidia shares and AI stocks worldwide falling on the leadership crisis. [WSJ, published 2026-11-12]"
+    },
+    {
+     "title": "Nvidia Scandal Tests the Resilience of the Global AI Boom",
+     "url": "https://www.wsj.com/tech/ai/jensen-huang-nvidia-ceo-ai-bubble-93097556",
+     "fulltext": "https://www.wsj.com/tech/ai/jensen-huang-nvidia-ceo-ai-bubble-93097556",
+     "date": "2026-11-11",
+     "desc": "Looks at whether the Nvidia CEO scandal could shake the broader AI investment boom, given how much of the market rides on the chipmaker. [WSJ, published 2026-11-11]"
+    },
+    {
+     "title": "The Global Economy Looks Vulnerable to an AI Bust",
+     "url": "https://www.wsj.com/economy/the-global-economy-looks-vulnerable-to-an-ai-bust-a04bb0f1",
+     "fulltext": "https://www.wsj.com/economy/the-global-economy-looks-vulnerable-to-an-ai-bust-a04bb0f1",
+     "date": "2026-11-11",
+     "desc": "Analysis of how exposed the world economy has become to AI-related investment, and what a bust could mean for growth. [WSJ, published 2026-11-11]"
+    },
+    {
+     "title": "United Airlines Is Banning AI Bots From Booking Flights",
+     "url": "https://www.wsj.com/tech/ai/united-airlines-is-banning-ai-bots-from-booking-flights-5b514b38",
+     "fulltext": "https://www.wsj.com/tech/ai/united-airlines-is-banning-ai-bots-from-booking-flights-5b514b38",
+     "date": "2026-11-11",
+     "desc": "United Airlines is moving to bar AI bots from booking flights, a sign of friction between airlines and AI agents acting for consumers; WSJ's market coverage notes Meta shares slipped after the announcement. [WSJ, published 2026-11-11]"
+    },
+    {
+     "title": "Big Tech Wants Everyone to Use an AI Agent. But Who Shoulders the Cost?",
+     "url": "https://www.wsj.com/tech/ai/ai-agent-users-compute-costs-41a5db30",
+     "fulltext": "https://www.wsj.com/tech/ai/ai-agent-users-compute-costs-41a5db30",
+     "date": "2026-11-12",
+     "desc": "Examines who pays for the computing cost of AI agents as Big Tech pushes them to mass adoption. [WSJ, published 2026-11-12]"
+    },
+    {
+     "title": "AI Helps UK Economy Post Strongest Growth Since Early 2024",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/uk-economy-defies-headwinds-with-strongest-growth-since-2024",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-12/uk-economy-defies-headwinds-with-strongest-growth-since-2024",
+     "date": "2026-11-12",
+     "desc": "Bloomberg reports the UK economy posted its strongest growth since early 2024, with AI-related activity credited as a contributor; WSJ similarly says UK resilience was boosted by AI investment. [Bloomberg, published 2026-11-12]"
+    },
+    {
+     "title": "Top Economists Clash Over AI Threat to Junior Research Jobs",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-11-11/top-economists-clash-over-ai-threat-to-junior-research-jobs",
+     "fulltext": "https://www.bloomberg.com/news/newsletters/2026-11-11/top-economists-clash-over-ai-threat-to-junior-research-jobs",
+     "date": "2026-11-11",
+     "desc": "Prominent economists disagree over whether AI threatens junior research positions in the profession. [Bloomberg, published 2026-11-11]"
+    },
+    {
+     "title": "Alphabet Kicks Off Asia Bond Sale as AI Firms Face Scrutiny",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/alphabet-kicks-off-asia-bond-sale-as-ai-firms-face-scrutiny",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-12/alphabet-kicks-off-asia-bond-sale-as-ai-firms-face-scrutiny",
+     "date": "2026-11-12",
+     "desc": "Alphabet launched a bond sale in Asia as investors scrutinize how AI companies finance their buildout. [Bloomberg, published 2026-11-12]"
+    },
+    {
+     "title": "Can anything derail Anthropic's IPO?",
+     "url": "https://www.ft.com/content/b9ad2b19-4f2a-4f26-89b6-940985a0b9d4",
+     "fulltext": "https://www.ft.com/content/b9ad2b19-4f2a-4f26-89b6-940985a0b9d4",
+     "date": "2026-11-12",
+     "desc": "FT assesses risks to Anthropic's planned IPO; a companion FT piece reports bankers preparing to raise the valuation target to $1.5tn. [Financial Times, published 2026-11-12]"
+    },
+    {
+     "title": "Maga architects blame Big Tech and AI data centres for midterms rout",
+     "url": "https://www.ft.com/content/43da75e5-e8fd-4aea-8afb-e3d75c9f176f",
+     "fulltext": "https://www.ft.com/content/43da75e5-e8fd-4aea-8afb-e3d75c9f176f",
+     "date": "2026-11-12",
+     "desc": "Political allies of Trump are blaming Big Tech and AI data centres for Republican midterm losses, raising policy risk for the data-centre build-out. [Financial Times, published 2026-11-12]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello and welcome to the AI Research Digest for November twelfth, twenty twenty six. I'm Alex."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. No new papers cleared our bar in this window, so today is all news, and the theme is nerves around the AI trade."
+  },
+  {
+   "speaker": "A",
+   "text": "The Economist has a leader titled, why you should expect an AI crash, plus a briefing asking whether the boom can make enough money to sustain itself."
+  },
+  {
+   "speaker": "B",
+   "text": "That frames the day. Revenue has to catch up with the spending, and the question is whether it will."
+  },
+  {
+   "speaker": "A",
+   "text": "The Wall Street Journal ran a piece saying the global economy looks vulnerable to an AI bust. Which is the same worry from the macro side."
+  },
+  {
+   "speaker": "B",
+   "text": "Meanwhile the trigger this week is Nvidia. The Journal reports the company is preparing to oust CEO Jensen Huang, and the Washington Post says the board is weighing his fate after an affair with an alleged Chinese spy."
+  },
+  {
+   "speaker": "A",
+   "text": "Markets reacted. Coverage describes Nvidia shares and AI stocks worldwide falling on the leadership crisis, and the Journal asks whether the scandal tests the resilience of the whole AI boom."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the concentration problem. When one chipmaker carries so much of the market, a governance story becomes a macro story."
+  },
+  {
+   "speaker": "A",
+   "text": "On financing, Bloomberg reports Alphabet kicked off a bond sale in Asia while AI firms face scrutiny. Investors are watching how the buildout gets paid for."
+  },
+  {
+   "speaker": "B",
+   "text": "And the Financial Times is asking whether anything can derail Anthropic's IPO, with a related report that bankers are preparing to lift the valuation target to one and a half trillion dollars."
+  },
+  {
+   "speaker": "A",
+   "text": "There's a political angle too. The FT says allies of the president are blaming Big Tech and AI data centres for the midterm losses, which adds policy risk for the build-out."
+  },
+  {
+   "speaker": "B",
+   "text": "Not all the news is gloomy. Bloomberg says AI helped the UK economy post its strongest growth since early twenty twenty four."
+  },
+  {
+   "speaker": "A",
+   "text": "On the agent side, the Journal reports United Airlines is banning AI bots from booking flights, and asks who shoulders the compute cost when Big Tech pushes everyone toward AI agents."
+  },
+  {
+   "speaker": "B",
+   "text": "Those two stories show the friction between agents acting for consumers and the companies on the other side."
+  },
+  {
+   "speaker": "A",
+   "text": "And Bloomberg has economists clashing over whether AI threatens junior research jobs, including in their own profession."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the roundup. Full details and links are in the web archive."
+  },
+  {
+   "speaker": "A",
+   "text": "Thanks for listening, and we'll be back tomorrow."
+  },
+  {
+   "speaker": "B",
+   "text": "See you then."
+  }
+ ],
+ "footnote": "Window: 2026-11-11 (last run) → 2026-11-12. NYT could not be reached this run. No arXiv, NBER or INFORMS candidates were AI-focused, and SSRN search results had no verifiable in-window posting dates, so no papers are included. News summaries are based on headlines and feed teasers plus web search; paywalled article text was not read."
+}
