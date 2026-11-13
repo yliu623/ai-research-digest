@@ -1,0 +1,439 @@
+{
+ "date": "2026-11-13",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Accuracy Is Not Welfare: Evaluating AI Buyers under Strategic Price Complexity in a Synthetic Duopoly",
+     "url": "https://arxiv.org/abs/2611.16471",
+     "fulltext": "https://arxiv.org/pdf/2611.16471",
+     "date": "2026-11-12",
+     "desc": "Simulates AI shopping agents choosing between two sellers with complex pricing; a calculator-assisted agent picks the best offer 84.00% of the time versus 68.57% under verified-total disclosure, yet disclosure yields 20.14 units higher consumer-worst equilibrium surplus, so accuracy and welfare diverge. [arXiv cs.GT, submitted 2026-11-12]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex here. This one is based on the abstract only. Imagine an AI agent shopping for you while sellers use confusing prices. Is a more accurate agent always better for consumers?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The paper says no. It sets up a synthetic duopoly, two sellers, and tests different price-comparison pipelines for AI buyers on a fixed menu and in games with correlated equilibria."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: And the headline numbers?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: A calculator-assisted agent picks the optimal offer eighty-four percent of the time, compared with about sixty-eight and a half percent when sellers must disclose verified totals."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: So the calculator wins on accuracy, but that's not the whole story."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Right. Disclosure gives a consumer-worst-case equilibrium surplus about twenty units higher, because sellers change how they price when buyers are AI. A comparison with frozen seller strategies favors disclosure, while re-solving the equilibria across resampled scenarios gives a range that spans zero."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: So the welfare effect is uncertain."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Exactly, and it's all model-based. The takeaway: measure accuracy, loss severity, seller incentives and welfare incidence separately, because a smarter buyer agent can still leave consumers worse off."
+      }
+     ]
+    },
+    {
+     "title": "From the firm- to the application-level: A new typology of AI use in organisations",
+     "url": "https://arxiv.org/abs/2611.15371",
+     "fulltext": "https://arxiv.org/pdf/2611.15371",
+     "date": "2026-11-11",
+     "desc": "Argues that studies of firm-level AI should treat each AI application as the unit of analysis, proposing a typology across novelty, sourcing, objective and technology type that highlights co-invention and internalisation. [arXiv econ.GN, submitted 2026-11-11]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: This is a conceptual paper, and I'm working from the abstract only. It asks how we should measure AI use in firms."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The authors say the usual firm-level view hides variety. A single firm can run many AI applications, each with its own novelty, sourcing mode, objective and technology type."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: So they change the unit of analysis."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Yes, from the firm to the individual application, and build a typology from those four dimensions."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: What does that reveal?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Two types that the adoption-versus-innovation split neglects: co-invention, meaning novel uses of technology the firm did not develop, and internalisation, building AI in-house that could have been bought."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: They illustrate it with documented use cases?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Right, then discuss implications for firm strategy and how AI diffuses through economic systems. It matters because a firm that buys one tool and builds another is doing two quite different things, and a single firm-level adoption number blurs them together."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Any caveat?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: It's a conceptual framework illustrated with cases, not a test with a large dataset, so the empirical work is still to come. The takeaway: count applications, not firms."
+      }
+     ]
+    },
+    {
+     "title": "Beyond Named Mechanisms: Economic Institutions as a Design Space for Artificial Agents",
+     "url": "https://arxiv.org/abs/2611.15017",
+     "fulltext": "https://arxiv.org/pdf/2611.15017",
+     "date": "2026-11-11",
+     "desc": "Proposes a typed chart of economic institutions (positions, rights, allocation, information, time and more) for engineered agents, and shows in simulation that copying an agent's competence can be institutionalized in three ways that share an identical technical trace but differ in who exists and owns the copy. [arXiv cs.MA, submitted 2026-11-11]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: A conceptual multiagent paper, discussed from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The idea is that auctions, markets and bargaining come from human societies, where minds are private and each person is one individual. Engineered agents don't share those limits."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: So familiar institutions are just a sample."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Exactly. The authors sketch a provisional chart that records each institution separately from the agents running it, as a typed structure covering positions, rights and duties, allocation, information, time and more."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: And the simulation?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: It takes one technical act, copying an agent's competence, and institutionalizes it three ways: a new independent supplier, licensed capacity with no new participant, or splitting one position into successors that inherit some obligations."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: And the result?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: All three give an identical technical trace even though who exists and who owns the copy differ. The point is that institutional design is a space worth searching."
+      }
+     ]
+    },
+    {
+     "title": "The Rebundling of Freelance Work in the AI Age",
+     "url": "https://arxiv.org/abs/2611.14708",
+     "fulltext": "https://arxiv.org/pdf/2611.14708",
+     "date": "2026-11-10",
+     "desc": "Compares tasks done in ChatGPT with client requests on Upwork: activities common in ChatGPT lose marketplace share while less common ones gain, and AI-related postings mix previously unrelated tasks, with larger budgets and more hours but similar hourly rates. [arXiv econ.GN, submitted 2026-11-10]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: Today's paper, based on the abstract only, asks how generative AI is changing freelance work."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The authors compare what people do in ChatGPT with what clients request on Upwork, the freelance platform, and look at how clients bundle tasks into projects."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: What do they find about demand?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Activities that are more common in ChatGPT tend to lose share on Upwork, while activities that are less common there tend to gain share. So substitution looks real."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: And the projects themselves?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Within AI-related work, demand is more diverse, and postings combine tasks that were rarely requested together before generative AI. These postings also have much larger budgets and more hours, while hourly rates barely differ."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: So AI changes which tasks get outsourced and how they're packaged."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Yes. The takeaway is that the shift is as much about rebundling work into bigger projects as about automating pieces of it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Media Trading with Censored Auction Prices: A Stochastic Control and Reinforcement Learning Approach",
+     "url": "https://arxiv.org/abs/2611.16992",
+     "fulltext": "https://arxiv.org/pdf/2611.16992",
+     "date": "2026-11-12",
+     "desc": "Formulates real-time ad bidding as a stochastic control problem where clearing prices are seen only for winning bids, with a consistent price estimator and solutions via a physics-informed neural network and an entropy-regularized actor-critic, shown on synthetic experiments. [arXiv q-fin.MF, submitted 2026-11-12]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: Abstract-only today. This paper is about real-time bidding for online ads."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Agencies must balance campaign performance, margins and a finite budget, but they only see the market-clearing price when a bid wins. That censoring means the information depends on the bidding policy."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: So how do they handle it?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: They model it as continuous-time stochastic control with a latent price process, and run parallel exploratory subcampaigns with randomized bids to build a price signal. The estimator is consistent, with mean-square error of order one over N."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: And the learning part?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: A model-based route combining forward-equation calibration, Hamilton-Jacobi-Bellman policy iteration and a physics-informed neural network, plus a model-free entropy-regularized actor-critic."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Evidence?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Synthetic experiments only, so no real campaign data here. They also separate full-information benchmarks and estimated-price policies from the genuinely partially observed control problem, which is where the hard part lives."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Why does that matter?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Because many ad buyers act as if they know prices they never actually see. The takeaway is a clearer framing of the decision and information trade-offs when prices are only partly observed."
+      }
+     ]
+    },
+    {
+     "title": "Conformal Risk Certificates for Portfolio Optimization Under Uncertainty: A Gated Reinforcement-Learning Approach",
+     "url": "https://arxiv.org/abs/2611.14699",
+     "fulltext": "https://arxiv.org/pdf/2611.14699",
+     "date": "2026-11-10",
+     "desc": "Adds a language-model-driven risk gate to a PPO portfolio policy; on nine sector ETFs, raw PPO earned 12.7% annually with a 4.05% risk-violation rate, while the gated version removed all out-of-sample breaches and kept 11.7%. [arXiv q-fin.PM, submitted 2026-11-10]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: Abstract-only again. Reinforcement-learning portfolios can allocate well, but can they be audited before trading?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: This paper adds a gate. An instruction-tuned language model turns timestamped disclosures into structured risk states covering macro, liquidity, earnings and sector channels."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Then what?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Those states define uncertainty sets calibrated with conformal methods, and a second-order cone check tests each proposed allocation from the PPO agent against a worst-case loss budget. It intervenes only when the budget is exceeded."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Numbers?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: In walk-forward tests on nine U.S. sector ETFs, raw PPO earns twelve point seven percent a year with a four point oh five percent violation rate. The gated version has zero observed breaches and keeps eleven point seven percent."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: About a hundred basis points of cost."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Yes, an auditable safety premium, and the authors argue it is smaller than the cost of an unaudited risk breach, which matters because regulators increasingly expect pre-trade audit trails and human oversight for automated portfolio systems."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Limits?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: It's a walk-forward backtest on nine liquid U.S. sector ETFs, so we don't know how it behaves elsewhere. Takeaway: verify the risk before the trade, not after."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Most top Fed officials blame AI for fueling inflation. Not Trump’s Fed chief.",
+     "url": "https://www.washingtonpost.com/business/2026/11/13/more-top-fed-officials-say-ai-is-fueling-inflation-kevin-warsh-is-an-outlier/",
+     "fulltext": "https://www.washingtonpost.com/business/2026/11/13/more-top-fed-officials-say-ai-is-fueling-inflation-kevin-warsh-is-an-outlier/",
+     "date": "2026-11-13",
+     "desc": "A growing number of Fed officials say the AI boom may mean higher interest rates for longer, while Chair Kevin Warsh has been slower to agree and argues AI will help tame prices. [Washington Post, published 2026-11-13]"
+    },
+    {
+     "title": "AI Bots Are Using Credit Cards. Banks Are Racing to Keep Up.",
+     "url": "https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30",
+     "fulltext": "https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30",
+     "date": "2026-11-13",
+     "desc": "Stripe is positioning itself as a key player in agentic commerce, while JPMorgan Chase is described as a skeptic as banks adapt to AI agents making card payments. [WSJ, published 2026-11-13]"
+    },
+    {
+     "title": "Baker McKenzie Looks to Abandon the Billable Hour",
+     "url": "https://www.wsj.com/business/baker-mckenzie-looks-to-abandon-the-billable-hour-ca662e2e",
+     "fulltext": "https://www.wsj.com/business/baker-mckenzie-looks-to-abandon-the-billable-hour-ca662e2e",
+     "date": "2026-11-13",
+     "desc": "The law firm is moving away from hourly billing as a default, a sign of how AI is upending traditional payment structures in the legal industry. [WSJ, published 2026-11-13]"
+    },
+    {
+     "title": "Nscale warns it needs more cash ahead of $35bn IPO",
+     "url": "https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47",
+     "fulltext": "https://www.ft.com/content/8d5a8642-d0a1-458d-aaa4-c1e7d344fe47",
+     "date": "2026-11-13",
+     "desc": "The Nvidia-backed ‘neocloud’ told investors it must obtain additional financing to fulfil its Anthropic contracts ahead of a planned $35bn IPO. [Financial Times, published 2026-11-13]"
+    },
+    {
+     "title": "SoftBank’s failed bet on gas turbines for AI drove $3.7bn charge",
+     "url": "https://www.ft.com/content/a343d340-cdab-4c70-966e-795efd99bdbb",
+     "fulltext": "https://www.ft.com/content/a343d340-cdab-4c70-966e-795efd99bdbb",
+     "date": "2026-11-13",
+     "desc": "SoftBank over-ordered small gas turbines for US AI data centres as the industry shifted to more energy-efficient models, contributing to a $3.7bn charge. [Financial Times, published 2026-11-13]"
+    },
+    {
+     "title": "The bond market is starting to choke on AI debt",
+     "url": "https://www.ft.com/content/2f4d39dd-dee8-4620-996d-3fe978b7522b",
+     "fulltext": "https://www.ft.com/content/2f4d39dd-dee8-4620-996d-3fe978b7522b",
+     "date": "2026-11-12",
+     "desc": "A column arguing the bond market is struggling to absorb the volume of AI-related borrowing, with too much concentrated risk in too few places. [Financial Times, published 2026-11-12]"
+    },
+    {
+     "title": "Watchdog Rebukes Largest US Grid Over Data Center Power Costs",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/watchdog-rebukes-largest-us-grid-over-data-center-power-costs",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-12/watchdog-rebukes-largest-us-grid-over-data-center-power-costs",
+     "date": "2026-11-12",
+     "desc": "The grid's independent market monitor says planned data centers are poised to add billions in costs in next month's power supply auction, adding to concerns that households are paying for the AI boom. [Bloomberg, published 2026-11-12]"
+    },
+    {
+     "title": "SpaceX Plans $74 Billion Computing Centers in Arizona, Texas",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/spacex-plans-74-billion-data-center-projects-in-arizona-texas",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-12/spacex-plans-74-billion-data-center-projects-in-arizona-texas",
+     "date": "2026-11-12",
+     "desc": "SpaceX intends to build two supercomputing facilities for its growing AI business, including a new $50 billion site in Arizona. [Bloomberg, published 2026-11-12]"
+    },
+    {
+     "title": "Jensen Huang, Nvidia’s Ousted CEO, Was the Face of the A.I. Boom Powering the U.S. Economy",
+     "url": "https://www.nytimes.com/2026/11/12/business/economy/jensen-huang-economy-nvidia-ai.html",
+     "fulltext": "https://www.nytimes.com/2026/11/12/business/economy/jensen-huang-economy-nvidia-ai.html",
+     "date": "2026-11-12",
+     "desc": "Nvidia's ousted leader was a unique rhetorical and financial booster for the investments driving US economic growth, raising questions about the AI boom after his exit. [NYT, published 2026-11-12]"
+    },
+    {
+     "title": "Data Centers Will Continue to Be Built, Despite Midterm Elections",
+     "url": "https://www.nytimes.com/2026/11/12/technology/voters-data-centers-construction.html",
+     "fulltext": "https://www.nytimes.com/2026/11/12/technology/voters-data-centers-construction.html",
+     "date": "2026-11-12",
+     "desc": "Big tech companies saw the tide turn against their giant AI projects, but they have the means to weather delays. [NYT, published 2026-11-12]"
+    },
+    {
+     "title": "Where to find the anti-AI trade",
+     "url": "https://www.economist.com/finance-and-economics/2026/11/12/where-to-find-the-anti-ai-trade",
+     "fulltext": "https://www.economist.com/finance-and-economics/2026/11/12/where-to-find-the-anti-ai-trade",
+     "date": "2026-11-12",
+     "desc": "Argues that the worse chipmakers do, the better Indian equities perform, making India a way to bet against AI-linked stocks. [The Economist, published 2026-11-12]"
+    },
+    {
+     "title": "Everything is going wrong for SoftBank",
+     "url": "https://www.economist.com/business/2026/11/12/everything-is-going-wrong-for-softbank",
+     "fulltext": "https://www.economist.com/business/2026/11/12/everything-is-going-wrong-for-softbank",
+     "date": "2026-11-12",
+     "desc": "Masayoshi Son's all-in bet on AI is looking shaky. [The Economist, published 2026-11-12]"
+    },
+    {
+     "title": "Nebius Lowers Outlook, Addresses Worries Over Financing AI Buildout",
+     "url": "https://www.wsj.com/business/earnings/nebius-lowers-outlook-addresses-worries-over-financing-ai-buildout-699ca1dc",
+     "fulltext": "https://www.wsj.com/business/earnings/nebius-lowers-outlook-addresses-worries-over-financing-ai-buildout-699ca1dc",
+     "date": "2026-11-12",
+     "desc": "The AI cloud company lowered its full-year revenue outlook, citing a delay in some third-party capacity, and addressed worries over financing its AI buildout. [WSJ, published 2026-11-12]"
+    },
+    {
+     "title": "United Airlines blocks AI agents from booking flights",
+     "url": "https://www.washingtonpost.com/travel/2026/11/12/united-airlines-blocks-ai-agents-booking-flights/",
+     "fulltext": "https://www.washingtonpost.com/travel/2026/11/12/united-airlines-blocks-ai-agents-booking-flights/",
+     "date": "2026-11-12",
+     "desc": "The airline said the use of AI agents could violate regulations. [Washington Post, published 2026-11-12]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hi, this is Alex with the AI research digest for November thirteenth, twenty twenty-six. Today: AI shopping agents, freelance work, and a lot of news on who pays for the AI boom."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. Let's start with research. A new arXiv paper simulates AI buying agents in a two-seller market. A calculator-assisted agent picks the best offer eighty-four percent of the time, versus about sixty-eight percent under verified-total disclosure."
+  },
+  {
+   "speaker": "A",
+   "text": "But the punchline is that accuracy isn't welfare. Disclosure still gave consumers about twenty units more surplus in the worst-case equilibrium, because sellers react to AI buyers."
+  },
+  {
+   "speaker": "B",
+   "text": "Next, a paper on freelance work. Comparing ChatGPT usage with Upwork requests, activities common in ChatGPT lose marketplace share, while AI-related postings bundle unusual task combinations with bigger budgets and more hours."
+  },
+  {
+   "speaker": "A",
+   "text": "So AI is rebundling work, not just replacing it. In finance, one paper gates a reinforcement learning portfolio with a language-model risk check. On nine sector ETFs, it removed all observed risk-limit breaches and gave up about one percentage point of annual return."
+  },
+  {
+   "speaker": "B",
+   "text": "Now the news. The Washington Post reports more Federal Reserve officials think the AI boom is fueling inflation and could keep rates higher for longer, while Chair Kevin Warsh argues AI will help tame prices."
+  },
+  {
+   "speaker": "A",
+   "text": "The Wall Street Journal says AI bots are now using credit cards, with Stripe leaning into agentic commerce and JPMorgan skeptical. And Baker McKenzie wants to move away from the billable hour because of AI."
+  },
+  {
+   "speaker": "B",
+   "text": "On the money side, the Financial Times reports that neocloud Nscale needs more financing to fulfil Anthropic contracts ahead of a thirty-five billion dollar IPO, and that SoftBank took a three point seven billion dollar charge on gas turbines it over-ordered for AI data centres."
+  },
+  {
+   "speaker": "A",
+   "text": "Bloomberg says the largest U.S. grid's market monitor warns data centers could add billions in costs to next month's power auction, while SpaceX plans seventy-four billion dollars of new computing centers in Arizona and Texas."
+  },
+  {
+   "speaker": "B",
+   "text": "Lots of strain around AI financing and power. That's all for today. Find the full archive on the web."
+  },
+  {
+   "speaker": "A",
+   "text": "Thanks for listening. See you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-11-12 (last run) → 2026-11-13. All sources reachable. SSRN was not searched this run; the newsletter inbox had no forwarded mail. Paper full text could not be read this run (PDF library error), so paper audio is based on abstracts. News items written from feed teasers only."
+}
