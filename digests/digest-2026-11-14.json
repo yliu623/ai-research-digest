@@ -1,0 +1,381 @@
+{
+ "date": "2026-11-14",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Human Capital in Context: What Employment Survival Reveals About Worker-Firm Match",
+     "url": "https://arxiv.org/abs/2611.16058",
+     "fulltext": "https://arxiv.org/pdf/2611.16058",
+     "date": "2026-11-11",
+     "desc": "Trains a two-tower neural network on employment-survival data (over a billion person-periods, 101 million workers, 8.4 million firms) to score worker-firm match quality; a 0.1 higher match score lowers separation odds by 48%, and better-matched workers earn more while firms with better-matched workforces grow faster and patent more. [arXiv cs.LG, submitted 2026-11-11]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: This one is based on the abstract only. Is there a best worker in general, or only a best worker for a particular firm? A new paper argues it's the second."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The authors build a measure of match quality for each worker and firm pair, learned from how long employment relationships last. A two-tower neural network turns workers' career histories into one vector, and firms' characteristics and business descriptions into another."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: And match quality is just how similar those two vectors are?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Exactly, cosine similarity. The data is huge: more than a billion person-periods covering 101 million workers and 8.4 million firms."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: What do they find?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: A 0.1 increase in match quality lowers the odds of a worker leaving by forty-eight percent. About a quarter of the variation in match quality is specific to the pair, so it can't be explained by worker, firm or occupation measures alone."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Does it connect to money outcomes?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Yes. Workers earn more when better matched, especially early on. Firms whose workforces score higher grow faster, become more profitable, and get more and more valuable patents over the next five years. Acquirers also book a larger share of the price as goodwill when the target's workers would fit the acquirer better."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: So the takeaway: fit between worker and firm is measurable with machine learning, and it shows up in pay, growth and deal accounting."
+      }
+     ]
+    },
+    {
+     "title": "Do Modern Difference-in-Differences Estimators Change Published Findings in Business Research?",
+     "url": "https://arxiv.org/abs/2611.11003",
+     "fulltext": "https://arxiv.org/pdf/2611.11003",
+     "date": "2026-11-07",
+     "desc": "Uses LLM agents to find and replicate staggered difference-in-differences specifications from business-school journals, then re-estimates 355 specifications from 40 papers with modern estimators; TWFE and modern estimates change sign in 25.1% and 18.0% of comparisons. [arXiv econ.EM, submitted 2026-11-07]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: This one is based on the abstract only. Many business-school papers use staggered difference-in-differences with two-way fixed effects. Would the conclusions survive newer estimators?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Newer methods warn that the standard estimator can put negative weights on heterogeneous treatment effects. The authors reanalyze published studies that have public replication archives."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Where does AI come in?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: They use large language model agents to identify eligible specifications and replicate the published estimate, following an earlier approach by Hull. Then they re-estimate each one with two modern estimators."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: How big is the sample?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Three hundred fifty-five specifications from forty papers. Among the comparisons that pass a leverage screen, the old and new estimates correlate at about zero point six one and zero point seven."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: And how often do results flip?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The sign changes in about twenty-five percent of comparisons for one estimator and eighteen percent for the other. They differ significantly with opposite signs in roughly ten and seven percent. The modern standard errors are also larger, by about sixty and thirty percent."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: So the takeaway is that the two approaches disagree in a non-negligible share of published designs, more often than in economics."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "Rethinking Distribution Shifts: Empirical Analysis and Modeling for Tabular Data",
+     "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.08298",
+     "fulltext": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.08298",
+     "date": "2026-11-13",
+     "desc": "Builds an empirical testbed of 172 natural distribution-shift pairs across 8 tabular datasets and 45 methods; finds Y|X-shifts dominate and that robust (DRO) algorithms do no better than vanilla methods, with model class and hyperparameters mattering more than the ambiguity set. [Management Science, published online 2026-11-13]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: This one is based on the abstract only. When a machine learning model meets data that differs from its training data, what kind of change is actually happening?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: This Management Science paper builds a testbed of natural shifts: eight tabular data sets, one hundred seventy-two pairs of distributions, forty-five methods and ninety thousand configurations."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: What did they learn about the shifts themselves?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Shifts in the relationship between outcome and features, called Y given X shifts, are the most common. That contrasts with the heavy focus on covariate shifts in the machine learning literature."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: And the robust algorithms designed for this?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: They perform no better than vanilla methods. Distributionally robust optimization was supposed to help, but in this testbed it didn't."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Why not?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The authors say underlooked details matter more, like the choice of model class, for example LightGBM, and how hyperparameters are selected. Those have a bigger effect than the ambiguity set or its radius."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: So the takeaway: ground robust algorithm design in the shifts that actually occur in data."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "White House Urges Easing Liability to Encourage AI Disclosure",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-14/white-house-urges-easing-liability-to-encourage-ai-disclosure",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-14/white-house-urges-easing-liability-to-encourage-ai-disclosure",
+     "date": "2026-11-14",
+     "desc": "Officials on President Trump's AI task force recommended at a Thursday White House meeting that agencies ease cyber-liability policies so AI companies are more willing to report critical incidents. [Bloomberg, published 2026-11-14]"
+    },
+    {
+     "title": "Blackstone's AirTrunk Advances $11 Billion India Data Center Bet",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-14/blackstone-s-airtrunk-advances-11-billion-india-data-center-bet",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-14/blackstone-s-airtrunk-advances-11-billion-india-data-center-bet",
+     "date": "2026-11-14",
+     "desc": "AirTrunk has filed detailed plans for two hyperscale data center campuses in southern India, involving roughly 1.03 trillion rupees ($11 billion) of investment. [Bloomberg, published 2026-11-14]"
+    },
+    {
+     "title": "India pins hopes on AI start-up to avoid becoming 'digital colony'",
+     "url": "https://www.ft.com/content/599cd9ab-dbd0-4c0d-818a-f6270871cd97",
+     "fulltext": "https://www.ft.com/content/599cd9ab-dbd0-4c0d-818a-f6270871cd97",
+     "date": "2026-11-14",
+     "desc": "The start-up Sarvam has received government backing to build native AI models in India, the world's most populous country, as the state seeks to avoid dependence on foreign models. [Financial Times, published 2026-11-14]"
+    },
+    {
+     "title": "Fed Sees Risks Tied to Elevated Asset Prices Partly Driven by AI",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-sees-risks-tied-to-elevated-asset-prices-partly-driven-by-ai",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-13/fed-sees-risks-tied-to-elevated-asset-prices-partly-driven-by-ai",
+     "date": "2026-11-13",
+     "desc": "The Federal Reserve's semi-annual financial stability report flagged potential vulnerabilities from AI and elevated asset valuations. [Bloomberg, published 2026-11-13]"
+    },
+    {
+     "title": "Anthropic CEO Calls Computing Power Deepest Business Dilemma",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ceo-calls-computing-power-deepest-business-dilemma",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ceo-calls-computing-power-deepest-business-dilemma",
+     "date": "2026-11-13",
+     "desc": "In a briefing ahead of its much-anticipated IPO, CEO Dario Amodei named sourcing computing power as one of Anthropic's biggest challenges. [Bloomberg, published 2026-11-13]"
+    },
+    {
+     "title": "Blackstone's QTS Is Cutting AI Debt Sale by More Than Half",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/blackstone-s-qts-is-cutting-ai-debt-sale-by-more-than-half",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-13/blackstone-s-qts-is-cutting-ai-debt-sale-by-more-than-half",
+     "date": "2026-11-13",
+     "desc": "Blackstone-backed data center operator QTS is cutting a planned private debt sale by about 60% after struggling to attract enough investor demand and refusing to pay much higher yields. [Bloomberg, published 2026-11-13]"
+    },
+    {
+     "title": "Morgan Stanley's Shalett 'Incredibly' Bullish Despite AI Turmoil",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/morgan-stanley-s-shalett-incredibly-bullish-despite-ai-turmoil",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-13/morgan-stanley-s-shalett-incredibly-bullish-despite-ai-turmoil",
+     "date": "2026-11-13",
+     "desc": "Morgan Stanley Wealth Management's Lisa Shalett says Nvidia's leadership turmoil and Democratic midterm wins add concerns about the AI boom but won't derail its main driver, capital spending on AI infrastructure. [Bloomberg, published 2026-11-13]"
+    },
+    {
+     "title": "Wall Street Braces for Anthropic's Spending",
+     "url": "https://www.nytimes.com/2026/11/13/technology/anthropic-ipo-spending-plans.html",
+     "fulltext": "https://www.nytimes.com/2026/11/13/technology/anthropic-ipo-spending-plans.html",
+     "date": "2026-11-13",
+     "desc": "Anthropic's financial picture may become murkier as it deals with employee stock compensation and growing AI costs. [NYT, published 2026-11-13]"
+    },
+    {
+     "title": "Wall Street Makes Its Pitch for Anthropic's I.P.O.",
+     "url": "https://www.nytimes.com/2026/11/13/business/anthropic-ipo-roadshow.html",
+     "fulltext": "https://www.nytimes.com/2026/11/13/business/anthropic-ipo-roadshow.html",
+     "date": "2026-11-13",
+     "desc": "Investment banks are on a roadshow to sell investors on what could be the largest public offering ever, as market uncertainty deepens. [NYT, published 2026-11-13]"
+    },
+    {
+     "title": "Despite Nvidia's Drop, Stocks Push Ahead",
+     "url": "https://www.nytimes.com/2026/11/13/business/nvidia-turmoil-stock-market.html",
+     "fulltext": "https://www.nytimes.com/2026/11/13/business/nvidia-turmoil-stock-market.html",
+     "date": "2026-11-13",
+     "desc": "A drop in Nvidia shares after the ouster of its chief executive has not spread to the rest of the market, with stocks broadly holding their ground. [NYT, published 2026-11-13]"
+    },
+    {
+     "title": "ChatGPT Launches Wallet Feature Allowing Users to Pay With Agents",
+     "url": "https://www.wsj.com/tech/ai/chatgpt-launches-wallet-feature-allowing-users-to-pay-with-agents-2abcded2",
+     "fulltext": "https://www.wsj.com/tech/ai/chatgpt-launches-wallet-feature-allowing-users-to-pay-with-agents-2abcded2",
+     "date": "2026-11-13",
+     "desc": "Users can add a debit or credit card to ChatGPT Wallet, which agents can then use for payments without re-entering card details. [WSJ, published 2026-11-13]"
+    },
+    {
+     "title": "Anthropic Chief Tells Jamie Dimon He Hopes IPO Will 'Underpromise and Overdeliver'",
+     "url": "https://www.wsj.com/finance/anthropic-chief-tells-jamie-dimon-he-hopes-ipo-will-underpromise-and-overdeliver-1ba2dd71",
+     "fulltext": "https://www.wsj.com/finance/anthropic-chief-tells-jamie-dimon-he-hopes-ipo-will-underpromise-and-overdeliver-1ba2dd71",
+     "date": "2026-11-13",
+     "desc": "The AI company is targeting a valuation of roughly $1.33 trillion or more, and its chief said he hopes the IPO will underpromise and overdeliver. [WSJ, published 2026-11-13]"
+    },
+    {
+     "title": "How the AI Trade Hijacked the Treasury Market for a Month",
+     "url": "https://www.wsj.com/finance/stocks/how-the-ai-trade-hijacked-the-treasury-market-for-a-month-3fa26a9f",
+     "fulltext": "https://www.wsj.com/finance/stocks/how-the-ai-trade-hijacked-the-treasury-market-for-a-month-3fa26a9f",
+     "date": "2026-11-13",
+     "desc": "Examines how the AI trade drove moves in the Treasury market over the past month, alongside the next phase for Nvidia. [WSJ, published 2026-11-13]"
+    },
+    {
+     "title": "The Stock Market's Bargain Bin Is Secretly Stuffed With AI Stocks",
+     "url": "https://www.wsj.com/finance/investing/the-stock-markets-bargain-bin-is-secretly-stuffed-with-ai-stocks-8fa3edbe",
+     "fulltext": "https://www.wsj.com/finance/investing/the-stock-markets-bargain-bin-is-secretly-stuffed-with-ai-stocks-8fa3edbe",
+     "date": "2026-11-13",
+     "desc": "Value funds don't always deliver the cheap, boring stocks investors expect, because many hold AI-related shares. [WSJ, published 2026-11-13]"
+    },
+    {
+     "title": "Anthropic's Amodei 'not super fussed' about market turmoil ahead of IPO",
+     "url": "https://www.ft.com/content/4b7b83d7-7fea-4ce2-bfe3-4f2cf75b1d82",
+     "fulltext": "https://www.ft.com/content/4b7b83d7-7fea-4ce2-bfe3-4f2cf75b1d82",
+     "date": "2026-11-13",
+     "desc": "The AI lab's chief executive brushed off tech stock turbulence less than a week before a planned $1.5 trillion listing. [Financial Times, published 2026-11-13]"
+    },
+    {
+     "title": "Chinese AI sell-off deepens over fears of tougher Nvidia chip restrictions",
+     "url": "https://www.ft.com/content/0d4e93e4-895e-4ae0-a01b-833a3ed440a8",
+     "fulltext": "https://www.ft.com/content/0d4e93e4-895e-4ae0-a01b-833a3ed440a8",
+     "date": "2026-11-13",
+     "desc": "Chinese AI stocks fell further on fears of tighter chip curbs; ousted Nvidia chief Jensen Huang had supported keeping sales open to China. [Financial Times, published 2026-11-13]"
+    },
+    {
+     "title": "How fat are AI trading bots' fingers?",
+     "url": "https://www.ft.com/content/b2286012-26ec-4440-834e-580288f20ad0",
+     "fulltext": "https://www.ft.com/content/b2286012-26ec-4440-834e-580288f20ad0",
+     "date": "2026-11-13",
+     "desc": "An FT piece sizing up the risks of AI trading bots in markets. [Financial Times, published 2026-11-13]"
+    },
+    {
+     "title": "Where is Europe's AI boom?",
+     "url": "https://www.ft.com/content/7ed32b6b-1e32-4046-88b6-f026339bdef4",
+     "fulltext": "https://www.ft.com/content/7ed32b6b-1e32-4046-88b6-f026339bdef4",
+     "date": "2026-11-13",
+     "desc": "Argues that Europe's AI boom is visible in the data if you look closely. [Financial Times, published 2026-11-13]"
+    },
+    {
+     "title": "Amazon revives deal with troubled data centre venture backed by Rick Perry",
+     "url": "https://www.ft.com/content/692fbfe8-da52-42c0-b436-9c4aff21fbdb",
+     "fulltext": "https://www.ft.com/content/692fbfe8-da52-42c0-b436-9c4aff21fbdb",
+     "date": "2026-11-13",
+     "desc": "Amazon has agreed to be anchor tenant of the data centre group Fermi after failed talks and boardroom turmoil sent its shares lower. [Financial Times, published 2026-11-13]"
+    },
+    {
+     "title": "AI believers hold the line after Nvidia ructions",
+     "url": "https://www.ft.com/content/750e4304-7287-432a-8ac1-36db40d0d968",
+     "fulltext": "https://www.ft.com/content/750e4304-7287-432a-8ac1-36db40d0d968",
+     "date": "2026-11-13",
+     "desc": "Stock market bulls largely shrug off concerns about the concentration of risk after Nvidia's turmoil. [Financial Times, published 2026-11-13]"
+    },
+    {
+     "title": "AI agents shouldn't have to pretend to be us",
+     "url": "https://www.ft.com/content/069cdc48-e17a-430b-818c-93894768706f",
+     "fulltext": "https://www.ft.com/content/069cdc48-e17a-430b-818c-93894768706f",
+     "date": "2026-11-13",
+     "desc": "An FT opinion piece arguing that banks and online platforms should offer a standard channel of access for AI agents on fair terms. [Financial Times, published 2026-11-13]"
+    }
+   ]
+  }
+ ],
+ "footnote": "Window: 2026-11-13 (last run) → 2026-11-14. SSRN searches returned no papers with a verified in-window posting date. Paper podcasts are abstract-only because PDF text extraction was unavailable. News summaries use feed teasers only. No newsletters were forwarded this window.",
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Alex: Hello, this is the AI Research Digest for November fourteenth, twenty twenty-six. Today: new research on matching workers to firms, plus a market heavy with AI finance news."
+  },
+  {
+   "speaker": "B",
+   "text": "Sam: Let's start with research. A new arXiv paper trains a neural network on more than a billion person-periods of employment data to score how well each worker fits each firm."
+  },
+  {
+   "speaker": "A",
+   "text": "Alex: The headline result is that a point-one increase in match quality lowers the odds of a worker leaving by forty-eight percent. Better-matched workers earn more, and firms with better-matched workforces grow faster."
+  },
+  {
+   "speaker": "B",
+   "text": "Sam: Another arXiv paper uses large language model agents to replicate difference-in-differences studies in business journals. Across three hundred fifty-five specifications from forty papers, estimates change sign in roughly eighteen to twenty-five percent of comparisons when modern estimators are used."
+  },
+  {
+   "speaker": "A",
+   "text": "Alex: That's a striking use of AI as a research assistant. And a Management Science paper finds that robust machine learning algorithms do no better than vanilla methods on a testbed of real distribution shifts."
+  },
+  {
+   "speaker": "B",
+   "text": "Sam: Now the news. Anthropic's planned IPO dominates coverage. The Wall Street Journal reports a target valuation around one point three three trillion dollars, while the Financial Times cites a planned listing of one point five trillion."
+  },
+  {
+   "speaker": "A",
+   "text": "Alex: Why does it matter? The New York Times says banks are on a roadshow for what could be the largest public offering ever, and that the company's finances may get murkier with stock compensation and rising AI costs."
+  },
+  {
+   "speaker": "B",
+   "text": "Sam: Bloomberg reports the chief executive called sourcing computing power one of the company's biggest challenges."
+  },
+  {
+   "speaker": "A",
+   "text": "Alex: On the financing side, Bloomberg says Blackstone's QTS is cutting a planned private debt sale for AI data centers by about sixty percent after weak investor demand."
+  },
+  {
+   "speaker": "B",
+   "text": "Sam: That contrasts with AirTrunk, also a Blackstone company, advancing an eleven billion dollar data center plan in southern India."
+  },
+  {
+   "speaker": "A",
+   "text": "Alex: The Federal Reserve's financial stability report flagged risks from elevated asset prices partly driven by AI."
+  },
+  {
+   "speaker": "B",
+   "text": "Sam: Yet the New York Times notes stocks have largely held up despite the drop in Nvidia shares after its chief executive was ousted, and Morgan Stanley's Lisa Shalett remains bullish on AI capital spending."
+  },
+  {
+   "speaker": "A",
+   "text": "Alex: There's also the Wall Street Journal's piece on how the AI trade hijacked the Treasury market for a month."
+  },
+  {
+   "speaker": "B",
+   "text": "Sam: On the product side, the Journal reports that ChatGPT now has a wallet feature so agents can pay on a user's behalf."
+  },
+  {
+   "speaker": "A",
+   "text": "Alex: And the Financial Times argues that AI agents shouldn't have to pretend to be human, calling for a standard channel of access from banks and platforms on fair terms."
+  },
+  {
+   "speaker": "B",
+   "text": "Sam: A global note: the FT reports India is backing the start-up Sarvam to build native models and avoid becoming a digital colony."
+  },
+  {
+   "speaker": "A",
+   "text": "Alex: That's the digest for today. Full details and links are in the web archive. Thanks for listening."
+  },
+  {
+   "speaker": "B",
+   "text": "Sam: Thanks, Alex. See you next time."
+  }
+ ]
+}
