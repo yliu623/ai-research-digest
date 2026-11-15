@@ -1,0 +1,131 @@
+{
+ "date": "2026-11-15",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": []
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Data centre construction stocks lose $4.2tn as boom in AI trade unravels",
+     "url": "https://www.ft.com/content/d5adde7e-68cc-455b-ba78-b39cc3676b7a",
+     "fulltext": "https://www.ft.com/content/d5adde7e-68cc-455b-ba78-b39cc3676b7a",
+     "date": "2026-11-15",
+     "desc": "The FT reports that shares of data-centre construction companies have lost about $4.2 trillion in value as the AI investment trade unwinds. Based on the headline and feed teaser only. [Financial Times, published 2026-11-15]"
+    },
+    {
+     "title": "Congress moves to pass tighter AI chip export rules following Nvidia scandal",
+     "url": "https://www.ft.com/content/3062790a-553d-41b8-9c7d-bae17b9d2e29",
+     "fulltext": "https://www.ft.com/content/3062790a-553d-41b8-9c7d-bae17b9d2e29",
+     "date": "2026-11-15",
+     "desc": "The FT says Congress is moving to pass tighter export rules for AI chips in the wake of the Nvidia scandal. Based on the headline and feed teaser only. [Financial Times, published 2026-11-15]"
+    },
+    {
+     "title": "Samsung conquered AI chips. Now it wants to build data centres",
+     "url": "https://www.ft.com/content/ee5b23b3-89b3-41f7-9158-56c1586759c2",
+     "fulltext": "https://www.ft.com/content/ee5b23b3-89b3-41f7-9158-56c1586759c2",
+     "date": "2026-11-15",
+     "desc": "The FT looks at Samsung's push to move from supplying AI chips into building data centres. Based on the headline only. [Financial Times, published 2026-11-15]"
+    },
+    {
+     "title": "The Individual Investors Who Are Hot on Anthropic's IPO But Cool on AI",
+     "url": "https://www.wsj.com/finance/stocks/the-individual-investors-who-are-hot-on-anthropics-ipo-but-cool-on-ai-461f89b4",
+     "fulltext": "https://www.wsj.com/finance/stocks/the-individual-investors-who-are-hot-on-anthropics-ipo-but-cool-on-ai-461f89b4",
+     "date": "2026-11-15",
+     "desc": "The WSJ reports on individual investors who are eager for an Anthropic IPO yet lukewarm on AI stocks more broadly. Based on the headline only. [WSJ, published 2026-11-15]"
+    },
+    {
+     "title": "New AI Millionaires Want Wealth Advisers Who Can Help Give Their Money Away",
+     "url": "https://www.wsj.com/finance/investing/new-ai-millionaires-want-wealth-advisers-who-can-help-give-their-money-away-7d586775",
+     "fulltext": "https://www.wsj.com/finance/investing/new-ai-millionaires-want-wealth-advisers-who-can-help-give-their-money-away-7d586775",
+     "date": "2026-11-15",
+     "desc": "The WSJ describes newly wealthy AI-industry employees seeking wealth advisers who can help them with philanthropy. Based on the headline only. [WSJ, published 2026-11-15]"
+    },
+    {
+     "title": "Facing Backlash on Land, Data Centers Look to the Sea",
+     "url": "https://www.wsj.com/tech/ai/data-centers-ocean-f676429a",
+     "fulltext": "https://www.wsj.com/tech/ai/data-centers-ocean-f676429a",
+     "date": "2026-11-14",
+     "desc": "The WSJ reports that, amid local opposition to land-based facilities, data-centre developers are exploring offshore sites. Based on the headline only. [WSJ, published 2026-11-14]"
+    },
+    {
+     "title": "India Stock Market Rebounds as AI Trade Unwinds, Foreign Funds Return",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-15/india-stock-market-rebounds-as-ai-trade-unwinds-foreign-funds-return",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-15/india-stock-market-rebounds-as-ai-trade-unwinds-foreign-funds-return",
+     "date": "2026-11-15",
+     "desc": "Bloomberg reports that Indian equities are rebounding as the AI trade unwinds and foreign funds return. Based on the headline only. [Bloomberg, published 2026-11-15]"
+    },
+    {
+     "title": "Tech Giants Face More Grid Cost Pressure on Democratic Sweep",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-14/tech-giants-face-more-grid-cost-pressure-on-democratic-sweep",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-14/tech-giants-face-more-grid-cost-pressure-on-democratic-sweep",
+     "date": "2026-11-14",
+     "desc": "Bloomberg says big tech firms face growing pressure to bear electricity-grid costs after a Democratic sweep. Based on the headline only. [Bloomberg, published 2026-11-14]"
+    },
+    {
+     "title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+     "date": "2026-11-14",
+     "desc": "Bloomberg's credit column says 6% yields are drawing buyers after the Nvidia turmoil. Based on the headline only. [Bloomberg, published 2026-11-14]"
+    },
+    {
+     "title": "Nvidia CEO's affair exposes loophole Chinese firms use to access high-end chips",
+     "url": "https://www.washingtonpost.com/technology/2026/11/15/jensen-huang-nvidia-face-questions-over-knowledge-chip-smuggling/",
+     "fulltext": "https://www.washingtonpost.com/technology/2026/11/15/jensen-huang-nvidia-face-questions-over-knowledge-chip-smuggling/",
+     "date": "2026-11-15",
+     "desc": "The Washington Post reports that the Nvidia CEO scandal highlights a loophole Chinese firms use to reach high-end AI chips. Based on the headline only. [Washington Post, published 2026-11-15]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hi, I'm Alex, and this is the AI research digest for November fifteenth, twenty twenty-six. Today is news only, with no new papers."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. The big theme is markets reacting to the AI trade and to the turmoil around Nvidia."
+  },
+  {
+   "speaker": "A",
+   "text": "The Financial Times reports data-centre construction stocks have lost about four point two trillion dollars as the AI boom unwinds."
+  },
+  {
+   "speaker": "B",
+   "text": "Bloomberg ties that to other markets: Indian stocks are rebounding as the AI trade unwinds and foreign funds return."
+  },
+  {
+   "speaker": "A",
+   "text": "On policy, the FT says Congress is moving toward tighter AI chip export rules after the Nvidia scandal, and the Washington Post points to a loophole Chinese firms use to reach high-end chips."
+  },
+  {
+   "speaker": "B",
+   "text": "Bloomberg's credit column says six percent yields are gaining appeal after the Nvidia drama, and that tech giants face more pressure over grid costs."
+  },
+  {
+   "speaker": "A",
+   "text": "The Wall Street Journal reports individual investors are keen on an Anthropic IPO but cooler on AI generally, and that data centres are looking offshore after backlash on land."
+  },
+  {
+   "speaker": "B",
+   "text": "The FT also looks at Samsung moving from AI chips toward building data centres. These summaries come from headlines only, so check the sources for detail."
+  },
+  {
+   "speaker": "A",
+   "text": "That's all for today. Find the full list in the web archive. See you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-11-14 (last run) → 2026-11-15. No new papers qualified. News summaries are based on feed headlines only because article pages and WSJ/FT searches were not accessible."
+}
