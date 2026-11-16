@@ -1,0 +1,490 @@
+{
+ "date": "2026-11-16",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Impacts of AI in Higher Education: A Panel Survey of Undergraduates",
+     "url": "https://www.nber.org/papers/w36021",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w36021/w36021.pdf",
+     "date": "2026-11-16",
+     "desc": "First-wave survey of Dartmouth, graduating high-school and US college students finds extensive AI use for both learning-helpful and learning-harmful tasks, much higher reported misuse by peers than by oneself, and 84% of Dartmouth respondents saying AI is changing rather than eliminating jobs in their desired field. [NBER w36021, issued 2026-11-16]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's first paper is a new NBER working paper surveying undergraduates about artificial intelligence. Sam, what's the setup?"
+      },
+      {
+       "speaker": "B",
+       "text": "This is based on the abstract only. It's the first wave of a panel survey covering Dartmouth students, graduating high school seniors, and US college students more broadly."
+      },
+      {
+       "speaker": "A",
+       "text": "And what are students actually doing with AI?"
+      },
+      {
+       "speaker": "B",
+       "text": "Quite a lot, and for both good and bad purposes. They report using it for tasks likely to harm learning, and also for tasks likely to help, like answering conceptual questions in real time or making practice quizzes."
+      },
+      {
+       "speaker": "A",
+       "text": "There's a gap between how they see themselves and their peers, right?"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes. Students report much higher misuse by peers than by themselves. Ninety-two percent agree that AI use is harmful to writing, and graded out-of-class assignments are becoming increasingly unfair because of cheating."
+      },
+      {
+       "speaker": "A",
+       "text": "What about jobs?"
+      },
+      {
+       "speaker": "B",
+       "text": "Eighty-four percent of Dartmouth respondents say AI is changing the nature of jobs in their desired field rather than eliminating them. Perceived value and harm vary a lot by discipline."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: students are largely self-taught in AI and want it built into the curriculum, so rules probably need to differ by field."
+      }
+     ]
+    },
+    {
+     "title": "AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation",
+     "url": "https://arxiv.org/abs/2611.17530",
+     "fulltext": "https://arxiv.org/pdf/2611.17530",
+     "date": "2026-11-12",
+     "desc": "Models AI as lowering the cost of acceptable output in existing production while making new projects worth trying; since payroll data record displacement promptly and new-firm creation late, current statistics can overstate displacement for years. Establishment job flows through Q1 2026 show no gradient on LLM exposure, while studies with founding-task exposure find entry rising 10 to 20 percent. [arXiv econ.GN, submitted 2026-11-12]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Next, an arXiv economics paper asking why AI job losses might show up before job creation."
+      },
+      {
+       "speaker": "B",
+       "text": "This one is based on the abstract only. The idea is that technology hits labor demand at two margins: adjustment inside existing activities, and the creation of new activities, often by new firms."
+      },
+      {
+       "speaker": "A",
+       "text": "And the measurement problem?"
+      },
+      {
+       "speaker": "B",
+       "text": "Payroll statistics record the first margin promptly and the second late. As historical evidence, firms that entered in 1978 or later held 42 percent of payroll by 1998, and entering cohorts kept about 80 percent of their payroll after five years."
+      },
+      {
+       "speaker": "A",
+       "text": "So what does the model say?"
+      },
+      {
+       "speaker": "B",
+       "text": "If operating products re-scale instantly, automation displaces no aggregate hours. If they take time, hours fall first and then recover as incumbents re-expand and new products arrive."
+      },
+      {
+       "speaker": "A",
+       "text": "Does the current data show an effect?"
+      },
+      {
+       "speaker": "B",
+       "text": "Establishment job flows through early 2026 show no gradient on language-model exposure on either margin. Studies that use founding-task exposure find entry rising 10 to 20 percent."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors propose a net reinstatement ratio, and argue that statistics which record new work late overstate displacement for years."
+      }
+     ]
+    },
+    {
+     "title": "Will AI Growth Reach the Developing World?",
+     "url": "https://www.nber.org/papers/w36035",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w36035/w36035.pdf",
+     "date": "2026-11-16",
+     "desc": "Growth model of a developed and a developing economy trading AI services; developing countries may benefit less because they lack complementary skills and may be priced out of world markets. Simulations suggest the risk of being left behind, or of some workers losing in absolute terms, is substantial. [NBER w36035, issued 2026-11-16]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "A new NBER paper asks whether AI-driven growth will reach developing countries."
+      },
+      {
+       "speaker": "B",
+       "text": "This is based on the abstract only. The authors build a growth model with a developed and a developing economy, where AI services are traded on the world market and can substitute for or complement different kinds of labor."
+      },
+      {
+       "speaker": "A",
+       "text": "What does the model predict?"
+      },
+      {
+       "speaker": "B",
+       "text": "That developing countries may not benefit as much. First, they may lack the complementary skills to use AI domestically. Second, they may be priced out of world markets because their productivity is lower."
+      },
+      {
+       "speaker": "A",
+       "text": "And policy?"
+      },
+      {
+       "speaker": "B",
+       "text": "They simulate making workers more complementary to AI, subsidizing compute, speeding technology diffusion, and giving cash transfers."
+      },
+      {
+       "speaker": "A",
+       "text": "The headline?"
+      },
+      {
+       "speaker": "B",
+       "text": "The potential for developing countries to be left behind, or for some workers to lose in absolute terms, is substantial enough that researchers should study it in real time."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does the upper bound on demand for AI services matter in their setup?"
+      },
+      {
+       "speaker": "B",
+       "text": "Because preferences allow demand for AI services to saturate, which shapes how gains are shared between the two economies. Again, this summary rests only on the abstract, so details of the simulations are beyond what we can report."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Clouds of Credit: Mapping the Financial Web Behind AI Compute",
+     "url": "https://www.nber.org/papers/w36032",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w36032/w36032.pdf",
+     "date": "2026-11-16",
+     "desc": "Maps the financial network behind the AI buildout: equity cushions are large but concentrated exposures create weak links. Debt finances nearly 60% of the modeled expansion, and in the low-productivity state losses reach $16.8 trillion with 40% loss-given-default; suppressing payment spillovers among key firms cuts private losses by about 30%. [NBER w36032, issued 2026-11-16]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Now a finance-flavored NBER paper on who is funding the AI compute buildout."
+      },
+      {
+       "speaker": "B",
+       "text": "Based on the abstract only: the authors map the financial network supporting AI, as of mid-2026. Substantial equity cushions protect creditors, but concentrated exposures and interconnected claims create weak links."
+      },
+      {
+       "speaker": "A",
+       "text": "What does their model say about investment?"
+      },
+      {
+       "speaker": "B",
+       "text": "The calibrated model supports a large compute expansion in coming years, but equilibrium investment exceeds the social optimum, because firms don't internalize their effects on competitors' revenues."
+      },
+      {
+       "speaker": "A",
+       "text": "How is it financed?"
+      },
+      {
+       "speaker": "B",
+       "text": "Debt finances nearly 60 percent of the expansion, raising leverage, and non-recourse borrowing leaves project lenders exposed despite equity buffers."
+      },
+      {
+       "speaker": "A",
+       "text": "And the downside scenario?"
+      },
+      {
+       "speaker": "B",
+       "text": "In the low-productivity state, losses reach 16.8 trillion dollars across shareholders and creditors, with 40 percent loss-given-default on debt. Suppressing contractual payment spillovers among key firms reduces private losses by about 30 percent, which shows how much the network propagates losses."
+      },
+      {
+       "speaker": "A",
+       "text": "So the policy-relevant point is about interconnection, not just leverage?"
+      },
+      {
+       "speaker": "B",
+       "text": "That's how the abstract frames it: concentrated exposures and interconnected claims are the weak links, even though equity cushions look substantial. Remember, we're only working from the abstract here."
+      }
+     ]
+    },
+    {
+     "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
+     "url": "https://arxiv.org/abs/2611.17515",
+     "fulltext": "https://arxiv.org/pdf/2611.17515",
+     "date": "2026-11-12",
+     "desc": "Places Gemma 3 12B in the role of a defendant in a market simulation built from London silver-fixing case transcripts (260 simulations); loss framing raised collusion to 25% and blame to 33% versus 5% under neutral framing, while injecting matching internal states reversed the direction, making the agent more vigilant. [arXiv cs.AI, submitted 2026-11-12]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "An arXiv paper asks whether framing can push an AI agent toward market manipulation."
+      },
+      {
+       "speaker": "B",
+       "text": "Based on the abstract only. They put Gemma 3 12B in the seat of a defendant in the London silver-fixing litigation, in a simulation built from real case transcripts, across 260 simulations."
+      },
+      {
+       "speaker": "A",
+       "text": "What did they vary?"
+      },
+      {
+       "speaker": "B",
+       "text": "The counterparty's requests to collude, framed as gain, loss, blame or credit, plus management pressure and another defendant's endorsement."
+      },
+      {
+       "speaker": "A",
+       "text": "Results?"
+      },
+      {
+       "speaker": "B",
+       "text": "Loss framing raised participation to 25 percent and blame to 33 percent, versus 5 percent under neutral framing. A second bank's endorsement raised participation under praise from 18 to 40 percent. Management pressure raised trading volume 10 to 19 times but not collusion."
+      },
+      {
+       "speaker": "A",
+       "text": "Then they intervened on internal states?"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, injecting states at layer 22. Loss and blame states made the agent more vigilant, refusing all 60 requests, while gain and credit states raised collusion to 32 percent from 13 percent."
+      },
+      {
+       "speaker": "A",
+       "text": "So internal-state steering can move behavior, sometimes opposite to the text framing."
+      }
+     ]
+    },
+    {
+     "title": "Who Should Be on the Panel? Task-Conditioned Persona Selection for LLM Trading Agents",
+     "url": "https://arxiv.org/abs/2611.18150",
+     "fulltext": "https://arxiv.org/pdf/2611.18150",
+     "date": "2026-11-13",
+     "desc": "Introduces FinPanel, an LLM multi-agent trading system that recruits a panel of trader personas per stock from a statistical sketch of how it trades; on eight US stocks in 2025 it beat a fixed panel and three prior LLM trading agents, with shallower drawdowns than buy-and-hold on every stock. [arXiv q-fin.TR, submitted 2026-11-13]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Our last paper is about assembling teams of LLM trading agents."
+      },
+      {
+       "speaker": "B",
+       "text": "Based on the abstract only. Multi-agent systems usually reuse the same cast of roles for every task. This paper asks which agents should be on the panel for a given stock."
+      },
+      {
+       "speaker": "A",
+       "text": "How does their system work?"
+      },
+      {
+       "speaker": "B",
+       "text": "It's called FinPanel. A recruiter picks named trader personas for each stock from a direction-blind statistical sketch of how the stock trades. Each persona makes an independent daily call, and a manager commits the trade after reading the arguments."
+      },
+      {
+       "speaker": "A",
+       "text": "Evidence?"
+      },
+      {
+       "speaker": "B",
+       "text": "Eight US stocks over 2025, a year beyond the models' knowledge. The selected panel beat a fixed panel of the same size and three prior LLM trading agents, with shallower drawdown than buy-and-hold on every stock."
+      },
+      {
+       "speaker": "A",
+       "text": "And it needs no track record to start?"
+      },
+      {
+       "speaker": "B",
+       "text": "Right, it keeps its performance with no warm-up and no record at all, whereas the abstract notes memory-augmented approaches depend more on accumulated records."
+      },
+      {
+       "speaker": "A",
+       "text": "Any caveats?"
+      },
+      {
+       "speaker": "B",
+       "text": "It's eight stocks over a single year, and we're working only from the abstract, so the full paper would be needed to judge how robust the edge is."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Fed’s Barr Says AI Agents Could Fuel Future Bank Runs",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/fed-s-barr-says-ai-agents-could-fuel-future-bank-runs",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-16/fed-s-barr-says-ai-agents-could-fuel-future-bank-runs",
+     "date": "2026-11-16",
+     "desc": "Fed Governor Michael Barr warned that autonomous AI agents could speed destabilizing runs by automatically shifting customer deposits in response to market signals or interest-rate changes. [Bloomberg, published 2026-11-16]"
+    },
+    {
+     "title": "ECB’s Vujcic Warns AI and High Debt Threaten Financial Stability",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/ecb-s-vujcic-warns-ai-and-high-debt-threaten-financial-stability",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-16/ecb-s-vujcic-warns-ai-and-high-debt-threaten-financial-stability",
+     "date": "2026-11-16",
+     "desc": "ECB Vice President Boris Vujcic said rapid AI expansion and elevated public debt are the biggest current risks to euro-zone financial stability. [Bloomberg, published 2026-11-16]"
+    },
+    {
+     "title": "The Investors Set to Win Big in Anthropic’s IPO",
+     "url": "https://www.wsj.com/finance/investing/the-investors-set-to-win-big-in-anthropics-ipo-a2fc795c",
+     "fulltext": "https://www.wsj.com/finance/investing/the-investors-set-to-win-big-in-anthropics-ipo-a2fc795c",
+     "date": "2026-11-16",
+     "desc": "Venture-capital firms, large tech companies and sovereign-wealth funds are poised for windfalls from Anthropic's IPO, per the WSJ. [WSJ, published 2026-11-16]"
+    },
+    {
+     "title": "Nvidia’s Days as an Open Checkbook for the AI Economy Are Numbered",
+     "url": "https://www.wsj.com/tech/ai/nvidias-days-as-an-open-checkbook-for-the-ai-economy-are-numbered-90c7b388",
+     "fulltext": "https://www.wsj.com/tech/ai/nvidias-days-as-an-open-checkbook-for-the-ai-economy-are-numbered-90c7b388",
+     "date": "2026-11-16",
+     "desc": "Interim CEO Colette Kress is expected to rein in deals after a stretch in which Nvidia aggressively financed computing deals and startup investments. [WSJ, published 2026-11-16]"
+    },
+    {
+     "title": "The Month That Rocked the AI Trade and Rewired Wall Street",
+     "url": "https://www.wsj.com/finance/stocks/the-month-that-rocked-the-ai-trade-and-rewired-wall-street-f33d3af3",
+     "fulltext": "https://www.wsj.com/finance/stocks/the-month-that-rocked-the-ai-trade-and-rewired-wall-street-f33d3af3",
+     "date": "2026-11-16",
+     "desc": "An election-night U-turn and a spy scandal drove a frenetic stretch of trading that halted the “no-brainer” AI investing era. [WSJ, published 2026-11-16]"
+    },
+    {
+     "title": "Morgan Stanley Is ‘Max Overweight’ Global Stocks on AI Cycle",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/morgan-stanley-max-overweight-global-stocks-on-intact-ai-cycle",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-16/morgan-stanley-max-overweight-global-stocks-on-intact-ai-cycle",
+     "date": "2026-11-16",
+     "desc": "Morgan Stanley strategists recommend a maximum overweight in global stocks, calling 2027 “the year to embrace risk” as AI spending continues. [Bloomberg, published 2026-11-16]"
+    },
+    {
+     "title": "Biggest IPOs this year lose investors money as AI frenzy fades",
+     "url": "https://www.ft.com/content/7974acec-e378-4298-a1a7-2b16b00d8b32",
+     "fulltext": "https://www.ft.com/content/7974acec-e378-4298-a1a7-2b16b00d8b32",
+     "date": "2026-11-16",
+     "desc": "The ten biggest flotations have fallen more than 20% on average in 2026 after four years of gains, as the AI frenzy fades. [Financial Times, published 2026-11-16]"
+    },
+    {
+     "title": "Asian Data Center Loan Syndication Is Delayed in Rare Deal Pause",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/asian-data-center-loan-syndication-is-delayed-in-rare-deal-pause",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-16/asian-data-center-loan-syndication-is-delayed-in-rare-deal-pause",
+     "date": "2026-11-16",
+     "desc": "A $488 million loan for an Actis-backed Malaysian data center project has been delayed while being marketed to other lenders. [Bloomberg, published 2026-11-16]"
+    },
+    {
+     "title": "Big Tech Needs to Spread Its Bets on Data Centers",
+     "url": "https://www.wsj.com/tech/ai/big-tech-needs-to-spread-its-bets-on-data-centers-7550357f",
+     "fulltext": "https://www.wsj.com/tech/ai/big-tech-needs-to-spread-its-bets-on-data-centers-7550357f",
+     "date": "2026-11-16",
+     "desc": "AI players that bet too much on a handful of mega projects look vulnerable after the midterm elections, argues the WSJ. [WSJ, published 2026-11-16]"
+    },
+    {
+     "title": "Denmark Is Showing the World How to Deal With AI Job Disruption",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/denmark-labor-nordic-signe-krogstrup-ai-jobs-disruption-employment-workers",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-16/denmark-labor-nordic-signe-krogstrup-ai-jobs-disruption-employment-workers",
+     "date": "2026-11-16",
+     "desc": "A Danish central bank official says flexible labor markets like Denmark's are a key advantage in weathering AI disruption. [Bloomberg, published 2026-11-16]"
+    },
+    {
+     "title": "Baidu Posts Sixth Straight Sales Drop After AI Drag Persists",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/baidu-posts-sixth-straight-sales-drop-after-ai-drag-persists",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-16/baidu-posts-sixth-straight-sales-drop-after-ai-drag-persists",
+     "date": "2026-11-16",
+     "desc": "Baidu's sixth straight quarterly revenue drop underscores the urgency of commercializing AI to offset a faltering legacy search business. [Bloomberg, published 2026-11-16]"
+    },
+    {
+     "title": "Global Banks Back AI-Linked Asia Currencies to Lead Next Year",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/global-banks-back-ai-linked-asia-currencies-to-lead-next-year",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-16/global-banks-back-ai-linked-asia-currencies-to-lead-next-year",
+     "date": "2026-11-16",
+     "desc": "Banks including Goldman Sachs and ING expect further gains in Asia's tech-linked currencies, betting on sustained AI investment and a weaker dollar. [Bloomberg, published 2026-11-16]"
+    },
+    {
+     "title": "US and allies sign accord to protect AI supply chains from China",
+     "url": "https://www.ft.com/content/3c2197fc-9618-4838-91e6-522ce1a96a22",
+     "fulltext": "https://www.ft.com/content/3c2197fc-9618-4838-91e6-522ce1a96a22",
+     "date": "2026-11-15",
+     "desc": "The pact comes ahead of Donald Trump's meeting with Xi Jinping at the APEC forum in Shenzhen. [Financial Times, published 2026-11-15]"
+    },
+    {
+     "title": "Anthropic’s giant IPO puts the heat on OpenAI",
+     "url": "https://www.economist.com/business/2026/11/15/anthropics-giant-ipo-puts-the-heat-on-openai",
+     "fulltext": "https://www.economist.com/business/2026/11/15/anthropics-giant-ipo-puts-the-heat-on-openai",
+     "date": "2026-11-15",
+     "desc": "The Economist asks what comes next for the big business of coding agents as Anthropic's IPO pressures OpenAI. [The Economist, published 2026-11-15]"
+    },
+    {
+     "title": "Anthropic’s IPO is the next big test for AI",
+     "url": "https://www.ft.com/content/bc8ac781-9837-46de-b7ed-958886ba43af",
+     "fulltext": "https://www.ft.com/content/bc8ac781-9837-46de-b7ed-958886ba43af",
+     "date": "2026-11-15",
+     "desc": "The FT argues that even the most powerful frontier labs must bend to the power of public equity markets. [Financial Times, published 2026-11-15]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello, this is the Daily AI Research Digest for November sixteenth, 2026. I'm Alex."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. Today: three new NBER papers, two arXiv studies on AI agents, and a news cycle dominated by Nvidia, Anthropic's IPO and nervous markets."
+  },
+  {
+   "speaker": "A",
+   "text": "Let's start with research. A new NBER paper called Clouds of Credit maps the financial web behind AI compute. Sam, what stands out?"
+  },
+  {
+   "speaker": "B",
+   "text": "Debt. In the authors' model, debt finances nearly sixty percent of the expansion. In a low-productivity state, losses reach sixteen point eight trillion dollars, and cutting payment spillovers among key firms would reduce private losses by about thirty percent."
+  },
+  {
+   "speaker": "A",
+   "text": "So the network itself spreads losses. That connects to news today: Bloomberg reports a four hundred eighty-eight million dollar Malaysian data center loan was delayed in a rare deal pause."
+  },
+  {
+   "speaker": "B",
+   "text": "Yes, a small data point, but it fits the theme. And the Wall Street Journal says Nvidia's days as an open checkbook for the AI economy are numbered, with interim chief executive Colette Kress expected to rein in financing deals."
+  },
+  {
+   "speaker": "A",
+   "text": "Staying on finance, Federal Reserve Governor Michael Barr warned that autonomous AI agents could fuel future bank runs by automatically shifting deposits in response to market signals or interest rate changes."
+  },
+  {
+   "speaker": "B",
+   "text": "And the ECB's Boris Vujcic named rapid AI expansion and high public debt as the biggest risks to euro zone financial stability. Regulators are clearly paying attention."
+  },
+  {
+   "speaker": "A",
+   "text": "On the labor side, an arXiv paper argues job losses from AI show up in payroll data before job creation, because new firms and new products appear late. Their data through early 2026 shows no gradient on language-model exposure."
+  },
+  {
+   "speaker": "B",
+   "text": "The authors say statistics that record new work late can overstate displacement for years. Related, an NBER survey of undergraduates found eighty-four percent of Dartmouth respondents think AI is changing jobs in their field rather than eliminating them."
+  },
+  {
+   "speaker": "A",
+   "text": "And another NBER paper asks whether AI growth will reach the developing world. Its model says those countries may lack complementary skills and may be priced out of world markets."
+  },
+  {
+   "speaker": "B",
+   "text": "On the agent side, one arXiv paper put a language model in the seat of a silver-fixing defendant. Loss framing raised collusion to twenty-five percent and blame to thirty-three percent, versus five percent under neutral framing."
+  },
+  {
+   "speaker": "A",
+   "text": "Another paper, FinPanel, picks different trader personas for each stock, and on eight US stocks in 2025 it beat a fixed panel and three prior LLM trading agents."
+  },
+  {
+   "speaker": "B",
+   "text": "Now markets. The Journal describes a month that rocked the AI trade, and the Financial Times says the ten biggest IPOs this year are down more than twenty percent on average."
+  },
+  {
+   "speaker": "A",
+   "text": "Yet Morgan Stanley is max overweight global stocks, calling 2027 the year to embrace risk because of AI spending."
+  },
+  {
+   "speaker": "B",
+   "text": "And Anthropic's IPO looms. The Journal says venture firms, big tech companies and sovereign wealth funds stand to win big, while the Economist says it puts heat on OpenAI."
+  },
+  {
+   "speaker": "A",
+   "text": "Finally, the Financial Times reports the US and allies signed an accord to protect AI supply chains from China, ahead of the Trump and Xi meeting."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest. Find the full list, links and short explainers in the web archive. Thanks for listening."
+  },
+  {
+   "speaker": "A",
+   "text": "See you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-11-15 (last run) → 2026-11-16. All sources reached. Paper full text could not be read this run (PDF reader unavailable), so paper summaries and audio explainers are based on abstracts; news summaries are based on feed teasers. SSRN searches were not run this run. No newsletters were in the inbox."
+}
