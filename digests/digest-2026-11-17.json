@@ -1,0 +1,615 @@
+{
+ "date": "2026-11-17",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Paying Creators for Training Data Can Increase AI Displacement",
+     "url": "https://arxiv.org/abs/2611.20204",
+     "fulltext": "https://arxiv.org/pdf/2611.20204",
+     "date": "2026-11-15",
+     "desc": "A theoretical model of a platform where creators can supply training data and consumers choose between creators and generative AI. Required compensation raises creator payoffs and total surplus but can leave the low-quality creator fully displaced as a mere data supplier, and it lowers consumer surplus. [arXiv cs.GT, submitted 2026-11-15]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's paper asks whether paying creators for the data used to train generative AI actually protects them. It is a theory paper, and this summary is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Right, so what's the setup?"
+      },
+      {
+       "speaker": "A",
+       "text": "A platform hosts creators and also sells AI-generated content trained on their work. Creators decide whether to contribute training data, and consumers choose between buying from creators or prompting the AI."
+      },
+      {
+       "speaker": "B",
+       "text": "And without compensation?"
+      },
+      {
+       "speaker": "A",
+       "text": "The platform worries creators will leave and take their data with them. So it sets creators' prices to preserve their demand, and that constraint also holds back further AI displacement as the AI improves. Instead the platform raises the AI price."
+      },
+      {
+       "speaker": "B",
+       "text": "Then compensation sounds good."
+      },
+      {
+       "speaker": "A",
+       "text": "Here is the twist. When compensation is required, the low-quality creator chooses to stay only as a training data supplier, and the AI fully displaces her demand, even though AI quality and price are the same as before."
+      },
+      {
+       "speaker": "B",
+       "text": "So who gains?"
+      },
+      {
+       "speaker": "A",
+       "text": "Creators' payoffs and total surplus rise, but consumer surplus falls. The takeaway: paying for training data can change creators' economic role from sellers to suppliers, which may increase displacement."
+      }
+     ]
+    },
+    {
+     "title": "When Better Artificial Intelligence Widens the Adoption Gap in Health Care",
+     "url": "https://arxiv.org/abs/2611.20561",
+     "fulltext": "https://arxiv.org/pdf/2611.20561",
+     "date": "2026-11-16",
+     "desc": "A theory model of how provider influence shapes AI adoption and paid-review requirements in health care. Providers' gains from adoption first rise and then fall as AI becomes more autonomous, so they may oppose capable AI and cause under-adoption, with forgone patient value growing as AI improves. [arXiv econ.TH, submitted 2026-11-16]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper looks at why health care providers might resist better AI. We're working from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the core idea?"
+      },
+      {
+       "speaker": "A",
+       "text": "AI can assist providers, lowering their costs, or it can replace services they are paid for. Policy has two dials: how much care is switched to AI, and how many paid human reviews must accompany it."
+      },
+      {
+       "speaker": "B",
+       "text": "So when do providers like AI?"
+      },
+      {
+       "speaker": "A",
+       "text": "When it assists, they profit and reviews stay. But as AI becomes more autonomous and can replace reviews, their gains first rise and then fall."
+      },
+      {
+       "speaker": "B",
+       "text": "Meaning they turn against it."
+      },
+      {
+       "speaker": "A",
+       "text": "Yes. Providers oppose sufficiently autonomous AI if lost review income exceeds their savings. And opposition arises earlier for AI that displaces more reviews."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the consequence for patients?"
+      },
+      {
+       "speaker": "A",
+       "text": "If providers can influence adoption but not the review requirement, they cause under-adoption, and the patient value forgone grows as AI improves. If they influence both, adoption widens but review requirements end up above the patient optimum."
+      },
+      {
+       "speaker": "B",
+       "text": "A neat reminder that better technology doesn't automatically mean more adoption."
+      }
+     ]
+    },
+    {
+     "title": "Who Is the Regression About? Auditing AI-Labeled Treatments When Effects Differ",
+     "url": "https://arxiv.org/abs/2611.21207",
+     "fulltext": "https://arxiv.org/pdf/2611.21207",
+     "date": "2026-11-16",
+     "desc": "Studies regressions whose treatment variable is labeled by a large language model. With heterogeneous effects, label errors correlated with the outcome bias OLS; in LinkedIn job postings the model misses better-paid remote jobs, understating the remote pay gap by nearly 40 percent, and a stratified blind audit corrects it. [arXiv stat.AP, submitted 2026-11-16]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Researchers increasingly use language models to label data, then run regressions on those labels. This paper, which we cover from its abstract, asks what can go wrong."
+      },
+      {
+       "speaker": "B",
+       "text": "What goes wrong?"
+      },
+      {
+       "speaker": "A",
+       "text": "Two things. Ordinary misclassification attenuates estimates. But if the model's errors are correlated with the outcome, there's an additional selective bias."
+      },
+      {
+       "speaker": "B",
+       "text": "And the example?"
+      },
+      {
+       "speaker": "A",
+       "text": "LinkedIn postings and remote work. The model misses better-paid remote jobs. A precision check passes, yet the remote pay gap is understated by nearly forty percent."
+      },
+      {
+       "speaker": "B",
+       "text": "And more data wouldn't help?"
+      },
+      {
+       "speaker": "A",
+       "text": "No, the bias doesn't go away with more data. The authors also note that with differing effects, OLS averages effects on treated and untreated groups, weighting the smaller group more."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the fix?"
+      },
+      {
+       "speaker": "A",
+       "text": "A stratified, blind audit of both labeled groups, which corrects the bias and recovers both effects. Takeaway: checking precision alone isn't enough when you use AI labels."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does this matter beyond one example? Because many economics papers now use model-generated labels for things like job attributes, sentiment or policy exposure, and they often validate with a quick precision check. This paper argues that a check can pass while the estimate is still badly off, so researchers should audit both labeled groups, not just the positives. That is the practical message here, and it comes from the abstract alone, so the details of the audit design are worth reading in the full paper."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "The opposing informational effects of AI trading",
+     "url": "https://arxiv.org/abs/2611.18872",
+     "fulltext": "https://arxiv.org/pdf/2611.18872",
+     "date": "2026-11-13",
+     "desc": "Theory plus numerical and neural-market experiments show that better AI forecasting can leave prices no more informative, because algorithms substitute public-data analysis for private observation. In the neural experiment, wider adoption lowers the benefit of upgrading by 44 percent. [arXiv econ.GN, submitted 2026-11-13]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Does better AI make prices more informative? This paper says not necessarily. We're relying on the abstract."
+      },
+      {
+       "speaker": "B",
+       "text": "Why not?"
+      },
+      {
+       "speaker": "A",
+       "text": "With limited computing resources, more capable algorithms can substitute analysis of public records for gathering private observations. That reduces the private information that gets aggregated into prices."
+      },
+      {
+       "speaker": "B",
+       "text": "But the same trades also help some investors."
+      },
+      {
+       "speaker": "A",
+       "text": "Right, the trades can convey sophisticated public-data analysis to investors who can't do it themselves. The paper gives conditions under which both effects coexist and the private benefit of more computation falls."
+      },
+      {
+       "speaker": "B",
+       "text": "Any numbers?"
+      },
+      {
+       "speaker": "A",
+       "text": "In a neural-market experiment, wider adoption raises the predictive value of price for limited observers, lowers it for advanced observers, and cuts the benefit of upgrading by forty-four percent."
+      },
+      {
+       "speaker": "B",
+       "text": "And retraining?"
+      },
+      {
+       "speaker": "A",
+       "text": "Retraining by investors who did not upgrade can amplify the loss of private-information precision. The takeaway: the effects of AI trading depend on what prices reveal and who can use them."
+      }
+     ]
+    },
+    {
+     "title": "Markets for Compute and Inference: Structure, Financing, and Risk Transfer",
+     "url": "https://arxiv.org/abs/2611.20242",
+     "fulltext": "https://arxiv.org/pdf/2611.20242",
+     "date": "2026-11-15",
+     "desc": "Examines what can be hedged in GPU rental and LLM token markets. Futures reference short-dated rental rates while operator revenue comes from private multi-year contracts, token and rental prices are different exposures, and a proposed reverse convertible note would have a fair one-year coupon of 4.1% to 31.5% depending on volatility. [arXiv q-fin.CP, submitted 2026-11-15]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper studies the emerging financial markets for AI compute and tokens. We're using the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What's being traded?"
+      },
+      {
+       "speaker": "A",
+       "text": "Accelerator rental by the hour and model output by the million tokens. Both have published price indices, and futures are being specified by CME and ICE."
+      },
+      {
+       "speaker": "B",
+       "text": "What are the main findings?"
+      },
+      {
+       "speaker": "A",
+       "text": "First, exchange contracts settle on short-dated rental rates, but most operator revenue comes from private multi-year contracts with undisclosed prices."
+      },
+      {
+       "speaker": "B",
+       "text": "So the hedge doesn't match the exposure."
+      },
+      {
+       "speaker": "A",
+       "text": "Exactly. Second, token prices and rental rates are linked by throughput and margin but are different exposures. At the measured capability of GPT-5 the cheapest list price fell by a factor of seventeen in twelve months."
+      },
+      {
+       "speaker": "B",
+       "text": "And the third?"
+      },
+      {
+       "speaker": "A",
+       "text": "Demand for hedging already sits in credit agreements, where debt outlives contracted revenue. The authors design a reverse convertible note whose fair one-year coupon runs from four point one to thirty-one point five percent, depending on how volatility is measured."
+      }
+     ]
+    },
+    {
+     "title": "Short Windows, Unmodelled Costs, Unknown Cutoffs: A Pre-Registered Evidence Audit of 91 LLM Trading Papers",
+     "url": "https://arxiv.org/abs/2611.18934",
+     "fulltext": "https://arxiv.org/pdf/2611.18934",
+     "date": "2026-11-13",
+     "desc": "A pre-registered audit of 91 LLM trading papers finds weak evidence behind their high Sharpe ratios: 51% of papers with a trading test deduct no costs, the median test window is 12 months, and only five combine deducted costs, a leakage control and a reported trial count. The authors propose a six-line reporting minimum. [arXiv q-fin.CP, submitted 2026-11-13]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Papers on language-model trading agents report remarkable Sharpe ratios. This audit asks whether to believe them. We are summarizing from the abstract."
+      },
+      {
+       "speaker": "B",
+       "text": "How did they audit?"
+      },
+      {
+       "speaker": "A",
+       "text": "They pre-registered a population of ninety-one papers, a coding rubric and hypotheses before coding, with quotes verified by script and a blind second coder."
+      },
+      {
+       "speaker": "B",
+       "text": "What did they find?"
+      },
+      {
+       "speaker": "A",
+       "text": "Of seventy-five papers with a trading test, fifty-one percent deduct no trading costs and only nine percent model costs from data. The median test window is twelve months."
+      },
+      {
+       "speaker": "B",
+       "text": "What about look-ahead?"
+      },
+      {
+       "speaker": "A",
+       "text": "Among fifty-one papers whose test window isn't known to be after the model's training cutoff, ninety-eight percent neither test after the cutoff, nor evaluate live, nor use a chronologically consistent model."
+      },
+      {
+       "speaker": "B",
+       "text": "Is anything solid?"
+      },
+      {
+       "speaker": "A",
+       "text": "Just five papers combine deducted costs, a leakage control and a reported trial count. The authors release their data and propose a six-line reporting minimum."
+      },
+      {
+       "speaker": "A",
+       "text": "What should a reader take from this? That a headline Sharpe ratio in this literature says little without knowing the costs, the test window and whether the model could have seen the test period during training. The authors also found that three of their five predictions failed, which they report honestly, including that most reported trial counts were just repeated random seeds. Since this is based on the abstract only, the six-line reporting minimum is the thing to look up in the paper itself."
+      }
+     ]
+    },
+    {
+     "title": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
+     "url": "https://arxiv.org/abs/2611.19937",
+     "fulltext": "https://arxiv.org/pdf/2611.19937",
+     "date": "2026-11-15",
+     "desc": "A flow-matching Transformer that generates joint portfolio weights from raw market histories, trained by imitation then reinforcement learning. On hourly crypto perpetual futures, RL raises annualized net return from 27.79% to 51.38% and the Calmar ratio from 0.955 to 4.043. [arXiv cs.LG, submitted 2026-11-15]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "AllocFlow is a deep learning model that outputs a whole portfolio directly from market data. We rely on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What's different?"
+      },
+      {
+       "speaker": "A",
+       "text": "Traditional pipelines separate forecasting from portfolio construction, which can misalign learning with allocation. AllocFlow generates signed position weights across all instruments jointly."
+      },
+      {
+       "speaker": "B",
+       "text": "How is it trained?"
+      },
+      {
+       "speaker": "A",
+       "text": "Two stages. First imitation of a strategy, then group-relative reinforcement learning using portfolio-level financial rewards."
+      },
+      {
+       "speaker": "B",
+       "text": "Results?"
+      },
+      {
+       "speaker": "A",
+       "text": "On hourly cryptocurrency perpetual futures, RL refinement lifts annualized net return from twenty-seven point seven nine to fifty-one point three eight percent, and the Calmar ratio from point nine five five to four point zero four three."
+      },
+      {
+       "speaker": "B",
+       "text": "Out of sample?"
+      },
+      {
+       "speaker": "A",
+       "text": "A Calmar ratio of four point nine on six further months of unseen 2026 data without retraining. As always, one asset class and short windows warrant caution."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does the approach matter? Joint allocation means the model reasons about positions together under a shared capital constraint rather than forecasting each asset separately. The caveat is obvious: results come from hourly crypto perpetual futures over limited periods, so it is far from proof the method works across markets. We are going only on the abstract here, so implementation details such as costs and slippage are worth checking in the paper."
+      }
+     ]
+    },
+    {
+     "title": "Dynamic Spatio-Temporal Graph Attention Networks with Nested Clustered Optimization for Multi-Asset Portfolios",
+     "url": "https://arxiv.org/abs/2611.19903",
+     "fulltext": "https://arxiv.org/pdf/2611.19903",
+     "date": "2026-11-15",
+     "desc": "A graph-attention model feeds learned asset embeddings into nested clustered optimization. Over a 73-month walk-forward test across 13 asset classes net of 10 bps costs it reports a 5.32% CAGR and Sharpe excess of 0.30, beating minimum variance and hierarchical risk parity. [arXiv q-fin.PM, submitted 2026-11-15]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper combines graph neural networks with portfolio optimization. We use the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the problem?"
+      },
+      {
+       "speaker": "A",
+       "text": "Classical clustering for nested clustered optimization uses static correlations, missing time-varying downside risk contagion."
+      },
+      {
+       "speaker": "B",
+       "text": "And the fix?"
+      },
+      {
+       "speaker": "A",
+       "text": "Convolutions extract momentum and downside dynamics, then a graph attention network learns embeddings that define distances for a two-stage downside optimization."
+      },
+      {
+       "speaker": "B",
+       "text": "How did it do?"
+      },
+      {
+       "speaker": "A",
+       "text": "Over seventy-three months of walk-forward testing across thirteen asset classes, net of ten basis point costs, it reports a five point three two percent annual return, versus three point six eight for minimum variance."
+      },
+      {
+       "speaker": "B",
+       "text": "Risk?"
+      },
+      {
+       "speaker": "A",
+       "text": "Maximum drawdown of minus thirteen percent versus minus nineteen for equal weight. These are the authors' own backtests, so treat them with care."
+      },
+      {
+       "speaker": "A",
+       "text": "Why care? Portfolio optimizers are sensitive to noisy covariance estimates, and this paper tries to improve the clustering step with learned, time-varying relationships. The reported Sortino ratio is point four eight, and monthly one-way turnover is about fifteen percent, so the strategy is not hyperactive. Still, these are backtest results from the authors, with modest absolute returns, and we only read the abstract, so the full paper is the place to judge robustness."
+      }
+     ]
+    },
+    {
+     "title": "Neural Marked Point Processes for Health Insurance Claims",
+     "url": "https://arxiv.org/abs/2611.21326",
+     "fulltext": "https://arxiv.org/pdf/2611.21326",
+     "date": "2026-11-16",
+     "desc": "Uses a causal Transformer to model individual health claim histories as a marked point process with self-excitation, severities, reporting delays and cost inflation. On MEPS medical-event data it beats two generalized linear model benchmarks on claim-count deviance and expenditure discrimination, though tails remain imperfect. [arXiv q-fin.RM, submitted 2026-11-16]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper applies Transformers to health insurance claims. Our summary is from the abstract."
+      },
+      {
+       "speaker": "B",
+       "text": "Why is that hard for traditional models?"
+      },
+      {
+       "speaker": "A",
+       "text": "Claims depend on earlier claims in timing, type and amount, and aggregated count models miss that."
+      },
+      {
+       "speaker": "B",
+       "text": "What do they build?"
+      },
+      {
+       "speaker": "A",
+       "text": "A neural marked point process where a causal Transformer reads each claim history and sets type-specific intensities, with severity distributions, reporting delays and medical cost inflation."
+      },
+      {
+       "speaker": "B",
+       "text": "Tested how?"
+      },
+      {
+       "speaker": "A",
+       "text": "A simulation with ten thousand contracts to check recovery of known dynamics, and an application to MEPS medical-event data."
+      },
+      {
+       "speaker": "B",
+       "text": "Outcome?"
+      },
+      {
+       "speaker": "A",
+       "text": "Better predictive performance than two generalized linear model benchmarks on claim-count deviance and expenditure discrimination, though some discrepancies remain in the tails."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does it matter? Insurers price and reserve using claim patterns, and a model that captures self-excitation, where one claim makes another more likely, could improve both. The authors are candid that tails of the distributions are still imperfect. This is based on the abstract only, and the data is a public medical expenditure survey rather than a real insurer's book, so real-world performance remains an open question."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Fed Chairman Highlights Economic Uncertainty of A.I. Boom",
+     "url": "https://www.nytimes.com/2026/11/16/business/economy/warsh-ai-economy.html",
+     "fulltext": "https://www.nytimes.com/2026/11/16/business/economy/warsh-ai-economy.html",
+     "date": "2026-11-16",
+     "desc": "Fed Chair Kevin Warsh discussed the uncertainty AI creates for the economy; related coverage says he has framed AI as a possible near-term demand shock followed by supply gains and that the Fed has a task force studying it. [NYT, published 2026-11-16]"
+    },
+    {
+     "title": "Warsh says AI boom could help sustain ‘substantially higher’ US growth",
+     "url": "https://www.ft.com/content/0431ca7c-5bef-4ffa-a4bd-aa29354eb691",
+     "fulltext": "https://www.ft.com/content/0431ca7c-5bef-4ffa-a4bd-aa29354eb691",
+     "date": "2026-11-16",
+     "desc": "The Financial Times reports Warsh saying the AI boom could help support substantially higher US growth; Bloomberg separately reports he said Fed staff are gaming out contingencies on AI's impact. [Financial Times, published 2026-11-16]"
+    },
+    {
+     "title": "Billions in Insurance Money Is Being Bet on AI Debt, and Analysts Are Nervous",
+     "url": "https://www.nytimes.com/2026/11/16/business/insurance-ai-debt.html",
+     "fulltext": "https://www.nytimes.com/2026/11/16/business/insurance-ai-debt.html",
+     "date": "2026-11-16",
+     "desc": "The NYT reports that insurers have put billions into AI-related debt and that analysts are nervous; US insurance regulators have reportedly been examining the credit risk of data-center private debt. [NYT, published 2026-11-16]"
+    },
+    {
+     "title": "Banks seek to curb AI debt exposure as backlash mounts",
+     "url": "https://www.ft.com/content/2351d9db-e938-4102-a449-318b1037765a",
+     "fulltext": "https://www.ft.com/content/2351d9db-e938-4102-a449-318b1037765a",
+     "date": "2026-11-17",
+     "desc": "The FT reports that banks are trying to limit their exposure to AI-related debt amid growing backlash; other coverage describes lenders turning more cautious on AI deals after a market selloff. [Financial Times, published 2026-11-17]"
+    },
+    {
+     "title": "Inside the $900bn data centre bet behind Anthropic’s IPO",
+     "url": "https://www.ft.com/content/559c13f1-0888-47e5-b6ce-523309a37193",
+     "fulltext": "https://www.ft.com/content/559c13f1-0888-47e5-b6ce-523309a37193",
+     "date": "2026-11-17",
+     "desc": "The FT examines the roughly $900 billion data-center commitments behind Anthropic's planned IPO. [Financial Times, published 2026-11-17]"
+    },
+    {
+     "title": "Nvidia Earnings, Anthropic IPO Ahead in New Test for AI Economy",
+     "url": "https://www.wsj.com/cfo-journal/nvidia-earnings-anthropic-ipo-ahead-in-new-test-for-ai-economy-7dced222",
+     "fulltext": "https://www.wsj.com/cfo-journal/nvidia-earnings-anthropic-ipo-ahead-in-new-test-for-ai-economy-7dced222",
+     "date": "2026-11-16",
+     "desc": "The WSJ previews a pivotal week for the AI economy, with Nvidia's earnings and Anthropic's IPO as key tests. [WSJ, published 2026-11-16]"
+    },
+    {
+     "title": "BofA Survey Shows Investors Cut Tech Exposure by Most Since 2006",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/bofa-survey-shows-investors-cut-tech-exposure-by-most-since-2006",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-17/bofa-survey-shows-investors-cut-tech-exposure-by-most-since-2006",
+     "date": "2026-11-17",
+     "desc": "Bloomberg reports that a BofA survey shows investors cutting tech exposure by the most since 2006, amid the AI-stock selloff. [Bloomberg, published 2026-11-17]"
+    },
+    {
+     "title": "Pimco Sees Data Center Spreads Tightening Versus Tech Debt",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/pimco-says-ai-bond-spreads-may-tighten-as-data-center-boom-slows",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-17/pimco-says-ai-bond-spreads-may-tighten-as-data-center-boom-slows",
+     "date": "2026-11-17",
+     "desc": "Pimco says spreads on AI data-center bonds may tighten relative to tech debt as the data-center boom slows, according to Bloomberg. [Bloomberg, published 2026-11-17]"
+    },
+    {
+     "title": "Banks Race to Keep Up as AI Bots Use Credit Cards",
+     "url": "https://www.wsj.com/finance/investing/banks-race-to-keep-up-as-ai-bots-use-credit-cards-7cc04907",
+     "fulltext": "https://www.wsj.com/finance/investing/banks-race-to-keep-up-as-ai-bots-use-credit-cards-7cc04907",
+     "date": "2026-11-16",
+     "desc": "The WSJ reports on banks scrambling to adapt as AI agents begin making card payments; analysts have flagged dispute and liability gaps. [WSJ, published 2026-11-16]"
+    },
+    {
+     "title": "ECB Urges Overhauls to Protect Financial System From AI, Government Debt",
+     "url": "https://www.wsj.com/pro/central-banking/ecb-urges-overhauls-to-protect-financial-system-from-ai-government-debt-94eaac4e",
+     "fulltext": "https://www.wsj.com/pro/central-banking/ecb-urges-overhauls-to-protect-financial-system-from-ai-government-debt-94eaac4e",
+     "date": "2026-11-16",
+     "desc": "The ECB urges reforms to protect the financial system from risks tied to AI and government debt, per the WSJ. [WSJ, published 2026-11-16]"
+    },
+    {
+     "title": "Brussels raises Eurozone growth forecasts as AI boom drives exports",
+     "url": "https://www.ft.com/content/ce0f66b9-703d-4e04-b046-bf04a3d9209a",
+     "fulltext": "https://www.ft.com/content/ce0f66b9-703d-4e04-b046-bf04a3d9209a",
+     "date": "2026-11-17",
+     "desc": "The European Commission raised its eurozone growth forecasts, with the AI boom driving exports, according to the FT. [Financial Times, published 2026-11-17]"
+    },
+    {
+     "title": "Largest data centers take up about 2 percent of U.S. electricity use, study says",
+     "url": "https://www.washingtonpost.com/technology/2026/11/16/data-centers-take-up-almost-2-percent-us-electricity-use-study-shows/",
+     "fulltext": "https://www.washingtonpost.com/technology/2026/11/16/data-centers-take-up-almost-2-percent-us-electricity-use-study-shows/",
+     "date": "2026-11-16",
+     "desc": "The Washington Post reports a study finding the largest data centers use about 2 percent of US electricity. [Washington Post, published 2026-11-16]"
+    },
+    {
+     "title": "Permitting Bill Would Charge Data Centers Billions for Power",
+     "url": "https://www.nytimes.com/2026/11/16/climate/permitting-bill-data-centers-electricity-rates.html",
+     "fulltext": "https://www.nytimes.com/2026/11/16/climate/permitting-bill-data-centers-electricity-rates.html",
+     "date": "2026-11-16",
+     "desc": "The NYT reports on a permitting bill that would charge data centers billions of dollars for power. [NYT, published 2026-11-16]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello, and welcome to the Daily AI Research Digest for November seventeenth, twenty twenty-six. I'm Alex."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. Today: new papers on AI and prices, creators, and trading, plus a heavy news day on AI debt and the Fed."
+  },
+  {
+   "speaker": "A",
+   "text": "Let's start with research. A new arXiv paper asks whether better AI makes prices more informative. The answer is, not necessarily."
+  },
+  {
+   "speaker": "B",
+   "text": "The idea is that algorithms can substitute analysis of public records for gathering private information, so less private information reaches prices. In a neural-market experiment, wider adoption cut the benefit of upgrading by forty-four percent."
+  },
+  {
+   "speaker": "A",
+   "text": "Related, an audit of ninety-one papers on language-model trading agents. Fifty-one percent of those with a trading test deducted no trading costs, and the median test window was twelve months."
+  },
+  {
+   "speaker": "B",
+   "text": "So those eye-popping Sharpe ratios deserve skepticism. Only five papers combined deducted costs, a leakage control and a reported trial count."
+  },
+  {
+   "speaker": "A",
+   "text": "Another paper studies markets for AI compute. Futures reference short-term rental rates, but most operator revenue comes from private multi-year contracts, so hedges and exposures don't line up."
+  },
+  {
+   "speaker": "B",
+   "text": "On the economics side, a theory paper finds that paying creators for training data can leave the low-quality creator fully displaced by AI, even though total surplus rises."
+  },
+  {
+   "speaker": "A",
+   "text": "And a model of health care suggests providers may oppose highly autonomous AI if lost review income exceeds their savings, which could cause under-adoption."
+  },
+  {
+   "speaker": "B",
+   "text": "One more for researchers: using language models to label treatments can bias regressions. In LinkedIn postings, the remote pay gap was understated by nearly forty percent."
+  },
+  {
+   "speaker": "A",
+   "text": "Now the news. The Fed's chair, Kevin Warsh, is talking about AI uncertainty, and the Financial Times says he sees the boom supporting substantially higher growth."
+  },
+  {
+   "speaker": "B",
+   "text": "Meanwhile the debt side looks jittery. The New York Times reports billions of insurance money going into AI debt with analysts nervous, and the Financial Times says banks are trying to curb their exposure."
+  },
+  {
+   "speaker": "A",
+   "text": "The Financial Times also looks at the roughly nine hundred billion dollars of data-center commitments behind Anthropic's planned IPO, and the Wall Street Journal calls this week a test for the AI economy, with Nvidia earnings ahead."
+  },
+  {
+   "speaker": "B",
+   "text": "Bloomberg reports a Bank of America survey showing investors cutting tech exposure by the most since two thousand six."
+  },
+  {
+   "speaker": "A",
+   "text": "And the Wall Street Journal notes banks racing to adapt as AI agents start using credit cards."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest. Full summaries and audio are in the web archive."
+  },
+  {
+   "speaker": "A",
+   "text": "Thanks for listening, and see you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-11-16 (last run) → 2026-11-17. All sources reachable; SSRN was not searched this run. Paper audio is based on abstracts only. News summaries rely on headlines and web-search context, since article pages are paywalled. No newsletters were used."
+}
