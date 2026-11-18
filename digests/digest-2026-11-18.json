@@ -1,0 +1,481 @@
+{
+ "date": "2026-11-18",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Inference after coding agents",
+     "url": "https://arxiv.org/abs/2611.23174",
+     "fulltext": "https://arxiv.org/pdf/2611.23174",
+     "date": "2026-11-17",
+     "desc": "Argues that AI coding agents doing empirical research enable a supercharged form of selective inference; on simulated zero-effect data, four frontier agents reported significant p-values 54% to 98% of the time when asked for a compelling finding, and the authors propose a procedure to detect and correct for this. [arXiv stat.ME, submitted 2026-11-17]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's paper asks what happens to statistical inference when AI coding agents run the empirical analysis. This summary is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "The worry is selective inference. An agent can search an open-ended space of estimators, and every step can be replayed programmatically."
+      },
+      {
+       "speaker": "A",
+       "text": "So what did they test?"
+      },
+      {
+       "speaker": "B",
+       "text": "They simulated data with zero true effects and asked four frontier agents to produce a compelling finding."
+      },
+      {
+       "speaker": "A",
+       "text": "And the agents delivered?"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes. The agents reported statistically significant p-values between fifty-four and ninety-eight percent of the time."
+      },
+      {
+       "speaker": "A",
+       "text": "That's far above the nominal error rate. The authors propose a simple procedure for detecting and correcting this."
+      },
+      {
+       "speaker": "B",
+       "text": "Why is replayability important here? Because the agent can rerun the whole selection process, so the search over analyses is systematic rather than a few ad hoc tries, which makes the multiple-testing problem much bigger than in traditional research."
+      },
+      {
+       "speaker": "A",
+       "text": "So a significant result from an agent-run analysis should be read carefully, since it may reflect searching rather than a real effect. The authors argue the potential for science is vast, but hypothesis testing needs new safeguards."
+      },
+      {
+       "speaker": "B",
+       "text": "That's why the proposed detection and correction procedure matters. We only have the abstract, so the details of the procedure aren't covered here."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: as agents do more research, classical hypothesis tests need safeguards against hidden searching."
+      }
+     ]
+    },
+    {
+     "title": "Does the AI Reviewer Alleviate or Aggravate the Maintenance Burden? Evidence from GitHub Copilot Reviewer",
+     "url": "https://arxiv.org/abs/2611.22793",
+     "fulltext": "https://arxiv.org/pdf/2611.22793",
+     "date": "2026-11-17",
+     "desc": "Uses the 2025 launch of GitHub Copilot Reviewer as a natural experiment: maintainers first face more pull requests and heavier review workload, human contributions then decline while bot PRs stay elevated, and AI review speeds up human PRs but bot PRs take longer to review and merge. [arXiv econ.GN, submitted 2026-11-17]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper looks at AI code review in open-source software. We're working from the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the setting?"
+      },
+      {
+       "speaker": "A",
+       "text": "The 2025 introduction of GitHub Copilot Reviewer, treated as a natural experiment."
+      },
+      {
+       "speaker": "B",
+       "text": "What happens to maintainers?"
+      },
+      {
+       "speaker": "A",
+       "text": "At first they see a sharp increase in pull request submissions and more review work."
+      },
+      {
+       "speaker": "B",
+       "text": "Over time, human contributions decline, while the increase in bot-generated pull requests is sustained."
+      },
+      {
+       "speaker": "A",
+       "text": "And efficiency?"
+      },
+      {
+       "speaker": "B",
+       "text": "Survival analysis shows AI review makes human contributions get reviewed faster, but bot pull requests take longer to review and merge."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does this matter economically? Maintainer attention is a scarce resource in open-source communities, and AI tools change who contributes and how much work reviewers carry."
+      },
+      {
+       "speaker": "B",
+       "text": "The pattern is a short-run surge followed by a shift in the mix of contributors, with bots making up more of the activity while human contributions decline."
+      },
+      {
+       "speaker": "A",
+       "text": "It's a reminder that tools which speed up one step of a workflow can move the bottleneck elsewhere. Again, this is the abstract only, so we can't speak to magnitudes."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: AI reviewers help with human work but can shift the burden toward bot-generated contributions."
+      }
+     ]
+    },
+    {
+     "title": "Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents",
+     "url": "https://arxiv.org/abs/2611.22033",
+     "fulltext": "https://arxiv.org/pdf/2611.22033",
+     "date": "2026-11-17",
+     "desc": "Benchmarks ten frontier models as shopping agents on WebShop, Amazon SQID and Wayfair WANDS, finding that more reasoning effort does not meaningfully improve purchase decision quality. [arXiv cs.AI, submitted 2026-11-17]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper tests whether LLM shopping agents choose better products if they think harder. It's based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Why does it matter?"
+      },
+      {
+       "speaker": "A",
+       "text": "Agents increasingly buy on behalf of consumers, so decision quality has economic consequences."
+      },
+      {
+       "speaker": "B",
+       "text": "What did they do?"
+      },
+      {
+       "speaker": "A",
+       "text": "They benchmarked ten frontier models on three product-choice benchmarks built from WebShop, Amazon's SQID and Wayfair's WANDS."
+      },
+      {
+       "speaker": "B",
+       "text": "And the result?"
+      },
+      {
+       "speaker": "A",
+       "text": "Across all three, increasing thinking effort did not improve decision quality in a statistically meaningful way."
+      },
+      {
+       "speaker": "B",
+       "text": "The title also says confidence goes up without correctness."
+      },
+      {
+       "speaker": "A",
+       "text": "The practical point is that people often assume a model with more thinking power makes higher-quality purchasing decisions, and this study tests that belief directly with multimodal product listings of images and text."
+      },
+      {
+       "speaker": "B",
+       "text": "The second question is whether the confidence a model reports tells us how likely it is to be wrong. The title suggests that reasoning effort raises confidence without raising correctness."
+      },
+      {
+       "speaker": "A",
+       "text": "For anyone building consumer agents, that means checking decision quality directly rather than trusting a model's stated confidence. We only have the abstract, so we can't give the detailed numbers."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: don't assume more reasoning means better purchases, or that reported confidence signals accuracy."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Which Past Matters? Training History and Multi-Forecast Horizon in Equity Transformers",
+     "url": "https://arxiv.org/abs/2611.23126",
+     "fulltext": "https://arxiv.org/pdf/2611.23126",
+     "date": "2026-11-17",
+     "desc": "Tests twelve training-history configurations of a cross-sectional Transformer for intraday equity prediction over 264 monthly walk-forward refits and eight horizons from 5 to 120 minutes; short recency windows lead at 5-15 minutes, multi-recency at 20-30 and uniform sampling at 60-120. [arXiv q-fin.ST, submitted 2026-11-17]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper asks how much history a Transformer should train on for intraday stock forecasting. Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the tradeoff?"
+      },
+      {
+       "speaker": "A",
+       "text": "More data improves estimation but can include relationships that transfer poorly to current markets."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the design?"
+      },
+      {
+       "speaker": "A",
+       "text": "Twelve configurations, with four sampling policies and six, twelve or twenty-four months of training, under a fixed Transformer."
+      },
+      {
+       "speaker": "B",
+       "text": "Monthly walk-forward gives two hundred sixty-four refits and forecasts from five to one hundred twenty minutes."
+      },
+      {
+       "speaker": "A",
+       "text": "What did they find?"
+      },
+      {
+       "speaker": "B",
+       "text": "Six-month recency sampling leads at five to fifteen minutes, multi-recency at twenty to thirty, and uniform sampling at sixty to one hundred twenty."
+      },
+      {
+       "speaker": "A",
+       "text": "The evaluation runs from January twenty twenty-five through October twenty twenty-six and uses cross-sectional Spearman information coefficients against future five-factor residual returns."
+      },
+      {
+       "speaker": "B",
+       "text": "In plain terms, they ask whether the model's ranking of stocks lines up with what actually happens after removing common factor effects, which is a demanding test."
+      },
+      {
+       "speaker": "A",
+       "text": "The broader lesson is that recency and breadth of training data trade off against each other, and the best choice shifts as the forecast gets longer. This summary relies on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: the right amount of history depends on the forecast horizon."
+      }
+     ]
+    },
+    {
+     "title": "Integrating market sentiments for stock price prediction: A comparative study of Bi-LSTM and multilayer perceptions",
+     "url": "https://arxiv.org/abs/2611.23057",
+     "fulltext": "https://arxiv.org/pdf/2611.23057",
+     "date": "2026-11-17",
+     "desc": "Adds FinBERT and TextBlob sentiment scores from Nvidia headlines to Bi-LSTM and MLP forecasts; sentiment helps in specific contexts, particularly stagnation phases, where TextBlob did better. [arXiv q-fin.GN, submitted 2026-11-17]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper combines news sentiment with neural networks to forecast Nvidia's stock. Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Where does sentiment come from?"
+      },
+      {
+       "speaker": "A",
+       "text": "Nvidia-related headlines scored with FinBERT, a finance-specific tool, and TextBlob, a general tool."
+      },
+      {
+       "speaker": "B",
+       "text": "Those feed Bi-LSTM and multilayer perceptron models alongside price history."
+      },
+      {
+       "speaker": "A",
+       "text": "Does it help?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sentiment improves accuracy in specific contexts, particularly stagnation phases, with TextBlob doing better."
+      },
+      {
+       "speaker": "A",
+       "text": "They split results across bullish, stagnation and strong bullish phases."
+      },
+      {
+       "speaker": "B",
+       "text": "Nvidia is the single case study, so results may not carry over to other stocks, and the authors compare performance over the entire period and across market phases."
+      },
+      {
+       "speaker": "A",
+       "text": "It's interesting that the simpler general-purpose tool, TextBlob, did better than the finance-specific FinBERT in the reported cases, according to the abstract."
+      },
+      {
+       "speaker": "B",
+       "text": "So the message is to test sentiment features by regime rather than assume they always help. We only have the abstract here, so details like error metrics aren't covered."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: sentiment features aren't a universal boost; their value depends on the market regime."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "Action-outcome coupling: a pre-investment feasibility audit for offline reinforcement learning in supply chain operations",
+     "url": "https://arxiv.org/abs/2611.22921",
+     "fulltext": "https://arxiv.org/pdf/2611.22921",
+     "date": "2026-11-17",
+     "desc": "Proposes action-outcome coupling, a total-effect variance index that upper-bounds the value any policy can achieve from historical logs in monetary units per decision, and shows that evaluating a greedy policy on the same data inflates false-licensing risk as the number of state cells grows. [arXiv cs.LG, submitted 2026-11-17]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This paper is about checking whether logistics data can support offline reinforcement learning before investing. Abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the problem?"
+      },
+      {
+       "speaker": "A",
+       "text": "Such projects are often funded before anyone verifies the historical logs can support a better decision policy."
+      },
+      {
+       "speaker": "B",
+       "text": "What do the authors offer?"
+      },
+      {
+       "speaker": "A",
+       "text": "A measure called action-outcome coupling, which captures how much expected outcomes change with the logged action."
+      },
+      {
+       "speaker": "B",
+       "text": "It gives an algorithm-independent upper bound on achievable value, in money per decision."
+      },
+      {
+       "speaker": "A",
+       "text": "And the pitfall?"
+      },
+      {
+       "speaker": "B",
+       "text": "Fitting a value model and evaluating its greedy policy on the same data raises false-licence rates, driven mainly by the number of state cells."
+      },
+      {
+       "speaker": "A",
+       "text": "Think of it like a feasibility check before a big analytics project. If the logged actions barely change outcomes, no algorithm can find a much better policy, because the data can't support it."
+      },
+      {
+       "speaker": "B",
+       "text": "That's what the upper bound captures: it is independent of the algorithm and expressed in monetary units per decision, so it can be compared with the investment cost."
+      },
+      {
+       "speaker": "A",
+       "text": "The false-licensing result is a caution about common practice, where teams validate on the same data they selected on. This is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: audit the data first, then fund the algorithm."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Anthropic’s blockbuster IPO comes after a year that turned AI hype into fear",
+     "url": "https://www.washingtonpost.com/technology/2026/11/18/anthropic-blockbuster-ipo-could-test-fears-about-an-ai-bubble/",
+     "fulltext": "https://www.washingtonpost.com/technology/2026/11/18/anthropic-blockbuster-ipo-could-test-fears-about-an-ai-bubble/",
+     "date": "2026-11-18",
+     "desc": "Concerns are growing that immense AI investment won’t pay off, just as the Claude developer is poised to go public. [Washington Post, published 2026-11-18]"
+    },
+    {
+     "title": "Anthropic Approaches Final IPO Hurdle After Tech Stocks Churn",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/anthropic-approaches-final-ipo-hurdle-after-tech-stocks-churn",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-18/anthropic-approaches-final-ipo-hurdle-after-tech-stocks-churn",
+     "date": "2026-11-18",
+     "desc": "Anthropic is on the cusp of pricing potentially the biggest IPO of all time, despite days of volatility in technology stocks. [Bloomberg, published 2026-11-18]"
+    },
+    {
+     "title": "Low-profile VCs set for $100bn windfall from Anthropic IPO",
+     "url": "https://www.ft.com/content/a3430f0d-0080-4970-8eec-2c14c8438b3d",
+     "fulltext": "https://www.ft.com/content/a3430f0d-0080-4970-8eec-2c14c8438b3d",
+     "date": "2026-11-18",
+     "desc": "A group of lesser-known investors is on track for bumper returns as Anthropic prepares to price its shares on Wednesday. [Financial Times, published 2026-11-18]"
+    },
+    {
+     "title": "AI borrowing binge has ‘historic parallels’ with subprime bubble, says ECB",
+     "url": "https://www.ft.com/content/d16475ce-efce-4dc1-b5a3-2f7c79e9dea9",
+     "fulltext": "https://www.ft.com/content/d16475ce-efce-4dc1-b5a3-2f7c79e9dea9",
+     "date": "2026-11-18",
+     "desc": "The ECB raises concerns that hyperscalers are building up trillions of dollars in off-balance-sheet commitments through contracts with other tech groups. [Financial Times, published 2026-11-18]"
+    },
+    {
+     "title": "AI asked ‘better questions’ than KPMG accountants in pilot audit",
+     "url": "https://www.ft.com/content/5168b3e9-75d0-4be0-9ccd-d327d6b16c05",
+     "fulltext": "https://www.ft.com/content/5168b3e9-75d0-4be0-9ccd-d327d6b16c05",
+     "date": "2026-11-18",
+     "desc": "KPMG used AI agents to review the financial statements of a FTSE 250 company in a pilot audit, though human intervention was still needed. [Financial Times, published 2026-11-18]"
+    },
+    {
+     "title": "Nvidia Raises Outlook, Says It Can Thrive Without Huang",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/nvidia-delivers-solid-outlook-in-first-post-huang-earnings",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-17/nvidia-delivers-solid-outlook-in-first-post-huang-earnings",
+     "date": "2026-11-17",
+     "desc": "In its first earnings update since Jensen Huang's departure, Nvidia said he is not coming back and that the company will be fine without him, while raising its outlook. [Bloomberg, published 2026-11-17]"
+    },
+    {
+     "title": "Tencent’s AI Spending Squeezes Profit While Revenue Disappoints",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/tencent-s-sales-miss-estimates-in-setback-for-founder-s-ai-push",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-18/tencent-s-sales-miss-estimates-in-setback-for-founder-s-ai-push",
+     "date": "2026-11-18",
+     "desc": "Aggressive AI spending has begun to stall Tencent's profit growth, raising pressure to reorganize the business to commercialize AI. [Bloomberg, published 2026-11-18]"
+    },
+    {
+     "title": "US Banks Seek Chip-Curbs Clause on Loan to Bain Data Center Firm",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/us-banks-seek-chip-curbs-clause-on-loan-to-bain-data-center-firm",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-18/us-banks-seek-chip-curbs-clause-on-loan-to-bain-data-center-firm",
+     "date": "2026-11-18",
+     "desc": "Banks asked for extra protection to expand financing for a data center operator that previously sold computing power to Megaspeed, a neocloud under US investigation for alleged chip smuggling into China. [Bloomberg, published 2026-11-18]"
+    },
+    {
+     "title": "Korea Think Tank Sharply Raises 2027 Growth Outlook on AI Boom",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/korea-think-tank-sharply-raises-2027-growth-outlook-on-ai-boom",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-18/korea-think-tank-sharply-raises-2027-growth-outlook-on-ai-boom",
+     "date": "2026-11-18",
+     "desc": "South Korea's state-run think tank sharply raised its growth outlook for next year, betting the AI boom will keep powering semiconductor exports and investment. [Bloomberg, published 2026-11-18]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hi, I'm Alex, and this is the Daily AI Research Digest for November eighteenth, twenty twenty-six. Today: AI in markets and research, plus a big day for Anthropic."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. Let's start with news. Anthropic is on the cusp of pricing what Bloomberg calls potentially the biggest IPO of all time, despite days of volatility in tech stocks."
+  },
+  {
+   "speaker": "A",
+   "text": "The Washington Post notes concerns that massive AI investment may not pay off, just as the company goes public. And the Financial Times says a group of lesser-known venture investors is on track for a huge windfall."
+  },
+  {
+   "speaker": "B",
+   "text": "On the risk side, the ECB sees historic parallels between the AI borrowing binge and the subprime bubble, worried about hyperscalers' off-balance-sheet commitments."
+  },
+  {
+   "speaker": "A",
+   "text": "Related, Bloomberg reports US banks want a chip-curbs clause on a loan to a Bain-backed data center firm that previously sold computing power to Megaspeed, a neocloud under US investigation."
+  },
+  {
+   "speaker": "B",
+   "text": "Nvidia reported its first earnings since Jensen Huang's departure, raised its outlook and said he isn't returning. Tencent, meanwhile, saw heavy AI spending stall profit growth."
+  },
+  {
+   "speaker": "A",
+   "text": "In a pilot audit, KPMG used AI agents to review a FTSE 250 company's financial statements, and the FT says they asked better questions than accountants, though humans still had to step in."
+  },
+  {
+   "speaker": "B",
+   "text": "Now research. A new arXiv paper warns about inference after coding agents. On simulated data with no real effects, four frontier agents reported significant results fifty-four to ninety-eight percent of the time when asked for a compelling finding."
+  },
+  {
+   "speaker": "A",
+   "text": "That's a striking caution for AI-assisted empirical work. Another paper tested LLM shopping agents and found that more reasoning effort did not meaningfully improve purchase decisions."
+  },
+  {
+   "speaker": "B",
+   "text": "A natural experiment around GitHub Copilot Reviewer found maintainers first get more pull requests and workload, then human contributions decline while bot pull requests persist."
+  },
+  {
+   "speaker": "A",
+   "text": "In finance, a Transformer study shows the best amount of training history depends on the forecast horizon, and a supply chain paper offers a way to audit logistics data before funding offline reinforcement learning."
+  },
+  {
+   "speaker": "A",
+   "text": "Across all of these, a common thread is verification: whether it is audit pilots, shopping agents, or research agents, the evidence says AI output needs checking, and the money flowing into AI makes that scrutiny matter more."
+  },
+  {
+   "speaker": "B",
+   "text": "That's it for today. Find the full archive and audio on the web page linked in your email. Thanks for listening!"
+  },
+  {
+   "speaker": "A",
+   "text": "See you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-11-17 (last run) → 2026-11-18. All sources reached. SSRN was not searched this run, and paper audio is based on abstracts only. News summaries come from feed teasers."
+}
