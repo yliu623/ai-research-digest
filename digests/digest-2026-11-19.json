@@ -1,0 +1,380 @@
+{
+ "date": "2026-11-19",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "AI, Specialization, and the Organization of Knowledge Work: Evidence from Legal Services",
+     "url": "https://arxiv.org/abs/2611.23354",
+     "fulltext": "https://arxiv.org/pdf/2611.23354",
+     "date": "2026-11-17",
+     "desc": "Develops a framework for how AI-cheapened expertise reallocates work across providers and finds, in U.S. legal services, a 6.6-point rise in non-prisoner self-representation across 89 federal districts, while the largest law firms grew revenue 13% on flat billable hours. [arXiv econ.GN, submitted 2026-11-17]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's paper is based on the abstract only, so we'll keep it short. It asks what happens to professional-service firms when AI makes specialized knowledge cheaper."
+      },
+      {
+       "speaker": "B",
+       "text": "And the setting is U.S. legal services. Why law?"
+      },
+      {
+       "speaker": "A",
+       "text": "Because clients can substitute in several ways: do the work themselves, bring it in-house, or move to cheaper outside providers. The authors build a framework linking those choices to how specialist firms price."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the surprising prediction?"
+      },
+      {
+       "speaker": "A",
+       "text": "If the work leaving premium firms is the more price-sensitive work, the work that remains is less price-sensitive, so premium firms can actually raise their markups even as their share of work declines."
+      },
+      {
+       "speaker": "B",
+       "text": "So what do the data show?"
+      },
+      {
+       "speaker": "A",
+       "text": "Across eighty-nine federal districts, a difference-in-differences analysis finds a 6.6 percentage point increase in self-representation by non-prisoners, relative to prisoner petitions, by fiscal 2025. Lawyer employment shows no clear shift toward client firms, and the largest law firms reported thirteen percent revenue growth in 2025 with nearly flat billable hours."
+      },
+      {
+       "speaker": "B",
+       "text": "Any caveats?"
+      },
+      {
+       "speaker": "A",
+       "text": "The authors note much of the reallocation predates generative AI, and legal AI benchmarks still show trouble with complex multi-step work."
+      },
+      {
+       "speaker": "B",
+       "text": "So the takeaway: cheaper expertise doesn't automatically mean in-house work or falling prices for premium services."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Vibe-Trading: Towards Agent-Native Trading",
+     "url": "https://arxiv.org/abs/2611.24845",
+     "fulltext": "https://arxiv.org/pdf/2611.24845",
+     "date": "2026-11-18",
+     "desc": "Presents an agent-native trading framework unifying research, backtesting, paper trading and optional broker execution, with traceable results and an explicit authority gate between research and live trading. [arXiv cs.AI, submitted 2026-11-18]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This one is based on the abstract only. Vibe-Trading is a framework for building and evaluating AI trading agents."
+      },
+      {
+       "speaker": "B",
+       "text": "What problem does it tackle?"
+      },
+      {
+       "speaker": "A",
+       "text": "Most AI agents use fairly static workflows and struggle to keep reliable state as the world changes. In trading, prices, news, positions and capital all move, so a result is only useful if it's tied to the right time, data snapshot and execution context."
+      },
+      {
+       "speaker": "B",
+       "text": "So what do they build?"
+      },
+      {
+       "speaker": "A",
+       "text": "An all-in-one workspace that unifies market research, financial data, strategy generation, backtesting, portfolio analysis, paper trading, multi-agent collaboration and optional broker execution."
+      },
+      {
+       "speaker": "B",
+       "text": "And the central idea?"
+      },
+      {
+       "speaker": "A",
+       "text": "An architecture where every result keeps its source, time scope, configuration and producing run. Shared evidence grounding enables verification, versioned research records allow reproducible continuation, and an explicit authority gate separates strategy research from live execution."
+      },
+      {
+       "speaker": "B",
+       "text": "In short: traceable, reproducible agent results that only act on real money under explicit authority."
+      }
+     ]
+    },
+    {
+     "title": "When Price Charts Rhyme: Historical Visual Retrieval for Stock Return Prediction",
+     "url": "https://arxiv.org/abs/2611.23723",
+     "fulltext": "https://arxiv.org/pdf/2611.23723",
+     "date": "2026-11-18",
+     "desc": "Uses a vision model to retrieve historically similar stock price charts; the retrieved neighbors' returns predict the cross-section, and return-aligned training more than doubles the strategy's Sharpe ratio. [arXiv q-fin.ST, submitted 2026-11-18]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This summary is based on the abstract only. The paper asks whether stocks with visually similar price charts go on to have similar returns."
+      },
+      {
+       "speaker": "B",
+       "text": "How do they test that?"
+      },
+      {
+       "speaker": "A",
+       "text": "They use a vision model to retrieve each stock's most similar historical charts from three decades of U.S. price histories, then look at what those neighbors earned afterward."
+      },
+      {
+       "speaker": "B",
+       "text": "And does it work?"
+      },
+      {
+       "speaker": "A",
+       "text": "Even a model pretrained only on natural images retrieves neighbors whose returns predict the cross-section of stock returns. Aligning the representation with subsequent returns more than doubles the strategy's Sharpe ratio, and beats a convolutional network trained directly on chart images."
+      },
+      {
+       "speaker": "B",
+       "text": "Where does the signal come from?"
+      },
+      {
+       "speaker": "A",
+       "text": "It's concentrated among stocks with greater limits to arbitrage, and it seems to identify temporary selling pressure that partially reverts. A sparse autoencoder traces the signal to recurring visual states."
+      },
+      {
+       "speaker": "B",
+       "text": "And it's transparent, since each forecast links back to dated historical charts."
+      }
+     ]
+    },
+    {
+     "title": "PIRanNN: Random-Feature Pricing and Calibration under Jump-Diffusion and Stochastic-Volatility Models",
+     "url": "https://arxiv.org/abs/2611.19792",
+     "fulltext": "https://arxiv.org/pdf/2611.19792",
+     "date": "2026-11-15",
+     "desc": "Prices and calibrates options with a one-hidden-layer random-feature network fit by least squares, matching a physics-informed network's accuracy in seconds rather than about half an hour on its test problems. [arXiv q-fin.CP, submitted 2026-11-15]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Abstract-only again. This paper uses a one-hidden-layer random-feature network to price and calibrate options."
+      },
+      {
+       "speaker": "B",
+       "text": "What makes it different from a typical neural network?"
+      },
+      {
+       "speaker": "A",
+       "text": "The inner weights are fixed and random, so fitting is a single regularized least-squares problem, with no iterative training."
+      },
+      {
+       "speaker": "B",
+       "text": "How accurate is it?"
+      },
+      {
+       "speaker": "A",
+       "text": "Subtracting the Black-Scholes price cuts error for jump models by about two orders of magnitude. It's about as accurate as a standard finite-difference scheme at the same run time, and matches a recent physics-informed network's accuracy in seconds instead of about half an hour."
+      },
+      {
+       "speaker": "B",
+       "text": "What about calibration?"
+      },
+      {
+       "speaker": "A",
+       "text": "Without the subtraction, jump parameters can be off by up to fifty percent; with it, within three percent. For Heston and SABR, pricing errors are about one percent and parameters within about fifteen percent."
+      },
+      {
+       "speaker": "B",
+       "text": "So a solver can fit quotes and still return wrong parameters if pricing error isn't small enough."
+      },
+      {
+       "speaker": "A",
+       "text": "Right. The paper covers Merton and Kou jump models, where the jump integral of each feature is explicit so no numerical quadrature is needed, and Heston and SABR stochastic volatility models as an applicability study."
+      },
+      {
+       "speaker": "B",
+       "text": "And one factorization of the least-squares matrix gives the price at every state and time, its Greeks, and exact derivatives with respect to the model parameters for gradient-based calibration."
+      },
+      {
+       "speaker": "A",
+       "text": "That's the practical appeal: fast, simple, and with a clear lesson that pricing accuracy matters for calibration, not just for fitting prices. Again, this is from the abstract only."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Anthropic Raises $81 Billion in Biggest IPO Ever",
+     "url": "https://www.wsj.com/finance/stocks/anthropic-prices-ipo-at-83-a-share-0290494c",
+     "fulltext": "https://www.wsj.com/finance/stocks/anthropic-prices-ipo-at-83-a-share-0290494c",
+     "date": "2026-11-19",
+     "desc": "Anthropic raised $81 billion in the biggest IPO ever, selling more shares than planned and pricing above the targeted range. [WSJ, published 2026-11-19]"
+    },
+    {
+     "title": "Is Anthropic Worth $1.1 Trillion, or $1.5 Trillion? How to Make Sense of the Valuations",
+     "url": "https://www.wsj.com/finance/investing/is-anthropic-worth-1-1-trillion-or-1-5-trillion-how-to-make-sense-of-the-valuations-721b4df8",
+     "fulltext": "https://www.wsj.com/finance/investing/is-anthropic-worth-1-1-trillion-or-1-5-trillion-how-to-make-sense-of-the-valuations-721b4df8",
+     "date": "2026-11-19",
+     "desc": "Explains why Anthropic's complex structure and funding make its valuation hard to pin down, with estimates ranging from roughly $1.1 trillion to $1.5 trillion. [WSJ, published 2026-11-19]"
+    },
+    {
+     "title": "Anthropic vs. OpenAI: The Financial Metrics Behind the AI Battle",
+     "url": "https://www.wsj.com/tech/ai/anthropic-vs-openai-the-financial-metrics-behind-the-ai-battle-4f5b90c0",
+     "fulltext": "https://www.wsj.com/tech/ai/anthropic-vs-openai-the-financial-metrics-behind-the-ai-battle-4f5b90c0",
+     "date": "2026-11-19",
+     "desc": "Compares Anthropic and OpenAI on financial metrics as Anthropic's offering launches, reporting that Anthropic holds a revenue edge and has fewer losses. [WSJ, published 2026-11-19]"
+    },
+    {
+     "title": "IMF’s Chief Is Warning AI Correction Has ‘Little Bit More’ to Go",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/imf-s-chief-is-warning-ai-correction-has-little-bit-more-to-go",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-19/imf-s-chief-is-warning-ai-correction-has-little-bit-more-to-go",
+     "date": "2026-11-19",
+     "desc": "The IMF's managing director said she expects perhaps a little more correction in AI-related financial markets, amid concerns the boom has been overdone. [Bloomberg, published 2026-11-19]"
+    },
+    {
+     "title": "Nvidia Is the Central Bank to AI’s Circular Economy. See Where the Money Goes.",
+     "url": "https://www.wsj.com/finance/stocks/nvidia-is-the-central-bank-to-ais-circular-economy-see-where-the-money-goes-da480b61",
+     "fulltext": "https://www.wsj.com/finance/stocks/nvidia-is-the-central-bank-to-ais-circular-economy-see-where-the-money-goes-da480b61",
+     "date": "2026-11-19",
+     "desc": "WSJ counts at least 293 Nvidia deals since 2023 and an investment portfolio above $100 billion, describing the company as a kind of central bank for AI's circular economy. [WSJ, published 2026-11-19]"
+    },
+    {
+     "title": "AI is swallowing maths. Is economics next?",
+     "url": "https://www.economist.com/finance-and-economics/2026/11/19/ai-is-swallowing-maths-is-economics-next",
+     "fulltext": "https://www.economist.com/finance-and-economics/2026/11/19/ai-is-swallowing-maths-is-economics-next",
+     "date": "2026-11-19",
+     "desc": "The Economist looks at how AI is disrupting mathematics and asks whether economics, which is bracing for similar disruption, is next. [The Economist, published 2026-11-19]"
+    },
+    {
+     "title": "IEA Sees Data Center Boom Pushing Power Grids to the Limit",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/iea-sees-data-center-boom-pushing-power-grids-to-the-limit",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-19/iea-sees-data-center-boom-pushing-power-grids-to-the-limit",
+     "date": "2026-11-19",
+     "desc": "The International Energy Agency says a surge in data center investment threatens to stretch global power grids to their limits. [Bloomberg, published 2026-11-19]"
+    },
+    {
+     "title": "US tech outages blamed on rush to fix bugs found by AI",
+     "url": "https://www.ft.com/content/96c565f1-f229-40b6-91e8-7a849ec4b208",
+     "fulltext": "https://www.ft.com/content/96c565f1-f229-40b6-91e8-7a849ec4b208",
+     "date": "2026-11-19",
+     "desc": "Experts say the rush to patch software flaws found by AI probably created instability at firms including Microsoft and JPMorgan, contributing to a run of tech outages. [Financial Times, published 2026-11-19]"
+    },
+    {
+     "title": "South Korea’s Exports Top $1 Trillion for First Time on AI Boom",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/south-korea-s-exports-top-1-trillion-for-first-time-on-ai-boom",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-19/south-korea-s-exports-top-1-trillion-for-first-time-on-ai-boom",
+     "date": "2026-11-19",
+     "desc": "South Korea's annual exports passed $1 trillion for the first time, driven by record semiconductor shipments in the global AI boom. [Bloomberg, published 2026-11-19]"
+    },
+    {
+     "title": "US companies turn to robots to ease labour shortage crisis",
+     "url": "https://www.ft.com/content/747f5533-1bab-4143-a78b-ed4e2b575340",
+     "fulltext": "https://www.ft.com/content/747f5533-1bab-4143-a78b-ed4e2b575340",
+     "date": "2026-11-19",
+     "desc": "US companies are turning to robots to ease labor shortages, though some say the pace of automation is still too slow to make the country internationally competitive. [Financial Times, published 2026-11-19]"
+    },
+    {
+     "title": "Anthropic Raises $107.3 Billion to Top SpaceX’s Record Debut",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/anthropic-is-said-to-price-ipo-at-83-per-share",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-18/anthropic-is-said-to-price-ipo-at-83-per-share",
+     "date": "2026-11-18",
+     "desc": "Anthropic and its seven co-founders raised a record $107.3 billion in an upsized IPO plus private placement, topping SpaceX's debut and making Anthropic the first frontier AI lab to tap public markets. [Bloomberg, published 2026-11-18]"
+    },
+    {
+     "title": "Worried about an AI bust? So is the Federal Reserve.",
+     "url": "https://www.washingtonpost.com/business/2026/11/18/fed-officials-worry-an-ai-bust-could-shake-financial-system/",
+     "fulltext": "https://www.washingtonpost.com/business/2026/11/18/fed-officials-worry-an-ai-bust-could-shake-financial-system/",
+     "date": "2026-11-18",
+     "desc": "Minutes of the Fed's October meeting opened with an unusual warning about AI-related debt, as doubts about the AI boom spread on Wall Street. [Washington Post, published 2026-11-18]"
+    },
+    {
+     "title": "A.I. Bubble Talk Enters the Conversation at DealBook Summit",
+     "url": "https://www.nytimes.com/2026/11/18/business/dealbook/ai-bubble-dealbook-summit.html",
+     "fulltext": "https://www.nytimes.com/2026/11/18/business/dealbook/ai-bubble-dealbook-summit.html",
+     "date": "2026-11-18",
+     "desc": "At the DealBook Summit, ECB president Christine Lagarde and OpenAI's Sam Altman discussed AI bubble worries and sky-high valuations. [NYT, published 2026-11-18]"
+    },
+    {
+     "title": "AI Is Making China’s Jobs Slump Even Worse",
+     "url": "https://www.bloomberg.com/graphics/2026-china-ai-jobs-slump/",
+     "fulltext": "https://www.bloomberg.com/graphics/2026-china-ai-jobs-slump/",
+     "date": "2026-11-18",
+     "desc": "A Bloomberg analysis finds a double-digit decline in hiring for the jobs most exposed to AI, worsening China's jobs slump. [Bloomberg, published 2026-11-18]"
+    },
+    {
+     "title": "Tencent Profit Flatlines Amid Surging AI Investments, Revenue Growth Slows",
+     "url": "https://www.wsj.com/tech/ai/tencent-profit-flatlines-amid-surging-ai-investments-revenue-growth-slows-0c1cfc57",
+     "fulltext": "https://www.wsj.com/tech/ai/tencent-profit-flatlines-amid-surging-ai-investments-revenue-growth-slows-0c1cfc57",
+     "date": "2026-11-18",
+     "desc": "Tencent's third-quarter profit flatlined as capital expenditure on AI jumped more than sixfold from a year earlier and revenue growth slowed. [WSJ, published 2026-11-18]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hi, I'm Alex, and this is the AI research digest for November nineteenth, twenty twenty-six."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. Today's big theme is money: Anthropic's record public offering, and worries about whether the AI boom is overheated."
+  },
+  {
+   "speaker": "A",
+   "text": "Let's start there. Bloomberg reports Anthropic raised a record one hundred seven point three billion dollars in an upsized offering plus private placement, topping SpaceX's debut."
+  },
+  {
+   "speaker": "B",
+   "text": "The Wall Street Journal says the IPO itself raised eighty-one billion dollars, the biggest ever, priced above the targeted range."
+  },
+  {
+   "speaker": "A",
+   "text": "And the Journal also notes valuation math is confusing, with estimates between one point one and one point five trillion dollars."
+  },
+  {
+   "speaker": "B",
+   "text": "At the same time, the Washington Post reports that minutes of the Fed's October meeting opened with an unusual warning about AI-related debt."
+  },
+  {
+   "speaker": "A",
+   "text": "And Bloomberg says the IMF's chief expects perhaps a little more correction in AI-related markets."
+  },
+  {
+   "speaker": "B",
+   "text": "The Journal also counted at least two hundred ninety-three Nvidia deals since twenty twenty-three, describing Nvidia as a kind of central bank for AI's circular economy."
+  },
+  {
+   "speaker": "A",
+   "text": "On the real economy, a Bloomberg analysis finds a double-digit decline in hiring for jobs most exposed to AI in China."
+  },
+  {
+   "speaker": "B",
+   "text": "The International Energy Agency warns data center investment could push power grids to their limits."
+  },
+  {
+   "speaker": "A",
+   "text": "And the Financial Times reports experts blame the rush to patch AI-found software bugs for a run of tech outages."
+  },
+  {
+   "speaker": "B",
+   "text": "On the research side, a new arXiv paper studies U.S. legal services, finding a 6.6 point rise in self-representation, while the biggest law firms grew revenue thirteen percent on flat billable hours."
+  },
+  {
+   "speaker": "A",
+   "text": "Another paper uses a vision model to find stocks with similar price charts, and more than doubles a strategy's Sharpe ratio by aligning it with returns."
+  },
+  {
+   "speaker": "B",
+   "text": "And a trading-agent framework called Vibe-Trading stresses traceable results and an explicit authority gate before live execution."
+  },
+  {
+   "speaker": "A",
+   "text": "That's all for today. Full details are in the web archive."
+  },
+  {
+   "speaker": "B",
+   "text": "Thanks for listening, see you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-11-18 (last run) → 2026-11-19. All sources reachable. SSRN was not searched this run and the NBER feed returned no new papers. Paper audio explainers are based on abstracts only (PDF reader unavailable). News summaries are based on feed teasers."
+}
