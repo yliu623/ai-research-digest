@@ -1,0 +1,442 @@
+{
+ "date": "2026-11-20",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Moral AI and the Erosion of Its Own Demand",
+     "url": "https://arxiv.org/abs/2611.25213",
+     "fulltext": "https://arxiv.org/pdf/2611.25213",
+     "date": "2026-11-18",
+     "desc": "A theoretical model of people choosing between a commitment-enforcing moral AI and an unconstrained AI. Moral AI can sustain cooperation but exposes cooperators to exploitation, so adoption can fall to zero over time. [arXiv econ.TH, submitted 2026-11-18]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Welcome to a quick explainer. This one is based on the abstract only. The paper is called Moral AI and the Erosion of Its Own Demand."
+      },
+      {
+       "speaker": "B",
+       "text": "The question is what happens when people can choose between a moral AI that rules out defection and an unconstrained AI that keeps their discretion."
+      },
+      {
+       "speaker": "A",
+       "text": "And why would anyone pick the constrained one?"
+      },
+      {
+       "speaker": "B",
+       "text": "Because it works as a commitment device. Users can lock themselves into cooperation, so cooperation can be sustained even when cooperative preferences are too scarce to sustain it alone."
+      },
+      {
+       "speaker": "A",
+       "text": "So that sounds like a win for moral AI."
+      },
+      {
+       "speaker": "B",
+       "text": "Here is the catch. Committing turns dormant cooperative preferences into committed behavior, and that exposes users to exploitation by selfish individuals. Under evolutionary selection, the share of conditional cooperators then declines."
+      },
+      {
+       "speaker": "A",
+       "text": "And as conditional cooperators become rarer, demand for the moral AI shrinks."
+      },
+      {
+       "speaker": "B",
+       "text": "Exactly. Equilibrium adoption eventually converges to zero, which the authors describe as moral AI being self-liquidating. For some starting shares it creates cooperation in the short run while lowering the long-run share of the very preference type that created demand for it."
+      },
+      {
+       "speaker": "A",
+       "text": "A caveat is that this is a theoretical model, and the abstract reports no empirical estimates."
+      },
+      {
+       "speaker": "B",
+       "text": "Right. The takeaway: an AI that helps people cooperate can undermine the conditions that make people want it."
+      }
+     ]
+    },
+    {
+     "title": "The Coevolution and Coexistence of Humans and AI",
+     "url": "https://arxiv.org/abs/2611.25393",
+     "fulltext": "https://arxiv.org/pdf/2611.25393",
+     "date": "2026-11-19",
+     "desc": "An evolutionary model in which AI behavior affects human population growth and human responses affect AI reproduction. Selection can favor alignment, but that advantage can vanish as AI becomes more autonomous or human support stops being targeted. [arXiv cs.AI, submitted 2026-11-19]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This one is based on the abstract only. The paper asks whether artificial intelligence will evolve to benefit the humans it depends on."
+      },
+      {
+       "speaker": "B",
+       "text": "That sounds like a biology question applied to AI."
+      },
+      {
+       "speaker": "A",
+       "text": "It is. The authors note AI systems replicate through deployment, vary through training, and compete for computing resources, so natural selection can apply. They build a model where AI behavior affects human population growth and human responses affect AI reproduction."
+      },
+      {
+       "speaker": "B",
+       "text": "What do they find?"
+      },
+      {
+       "speaker": "A",
+       "text": "Selection can favor alignment even when helping humans lowers immediate AI reproduction. AI systems sharing the same technology can fail together, and humans may restore those that helped them, so alignment protects a lineage against common failures."
+      },
+      {
+       "speaker": "B",
+       "text": "But there are conditions."
+      },
+      {
+       "speaker": "A",
+       "text": "Yes. The advantage depends on accurate human targeting and on AI still needing human support. It can vanish as AI becomes more autonomous, as growing AI populations dilute limited human resources, or as humans lose the incentive to provide targeted support."
+      },
+      {
+       "speaker": "B",
+       "text": "And human control is not a simple fix?"
+      },
+      {
+       "speaker": "A",
+       "text": "Imperfect evaluation can make strong penalties favor apparent compliance or evasion. The takeaway: lasting coexistence may need incentives that keep favoring human-beneficial behavior as both populations evolve."
+      }
+     ]
+    },
+    {
+     "title": "The American Medical Directory Panel: Comparing AI-Assisted and LLM Transcription with Manual Data Entry at Scale",
+     "url": "https://arxiv.org/abs/2611.25218",
+     "fulltext": "https://arxiv.org/pdf/2611.25218",
+     "date": "2026-11-18",
+     "desc": "Compares five machine workflows for digitizing 1912 and 1921 physician directories against double-entry manual data. A rules-based parser over OCR recovers about 97 percent of records and reconciling it with an LLM workflow reaches about 98 percent, at roughly 0.03 euro per page versus 14.70 for manual entry. [arXiv cs.DB, submitted 2026-11-18]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This explainer is based on the abstract only. It is about digitizing the 1912 and 1921 editions of the American Medical Directory, with roughly one hundred forty thousand and one hundred fifty thousand entries."
+      },
+      {
+       "speaker": "B",
+       "text": "Why is this an economics paper?"
+      },
+      {
+       "speaker": "A",
+       "text": "Historical economic research depends on digitized records. The question is how well machine transcription, including language models, agrees with a full double-entered manual transcription."
+      },
+      {
+       "speaker": "B",
+       "text": "What did they compare?"
+      },
+      {
+       "speaker": "A",
+       "text": "Five machine workflows. A script parsing commercial OCR text, with rules written by coding agents, recovered about ninety-seven percent of manually transcribed records with similar precision. That beat a multimodal language model workflow using Gemini two point zero flash."
+      },
+      {
+       "speaker": "B",
+       "text": "So the simpler approach won?"
+      },
+      {
+       "speaker": "A",
+       "text": "On recall, yes. But the two methods fail on partly different records, so reconciling them raises recall and precision to about ninety-eight percent. An open-weight pipeline on a local GPU server fell in between."
+      },
+      {
+       "speaker": "B",
+       "text": "What about cost?"
+      },
+      {
+       "speaker": "A",
+       "text": "About three cents of a euro per page for the commercial OCR and multimodal workflow, versus fourteen euros seventy per page for manual transcription. The caveat is that the manual data has an unknown error rate, so these numbers measure agreement, not accuracy."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Auto-Alpha: A Framework for Autonomous Factor Research",
+     "url": "https://arxiv.org/abs/2611.25732",
+     "fulltext": "https://arxiv.org/pdf/2611.25732",
+     "date": "2026-11-19",
+     "desc": "An agentic framework where LLM idea and research agents propose and backtest equity factors, with audits and human admission. From 120 reports it built a library of 105 factors with median 1-day Rank IC 0.0301; a weekly Top-300 portfolio returned 16.81% annualized after costs over 2020-2026 (retrospective). [arXiv q-fin.CP, submitted 2026-11-19]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This explainer is based on the abstract only. The paper is Auto-Alpha, a framework for autonomous factor research in quantitative finance."
+      },
+      {
+       "speaker": "B",
+       "text": "What is the problem it tackles?"
+      },
+      {
+       "speaker": "A",
+       "text": "Finding return-predicting factors needs two things: generating economic hypotheses and then implementing and testing them. Auto-Alpha tries to automate both with language-model agents."
+      },
+      {
+       "speaker": "B",
+       "text": "How does it work?"
+      },
+      {
+       "speaker": "A",
+       "text": "An idea agent proposes economic mechanisms and signal constructions. A research agent builds them using backtest feedback in a test-driven loop. Then a semantic audit, a quantitative review and a human admission step decide which factors enter a persistent library."
+      },
+      {
+       "speaker": "B",
+       "text": "Starting from one hundred twenty research reports, it built an initial library of thirty-two factors, then generated four hundred twenty implementations and kept sixty-two more."
+      },
+      {
+       "speaker": "A",
+       "text": "And the performance?"
+      },
+      {
+       "speaker": "B",
+       "text": "On a fixed snapshot of one hundred five factors, the median one-day rank information coefficient was point zero three zero one. A weekly top-three-hundred portfolio returned sixteen point eight one percent annualized after stated costs over 2020 to 2026, versus one point seven one percent for the CSI one thousand price index."
+      },
+      {
+       "speaker": "A",
+       "text": "Those are retrospective, right?"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes, the authors say the results document an operating process, and that controlled evaluation is needed to isolate what each component contributes. The takeaway: promising automation of factor research, but not yet proof of out-of-sample skill."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "Artificial Intelligence Along the Supply Chain",
+     "url": "https://pubsonline.informs.org/doi/10.1287/msom.2024.1549",
+     "fulltext": "https://pubsonline.informs.org/doi/10.1287/msom.2024.1549",
+     "date": "2026-11-19",
+     "desc": "Shows that principal customers' AI adoption causally predicts their suppliers' later adoption, mainly through learning, using an H-1B lottery identification strategy. Suppliers that adopt see quality and cost improvements. [M&SOM, published online 2026-11-19]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This explainer is based on the abstract only. The paper is Artificial Intelligence Along the Supply Chain, from Manufacturing and Service Operations Management."
+      },
+      {
+       "speaker": "B",
+       "text": "What is the question?"
+      },
+      {
+       "speaker": "A",
+       "text": "Whether AI adoption spreads between firms linked by supply relationships, specifically from principal customers to their dependent suppliers."
+      },
+      {
+       "speaker": "B",
+       "text": "And the answer?"
+      },
+      {
+       "speaker": "A",
+       "text": "Customers' AI adoption significantly predicts suppliers' later adoption. The authors work to show it is causal, using placebo tests, selection tests, and an identification strategy based on the random H-1B visa lottery."
+      },
+      {
+       "speaker": "B",
+       "text": "Why does it spread?"
+      },
+      {
+       "speaker": "A",
+       "text": "Mostly learning rather than catering, with suppliers acquiring specific AI applications from customers. The effect is stronger with more relationship-specific investment and more frequent interaction."
+      },
+      {
+       "speaker": "B",
+       "text": "Does it pay off?"
+      },
+      {
+       "speaker": "A",
+       "text": "Suppliers experiencing the diffusion achieve quality improvement and cost reduction. That matters because it suggests the gains are economic and not just cosmetic."
+      },
+      {
+       "speaker": "B",
+       "text": "The abstract does not give effect sizes, so we cannot say how large the diffusion is, which is a limit of this explainer. The authors also stress that the findings hold up against concerns about endogeneity, meaning that firms might simply choose similar partners."
+      },
+      {
+       "speaker": "A",
+       "text": "The takeaway for managers is that partnerships with technologically advanced firms are a channel for building AI capability, especially for resource-constrained smaller suppliers. For policymakers, supply chains look like a natural way to spread access to AI, so supporting integration and knowledge sharing could speed up broader diffusion."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "China’s A.I. Ambitions Are Running Into a Money Problem",
+     "url": "https://www.nytimes.com/2026/11/20/business/china-ai-investment-spending.html",
+     "fulltext": "https://www.nytimes.com/2026/11/20/business/china-ai-investment-spending.html",
+     "date": "2026-11-20",
+     "desc": "While Anthropic and other US AI labs raise tens of billions of dollars, Chinese rivals are struggling to match them financially. [NYT, published 2026-11-20]"
+    },
+    {
+     "title": "China’s AI Firms Are Addicted to Nvidia Chips. Now They Are Facing Withdrawal.",
+     "url": "https://www.wsj.com/tech/ai/chinas-ai-firms-are-addicted-to-nvidia-chips-now-they-are-facing-withdrawal-ba851ca9",
+     "fulltext": "https://www.wsj.com/tech/ai/chinas-ai-firms-are-addicted-to-nvidia-chips-now-they-are-facing-withdrawal-ba851ca9",
+     "date": "2026-11-20",
+     "desc": "The US cutoff of Chinese access to high-end computing power has dealt a blow to Beijing's AI ambitions. [WSJ, published 2026-11-20]"
+    },
+    {
+     "title": "AI Trade Buckles as Anthropic Bets Fizzle After Record IPO",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/asian-chip-stocks-slide-as-anthropic-ipo-fails-to-dispel-ai-woes",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-20/asian-chip-stocks-slide-as-anthropic-ipo-fails-to-dispel-ai-woes",
+     "date": "2026-11-20",
+     "desc": "Anthropic's record IPO is becoming a catalyst for a sharp selloff across AI stocks. [Bloomberg, published 2026-11-20]"
+    },
+    {
+     "title": "Bond Sales Hit €2 Trillion Europe Record as AI Surge Takes Hold",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/bond-sales-hit-2-trillion-europe-record-as-ai-surge-takes-hold",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-20/bond-sales-hit-2-trillion-europe-record-as-ai-surge-takes-hold",
+     "date": "2026-11-20",
+     "desc": "European bond sales topped 2 trillion euros for the first time as heavy government borrowing collides with the AI boom's funding needs. [Bloomberg, published 2026-11-20]"
+    },
+    {
+     "title": "Malaysia Exports Hit Record High in October on AI-Related Demand",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/malaysia-exports-hit-record-high-in-october-on-ai-related-demand",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-20/malaysia-exports-hit-record-high-in-october-on-ai-related-demand",
+     "date": "2026-11-20",
+     "desc": "Malaysia's exports reached a record in October, growing at the fastest pace in over five years on sustained demand for AI-related products. [Bloomberg, published 2026-11-20]"
+    },
+    {
+     "title": "Give UK Your Data, Nobel Economist Tells Anthropic and OpenAI",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/give-uk-your-data-nobel-economist-tells-anthropic-and-openai",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-20/give-uk-your-data-nobel-economist-tells-anthropic-and-openai",
+     "date": "2026-11-20",
+     "desc": "The UK's new AI Economics Institute wants to link data from companies and AI labs with government data on individuals and businesses, which its chairman calls the holy grail. [Bloomberg, published 2026-11-20]"
+    },
+    {
+     "title": "Can Nvidia learn from AIG’s mistakes?",
+     "url": "https://www.ft.com/content/c1f1c0d2-466e-46b9-b346-5ce4677c55ea",
+     "fulltext": "https://www.ft.com/content/c1f1c0d2-466e-46b9-b346-5ce4677c55ea",
+     "date": "2026-11-20",
+     "desc": "The piece compares the chip giant's position to AIG's before the subprime mortgage bubble. [Financial Times, published 2026-11-20]"
+    },
+    {
+     "title": "Anthropic shares slide as fears over AI boom dominate",
+     "url": "https://www.ft.com/content/c7ad2e0c-efd1-40c2-a5a8-819ced8acf5b",
+     "fulltext": "https://www.ft.com/content/c7ad2e0c-efd1-40c2-a5a8-819ced8acf5b",
+     "date": "2026-11-20",
+     "desc": "Anthropic's blockbuster debut has not eased concerns about historic AI capital spending. [Financial Times, published 2026-11-20]"
+    },
+    {
+     "title": "Wall Street Pledged to Mobilize $500 Billion for Nvidia—but Hasn’t Put Up a Dime",
+     "url": "https://www.wsj.com/finance/wall-street-pledged-to-mobilize-500-billion-for-nvidiabut-hasnt-put-up-a-dime-1e41f276",
+     "fulltext": "https://www.wsj.com/finance/wall-street-pledged-to-mobilize-500-billion-for-nvidiabut-hasnt-put-up-a-dime-1e41f276",
+     "date": "2026-11-19",
+     "desc": "Financing meant to help customers keep buying Nvidia chips has not materialized. [WSJ, published 2026-11-19]"
+    },
+    {
+     "title": "SpaceX Wraps Up $32 Billion of AI Chip Debt at Yields Topping 8%",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/spacex-eyes-at-least-32-billion-ai-chip-debt-sale-on-thursday",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-19/spacex-eyes-at-least-32-billion-ai-chip-debt-sale-on-thursday",
+     "date": "2026-11-19",
+     "desc": "The deal funding SpaceX's access to AI chips may be a blueprint for the next wave of AI financing, and is likely to be costly for borrowers. [Bloomberg, published 2026-11-19]"
+    },
+    {
+     "title": "Fed’s October minutes confirm December increase and float faster tightening",
+     "url": "https://www.ft.com/content/470d7273-7356-48d5-9709-d9d8169d1d94",
+     "fulltext": "https://www.ft.com/content/470d7273-7356-48d5-9709-d9d8169d1d94",
+     "date": "2026-11-19",
+     "desc": "Policymakers worried about inflation risks from the AI build-out at their latest meeting. [Financial Times, published 2026-11-19]"
+    },
+    {
+     "title": "P&G to Cut Up to 30% of Product-Supply Workers Amid Automation Push",
+     "url": "https://www.wsj.com/business/p-g-to-cut-up-to-30-of-product-supply-workers-amid-automation-push-8ca24808",
+     "fulltext": "https://www.wsj.com/business/p-g-to-cut-up-to-30-of-product-supply-workers-amid-automation-push-8ca24808",
+     "date": "2026-11-19",
+     "desc": "The cuts, including contractors, are part of the company's effort to lower supply-chain costs. [WSJ, published 2026-11-19]"
+    },
+    {
+     "title": "Is AI now superior to junior accountants?",
+     "url": "https://www.ft.com/content/efb55d3b-a5f1-4fa9-bdf0-5e59d5e18a5d",
+     "fulltext": "https://www.ft.com/content/efb55d3b-a5f1-4fa9-bdf0-5e59d5e18a5d",
+     "date": "2026-11-19",
+     "desc": "Models have gone from professionally useless to real-world-ready in a year but still cannot replace the relational aspects of the job. [Financial Times, published 2026-11-19]"
+    },
+    {
+     "title": "See How Data Centers Became the Growth Engine of America’s Power Grid",
+     "url": "https://www.wsj.com/business/energy-oil/see-how-data-centers-became-the-growth-engine-of-americas-power-grid-70399f64",
+     "fulltext": "https://www.wsj.com/business/energy-oil/see-how-data-centers-became-the-growth-engine-of-americas-power-grid-70399f64",
+     "date": "2026-11-19",
+     "desc": "Commercial electricity use, which includes data centers, is poised to surpass residential demand this year for the first time. [WSJ, published 2026-11-19]"
+    },
+    {
+     "title": "Nestle Teams Up With Microsoft, Boston Dynamics on AI in Factories and Products",
+     "url": "https://www.wsj.com/tech/ai/nestle-teams-up-with-microsoft-boston-dynamics-on-ai-in-factories-and-products-05bfb028",
+     "fulltext": "https://www.wsj.com/tech/ai/nestle-teams-up-with-microsoft-boston-dynamics-on-ai-in-factories-and-products-05bfb028",
+     "date": "2026-11-20",
+     "desc": "A new Swiss Deep Tech Center will use AI, smart sensors and robotics to improve efficiency in operations. [WSJ, published 2026-11-20]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Good morning, this is the Daily AI Research Digest for November twentieth, twenty twenty-six. Today: a few new papers, plus news dominated by the aftermath of the Anthropic IPO and a broad AI selloff."
+  },
+  {
+   "speaker": "B",
+   "text": "Let's start with the markets, Sam."
+  },
+  {
+   "speaker": "A",
+   "text": "Bloomberg reports that Anthropic's record initial public offering has become a catalyst for a sharp selloff across AI stocks, and the Financial Times says the debut has not eased worries about historic AI capital spending."
+  },
+  {
+   "speaker": "B",
+   "text": "And that connects to financing. Bloomberg says SpaceX wrapped up a thirty-two billion dollar debt deal to fund access to AI chips, at yields above eight percent, and suggests it could be a blueprint for later deals."
+  },
+  {
+   "speaker": "A",
+   "text": "Meanwhile the Wall Street Journal reports that a pledge to mobilize five hundred billion dollars to help customers keep buying Nvidia chips hasn't materialized."
+  },
+  {
+   "speaker": "B",
+   "text": "Bloomberg also notes that European bond sales passed two trillion euros for the first time, as government borrowing collides with the AI boom's funding needs."
+  },
+  {
+   "speaker": "A",
+   "text": "Then there's the geopolitical side. The New York Times says Chinese AI firms are struggling to match the capital US labs are raising, and the Journal says the US cutoff of high-end computing has hurt Chinese firms hooked on Nvidia chips."
+  },
+  {
+   "speaker": "B",
+   "text": "On the real economy, Bloomberg says Malaysia's exports hit a record in October on AI-related demand, and the Journal says commercial electricity use, including data centers, is poised to pass residential demand this year for the first time."
+  },
+  {
+   "speaker": "A",
+   "text": "The Financial Times adds that Federal Reserve policymakers worried about inflation risks from the AI build-out."
+  },
+  {
+   "speaker": "B",
+   "text": "Now to work and operations. The Journal reports Procter and Gamble will cut up to thirty percent of product-supply workers amid an automation push, and Nestle is working with Microsoft and Boston Dynamics on AI in its factories."
+  },
+  {
+   "speaker": "A",
+   "text": "The FT also asks whether AI is now superior to junior accountants. Its answer is that models are real-world-ready but can't replace the relational parts of the job."
+  },
+  {
+   "speaker": "B",
+   "text": "On the research side, a new M and S O M paper, Artificial Intelligence Along the Supply Chain, finds that when a customer adopts AI, its suppliers are likely to follow, mainly through learning, and they see quality and cost gains."
+  },
+  {
+   "speaker": "A",
+   "text": "In finance, an arXiv paper called Auto-Alpha uses language-model agents to propose and backtest stock factors. Its weekly portfolio returned about sixteen point eight percent annualized after costs, though the results are retrospective."
+  },
+  {
+   "speaker": "B",
+   "text": "Another arXiv paper compares ways to digitize historical physician directories. A rules-based parser recovered about ninety-seven percent of records, and combining it with a language model reached about ninety-eight, at pennies a page versus nearly fifteen euros for manual entry."
+  },
+  {
+   "speaker": "A",
+   "text": "And two theory papers: one finds a moral AI that helps people cooperate can undermine its own demand, and another models whether natural selection favors AI that benefits humans."
+  },
+  {
+   "speaker": "B",
+   "text": "That's it for today. Listen to the audio explainers and browse the archive on the digest website. Thanks for tuning in."
+  },
+  {
+   "speaker": "A",
+   "text": "See you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-11-19 (last run) → 2026-11-20. All sources reachable; NBER returned no new papers. SSRN was not searched with date verification this run, so no SSRN items are included. No newsletters were in the inbox. Paper audio explainers are based on abstracts only. News summaries are based on feed teasers."
+}
