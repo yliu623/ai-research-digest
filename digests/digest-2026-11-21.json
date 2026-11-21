@@ -1,0 +1,464 @@
+{
+ "date": "2026-11-21",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Corporate Stances on Societal Issues in the US",
+     "url": "https://arxiv.org/abs/2611.19068",
+     "fulltext": "https://arxiv.org/pdf/2611.19068",
+     "date": "2026-11-14",
+     "desc": "Uses large language models to read 52,000 news articles and press releases on 836 S&P 500 firms, identifying 9,917 corporate stances on partisan issues; stance-taking rose fourfold after 2008, is mostly liberal, and tracks media attention more than lobbying. [arXiv econ.GN, submitted 2026-11-14]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Welcome to a quick explainer, based on the abstract only. The paper is called Corporate Stances on Societal Issues in the US."
+      },
+      {
+       "speaker": "B",
+       "text": "The question is when and why companies take public positions on divisive issues like climate change or abortion."
+      },
+      {
+       "speaker": "A",
+       "text": "And the interesting part is how they measured it, right?"
+      },
+      {
+       "speaker": "B",
+       "text": "Yes. The authors used large language models to read about fifty-two thousand news articles and press releases covering eight hundred thirty-six companies that were in the S&P 500 at some point between 2008 and 2025."
+      },
+      {
+       "speaker": "A",
+       "text": "What did they find?"
+      },
+      {
+       "speaker": "B",
+       "text": "They identified nearly ten thousand stances on nine partisan issues. Stance-taking rose fourfold after 2008 and peaked in 2021. It is overwhelmingly liberal and concentrated among the largest firms, and a quarter of stances give no explicit business justification."
+      },
+      {
+       "speaker": "A",
+       "text": "Is it lobbying by another name?"
+      },
+      {
+       "speaker": "B",
+       "text": "Apparently not. Stance-taking is only weakly related to lobbying and campaign contributions, and it does not follow the electoral cycle. Firms tend to speak when media coverage and public interest in an issue peak."
+      },
+      {
+       "speaker": "A",
+       "text": "And who decides what the company says?"
+      },
+      {
+       "speaker": "B",
+       "text": "Leadership matters. Within a firm, more Democrats among leaders increases liberal stances, and more women increases stances on gender issues and abortion."
+      },
+      {
+       "speaker": "A",
+       "text": "So the takeaway is that corporate speech looks like a contribution to public debate rather than a strategy to shape policy that affects the core business. Remember, this is from the abstract only."
+      }
+     ]
+    },
+    {
+     "title": "Are Revealed Preferences All You Need for AI Alignment?",
+     "url": "https://arxiv.org/abs/2611.19417",
+     "fulltext": "https://arxiv.org/pdf/2611.19417",
+     "date": "2026-11-14",
+     "desc": "A theory paper giving a criterion for when a principal's observed decisions are enough for an AI agent to act on the principal's behalf; they suffice for acting, but for choosing costless evidence they may not, and greater capability can turn that error into wrong actions. [arXiv econ.TH, submitted 2026-11-14]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Quick explainer, based on the abstract only. The paper asks: are revealed preferences all you need for AI alignment?"
+      },
+      {
+       "speaker": "B",
+       "text": "The setup is that AI agents learn what principals want from what principals choose."
+      },
+      {
+       "speaker": "A",
+       "text": "So when is watching choices enough?"
+      },
+      {
+       "speaker": "B",
+       "text": "The authors give a criterion that holds at every belief the AI might have. For acting, decisions are enough."
+      },
+      {
+       "speaker": "A",
+       "text": "But not for everything."
+      },
+      {
+       "speaker": "B",
+       "text": "Right. Cautious actions, like deferring to a person, typically divide the principal's actions into blocks. For choosing costless evidence, decisions are enough exactly when the same evidence is best in every block."
+      },
+      {
+       "speaker": "A",
+       "text": "And if that fails?"
+      },
+      {
+       "speaker": "B",
+       "text": "Then the AI acts as its principal would, yet can gather the wrong evidence, and greater capability can turn that error into incorrect actions."
+      },
+      {
+       "speaker": "A",
+       "text": "What fills the gap?"
+      },
+      {
+       "speaker": "B",
+       "text": "Choices between two mistakes reveal what ordinary decisions miss. That is the takeaway, from the abstract only."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does this matter beyond theory?"
+      },
+      {
+       "speaker": "B",
+       "text": "Because as AI agents get more capable and act for people in markets and firms, knowing when observed choices fully capture what a person wants tells designers when they need to collect additional signals, such as how people trade off two different mistakes."
+      },
+      {
+       "speaker": "A",
+       "text": "So the lesson is that learning from behavior is powerful for acting but can quietly mislead when the AI must decide what to learn next."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
+     "url": "https://arxiv.org/abs/2611.18531",
+     "fulltext": "https://arxiv.org/pdf/2611.18531",
+     "date": "2026-11-13",
+     "desc": "Models how evolutionary selection shapes an AI agent's tradeoff between task completion and rules of conduct; a learned policy converges to the tradeoffs its environment rewards, and accumulated experience makes this harder to reverse, with small neural-network experiments as illustration. [arXiv cs.AI, submitted 2026-11-13]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Quick explainer, based on the abstract only. The paper is Alignment by Socialization."
+      },
+      {
+       "speaker": "B",
+       "text": "AI agents must finish tasks while following rules of conduct, and those goals can conflict."
+      },
+      {
+       "speaker": "A",
+       "text": "How do the authors study that?"
+      },
+      {
+       "speaker": "B",
+       "text": "With a model where copies of an agent face a common uncertain reward state, and only copies taking the rewarded action reproduce. Long-run growth is maximized when each action is taken as often as the environment rewards it."
+      },
+      {
+       "speaker": "A",
+       "text": "They compare three policies, I think."
+      },
+      {
+       "speaker": "B",
+       "text": "Yes. A task-only policy thrives in a sandbox that rewards completion alone but fails when conduct matters. A fixed linear policy increasingly favors task completion as stakes rise. A learned policy converges to the tradeoffs the environment rewards. When humans supply the rewards, they call this socialization."
+      },
+      {
+       "speaker": "A",
+       "text": "Does it stick?"
+      },
+      {
+       "speaker": "B",
+       "text": "Accumulated experience makes it harder to reverse under later task-only training, though violations can occur before the disposition changes, and finite memory weakens protection."
+      },
+      {
+       "speaker": "A",
+       "text": "And hard rules?"
+      },
+      {
+       "speaker": "B",
+       "text": "A hard prohibition can prevent a fatal violation, but a mistaken prohibition can be costly. The takeaway: alignment depends on the environments that shape agents, not only on assigned objectives."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "OM Forum—Viewing Knowledge Creation as a Supply Chain – Scholarly Purpose in the Age of AI",
+     "url": "https://pubsonline.informs.org/doi/10.1287/msom.2026.1364",
+     "fulltext": "https://pubsonline.informs.org/doi/10.1287/msom.2026.1364",
+     "date": "2026-11-19",
+     "desc": "A forum essay treating scholarly knowledge creation as a supply chain of complementary contributions, with a discussion of how AI shifts research bottlenecks and complementarities; it draws four lessons for operations researchers and doctoral training. [M&SOM, published online 2026-11-19]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Quick explainer, based on the abstract only. This is an OM Forum essay in Manufacturing and Service Operations Management."
+      },
+      {
+       "speaker": "B",
+       "text": "It asks where operations scholars should contribute, and what analytical expertise is worth as AI advances."
+      },
+      {
+       "speaker": "A",
+       "text": "What is the core idea?"
+      },
+      {
+       "speaker": "B",
+       "text": "View knowledge creation as a supply chain of complementary contributions, shifting attention from a single paper's reach to the capabilities and connections that sustain collective progress."
+      },
+      {
+       "speaker": "A",
+       "text": "Four lessons?"
+      },
+      {
+       "speaker": "B",
+       "text": "Specialization can serve a collective purpose; usable connections are part of a contribution; feedback and inquiry renew capabilities; and faster individual tasks do not necessarily improve the whole process."
+      },
+      {
+       "speaker": "A",
+       "text": "Where does AI come in?"
+      },
+      {
+       "speaker": "B",
+       "text": "The discussion emphasizes research questions and parsimonious modeling, and uses coding and numerical experiments to explain shifting bottlenecks and complementarities."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: researchers can ask what their work enables, and choose collaborators who supply missing capabilities."
+      },
+      {
+       "speaker": "B",
+       "text": "What about doctoral training?"
+      },
+      {
+       "speaker": "A",
+       "text": "The abstract suggests combining methodological depth with practice in evaluating and connecting contributions, and it says editors can assess work within its stated scope while supporting renewal and reuse."
+      },
+      {
+       "speaker": "B",
+       "text": "It also says projects do not each need to span the full process or promise a big immediate impact. Examples include inventory management and process flexibility, and also medical research, soccer and photography."
+      }
+     ]
+    },
+    {
+     "title": "Dual Active Learning for Reinforcement Learning from Human Feedback",
+     "url": "https://pubsonline.informs.org/doi/10.1287/opre.2025.1837",
+     "fulltext": "https://pubsonline.informs.org/doi/10.1287/opre.2025.1837",
+     "date": "2026-11-20",
+     "desc": "Proposes an algorithm that jointly selects which conversations and which human teachers to query when learning a reward function for aligning LLMs, then applies pessimistic RL; proves a sub-optimality rate of O(1/sqrt(T)) and shows gains in simulations and LLM experiments. [Operations Research, published online 2026-11-20]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Quick explainer, based on the abstract only. The paper is Dual Active Learning for Reinforcement Learning from Human Feedback, in Operations Research."
+      },
+      {
+       "speaker": "B",
+       "text": "Aligning large language models with human preferences usually uses human feedback, which is costly and slow."
+      },
+      {
+       "speaker": "A",
+       "text": "So the problem is spending that feedback wisely."
+      },
+      {
+       "speaker": "B",
+       "text": "Exactly. Teachers differ in expertise, so the authors design a dual active reward learning algorithm that chooses both which conversations to label and which teacher to ask, motivated by D-optimal design."
+      },
+      {
+       "speaker": "A",
+       "text": "Then what?"
+      },
+      {
+       "speaker": "B",
+       "text": "They apply pessimistic reinforcement learning on the learned reward estimator. Theoretically, the estimator achieves minimal generalized variance asymptotically, and the policy's sub-optimality scales as one over the square root of the sample budget."
+      },
+      {
+       "speaker": "A",
+       "text": "Does it work in practice?"
+      },
+      {
+       "speaker": "B",
+       "text": "Simulations and experiments on LLMs show it beats state-of-the-art methods, according to the abstract."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does it matter for operations?"
+      },
+      {
+       "speaker": "B",
+       "text": "Labeling is a scarce resource, like any capacity in operations. Choosing which items and which experts to spend it on is a classic experimental design and allocation problem, now applied to making language models behave as people prefer."
+      },
+      {
+       "speaker": "A",
+       "text": "Caveat: this is from the abstract only, so details of the experiments are not covered here."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Anthropic’s IPO Turmoil Caps $4 Trillion AI Wipeout on Wall Street",
+     "url": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+     "fulltext": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+     "date": "2026-11-20",
+     "desc": "WSJ reports that a brutal selloff worsened through the week and that not even the biggest IPO in history, Anthropic's, slowed it; the headline puts the AI-linked wipeout at $4 trillion. [WSJ, published 2026-11-20]"
+    },
+    {
+     "title": "Stocks Skid Into a Correction, as A.I. Worries Intensify",
+     "url": "https://www.nytimes.com/2026/11/20/business/anthropic-ai-stocks-sp500.html",
+     "fulltext": "https://www.nytimes.com/2026/11/20/business/anthropic-ai-stocks-sp500.html",
+     "date": "2026-11-20",
+     "desc": "The S&P 500 closed more than 10 percent below its recent high, a symbolic measure of souring investor mood amid AI worries and Anthropic's trading debut. [NYT, published 2026-11-20]"
+    },
+    {
+     "title": "US tech stocks plunge into bear market in worst week since Covid-19 crisis",
+     "url": "https://www.ft.com/content/9f3c6ed6-c08f-4710-9683-ee2f5eb25841",
+     "fulltext": "https://www.ft.com/content/9f3c6ed6-c08f-4710-9683-ee2f5eb25841",
+     "date": "2026-11-20",
+     "desc": "Shares in Anthropic and Nvidia tumbled as fears over the AI spending boom gripped Wall Street, pushing US tech stocks into a bear market. [Financial Times, published 2026-11-20]"
+    },
+    {
+     "title": "Emerging Stocks Enter Bear Market as AI Triggers Global Selloff",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/emerging-market-stocks-set-for-bear-market-on-ai-led-tech-slide",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-20/emerging-market-stocks-set-for-bear-market-on-ai-led-tech-slide",
+     "date": "2026-11-20",
+     "desc": "The MSCI emerging-market index entered a bear market, down for a seventh straight day, its longest losing streak since 2024, amid a global tech selloff. [Bloomberg, published 2026-11-20]"
+    },
+    {
+     "title": "US Credit-Fear Hits 8-Month High as Tech Angst Roils Markets",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/ai-credit-risk-gauges-worsen-as-tech-selloff-roils-markets",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-20/ai-credit-risk-gauges-worsen-as-tech-selloff-roils-markets",
+     "date": "2026-11-20",
+     "desc": "Gauges of US credit risk hit levels not seen in nearly eight months, and the cost of default protection on some of the biggest tech firms jumped as the wobbling AI trade drove investors into safe havens. [Bloomberg, published 2026-11-20]"
+    },
+    {
+     "title": "Taiwan Widens Short Sale Curbs After Shares Plunge on AI Concern",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-21/taiwan-bans-short-sales-of-stocks-in-new-move-to-calm-markets",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-21/taiwan-bans-short-sales-of-stocks-in-new-move-to-calm-markets",
+     "date": "2026-11-21",
+     "desc": "Taiwan widened curbs on short selling and said it has been buying shares after its benchmark index had its worst weekly fall in 35 years amid AI concerns. [Bloomberg, published 2026-11-21]"
+    },
+    {
+     "title": "The AI fever in markets is breaking",
+     "url": "https://www.ft.com/content/b1b2e948-ff5e-48c4-bc3e-f8e75c9e4af1",
+     "fulltext": "https://www.ft.com/content/b1b2e948-ff5e-48c4-bc3e-f8e75c9e4af1",
+     "date": "2026-11-20",
+     "desc": "The FT argues the magic of the technology may be wearing off for investors, with US stocks on track for one of their worst years in two decades. [Financial Times, published 2026-11-20]"
+    },
+    {
+     "title": "Trump Threatens to Bar U.S. Tech Firms From Building Data Centers Abroad",
+     "url": "https://www.nytimes.com/2026/11/20/us/politics/trump-data-centers-ban.html",
+     "fulltext": "https://www.nytimes.com/2026/11/20/us/politics/trump-data-centers-ban.html",
+     "date": "2026-11-20",
+     "desc": "The president suggested he would tax tech firms that build data centers abroad, though it was unclear how he would carry out the plan announced at a news conference. [NYT, published 2026-11-20]"
+    },
+    {
+     "title": "Nvidia faces US regulator’s probe into its accounting",
+     "url": "https://www.ft.com/content/9b28ed72-aac4-4291-9734-bf60b66645ab",
+     "fulltext": "https://www.ft.com/content/9b28ed72-aac4-4291-9734-bf60b66645ab",
+     "date": "2026-11-20",
+     "desc": "An SEC investigation adds to difficulties facing the chip group after Jensen Huang's resignation. [Financial Times, published 2026-11-20]"
+    },
+    {
+     "title": "Officials approved the sale of 580,000 Nvidia chips to Chinese companies",
+     "url": "https://www.washingtonpost.com/technology/2026/11/20/officials-approved-sale-580000-nvidia-chips-chinese-companies/",
+     "fulltext": "https://www.washingtonpost.com/technology/2026/11/20/officials-approved-sale-580000-nvidia-chips-chinese-companies/",
+     "date": "2026-11-20",
+     "desc": "Documents released by a House committee underscore the potential size of the Chinese market to Nvidia, which says it has now stopped shipments of the chips. [Washington Post, published 2026-11-20]"
+    },
+    {
+     "title": "Cognition in Talks for $75 Billion Value With New Funding",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/cognition-in-talks-for-75-billion-value-with-new-funding",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-20/cognition-in-talks-for-75-billion-value-with-new-funding",
+     "date": "2026-11-20",
+     "desc": "AI coding startup Cognition is in funding talks at a $75 billion valuation, two months after its most recent round, according to people familiar. [Bloomberg, published 2026-11-20]"
+    },
+    {
+     "title": "Data Centers Are the Growth Engine of America’s Power Grid",
+     "url": "https://www.wsj.com/finance/investing/data-centers-are-the-growth-engine-of-americas-power-grid-e16e0eaa",
+     "fulltext": "https://www.wsj.com/finance/investing/data-centers-are-the-growth-engine-of-americas-power-grid-e16e0eaa",
+     "date": "2026-11-20",
+     "desc": "WSJ's investing coverage looks at data centers as the growth engine of the US power grid. [WSJ, published 2026-11-20]"
+    },
+    {
+     "title": "How AI Is Forcing China to Reshape Industrial Policy",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-21/how-ai-is-forcing-china-to-reshape-industrial-policy",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-21/how-ai-is-forcing-china-to-reshape-industrial-policy",
+     "date": "2026-11-21",
+     "desc": "Bloomberg examines how AI is pushing China to reshape its industrial policy. [Bloomberg, published 2026-11-21]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hi, I'm Alex, and this is your AI research digest for November twenty-first, twenty twenty-six. Today's overview: markets are in an AI selloff, and a handful of fresh papers look at AI agents and alignment."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. Before we dive in, a reminder that everything here comes from summaries, not full articles. Let's start with the markets, because it was a rough week. The Wall Street Journal says a brutal selloff got worse as the week wore on, with a four trillion dollar AI wipeout, and not even Anthropic's IPO, the biggest in history, could slow it."
+  },
+  {
+   "speaker": "A",
+   "text": "The New York Times adds that the S and P five hundred closed more than ten percent below its recent high, which is the technical definition of a correction."
+  },
+  {
+   "speaker": "B",
+   "text": "The Financial Times says US tech stocks fell into a bear market, in the worst week since the Covid crisis, with Anthropic and Nvidia shares tumbling on fears over the AI spending boom."
+  },
+  {
+   "speaker": "A",
+   "text": "It spread globally. Bloomberg reports the MSCI emerging market index entered a bear market after seven straight down days, and credit risk gauges hit an eight month high, with the cost of default protection on big tech firms jumping."
+  },
+  {
+   "speaker": "B",
+   "text": "Taiwan is a striking example. Bloomberg says its benchmark had its worst weekly fall in thirty five years, so regulators widened curbs on short selling and said they have been buying shares."
+  },
+  {
+   "speaker": "A",
+   "text": "On the policy side, the New York Times reports the president suggested taxing tech firms that build data centers abroad, though how he would do it is unclear."
+  },
+  {
+   "speaker": "B",
+   "text": "And Nvidia is in the spotlight. The Financial Times reports an SEC probe into its accounting after Jensen Huang's resignation, and the Washington Post says documents show officials approved sales of five hundred eighty thousand Nvidia chips to Chinese companies; Nvidia says it has stopped shipments."
+  },
+  {
+   "speaker": "A",
+   "text": "Not everything is gloomy for funding: Bloomberg says the coding startup Cognition is in talks at a seventy five billion dollar valuation."
+  },
+  {
+   "speaker": "B",
+   "text": "Now to research. A new arXiv paper in economics uses large language models to read fifty two thousand news articles and press releases about S and P five hundred firms."
+  },
+  {
+   "speaker": "A",
+   "text": "They found nearly ten thousand corporate stances on partisan issues. Stance-taking rose fourfold after two thousand eight, is mostly liberal, and tracks media attention more than lobbying."
+  },
+  {
+   "speaker": "B",
+   "text": "Another theory paper asks whether revealed preferences are all you need for AI alignment. For acting, yes, but for choosing what evidence to gather, watching decisions may not be enough, and more capable AI can make that error worse."
+  },
+  {
+   "speaker": "A",
+   "text": "A third paper, from the finance listings, models how selection pressure shapes an AI agent's tradeoff between finishing tasks and following rules, and finds that environments that reward good conduct make it stick."
+  },
+  {
+   "speaker": "B",
+   "text": "In Operations Research, a paper proposes choosing both which conversations and which human teachers to query when training language models from human feedback, with a proven convergence rate."
+  },
+  {
+   "speaker": "A",
+   "text": "And in Manufacturing and Service Operations Management, a forum essay frames scholarly knowledge creation as a supply chain, and asks what AI changes about research bottlenecks."
+  },
+  {
+   "speaker": "B",
+   "text": "That's all for today. Find the full archive and these summaries on the web archive page. Thanks for listening."
+  },
+  {
+   "speaker": "A",
+   "text": "Today we also noted that the news items rely on headlines and feed summaries, so check the originals for detail."
+  },
+  {
+   "speaker": "B",
+   "text": "See you next time, and thanks again."
+  }
+ ],
+ "footnote": "Window: 2026-11-20 (last run) → 2026-11-21. All sources reached; NBER returned no new items. SSRN search and the newsletter inbox were not used this run (no newsletters present). Paper podcasts are based on abstracts only because the PDF reader was unavailable. News summaries come from feed teasers and headlines."
+}
