@@ -1,0 +1,202 @@
+{
+ "date": "2026-11-22",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": []
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "Statistical Efficiency of Distributional Temporal Difference Learning and Freedman's Inequality in Hilbert Spaces",
+     "url": "https://pubsonline.informs.org/doi/10.1287/opre.2025.1639",
+     "fulltext": "https://pubsonline.informs.org/doi/10.1287/opre.2025.1639",
+     "date": "2026-11-20",
+     "desc": "Derives non-asymptotic sample-complexity bounds for distributional temporal-difference learning in reinforcement learning, showing a minimax-optimal rate up to log factors under a generative model and proposing variance-reduced variants for Markovian data. [Operations Research, published online 2026-11-20]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's paper is from Operations Research, and it's about reinforcement learning. Specifically, distributional reinforcement learning, where instead of estimating just the average return of a policy, you estimate the whole distribution of returns."
+      },
+      {
+       "speaker": "B",
+       "text": "A quick note: this is based on the abstract only. Why does the full distribution matter, Alex?"
+      },
+      {
+       "speaker": "A",
+       "text": "Averages hide risk. Two policies can have the same expected reward but very different spreads. Distributional methods have worked well in practice, but the theory on how much data you need has lagged."
+      },
+      {
+       "speaker": "B",
+       "text": "So what do the authors do?"
+      },
+      {
+       "speaker": "A",
+       "text": "They study distributional temporal difference learning and propose a clean non-parametric version for analysis. In a discounted tabular decision process with a generative model, they show how many interactions are needed to get an accurate estimate of the return distribution, measured by a Wasserstein distance."
+      },
+      {
+       "speaker": "B",
+       "text": "And is that bound any good?"
+      },
+      {
+       "speaker": "A",
+       "text": "They say it is minimax optimal up to logarithmic factors, meaning no method can do fundamentally better in the worst case. They show the same holds for the widely used categorical version, and they extend the analysis to Markovian data with variance-reduced variants."
+      },
+      {
+       "speaker": "B",
+       "text": "The takeaway: a solid theoretical foundation for estimating risk-aware returns, useful for operations problems where the spread of outcomes matters, not just the mean."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "China's $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-22/china-s-1-7-trillion-ai-rout-turns-hot-trade-into-losing-bet",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-22/china-s-1-7-trillion-ai-rout-turns-hot-trade-into-losing-bet",
+     "date": "2026-11-22",
+     "desc": "Bloomberg reports that China's AI stock trade, once a favored bet as the country's tech giants raced to catch up with the US, has turned into a losing strategy, with roughly $1.7 trillion in market value lost in the rout. [Bloomberg, published 2026-11-22]"
+    },
+    {
+     "title": "Tech suppliers raise AI server prices up to 45% months after deals are signed",
+     "url": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f",
+     "fulltext": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f",
+     "date": "2026-11-22",
+     "desc": "The Financial Times reports that Dell, HPE, Lenovo and Supermicro are demanding up to 45% more for AI servers months after contracts were signed, with the higher costs hitting trading firms that bought the equipment. [Financial Times, published 2026-11-22]"
+    },
+    {
+     "title": "Has the AI Bubble Already Burst?",
+     "url": "https://www.wsj.com/finance/stocks/has-the-ai-bubble-already-burst-2f1dcca8",
+     "fulltext": "https://www.wsj.com/finance/stocks/has-the-ai-bubble-already-burst-2f1dcca8",
+     "date": "2026-11-22",
+     "desc": "A WSJ analysis argues the AI-driven stock selloff of recent weeks looks remarkably like the bursting of the dot-com bubble. [WSJ, published 2026-11-22]"
+    },
+    {
+     "title": "A New Era of A.I.-Driven Chaos? That Might Just Be Progress.",
+     "url": "https://www.nytimes.com/2026/11/21/science/outages-tech-history.html",
+     "fulltext": "https://www.nytimes.com/2026/11/21/science/outages-tech-history.html",
+     "date": "2026-11-21",
+     "desc": "The NYT argues that if AI is contributing to outages and cyberattacks, that fits history: new innovations often set off calamitous failures before they make life better. [NYT, published 2026-11-21]"
+    },
+    {
+     "title": "Anthropic's Debut Shows the Disconnect Between Wall Street and Silicon Valley",
+     "url": "https://www.nytimes.com/2026/11/21/business/anthropic-stock-wall-street-silicon-valley.html",
+     "fulltext": "https://www.nytimes.com/2026/11/21/business/anthropic-stock-wall-street-silicon-valley.html",
+     "date": "2026-11-21",
+     "desc": "The NYT says Anthropic broke records with its IPO this week but had a rocky first full day of trading as markets fell on worries about AI spending. [NYT, published 2026-11-21]"
+    },
+    {
+     "title": "Wall Street Asks What Can Save AI Trade After Anthropic Wipeout",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-21/wall-street-asks-what-can-save-ai-trade-after-anthropic-wipeout",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-21/wall-street-asks-what-can-save-ai-trade-after-anthropic-wipeout",
+     "date": "2026-11-21",
+     "desc": "Bloomberg says a tough month for stocks, driven by Jensen Huang's ouster from Nvidia and the Democrats' midterm victory, has left Wall Street asking what can rescue the AI trade after Anthropic's turbulent debut. [Bloomberg, published 2026-11-21]"
+    },
+    {
+     "title": "Goldman Sachs, Apollo Price $32 Billion SpaceX Bonds to Fund AI Chip Purchases",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-21/goldman-s-spacex-pitch-helps-solve-ai-debt-puzzle-credit-weekly",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-21/goldman-s-spacex-pitch-helps-solve-ai-debt-puzzle-credit-weekly",
+     "date": "2026-11-21",
+     "desc": "Bloomberg reports Goldman Sachs spent over a year on a way to pay for AI chips without straining corporate balance sheets, and that it and Apollo have now priced $32 billion of SpaceX bonds to fund such purchases. [Bloomberg, published 2026-11-21]"
+    },
+    {
+     "title": "Amazon closes in on $7.5bn deal to buy AI start-up Decart",
+     "url": "https://www.ft.com/content/dc7749dc-0f40-44a6-80bc-7f747d383616",
+     "fulltext": "https://www.ft.com/content/dc7749dc-0f40-44a6-80bc-7f747d383616",
+     "date": "2026-11-21",
+     "desc": "The FT reports Amazon is nearing a $7.5 billion acquisition of AI start-up Decart, which would help AWS compete with Nvidia in the race for computing power. [Financial Times, published 2026-11-21]"
+    },
+    {
+     "title": "The chip war's next battleground",
+     "url": "https://www.ft.com/content/cd4ecaf3-0ded-4830-94a8-4d9c24098c07",
+     "fulltext": "https://www.ft.com/content/cd4ecaf3-0ded-4830-94a8-4d9c24098c07",
+     "date": "2026-11-21",
+     "desc": "The FT says that as the US-China AI rivalry intensifies, the focus of the chip war is moving to supply chains. [Financial Times, published 2026-11-21]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hello and welcome to the Daily AI Research Digest for November 22nd, 2026. I'm Alex."
+  },
+  {
+   "speaker": "B",
+   "text": "And I'm Sam. It's a heavy news weekend, with the AI trade under real pressure."
+  },
+  {
+   "speaker": "A",
+   "text": "Let's start with the Wall Street Journal, which asks whether the AI bubble has already burst. Its argument is that the selloff of recent weeks looks remarkably like the bursting of the dot-com bubble."
+  },
+  {
+   "speaker": "B",
+   "text": "That fits with the New York Times piece on Anthropic's debut. The company broke records with its initial public offering this week, but its first full day of trading was rocky as markets fell on worries about AI spending."
+  },
+  {
+   "speaker": "A",
+   "text": "Bloomberg picks up the same thread. It says it's been a tough month for stocks, with Jensen Huang's ouster from Nvidia and the Democrats' midterm victory, and now Wall Street is asking what can save the AI trade."
+  },
+  {
+   "speaker": "B",
+   "text": "And the pain isn't only in the United States. Bloomberg reports that China's AI stock trade, once a hot bet, has turned into a losing one, with about one point seven trillion dollars in value wiped out."
+  },
+  {
+   "speaker": "A",
+   "text": "Now the money side of the buildout. Bloomberg reports that Goldman Sachs and Apollo priced thirty-two billion dollars of SpaceX bonds to fund AI chip purchases."
+  },
+  {
+   "speaker": "B",
+   "text": "The interesting part is the motive. Goldman spent over a year trying to find a way to pay for AI chips without wrecking corporate balance sheets. So this is financial engineering aimed at one of tech's biggest headaches."
+  },
+  {
+   "speaker": "A",
+   "text": "Costs are also rising. The Financial Times says Dell, HPE, Lenovo and Supermicro are demanding up to forty-five percent more for AI servers, months after deals were signed, and trading firms are taking the hit."
+  },
+  {
+   "speaker": "B",
+   "text": "That's a real operations story. Contracts signed in good faith are being repriced because demand for computing power is so intense."
+  },
+  {
+   "speaker": "A",
+   "text": "Speaking of computing power, the FT reports Amazon is closing in on a seven and a half billion dollar deal to buy AI start-up Decart, which would help AWS compete with Nvidia."
+  },
+  {
+   "speaker": "B",
+   "text": "And the FT also notes that the chip war's next battleground is supply chains, as the US and China rivalry intensifies."
+  },
+  {
+   "speaker": "A",
+   "text": "On a more reflective note, the New York Times argues that AI-linked outages and cyberattacks fit a historical pattern, where new innovations set off calamitous failures before they make life better."
+  },
+  {
+   "speaker": "B",
+   "text": "On the research side, there's one new paper, in Operations Research, on distributional reinforcement learning. The authors derive how much data you need to estimate the full distribution of returns, and show their rate is minimax optimal up to logarithmic factors."
+  },
+  {
+   "speaker": "A",
+   "text": "It's theory, but it matters for risk-aware decision making in operations."
+  },
+  {
+   "speaker": "B",
+   "text": "That's all for today. Find the full list, links and audio in the web archive."
+  },
+  {
+   "speaker": "A",
+   "text": "Thanks for listening, and we'll be back tomorrow."
+  },
+  {
+   "speaker": "B",
+   "text": "See you then."
+  }
+ ],
+ "footnote": "Window: 2026-11-21 (last run) → 2026-11-22. NBER and The Economist returned no new items; SSRN searches were not run this run; no forwarded newsletters were available. News summaries are based on feed teasers plus headline searches."
+}
