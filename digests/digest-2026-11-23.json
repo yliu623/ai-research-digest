@@ -1,0 +1,497 @@
+{
+ "date": "2026-11-23",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "The Rise of Agents and the Human Labor Market",
+     "url": "https://arxiv.org/abs/2611.27210",
+     "fulltext": "https://arxiv.org/pdf/2611.27210",
+     "date": "2026-11-20",
+     "desc": "Combines OpenRouter data on about two quadrillion AI tokens, including 1.1 quadrillion agentic tokens, with 34.8 million US public-firm job postings to build a market-implied 'agentic beta' for each firm. A one-standard-deviation higher exposure predicts 2.11 percent lower job-posting growth over six months, concentrated in non-senior roles. [arXiv econ.GN, submitted 2026-11-20]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Here's a question a lot of people are asking: are AI agents already shrinking the demand for human workers? This paper tries to answer it with real usage data. Note that this summary is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the data?"
+      },
+      {
+       "speaker": "A",
+       "text": "The authors use proprietary data from OpenRouter covering about two quadrillion tokens of actual AI consumption across more than four hundred models, including roughly 1.1 quadrillion tokens from agentic use. They pair that with the full text of 34.8 million job postings from US public firms."
+      },
+      {
+       "speaker": "B",
+       "text": "And how do they link usage to firms?"
+      },
+      {
+       "speaker": "A",
+       "text": "They build a measure called agentic beta: how much a firm's stock returns move together with weekly aggregate agentic AI consumption. A higher beta means the market sees the firm as more exposed."
+      },
+      {
+       "speaker": "B",
+       "text": "So what do they find?"
+      },
+      {
+       "speaker": "A",
+       "text": "A one standard deviation increase in exposure predicts 2.11 percent lower growth in job postings over the next six months, and 3.20 percent over nine months."
+      },
+      {
+       "speaker": "B",
+       "text": "Is there a sharper test?"
+      },
+      {
+       "speaker": "A",
+       "text": "Yes, an event study around the release of Claude Code 2.0, which expanded agent capabilities. Firms with higher exposure beforehand saw 4.73 percent lower posting growth over the following six months. The drop is concentrated in non-senior jobs and is statistically insignificant for senior ones. And once agentic exposure is controlled for, broad AI consumption shows no significant relation."
+      },
+      {
+       "speaker": "B",
+       "text": "The takeaway: it's agents, not AI use in general, and entry-level roles seem to feel it first."
+      }
+     ]
+    },
+    {
+     "title": "Past Automation and Future AI: How Weak Links Tame the Growth Explosion",
+     "url": "https://www.nber.org/papers/w36050",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w36050/w36050.pdf",
+     "date": "2026-11-23",
+     "desc": "Task-based growth accounting finds capital task productivity has grown about 5 percentage points per year faster than labor task productivity in the US. A calibrated model with endogenous automation of goods and ideas shows growth can accelerate and even explode, but 'weak links', tasks still done by labor, slow the acceleration. [NBER w36050, issued 2026-11-23]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Could AI set off an explosion in economic growth? This new NBER paper looks backward at automation to judge. This is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What did they measure?"
+      },
+      {
+       "speaker": "A",
+       "text": "They do task-based growth accounting. The headline is that capital task productivity has grown about five percentage points per year faster than labor task productivity in the US economy."
+      },
+      {
+       "speaker": "B",
+       "text": "What does that mean in plain words?"
+      },
+      {
+       "speaker": "A",
+       "text": "The main benefit of automation is swapping slowly improving humans for rapidly improving machines on more and more tasks."
+      },
+      {
+       "speaker": "B",
+       "text": "Then they project forward?"
+      },
+      {
+       "speaker": "A",
+       "text": "They calibrate a growth model where both the production of goods and the production of ideas get automated endogenously. In that model growth accelerates and can explode."
+      },
+      {
+       "speaker": "B",
+       "text": "But there's a catch."
+      },
+      {
+       "speaker": "A",
+       "text": "Weak links. Tasks that are still performed by labor act as bottlenecks and slow the acceleration. The takeaway is that full automation of everything isn't needed for fast growth, but the last human tasks matter a lot for how fast it gets."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Explaining Realized Returns: Roll's R^2 40 Years Later",
+     "url": "https://arxiv.org/abs/2611.22277",
+     "fulltext": "https://arxiv.org/pdf/2611.22277",
+     "date": "2026-11-17",
+     "desc": "Revisits Roll's 1988 'R-squared' question: conventional macro, cash-flow, expectations and flow variables explain under 10 percent of monthly US equity return variation out of sample. Generative AI extracts stated reasons from Wall Street Journal market summaries, and those reasons explain roughly 30-40 percent of daily and monthly returns. [arXiv q-fin.GN, submitted 2026-11-17]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Why do stock prices move? Forty years ago Richard Roll showed we explain surprisingly little. This paper redoes the exercise with generative AI. Based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "So how bad is the traditional toolkit?"
+      },
+      {
+       "speaker": "A",
+       "text": "Conventional macroeconomic, cash-flow, expectations and flow variables explain less than ten percent of monthly US equity return variation out of sample, often with negative R squared."
+      },
+      {
+       "speaker": "B",
+       "text": "And the AI twist?"
+      },
+      {
+       "speaker": "A",
+       "text": "The authors use generative AI to read Wall Street Journal market summaries and extract the reasons given for market moves, while filtering out language that just describes prices."
+      },
+      {
+       "speaker": "B",
+       "text": "Does that help?"
+      },
+      {
+       "speaker": "A",
+       "text": "A lot. Those extracted reasons explain around thirty to forty percent of daily and monthly return variation out of sample."
+      },
+      {
+       "speaker": "B",
+       "text": "What are the reasons about?"
+      },
+      {
+       "speaker": "A",
+       "text": "Interpretable themes: corporate news, macro conditions, monetary policy, sentiment and geopolitics. The takeaway is that text carries explanatory information that standard numeric variables miss."
+      },
+      {
+       "speaker": "B",
+       "text": "Why does this matter beyond academia? Because investors and regulators constantly tell stories about why markets moved, and this asks whether those stories actually hold up statistically rather than just sounding plausible."
+      },
+      {
+       "speaker": "A",
+       "text": "Fair point, and the key detail is that the test is out of sample, so the reasons are not just fitted to the past. The abstract doesn't cover limits like how much the news summaries themselves depend on price moves, which is why the authors filter out price-related language. Worth keeping that in mind when reading the thirty to forty percent figure."
+      }
+     ]
+    },
+    {
+     "title": "VerifiQuant: Governance-by-Execution for Financial LLM Workflows",
+     "url": "https://arxiv.org/abs/2611.26649",
+     "fulltext": "https://arxiv.org/pdf/2611.26649",
+     "date": "2026-11-15",
+     "desc": "Proposes a framework that wraps financial logic in executable 'inference contracts' so an LLM system decides whether a question supports a numeric answer, and otherwise clarifies, intercepts or refuses, keeping arithmetic outside the model. Versus retrieval-and-execution baselines the gain is safer behavior rather than higher accuracy. [arXiv q-fin.CP, submitted 2026-11-15]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Language models in finance can give confident but wrong numbers. This paper is about stopping that. Summary based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What's their argument?"
+      },
+      {
+       "speaker": "A",
+       "text": "That the core deployment problem is governability. A system must know when a question supports a numeric answer, and when it should clarify, intercept or refuse."
+      },
+      {
+       "speaker": "B",
+       "text": "How does VerifiQuant do it?"
+      },
+      {
+       "speaker": "A",
+       "text": "It packages financial logic into inference contracts and runs each query through an executable diagnostic funnel before any deterministic computation. The arithmetic stays outside the language model."
+      },
+      {
+       "speaker": "B",
+       "text": "Does accuracy go up?"
+      },
+      {
+       "speaker": "A",
+       "text": "Not on well-posed questions. Against matched baselines, the main benefit is safer behavior when an input doesn't justify a number. If no contract applies, it says so instead of guessing."
+      },
+      {
+       "speaker": "B",
+       "text": "Any trade-off?"
+      },
+      {
+       "speaker": "A",
+       "text": "Yes. Safety is bought with coverage, not accuracy. Takeaway: in finance, knowing when not to answer is a feature."
+      },
+      {
+       "speaker": "B",
+       "text": "Why is refusing such a big deal in finance?"
+      },
+      {
+       "speaker": "A",
+       "text": "Because a wrong number that looks right can flow into a report, a trade or a client decision with nobody noticing. A system that clearly says this question cannot be answered from the available contract is far easier to audit than one that always produces something."
+      },
+      {
+       "speaker": "B",
+       "text": "And the limit is coverage: the contract library is declared in advance, so questions outside it get refused. That's the price the authors say they are putting on safety, and residual failures are traced to specific runtime frontiers."
+      }
+     ]
+    },
+    {
+     "title": "Distributional Deep Hedging",
+     "url": "https://arxiv.org/abs/2611.26652",
+     "fulltext": "https://arxiv.org/pdf/2611.26652",
+     "date": "2026-11-17",
+     "desc": "Learns the distribution of hedging profit and loss through its quantiles and applies the risk preference afterwards as a weight on those quantiles, so one trained critic can serve preferences chosen later. Learned hedges approach dynamic-programming references in numerical experiments. [arXiv q-fin.CP, submitted 2026-11-17]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Deep hedging uses neural networks to learn hedging strategies. This paper removes a big inconvenience. Based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the inconvenience?"
+      },
+      {
+       "speaker": "A",
+       "text": "The risk preference is fixed before training, so every new preference needs a new policy and, in actor-critic methods, a new critic."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the fix?"
+      },
+      {
+       "speaker": "A",
+       "text": "Learn the distribution of hedging profit and loss through its quantiles, then apply the risk preference afterwards as a weight on those quantiles. This covers expected shortfall and its mixtures, and entropic utility comes from the same quantiles."
+      },
+      {
+       "speaker": "B",
+       "text": "And the algorithms?"
+      },
+      {
+       "speaker": "A",
+       "text": "A bound turns risk-sensitive hedging into a sequence of risk-neutral problems, from which they derive policy-search and actor-critic methods."
+      },
+      {
+       "speaker": "B",
+       "text": "Does it work?"
+      },
+      {
+       "speaker": "A",
+       "text": "In numerical experiments the learned hedges approach references from dynamic programming, and a single critic trained without a preference can serve preferences picked after training. Takeaway: train once, choose your risk appetite later."
+      },
+      {
+       "speaker": "B",
+       "text": "Why does that matter in practice?"
+      },
+      {
+       "speaker": "A",
+       "text": "Because desks and risk managers often change their risk limits or preferences. Retraining a policy and a critic for every change is slow and costly, so a reusable critic is attractive."
+      },
+      {
+       "speaker": "B",
+       "text": "One caveat from the abstract: the results are numerical experiments compared with dynamic programming benchmarks, so real-market performance isn't shown. Still, it's a neat way to separate learning the outcomes from choosing the risk appetite."
+      }
+     ]
+    },
+    {
+     "title": "Accountable AI Delegation in Banking: Identity, Commitment Controls, Decision Evidence and Recovery",
+     "url": "https://arxiv.org/abs/2611.27505",
+     "fulltext": "https://arxiv.org/pdf/2611.27505",
+     "date": "2026-11-20",
+     "desc": "Specifies a banking delegation contract for AI-assisted payments that checks current authority, the shared payment cap and recovery capacity, and writes the outcome record in the same atomic transition. Tests show current-state implementations match the reference in all 144 commitment histories and 624 concurrent schedules, while reusing stale state admits 23 releases in 123 blocked histories. [arXiv q-fin.GN, submitted 2026-11-20]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "When an AI agent helps make a bank payment, who is accountable if things change before the money moves? This paper proposes a design. Based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the core problem?"
+      },
+      {
+       "speaker": "A",
+       "text": "An AI-assisted payment can pass assessment and then lose release authority before commitment."
+      },
+      {
+       "speaker": "B",
+       "text": "So what do they build?"
+      },
+      {
+       "speaker": "A",
+       "text": "A banking delegation contract that checks current authority, the shared payment cap, and whether eligible instruments can cover losses, and books the payment, its recovery demands and the outcome record in one atomic step."
+      },
+      {
+       "speaker": "B",
+       "text": "What do the tests show?"
+      },
+      {
+       "speaker": "A",
+       "text": "Using stale state admits 23 releases in 123 histories that the reference blocks, and pooling recovery capacity admits 69 infeasible configurations out of 576. Current-state implementations match the reference in all 144 commitment histories and 624 concurrent schedules."
+      },
+      {
+       "speaker": "B",
+       "text": "Takeaway: for AI in banking, controls must be checked against live state at the moment of commitment."
+      },
+      {
+       "speaker": "A",
+       "text": "Why should a non-specialist care?"
+      },
+      {
+       "speaker": "B",
+       "text": "Because banks are starting to let AI assistants prepare or release payments, and the failure mode here is subtle: the approval was valid when given but not when the money moved."
+      },
+      {
+       "speaker": "A",
+       "text": "The paper also mentions fifteen survey responses that informed requirements for handling holds and uncertain delivery, and an insurance example involving referral after an adverse coverage finding. These are design and test results on specified scenarios, not a live deployment, so treat the numbers as evidence the design behaves as specified."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "The AI Build-Out Is Sucking Up Resources and Crowding Out the Rest of the Economy",
+     "url": "https://www.wsj.com/tech/ai/the-ai-build-out-is-sucking-up-resources-and-crowding-out-the-rest-of-the-economy-13143007",
+     "fulltext": "https://www.wsj.com/tech/ai/the-ai-build-out-is-sucking-up-resources-and-crowding-out-the-rest-of-the-economy-13143007",
+     "date": "2026-11-23",
+     "desc": "The WSJ argues that workers, equipment, energy and investment flowing into the AI build-out leave less for other industries, and that the recent market selloff shows the risks. [WSJ, published 2026-11-23]"
+    },
+    {
+     "title": "Anthropic Committed to Spend $900 Billion. Wall Street Expects Its Debt to Be Junk.",
+     "url": "https://www.wsj.com/finance/investing/anthropic-committed-to-spend-900-billion-wall-street-expects-its-debt-to-be-junk-5514d55d",
+     "fulltext": "https://www.wsj.com/finance/investing/anthropic-committed-to-spend-900-billion-wall-street-expects-its-debt-to-be-junk-5514d55d",
+     "date": "2026-11-23",
+     "desc": "After a turbulent IPO, the WSJ reports that Anthropic's credit rating, which Wall Street expects to be junk, will affect its capital plans and the future of the AI industry given its roughly $900 billion spending commitments. [WSJ, published 2026-11-23]"
+    },
+    {
+     "title": "Five Charts Unpack One of the Worst Weeks for Stocks in Decades",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/five-charts-unpack-one-of-the-worst-weeks-for-stocks-in-decades",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-23/five-charts-unpack-one-of-the-worst-weeks-for-stocks-in-decades",
+     "date": "2026-11-23",
+     "desc": "Bloomberg says last week's unwind wiped more than $5 trillion from the S&P 500, exposing how much market fortunes rest on the biggest stocks and the AI investment boom. [Bloomberg, published 2026-11-23]"
+    },
+    {
+     "title": "Emerging-Market Stocks Set to Erase 2026 Gains on AI Selloff",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/emerging-market-stocks-set-to-erase-2026-gains-on-ai-selloff",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-23/emerging-market-stocks-set-to-erase-2026-gains-on-ai-selloff",
+     "date": "2026-11-23",
+     "desc": "Bloomberg reports emerging-market stocks are set to erase this year's gains as worries about the sustainability of the AI trade drive a global selloff from the US to Asia. [Bloomberg, published 2026-11-23]"
+    },
+    {
+     "title": "Margin Calls Soared 200-Fold in Taiwan as Traders Fled AI Bets",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/margin-calls-soared-200-fold-in-taiwan-as-traders-fled-ai-bets",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-23/margin-calls-soared-200-fold-in-taiwan-as-traders-fled-ai-bets",
+     "date": "2026-11-23",
+     "desc": "Bloomberg reports margin calls in Taiwan jumped 200-fold last week as leveraged traders fled AI-related positions. [Bloomberg, published 2026-11-23]"
+    },
+    {
+     "title": "JPMorgan AM Says AI Borrowing Binge Is Holding Back Bond Rally",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/jpmorgan-am-says-ai-borrowing-binge-is-holding-back-bond-rally",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-23/jpmorgan-am-says-ai-borrowing-binge-is-holding-back-bond-rally",
+     "date": "2026-11-23",
+     "desc": "JPMorgan Asset Management's head of global rates says sovereign bond yields are unlikely to fall much until the AI-related debt binge fades. [Bloomberg, published 2026-11-23]"
+    },
+    {
+     "title": "Asian Regulators Step Up Efforts to Calm AI-Driven Market Turmoil",
+     "url": "https://www.wsj.com/finance/stocks/asian-regulators-step-up-efforts-to-calm-ai-driven-market-turmoil-95ea6cf8",
+     "fulltext": "https://www.wsj.com/finance/stocks/asian-regulators-step-up-efforts-to-calm-ai-driven-market-turmoil-95ea6cf8",
+     "date": "2026-11-23",
+     "desc": "Regulators and market operators in China, South Korea and Taiwan have rolled out emergency measures to stem turmoil from the global rout in AI stocks. [WSJ, published 2026-11-23]"
+    },
+    {
+     "title": "The problem with the circular AI economy",
+     "url": "https://www.ft.com/content/e49add11-3cc8-4edd-8daa-db8daaf994dd",
+     "fulltext": "https://www.ft.com/content/e49add11-3cc8-4edd-8daa-db8daaf994dd",
+     "date": "2026-11-23",
+     "desc": "An FT column asks what happens if the 'Jenga tower' of Nvidia's vendor financing collapses, examining the circular deals that tie AI suppliers and customers together. [Financial Times, published 2026-11-23]"
+    },
+    {
+     "title": "How much more air can come out of the AI trade?",
+     "url": "https://www.economist.com/finance-and-economics/2026/11/22/how-much-more-air-can-come-out-of-the-ai-trade",
+     "fulltext": "https://www.economist.com/finance-and-economics/2026/11/22/how-much-more-air-can-come-out-of-the-ai-trade",
+     "date": "2026-11-22",
+     "desc": "The Economist says markets are troubled, for good reason, over the AI trade after the recent selloff. [The Economist, published 2026-11-22]"
+    },
+    {
+     "title": "AI Data Centers Drive Up Demand at Britain's Factories, PMI Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/ai-data-centers-drive-up-demand-at-britain-s-factories-pmi-says",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-23/ai-data-centers-drive-up-demand-at-britain-s-factories-pmi-says",
+     "date": "2026-11-23",
+     "desc": "Building AI data centers has lifted UK manufacturing output to a 27-month high, according to PMI survey data, while the broader economy keeps growing. [Bloomberg, published 2026-11-23]"
+    },
+    {
+     "title": "Grant Thornton warns AI audits could trigger 'race to the bottom'",
+     "url": "https://www.ft.com/content/13b9bee8-f7e4-4b02-ad78-2e358ff43240",
+     "fulltext": "https://www.ft.com/content/13b9bee8-f7e4-4b02-ad78-2e358ff43240",
+     "date": "2026-11-23",
+     "desc": "The accounting firm's UK audit head warns that over-reliance on AI technology could threaten the quality of company audits. [Financial Times, published 2026-11-23]"
+    },
+    {
+     "title": "How Nvidia fought for years in Washington to sell its prized chips to China",
+     "url": "https://www.washingtonpost.com/technology/2026/11/23/how-nvidia-fought-years-washington-sell-its-prized-chips-china/",
+     "fulltext": "https://www.washingtonpost.com/technology/2026/11/23/how-nvidia-fought-years-washington-sell-its-prized-chips-china/",
+     "date": "2026-11-23",
+     "desc": "The Washington Post details how Jensen Huang courted the president and pushed back on lawmakers as Nvidia sought a foothold in China's vast market, leaving a trail of mistrust. [Washington Post, published 2026-11-23]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hi, I'm Alex, and this is your AI research digest for November twenty-third, twenty twenty-six. Today: new research on agents and jobs, automation and growth, and a very rough week for the AI trade."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. Let's start with a new arXiv paper called The Rise of Agents and the Human Labor Market."
+  },
+  {
+   "speaker": "A",
+   "text": "The authors combine OpenRouter data on about two quadrillion AI tokens, including 1.1 quadrillion agentic tokens, with 34.8 million US job postings from public firms."
+  },
+  {
+   "speaker": "B",
+   "text": "They measure each firm's exposure through how its stock moves with agentic AI usage. A one standard deviation higher exposure predicts about two percent lower job-posting growth over six months."
+  },
+  {
+   "speaker": "A",
+   "text": "And it's concentrated in non-senior jobs. After the release of Claude Code 2.0, the effect was even larger, 4.7 percent, and broad AI use showed no significant effect once agentic exposure was controlled for."
+  },
+  {
+   "speaker": "B",
+   "text": "Related, a new NBER paper, Past Automation and Future AI, finds capital task productivity has grown about five percentage points per year faster than labor task productivity."
+  },
+  {
+   "speaker": "A",
+   "text": "Their growth model can explode, but weak links, the tasks still done by humans, slow the acceleration."
+  },
+  {
+   "speaker": "B",
+   "text": "In finance, a paper revisits Roll's famous R squared question. Standard macro and cash-flow variables explain under ten percent of monthly equity returns out of sample."
+  },
+  {
+   "speaker": "A",
+   "text": "But when generative AI extracts the reasons stated in Wall Street Journal market summaries, those explain thirty to forty percent of daily and monthly return variation."
+  },
+  {
+   "speaker": "B",
+   "text": "Also in finance, VerifiQuant tackles confident-but-wrong numbers from language models. The point is safer behavior: it refuses or asks for clarification when an input doesn't justify a number."
+  },
+  {
+   "speaker": "A",
+   "text": "And Distributional Deep Hedging lets one trained model serve many risk preferences chosen after training, by learning the quantiles of hedging profit and loss."
+  },
+  {
+   "speaker": "B",
+   "text": "Now the news, which is dominated by the AI selloff. Bloomberg says last week wiped more than five trillion dollars from the S and P 500, exposing how much rests on the AI boom."
+  },
+  {
+   "speaker": "A",
+   "text": "Emerging-market stocks are set to erase their 2026 gains, and in Taiwan margin calls rose 200-fold as leveraged traders fled AI bets. Regulators in China, South Korea and Taiwan have rolled out emergency measures."
+  },
+  {
+   "speaker": "B",
+   "text": "The Wall Street Journal reports that Anthropic has committed to spend about nine hundred billion dollars, and Wall Street expects its debt to be rated junk after a turbulent IPO."
+  },
+  {
+   "speaker": "A",
+   "text": "JPMorgan Asset Management says the AI borrowing binge is holding back a bond rally, and the FT asks what happens if Nvidia's vendor financing collapses."
+  },
+  {
+   "speaker": "B",
+   "text": "On the real economy, the WSJ argues the AI build-out is crowding out other industries, while UK factories hit a 27-month output high thanks to data center demand."
+  },
+  {
+   "speaker": "A",
+   "text": "That's all for today. Full summaries and audio explainers are in the web archive. Thanks for listening."
+  },
+  {
+   "speaker": "B",
+   "text": "Thanks everyone, see you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-11-22 (last run) → 2026-11-23. SSRN searches returned no candidate with a verifiable in-window posting date, so none are included; no forwarded newsletters were available; the INFORMS candidate was not AI-related and was dropped. Paper explainers are based on abstracts because the PDF reader was unavailable. News summaries are based on feed teasers."
+}
