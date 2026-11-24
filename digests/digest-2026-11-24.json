@@ -1,0 +1,439 @@
+{
+ "date": "2026-11-24",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "AI-Assisted Programming and Labor Demand",
+     "url": "https://arxiv.org/abs/2611.31083",
+     "fulltext": "https://arxiv.org/pdf/2611.31083",
+     "date": "2026-11-23",
+     "desc": "Using procurement-cycle timing as a natural experiment across 5,414 multinational firms, the paper finds GitHub Copilot adoption cuts quarterly technical hiring by 29% after a year, concentrated in junior, coding-heavy roles, with no effect on separations or total technical headcount. [arXiv econ.GN, submitted 2026-11-23]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Welcome to a quick explainer, based on the abstract only. I'm Alex, and today's paper asks whether AI coding assistants are changing who firms hire."
+      },
+      {
+       "speaker": "B",
+       "text": "I'm Sam. The paper studies GitHub Copilot adoption across 5,414 multinational firms, covering about 38 percent of the U.S. programming workforce."
+      },
+      {
+       "speaker": "A",
+       "text": "The hard part is causality, since firms that adopt AI early tend to be different. How do the authors handle that?"
+      },
+      {
+       "speaker": "B",
+       "text": "They exploit a natural experiment: firms' predetermined software procurement cycles, which determine when a firm reviews and adopts a tool. That gives variation in adoption timing that isn't just about hiring plans."
+      },
+      {
+       "speaker": "A",
+       "text": "And the result?"
+      },
+      {
+       "speaker": "B",
+       "text": "After one year, adopting Copilot cuts quarterly technical hiring by 29 percent among the firms pushed into adoption by those review cycles."
+      },
+      {
+       "speaker": "A",
+       "text": "Interesting that it's hiring, not firing. The abstract says there's no effect on separations, on overall technical headcount, or on how long vacancies stay open."
+      },
+      {
+       "speaker": "B",
+       "text": "Right. And the slowdown is concentrated in junior technical roles, the ones with the highest share of coding work. Firms shift demand toward more experienced workers and roles that combine some coding with broader design duties."
+      },
+      {
+       "speaker": "A",
+       "text": "So the takeaway: AI coding help seems to reduce entry-level hiring rather than push people out."
+      },
+      {
+       "speaker": "B",
+       "text": "Exactly. Remember, this is based on the abstract only, so check the paper for details and caveats."
+      }
+     ]
+    },
+    {
+     "title": "How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2",
+     "url": "https://www.nber.org/papers/w36045",
+     "fulltext": "https://www.nber.org/system/files/working_papers/w36045/w36045.pdf",
+     "date": "2026-11-23",
+     "desc": "Linking 530,471 proteins to experiments from 2017 to 2025, the paper finds that where AlphaFold2 predictions are more confident, scientists run fewer first-structure experiments on novel proteins and more follow-ups on already-known ones, so AI deepens rather than extends knowledge. [NBER w36045, issued 2026-11-23]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "This is an abstract-based summary. Alex here, with a new NBER paper on how AI changes the way scientists choose what to study."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam. The setting is structural biology, where AlphaFold2, released in 2021, predicts protein structures with varying confidence."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors link 530,471 proteins to the experiments run on them between 2017 and 2025, and compare proteins with more confident predictions against less confident ones."
+      },
+      {
+       "speaker": "B",
+       "text": "What do they find?"
+      },
+      {
+       "speaker": "A",
+       "text": "Where predictions are more confident, experiments add fewer first structures for proteins far from any known relative. But they add more follow-up experiments on proteins whose structure is already known."
+      },
+      {
+       "speaker": "B",
+       "text": "So AI deepens existing knowledge more than it extends the frontier."
+      },
+      {
+       "speaker": "A",
+       "text": "That's the pattern. They offer a model of experimental choice: a prediction replaces an experiment that would establish a structure, and it lowers the cost of experiments that build on that structure."
+      },
+      {
+       "speaker": "B",
+       "text": "A useful reminder that AI can shape the direction of research, not just its speed. Again, this summary rests on the abstract alone."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Deep Tangency Portfolio",
+     "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2023.03136",
+     "fulltext": "https://pubsonline.informs.org/doi/10.1287/mnsc.2023.03136",
+     "date": "2026-11-23",
+     "desc": "A deep learning framework estimates tangency portfolio weights by adding a deep long-short factor to benchmark factors; on U.S. corporate bonds with 132 characteristics it reaches an out-of-sample Sharpe ratio above one, and above two against the market benchmark. [Management Science, published online 2026-11-23]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Abstract-only summary. Alex, with a Management Science paper on a deep tangency portfolio."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam. The authors build a deep learning framework that directly estimates tangency portfolio weights, adding a long-short deep factor built from high-dimensional characteristics to benchmark factors."
+      },
+      {
+       "speaker": "A",
+       "text": "They train it to maximize the Sharpe ratio, and the factor serves to hedge benchmark risks and capture signals across markets."
+      },
+      {
+       "speaker": "B",
+       "text": "Where do they test it?"
+      },
+      {
+       "speaker": "A",
+       "text": "U.S. corporate bonds, using 132 bond, equity and option characteristics."
+      },
+      {
+       "speaker": "B",
+       "text": "The deep factor reaches an out-of-sample Sharpe ratio above one, and the deep tangency portfolio benchmarked on the market factor gets above two, beating portfolios spanned by common observable or latent factors."
+      },
+      {
+       "speaker": "A",
+       "text": "Their conclusion is that bond risk signals are dense and need nonlinear integration of multimarket information."
+      },
+      {
+       "speaker": "B",
+       "text": "Again, that's from the abstract only."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does this matter? The tangency portfolio is the mix of assets with the best risk-adjusted return, so estimating its weights well is the core job of a portfolio manager."
+      },
+      {
+       "speaker": "B",
+       "text": "And corporate bonds are hard, because their returns depend on bond, equity and option information at once. The abstract says that is why the signals are dense and call for nonlinear methods rather than a few handpicked factors."
+      },
+      {
+       "speaker": "A",
+       "text": "One caveat from the abstract alone: the headline Sharpe ratios are out-of-sample results in one market, U.S. corporate bonds, so the details on costs and robustness are in the full paper."
+      }
+     ]
+    },
+    {
+     "title": "Do Candlestick Charts Suffice? The Incremental Economic Value of Technical Indicators in Stock Return Prediction",
+     "url": "https://arxiv.org/abs/2611.30584",
+     "fulltext": "https://arxiv.org/pdf/2611.30584",
+     "date": "2026-11-23",
+     "desc": "Using CNNs on candlestick-chart images for 1,707 Chinese A-shares (2013–2025), the paper finds price charts alone yield significant out-of-sample long-short returns and alphas, and adding technical indicators does not systematically improve them. [arXiv econ.GN, submitted 2026-11-23]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Abstract-only summary here. Alex, with a finance paper on candlestick charts and deep learning."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam. Many traders use hand-built technical indicators. This paper asks whether they add value once a deep network can read raw price charts directly."
+      },
+      {
+       "speaker": "A",
+       "text": "The data are daily prices for 1,707 Chinese A-share stocks from 2013 to 2025, turned into about 3.36 million chart-image samples with volume and seven indicators."
+      },
+      {
+       "speaker": "B",
+       "text": "The main model is a 2D convolutional network, with checks using logistic regression, a 1D CNN and an LSTM."
+      },
+      {
+       "speaker": "A",
+       "text": "Out-of-sample, 2021 to 2025, what happens?"
+      },
+      {
+       "speaker": "B",
+       "text": "Each input type alone, price charts, volume, or indicator groups, gives significantly positive high-minus-low returns and alphas, with the price-chart-only version generally best under nonlinear models."
+      },
+      {
+       "speaker": "A",
+       "text": "But adding the indicators to the price charts doesn't systematically improve performance."
+      },
+      {
+       "speaker": "B",
+       "text": "So the takeaway is that the deep model already extracts what the manual indicators offer, in this market at least."
+      },
+      {
+       "speaker": "A",
+       "text": "Why care? Technical analysis is widely used, and deep learning raises the question of whether human-designed indicators are redundant."
+      },
+      {
+       "speaker": "B",
+       "text": "The abstract highlights it's the first large-scale evidence of this kind from the Chinese A-share market, using several model types, not just one network."
+      },
+      {
+       "speaker": "A",
+       "text": "A caveat: the setting is one market and one period, 2021 to 2025 out of sample, so results may not carry over elsewhere. The full paper has the specifics."
+      }
+     ]
+    },
+    {
+     "title": "Sharpe Ratio Inference after Machine Learning",
+     "url": "https://arxiv.org/abs/2611.29747",
+     "fulltext": "https://arxiv.org/pdf/2611.29747",
+     "date": "2026-11-22",
+     "desc": "Develops a debiased Sharpe-ratio estimator that accounts for machine-learning signal-estimation error; revisiting Gu et al. (2020), the largest long-short Sharpe gains stay significant, though confidence intervals can differ substantially from conventional ones. [arXiv econ.EM, submitted 2026-11-22]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Abstract-only summary. Alex here, on how confident we can be in Sharpe ratios built from machine-learning signals."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam. Asset pricing increasingly uses ML forecasts to build portfolios, then reports a Sharpe ratio. But the signals themselves are estimated with error."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors find that error can matter for inference even with large asset panels, and pooling across assets doesn't automatically make it go away."
+      },
+      {
+       "speaker": "B",
+       "text": "Their fix?"
+      },
+      {
+       "speaker": "A",
+       "text": "A debiased Sharpe-ratio estimator, using orthogonal portfolio moments and time-series cross-fitting, which gives valid confidence intervals and tests against benchmarks."
+      },
+      {
+       "speaker": "B",
+       "text": "They revisit the Gu and coauthors 2020 setting. The strongest long-short Sharpe gains over market benchmarks stay significant after debiasing."
+      },
+      {
+       "speaker": "A",
+       "text": "Point estimates are generally similar to conventional ones, but the confidence intervals and tests can differ substantially."
+      },
+      {
+       "speaker": "B",
+       "text": "So the evidence for ML portfolios largely survives, but the uncertainty needs proper accounting."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does this matter? Researchers and fund managers often quote a Sharpe ratio as if it were measured exactly, when it depends on an estimated signal."
+      },
+      {
+       "speaker": "B",
+       "text": "The method allows the number of assets to grow and even far exceed the length of the time series, and it covers market-timing and long-short rules, so it applies broadly."
+      },
+      {
+       "speaker": "A",
+       "text": "The caveat is that validity relies on suitable bounds on the machine-learning forecast errors. Details are in the full paper, since this summary uses the abstract only."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "How Not to Overpackage: AI for Sustainability in HelloFresh's Service Supply Chain",
+     "url": "https://pubsonline.informs.org/doi/10.1287/msom.2025.0640",
+     "fulltext": "https://pubsonline.informs.org/doi/10.1287/msom.2025.0640",
+     "date": "2026-11-24",
+     "desc": "An online-learning algorithm (CFPE) uses weather, transit and box contents to choose packaging per meal-kit box, with a proven √T-order regret bound and real HelloFresh data showing it spots contexts where current guidelines overpackage. [M&SOM, published online 2026-11-24]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Abstract-only summary. Alex here, with an operations paper on AI and meal-kit packaging."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam. HelloFresh has to decide how much insulated packaging goes in each box. Too little spoils food, too much wastes material and adds emissions."
+      },
+      {
+       "speaker": "A",
+       "text": "The paper defines a Contextual Packaging problem and builds an online-learning algorithm, called CFPE, that uses weather, transit conditions and box contents to pick packaging per box."
+      },
+      {
+       "speaker": "B",
+       "text": "How good is it?"
+      },
+      {
+       "speaker": "A",
+       "text": "The authors prove a regret bound of order root T that existing methods can't match, and on real HelloFresh delivery data it quickly identifies contexts where current guidelines overpackage."
+      },
+      {
+       "speaker": "B",
+       "text": "Practically, it can complement or replace slow chamber experiments, and it needs fewer exploratory shipments before narrowing in on good packaging choices."
+      },
+      {
+       "speaker": "A",
+       "text": "So sustainability becomes part of the operations decision rather than an outside constraint. This is based on the abstract only."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does this matter? Meal-kit boxes ship by the millions, so small per-box savings in insulation add up to real waste and emissions."
+      },
+      {
+       "speaker": "B",
+       "text": "The abstract says the method can work alongside the chamber experiments used today, to refine packaging guidelines faster and make it easier to adopt greener materials later."
+      },
+      {
+       "speaker": "A",
+       "text": "One limit: the evidence is numerical experiments on HelloFresh delivery data, so real-world rollout results aren't covered. Check the full paper for specifics."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "For Better or Worse, the Fate of the AI Boom Is in Nvidia's Hands",
+     "url": "https://www.wsj.com/tech/ai/for-better-or-worse-the-fate-of-the-ai-boom-is-in-nvidias-hands-d0f88970",
+     "fulltext": "https://www.wsj.com/tech/ai/for-better-or-worse-the-fate-of-the-ai-boom-is-in-nvidias-hands-d0f88970",
+     "date": "2026-11-24",
+     "desc": "WSJ argues that an emboldened Jensen Huang, back as Nvidia CEO, could build up risks for the next crisis as the AI boom increasingly depends on one company. [WSJ, published 2026-11-24]"
+    },
+    {
+     "title": "Silicon Valley's too big to fail moment",
+     "url": "https://www.ft.com/content/5a5ad497-11e7-493b-8ee4-46e65e59d873",
+     "fulltext": "https://www.ft.com/content/5a5ad497-11e7-493b-8ee4-46e65e59d873",
+     "date": "2026-11-24",
+     "desc": "FT says Washington's intervention at Nvidia recalls the 2008 financial crisis, raising the question of whether the chipmaker is now treated as too big to fail. [Financial Times, published 2026-11-24]"
+    },
+    {
+     "title": "Pimco's Ivascyn Says AI Disruption Risk Boosts Appeal of Bonds",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/pimco-s-ivascyn-says-ai-disruption-risk-boosts-appeal-of-bonds",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-24/pimco-s-ivascyn-says-ai-disruption-risk-boosts-appeal-of-bonds",
+     "date": "2026-11-24",
+     "desc": "Bloomberg reports Pimco's Dan Ivascyn saying the AI boom is making the US economy more prone to disruption, which he argues increases the appeal of bonds. [Bloomberg, published 2026-11-24]"
+    },
+    {
+     "title": "AI Boost Puts Singapore Economy on Track for Best Performance in Years",
+     "url": "https://www.wsj.com/world/asia/ai-boost-puts-singapore-economy-on-track-for-best-performance-in-years-7bb5f426",
+     "fulltext": "https://www.wsj.com/world/asia/ai-boost-puts-singapore-economy-on-track-for-best-performance-in-years-7bb5f426",
+     "date": "2026-11-24",
+     "desc": "Singapore posted a third straight quarter of growth above 6%, which WSJ attributes to the AI boost putting the economy on track for its best performance in years. [WSJ, published 2026-11-24]"
+    },
+    {
+     "title": "Anthropic's New Millionaires Turbocharge San Francisco's Red-Hot Housing Market",
+     "url": "https://www.wsj.com/real-estate/ai-san-francisco-housing-prices-92a41f7d",
+     "fulltext": "https://www.wsj.com/real-estate/ai-san-francisco-housing-prices-92a41f7d",
+     "date": "2026-11-24",
+     "desc": "WSJ reports that newly wealthy Anthropic employees are adding fuel to San Francisco's already hot housing market. [WSJ, published 2026-11-24]"
+    },
+    {
+     "title": "Hargreaves Lansdown is being untangled with AI",
+     "url": "https://www.ft.com/content/0da0e206-5fda-4bab-89a9-4d43340fbd3b",
+     "fulltext": "https://www.ft.com/content/0da0e206-5fda-4bab-89a9-4d43340fbd3b",
+     "date": "2026-11-24",
+     "desc": "FT reports that the UK's largest investment platform wants to use AI to fix its outdated technology and slow culture. [Financial Times, published 2026-11-24]"
+    },
+    {
+     "title": "Jensen Huang returns. But Nvidia will never be the same",
+     "url": "https://www.economist.com/business/2026/11/23/jensen-huang-returns-but-nvidia-will-never-be-the-same",
+     "fulltext": "https://www.economist.com/business/2026/11/23/jensen-huang-returns-but-nvidia-will-never-be-the-same",
+     "date": "2026-11-23",
+     "desc": "The Economist says Huang returns to a hostile Congress, rattled employees and wary business partners, so Nvidia, the centre of the AI trade, will not be the same. [The Economist, published 2026-11-23]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Good morning, this is Alex with the Daily AI Research Digest for November twenty-fourth, twenty twenty-six. Today we cover AI and jobs, AI in markets, and a lot of Nvidia news."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. It's a lighter day for papers, so let's start there."
+  },
+  {
+   "speaker": "A",
+   "text": "A new arXiv paper studies GitHub Copilot adoption across more than five thousand multinational firms. Using procurement cycles as a natural experiment, it finds technical hiring falls twenty-nine percent after a year."
+  },
+  {
+   "speaker": "B",
+   "text": "And the drop is in junior, coding-heavy roles. Firms aren't firing anyone, they're hiring fewer entry-level people and shifting toward experienced workers."
+  },
+  {
+   "speaker": "A",
+   "text": "Next, a new NBER paper on AlphaFold2. Looking at over half a million proteins, scientists ran fewer first-structure experiments on novel proteins where predictions were confident, and more follow-ups on proteins already known."
+  },
+  {
+   "speaker": "B",
+   "text": "So AI deepened existing knowledge rather than pushing the frontier outward. That's a useful nuance on AI and science."
+  },
+  {
+   "speaker": "A",
+   "text": "In finance, a Management Science paper builds a deep learning tangency portfolio for corporate bonds, with an out-of-sample Sharpe ratio above one for its deep factor."
+  },
+  {
+   "speaker": "B",
+   "text": "Also on arXiv, a study of Chinese A-shares finds that deep networks reading raw candlestick charts do about as well as when you add hand-built technical indicators."
+  },
+  {
+   "speaker": "A",
+   "text": "And a third paper offers a debiased way to compute Sharpe ratios when the signals come from machine learning, showing that confidence intervals can differ a lot from conventional ones."
+  },
+  {
+   "speaker": "B",
+   "text": "On operations, an M and SOM paper helps HelloFresh decide how much insulated packaging goes in each meal-kit box, using online learning with weather and transit data to cut overpackaging."
+  },
+  {
+   "speaker": "A",
+   "text": "Now the news. Jensen Huang is back as Nvidia's chief executive, and the coverage is huge. The Wall Street Journal says the fate of the AI boom now rests heavily on Nvidia."
+  },
+  {
+   "speaker": "B",
+   "text": "The Financial Times goes further, comparing Washington's intervention to the two thousand eight financial crisis and asking if Nvidia is too big to fail. The Economist notes he returns to a hostile Congress and wary partners."
+  },
+  {
+   "speaker": "A",
+   "text": "Elsewhere, Bloomberg reports Pimco's Dan Ivascyn saying AI makes the US economy more prone to disruption, which boosts the appeal of bonds."
+  },
+  {
+   "speaker": "B",
+   "text": "The Journal says AI is lifting Singapore, with a third straight quarter of growth above six percent, and that new Anthropic millionaires are heating up San Francisco housing."
+  },
+  {
+   "speaker": "A",
+   "text": "That's the digest for today. Find the full archive on the web page linked in the email."
+  },
+  {
+   "speaker": "B",
+   "text": "Thanks for listening, and see you tomorrow."
+  }
+ ],
+ "footnote": "Window: 2026-11-23 (last run) → 2026-11-24. All sources reached. No SSRN paper with a verified in-window posting date was found. News summaries are based on feed teasers; coverage of Nvidia's CEO change was heavy and only the most economics-relevant stories are included."
+}
