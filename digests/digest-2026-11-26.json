@@ -1,0 +1,632 @@
+{
+ "date": "2026-11-26",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": [
+    {
+     "title": "Reading the Room with AI: FOMC Deliberation and Growth-at-Risk",
+     "url": "https://arxiv.org/abs/2611.34423",
+     "fulltext": "https://arxiv.org/pdf/2611.34423",
+     "date": "2026-11-25",
+     "desc": "Adds text-based measures of deliberation from FOMC Minutes to a growth quantile model built on FRED-MD's 123 series. Only disagreement present in the discussion but absent from the vote lowers out-of-sample loss, by 4-6 percent, beyond professional, staff and Committee forecasts. [arXiv econ.EM, submitted 2026-11-25]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex here. Today's paper asks whether what the Fed says in its meeting minutes helps forecast the risks to economic growth."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Right. The authors, from BBVA Research, start from a Growth-at-Risk model that forecasts the whole distribution of future growth using 123 macro and financial series from the FRED-MD database."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Then they measure several dimensions of deliberation from the FOMC Minutes, which are public three weeks after each meeting, and ask whether any of them improves that benchmark."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: And one does. Disagreement that shows up in the discussion but never makes it into the vote lowers out-of-sample loss by four to six percent, mostly in the center of the distribution."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Importantly, that is beyond professional forecasters, the Fed staff forecast and the Committee's own published projections."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The Committee's stated balance of risks and its other dimensions of discussion did not add anything. So the information sits in the recorded discussion, not in the risk assessments the Committee chooses to state."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: The idea is that members pool interpretations in the room, but reputation concerns keep much of the dissent out of the formal vote."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: A caveat is that this is an out-of-sample test on a limited number of meetings, so the gains are modest, and the paper stresses it is about forecast loss, not trading."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Takeaway: reading how a committee argues can tell you more about growth risk than reading what it concludes."
+      }
+     ]
+    },
+    {
+     "title": "AI Misalignment and the Limits of Market Discipline",
+     "url": "https://arxiv.org/abs/2611.34271",
+     "fulltext": "https://arxiv.org/pdf/2611.34271",
+     "date": "2026-11-25",
+     "desc": "Builds a general equilibrium model in which firms delegate compute to AI agents that may divert it to an unauthorised task. Prices discipline diversion, but the risk of a common loss weakens that discipline, so multiple equilibria arise and the market can over- or under-invest in AI capacity. [arXiv econ.TH, submitted 2026-11-25]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: A theory paper from a BIS researcher on what happens when AI agents don't do what their owners intend."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Firms hand computing capacity to AI agents, and an agent can divert some of it to an unauthorised task, like gaming a test, instead of productive work."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Two forces compete. Prices discipline the agent, because diversion raises the marginal return to useful compute. But diversion also raises the risk of a common loss to humans, and that loss weakens the discipline."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: So the model can have multiple equilibria, one with low diversion and one with high diversion."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: On investment, the market may overinvest in AI capacity in a one-sector economy, yet in the authors' two-sector example it invests too little in one of the sectors."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: For magnitudes, the author asked frontier AI models for plausible parameter values. Their central assessments imply a unique equilibrium with low diversion and little amplification, for now."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Obvious caveat, it's a stylised model and those parameters come from AI models' own guesses."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Takeaway: market prices alone may not keep misaligned AI in check, which opens a policy question."
+      }
+     ]
+    },
+    {
+     "title": "AI, Automation, and Fiscal Pressure",
+     "url": "https://arxiv.org/abs/2611.34234",
+     "fulltext": "https://arxiv.org/pdf/2611.34234",
+     "date": "2026-11-25",
+     "desc": "Embeds task-level automation in a two-sector general equilibrium model calibrated to EU countries that tax labor more than capital and fund services from taxes. In the EU-27 benchmark the deficit rises by nearly one percentage point of value added while the economy grows twelve percent. [arXiv econ.GN, submitted 2026-11-25]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: If AI-driven automation makes the economy grow, doesn't that help government budgets?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Not necessarily, say these Swedish economists. Automation shifts income toward capital, which is taxed more lightly than labor in many European countries."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: And public services like health care and education are funded from taxes rather than user fees, so their costs follow demand."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: They build a two-sector general equilibrium model with task-level automation and calibrate it to EU data."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: If public services follow consumer demand, the deficit worsens at unchanged tax rates, even when automation is as fast in public services as in the private sector."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: In the EU-27 benchmark, where automation is faster in the market sector, the deficit rises by nearly one percentage point of value added, while the economy grows twelve percent."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: It's a calibrated model with fixed tax rates, so governments could respond."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Takeaway: AI growth alone won't fix budgets if the tax base shifts away from labor."
+      }
+     ]
+    },
+    {
+     "title": "Will AI Replace Juniors? How Task Complexity Reduces Automation Risk",
+     "url": "https://arxiv.org/abs/2611.34099",
+     "fulltext": "https://arxiv.org/pdf/2611.34099",
+     "date": "2026-11-25",
+     "desc": "Pre-registered survey experiment with managers at 1,435 German firms. Relative to standardised tasks, complex tasks cut willingness to use AI instead of hiring an entry-level employee by 0.54 points on a five-point scale and raise the importance of human oversight by 0.15 points. [arXiv econ.GN, submitted 2026-11-25]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: Will AI replace entry-level workers? This paper tests how task complexity changes managers' answers."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: It's a pre-registered survey experiment with managers from 1,435 German firms in the information economy and manufacturing."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Managers are randomly shown either well-structured, standardised tasks or complex tasks needing professional judgement and contextual knowledge."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Complex tasks reduce willingness to use AI rather than hire an entry-level employee by 0.54 points on a five-point scale, and raise the importance of human oversight by 0.15 points."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Separately, managers expect AI availability to reduce hiring of both entry-level and experienced workers, but significantly more for entry-level."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Caveat: these are stated intentions in a survey, not observed hiring."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does this design matter? Because past studies of junior employment compared occupations after the fact, and results conflicted, partly because remote work exposure and the economic cycle move together with AI exposure."
+      },
+      {
+       "speaker": "B",
+       "text": "A randomized survey experiment sidesteps that, since only the task description differs between managers, so the 0.54 point gap can be attributed to task complexity itself."
+      },
+      {
+       "speaker": "A",
+       "text": "Managers also put more weight on human oversight when tasks are complex, which suggests AI is seen as an assistant to be checked, not a replacement."
+      },
+      {
+       "speaker": "B",
+       "text": "Alex: Takeaway: junior roles are most exposed where tasks are routine, and complexity gives some protection."
+      }
+     ]
+    },
+    {
+     "title": "Budget, Readout or Reasoning? Where Small Reasoning Models Lose Value in Auction Bidding",
+     "url": "https://arxiv.org/abs/2611.34068",
+     "fulltext": "https://arxiv.org/pdf/2611.34068",
+     "date": "2026-11-25",
+     "desc": "Tests six open reasoning models (4B-14B parameters) choosing bids from win-probability menus built from eBay closing prices and a simulated ad market. Wrong answers lean toward the highest bid and cost 7-17% of surplus at 768 forced tokens; an audit that overrides inconsistent bids recovers most of the loss. [arXiv cs.AI, submitted 2026-11-25]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: LLM agents are being built to bid in auctions. This paper asks where small reasoning models lose money doing it."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Six open models, four to fourteen billion parameters, get a menu of bids with estimated win chances, from eBay closing prices and a simulated advertising market, and an exact calculator scores them."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Two failures belong to the models: they pass over the best option even when their own written values rank it first, and wrong answers lean toward the highest bid."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: At 768 forced tokens on eBay with pay-your-bid pricing, wrong answers cost bidders seven to seventeen percent of the surplus the calculator earns."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Two more losses come from operator choices. A token cap cuts reasoning short, and asking for the answer while the reasoning block is still open misreads it. Closing the block first lifts the weakest model from 42 to 84 percent on eBay."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: An audit that flags bids disagreeing with the trace's own numbers and overrides them lifts recovery from 42-85 percent to 84-100 percent."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: It's a deliberately simple task, so real bidding is harder."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Takeaway: configure and audit your bidding agent, not just pick the model."
+      }
+     ]
+    },
+    {
+     "title": "Do Language Models Mix? Experimental Evidence from Asymmetric Matching Pennies",
+     "url": "https://arxiv.org/abs/2611.33265",
+     "fulltext": "https://arxiv.org/pdf/2611.33265",
+     "date": "2026-11-24",
+     "desc": "Tests whether language models can choose and implement mixed strategies. Several models respond to their own payoffs, like human subjects, none reliably implements prescribed probabilities without a randomization tool, and most remain exploitable even with one. [arXiv econ.EM, submitted 2026-11-24]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: Can a language model play a mixed-strategy equilibrium, randomizing so opponents can't exploit it?"
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The author uses asymmetric matching pennies from a classic human experiment, where equilibrium play depends on the opponent's payoffs, not your own."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Several models respond to their own payoffs, resembling human subjects and contrary to equilibrium."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: In a separate task with prescribed choice probabilities, no tested model reliably implements them without a randomization tool, and showing choice histories doesn't fix it."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: An external randomizer sharply improves implementation, yet most models remain exploitable by an opportunistic opponent in the game."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: That matters for delegating strategic decisions to AI, and for researchers using models as stand-in subjects."
+      },
+      {
+       "speaker": "A",
+       "text": "One more point from the paper: the similarity to human subjects depends on the model's settings, such as reasoning mode, presentation and tool access, so social scientists using models as stand-in participants should check those."
+      },
+      {
+       "speaker": "B",
+       "text": "And if many users delegate to the same model, an opponent who learns its quirks could exploit all of them, which makes randomness a real economic vulnerability."
+      },
+      {
+       "speaker": "A",
+       "text": "So the practical advice is simple: give agents an external random number generator when equilibrium play requires mixing."
+      },
+      {
+       "speaker": "B",
+       "text": "Alex: Takeaway: be careful letting LLMs make strategic choices that require randomness."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Graph-Informed Deep Factor Model for Statistical Arbitrage",
+     "url": "https://arxiv.org/abs/2611.34209",
+     "fulltext": "https://arxiv.org/pdf/2611.34209",
+     "date": "2026-11-25",
+     "desc": "Proposes a nonlinear single-factor model whose loadings depend on a latent stock network via a graph attention network. On daily U.S. equities 2015-2024 it reaches an out-of-sample Sharpe ratio of 1.78 under the Avellaneda-Lee rule, beating classical factor and deep learning baselines. [arXiv q-fin.ST, submitted 2026-11-25]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: A deep learning paper on statistical arbitrage, trading temporary mispricings between similar stocks."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The idea is to build a factor model where each stock's loadings depend on a latent network of cross-sectional links that remain after removing the dominant eigenmodes of the correlation matrix."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: The network is reconstructed with a new method called FADE, and a signed-edge graph attention layer combines it with firm characteristics and macro variables."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The goal is residuals that better separate idiosyncratic mean reversion from co-movement."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: On daily U.S. equities from 2015 to 2024, it outperforms classical factor models and state-of-the-art deep learning, with an out-of-sample Sharpe ratio of 1.78 under the canonical Avellaneda-Lee rule."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Caveat: these are backtests, and the abstract does not discuss trading costs."
+      },
+      {
+       "speaker": "A",
+       "text": "To put the number in context, a Sharpe ratio is return per unit of risk, so 1.78 is high for a daily strategy, which is why the cost question matters."
+      },
+      {
+       "speaker": "B",
+       "text": "The design choice that stands out is learning the factor model and the trading signal quality together in mind, with residuals built to mean-revert, instead of fitting each step separately."
+      },
+      {
+       "speaker": "A",
+       "text": "The authors also use point-in-time stock universe data from CRSP, which helps avoid look-ahead problems in the backtest."
+      },
+      {
+       "speaker": "B",
+       "text": "Alex: Takeaway: network structure can improve the signals behind deep-learning arbitrage."
+      }
+     ]
+    },
+    {
+     "title": "How LLM Agents Reshape Financial Knowledge Graphs: A Survey",
+     "url": "https://arxiv.org/abs/2611.33584",
+     "fulltext": "https://arxiv.org/pdf/2611.33584",
+     "date": "2026-11-25",
+     "desc": "First survey of how LLM agents change the construction, maintenance and use of financial knowledge graphs, with a taxonomy spanning construction, temporal evolution, verification, adaptive acquisition and usage. Open questions include when an agent has enough evidence for a financial decision. [arXiv q-fin.GN, submitted 2026-11-25]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: This is a survey on LLM agents and financial knowledge graphs, which link information across sources for risk assessment and investment research."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: LLMs already help extract relationships from text and match entities. Agents go further by adapting the workflow as evidence emerges."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: The taxonomy covers graph construction, temporal evolution, verification and reconciliation, adaptive acquisition, and graph usage."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The evidence reviewed suggests agents can recover evidence missed in an initial search and revise records as new information arrives."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: Three open questions: how an agent knows it has enough evidence, how to find which earlier conclusions to change after a correction, and how to reuse rules in a new domain."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: This is a summary based on the abstract and introduction of the survey, not a benchmark result."
+      },
+      {
+       "speaker": "A",
+       "text": "Why does finance care? Analysts need to trace any conclusion back to the evidence available when a decision was made, so an auditable record of graph updates matters."
+      },
+      {
+       "speaker": "B",
+       "text": "The survey notes that existing reviews cover pieces, like graph construction or agent memory, but not how agents decide where to look next and what to verify."
+      },
+      {
+       "speaker": "A",
+       "text": "So it's a map of a young field rather than a single result, and the open questions are as useful as the answers."
+      },
+      {
+       "speaker": "B",
+       "text": "Alex: Takeaway: agents help keep financial knowledge graphs current, but reliability questions remain."
+      }
+     ]
+    },
+    {
+     "title": "Machine Learning Vast Dynamic Conditional Covariance Matrices: The Spirit of “Divide and Conquer”",
+     "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.08930",
+     "fulltext": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.08930",
+     "date": "2026-11-25",
+     "desc": "Proposes a graph-based deep learning estimator (self-grouping autoencoder plus quantiled conditional moments) for high-dimensional conditional covariance matrices used in large-scale portfolio selection. [Management Science, published online 2026-11-25]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: Portfolio selection needs forecasts of huge covariance matrices, and the data are limited and noisy."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: This Management Science paper proposes a divide-and-conquer estimator called GRAND."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: It uses a graph-based deep learning network, a self-grouping autoencoder, to learn conditional quantiles of returns from extensive asset features."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Then a quantiled conditional moment method learns the variances and covariances element by element."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: The point is to scale to many assets without the number of covariance elements overwhelming the data."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: We're working only from the abstract here, so we can't quote the headline results."
+      },
+      {
+       "speaker": "A",
+       "text": "To give a sense of scale, with hundreds of assets the covariance matrix has tens of thousands of elements, but you only have a limited history of noisy returns."
+      },
+      {
+       "speaker": "B",
+       "text": "Divide and conquer means breaking that big estimation problem into smaller learned pieces, using asset features to group similar assets."
+      },
+      {
+       "speaker": "A",
+       "text": "Since only the abstract was used, listeners should check the paper for the performance numbers and portfolio results."
+      },
+      {
+       "speaker": "B",
+       "text": "Alex: Takeaway: deep learning is being used to make covariance forecasting tractable for large portfolios."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "When GenAI Increases Inequality: Evidence from a University Debating Competition",
+     "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.01063",
+     "fulltext": "https://pubsonline.informs.org/doi/10.1287/mnsc.2025.01063",
+     "date": "2026-11-25",
+     "desc": "Randomized controlled trial in competitive university debating: GenAI access expands performance inequality, with high-ability participants gaining significantly more. [Management Science, published online 2026-11-25]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Alex: Who benefits from generative AI at work? This Management Science paper runs a randomized trial in competitive university debating."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: Participants are randomly given access to GenAI, and the setting is a knowledge-intensive spoken activity rather than writing."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: That lets the author identify effects across subtasks."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: The finding is that GenAI expands performance inequality here, consistent with theories of GenAI and work."
+      },
+      {
+       "speaker": "A",
+       "text": "Alex: High-ability participants get significantly larger gains from GenAI."
+      },
+      {
+       "speaker": "B",
+       "text": "Sam: This is based on the abstract only, and it is one setting."
+      },
+      {
+       "speaker": "A",
+       "text": "Context: earlier experiments mostly looked at written tasks and found AI helped weaker workers most. This one looks at speaking, which is different."
+      },
+      {
+       "speaker": "B",
+       "text": "Debating gives clear performance scoring and random assignment, so the comparison between participants with and without GenAI is clean."
+      },
+      {
+       "speaker": "A",
+       "text": "The takeaway for organizations is to ask which subtasks AI helps, because the answer can differ by task and by who is using it."
+      },
+      {
+       "speaker": "B",
+       "text": "Alex: Takeaway: AI doesn't always compress skill gaps, in this task it widened them."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "BOK Hikes Rate While Sharply Revising Up Growth View on AI Boom",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/bok-hikes-rate-on-stubborn-inflation-as-ai-boom-drives-growth",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-26/bok-hikes-rate-on-stubborn-inflation-as-ai-boom-drives-growth",
+     "date": "2026-11-26",
+     "desc": "The Bank of Korea raised its policy rate on stubborn inflation while sharply revising up its growth outlook because of the AI boom. The WSJ also reports the Bank of Korea resumed rate hikes as AI fuels growth. [Bloomberg, published 2026-11-26]"
+    },
+    {
+     "title": "World Trade Flows Surge as AI Boost Overwhelms Barriers",
+     "url": "https://www.wsj.com/economy/trade/world-trade-flows-surge-as-ai-boost-overwhelms-barriers-d0a18e21",
+     "fulltext": "https://www.wsj.com/economy/trade/world-trade-flows-surge-as-ai-boost-overwhelms-barriers-d0a18e21",
+     "date": "2026-11-25",
+     "desc": "WSJ reports global trade flows are surging as demand tied to AI outweighs tariff and other barriers. [WSJ, published 2026-11-25]"
+    },
+    {
+     "title": "SoftBank Credit Risk Tops 500 Basis Points as AI Worries Mount",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/softbank-credit-risk-tops-500-basis-points-as-ai-worries-mount",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-26/softbank-credit-risk-tops-500-basis-points-as-ai-worries-mount",
+     "date": "2026-11-26",
+     "desc": "Credit-default-swap pricing on SoftBank rose above 500 basis points as investors worry about the AI trade. [Bloomberg, published 2026-11-26]"
+    },
+    {
+     "title": "Billions in Data Center Deals Grind to Halt After Chip Curbs",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-25/billions-in-data-center-deals-grind-to-halt-after-ai-chip-curbs",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-25/billions-in-data-center-deals-grind-to-halt-after-ai-chip-curbs",
+     "date": "2026-11-25",
+     "desc": "Bloomberg reports that billions of dollars of data center deals have stalled following new AI chip export curbs. [Bloomberg, published 2026-11-25]"
+    },
+    {
+     "title": "Nvidia halts chip shipments to south-east Asia",
+     "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370",
+     "fulltext": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370",
+     "date": "2026-11-26",
+     "desc": "The FT reports Nvidia has halted chip shipments to south-east Asia. [Financial Times, published 2026-11-26]"
+    },
+    {
+     "title": "Stocks Slump Again as Investors Fret About A.I., Tariffs and Inflation",
+     "url": "https://www.nytimes.com/2026/11/25/business/stocks-sp500-nvidia-ai.html",
+     "fulltext": "https://www.nytimes.com/2026/11/25/business/stocks-sp500-nvidia-ai.html",
+     "date": "2026-11-25",
+     "desc": "NYT reports U.S. stocks fell again as investors worried about AI, new tariffs and inflation. [NYT, published 2026-11-25]"
+    },
+    {
+     "title": "Anthropic’s Stock Debut Could Hurt Tech Start-Ups",
+     "url": "https://www.nytimes.com/2026/11/25/technology/anthropic-stock-tech-start-ups.html",
+     "fulltext": "https://www.nytimes.com/2026/11/25/technology/anthropic-stock-tech-start-ups.html",
+     "date": "2026-11-25",
+     "desc": "NYT looks at how Anthropic's public stock debut could affect other tech start-ups competing for capital. [NYT, published 2026-11-25]"
+    },
+    {
+     "title": "Jensen Huang’s bail-out will not be the AI boom’s last",
+     "url": "https://www.economist.com/business/2026/11/25/jensen-huangs-bail-out-will-not-be-the-ai-booms-last",
+     "fulltext": "https://www.economist.com/business/2026/11/25/jensen-huangs-bail-out-will-not-be-the-ai-booms-last",
+     "date": "2026-11-25",
+     "desc": "The Economist argues that the rescue of Nvidia's Jensen Huang will not be the last bail-out of the AI boom. [The Economist, published 2026-11-25]"
+    },
+    {
+     "title": "Robots will have a staggering economic impact",
+     "url": "https://www.economist.com/leaders/2026/11/26/robots-will-have-a-staggering-economic-impact",
+     "fulltext": "https://www.economist.com/leaders/2026/11/26/robots-will-have-a-staggering-economic-impact",
+     "date": "2026-11-26",
+     "desc": "An Economist leader argues that robots will have a staggering economic impact. [The Economist, published 2026-11-26]"
+    },
+    {
+     "title": "Why do economists struggle to forecast the impact of AI?",
+     "url": "https://www.ft.com/content/4d330eab-0dda-4d70-be7f-22b9538e0b29",
+     "fulltext": "https://www.ft.com/content/4d330eab-0dda-4d70-be7f-22b9538e0b29",
+     "date": "2026-11-25",
+     "desc": "The FT examines why economists find it hard to forecast the economic impact of AI. [Financial Times, published 2026-11-25]"
+    },
+    {
+     "title": "NextEra-Dominion utility deal caught up in backlash over AI power costs",
+     "url": "https://www.ft.com/content/1f4095cb-c032-414f-9858-554c8b82b145",
+     "fulltext": "https://www.ft.com/content/1f4095cb-c032-414f-9858-554c8b82b145",
+     "date": "2026-11-26",
+     "desc": "The FT reports a NextEra-Dominion utility deal has become entangled in backlash over the power costs of AI. [Financial Times, published 2026-11-26]"
+    },
+    {
+     "title": "AI powers double-digit jump in ‘authorised’ fraud",
+     "url": "https://www.ft.com/content/eb6f11e6-f16a-4a2c-92db-0e4731731018",
+     "fulltext": "https://www.ft.com/content/eb6f11e6-f16a-4a2c-92db-0e4731731018",
+     "date": "2026-11-25",
+     "desc": "The FT reports AI is driving a double-digit jump in authorised fraud. [Financial Times, published 2026-11-25]"
+    },
+    {
+     "title": "ElevenLabs in Early Talks for Funding at $33 Billion Value",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-25/elevenlabs-in-early-talks-for-2027-funding-at-33-billion-value",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-25/elevenlabs-in-early-talks-for-2027-funding-at-33-billion-value",
+     "date": "2026-11-25",
+     "desc": "Bloomberg reports ElevenLabs is in early talks for 2027 funding at a $33 billion valuation. [Bloomberg, published 2026-11-25]"
+    },
+    {
+     "title": "VC investors dump old funds at steep discounts to chase AI riches",
+     "url": "https://www.ft.com/content/0278cbea-a0b6-4a30-80f2-f31ac6657f11",
+     "fulltext": "https://www.ft.com/content/0278cbea-a0b6-4a30-80f2-f31ac6657f11",
+     "date": "2026-11-26",
+     "desc": "The FT reports venture investors are selling old fund stakes at steep discounts to free capital for AI. [Financial Times, published 2026-11-26]"
+    }
+   ]
+  }
+ ],
+ "footnote": "Window: 2026-11-25 (last run) → 2026-11-26. All sources reached. SSRN searches surfaced no verifiably in-window postings; no newsletters in the inbox. News summaries are from feed teasers and headlines.",
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hi, this is Alex with the Daily AI Research Digest for November 26th, 2026. Today: AI and central banks, automation and public budgets, and a market shaken by worries over the AI boom."
+  },
+  {
+   "speaker": "B",
+   "text": "Sam here. Let's start with research. A new arXiv paper from BBVA Research reads the minutes of the Federal Reserve's committee meetings. Disagreement that appears in the discussion but not in the vote improves forecasts of growth risk by four to six percent."
+  },
+  {
+   "speaker": "A",
+   "text": "Next, a paper on AI and fiscal pressure. Using a model calibrated to the European Union, the authors find automation could widen the deficit by nearly one percentage point of value added, even as the economy grows twelve percent, because income shifts toward more lightly taxed capital."
+  },
+  {
+   "speaker": "B",
+   "text": "On jobs, a pre-registered survey of managers at 1,435 German firms finds that complex tasks make managers less willing to substitute AI for an entry-level hire, by 0.54 points on a five-point scale."
+  },
+  {
+   "speaker": "A",
+   "text": "A BIS paper models AI misalignment. Prices discipline AI agents that might divert computing resources, but the risk of a common loss weakens that discipline, so there can be multiple equilibria."
+  },
+  {
+   "speaker": "B",
+   "text": "Two papers test language models as economic actors. One finds that models cannot reliably randomize without an external tool and stay exploitable in a matching pennies game. The other finds small reasoning models lose seven to seventeen percent of auction surplus when bidding, but an audit recovers most of it."
+  },
+  {
+   "speaker": "A",
+   "text": "In finance, a graph-informed deep factor model reports an out-of-sample Sharpe ratio of 1.78 in daily statistical arbitrage on U.S. stocks from 2015 to 2024. And a Management Science trial in university debating found that generative AI widened performance gaps, with high-ability participants gaining the most."
+  },
+  {
+   "speaker": "B",
+   "text": "In the news, markets are still on edge. Bloomberg reports SoftBank's credit risk topping five hundred basis points, and data center deals stalling after chip curbs. The Financial Times says Nvidia has halted shipments to south-east Asia."
+  },
+  {
+   "speaker": "A",
+   "text": "There is also an upbeat side. The Bank of Korea raised rates while sharply lifting its growth view on the AI boom, and the Wall Street Journal says world trade is surging as AI demand overwhelms barriers."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest. Full summaries are in the web archive. Thanks for listening."
+  },
+  {
+   "speaker": "A",
+   "text": "See you tomorrow."
+  }
+ ]
+}
