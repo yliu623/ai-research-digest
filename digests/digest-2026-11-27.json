@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-27",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": []
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": []
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": [
+    {
+     "title": "Correcting the Unobserved Textual Confounding Factors in Regression by BERT and Partially Linear Regression",
+     "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.04758",
+     "fulltext": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.04758",
+     "date": "2026-11-26",
+     "desc": "Proposes using BERT text embeddings as automatically built control variables in a partially linear, double-machine-learning-style regression, to correct omitted-variable bias from textual confounders when no valid identification strategy exists. [Management Science, published online 2026-11-26]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's paper is from Management Science, on a problem researchers in information systems run into constantly: hidden confounders buried in text. This summary is based on the abstract only."
+      },
+      {
+       "speaker": "B",
+       "text": "Say more. What's the setup?"
+      },
+      {
+       "speaker": "A",
+       "text": "Researchers often build a variable from documents, like online review sentiment, to study word of mouth. But the documents hold far richer information than that one variable."
+      },
+      {
+       "speaker": "B",
+       "text": "So unmeasured aspects of the text could drive both the sentiment and the outcome, and bias the estimate."
+      },
+      {
+       "speaker": "A",
+       "text": "Right. The usual fix is to hand-craft control variables from the same documents, but that's manual, and you can't be sure you captured every important factor or the right functional form."
+      },
+      {
+       "speaker": "B",
+       "text": "So what do the authors propose?"
+      },
+      {
+       "speaker": "A",
+       "text": "They use BERT, a neural language model, to turn each document into an embedding that automatically serves as a vector of controls for latent confounding factors."
+      },
+      {
+       "speaker": "B",
+       "text": "And the regression itself?"
+      },
+      {
+       "speaker": "A",
+       "text": "It's semiparametric: a linear term for the key independent variable plus an unknown flexible function of the text controls, extending the double machine learning framework."
+      },
+      {
+       "speaker": "B",
+       "text": "The caveat is that this is for cases without a valid identification strategy, and the abstract excerpt we have doesn't give the empirical results."
+      },
+      {
+       "speaker": "A",
+       "text": "Takeaway: language models can serve as automatic confounder controls for text-heavy data."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Singapore Talking to US to Keep AI Chip Access, Deputy PM Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-27/singapore-talking-to-us-to-keep-ai-chip-access-deputy-pm-says",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-27/singapore-talking-to-us-to-keep-ai-chip-access-deputy-pm-says",
+     "date": "2026-11-27",
+     "desc": "Singapore's deputy prime minister said the city-state is in talks with Washington to retain access to advanced semiconductors after the U.S. tightened export restrictions. [Bloomberg, published 2026-11-27]"
+    },
+    {
+     "title": "The AI Boom Looks Alive and Well in Asia",
+     "url": "https://www.wsj.com/tech/ai/the-ai-boom-looks-alive-and-well-in-asia-59841697",
+     "fulltext": "https://www.wsj.com/tech/ai/the-ai-boom-looks-alive-and-well-in-asia-59841697",
+     "date": "2026-11-27",
+     "desc": "Despite a wild ride in stocks tied to Nvidia's turmoil, AI-linked exports and investment are still driving growth across Asia for now, per WSJ. [WSJ, published 2026-11-27]"
+    },
+    {
+     "title": "Warsh’s ‘good family fight’ could turn ugly",
+     "url": "https://www.ft.com/content/71ffa69f-2a07-44e4-8305-ae5548b89828",
+     "fulltext": "https://www.ft.com/content/71ffa69f-2a07-44e4-8305-ae5548b89828",
+     "date": "2026-11-27",
+     "desc": "FT reports Federal Reserve officials face a three-way tussle over inflation, AI and forward guidance. [Financial Times, published 2026-11-27]"
+    },
+    {
+     "title": "European Workers’ AI Use on Par With That of US Peers, ECB Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-27/european-workers-ai-use-on-par-with-that-of-us-peers-ecb-says",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-27/european-workers-ai-use-on-par-with-that-of-us-peers-ecb-says",
+     "date": "2026-11-27",
+     "desc": "The ECB says euro-area workers use AI at a rate similar to their US peers, though obstacles remain to capturing more of the technology's benefits. [Bloomberg, published 2026-11-27]"
+    },
+    {
+     "title": "Copper Surges the Most in 10 Months as Risk Appetite Returns",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-27/copper-rebounds-from-11-month-low-on-return-of-risk-appetite",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-27/copper-rebounds-from-11-month-low-on-return-of-risk-appetite",
+     "date": "2026-11-27",
+     "desc": "Copper jumped the most since January, rebounding from an 11-month low as risk appetite returned after a selloff driven by concerns over the AI trade. [Bloomberg, published 2026-11-27]"
+    },
+    {
+     "title": "Data Centers to Double Malaysian Electricity Demand by 2050",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-27/data-centers-to-double-malaysian-electricity-demand-by-2050",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-27/data-centers-to-double-malaysian-electricity-demand-by-2050",
+     "date": "2026-11-27",
+     "desc": "Malaysian electricity demand is set to more than double through 2050 on the buildout of power-hungry data centers. [Bloomberg, published 2026-11-27]"
+    },
+    {
+     "title": "Roughnecks lose out to AI as automation in the oil industry gathers pace",
+     "url": "https://www.ft.com/content/da45883c-6612-4071-b363-a826c6edb085",
+     "fulltext": "https://www.ft.com/content/da45883c-6612-4071-b363-a826c6edb085",
+     "date": "2026-11-27",
+     "desc": "FT reports AI is helping drill wells faster and replacing workers in some of the oil industry's most dangerous jobs. [Financial Times, published 2026-11-27]"
+    },
+    {
+     "title": "SAP Weighs Cutting at Least 10,000 Roles in AI Restructure",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring",
+     "date": "2026-11-26",
+     "desc": "SAP is preparing a plan to eliminate at least 10,000 positions as it reshapes its software business for the AI era, according to Bloomberg's reporting. The FT separately reports the German software group is exploring similar cuts as AI pressures the software sector. [Bloomberg, published 2026-11-26]"
+    },
+    {
+     "title": "BOE Warns Scale and Breadth Of AI Financing Poses Threat to Financial Stability",
+     "url": "https://www.wsj.com/world/uk/boe-warns-scale-and-breadth-of-ai-financing-poses-threat-to-financial-stability-005ad739",
+     "fulltext": "https://www.wsj.com/world/uk/boe-warns-scale-and-breadth-of-ai-financing-poses-threat-to-financial-stability-005ad739",
+     "date": "2026-11-26",
+     "desc": "The Bank of England warned that the scale and breadth of financing flowing into AI could threaten financial stability. [WSJ, published 2026-11-26]"
+    },
+    {
+     "title": "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions",
+     "url": "https://www.nytimes.com/2026/11/26/business/nvidia-southeast-asia-sales.html",
+     "fulltext": "https://www.nytimes.com/2026/11/26/business/nvidia-southeast-asia-sales.html",
+     "date": "2026-11-26",
+     "desc": "Nvidia paused shipments to four Southeast Asian countries after a new U.S. rule requiring licenses for companies there to buy advanced AI chips, aimed at curbing Chinese access to computing power. [NYT, published 2026-11-26]"
+    },
+    {
+     "title": "Bank of Korea Resumes Rate Hikes as AI Boom Fuels Growth",
+     "url": "https://www.wsj.com/economy/central-banking/bank-of-korea-resumes-rate-hikes-as-ai-boom-fuels-growth-f28c5cdb",
+     "fulltext": "https://www.wsj.com/economy/central-banking/bank-of-korea-resumes-rate-hikes-as-ai-boom-fuels-growth-f28c5cdb",
+     "date": "2026-11-26",
+     "desc": "South Korea's central bank resumed raising rates and signaled further tightening, as the AI boom supports growth and inflation stays well above target. [WSJ, published 2026-11-26]"
+    },
+    {
+     "title": "Can AI replace economics PhDs?",
+     "url": "https://www.ft.com/content/e4d14f96-c223-4c80-ad93-28a8a545beb1",
+     "fulltext": "https://www.ft.com/content/e4d14f96-c223-4c80-ad93-28a8a545beb1",
+     "date": "2026-11-26",
+     "desc": "FT interview with Harvard economist Jason Furman on whether AI can replace economics PhDs. [Financial Times, published 2026-11-26]"
+    },
+    {
+     "title": "Mexico’s export boom is real—and disappointing",
+     "url": "https://www.economist.com/finance-and-economics/2026/11/26/mexicos-export-boom-is-real-and-disappointing",
+     "fulltext": "https://www.economist.com/finance-and-economics/2026/11/26/mexicos-export-boom-is-real-and-disappointing",
+     "date": "2026-11-26",
+     "desc": "The Economist examines Mexico's export boom, noting that AI servers are a weaker engine than the pickup trucks they replace. [The Economist, published 2026-11-26]"
+    },
+    {
+     "title": "Holidays to Test AI Shopping Bots From Google, Amazon, Meta and OpenAI",
+     "url": "https://www.bloomberg.com/news/features/2026-11-26/holidays-to-test-ai-shopping-bots-from-google-amazon-meta-and-openai",
+     "fulltext": "https://www.bloomberg.com/news/features/2026-11-26/holidays-to-test-ai-shopping-bots-from-google-amazon-meta-and-openai",
+     "date": "2026-11-26",
+     "desc": "Google, Amazon, Meta and OpenAI are competing to pick shoppers' holiday gifts, a test of whether consumers will trust AI shopping advice. [Bloomberg, published 2026-11-26]"
+    },
+    {
+     "title": "Software stocks spared in tech rout as AI narrative shifts",
+     "url": "https://www.ft.com/content/90b82a64-4f58-45d7-8a6a-4c2730545b65",
+     "fulltext": "https://www.ft.com/content/90b82a64-4f58-45d7-8a6a-4c2730545b65",
+     "date": "2026-11-26",
+     "desc": "Semiconductor and software shares are now neck-and-neck in 2026 as investors rethink the technology's winners and losers, per the FT. [Financial Times, published 2026-11-26]"
+    }
+   ]
+  }
+ ],
+ "footnote": "Window: 2026-11-26 (last run) → 2026-11-27. SSRN searches returned no papers with a verifiable in-window posting date, so none are included. NYT/WSJ/Bloomberg/FT/Economist/WaPo news summaries are based on feed teasers.",
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Hi, I'm Alex, and this is the AI Research Digest for November twenty-seventh, twenty twenty-six. Today's theme: the AI trade's wobble and how it's rippling through chips, central banks and jobs."
+  },
+  {
+   "speaker": "B",
+   "text": "I'm Sam. Let's start with chips. Nvidia paused shipments to four Southeast Asian countries after a new U.S. rule requires licenses to buy advanced AI chips there, according to the New York Times."
+  },
+  {
+   "speaker": "A",
+   "text": "And Bloomberg reports Singapore is now talking to Washington to keep access to advanced semiconductors."
+  },
+  {
+   "speaker": "B",
+   "text": "On markets, the Wall Street Journal says the AI boom still looks alive in Asia, with AI-linked exports and investment driving growth for now. Bloomberg adds that copper had its biggest jump in ten months as risk appetite returned after the AI-driven selloff."
+  },
+  {
+   "speaker": "A",
+   "text": "Central banks are watching too. The Bank of England warned that the scale and breadth of AI financing poses a threat to financial stability."
+  },
+  {
+   "speaker": "B",
+   "text": "Meanwhile the Bank of Korea resumed rate hikes as the AI boom fuels growth while inflation stays well above target."
+  },
+  {
+   "speaker": "A",
+   "text": "On work, Bloomberg and the Financial Times both report SAP weighing at least ten thousand job cuts as it restructures for the AI era."
+  },
+  {
+   "speaker": "B",
+   "text": "And the ECB says euro-area workers are using AI at about the same rate as their U.S. peers, though obstacles remain to capturing the benefits."
+  },
+  {
+   "speaker": "A",
+   "text": "The Financial Times also reports AI is replacing workers in some of the most dangerous oil industry jobs, while helping drill wells faster."
+  },
+  {
+   "speaker": "B",
+   "text": "One research item: a new Management Science paper proposes using BERT text embeddings as automatic controls for hidden textual confounders in regressions."
+  },
+  {
+   "speaker": "A",
+   "text": "Finally, Bloomberg says Malaysian electricity demand is set to more than double by twenty-fifty because of data centers, a reminder of the physical footprint of all this."
+  },
+  {
+   "speaker": "B",
+   "text": "That's the digest for today. Find the full archive on the web page linked in your email."
+  },
+  {
+   "speaker": "A",
+   "text": "Thanks for listening, and see you next time."
+  }
+ ]
+}
