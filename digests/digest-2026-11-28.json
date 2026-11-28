@@ -1,0 +1,205 @@
+{
+ "date": "2026-11-28",
+ "sections": [
+  {
+   "name": "📊 Economics (NBER / SSRN / arXiv)",
+   "items": []
+  },
+  {
+   "name": "💵 Finance (SSRN / NBER / arXiv q-fin)",
+   "items": [
+    {
+     "title": "Artificial Intelligence and Generative AI in Asset Management: Large Language Models, Autonomous Agents and the Information Efficiency of Equity Markets",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7718103",
+     "fulltext": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7718103",
+     "date": "2026-11-20",
+     "desc": "Reviews the empirical literature on language-model sentiment measures in equity markets and proposes an event study of how prices react to AI-based sentiment from earnings calls, asking whether LLMs and autonomous agents improve market information efficiency. [SSRN, posted 2026-11-20]",
+     "podcast": [
+      {
+       "speaker": "A",
+       "text": "Today's paper comes from SSRN, and I should say up front that we're working from the abstract only. It's about artificial intelligence and generative AI in asset management."
+      },
+      {
+       "speaker": "B",
+       "text": "What's the core question?"
+      },
+      {
+       "speaker": "A",
+       "text": "Whether large language models and autonomous agents are making equity markets more informationally efficient. If machines can read earnings calls and filings instantly, prices should absorb news faster."
+      },
+      {
+       "speaker": "B",
+       "text": "So what does the author actually do?"
+      },
+      {
+       "speaker": "A",
+       "text": "The paper reviews the existing empirical work on sentiment measures built with language models, and then proposes an event study. The idea is to look at how markets react around earnings calls when an AI-based sentiment signal is available."
+      },
+      {
+       "speaker": "B",
+       "text": "So it's partly a survey and partly a research design."
+      },
+      {
+       "speaker": "A",
+       "text": "Right. Based on the abstract, it frames the proposal rather than reporting a big new headline number, so treat it as a roadmap for testing market efficiency in the age of AI tools."
+      },
+      {
+       "speaker": "B",
+       "text": "Caveat being that a proposed study isn't a finding yet."
+      },
+      {
+       "speaker": "A",
+       "text": "Exactly. Takeaway: a useful map of how researchers might test whether AI sentiment really moves, or sharpens, stock prices."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "📦 Operations & Supply Chain (INFORMS: Management Science, M&SOM, Operations Research)",
+   "items": []
+  },
+  {
+   "name": "📰 News (NYT / WSJ / Bloomberg / FT / Washington Post / Economist)",
+   "items": [
+    {
+     "title": "Trump’s AI Gambit Fuels Wild Thanksgiving Week on Wall Street",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-27/trump-s-ai-gambit-fuels-wild-thanksgiving-week-on-wall-street",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-27/trump-s-ai-gambit-fuels-wild-thanksgiving-week-on-wall-street",
+     "date": "2026-11-27",
+     "desc": "Bloomberg reports that Washington signaled this week it will do whatever it takes to win the AI race with China, including government intervention, and that this message helped drive sharp swings in US markets over the holiday-shortened week. [Bloomberg, published 2026-11-27]"
+    },
+    {
+     "title": "Tech Stocks Jump as Investors Take a Break From AI Jitters",
+     "url": "https://www.wsj.com/finance/stocks/stocks-poised-to-end-week-strong-as-investors-take-break-from-ai-jitters-ce6b2846",
+     "fulltext": "https://www.wsj.com/finance/stocks/stocks-poised-to-end-week-strong-as-investors-take-break-from-ai-jitters-ce6b2846",
+     "date": "2026-11-27",
+     "desc": "The Nasdaq composite finished its best week since April and the Dow and S&P 500 also ended the week strong as investors paused their worries about AI. [WSJ, published 2026-11-27]"
+    },
+    {
+     "title": "Trump’s Nvidia intervention has a cost for US stocks",
+     "url": "https://www.ft.com/content/3318a827-bf20-4826-947d-9327381c3c10",
+     "fulltext": "https://www.ft.com/content/3318a827-bf20-4826-947d-9327381c3c10",
+     "date": "2026-11-27",
+     "desc": "The FT argues that political meddling around Nvidia has already dulled the dollar and US Treasuries and is now weighing on equities. [Financial Times, published 2026-11-27]"
+    },
+    {
+     "title": "Anthropic Ends Week Above IPO Price: Evening Briefing Americas",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-11-27/anthropic-ends-week-above-ipo-price-evening-briefing-americas",
+     "fulltext": "https://www.bloomberg.com/news/newsletters/2026-11-27/anthropic-ends-week-above-ipo-price-evening-briefing-americas",
+     "date": "2026-11-27",
+     "desc": "Bloomberg's evening briefing notes that Anthropic shares closed the week above their IPO price. [Bloomberg, published 2026-11-27]"
+    },
+    {
+     "title": "AI agents are coming for big business",
+     "url": "https://www.ft.com/content/c9de05b8-0916-436a-87fc-40337067b0d2",
+     "fulltext": "https://www.ft.com/content/c9de05b8-0916-436a-87fc-40337067b0d2",
+     "date": "2026-11-28",
+     "desc": "The FT looks at how AI agents could unleash much greater competition against big incumbents, while users remain wary of handing over too much. [Financial Times, published 2026-11-28]"
+    },
+    {
+     "title": "A.I. Companies Race for Space in New York, a City That Doesn’t Have Much of It",
+     "url": "https://www.nytimes.com/2026/11/28/business/ai-offices-nyc-perplexity.html",
+     "fulltext": "https://www.nytimes.com/2026/11/28/business/ai-offices-nyc-perplexity.html",
+     "date": "2026-11-28",
+     "desc": "The AI boom is on track to lift Manhattan's office market to its strongest year since 2000, and AI firms are getting creative as space tightens. [NYT, published 2026-11-28]"
+    },
+    {
+     "title": "AI data centre boom piles pressure on stressed US defence sector",
+     "url": "https://www.ft.com/content/76143592-b1c8-42d2-bf4c-17aa87255467",
+     "fulltext": "https://www.ft.com/content/76143592-b1c8-42d2-bf4c-17aa87255467",
+     "date": "2026-11-27",
+     "desc": "The FT reports that Boeing and other defence contractors are wrestling with ballooning backlogs as the AI data-centre build-out adds to pressures from air travel and military spending. [Financial Times, published 2026-11-27]"
+    },
+    {
+     "title": "AI Data-Center Developer LIAN Picks London for $500 Million IPO",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-27/ai-data-center-developer-lian-picks-london-for-500-million-ipo",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-27/ai-data-center-developer-lian-picks-london-for-500-million-ipo",
+     "date": "2026-11-27",
+     "desc": "LIAN Group, an AI and computing infrastructure developer, has chosen London for a potential $500 million IPO next year, a boost for the city's weak listings market. [Bloomberg, published 2026-11-27]"
+    },
+    {
+     "title": "FirstFT: BoE’s Bailey warns of AI threat to encrypted financial data",
+     "url": "https://www.ft.com/content/f1669703-4e86-4ab0-b4d8-f43a40cb0294",
+     "fulltext": "https://www.ft.com/content/f1669703-4e86-4ab0-b4d8-f43a40cb0294",
+     "date": "2026-11-27",
+     "desc": "The Bank of England's governor warned about AI's threat to encrypted financial data, according to the FT's morning newsletter, which also covers a tech sell-off. [Financial Times, published 2026-11-27]"
+    },
+    {
+     "title": "OpenAI Says Apple Pressured Suppliers to Shun Its Devices",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-27/openai-says-apple-pressured-suppliers-to-shun-its-devices",
+     "fulltext": "https://www.bloomberg.com/news/articles/2026-11-27/openai-says-apple-pressured-suppliers-to-shun-its-devices",
+     "date": "2026-11-27",
+     "desc": "The trade-secrets fight between OpenAI and Apple is widening: OpenAI accuses Apple of undermining its supplier relationships and using unfair employment agreements to block talent moves. [Bloomberg, published 2026-11-27]"
+    }
+   ]
+  }
+ ],
+ "briefing": [
+  {
+   "speaker": "A",
+   "text": "Welcome to the Daily AI Research Digest for November 28th, 2026. Today is a light day for papers and a busy one for markets and industry news."
+  },
+  {
+   "speaker": "B",
+   "text": "Right, Alex. Our one new paper is from SSRN, and the headlines are mostly about AI and Wall Street."
+  },
+  {
+   "speaker": "A",
+   "text": "Let's start there. Bloomberg says Washington's message this week was unmistakable: win the AI race with China, with government intervention if needed. That fueled a wild Thanksgiving week."
+  },
+  {
+   "speaker": "B",
+   "text": "And the Wall Street Journal reports the Nasdaq finished its best week since April, as investors took a break from AI jitters."
+  },
+  {
+   "speaker": "A",
+   "text": "But the Financial Times adds a caution. It argues that political meddling around Nvidia has already dulled the dollar and Treasuries, and is now hitting equities too."
+  },
+  {
+   "speaker": "B",
+   "text": "Staying with AI companies, Bloomberg's evening briefing says Anthropic ended the week above its IPO price."
+  },
+  {
+   "speaker": "A",
+   "text": "On the real economy, the New York Times says the AI boom is on track to lift Manhattan's office market to its strongest year since 2000, with AI firms getting creative to find space."
+  },
+  {
+   "speaker": "B",
+   "text": "And the FT reports the data centre build-out is adding pressure to defence contractors like Boeing, who already face ballooning backlogs."
+  },
+  {
+   "speaker": "A",
+   "text": "Bloomberg also says LIAN Group, an AI infrastructure developer, picked London for a potential five hundred million dollar IPO next year."
+  },
+  {
+   "speaker": "B",
+   "text": "On the competition front, the FT looks at AI agents possibly unleashing much greater competition against big business, though users are wary of handing over too much."
+  },
+  {
+   "speaker": "A",
+   "text": "There's also a legal fight: OpenAI accuses Apple of pressuring suppliers and using unfair employment agreements, in a widening trade secrets dispute."
+  },
+  {
+   "speaker": "B",
+   "text": "And the Bank of England's governor warned about AI's threat to encrypted financial data, per the FT."
+  },
+  {
+   "speaker": "A",
+   "text": "On research, a new SSRN paper reviews work on language model sentiment in equity markets and proposes an event study of earnings calls. We're going from the abstract only, so it's a roadmap rather than a result."
+  },
+  {
+   "speaker": "B",
+   "text": "Still, it asks the right question: do AI tools make prices more efficient?"
+  },
+  {
+   "speaker": "A",
+   "text": "That's the digest for today. Find the full archive and the short paper explainer on the web archive."
+  },
+  {
+   "speaker": "B",
+   "text": "Thanks for listening, and see you next time."
+  }
+ ],
+ "footnote": "Window: 2026-11-27 (last run) → 2026-11-28. Few papers this window: none of the arXiv, NBER or INFORMS candidates were about AI applied to economics, finance or operations. News summaries are based on feed teasers; the Economist feed returned nothing. No newsletters were used."
+}
